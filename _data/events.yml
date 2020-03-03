@@ -1,0 +1,40 @@
+- name: OAuth Security Workshop 2018
+  acronym: OSW2018
+  startDate: "2018-03-14"
+  endDate: "2018-03-16"
+  description: The OAuth Security Workshop (OSW) aim is to improve the security of OAuth and related Internet protocols by a direct exchange of views between academic researchers, IETF OAuth Working Group members and industry.
+  url: /events/OSW2018/
+
+- name: 30th Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
+  acronym: DBSec 2016
+  startDate: "2016-07-18"
+  endDate: "2016-07-20"
+  description: DBSec is an annual international conference covering research in data and applications security and privacy.
+  url: http://dbsec2016.fbk.eu/
+
+- name: SECENTIS Winter School 2016
+  startDate: "2016-02-08"
+  endDate: "2016-02-12"
+  description: The SECENTIS Winter School provides an innovative training to tackle the scientific and technical security challenges raised by the combination of new technologies (e.g., cloud computing, mobile applications, and the Software-as-a-Service paradigm) and to manage the impact of these changes in industry.
+  url: http://secentis.fbk.eu/
+
+- name: "e-Business e e-Government: cosa ne è della nostra privacy?"
+  startDate: "2014-10-28"
+  endDate: "2014-10-28"
+  description: In this round-table, we will discuss problems and solutions related to privacy in the context of both e-Business and e-Government solutions together with the impact that these have on us, digital users. We will consider the benefits and the drawbacks for privacy of today techniques for data collection in business and government applications and systems together with their legal aspects.
+  url: /events/e-business-e-government-privacy-2014/
+
+- name: "Sicurezza e privacy dei dati sanitari nel cloud"
+  startDate: "2015-10-22"
+  endDate: "2015-10-22"
+  description: >
+    Dal punto di vista del cittadino, la domanda cruciale è: cosa posso fare per assicurarmi che i miei dati sanitari vengano trattati con adeguate garanzie per la sicurezza ed in maniera rispettosa delle leggi nazionali e delle direttive europee?
+    In questa tavola rotonda, cercheremo di dare una risposta a questa domanda analizzando la situazione da diversi punti di vista: tecnico, giuridico ed amministrativo.
+  url: /events/sicurezza-privacy-dati-sanitari-cloud-2015/
+
+- name: "Second S&T Internal Workshop"
+  startDate: "2014-10-21"
+  endDate: "2014-10-21"
+  description: >
+    During the workshop the main research themes of the Unit will be discussed, namely: Web-based Authentication and Authorization Protocols (browser-based authentication and authorization protocols, protocols for strong authentication), Mobile Security (security of mobile operating systems and applications, authentication and authorization models and solutions for mobile apps) and Security of Cloud-based and Service-oriented Applications and Infrastructures (models and policies for content protection and release, design-time and run-time analysis and enforcement of access control policies).
+  url: /events/second-st-internal-workshop-2014/

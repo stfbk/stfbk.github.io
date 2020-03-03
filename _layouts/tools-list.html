@@ -1,0 +1,28 @@
+---
+layout: page
+show_sidebar: false
+---
+
+<div class="columns is-multiline">
+
+    <div class="column is-12">
+        {{ page.content }}
+
+        {% assign tools = site.data.tools | sort_natural: "name" %}
+
+        <div class="tools">
+            <ul>
+                {% for tool in tools %}
+                    <li class="item tool">
+                        <b>{{ tool.name }}</b>{% if tool.urlDocumentation %} [<a href="{{ tool.urlDocumentation }}">documentation</a>]{% endif %}{% if tool.urlCode %} [<a href="{{ tool.urlCode }}">code</a>]{% endif %}
+                        {% if tool.description %}
+                        <ul class="description">
+                            <li>{{ tool.description }}</li>
+                        </ul>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </li>
+        </div>
+    </div>
+</div>

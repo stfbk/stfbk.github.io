@@ -1,0 +1,52 @@
+---
+layout: page
+---
+
+<div class="columns project is-multiline">
+    <div class="column overview is-12">
+        <h3 id="title-overview">Overview</h3>
+        {{ page.content }}
+    </div>
+
+    {% if page.leader or page.referenceFBK or page.startDate or page.duration or page.funding or page.website %}
+    <div class="column details is-12">
+        <h3 id="title-details">Details</h3>
+        {% if page.leader %}<p><b>Activity leader</b>: {{ page.leader }}.</p>{% endif %}
+
+        {% if page.referenceFBK %}<p><b>Reference in FBK</b>: {{ page.referenceFBK }}.</p>{% endif %}
+
+        {% if page.startDate %}<p><b>Date</b>: from {{ page.startDate | date: "%d/%m/%Y" }}{% if page.endDate %} to {{ page.endDate | date: "%d/%m/%Y" }}{% endif %}.</p>{% endif %}
+
+        {% if page.duration %}<p><b>Duration</b>: {{ page.duration }}.</p>{% endif %}
+
+        {% if page.funding %}<p><b>Funding</b>: {{ page.funding }}.</p>{% endif %}
+
+        {% if page.website %}<p><b>Website</b>: <a href="{{ page.website }}">Official website</a>.</p>{% endif %}
+        </div>
+    {% endif %}
+
+    {% if page.goals %}
+    <div class="column goals is-12">
+        <h3 id="title-goals">Goals</h3>
+        <p>{{ page.goals }}</p>
+    </div>
+    {% endif %}
+
+    {% if page.role %}
+    <div class="column role is-12">
+        <h3 id="title-unitrole">Unit role</h3>
+        <p>{{ page.role }}</p>
+    </div>
+    {% endif %}
+
+    {% if page.partners %}
+    <div class="column partners is-12">
+        <h3 id="title-partners">Partners</h3>
+        <ul>
+            {% for partner in page.partners %}
+            <li>{% if partner.link %}<a href="{{ partner.link }}">{{ partner.name }}</a>{% else %}{{ partner.name }}{% endif %}{% if partner.detail %} ({{ partner.detail }}){% endif %}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+</div>

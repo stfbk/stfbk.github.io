@@ -1,0 +1,86 @@
+title: Security & Trust
+remote_theme: chrisrhymes/bulma-clean-theme
+markdown: kramdown
+
+collections:
+  complementary:
+    output: true
+    layout: complementary
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  events:
+    output: true
+    layout: page
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  news:
+    output: true
+    layout: news
+    image: https://via.placeholder.com/800x600
+    permalink: /news/:year/:month/:day/:title/
+    show_sidebar: false
+  projects:
+    output: true
+    layout: project
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  tools:
+    output: true
+    layout: tool
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  topics:
+    output: true
+    layout: topic
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+
+defaults:
+  - scope:
+      type: complementary
+    values:
+      layout: complementary
+
+  - scope:
+      type: events
+    values:
+      layout: page
+
+  - scope:
+      type: news
+    values:
+      layout: news
+
+  - scope:
+      path: "_news/assets/*"
+    values:
+      permalink: /news/:title
+
+  - scope:
+      path: "_news/*-paper*-accepted-*"
+    values:
+      layout: news-accepted-paper
+      tags: [papers]
+
+  - scope:
+      path: "_news/*seminar*"
+    values:
+      layout: news-seminar
+      tags: [seminars]
+
+  - scope:
+      type: projects
+    values:
+      layout: project
+
+  - scope:
+      type: tools
+    values:
+      layout: tool
+
+  - scope:
+      type: topics
+    values:
+      layout: topic
+
+exclude: ["*/template*.md", "*/_template*.md", "README.md"]

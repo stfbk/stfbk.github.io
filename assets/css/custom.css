@@ -1,0 +1,213 @@
+.hero.is-medium .hero-body {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+.hero .hero-body .container {
+  display: flex;
+  align-items: center;
+}
+
+.hero .hero-body .container img {
+  margin-right: 20px;
+}
+
+.section {
+  min-height: 800px;
+}
+
+.content figure {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.footer {
+  padding: 2rem 0 2rem;
+}
+
+.card {
+  height: 100%;
+  -webkit-box-shadow: 0 .5em 1em -.125em rgba(10,10,10,0.1),0 0px 0 1px rgba(10,10,10,0.02);
+  -moz-box-shadow: 0 .5em 1em -.125em rgba(10,10,10,0.1),0 0px 0 1px rgba(10,10,10,0.02);
+}
+
+.card:hover {
+  box-shadow: 0 0 1em rgba(0, 104, 180),0 0px 0 10px rgba(10,10,10,0.02);
+  -webkit-box-shadow: 0 0 1em rgba(0, 104, 180),0 0px 0 10px rgba(10,10,10,0.02);
+  -moz-box-shadow: 0 0 1em rgba(0, 104, 180),0 0px 0 10px rgba(10,10,10,0.02);
+}
+
+.card .subtitle{
+  font-size: 1.25rem;
+}
+
+.card.person:hover {
+  box-shadow: 0 .5em 1em -.125em rgba(10,10,10,0.1),0 0px 0 1px rgba(10,10,10,0.02);
+  -webkit-box-shadow: 0 .5em 1em -.125em rgba(10,10,10,0.1),0 0px 0 1px rgba(10,10,10,0.02);
+  -moz-box-shadow: 0 .5em 1em -.125em rgba(10,10,10,0.1),0 0px 0 1px rgba(10,10,10,0.02);
+}
+
+.card.person .card-image {
+  padding-top: 1.3em;
+}
+
+.card.person .card-image img {
+  border-radius: 15px;
+  width: auto;
+}
+
+.card.person .card-content {
+  text-align: center;
+  padding: 0.6rem 1.5rem 1.5rem;
+}
+
+.card.person .subtitle {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 1rem;
+}
+
+.footer .company-data p {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.people {
+  padding-top: 60px;
+  border-top: 1px solid #0068b4;
+  margin-top: 60px;
+}
+
+.logo {
+  max-height: 100px;
+}
+
+.hero .logo.right {
+  position: absolute;
+  right: 0px;
+  left: auto;
+}
+
+li.item {
+  margin-bottom: 20px;
+}
+
+li.item .description {
+  list-style: none;
+}
+
+/* TOC old */
+.toc::before {
+  content: "Table of Contents";
+  font-weight: bold;
+}
+
+.toc {
+  display: table;
+  border: 1px solid #a2a9b1;
+  background-color: #f8f9fa;
+  padding: 20px 50px 20px 40px;
+  font-size: 95%;
+  max-width: 100%;
+  list-style: decimal;
+}
+
+.toc ul {
+  list-style: decimal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.image-centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.content h2 {
+  font-size: 1.8em;
+}
+
+.content h2 {
+  font-size: 1.5em;
+}
+
+/* TOC new */
+#markdown-toc { line-height: 1; }
+#markdown-toc, #markdown-toc ul { list-style: none; margin: 0; padding: 0; }
+#markdown-toc a { border-radius: 2px; color: #4a4a4a; display: block; padding: 0.5em 0.75em; }
+#markdown-toc a:hover { background-color: whitesmoke; color: #363636; }
+#markdown-toc a.is-active { background-color: #3273dc; color: #fff; }
+#markdown-toc li ul { border-left: 1px solid #dbdbdb; margin: 0.75em; padding-left: 0.75em; }
+
+.posts .tag {
+  margin-left: 30px;
+}
+
+.tag.list {
+  margin-left: 10px;
+}
+
+.tag.tag-attendances {
+  background-color: #ede049;
+  color: #000;
+}
+
+.tag.tag-attendances.is-light {
+  background-color: #f5ef9c;
+  color: #000;
+}
+
+.tag.tag-events {
+  background-color: #5bb8bf;
+  color: #000;
+}
+
+.tag.tag-events.is-light {
+  background-color: #b5dee1;
+  color: #000;
+}
+
+.tag.tag-papers {
+  background-color: #eb5454;
+  color: #000;
+}
+
+.tag.tag-papers.is-light {
+  background-color: #f5adad;
+  color: #000;
+}
+
+.tag.tag-seminars {
+  background-color: #6ad25b;
+  color: #000;
+}
+
+.tag.tag-seminars.is-light {
+  background-color: #ccefc7;
+  color: #000;
+}
+
+.img-attachment {
+  float: left;
+  max-height: 150px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+li.abstract, li.bio {
+  margin-top: 10px !important;
+}
+
+.container.details {
+  margin-top: 60px;
+}
+
+.affiliation.more {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

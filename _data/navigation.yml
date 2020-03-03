@@ -1,0 +1,14 @@
+- name: Collaborations
+  link: /collaborations
+- name: Events
+  link: /events/
+- name: News
+  link: /news/
+- name: Projects
+  link: /projects/
+- name: Tools
+  link: /tools/
+- name: Teaching
+  link: /teaching/
+- name: People and Publications
+  link: https://ict.fbk.eu/units/st/

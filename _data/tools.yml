@@ -1,0 +1,26 @@
+- name: TLSAssistant
+  description: a fully-featured tool that combines state-of-the-art TLS analyzers with a report system that suggests appropriate mitigations and shows the full set of viable attacks.
+  urlCode: https://github.com/stfbk/tlsassistant
+  urlDocumentation: /tools/TLSAssistant
+- name: Micro-Id-Gym
+  description: a framework where users can develop hands-on experiences on how IdM solutions work and increase their awareness related to the underlying security issues.
+  urlDocumentation: https://sites.google.com/fbk.eu/micro-id-gym
+- name: MQTT Security Assistant (MQTTSA)
+  description: a tool designed to increase the security awareness of IoT developers by automatically assessing misconfigurations in MQTT-based environments and by providing a report of potential vulnerabilities and mitigation measures at a different level of details - from natural language descriptions to code snippets that can be cut-and-paste in actual deployments.
+  urlCode: https://github.com/stfbk/mqttsa
+  urlDocumentation: https://sites.google.com/fbk.eu/mqttsa
+- name: SecurePG
+  description: "a Java-based tool that allows policy administrators to generate, verify and enforce abstract Access Control (AC) policies in two of the most widely used Cloud Service Providers: Amazon AWS and OpenStack."
+  urlDocumentation: https://sites.google.com/view/securepg/home
+- name: mIDAssistant
+  description: an Android Studio plugin that guides native mobile app developers with secure integeration of Single Sign-On and Access Delegation solutions within their apps.
+  urlDocumentation: https://sites.google.com/fbk.eu/midassistant/home
+- name: Automated Legal Compliance Checking
+  description: a tool for automated analysis of security policies in IT designs against the EU DPD regulation.
+  urlDocumentation: https://sites.google.com/view/eu-dpd-gdpr-compliance/home
+- name: MuFASA
+  description: a tool for high-level specification and analysis of MFA protocols, which aims at supporting normal users and security experts (in the design phase of an MFA protocol), providing a high level report regarding possible risks associated to the specified MFA protocol, its resistance to a set of attacker models (defined by NIST), its ease-of-use and its compliance with a set of security requirements derived from European laws.
+  urlDocumentation: https://sites.google.com/fbk.eu/mufasa
+- name: SATMC
+  description: SAT-based Model-Checker for Security Protocols and Security-sensitive Applications.
+  urlDocumentation: /tools/SATMC

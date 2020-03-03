@@ -1,0 +1,50 @@
+<footer class="footer">
+    <div class="container">
+        
+        {% if site.footer_menu %}
+        <div class="columns is-multiline">
+            {% for item in site.data[site.footer_menu] %}
+            <div class="column has-text-centered">
+                <div>
+                    <a href="{{ item.link | prepend: site.baseurl }}" class="link">{{ item.name }}</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <div class="columns is-multiline">
+            <div class="column has-text-centered is-4-desktop is-4-tablet is-hidden-mobile">
+                <img class="logo st" src="/assets/images/logos/ST.png" />
+            </div>
+
+            <div class="column has-text-centered is-4-desktop is-4-tablet is-12-mobile">
+                <div class="content is-small has-text-centered company-data">
+                    <p class="">Security & Trust</p>
+                    <p class=""><a href="https://www.fbk.eu">Fondazione Bruno Kessler</a></p>
+                    <p class="">Via Sommarive, 18</p>
+                    <p class="">37131 Povo, Trento, Italy</p>
+                </div>
+        
+                <div class="content is-small has-text-centered theme-copyright">
+                    <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+                </div>
+            </div>
+
+            <div class="column has-text-centered is-4-desktop is-4-tablet is-hidden-mobile">
+                <img class="logo fbk" src="/assets/images/logos/FBK.png" />
+            </div>
+
+            <div class="column has-text-centered is-12-mobile is-hidden-tablet">
+                <div class="columns is-multiline is-mobile">
+                    <div class="column has-text-centered">
+                        <img class="logo fbk" src="/assets/images/logos/ST.png" />
+                    </div>
+                    <div class="column has-text-centered">
+                        <img class="logo fbk" src="/assets/images/logos/FBK.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
