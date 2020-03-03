@@ -1,0 +1,26 @@
+---
+layout: news
+---
+
+The following paper{% if page.papers.size > 1 %}s have{% else %} has{% endif %} been accepted at the {{ page.where }}{% if page.whereAcronym %} ({% if page.whereUrl %}<a href="{{ page.whereUrl }}">{% endif %}{{ page.whereAcronym }}{% if page.whereUrl %}</a>{% endif %}){% endif %}:
+{% for paper in page.papers %}
+<ul>
+    <li{% if page.papers.size == 1 %} style="list-style: none;"{% endif %}><b>Title</b>: {{ paper.title }}</li>
+    <li style="list-style: none;"><b>Authors</b>: {{ paper.authors }}</li>
+    {% if paper.abstract %}<li style="list-style: none;"><b>Abstract</b>: {{ paper.abstract }}</li>{% endif %}
+</ul>
+{% endfor %}
+
+{{ page.content }}
+
+<div class="container details">
+    <div class="notification">
+      <h3>About the {{ page.whereType }}</h3>
+      <ul>
+        <li style="list-style: none;"><b>Name</b>: {{ page.where }}{% if page.whereAcronym %} ({{ page.whereAcronym }}){% endif %}</li>
+        {% if page.startDate and page.endDate %}<li style="list-style: none;"><b>Date</b>: {% if page.startDate != page.endDate %}from {{ page.startDate | date: "%B %d, %Y" }} to {{ page.endDate | date: "%B %d, %Y" }}{% else %}{{ page.startDate | date: "%B %d, %Y" }}{% endif %}</li>{% endif %}
+        {% if page.whereLocation %}<li style="list-style: none;"><b>Location</b>: {{ page.whereLocation }}</li>{% endif %}
+        {% if page.whereUrl %}<li style="list-style: none;"><b>Website</b>: <a href="{{ page.whereUrl }}">{{ page.whereUrl }}</a></li>{% endif %}
+      </ul>
+    </div>
+  </div>

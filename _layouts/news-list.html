@@ -1,0 +1,38 @@
+---
+layout: page
+show_sidebar: false
+---
+
+<div class="columns is-multiline">
+
+    <div class="column is-12">
+        {{ page.content }}
+
+        <div class="posts">
+            {% assign posts = site.news | sort: "date" | reverse %}
+            <ul>
+                {% for post in posts %}
+                    {% if post.layout == "news-accepted-paper" %}
+                        {% assign numberPapersFromZero = post.papers.size | minus: 1 %}
+                        {% capture customExcerpt %}The paper{% if post.papers.size > 1 %}s{% endif %} {% for paper in post.papers %}"{{ paper.title }}" by {{ paper.authors }}{% if forloop.index < numberPapersFromZero %}, {% elsif forloop.last == false %}, and {% endif %}{% endfor %} {% if post.papers.size > 1 %}have{% else %}has{% endif %} been accepted at the {{ post.where }}{% if post.whereAcronym %} ({{ post.whereAcronym }}){% endif %}.{% endcapture %}
+                    {% elsif post.layout == "news-seminar" %}
+                        {% capture customExcerpt %}Seminar {% if post.seminarTitle %}"{{ post.seminarTitle }}" {% endif %}{% if post.topic %}on {{ post.topic }} {% endif %}by {{ post.speaker }} will be held on {{ post.date | date: "%A, %d %B %Y at %l:%M %p" }}.{% endcapture %}
+                    {% elsif post.customExcerpt %}
+                        {% assign customExcerpt = post.customExcerpt %}
+                    {% else %}
+                        {% assign customExcerpt = post.excerpt %}
+                    {% endif %}
+                        
+                    <li class="item post">
+                        {{ post.date | date: "%d/%m/%Y" }}: <a href="{{ post.url }}"><b>{{ post.title }}</b></a>{%- for tag in post.tags -%}&nbsp;<span class="tag tag-{{ tag }} is-light">{{ tag }}</span>{%- endfor -%}
+                        {% if customExcerpt %}
+                        <ul class="description">
+                            <li>{{ customExcerpt | strip_html }}</li>
+                        </ul>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </li>
+        </div>
+    </div>
+</div>

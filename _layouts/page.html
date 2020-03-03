@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+{% if page.toc %}
+    {% assign contentsTitle = page.toc_title | default: 'Contents' %}
+    {% include toc.html html=content class='menu-list' h_min=1 h_max=3 contents_title=contentsTitle %}
+{% endif %}
+<div class="content">
+    {{ content }}
+
+    {% if page.images.size > 0 %}
+        <div class="column images is-12">
+            <h1>Images</h1>
+            {% for image in page.images %}
+            <a href="{{ image.source }}" data-lightbox="images" data-title="{{ image.title }}">
+                <img class="img-attachment" src="{{ image.source }}" />
+            </a>
+            {% endfor %}
+            <div style="clear: both;"></div>
+        </div>
+    {% endif %}
+
+    {% if page.people.size > 0 %}
+        <div class="column people is-12">
+            <h1 id="title-involvedpeople">Involved People</h1>
+            <div class="columns is-multiline">
+                {% if page.peopleOrder %}
+                    {% assign people = page.people | sort: page.peopleOrder %}
+                {% else %}
+                    {% assign people = page.people %}
+                {% endif %}
+                {% for person in people %}
+                    <div class="column is-3-desktop is-4-tablet">
+                        <div class="card person">
+                            {% if person.image %}
+                                {% assign personImage = person.image %}
+                            {% elsif person.usernameFBK %}
+                                {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ person.usernameFBK }}{% endcapture %}
+                            {% elsif person.email %}
+                                {% assign splitEmail = person.email | split: '@' %}
+                                {% if splitEmail[1] == "fbk.eu" %}
+                                    {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ splitEmail[0] }}{% endcapture %}
+                                {% else %}
+                                    {% assign personImage = "" %}
+                                {% endif %}
+                            {% else %}
+                                {% assign personImage = "" %}
+                            {% endif %}
+                            {% if personImage != "" %}
+                                <div class="card-image">
+                                    <figure class="image">
+                                        <img src="{{ personImage }}" alt="{{ person.surname }} {{ person.name }}" />
+                                    </figure>
+                                </div>
+                            {% endif %}
+                            <div class="card-content">
+                                {% if person.name %}<p class="title is-4">{{ person.name }} {{ person.surname }}</p>{% endif %}
+                                {% if person.role %}<p class="subtitle is-4">{{ person.role }}</p>{% endif %}
+                                {% for affiliation in person.affiliations %}
+                                    <div class="affiliation{% if person.affiliations.size > 1 %} more{% endif %}">
+                                        {% if affiliation.unit %}<p class="subtitle is-4">{{ affiliation.unit }}</p>{% endif %}
+                                        {% if affiliation.institution %}<p class="subtitle is-4">{{ affiliation.institution }}</p>{% endif %}
+                                        {% if affiliation.place %}<p class="subtitle is-4">{{ affiliation.place }}</p>{% endif %}
+                                    </div>
+                                {% endfor %}
+                                {% if person.email %}<p class="subtitle is-4"><a href="mailto:{{ person.email }}">{{ person.email }}</a></p>{% endif %}
+                                {% if person.website %}
+                                    {% assign personWebsite = person.website %}
+                                {% else %}
+                                    {% assign personWebsite = "https://ict.fbk.eu/people/detail/" | append: person.name | append: "-" | append: person.surname | append: "/" | downcase %}
+                                {% endif %}
+                                <p class="subtitle is-4"><a href="{{ personWebsite }}">Website</a></p>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+</div>

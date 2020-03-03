@@ -1,0 +1,27 @@
+---
+layout: page
+show_sidebar: false
+---
+
+<div class="columns is-multiline">
+
+    <div class="column is-12">
+        {{ page.content }}
+
+        {% assign sorted_projects = site.projects | sort: "startDate" | reverse %}
+        <div class="projects">
+            <ul>
+                {% for project in sorted_projects %}
+                    <li class="item project">
+                        <a href="{% if project.customURL %}{{ project.customURL | prepend: site.baseurl }}{% else %}{{ project.title | replace: " ", "_" | prepend: site.baseurl }}{% endif %}"><b>{{ project.title }}</b></a>{% if project.titleAddon %} ({{ project.titleAddon }}){% endif %}
+                        {% if project.tagline %}
+                        <ul class="description">
+                            <li>{{ project.tagline }}</li>
+                        </ul>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
