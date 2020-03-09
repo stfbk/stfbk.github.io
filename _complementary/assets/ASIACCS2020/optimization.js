@@ -278,7 +278,7 @@ function depictBestArchitecture(architecturesConfig) {
 			// key === "nullInfluence" when there is no RM
 			if (key !== "nullInfluence") {
 
-				var StringToAddTemp = "<img src=\"../../img/" + key + ".png\" class=\"img-fluid mx-1 whatif\" width=\"30em\" height=\"30em\" />"
+				var StringToAddTemp = "<img src=\"" + key + ".png\" class=\"img-fluid mx-1 whatif\" width=\"30em\" height=\"30em\" />"
 
 				if (bestConfigI[key] == "hybridClientOnPremise") {
 					stringToAdd["client"] = stringToAdd["client"] + StringToAddTemp
