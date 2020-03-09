@@ -52,6 +52,7 @@ people:
           place: Pittsburgh, United States
       email: adamlee@cs.pitt.edu
       website: https://people.cs.pitt.edu/~adamlee/
+      usernameFBK: adamlee
 ---
 
 Below, you find links to complementary material and additional resources referenced by the paper.
@@ -78,6 +79,7 @@ The video shows a sequence of actions on the graphical user interface offered by
     <source src="assets/ASIACCS2020/prototype.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>    
+<br />
 
 In the video, the administrator logs in. The interface presents a black sidebar with all the actions the administrator can perform. In the centre, the administrator's data are summarized. Two tables show the lists of roles and files to which the administrator can access. The administrator assigns a user to a role and the operation completes successfully.
 
@@ -87,6 +89,4 @@ Then, the user logs in and the interface shows the new role the user has been as
 
 ### Web Dashboard
 
-We implemented a proof-of-concept application of our architectural model and the Multi-Objective Optimization Problem (MOOP) in a web dashboard. For demonstration purposes, the MOOP is reduced to a constrained weighted sum optimization problem. The dashboard allows configuring pre-filters on the possible architectures, weights and soft-hard constraints. The optimization problem is solved in real-time and the resulting architectures, along with the effect on the security and usability goals, are shown in the last blue sections. You can freely interact with the dashboard.
-
-<iframe src="assets/ASIACCS2020/dashboard.html" width="100%" height="100%"></iframe>
+We implemented a proof-of-concept application of our architectural model and the Multi-Objective Optimization Problem (MOOP) in a web dashboard. For demonstration purposes, the MOOP is reduced to a constrained weighted sum optimization problem. The dashboard allows configuring pre-filters on the possible architectures, weights and soft-hard constraints. The optimization problem is solved in real-time and the resulting architectures, along with the effect on the security and usability goals, are shown in the last blue sections. You can freely [**interact with the dashboard**](assets/ASIACCS2020/dashboard.html).
