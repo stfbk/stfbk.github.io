@@ -24,6 +24,8 @@ people:
           institution: Fondazione Bruno Kessler
           place: Trento, Italy
       email: sberlato@fbk.eu
+      website: https://stefanoberlato.it/
+      usernameFBK: sberlato
 
     - name: Roberto
       surname: Carbone
@@ -43,4 +45,13 @@ people:
           place: Trento, Italy
       email: ranise@fbk.eu
 
+    - name: Adam J.
+      surname: Lee
+      role: Associate Dean for Academic Programs
+      affiliations:
+        - unit: Computer Science Department
+          institution: University of Pittsburgh
+          place: Pittsburgh, United States
+      email: adamlee@cs.pitt.edu
+      website: https://people.cs.pitt.edu/~adamlee/
 ---
