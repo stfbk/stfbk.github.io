@@ -51,4 +51,6 @@ people:
 
 ---
 
-The paper will be presented by Marco Pernpruner on Tuesday, March 17, 2020 at 14:45 in the context of the *System Security* Session.
+The paper will be presented by Giada Sciarretta on Moday, April 16,
+2018 at 15:30 in the context of the *Leakage, Information Flow, and
+Protocols* Session.
