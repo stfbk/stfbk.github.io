@@ -63,7 +63,7 @@ Below, you find links to complementary material and additional resources referen
 
 We present the Cloudify blueprint we developed for an architecture that we later deployed for the eGovernment scenario. The source code of the Cloudify Blueprint is available [**here**](assets/ASIACCS2020/blueprint.yaml).
 
-Each white rectangle is a node and it represents a cloud service (e.g., security groups, cloud functions). Links are relationships between nodes and are used to control the deployment flow. For instance, a "depends_on" relationship from a subnet to a network means that the network has to be deployed first. The blueprint contains three main clusters (blue borders). The cluster on top models the relational database service (i.e., MS, a Relational Database Service in AWS) while the cluster in the middle models the cloud function (i.e., RM, a Lambda function in AWS). The last cluster on the bottom-right corner models the storage service (i.e., DS, a S3 service in AWS). The proxy runs in the users' computers. Therefore, the proxy is not part of the blueprint.
+Each white rectangle is a node and it represents a cloud service (e.g., security groups, cloud functions). Links are relationships between nodes and are used to control the deployment flow. The blueprint contains three main clusters (blue borders). The cluster on top models the relational database service (i.e., MS, a Relational Database Service in AWS) while the cluster in the middle models the cloud function (i.e., RM, a Lambda function in AWS). The last cluster on the bottom-right corner models the storage service (i.e., DS, a S3 service in AWS). The proxy runs in the users' computers. Therefore, the proxy is not part of the blueprint.
 
 ![Cloudify Blueprint](assets/ASIACCS2020/blueprint.png)
 
@@ -73,19 +73,11 @@ Each white rectangle is a node and it represents a cloud service (e.g., security
 
 We developed a fully working prototype implementing the cryptographic access control scheme developed by [**Garrison et al.**](https://arxiv.org/pdf/1602.09069). The prototype was tested with several simulated sequences of operations combining the creation of users and roles, assignment and revoking of permissions and the creation, update and management of files. The prototype offers a user interface based on web technologies and RESTful APIs.
 
-The video shows a sequence of actions on the graphical user interface offered by the prototype. The prototype is assumed to have been already configured with the other entities (i.e., RM, DS, MS) running on AWS.
-
 <video width="1280" height="720" controls>
     <source src="assets/ASIACCS2020/prototype.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>    
 <br />
-
-In the video, the administrator logs in. The interface presents a black sidebar with all the actions the administrator can perform. In the centre, the administrator's data are summarized. Two tables show the lists of roles and files to which the administrator can access. The administrator assigns a user to a role and the operation completes successfully.
-
-Then, the user logs in and the interface shows the new role the user has been assigned to. Finally, the user adds a new file to which the administrator has default access, as expected by the cryptographic access control scheme.
-
-
 
 ### Web Dashboard
 
