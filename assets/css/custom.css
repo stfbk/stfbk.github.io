@@ -54,6 +54,7 @@
 .card.person .card-image img {
   border-radius: 15px;
   width: auto;
+  max-height: 96px;
 }
 
 .card.person .card-content {
