@@ -20,7 +20,7 @@
   urlDocumentation: https://sites.google.com/view/eu-dpd-gdpr-compliance/home
 - name: MuFASA
   description: a tool for high-level specification and analysis of MFA protocols, which aims at supporting normal users and security experts (in the design phase of an MFA protocol), providing a high level report regarding possible risks associated to the specified MFA protocol, its resistance to a set of attacker models (defined by NIST), its ease-of-use and its compliance with a set of security requirements derived from European laws.
-  urlDocumentation: https://sites.google.com/fbk.eu/mufasa
+  urlDocumentation: /tools/MuFASA
 - name: SATMC
   description: SAT-based Model-Checker for Security Protocols and Security-sensitive Applications.
   urlDocumentation: /tools/SATMC
