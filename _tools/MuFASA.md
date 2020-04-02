@@ -48,16 +48,6 @@ people:
       email: ranise@fbk.eu
       usernameFBK: ranise
 
-    - name: Giada
-      surname: Sciarretta
-      role: Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      website: https://ict.fbk.eu/people/detail/giada-sciarretta/
-      email: giada.sciarretta@fbk.eu
-      usernameFBK: g.sciarretta
 ---
 
 Multi-Factor Authentication protocols are nowadays widely used to protect sensitive data. However, they highly differ in terms of features, provided security level and user experience.
