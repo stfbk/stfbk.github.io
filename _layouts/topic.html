@@ -7,24 +7,4 @@ layout: page
   <div class="column is-12">
     {{ page.content }}
   </div>
-
-  {% if page.publications.size > 0 %}
-    <div class="column is-12">
-      <h3>Related Publications</h3>
-      <ul>
-        {%- for publication in page.publications -%}
-          {%- capture linksString -%}
-            {%- if publication.urlNews or publication.doi or publication.urlComplementary %}
-              ({%- if publication.urlNews -%}<a href="{{ publication.urlNews }}">news</a>{%- if publication.doi or publication.urlComplementary -%}, {% endif -%}{%- endif -%}
-              {%- if publication.doi -%}<a href="https://doi.org/{{ publication.doi }}">DOI</a>{%- if publication.urlComplementary -%}, {% endif -%}{%- endif -%}
-              {%- if publication.urlComplementary -%}<a href="{{ publication.urlComplementary }}">complementary material</a>{%- endif -%})
-            {%- endif -%}
-          {%- endcapture -%}
-          <li>
-            {{ publication.authors }}. <i>{{ publication.title }}</i>, {{ publication.eventAcronym }}{{ linksString }}
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  {% endif %}
 </div>

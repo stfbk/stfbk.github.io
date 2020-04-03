@@ -128,12 +128,16 @@ html {
   max-width: 100%;
 }
 
-.content h2 {
+.content h1 {
   font-size: 1.8em;
 }
 
 .content h2 {
   font-size: 1.5em;
+}
+
+.content h3 {
+  font-size: 1.2em;
 }
 
 /* TOC new */
@@ -211,4 +215,8 @@ li.abstract, li.bio {
 .affiliation.more {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+ul.publications li {
+  margin-bottom: 10px;
 }

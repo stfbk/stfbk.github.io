@@ -214,10 +214,12 @@ URLs can also point to external resources (as previously made websites or extern
 ### Add a related paper
 Each of the topic and spotlights in homepage may contain a list of relevant papers. To add a new one, just edit the specific file in the `_topics` folder by adding and customizing the following snippet of code under the `publications` structure:
 ```yaml
-- title:                # Title (and subtitle) of the paper
-  authors:              # Authors of the papers (formatted as Name Surname and separated by commas)
-  eventAcronym:         # Acronym of the conference or journal
-  doi:                  # DOI of the paper (optional)
-  urlComplementary:     # URL to the complementary material (optional)
-  urlNews:              # URL to the news of accepted paper on this website (optional)
+- title:                    # Title of the publication
+  authors:                  # Authors of the publication
+  destination:              # Destination journal or proceedings
+  destinationAddon:         # Addon to the destination journal or proceedings (e.g., volume, pages) (optional)
+  year:                     # Year of the publication
+  doi:                      # DOI of the publication (optional)
+  urlComplementary:         # URL to complementary material (optional)
+  urlNews:                  # URL to the news of accepted paper on this website (optional)
 ```
