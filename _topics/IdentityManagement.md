@@ -9,14 +9,15 @@ order: 1
 publications:
     - title: "The Good, the Bad and the (Not So) Ugly of Out-Of-Band Authentication with eID Cards and Push Notifications: Design, Formal and Risk Analysis"
       authors: Marco Pernpruner, Roberto Carbone, Silvio Ranise, Giada Sciarretta
-      eventAcronym: CODASPY '20
+      destination: Proceedings of the Tenth ACM Conference on Data and Application Security and Privacy (CODASPY '20)
       year: 2020
+      doi: 10.1145/3374664.3375727
       urlComplementary: /complementary/CODASPY2020
       urlNews: /news/2019/12/01/paper-accepted-at-codaspy-2020/
 
     - title: "Design, Formal Specification and Analysis of Multi-Factor Authentication Solutions with a Single Sign-On Experience"
       authors: Giada Sciarretta, Roberto Carbone, Silvio Ranise, Luca Viganò
-      eventAcronym: POST 2018
+      destination: Principles of Security and Trust (POST 2018)
       year: 2018
       doi: 10.1007/978-3-319-89722-6_8
       urlNews: /news/2018/01/25/paper-accepted-at-post-2018/

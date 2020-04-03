@@ -22,6 +22,17 @@ images:                         # Attached images to show at the end of the page
     # Repeat the following structure to add more images
     - title:                    # Title of the image
       source:                   # Path to the image
+
+publications:                   # Publications related to the event (optional)
+    # Repeat the following structure to add more publications
+    - title:                    # Title of the publication
+      authors:                  # Authors of the publication
+      destination:              # Destination journal or proceedings
+      destinationAddon:         # Addon to the destination journal or proceedings (e.g., volume, pages) (optional)
+      year:                     # Year of the publication
+      doi:                      # DOI of the publication (optional)
+      urlComplementary:         # URL to complementary material (optional)
+      urlNews:                  # URL to the news of accepted paper on this website (optional)
       
 ---
 
