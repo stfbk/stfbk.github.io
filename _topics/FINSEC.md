@@ -12,6 +12,7 @@ publications:
       where: Computers & Security
       year: 2020
       doi: 10.1016/j.cose.2020.101745
+      urlComplementary: https://mfa-team.github.io/
       urlNews: /news/2020/02/02/paper-accepted-at-cose/
 
     - title: "MuFASA: A Tool for High-level Specification and Analysis of Multi-factor Authentication Protocols"
@@ -19,5 +20,6 @@ publications:
       destination: Emerging Technologies for Authorization and Authentication (ETAA 2019)
       year: 2019
       doi: 10.1007/978-3-030-39749-4_9
+      urlComplementary: /tools/MuFASA
 
 ---
