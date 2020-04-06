@@ -45,8 +45,6 @@ publications:
 
 ---
 
-Multi-Factor Authentication protocols are nowadays widely used to protect sensitive data. However, they highly differ in terms of features, provided security level and user experience.
-
 **Micro-Id-Gym** is a framework where users can develop hands-on experiences on how IdM solutions work and increase their awareness related to the underlying security issues.
 
 The tool is available on request. If you are interested in trying the tool, please contact us via email. 
