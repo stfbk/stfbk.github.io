@@ -61,7 +61,7 @@ Pentesting of SAML SSO Solutions" (bachelor's thesis).
 deployments" (bachelor's thesis).
 
 - Valentina Odorizzi: "Progettazione e sviluppo di uno strumento per
-l'analisi automatica di vulnerabilità "Missing XML Validation" in SAML
+l'analisi automatica di vulnerabilit`a "Missing XML Validation" in SAML
 SSO" (bachelor's thesis).
 
 - Giulio Pellizzari: "Design and implementation of a tool to detect
