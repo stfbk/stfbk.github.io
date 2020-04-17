@@ -9,7 +9,7 @@ order: 3
 publications:
     - title: "A Survey on Multi-Factor Authentication for Online Banking in the Wild"
       authors: Federico Sinigaglia, Roberto Carbone, Gabriele Costa, Nicola Zannone
-      where: Computers & Security
+      destination: Computers & Security Journal (COSE)
       year: 2020
       doi: 10.1016/j.cose.2020.101745
       urlComplementary: https://mfa-team.github.io/
