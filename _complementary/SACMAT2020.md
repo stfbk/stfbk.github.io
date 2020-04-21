@@ -55,9 +55,9 @@ In this work we propose the use of the **CAP Theorem** (ref. [here](https://www.
 * Edge (D2) - where all AC requests are processed locally by edge nodes (created using the [AWS Greengrass](https://aws.amazon.com/greengrass) service);
 * Cloud-edge (D3) - where most of the requests are processed as in D2 while the remaining according to D1.
 
-Figure 1 provides the deployment models with respect to a smart-lock system (named IoT entity in the figure) and the components prescribed in the [XACML](http://docs.oasis-open.org/xacml/3.0/xacml-3.0-core-spec-os-en.html) (eXtensible Access Control Markup Language) policy definition language: a Policy Enforcement Point (PEP) that intercepts authorization requests, sends them to the Policy Decision Point (PDP) and waits the access decision to enforce (grant or deny), possibly complemented with obligations (processed by the Obligation Service - OS); a Policy Decision Point (PDP), responsible to authorize or deny requests evalutating the attributes collected by querying a Policy Information Point (PIP) and the policies requested to the Policy Administration Point (PAP). We indicate with ''-" a limited PIP or PDP that accounts for resource-constrained devices (tipically found in edge scenarios).
+Following figure provides the deployment models with respect to a smart-lock system (named IoT entity in the figure) and the components prescribed in the [XACML](http://docs.oasis-open.org/xacml/3.0/xacml-3.0-core-spec-os-en.html) (eXtensible Access Control Markup Language) policy definition language: a Policy Enforcement Point (PEP) that intercepts authorization requests, sends them to the Policy Decision Point (PDP) and waits the access decision to enforce (grant or deny), possibly complemented with obligations (processed by the Obligation Service - OS); a Policy Decision Point (PDP), responsible to authorize or deny requests evalutating the attributes collected by querying a Policy Information Point (PIP) and the policies requested to the Policy Administration Point (PAP). We indicate with ''-" a limited PIP or PDP that accounts for resource-constrained devices (tipically found in edge scenarios).
 
-![Deployment models](assets/SACMAT2020/acscenarios.pdf)
+![Deployment models](assets/SACMAT2020/acscenarios.png)
 
 
 We complement the analysis with a performance evaluation that assess latency and throughput of requests, and provide additional security considerations (as suggested in \[2]). Our main contributions are:
@@ -68,13 +68,12 @@ We complement the analysis with a performance evaluation that assess latency and
 
   We evaluate performance with two well recognized metrics (as in the [work](https://onlinelibrary.wiley.com/doi/book/10.1002/9781118763407) of Eric Bauer and Randee Adams): latency and throughput. We use [Apache JMeter](https://jmeter.apache.org) to simulate the batch sending of AC requests or a costant rate of AC req./s.
 
-
 * Following the suggestion in \[2], discuss the relationships between identified trade-offs and security issues to highlight the guarantees offered by the different architectures.
 
 
 Complete test results and configurations are available [here](assets/SACMAT2020/SACMAT2020.zip).
 
-\[[1\]](https://www.researchgate.net/publication/325633706_A_Lazy_Approach_to_Access_Control_as_a_Service_ACaaS_for_IoT_An_AWS_Case_Study): Ahmad Tahir, Morelli Umberto, Ranise Silvio and Zannone Nicola. (2018). A Lazy Approach to Access Control as a Service (ACaaS) for IoT: An AWS Case Study. 235-246. 10.1145/3205977.3205989. 
+[\[1\]](https://www.researchgate.net/publication/325633706_A_Lazy_Approach_to_Access_Control_as_a_Service_ACaaS_for_IoT_An_AWS_Case_Study): Ahmad Tahir, Morelli Umberto, Ranise Silvio and Zannone Nicola. (2018). A Lazy Approach to Access Control as a Service (ACaaS) for IoT: An AWS Case Study. 235-246. 10.1145/3205977.3205989. 
 
 
-\[[2\]](https://dspace.mit.edu/handle/1721.1/79112): Gilbert, Seth, and Nancy Lynch. Perspectives on the CAP Theorem. Computer 45, no. 2 (February 2012): 30-36.
+[\[2\]](https://dspace.mit.edu/handle/1721.1/79112): Gilbert, Seth, and Nancy Lynch. Perspectives on the CAP Theorem. Computer 45, no. 2 (February 2012): 30-36.
