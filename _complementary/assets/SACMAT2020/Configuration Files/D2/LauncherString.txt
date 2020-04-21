@@ -1,0 +1,52 @@
+[
+- Client_1 to Client_100 (Client_199 on PI1) have a subscription in the form < sender, topic, Client_200 >. Client_200 subscribes with QoS 0 to all GreenGrass groups.
+- T1 is put as (part of the) topic by JMeter; T2 is saved by Client_200 upon receival.
+] 
+
+screen -S Edge -t Single -A -d -m
+screen -d -r
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Single_requests/Edge-5s-pause.jmx -Jnum_loops=1 -l Results/Oregon/Edge.E1.csv
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Single_requests/Edge-5s-pause.jmx -Jnum_loops=1 -l Results/Oregon/Edge.E2.csv
+.. (10x)
+
+python3 EdgeCloud_PI9.py > Edge_LOG_PI9 &
+python3 EdgeCloud_PI10.py > Edge_LOG_PI10 &
+
+
+screen -S Edge -t Parallel -A -d -m
+screen -d -r
+
+python3 Edge_PI9.py > Edge_LOG_PI9_Parallel_10 &
+python3 Edge_PI10.py > Edge_LOG_PI10_Parallel_10 &
+...(up to "_100")
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Parallel_requests/Edge.jmx -Jrps=10 -Jrpm=600
+mv jmeter.log Results/Oregon/jmeter.log.E_Parallel_10
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Parallel_requests/Edge.jmx -Jrps=20 -Jrpm=1200
+mv jmeter.log Results/Oregon/jmeter.log.E_Parallel_20
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Parallel_requests/Edge.jmx -Jrps=30 -Jrpm=1800
+mv jmeter.log Results/Oregon/jmeter.log.E_Parallel_30
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Parallel_requests/Edge.jmx -Jrps=40 -Jrpm=2400
+mv jmeter.log Results/Oregon/jmeter.log.E_Parallel_40
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Parallel_requests/Edge.jmx -Jrps=50 -Jrpm=3000
+mv jmeter.log Results/Oregon/jmeter.log.E_Parallel_50
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Parallel_requests/Edge.jmx -Jrps=60 -Jrpm=3600
+mv jmeter.log Results/Oregon/jmeter.log.E_Parallel_60
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Parallel_requests/Edge.jmx -Jrps=70 -Jrpm=4200
+mv jmeter.log Results/Oregon/jmeter.log.E_Parallel_70
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Parallel_requests/Edge.jmx -Jrps=80 -Jrpm=4800
+mv jmeter.log Results/Oregon/jmeter.log.E_Parallel_80
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Parallel_requests/Edge.jmx -Jrps=90 -Jrpm=5400
+mv jmeter.log Results/Oregon/jmeter.log.E_Parallel_90
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Parallel_requests/Edge.jmx -Jrps=100 -Jrpm=6000
+mv jmeter.log Results/Oregon/jmeter.log.E_Parallel_100

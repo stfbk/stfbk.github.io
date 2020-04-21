@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.1.1 r1855137">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="AWS IoT Test Plan" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="Temp_Folder" elementType="Argument">
+            <stringProp name="Argument.name">Temp_Folder</stringProp>
+            <stringProp name="Argument.value">/xyz/JmeterData_Oregon</stringProp>
+            <stringProp name="Argument.desc">Used in: ..</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="rps" elementType="Argument">
+            <stringProp name="Argument.name">rps</stringProp>
+            <stringProp name="Argument.value">${__P(rps,10)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="rpm" elementType="Argument">
+            <stringProp name="Argument.name">rpm</stringProp>
+            <stringProp name="Argument.value">${__P(rpm,600)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Index" enabled="true">
+        <stringProp name="CounterConfig.start">1</stringProp>
+        <stringProp name="CounterConfig.end">8</stringProp>
+        <stringProp name="CounterConfig.incr">1</stringProp>
+        <stringProp name="CounterConfig.name">index</stringProp>
+        <stringProp name="CounterConfig.format"></stringProp>
+        <boolProp name="CounterConfig.per_user">false</boolProp>
+      </CounterConfig>
+      <hashTree/>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="CFG" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="1" elementType="Argument">
+            <stringProp name="Argument.name">1</stringProp>
+            <stringProp name="Argument.value">Client_1;192.168.42.117;PI_1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="2" elementType="Argument">
+            <stringProp name="Argument.name">2</stringProp>
+            <stringProp name="Argument.value">Client_2;192.168.42.155;PI_2</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="3" elementType="Argument">
+            <stringProp name="Argument.name">3</stringProp>
+            <stringProp name="Argument.value">Client_3;192.168.42.5;PI_3</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="4" elementType="Argument">
+            <stringProp name="Argument.name">4</stringProp>
+            <stringProp name="Argument.value">Client_4;192.168.42.7;PI_4</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="5" elementType="Argument">
+            <stringProp name="Argument.name">5</stringProp>
+            <stringProp name="Argument.value">Client_5;192.168.42.135;PI_5</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="6" elementType="Argument">
+            <stringProp name="Argument.name">6</stringProp>
+            <stringProp name="Argument.value">Client_6;192.168.42.17;PI_6</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="7" elementType="Argument">
+            <stringProp name="Argument.name">7</stringProp>
+            <stringProp name="Argument.value">Client_7;192.168.42.3;PI_7</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="8" elementType="Argument">
+            <stringProp name="Argument.name">8</stringProp>
+            <stringProp name="Argument.value">Client_8;192.168.42.150;PI_8</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadGroup guiclass="com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadGroupGui" testclass="com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadGroup" testname="${rps} Req./s - Edge" enabled="true">
+        <elementProp name="ThreadGroup.main_controller" elementType="com.blazemeter.jmeter.control.VirtualUserController"/>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <stringProp name="TargetLevel">8</stringProp>
+        <stringProp name="RampUp">1</stringProp>
+        <stringProp name="Steps">1</stringProp>
+        <stringProp name="Hold">0</stringProp>
+        <stringProp name="LogFilename"></stringProp>
+        <stringProp name="Iterations"></stringProp>
+        <stringProp name="Unit">M</stringProp>
+      </com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadGroup>
+      <hashTree>
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="not_connected" enabled="true">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="not_connected" elementType="Argument">
+              <stringProp name="Argument.name">not_connected</stringProp>
+              <stringProp name="Argument.value">true</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+          <stringProp name="TestPlan.comments">Prefixes to automate the analysis</stringProp>
+        </Arguments>
+        <hashTree/>
+        <WhileController guiclass="WhileControllerGui" testclass="WhileController" testname="While (not_connected)" enabled="true">
+          <stringProp name="TestPlan.comments">Exit the first time the connect fails</stringProp>
+          <stringProp name="WhileController.condition">${__groovy(vars.get(&quot;not_connected&quot;) == &quot;true&quot;)}</stringProp>
+        </WhileController>
+        <hashTree>
+          <net.xmeter.samplers.ConnectSampler guiclass="net.xmeter.gui.ConnectSamplerUI" testclass="net.xmeter.samplers.ConnectSampler" testname="Connect-${PI}-${Client}-${not_connected}" enabled="true">
+            <stringProp name="mqtt.server">${Endpoint}</stringProp>
+            <stringProp name="mqtt.port">8883</stringProp>
+            <stringProp name="mqtt.version">3.1.1</stringProp>
+            <stringProp name="mqtt.conn_timeout">1500</stringProp>
+            <stringProp name="mqtt.protocol">SSL</stringProp>
+            <boolProp name="mqtt.dual_ssl_authentication">true</boolProp>
+            <stringProp name="mqtt.keystore_file_path">${Temp_Folder}/GreenGrass/keystore.jks</stringProp>
+            <stringProp name="mqtt.keystore_password">password</stringProp>
+            <stringProp name="mqtt.clientcert_file_path">${Temp_Folder}/${Client}.p12</stringProp>
+            <stringProp name="mqtt.clientcert_password">password</stringProp>
+            <stringProp name="mqtt.user_name"></stringProp>
+            <stringProp name="mqtt.password"></stringProp>
+            <stringProp name="mqtt.client_id_prefix">${Client}</stringProp>
+            <boolProp name="mqtt.client_id_suffix">false</boolProp>
+            <stringProp name="mqtt.conn_keep_alive">300</stringProp>
+            <stringProp name="mqtt.conn_attampt_max">0</stringProp>
+            <stringProp name="mqtt.reconn_attampt_max">0</stringProp>
+            <boolProp name="mqtt.conn_clean_session">true</boolProp>
+          </net.xmeter.samplers.ConnectSampler>
+          <hashTree>
+            <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
+              <stringProp name="TestPlan.comments">Select the endpoint based on threadNum</stringProp>
+              <stringProp name="cacheKey">false</stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="parameters">${index}</stringProp>
+              <stringProp name="script">String s = vars.get (Parameters);
+
+vars.put(&quot;Client&quot;, s.split(&quot;;&quot;)[0] );
+vars.put(&quot;Endpoint&quot;, s.split(&quot;;&quot;)[1] );
+vars.put(&quot;PI&quot;,  s.split(&quot;;&quot;)[2] );
+
+//log.warn(&quot;Connect -&gt; Endpoint: &quot; + s.split(&quot;;&quot;)[1] + &quot; PI: &quot; + s.split(&quot;;&quot;)[2] + &quot; Client: &quot;+ s.split(&quot;;&quot;)[0] );</stringProp>
+              <stringProp name="scriptLanguage">groovy</stringProp>
+            </JSR223PreProcessor>
+            <hashTree/>
+            <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
+              <stringProp name="cacheKey">true</stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="script">vars.put(&quot;not_connected&quot;,&quot;false&quot;)</stringProp>
+              <stringProp name="scriptLanguage">groovy</stringProp>
+            </JSR223PostProcessor>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="IF connection defined" enabled="true">
+          <stringProp name="IfController.condition">${__isVarDefined(conn)}</stringProp>
+          <boolProp name="IfController.evaluateAll">false</boolProp>
+          <boolProp name="IfController.useExpression">true</boolProp>
+        </IfController>
+        <hashTree>
+          <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+            <boolProp name="LoopController.continue_forever">true</boolProp>
+            <intProp name="LoopController.loops">-1</intProp>
+          </LoopController>
+          <hashTree>
+            <net.xmeter.samplers.PubSampler guiclass="net.xmeter.gui.PubSamplerUI" testclass="net.xmeter.samplers.PubSampler" testname="Publish-${PI}-${Client}" enabled="true">
+              <stringProp name="mqtt.topic_name">Testing/Edge/PARALLEL-${rps}/${PI}/${Client}/${__time()}</stringProp>
+              <stringProp name="mqtt.qos_level">0</stringProp>
+              <boolProp name="mqtt.add_timestamp">false</boolProp>
+              <stringProp name="mqtt.message_type">String</stringProp>
+              <stringProp name="mqtt.message_type_fixed_length">1024</stringProp>
+              <stringProp name="mqtt.message_to_sent">{
+	&quot;message&quot;: &quot;PARALLEL-${rps}/${PI}/${Client}/${__time()}&quot;
+}</stringProp>
+              <boolProp name="mqtt.retained_message">false</boolProp>
+            </net.xmeter.samplers.PubSampler>
+            <hashTree>
+              <ConstantThroughputTimer guiclass="TestBeanGUI" testclass="ConstantThroughputTimer" testname="Constant Throughput Timer" enabled="true">
+                <intProp name="calcMode">1</intProp>
+                <stringProp name="throughput">${rpm}</stringProp>
+              </ConstantThroughputTimer>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+        </hashTree>
+      </hashTree>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="false">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="false">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>false</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

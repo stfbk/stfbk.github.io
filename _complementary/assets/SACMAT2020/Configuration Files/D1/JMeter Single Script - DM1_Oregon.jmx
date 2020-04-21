@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.1.1 r1855137">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="AWS IoT Test Plan" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">true</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="Temp_Folder" elementType="Argument">
+            <stringProp name="Argument.name">Temp_Folder</stringProp>
+            <stringProp name="Argument.value">/xyz/JmeterData_Oregon</stringProp>
+            <stringProp name="Argument.desc">Used in: ..</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="AWS_Endpoint" elementType="Argument">
+            <stringProp name="Argument.name">AWS_Endpoint</stringProp>
+            <stringProp name="Argument.value">xyz-ats.iot.us-west-2.amazonaws.com</stringProp>
+            <stringProp name="Argument.desc">Also ref. as Brocker Address</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="AWS_Endpoint_Port" elementType="Argument">
+            <stringProp name="Argument.name">AWS_Endpoint_Port</stringProp>
+            <stringProp name="Argument.value">8883</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User def. variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="Thing_Prefix" elementType="Argument">
+            <stringProp name="Argument.name">Thing_Prefix</stringProp>
+            <stringProp name="Argument.value">Client_</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">Used in: ..</stringProp>
+          </elementProp>
+          <elementProp name="Num_attributes" elementType="Argument">
+            <stringProp name="Argument.name">Num_attributes</stringProp>
+            <stringProp name="Argument.value">${__P(num_attributes,0)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">Run jmeter with -Jnum_attributes=0..5..30</stringProp>
+          </elementProp>
+          <elementProp name="Num_loops" elementType="Argument">
+            <stringProp name="Argument.name">Num_loops</stringProp>
+            <stringProp name="Argument.value">${__P(num_loops,1)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">Run jmeter with -Jnum_loops=1..</stringProp>
+          </elementProp>
+        </collectionProp>
+        <stringProp name="TestPlan.comments">Prefixes to automate the analysis</stringProp>
+      </Arguments>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="DM1-1" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">${Num_loops}</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">0</stringProp>
+        <longProp name="ThreadGroup.start_time">1516871784000</longProp>
+        <longProp name="ThreadGroup.end_time">1516871784000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.delayedStart">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Client_counter" enabled="true">
+          <stringProp name="CounterConfig.start">1</stringProp>
+          <stringProp name="CounterConfig.end">200</stringProp>
+          <stringProp name="CounterConfig.incr">1</stringProp>
+          <stringProp name="CounterConfig.name">counter</stringProp>
+          <stringProp name="CounterConfig.format"></stringProp>
+          <boolProp name="CounterConfig.per_user">false</boolProp>
+        </CounterConfig>
+        <hashTree/>
+        <net.xmeter.samplers.ConnectSampler guiclass="net.xmeter.gui.ConnectSamplerUI" testclass="net.xmeter.samplers.ConnectSampler" testname="Connect" enabled="true">
+          <stringProp name="mqtt.server">${AWS_Endpoint}</stringProp>
+          <stringProp name="mqtt.port">${AWS_Endpoint_Port}</stringProp>
+          <stringProp name="mqtt.version">3.1.1</stringProp>
+          <stringProp name="mqtt.conn_timeout">300</stringProp>
+          <stringProp name="mqtt.protocol">SSL</stringProp>
+          <boolProp name="mqtt.dual_ssl_authentication">true</boolProp>
+          <stringProp name="mqtt.keystore_file_path">${Temp_Folder}/keystore.jks</stringProp>
+          <stringProp name="mqtt.keystore_password">password</stringProp>
+          <stringProp name="mqtt.clientcert_file_path">${Temp_Folder}/${Thing_Prefix}${counter}.p12</stringProp>
+          <stringProp name="mqtt.clientcert_password">password</stringProp>
+          <stringProp name="mqtt.user_name"></stringProp>
+          <stringProp name="mqtt.password"></stringProp>
+          <stringProp name="mqtt.client_id_prefix">${Thing_Prefix}${counter}</stringProp>
+          <boolProp name="mqtt.client_id_suffix">false</boolProp>
+          <stringProp name="mqtt.conn_keep_alive">300</stringProp>
+          <stringProp name="mqtt.conn_attampt_max">0</stringProp>
+          <stringProp name="mqtt.reconn_attampt_max">0</stringProp>
+          <boolProp name="mqtt.conn_clean_session">true</boolProp>
+        </net.xmeter.samplers.ConnectSampler>
+        <hashTree/>
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="IF connection defined" enabled="true">
+          <stringProp name="IfController.condition">${__isVarDefined(conn)}</stringProp>
+          <boolProp name="IfController.evaluateAll">false</boolProp>
+          <boolProp name="IfController.useExpression">true</boolProp>
+        </IfController>
+        <hashTree>
+          <net.xmeter.samplers.PubSampler guiclass="net.xmeter.gui.PubSamplerUI" testclass="net.xmeter.samplers.PubSampler" testname="Publish" enabled="true">
+            <stringProp name="mqtt.topic_name">Testing_${Num_attributes}_Attributes/DM1-1/${Thing_Prefix}${counter}/${__time()}</stringProp>
+            <stringProp name="mqtt.qos_level">1</stringProp>
+            <boolProp name="mqtt.add_timestamp">false</boolProp>
+            <stringProp name="mqtt.message_type">String</stringProp>
+            <stringProp name="mqtt.message_type_fixed_length">1024</stringProp>
+            <stringProp name="mqtt.message_to_sent">{ 
+	&quot;Message&quot;: &quot;Hello from ${Thing_Prefix}${counter}-DM1-1&quot;,
+	&quot;Sent_at&quot;: ${__time()}
+}</stringProp>
+            <boolProp name="mqtt.retained_message">false</boolProp>
+          </net.xmeter.samplers.PubSampler>
+          <hashTree>
+            <SyncTimer guiclass="TestBeanGUI" testclass="SyncTimer" testname="Synchronizing Timer" enabled="true">
+              <intProp name="groupSize">0</intProp>
+              <longProp name="timeoutInMs">30000</longProp>
+            </SyncTimer>
+            <hashTree/>
+          </hashTree>
+          <net.xmeter.samplers.DisConnectSampler guiclass="net.xmeter.gui.DisConnectSamplerUI" testclass="net.xmeter.samplers.DisConnectSampler" testname="MQTT DisConnect" enabled="true"/>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="DM1-10" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">${Num_loops}</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">10</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">0</stringProp>
+        <longProp name="ThreadGroup.start_time">1516871784000</longProp>
+        <longProp name="ThreadGroup.end_time">1516871784000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.delayedStart">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Client_counter" enabled="true">
+          <stringProp name="CounterConfig.start">1</stringProp>
+          <stringProp name="CounterConfig.end">200</stringProp>
+          <stringProp name="CounterConfig.incr">1</stringProp>
+          <stringProp name="CounterConfig.name">counter</stringProp>
+          <stringProp name="CounterConfig.format"></stringProp>
+          <boolProp name="CounterConfig.per_user">false</boolProp>
+        </CounterConfig>
+        <hashTree/>
+        <net.xmeter.samplers.ConnectSampler guiclass="net.xmeter.gui.ConnectSamplerUI" testclass="net.xmeter.samplers.ConnectSampler" testname="Connect" enabled="true">
+          <stringProp name="mqtt.server">${AWS_Endpoint}</stringProp>
+          <stringProp name="mqtt.port">${AWS_Endpoint_Port}</stringProp>
+          <stringProp name="mqtt.version">3.1.1</stringProp>
+          <stringProp name="mqtt.conn_timeout">300</stringProp>
+          <stringProp name="mqtt.protocol">SSL</stringProp>
+          <boolProp name="mqtt.dual_ssl_authentication">true</boolProp>
+          <stringProp name="mqtt.keystore_file_path">${Temp_Folder}/keystore.jks</stringProp>
+          <stringProp name="mqtt.keystore_password">password</stringProp>
+          <stringProp name="mqtt.clientcert_file_path">${Temp_Folder}/${Thing_Prefix}${counter}.p12</stringProp>
+          <stringProp name="mqtt.clientcert_password">password</stringProp>
+          <stringProp name="mqtt.user_name"></stringProp>
+          <stringProp name="mqtt.password"></stringProp>
+          <stringProp name="mqtt.client_id_prefix">${Thing_Prefix}${counter}</stringProp>
+          <boolProp name="mqtt.client_id_suffix">false</boolProp>
+          <stringProp name="mqtt.conn_keep_alive">300</stringProp>
+          <stringProp name="mqtt.conn_attampt_max">0</stringProp>
+          <stringProp name="mqtt.reconn_attampt_max">0</stringProp>
+          <boolProp name="mqtt.conn_clean_session">true</boolProp>
+        </net.xmeter.samplers.ConnectSampler>
+        <hashTree/>
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="IF connection defined" enabled="true">
+          <stringProp name="IfController.condition">${__isVarDefined(conn)}</stringProp>
+          <boolProp name="IfController.evaluateAll">false</boolProp>
+          <boolProp name="IfController.useExpression">true</boolProp>
+        </IfController>
+        <hashTree>
+          <net.xmeter.samplers.PubSampler guiclass="net.xmeter.gui.PubSamplerUI" testclass="net.xmeter.samplers.PubSampler" testname="Publish" enabled="true">
+            <stringProp name="mqtt.topic_name">Testing_${Num_attributes}_Attributes/DM1-10/${Thing_Prefix}${counter}/${__time()}</stringProp>
+            <stringProp name="mqtt.qos_level">1</stringProp>
+            <boolProp name="mqtt.add_timestamp">false</boolProp>
+            <stringProp name="mqtt.message_type">String</stringProp>
+            <stringProp name="mqtt.message_type_fixed_length">1024</stringProp>
+            <stringProp name="mqtt.message_to_sent">{ 
+	&quot;Message&quot;: &quot;Hello from ${Thing_Prefix}${counter}-DM1-10&quot;,
+	&quot;Sent_at&quot;: ${__time()}
+}</stringProp>
+            <boolProp name="mqtt.retained_message">false</boolProp>
+          </net.xmeter.samplers.PubSampler>
+          <hashTree>
+            <SyncTimer guiclass="TestBeanGUI" testclass="SyncTimer" testname="Synchronizing Timer" enabled="true">
+              <intProp name="groupSize">0</intProp>
+              <longProp name="timeoutInMs">30000</longProp>
+            </SyncTimer>
+            <hashTree/>
+          </hashTree>
+          <net.xmeter.samplers.DisConnectSampler guiclass="net.xmeter.gui.DisConnectSamplerUI" testclass="net.xmeter.samplers.DisConnectSampler" testname="MQTT DisConnect" enabled="true"/>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="DM1-50" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">${Num_loops}</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">50</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">0</stringProp>
+        <longProp name="ThreadGroup.start_time">1516871784000</longProp>
+        <longProp name="ThreadGroup.end_time">1516871784000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.delayedStart">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Client_counter" enabled="true">
+          <stringProp name="CounterConfig.start">1</stringProp>
+          <stringProp name="CounterConfig.end">200</stringProp>
+          <stringProp name="CounterConfig.incr">1</stringProp>
+          <stringProp name="CounterConfig.name">counter</stringProp>
+          <stringProp name="CounterConfig.format"></stringProp>
+          <boolProp name="CounterConfig.per_user">false</boolProp>
+        </CounterConfig>
+        <hashTree/>
+        <net.xmeter.samplers.ConnectSampler guiclass="net.xmeter.gui.ConnectSamplerUI" testclass="net.xmeter.samplers.ConnectSampler" testname="Connect" enabled="true">
+          <stringProp name="mqtt.server">${AWS_Endpoint}</stringProp>
+          <stringProp name="mqtt.port">${AWS_Endpoint_Port}</stringProp>
+          <stringProp name="mqtt.version">3.1.1</stringProp>
+          <stringProp name="mqtt.conn_timeout">300</stringProp>
+          <stringProp name="mqtt.protocol">SSL</stringProp>
+          <boolProp name="mqtt.dual_ssl_authentication">true</boolProp>
+          <stringProp name="mqtt.keystore_file_path">${Temp_Folder}/keystore.jks</stringProp>
+          <stringProp name="mqtt.keystore_password">password</stringProp>
+          <stringProp name="mqtt.clientcert_file_path">${Temp_Folder}/${Thing_Prefix}${counter}.p12</stringProp>
+          <stringProp name="mqtt.clientcert_password">password</stringProp>
+          <stringProp name="mqtt.user_name"></stringProp>
+          <stringProp name="mqtt.password"></stringProp>
+          <stringProp name="mqtt.client_id_prefix">${Thing_Prefix}${counter}</stringProp>
+          <boolProp name="mqtt.client_id_suffix">false</boolProp>
+          <stringProp name="mqtt.conn_keep_alive">300</stringProp>
+          <stringProp name="mqtt.conn_attampt_max">0</stringProp>
+          <stringProp name="mqtt.reconn_attampt_max">0</stringProp>
+          <boolProp name="mqtt.conn_clean_session">true</boolProp>
+        </net.xmeter.samplers.ConnectSampler>
+        <hashTree/>
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="IF connection defined" enabled="true">
+          <stringProp name="IfController.condition">${__isVarDefined(conn)}</stringProp>
+          <boolProp name="IfController.evaluateAll">false</boolProp>
+          <boolProp name="IfController.useExpression">true</boolProp>
+        </IfController>
+        <hashTree>
+          <net.xmeter.samplers.PubSampler guiclass="net.xmeter.gui.PubSamplerUI" testclass="net.xmeter.samplers.PubSampler" testname="Publish" enabled="true">
+            <stringProp name="mqtt.topic_name">Testing_${Num_attributes}_Attributes/DM1-50/${Thing_Prefix}${counter}/${__time()}</stringProp>
+            <stringProp name="mqtt.qos_level">1</stringProp>
+            <boolProp name="mqtt.add_timestamp">false</boolProp>
+            <stringProp name="mqtt.message_type">String</stringProp>
+            <stringProp name="mqtt.message_type_fixed_length">1024</stringProp>
+            <stringProp name="mqtt.message_to_sent">{ 
+	&quot;Message&quot;: &quot;Hello from ${Thing_Prefix}${counter}-DM1-50&quot;,
+	&quot;Sent_at&quot;: ${__time()}
+}</stringProp>
+            <boolProp name="mqtt.retained_message">false</boolProp>
+          </net.xmeter.samplers.PubSampler>
+          <hashTree>
+            <SyncTimer guiclass="TestBeanGUI" testclass="SyncTimer" testname="Synchronizing Timer" enabled="true">
+              <intProp name="groupSize">0</intProp>
+              <longProp name="timeoutInMs">30000</longProp>
+            </SyncTimer>
+            <hashTree/>
+          </hashTree>
+          <net.xmeter.samplers.DisConnectSampler guiclass="net.xmeter.gui.DisConnectSamplerUI" testclass="net.xmeter.samplers.DisConnectSampler" testname="MQTT DisConnect" enabled="true"/>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="DM1-100" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">${Num_loops}</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">100</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">0</stringProp>
+        <longProp name="ThreadGroup.start_time">1516871784000</longProp>
+        <longProp name="ThreadGroup.end_time">1516871784000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.delayedStart">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Client_counter" enabled="true">
+          <stringProp name="CounterConfig.start">1</stringProp>
+          <stringProp name="CounterConfig.end">200</stringProp>
+          <stringProp name="CounterConfig.incr">1</stringProp>
+          <stringProp name="CounterConfig.name">counter</stringProp>
+          <stringProp name="CounterConfig.format"></stringProp>
+          <boolProp name="CounterConfig.per_user">false</boolProp>
+        </CounterConfig>
+        <hashTree/>
+        <net.xmeter.samplers.ConnectSampler guiclass="net.xmeter.gui.ConnectSamplerUI" testclass="net.xmeter.samplers.ConnectSampler" testname="Connect" enabled="true">
+          <stringProp name="mqtt.server">${AWS_Endpoint}</stringProp>
+          <stringProp name="mqtt.port">${AWS_Endpoint_Port}</stringProp>
+          <stringProp name="mqtt.version">3.1.1</stringProp>
+          <stringProp name="mqtt.conn_timeout">300</stringProp>
+          <stringProp name="mqtt.protocol">SSL</stringProp>
+          <boolProp name="mqtt.dual_ssl_authentication">true</boolProp>
+          <stringProp name="mqtt.keystore_file_path">${Temp_Folder}/keystore.jks</stringProp>
+          <stringProp name="mqtt.keystore_password">password</stringProp>
+          <stringProp name="mqtt.clientcert_file_path">${Temp_Folder}/${Thing_Prefix}${counter}.p12</stringProp>
+          <stringProp name="mqtt.clientcert_password">password</stringProp>
+          <stringProp name="mqtt.user_name"></stringProp>
+          <stringProp name="mqtt.password"></stringProp>
+          <stringProp name="mqtt.client_id_prefix">${Thing_Prefix}${counter}</stringProp>
+          <boolProp name="mqtt.client_id_suffix">false</boolProp>
+          <stringProp name="mqtt.conn_keep_alive">300</stringProp>
+          <stringProp name="mqtt.conn_attampt_max">0</stringProp>
+          <stringProp name="mqtt.reconn_attampt_max">0</stringProp>
+          <boolProp name="mqtt.conn_clean_session">true</boolProp>
+        </net.xmeter.samplers.ConnectSampler>
+        <hashTree/>
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="IF connection defined" enabled="true">
+          <stringProp name="IfController.condition">${__isVarDefined(conn)}</stringProp>
+          <boolProp name="IfController.evaluateAll">false</boolProp>
+          <boolProp name="IfController.useExpression">true</boolProp>
+        </IfController>
+        <hashTree>
+          <net.xmeter.samplers.PubSampler guiclass="net.xmeter.gui.PubSamplerUI" testclass="net.xmeter.samplers.PubSampler" testname="Publish" enabled="true">
+            <stringProp name="mqtt.topic_name">Testing_${Num_attributes}_Attributes/DM1-100/${Thing_Prefix}${counter}/${__time()}</stringProp>
+            <stringProp name="mqtt.qos_level">1</stringProp>
+            <boolProp name="mqtt.add_timestamp">false</boolProp>
+            <stringProp name="mqtt.message_type">String</stringProp>
+            <stringProp name="mqtt.message_type_fixed_length">1024</stringProp>
+            <stringProp name="mqtt.message_to_sent">{ 
+	&quot;Message&quot;: &quot;Hello from ${Thing_Prefix}${counter}-DM1-100&quot;,
+	&quot;Sent_at&quot;: ${__time()}
+}</stringProp>
+            <boolProp name="mqtt.retained_message">false</boolProp>
+          </net.xmeter.samplers.PubSampler>
+          <hashTree>
+            <SyncTimer guiclass="TestBeanGUI" testclass="SyncTimer" testname="Synchronizing Timer" enabled="true">
+              <intProp name="groupSize">0</intProp>
+              <longProp name="timeoutInMs">30000</longProp>
+            </SyncTimer>
+            <hashTree/>
+          </hashTree>
+          <net.xmeter.samplers.DisConnectSampler guiclass="net.xmeter.gui.DisConnectSamplerUI" testclass="net.xmeter.samplers.DisConnectSampler" testname="MQTT DisConnect" enabled="true"/>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="DM1-200" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">${Num_loops}</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">200</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">0</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.delayedStart">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Client_counter" enabled="true">
+          <stringProp name="CounterConfig.start">1</stringProp>
+          <stringProp name="CounterConfig.end">200</stringProp>
+          <stringProp name="CounterConfig.incr">1</stringProp>
+          <stringProp name="CounterConfig.name">counter</stringProp>
+          <stringProp name="CounterConfig.format"></stringProp>
+          <boolProp name="CounterConfig.per_user">false</boolProp>
+        </CounterConfig>
+        <hashTree/>
+        <net.xmeter.samplers.ConnectSampler guiclass="net.xmeter.gui.ConnectSamplerUI" testclass="net.xmeter.samplers.ConnectSampler" testname="Connect" enabled="true">
+          <stringProp name="mqtt.server">${AWS_Endpoint}</stringProp>
+          <stringProp name="mqtt.port">${AWS_Endpoint_Port}</stringProp>
+          <stringProp name="mqtt.version">3.1.1</stringProp>
+          <stringProp name="mqtt.conn_timeout">300</stringProp>
+          <stringProp name="mqtt.protocol">SSL</stringProp>
+          <boolProp name="mqtt.dual_ssl_authentication">true</boolProp>
+          <stringProp name="mqtt.keystore_file_path">${Temp_Folder}/keystore.jks</stringProp>
+          <stringProp name="mqtt.keystore_password">password</stringProp>
+          <stringProp name="mqtt.clientcert_file_path">${Temp_Folder}/${Thing_Prefix}${counter}.p12</stringProp>
+          <stringProp name="mqtt.clientcert_password">password</stringProp>
+          <stringProp name="mqtt.user_name"></stringProp>
+          <stringProp name="mqtt.password"></stringProp>
+          <stringProp name="mqtt.client_id_prefix">${Thing_Prefix}${counter}</stringProp>
+          <boolProp name="mqtt.client_id_suffix">false</boolProp>
+          <stringProp name="mqtt.conn_keep_alive">300</stringProp>
+          <stringProp name="mqtt.conn_attampt_max">0</stringProp>
+          <stringProp name="mqtt.reconn_attampt_max">0</stringProp>
+          <boolProp name="mqtt.conn_clean_session">true</boolProp>
+        </net.xmeter.samplers.ConnectSampler>
+        <hashTree/>
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="IF connection defined" enabled="true">
+          <stringProp name="IfController.condition">${__isVarDefined(conn)}</stringProp>
+          <boolProp name="IfController.evaluateAll">false</boolProp>
+          <boolProp name="IfController.useExpression">true</boolProp>
+        </IfController>
+        <hashTree>
+          <net.xmeter.samplers.PubSampler guiclass="net.xmeter.gui.PubSamplerUI" testclass="net.xmeter.samplers.PubSampler" testname="Publish" enabled="true">
+            <stringProp name="mqtt.topic_name">Testing_${Num_attributes}_Attributes/DM1-200/${Thing_Prefix}${counter}/${__time()}</stringProp>
+            <stringProp name="mqtt.qos_level">1</stringProp>
+            <boolProp name="mqtt.add_timestamp">false</boolProp>
+            <stringProp name="mqtt.message_type">String</stringProp>
+            <stringProp name="mqtt.message_type_fixed_length">1024</stringProp>
+            <stringProp name="mqtt.message_to_sent">{ 
+	&quot;Message&quot;: &quot;Hello from ${Thing_Prefix}${counter}-DM1-200&quot;,
+	&quot;Sent_at&quot;: ${__time()}
+}</stringProp>
+            <boolProp name="mqtt.retained_message">false</boolProp>
+          </net.xmeter.samplers.PubSampler>
+          <hashTree>
+            <SyncTimer guiclass="TestBeanGUI" testclass="SyncTimer" testname="Synchronizing Timer" enabled="true">
+              <intProp name="groupSize">0</intProp>
+              <longProp name="timeoutInMs">30000</longProp>
+            </SyncTimer>
+            <hashTree/>
+          </hashTree>
+          <net.xmeter.samplers.DisConnectSampler guiclass="net.xmeter.gui.DisConnectSamplerUI" testclass="net.xmeter.samplers.DisConnectSampler" testname="MQTT DisConnect" enabled="true"/>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="false">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>false</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <threadCounts>true</threadCounts>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>
