@@ -13,9 +13,9 @@ papers:
     - title: "Deploying Access Control Enforcement for IoT in the Cloud-Edge Continuum with the help of the CAP Theorem"
       authors: Tahir Ahmad, Umberto Morelli and Silvio Ranise
       abstract: >
-      The CAP Theorem is used by distributed system practitioners to investigate the necessary trade-offs in the design and development of distributed systems, mainly databases and web applications. In this paper, we use it to reason about access control systems designed for the Internet of Things (IoT). 
-      We validate our approach by experimentally investigating alternative architectural designs to enforce access control in a smart lock system using the cloud-edge IoT platform offered by Amazon. 
-      We discuss the trade-off between security and performance that may help IoT designers choose the most suitable architecture supporting their requirements.
+        The CAP Theorem is used by distributed system practitioners to investigate the necessary trade-offs in the design and development of distributed systems, mainly databases and web applications. In this paper, we use it to reason about access control systems designed for the Internet of Things (IoT). 
+        We validate our approach by experimentally investigating alternative architectural designs to enforce access control in a smart lock system using the cloud-edge IoT platform offered by Amazon. 
+        We discuss the trade-off between security and performance that may help IoT designers choose the most suitable architecture supporting their requirements.
 
 people:
     - name: Tahir
