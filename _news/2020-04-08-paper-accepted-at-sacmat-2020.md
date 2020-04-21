@@ -1,5 +1,5 @@
 ---
-title: Papers accepted at SACMAT 2020
+title: Paper accepted at SACMAT 2020
 where: 25th ACM Symposium on Access Control Models And Technologies
 whereAcronym: SACMAT 2020
 whereUrl: http://www.sacmat.org/2020/index.php
@@ -53,6 +53,4 @@ people:
       email: ranise@fbk.eu
       website: https://ict.fbk.eu/people/detail/silvio-ranise/
       usernameFBK: ranise
-
-peopleOrder: surname
 ---
