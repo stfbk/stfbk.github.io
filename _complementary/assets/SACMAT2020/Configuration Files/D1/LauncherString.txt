@@ -1,0 +1,37 @@
+[
+- Client_1 to Client_200 are associated (each) with a certificate holding a policy that has no attributes in the condition tag; they publish QoS 1 MQTT messages.
+- The difference T2-T1 is the Elapsed Time from JMeter logs
+] 
+
+screen -S DM1 -t Single -A -d -m
+screen -d -r
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Single_requests/DM1_Oregon.jmx -Jnum_attributes=0 -Jnum_loops=10 -l /Results/Single-DM1-Oregon.csv
+
+[
+- 24 JMeter Threads publish during 60 seconds 600 to 6000 MQTT QoS 1 messages (10 to 100 messages/s).
+- The difference T2-T1 is the Elapsed Time from JMeter logs
+] 
+
+screen -S DM1 -t Parallel -A -d -m
+screen -d -r
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Parallel_requests/Oregon_DM1_24.jmx -Jnum_attributes=0 -Jrps=10 -Jrpm=600 -l /Results/Parallel-QoS1-DM1-Oregon-10-24.csv; sleep 10s; mv jmeter.log DM1-10-jmeter.log;
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Parallel_requests/Oregon_DM1_24.jmx -Jnum_attributes=0 -Jrps=20 -Jrpm=1200 -l /Results/Parallel-QoS1-DM1-Oregon-20-24.csv; sleep 10s; mv jmeter.log DM1-20-jmeter.log;
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Parallel_requests/Oregon_DM1_24.jmx -Jnum_attributes=0 -Jrps=30 -Jrpm=1800 -l /Results/Parallel-QoS1-DM1-Oregon-30-24.csv; sleep 10s; mv jmeter.log DM1-30-jmeter.log;
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Parallel_requests/Oregon_DM1_24.jmx -Jnum_attributes=0 -Jrps=40 -Jrpm=2400 -l /Results/Parallel-QoS1-DM1-Oregon-40-24.csv; sleep 10s; mv jmeter.log DM1-40-jmeter.log;
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Parallel_requests/Oregon_DM1_24.jmx -Jnum_attributes=0 -Jrps=50 -Jrpm=3000 -l /Results/Parallel-QoS1-DM1-Oregon-50-24.csv; sleep 10s; mv jmeter.log DM1-50-jmeter.log;
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Parallel_requests/Oregon_DM1_24.jmx -Jnum_attributes=0 -Jrps=60 -Jrpm=3600 -l /Results/Parallel-QoS1-DM1-Oregon-60-24.csv; sleep 10s; mv jmeter.log DM1-60-jmeter.log;
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Parallel_requests/Oregon_DM1_24.jmx -Jnum_attributes=0 -Jrps=70 -Jrpm=4200 -l /Results/Parallel-QoS1-DM1-Oregon-70-24.csv; sleep 10s; mv jmeter.log DM1-70-jmeter.log;
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Parallel_requests/Oregon_DM1_24.jmx -Jnum_attributes=0 -Jrps=80 -Jrpm=4800 -l /Results/Parallel-QoS1-DM1-Oregon-80-24.csv; sleep 10s; mv jmeter.log DM1-80-jmeter.log;
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Parallel_requests/Oregon_DM1_24.jmx -Jnum_attributes=0 -Jrps=90 -Jrpm=5400 -l /Results/Parallel-QoS1-DM1-Oregon-90-24.csv; sleep 10s; mv jmeter.log DM1-90-jmeter.log;
+
+screen apache-jmeter-5.1.1/bin/jmeter -n -t Parallel_requests/Oregon_DM1_24.jmx -Jnum_attributes=0 -Jrps=100 -Jrpm=6000 -l /Results/Parallel-QoS1-DM1-Oregon-100-24.csv; sleep 10s; mv jmeter.log DM1-100-jmeter.log;
