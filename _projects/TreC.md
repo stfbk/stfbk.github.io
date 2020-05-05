@@ -9,10 +9,7 @@ startDate: "2010-11-01"
 endDate: "2011-11-30"
 
 people:
-    - name: Roberto
-      surname: Carbone
-      email: carbone@fbk.eu
-      usernameFBK: carbone
+    - RobertoCarbone_R_FBK
     - name: Silvio
       surname: Ranise
       email: ranise@fbk.eu

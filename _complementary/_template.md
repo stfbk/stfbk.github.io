@@ -7,20 +7,9 @@ conference:                     # Name of the conference
 abstract: >
     Write here the abstract of the paper (only plaintext, also multiline)
 
-people:                         # People involved in the paper (optional)
-    # Repeat the following structure to add more involved people
-    - name:                     # Name
-      surname:                  # Surname
-      role:                     # Role (optional)
-      affiliations:
-        # Repeat the following structure to add more affiliations
-        - unit:                 # Unit or Department (optional)
-          institution:          # Institution
-          place:                # Place of the institution
-      email:                    # Email
-      website:                  # Website (optional)
-      image:                    # URL of a picture (optional)
-      usernameFBK:              # FBK username (for retrieving the picture, optional)
+people:                         # People involved in the project (optional)
+    # For each person, add details on _data/people.yml
+    # Then, add here a new line with a dash (-) followed by the assigned "id"
 
 peopleOrder: surname            # How to order the involved people (must be one of the fields belonging to the "people" structure)
 

@@ -9,41 +9,9 @@ abstract: >
     We discuss the trade-off between security and performance that may help IoT designers choose the most suitable architecture supporting their requirements.
 
 people:
-    - name: Tahir
-      surname: Ahmad
-      role: PhD Student
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-        - unit: DIBRIS
-          institution: University of Genova
-          place: Genova, Italy
-      email: ahmad@fbk.eu
-      website: https://ict.fbk.eu/people/detail/tahir-ahmad/
-      usernameFBK: ahmad
-
-    - name: Umberto
-      surname: Morelli
-      role: Technologist
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: umorelli@fbk.eu
-      website: https://ict.fbk.eu/people/detail/umberto-morelli/
-      usernameFBK: umorelli
-
-    - name: Silvio
-      surname: Ranise
-      role: Head of Unit
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: ranise@fbk.eu
-      website: https://ict.fbk.eu/people/detail/silvio-ranise/
-      usernameFBK: ranise
+    - TahirAhmad_PhD_FBK
+    - UmbertoMorelli_T_FBK
+    - SilvioRanise_H_FBK
 
 peopleOrder: surname
 ---

@@ -45,10 +45,7 @@ people:
       surname: Sciarretta
       email: giada.sciarretta@fbk.eu
       usernameFBK: g.sciarretta
-    - name: Roberto
-      surname: Carbone
-      email: carbone@fbk.eu
-      usernameFBK: carbone
+    - RobertoCarbone_R_FBK
 
 peopleOrder: surname
 ---

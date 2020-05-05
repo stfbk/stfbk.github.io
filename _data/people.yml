@@ -1,0 +1,220 @@
+- id: AdamJLee_UniPitt
+  name: Adam J.
+  surname: Lee
+  role: Associate Dean for Academic Programs
+  affiliations:
+    - unit: Computer Science Department
+      institution: University of Pittsburgh
+      place: Pittsburgh, United States
+  email: adamlee@cs.pitt.edu
+  website: https://people.cs.pitt.edu/~adamlee/
+
+- id: AlessandroTomasi_R_FBK
+  name: Alessandro
+  surname: Tomasi
+  role: Researcher
+  affiliations:
+    - unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: altomasi@fbk.eu
+
+- id: AmirSharif_PhD_FBK
+  name: Amir
+  surname: Sharif
+  role: PhD Student
+  affiliations:
+    - unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+    - unit: DIBRIS
+      institution: University of Genoa
+      place: Genoa, Italy
+  email: asharif@fbk.eu
+
+- id: AndreaBisegna_T_FBK
+  name: Andrea
+  surname: Bisegna
+  role: Technologist
+  affiliations:
+    - unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: a.bisegna@fbk.eu
+
+- id: FedericoSinigaglia_PhD_FBK
+  name: Federico
+  surname: Sinigaglia
+  role: PhD Student
+  affiliations:
+    - unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+    - unit: DIBRIS
+      institution: University of Genoa
+      place: Genoa, Italy
+  email: sinigaglia@fbk.eu
+
+- id: GabrieleCosta_IMT
+  name: Gabriele
+  surname: Costa
+  affiliations:
+    - unit: SysMA
+      institution: IMT School for Advanced Studies
+      place: Lucca, Italy
+  website: https://www.imtlucca.it/it/gabriele.costa/
+  email: gabriele.costa@imtlucca.it
+
+- id: GiadaSciarretta_R_FBK
+  name: Giada
+  surname: Sciarretta
+  role: Researcher
+  affiliations:
+    - unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: giada.sciarretta@fbk.eu
+  usernameFBK: g.sciarretta
+
+- id: LucaViganò_KCL
+  name: Luca
+  surname: Viganò
+  role: Professor
+  affiliations:
+    - unit: Department of Informatics
+      institution: King's College London
+      place: London, UK
+  email: luca.vigano@kcl.ac.uk
+  image: http://www.lucavigano.com/images/LucaVigano2-small.jpg
+  website: https://www.kcl.ac.uk/people/luca-vigano
+
+- id: MarcoPernpruner_R_FBK
+  name: Marco
+  surname: Pernpruner
+  role: Researcher
+  affiliations:
+    - unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: mpernpruner@fbk.eu
+
+- id: MarianoCeccato_R_FBK
+  name: Mariano
+  surname: Ceccato
+  role: Researcher
+  affiliations:
+    - unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: ceccato@fbk.eu
+
+- id: MarianoCeccato_UNIVR
+  name: Mariano
+  surname: Ceccato
+  role: Assistant Professor
+  affiliations:
+    - unit: Department of Computer Science
+      institution: University of Verona
+      place: Verona, Italy
+  email: mariano.ceccato@univr.it
+  image: http://www.di.univr.it/documenti/Persona/foto/foto660446.jpg
+  website: http://www.di.univr.it/?ent=persona&id=60574&lang=it
+
+- id: MatteoLeonelli_JR_FBK
+  name: Matteo
+  surname: Leonelli
+  role: Junior Researcher
+  affiliations:
+    - unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: leonelli@fbk.eu
+
+- id: RobertoCarbone_R_FBK
+  name: Roberto
+  surname: Carbone
+  role: Researcher
+  affiliations:
+    - unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: carbone@fbk.eu
+
+- id: SalimehDashti_PhD_FBK
+  name: Salimeh
+  surname: Dashti
+  role: PhD Student
+  affiliations:
+    - unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+    - unit: DIBRIS
+      institution: University of Genoa
+      place: Genoa, Italy
+  email: sdashti@fbk.eu
+
+- id: SalvatoreManfredi_PhD_FBK
+  name: Salvatore
+  surname: Manfredi
+  role: Researcher
+  affiliations:
+    - unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+    - unit: DIBRIS
+      institution: University of Genoa
+      place: Genoa, Italy
+  email: smanfredi@fbk.eu
+
+- id: SalvatoreManfredi_R_FBK
+  name: Salvatore
+  surname: Manfredi
+  role: Researcher
+  affiliations:
+    - unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: smanfredi@fbk.eu
+
+- id: SilvioRanise_H_FBK
+  name: Silvio
+  surname: Ranise
+  role: Head of Unit
+  affiliations:
+    - unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: ranise@fbk.eu
+
+- id: StefanoBerlato_R_FBK
+  name: Stefano
+  surname: Berlato
+  role: Researcher
+  affiliations:
+    - unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: sberlato@fbk.eu
+
+- id: TahirAhmad_PhD_FBK
+  name: Tahir
+  surname: Ahmad
+  role: PhD Student
+  affiliations:
+    - unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+    - unit: DIBRIS
+      institution: University of Genoa
+      place: Genoa, Italy
+  email: ahmad@fbk.eu
+
+- id: UmbertoMorelli_T_FBK
+  name: Umberto
+  surname: Morelli
+  role: Technologist
+  affiliations:
+    - unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: umorelli@fbk.eu

@@ -6,6 +6,9 @@ Table of Contents:
   - [Language](#language)
   - [Use of attachments](#use-of-attachments)
 - [Common operations](#common-operations)
+  - [General](#general)
+    - [Add involved people](#add-involved-people)
+    - [Add related publications](#add-related-publications)
   - [Complementary materials](#complementary-materials)
     - [Add a new page](#add-a-new-page)
   - [Events](#events)
@@ -21,7 +24,7 @@ Table of Contents:
     - [Add a new page](#add-a-new-page-2)
     - [List an external tool](#list-an-external-tool)
   - [Topics](#topics)
-    - [Add a related paper](#add-a-related-paper)
+    - [Add a related publication](#add-a-related-publication)
 
 # Structure of the website
 The website is structured as follow:
@@ -97,6 +100,47 @@ Specifically:
 - for **tools**: inside the folder `_tools/assets/[ToolName]/[CustomNameOfFiles]`.
 
 # Common operations
+## General
+The following operations can be done in any page, regardless the category.
+
+### Add involved people
+To add a list of involved people to a specific page, just open the [`_data/people.yml`](_data/people.yml) file and check whether the person (and the correct affiliation) is already listed. If not, just add it through the following structure:
+```yaml
+- id:                       # Choose a unique ID for the person, will be referenced later
+  name:                     # Name
+  surname:                  # Surname
+  role:                     # Role (optional)
+  affiliations:
+    # Repeat the following structure to add more affiliations
+    - unit:                 # Unit or Department (optional)
+      institution:          # Institution
+      place:                # Place of the institution
+  email:                    # Email
+  website:                  # Website (optional)
+  image:                    # URL of a picture (optional)
+  usernameFBK:              # FBK username (for retrieving the picture, optional)
+```
+
+Then, insert a new line with a dash (-) followed by the assigned "id" under the `publications` structure in the intended page.
+
+**Important**: if the person is already listed in the `people.yml` file but with a former affiliation, please don't update the existent entry, as this would cause every page referring to the entry to update accordingly; instead, add a new entry with a different ID.
+
+### Add related publications
+To add a list of related publication to a specific page, just open the [`_data/publications.yml`](_data/publications.yml) file and check whether the publication is already listed. If not, just add it through the following structure:
+```yaml
+- id:                       # Choose a unique ID for the publication, will be referenced later
+  title:                    # Title of the publication
+  authors:                  # Authors of the publication
+  destination:              # Destination journal or proceedings
+  destinationAddon:         # Addon to the destination journal or proceedings (e.g., volume, pages) (optional)
+  year:                     # Year of the publication
+  doi:                      # DOI of the publication (optional)
+  urlComplementary:         # URL to complementary material (optional)
+  urlNews:                  # URL to the news of accepted paper on this website (optional)
+```
+
+Then, insert a new line with a dash (-) followed by the assigned "id" under the `publications` structure in the intended page.
+
 ## Complementary materials
 ### Add a new page
 To create a new page for a complementary material, just add a new file `[ConferenceAcronym][Year].md` to the [`_complementary`](_complementary/) folder. The content of the file should respect the [template](_complementary/_template.md).
@@ -105,7 +149,7 @@ Guidelines on attachments can be found [above](#use-of-attachments).
 
 URL of the new page: `https://stfbk.github.io/complementary/[ConferenceAcronym][Year]`.
 
-The page will **not** be listed on the website, but the link can be used in papers or other publications.
+The page will **not** be listed on the website (unless explicitly linked to the related publication), but the link can be used in papers or other publications.
 
 ## Events
 ### Add a new event
@@ -211,15 +255,5 @@ To list a tool whose documentation is not in the new website, just edit the page
 URLs can also point to external resources (as previously made websites or external repositories).
 
 ## Topics
-### Add a related paper
-Each of the topic and spotlights in homepage may contain a list of relevant papers. To add a new one, just edit the specific file in the `_topics` folder by adding and customizing the following snippet of code under the `publications` structure:
-```yaml
-- title:                    # Title of the publication
-  authors:                  # Authors of the publication
-  destination:              # Destination journal or proceedings
-  destinationAddon:         # Addon to the destination journal or proceedings (e.g., volume, pages) (optional)
-  year:                     # Year of the publication
-  doi:                      # DOI of the publication (optional)
-  urlComplementary:         # URL to complementary material (optional)
-  urlNews:                  # URL to the news of accepted paper on this website (optional)
-```
+### Add a related publication
+Each of the topic and spotlights in homepage may contain a list of relevant papers. To add a new one, just follow the instructions [above](#add-related-publications). The pages of the topics will be found in the `_topics` folder.

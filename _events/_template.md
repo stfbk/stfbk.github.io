@@ -3,36 +3,18 @@ title:                          # Title of the event
 subtitle:                       # Title of the subpage (optional)
 menubar:                        # Name of the side menu to show (from _data/menus/)
 
-people:                         # People involved in the event (optional)
-    # Repeat the following structure to add more involved people
-    - name:                     # Name
-      surname:                  # Surname
-      role:                     # Role (optional)
-      affiliations:
-        # Repeat the following structure to add more affiliations
-        - unit:                 # Unit or Department (optional)
-          institution:          # Institution
-          place:                # Place of the institution
-      email:                    # Email
-      website:                  # Website (optional)
-      image:                    # URL of a picture (optional)
-      usernameFBK:              # FBK username (for retrieving the picture, optional)
+people:                         # People involved in the project (optional)
+    # For each person, add details on _data/people.yml
+    # Then, add here a new line with a dash (-) followed by the assigned "id"
 
 images:                         # Attached images to show at the end of the page (optional)
     # Repeat the following structure to add more images
     - title:                    # Title of the image
       source:                   # Path to the image
 
-publications:                   # Publications related to the event (optional)
-    # Repeat the following structure to add more publications
-    - title:                    # Title of the publication
-      authors:                  # Authors of the publication
-      destination:              # Destination journal or proceedings
-      destinationAddon:         # Addon to the destination journal or proceedings (e.g., volume, pages) (optional)
-      year:                     # Year of the publication
-      doi:                      # DOI of the publication (optional)
-      urlComplementary:         # URL to complementary material (optional)
-      urlNews:                  # URL to the news of accepted paper on this website (optional)
+publications:                   # Publications related to the project (optional)
+    # For each publication, add details on _data/publications.yml
+    # Then, add here a new line with a dash (-) followed by the assigned "id"
       
 ---
 

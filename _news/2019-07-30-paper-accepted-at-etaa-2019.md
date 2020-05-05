@@ -17,40 +17,8 @@ papers:
         We present MuFASA, a tool for high-level specification and analysis of MFA protocols, which aims at supporting normal users and security experts (in the design phase of an MFA protocol), providing a high level report regarding possible risks associated to the specified MFA protocol, its resistance to a set of attacker models (defined by NIST), its ease-of-use and its compliance with a set of security requirements derived from European laws.
 
 people:
-    - name: Federico
-      surname: Sinigaglia
-      role: PhD Student
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-        - unit: DIBRIS
-          institution: University of Genoa
-          place: Genoa, Italy
-      email: sinigaglia@fbk.eu
-      website: https://ict.fbk.eu/people/detail/federico-sinigaglia/
-      usernameFBK: sinigaglia
-
-    - name: Roberto
-      surname: Carbone
-      role: Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: carbone@fbk.eu
-      website: https://ict.fbk.eu/people/detail/roberto-carbone/
-      usernameFBK: carbone
-
-    - name: Silvio
-      surname: Ranise
-      role: Head of Unit
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: ranise@fbk.eu
-      website: https://ict.fbk.eu/people/detail/silvio-ranise/
-      usernameFBK: ranise
+    - FedericoSinigaglia_PhD_FBK
+    - RobertoCarbone_R_FBK
+    - SilvioRanise_H_FBK
 
 ---

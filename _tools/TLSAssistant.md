@@ -2,50 +2,12 @@
 title: TLSAssistant
 
 people:
-    - name: Salvatore
-      surname: Manfredi
-      role: Ph.D. Student
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-        - unit: DIBRIS
-          institution: University of Genoa
-          place: Genoa, Italy
-      website: https://ict.fbk.eu/people/detail/salvatore-manfredi/
-      email: smanfredi@fbk.eu
-      usernameFBK: smanfredi
-
-    - name: Silvio
-      surname: Ranise
-      role: Head of Unit
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      website: https://ict.fbk.eu/people/detail/silvio-ranise/
-      email: ranise@fbk.eu
-      usernameFBK: ranise
-
-    - name: Giada
-      surname: Sciarretta
-      role: Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      website: https://ict.fbk.eu/people/detail/giada-sciarretta/
-      email: giada.sciarretta@fbk.eu
-      usernameFBK: g.sciarretta
+    - SalvatoreManfredi_PhD_FBK
+    - SilvioRanise_H_FBK
+    - GiadaSciarretta_R_FBK
 
 publications:
-    - title: "Lost in TLS? No More! Assisted Deployment of Secure TLS Configurations"
-      authors: Salvatore Manfredi, Silvio Ranise and Giada Sciarretta
-      destination: Proceedings of the 33rd Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy (DBSec 2019)
-      destinationAddon: vol. 11559, pp. 201-220
-      year: 2019
-      doi: 10.1007/978-3-030-22479-0_11
-      urlNews: /news/2019/04/15/paper-accepted-at-dbsec-2019/
+    - DBSec2019_TLSA
 
 ---
 

@@ -22,10 +22,7 @@ partners:
       link: https://www.tno.nl/en/
 
 people:
-    - name: Andrea
-      surname: Bisegna
-      email: a.bisegna@fbk.eu
-      usernameFBK: a.bisegna
+    - AndreaBisegna_T_FBK
     - name: Federico
       surname: Sinigaglia
       email: sinigaglia@fbk.eu
@@ -34,10 +31,7 @@ people:
       surname: Sciarretta
       email: giada.sciarretta@fbk.eu
       usernameFBK: g.sciarretta
-    - name: Roberto
-      surname: Carbone
-      email: carbone@fbk.eu
-      usernameFBK: carbone
+    - RobertoCarbone_R_FBK
     - name: Silvio
       surname: Ranise
       email: ranise@fbk.eu
