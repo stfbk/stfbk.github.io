@@ -16,27 +16,8 @@ papers:
         Over the last few years, there has been an almost exponential increase of the number of mobile applications that deal with sensitive data, such as applications for e-commerce or health. When dealing with sensitive data, classical authentication solutions based on username-password pairs are not enough, and multi-factor authentication solutions that combine two or more authentication elements of different categories are required. Many different such solutions are available, but they usually cover the scenario of a user accessing web applications on their laptops, whereas in this paper we focus on native mobile applications. This changes the exploitable attack surface and thus requires a specific analysis. In this paper, we present the design, the formal specification and the security analysis of a solution that allows users to access different mobile applications through a multi-factor authentication solution providing a Single Sign-On experience. The formal and automated analysis that we performed validates the security goals of the solution we propose.
 
 people:
-    - name: Roberto
-      surname: Carbone
-      role: Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: carbone@fbk.eu
-      website: https://ict.fbk.eu/people/detail/roberto-carbone/
-      usernameFBK: carbone
-
-    - name: Silvio
-      surname: Ranise
-      role: Head of Unit
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: ranise@fbk.eu
-      website: https://ict.fbk.eu/people/detail/silvio-ranise/
-      usernameFBK: ranise
+    - RobertoCarbone_R_FBK
+    - SilvioRanise_H_FBK
 
     - name: Giada
       surname: Sciarretta
@@ -51,6 +32,4 @@ people:
 
 ---
 
-The paper will be presented by Giada Sciarretta on Moday, April 16,
-2018 at 15:30 in the context of the *Leakage, Information Flow, and
-Protocols* Session.
+The paper will be presented by Giada Sciarretta on Monday, April 16, 2018 at 15:30 in the context of the *Leakage, Information Flow, and Protocols* Session.

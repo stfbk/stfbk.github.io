@@ -3,10 +3,7 @@ title: Winter School SECENTIS 2016
 tag: [events]
 
 people:
-    - name: Roberto
-      surname: Carbone
-      email: carbone@fbk.eu
-      usernameFBK: carbone
+    - RobertoCarbone_R_FBK
 
     - name: Silvio
       surname: Ranise

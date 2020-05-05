@@ -9,49 +9,11 @@ abstract: >
     In this paper, we thus present the design and implementation of a novel passwordless, multi-factor authentication protocol based on eID cards. To reduce known usability issues while keeping a high level of security, our protocol leverages push notifications and mobile devices equipped with NFC, which can be used to interact with eID cards. In addition, we evaluate the security of the protocol through a formal security analysis and a risk analysis, whose results emphasize the acceptable level of security.
 
 people:
-    - name: Marco
-      surname: Pernpruner
-      role: Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: mpernpruner@fbk.eu
-      website: https://ict.fbk.eu/people/detail/marco-pernpruner/
-      usernameFBK: mpernpruner
+    - MarcoPernpruner_R_FBK
+    - RobertoCarbone_R_FBK
+    - SilvioRanise_H_FBK
+    - GiadaSciarretta_R_FBK
 
-    - name: Roberto
-      surname: Carbone
-      role: Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: carbone@fbk.eu
-      website: https://ict.fbk.eu/people/detail/roberto-carbone/
-      usernameFBK: carbone
-
-    - name: Silvio
-      surname: Ranise
-      role: Head of Unit
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: ranise@fbk.eu
-      website: https://ict.fbk.eu/people/detail/silvio-ranise/
-      usernameFBK: ranise
-
-    - name: Giada
-      surname: Sciarretta
-      role: Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: giada.sciarretta@fbk.eu
-      website: https://ict.fbk.eu/people/detail/giada-sciarretta/
-      usernameFBK: g.sciarretta
 ---
 
 In our paper, we present a novel passwordless, multi-factor authentication protocol based on eID cards. To assess the security of this protocol, we have formally modelled it through the specification language **ASLan++**, a high-level language that formalizes the interactions between the different protocol roles. These models have then been given in input to **SATMC** (SAT-based Model Checker), an open and flexible platform for model-checking security protocols via reduction to SAT.

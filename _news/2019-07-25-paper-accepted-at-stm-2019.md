@@ -16,48 +16,9 @@ papers:
         We propose an audit-based architecture that leverages the Hyperledger Fabric distributed ledger as a means to increase accountability and decentralize the authorization decision process of Attribute-Based Access Control policies by using smart contracts. Our goal is to decrease the trust in administrators and users with privileged accounts, and make the a posteriori verification of access events more reliable. We implement our approach to the use case of Electronic Health Record access control. Preliminary experiments show the viability of the proposed approach.
 
 people:
-    - name: Umberto
-      surname: Morelli
-      role: Technologist
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: umorelli@fbk.eu
-      website: https://ict.fbk.eu/people/detail/umberto-morelli/
-      usernameFBK: umorelli
-
-    - name: Silvio
-      surname: Ranise
-      role: Head of Unit
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: ranise@fbk.eu
-      website: https://ict.fbk.eu/people/detail/silvio-ranise/
-      usernameFBK: ranise
-
-    - name: Giada
-      surname: Sciarretta
-      role: Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: giada.sciarretta@fbk.eu
-      website: https://ict.fbk.eu/people/detail/giada-sciarretta/
-      usernameFBK: g.sciarretta
-
-    - name: Alessandro
-      surname: Tomasi
-      role: Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: altomasi@fbk.eu
-      website: https://ict.fbk.eu/people/detail/alessandro-tomasi/
-      usernameFBK: altomasi
+    - UmbertoMorelli_T_FBK
+    - SilvioRanise_H_FBK
+    - GiadaSciarretta_R_FBK
+    - AlessandroTomasi_R_FBK
 
 ---

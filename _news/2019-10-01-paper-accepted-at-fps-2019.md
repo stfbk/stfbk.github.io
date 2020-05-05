@@ -14,38 +14,9 @@ papers:
       authors: Silvio Ranise, Giada Sciarretta and Alessandro Tomasi
 
 people:
-    - name: Silvio
-      surname: Ranise
-      role: Head of Unit
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: ranise@fbk.eu
-      website: https://ict.fbk.eu/people/detail/silvio-ranise/
-      usernameFBK: ranise
-
-    - name: Giada
-      surname: Sciarretta
-      role: Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: giada.sciarretta@fbk.eu
-      website: https://ict.fbk.eu/people/detail/giada-sciarretta/
-      usernameFBK: g.sciarretta
-
-    - name: Alessandro
-      surname: Tomasi
-      role: Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: altomasi@fbk.eu
-      website: https://ict.fbk.eu/people/detail/alessandro-tomasi/
-      usernameFBK: altomasi
+    - SilvioRanise_H_FBK
+    - GiadaSciarretta_R_FBK
+    - AlessandroTomasi_R_FBK
 
 ---
 

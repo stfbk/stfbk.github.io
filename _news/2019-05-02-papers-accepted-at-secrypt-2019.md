@@ -21,65 +21,10 @@ papers:
         We propose a pragmatic methodology to the Data Protection Impact Assessment (DPIA) based on a tool capable of assisting users during crucial activities such as data processing specification and risk analysis. Previous work on compliance checking and our experience in developing a DPIA methodology for the Public Administration of the province of Trento in Italy are the basis of this work.
 
 people:
-    - name: Salimeh
-      surname: Dashti
-      role: PhD Student
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-        - unit: DIBRIS
-          institution: University of Genoa
-          place: Genoa, Italy
-      email: sdashti@fbk.eu
-      website: https://ict.fbk.eu/people/detail/salimeh-dashti/
-      usernameFBK: sdashti
-
-    - name: Amir
-      surname: Sharif
-      role: PhD Student
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-        - unit: DIBRIS
-          institution: University of Genoa
-          place: Genoa, Italy
-      email: asharif@fbk.eu
-      website: https://ict.fbk.eu/people/detail/amir-sharif/
-      usernameFBK: asharif
-
-    - name: Roberto
-      surname: Carbone
-      role: Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: carbone@fbk.eu
-      website: https://ict.fbk.eu/people/detail/roberto-carbone/
-      usernameFBK: carbone
-
-    - name: Silvio
-      surname: Ranise
-      role: Head of Unit
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: ranise@fbk.eu
-      website: https://ict.fbk.eu/people/detail/silvio-ranise/
-      usernameFBK: ranise
-
-    - name: Giada
-      surname: Sciarretta
-      role: Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: giada.sciarretta@fbk.eu
-      website: https://ict.fbk.eu/people/detail/giada-sciarretta/
-      usernameFBK: g.sciarretta
+    - SalimehDashti_PhD_FBK
+    - AmirSharif_PhD_FBK
+    - RobertoCarbone_R_FBK
+    - SilvioRanise_H_FBK
+    - GiadaSciarretta_R_FBK
 
 ---

@@ -3,58 +3,13 @@ title: MuFASA
 subtitle: A Tool for High-level Specification and Analysis of Multi-factor Authentication Protocols
 
 people:
-    - name: Federico
-      surname: Sinigaglia
-      role: Ph.D. Student
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-        - unit: DIBRIS
-          institution: University of Genoa
-          place: Genoa, Italy
-      website: https://ict.fbk.eu/people/detail/federico-sinigaglia/
-      email: sinigaglia@fbk.eu
-      usernameFBK: sinigaglia
-
-    - name: Roberto
-      surname: Carbone
-      role: Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      website: https://ict.fbk.eu/people/detail/roberto-carbone/
-      email: carbone@fbk.eu
-      usernameFBK: carbone
-
-    - name: Gabriele
-      surname: Costa
-      affiliations:
-        - unit: SysMA
-          institution: IMT School for Advanced Studies
-          place: Lucca, Italy
-      website: https://www.imtlucca.it/it/gabriele.costa/
-      email: gabriele.costa@imtlucca.it
-      image: http://www.dibris.unige.it/public/staff/img/foto_701568.jpg
-      
-    - name: Silvio
-      surname: Ranise
-      role: Head of Unit
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      website: https://ict.fbk.eu/people/detail/silvio-ranise/
-      email: ranise@fbk.eu
-      usernameFBK: ranise
+    - FedericoSinigaglia_PhD_FBK
+    - RobertoCarbone_R_FBK
+    - GabrieleCosta_IMT
+    - SilvioRanise_H_FBK
 
 publications:
-    - title: "MuFASA: A Tool for High-level Specification and Analysis of Multi-factor Authentication Protocols"
-      authors: Federico Sinigaglia, Roberto Carbone, Gabriele Costa, Silvio Ranise
-      destination: Emerging Technologies for Authorization and Authentication (ETAA 2019)
-      year: 2019
-      doi: 10.1007/978-3-030-39749-4_9
+    - ETAA2019_MuFASA
 
 ---
 

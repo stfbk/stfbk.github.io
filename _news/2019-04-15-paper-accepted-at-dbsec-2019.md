@@ -16,38 +16,9 @@ papers:
         Over the last few years, there has been an almost exponential growth of TLS popularity and usage, especially among applications that deal with sensitive data. However, even with this widespread use, TLS remains for many system administrators a complex subject. The main reason is that they do not have the time to understand all the cryptographic algorithms and features used in a TLS suite and their relative weaknesses. For these reasons, many different tools have been developed to verify TLS implementations. However, they usually analyze the TLS configuration and provide a list of possible attacks, without specifying their mitigations. In this paper, we present TLSAssistant, a fully-featured tool that combines state-of-the-art TLS analyzers with a report system that suggests appropriate mitigations and shows the full set of viable attacks.
 
 people:
-    - name: Salvatore
-      surname: Manfredi
-      role: Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: smanfredi@fbk.eu
-      website: https://ict.fbk.eu/people/detail/salvatore-manfredi/
-      usernameFBK: smanfredi
-
-    - name: Silvio
-      surname: Ranise
-      role: Head of Unit
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: ranise@fbk.eu
-      website: https://ict.fbk.eu/people/detail/silvio-ranise/
-      usernameFBK: ranise
-
-    - name: Giada
-      surname: Sciarretta
-      role: Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: giada.sciarretta@fbk.eu
-      website: https://ict.fbk.eu/people/detail/giada-sciarretta/
-      usernameFBK: g.sciarretta
+    - SalvatoreManfredi_R_FBK
+    - SilvioRanise_H_FBK
+    - GiadaSciarretta_R_FBK
 
 ---
 

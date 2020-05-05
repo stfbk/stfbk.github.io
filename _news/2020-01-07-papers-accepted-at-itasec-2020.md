@@ -17,72 +17,12 @@ papers:
       authors: Matteo Leonelli, Umberto Morelli, Silvio Ranise and Giada Sciarretta
 
 people:
-    - name: Amir
-      surname: Sharif
-      role: PhD Student
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-        - unit: DIBRIS
-          institution: University of Genoa
-          place: Genoa, Italy
-      email: asharif@fbk.eu
-
-    - name: Matteo
-      surname: Leonelli
-      role: Junior Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: leonelli@fbk.eu
-      website: https://ict.fbk.eu/people/detail/matteo-leonelli/
-      usernameFBK: leonelli
-
-    - name: Umberto
-      surname: Morelli
-      role: Technologist
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: umorelli@fbk.eu
-      website: https://ict.fbk.eu/people/detail/umberto-morelli/
-      usernameFBK: umorelli
-
-    - name: Roberto
-      surname: Carbone
-      role: Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: carbone@fbk.eu
-      website: https://ict.fbk.eu/people/detail/roberto-carbone/
-      usernameFBK: carbone
-
-    - name: Silvio
-      surname: Ranise
-      role: Head of Unit
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: ranise@fbk.eu
-      website: https://ict.fbk.eu/people/detail/silvio-ranise/
-      usernameFBK: ranise
-
-    - name: Giada
-      surname: Sciarretta
-      role: Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      email: giada.sciarretta@fbk.eu
-      website: https://ict.fbk.eu/people/detail/giada-sciarretta/
-      usernameFBK: g.sciarretta
+    - AmirSharif_PhD_FBK
+    - MatteoLeonelli_JR_FBK
+    - UmbertoMorelli_T_FBK
+    - RobertoCarbone_R_FBK
+    - SilvioRanise_H_FBK
+    - GiadaSciarretta_R_FBK
 
 peopleOrder: surname
 

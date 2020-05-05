@@ -22,10 +22,7 @@ partners:
       link: http://www.dfki.de/web/welcome?set_language=en&cl=en
 
 people:
-    - name: Roberto
-      surname: Carbone
-      email: carbone@fbk.eu
-      usernameFBK: carbone
+    - RobertoCarbone_R_FBK
 
 peopleOrder: surname
 ---

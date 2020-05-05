@@ -25,34 +25,16 @@ partners:
       detail: fintech business case with an app developed using the API Assistant
 
 people:
-    - name: Amir
-      surname: Sharif
-      email: asharif@fbk.eu
-      usernameFBK: asharif
-    - name: Andrea
-      surname: Bisegna
-      email: a.bisegna@fbk.eu
-      usernameFBK: a.bisegna
-    - name: Giada
-      surname: Sciarretta
-      email: giada.sciarretta@fbk.eu
-      usernameFBK: g.sciarretta
-    - name: Mariano
-      surname: Ceccato
-      email: ceccato@fbk.eu
-      usernameFBK: ceccato
-    - name: Roberto
-      surname: Carbone
-      email: carbone@fbk.eu
-      usernameFBK: carbone
+    - AmirSharif_PhD_FBK
+    - AndreaBisegna_T_FBK
+    - GiadaSciarretta_R_FBK
+    - MarianoCeccato_R_FBK
+    - RobertoCarbone_R_FBK
     - name: Roberto
       surname: Tiella
       email: tiella@fbk.eu
       usernameFBK: tiella
-    - name: Silvio
-      surname: Ranise
-      email: ranise@fbk.eu
-      usernameFBK: ranise
+    - SilvioRanise_H_FBK
 
 peopleOrder: surname
 ---
