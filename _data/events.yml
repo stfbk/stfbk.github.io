@@ -38,3 +38,10 @@
   description: >
     During the workshop the main research themes of the Unit will be discussed, namely: Web-based Authentication and Authorization Protocols (browser-based authentication and authorization protocols, protocols for strong authentication), Mobile Security (security of mobile operating systems and applications, authentication and authorization models and solutions for mobile apps) and Security of Cloud-based and Service-oriented Applications and Infrastructures (models and policies for content protection and release, design-time and run-time analysis and enforcement of access control policies).
   url: /events/second-st-internal-workshop-2014/
+
+- name: 1st International Workshop on Cyber-Physical Security for Critical Infrastructures Protection
+  acronym: CPS4CIP'20
+  startDate: "2020-09-14"
+  endDate: "2020-09-18"
+  description: CPS4CIP'20 is the first workshop dedicated to the cyber-physical security for protecting critical infrastructures that support finance, energy, health, air transport, communication, gas, and water.
+  url: https://sites.google.com/fbk.eu/cps4cip20
