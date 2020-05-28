@@ -39,6 +39,13 @@
     During the workshop the main research themes of the Unit will be discussed, namely: Web-based Authentication and Authorization Protocols (browser-based authentication and authorization protocols, protocols for strong authentication), Mobile Security (security of mobile operating systems and applications, authentication and authorization models and solutions for mobile apps) and Security of Cloud-based and Service-oriented Applications and Infrastructures (models and policies for content protection and release, design-time and run-time analysis and enforcement of access control policies).
   url: /events/second-st-internal-workshop-2014/
 
+- name: "Webinar \"Cyber Security & Servizi Finanziari\""
+  startDate: "2020-05-05"
+  endDate: "2020-05-05"
+  description: >
+    On May 5, 2020, the Security & Trust Unit held the webinar "Cyber Security & Servizi Finanziari" (Cyber Security & Financial Services), in the context of the corporate development program FBK Academy. The webinar deals with the security of financial authentication protocols, with particolar regard to the impact of the Payment Services Directive (PSD2).
+  url: /events/webinar-cyber-security-servizi-finanziari-2020/
+
 - name: 1st International Workshop on Cyber-Physical Security for Critical Infrastructures Protection
   acronym: CPS4CIP'20
   startDate: "2020-09-14"
