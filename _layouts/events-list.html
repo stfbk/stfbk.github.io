@@ -10,10 +10,10 @@ show_sidebar: false
 
         {% assign events = site.data.events | sort: "startDate" | reverse %}
 
-        <div class="tools">
+        <div class="events">
             <ul>
                 {% for event in events %}
-                    <li class="item tool">
+                    <li class="item event">
                         <a href="{{ event.url }}"><b>{{ event.name }}</b></a>{% if event.acronym %} ({{ event.acronym }}){% endif %}, {% if event.startDate != event.endDate %}from {{ event.startDate | date: "%B %e, %Y" }} to {{ event.endDate | date: "%B %e, %Y" }}{% else %}{{ event.startDate | date: "%B %e, %Y" }}{% endif %}
                         {% if event.description %}
                         <ul class="description">

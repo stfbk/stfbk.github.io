@@ -9,6 +9,8 @@ Table of Contents:
   - [General](#general)
     - [Add attached images](#add-attached-images)
     - [Add involved people](#add-involved-people)
+    - [Add related events](#add-related-events)
+    - [Add related tools](#add-related-tools)
     - [Add related publications](#add-related-publications)
     - [Add destination](#add-destination)
   - [Complementary materials](#complementary-materials)
@@ -144,8 +146,26 @@ people:
 
 **Important**: if the person is already listed in the `people.yml` file but with a former affiliation, please don't update the existent entry, as this would cause every page referring to the entry to update accordingly; instead, add a new entry with a different ID.
 
+### Add related events
+To add a list of related events to a specific page, they must be listed in the [`_data/events.yml`](_data/events.yml) file. Thus, insert a new line with a dash (-) followed by the assigned "id" under the `events` structure in the intended page, for instance:
+```yaml
+events:
+  - id1
+  - id2
+  - [...]
+```
+
+### Add related tools
+To add a list of related tools to a specific page, they must be listed in the [`_data/tools.yml`](_data/tools.yml) file. Thus, insert a new line with a dash (-) followed by the assigned "id" under the `tools` structure in the intended page, for instance:
+```yaml
+tools:
+  - id1
+  - id2
+  - [...]
+```
+
 ### Add related publications
-To add a list of related publication to a specific page, just open the [`_data/publications.yml`](_data/publications.yml) file and check whether the publication is already listed (the list is sorted by year). If not, just add it through the following structure:
+To add a list of related publications to a specific page, just open the [`_data/publications.yml`](_data/publications.yml) file and check whether the publication is already listed (the list is sorted by year). If not, just add it through the following structure:
 ```yaml
 - id:                       # Choose a unique ID for the publication, will be referenced later
   title:                    # Title of the publication
@@ -213,7 +233,8 @@ The name of this `.yml` file should be the value of the `menubar` variable in ev
 
 Finally, to list the event, you should edit the file [`_data/events.yml`](_data/events.yml) and append the following structure:
 ```yaml
-- name:                 # Name of the event
+- id:                   # Choose a unique ID for the event
+  name:                 # Name of the event
   acronym:              # Acronym of the event
   startDate:            # Start date in YYYY-MM-DD format
   endDate:              # End date in YYYY-MM-DD format
@@ -226,7 +247,8 @@ After this operation, the tool will be listed on the website (inside the [Events
 ### List an external event
 To list an external event, you should just edit the file [`_data/events.yml`](_data/events.yml) and append the following structure:
 ```yaml
-- name:                 # Name of the event
+- id:                   # Choose a unique ID for the event
+  name:                 # Name of the event
   acronym:              # Acronym of the event
   startDate:            # Start date in YYYY-MM-DD format
   endDate:              # End date in YYYY-MM-DD format
@@ -278,7 +300,8 @@ URL of the new page: `https://stfbk.github.io/tools/[ToolName]`.
 
 The tool must then be listed by editing the page [`_data/tools.yml`](_data/tools.yml) and appending the following structure:
 ```yaml
-- name:                 # Name of the tool
+- id:                   # Choose a unique ID for the tool
+  name:                 # Name of the tool
   description:          # Description of the tool, will be displayed in the list
   urlCode:              # URL of the code repository (optional)
   urlDocumentation:     # URL of the documentation page (optional)
@@ -291,7 +314,8 @@ After this operation, the tool will be listed on the website (inside the [Tools]
 ### List an external tool
 To list a tool whose documentation is not in the new website, just edit the page [`_data/tools.md`](_data/tools.md) and appending the following structure:
 ```yaml
-- name:                 # Name of the tool
+- id:                   # Choose a unique ID for the tool
+  name:                 # Name of the tool
   description:          # Description of the tool, will be displayed in the list
   urlCode:              # URL of the code repository (optional)
   urlDocumentation:     # URL of the documentation page (optional)
