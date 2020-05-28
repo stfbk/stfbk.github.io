@@ -217,7 +217,9 @@ li.abstract, li.bio {
   margin-bottom: 5px;
 }
 
-ul.publications li {
+ul.publications li,
+ul.events li,
+ul.tools li {
   margin-bottom: 10px;
 }
 

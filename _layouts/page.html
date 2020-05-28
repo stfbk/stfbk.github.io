@@ -62,6 +62,52 @@ layout: default
         </div>
     {% endif %}
 
+    {% if page.events.size > 0 %}
+		<div class="column is-12">
+			<h1>Related Events</h1>
+			<ul class="events">
+				{% assign eventsFromId = "" | split: "" %}
+				{% for event in page.events %}
+					{% assign eventFromId = site.data.events | where: "id", event %}
+					{% assign eventFromIdSize = eventFromId | size %}
+					{% if eventFromIdSize == 1 %}
+						{% assign eventsFromId = eventsFromId | concat: eventFromId %}
+					{% endif %}
+				{% endfor %}
+				{% assign eventsSorted = eventsFromId | sort: "year" | reverse %}
+				{%- for event in eventsSorted -%}
+					<li>
+						<b>{{ event.name }}</b>{% if event.acronym %} ({{ event.acronym }}){% endif %}<br />
+						{% if event.startDate != event.endDate %}From {{ event.startDate | date: "%B %e, %Y" }} to {{ event.endDate | date: "%B %e, %Y" }}{% else %}{{ event.startDate | date: "%B %e, %Y" }}{% endif %}
+						({% if event.url %}<a href="{{ event.url }}">link</a>){% endif %}
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+		{% endif %}
+		
+    {% if page.tools.size > 0 %}
+		<div class="column is-12">
+			<h1>Related Tools</h1>
+			<ul class="tools">
+				{% assign toolsFromId = "" | split: "" %}
+				{% for tool in page.tools %}
+					{% assign toolFromId = site.data.tools | where: "id", tool %}
+					{% assign toolFromIdSize = toolFromId | size %}
+					{% if toolFromIdSize == 1 %}
+						{% assign toolsFromId = toolsFromId | concat: toolFromId %}
+					{% endif %}
+				{% endfor %}
+				{% assign toolsSorted = toolsFromId | sort: "year" | reverse %}
+				{%- for tool in toolsSorted -%}
+					<li>
+						<b>{{ tool.name }}</b>{% if tool.urlDocumentation %} [<a href="{{ tool.urlDocumentation }}">documentation</a>]{% endif %}{% if tool.urlCode %} [<a href="{{ tool.urlCode }}">code</a>]{% endif %}
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+    {% endif %}
+
     {% if page.people.size > 0 %}
         <div class="column people is-12">
             <h1 id="title-involvedpeople">Involved People</h1>
