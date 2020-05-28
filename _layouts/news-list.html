@@ -13,8 +13,28 @@ show_sidebar: false
             <ul>
                 {% for post in posts %}
                     {% if post.layout == "news-accepted-paper" %}
-                        {% assign numberPapersFromZero = post.papers.size | minus: 1 %}
-                        {% capture customExcerpt %}The paper{% if post.papers.size > 1 %}s{% endif %} {% for paper in post.papers %}"{{ paper.title }}" by {{ paper.authors }}{% if forloop.index < numberPapersFromZero %}, {% elsif forloop.last == false %}, and {% endif %}{% endfor %} {% if post.papers.size > 1 %}have{% else %}has{% endif %} been accepted at the {{ post.where }}{% if post.whereAcronym %} ({{ post.whereAcronym }}){% endif %}.{% endcapture %}
+                        {% if post.papers.size > 0 %}
+                            {% assign publicationsFromId = "" | split: "" %}
+                            {% for publication in post.papers %}
+                                {% assign publicationFromId = site.data.publications | where: "id", publication %}
+                                {% assign publicationFromIdSize = publicationFromId | size %}
+                                {% if publicationFromIdSize == 1 %}
+                                    {% assign publicationsFromId = publicationsFromId | concat: publicationFromId %}
+                                {% endif %}
+                            {% endfor %}
+                            {% assign publicationsSorted = publicationsFromId | sort: "title" %}
+                        {% endif %}
+                    
+                        {% if publicationsSorted[0].destination %}
+                            {% assign destinationFromId = site.data.destinations | where: "id", publicationsSorted[0].destination %}
+                            {% assign destinationFromIdSize = destinationFromId | size %}
+                            {% if destinationFromIdSize == 1 %}
+                            {% assign destination = destinationFromId[0] %}
+                            {% endif %}
+                        {% endif %}
+
+                        {% assign numberPapersFromZero = publicationsSorted.size | minus: 1 %}
+                        {% capture customExcerpt %}The paper{% if publicationsSorted.size > 1 %}s{% endif %} {% for paper in publicationsSorted %}"{{ paper.title }}" by {{ paper.authors }}{% if forloop.index < numberPapersFromZero %}, {% elsif forloop.last == false %}, and {% endif %}{% endfor %} {% if post.papers.size > 1 %}have{% else %}has{% endif %} been accepted at the {{ destination.name }}{% if destination.acronym %} ({{ destination.acronym }}){% endif %}.{% endcapture %}
                     {% elsif post.layout == "news-seminar" %}
                         {% capture customExcerpt %}Seminar {% if post.seminarTitle %}"{{ post.seminarTitle }}" {% endif %}{% if post.topic %}on {{ post.topic }} {% endif %}by {{ post.speaker }} will be held on {{ post.date | date: "%A, %d %B %Y at %l:%M %p" }}.{% endcapture %}
                     {% elsif post.customExcerpt %}

@@ -1,17 +1,7 @@
 ---
 title: Paper accepted at ABAC 2016
-where: 1st International Workshop on Attribute Based Access Control
-whereAcronym: ABAC 2016
-whereUrl: https://sites.google.com/site/abacworkshop/
-whereType: workshop
-whereLocation: New Orleans, LA, USA
-
-startDate: "2016-03-11"
-endDate: "2016-03-11"
-
 papers:
-    - title: SMT-based Enforcement and Analysis of NATO Content-based Protection and Release Policies
-      authors: A. Armando, S. Ranise, R. Traverso, K. Wrona (NCI Agency)
+  - ABAC2016
 
 ---
 

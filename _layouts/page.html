@@ -35,8 +35,15 @@ layout: default
                 {% endfor %}
                 {% assign publicationsSorted = publicationsFromId | sort: "year" | reverse %}
                 {%- for publication in publicationsSorted -%}
-                    {%- capture destination -%}
-                        {%- if publication.destination -%}In: <i>{{ publication.destination }}</i>{%- if publication.destinationAddon -%}, {{ publication.destinationAddon }}{%- endif -%}{%- endif -%}
+                    {%- if publication.destination -%}
+                        {%- assign destinationFromId = site.data.destinations | where: "id", publication.destination -%}
+                        {%- assign destinationFromIdSize = destinationFromId | size -%}
+                        {%- if destinationFromIdSize == 1 -%}
+                            {% assign destination = destinationFromId[0] -%}
+                        {%- endif -%}
+                    {%- endif -%}
+                    {%- capture destinationString -%}
+                        {%- if destination -%}In: <i>{% if destination.proceedings %}{{ destination.proceedings }}{% else %}{{ destination.name }}{% endif %}</i>{%- if publication.destinationAddon -%}, {{ publication.destinationAddon }}{%- endif -%}{%- endif -%}
                     {%- endcapture -%}
                     {%- capture linksString -%}
                         {%- if publication.urlNews or publication.doi or publication.urlComplementary %}
@@ -48,7 +55,7 @@ layout: default
                     <li>
                         {{ publication.authors }}<br />
                         <b>{{ publication.title }}</b><br />
-                        {{ destination }}{{ linksString }}
+                        {{ destinationString }}{{ linksString }}
                     </li>
                 {% endfor %}
             </ul>

@@ -7,8 +7,10 @@ Table of Contents:
   - [Use of attachments](#use-of-attachments)
 - [Common operations](#common-operations)
   - [General](#general)
+    - [Add attached images](#add-attached-images)
     - [Add involved people](#add-involved-people)
     - [Add related publications](#add-related-publications)
+    - [Add destination](#add-destination)
   - [Complementary materials](#complementary-materials)
     - [Add a new page](#add-a-new-page)
   - [Events](#events)
@@ -103,6 +105,17 @@ Specifically:
 ## General
 The following operations can be done in any page, regardless the category.
 
+### Add attached images
+To add some images, just add the following structure in the related page:
+```yaml
+images:
+    # Repeat the following structure to add more images
+    - title:                    # Title of the image
+      source:                   # Path to the image
+```
+
+Images will be displayed at the end of the page in a *lightbox* structure (i.e., a popup will open and display the image bigger when clicking on it).
+
 ### Add involved people
 To add a list of involved people to a specific page, just open the [`_data/people.yml`](_data/people.yml) file and check whether the person (and the correct affiliation) is already listed. If not, just add it through the following structure:
 ```yaml
@@ -121,17 +134,23 @@ To add a list of involved people to a specific page, just open the [`_data/peopl
   usernameFBK:              # FBK username (for retrieving the picture, optional)
 ```
 
-Then, insert a new line with a dash (-) followed by the assigned "id" under the `publications` structure in the intended page.
+Then, insert a new line with a dash (-) followed by the assigned "id" under the `people` structure in the intended page, for instance:
+```yaml
+people:
+  - id1
+  - id2
+  - [...]
+```
 
 **Important**: if the person is already listed in the `people.yml` file but with a former affiliation, please don't update the existent entry, as this would cause every page referring to the entry to update accordingly; instead, add a new entry with a different ID.
 
 ### Add related publications
-To add a list of related publication to a specific page, just open the [`_data/publications.yml`](_data/publications.yml) file and check whether the publication is already listed. If not, just add it through the following structure:
+To add a list of related publication to a specific page, just open the [`_data/publications.yml`](_data/publications.yml) file and check whether the publication is already listed (the list is sorted by year). If not, just add it through the following structure:
 ```yaml
 - id:                       # Choose a unique ID for the publication, will be referenced later
   title:                    # Title of the publication
   authors:                  # Authors of the publication
-  destination:              # Destination journal or proceedings
+  destination:              # Unique ID of the destination (see below)
   destinationAddon:         # Addon to the destination journal or proceedings (e.g., volume, pages) (optional)
   year:                     # Year of the publication
   doi:                      # DOI of the publication (optional)
@@ -139,7 +158,31 @@ To add a list of related publication to a specific page, just open the [`_data/p
   urlNews:                  # URL to the news of accepted paper on this website (optional)
 ```
 
-Then, insert a new line with a dash (-) followed by the assigned "id" under the `publications` structure in the intended page.
+Then, insert a new line with a dash (-) followed by the assigned "id" under the `publications` structure in the intended page, for instance:
+```yaml
+publications:
+  - id1
+  - id2
+  - [...]
+```
+
+### Add destination
+As explained in the previous section, each publication should be linked to the related destination (conference, workshop or journal) through the `destination` field.
+
+To add a specific destination, just open the [`_data/destinations.yml`](_data/destinations.yml) file and check whether the destination is already listed (journals are on the top, while conferences and workshops are sorted by year). If not, just add it through the following structure:
+```yaml
+- id:                       # Choose a unique ID for the destination, will be referenced later
+  name:                     # Name of the journal, conference or workshop
+  proceedings:              # Name of the proceedings (optional, only if different from "name")
+  acronym:                  # Acronym of  the journal, conference or workshop
+  url:                      # URL of the journal, conference or workshop
+  type:                     # Type of destination (among conference, journal and workshop)
+  location:                 # Location of the destination (if applicable, e.g., not for journal)
+  startDate:                # Starting date of the destination (if applicable, e.g., not for journal)
+  endDate: "2020-06-05"     # Ending date of the destination (if applicable, e.g., not for journal)
+```
+
+Then, insert the assigned "id" in the `destination` field within the publications list.
 
 ## Complementary materials
 ### Add a new page
@@ -200,7 +243,9 @@ URL of the new page: `https://stfbk.github.io/news/[yyyy]/[mm]/[dd]/[title-of-th
 The news will be automatically listed on the website (inside the [News](https://stfbk.github.io/news) page).
 
 ### Add accepted papers news
-To create news about accepted papers, just add a new file in the `_news` folder with the following name: `[yyyy]-[mm]-[dd]-paper-accepted-at-[conference-or-journal-acronym].md`, where `yyyy`, `mm` and `dd` refer to the date of the news. The content of the file should respect the [template](_news/_template-accepted-paper.md).
+To create news about accepted papers, you first need to create the publication (and, maybe, destination) entry as explained [here](#add-related-publications).
+
+Then, just add a new file in the `_news` folder with the following name: `[yyyy]-[mm]-[dd]-paper-accepted-at-[conference-or-journal-acronym].md`, where `yyyy`, `mm` and `dd` refer to the date of the news. The content of the file should respect the [template](_news/_template-accepted-paper.md).
 
 URL of the new page: `https://stfbk.github.io/news/[yyyy]/[mm]/[dd]/paper-accepted-at-[conference-or-journal-acronym]`.
 

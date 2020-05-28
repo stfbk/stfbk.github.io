@@ -1,15 +1,211 @@
+## 2013
+- id: FroCoS2013
+  title: Verification of Composed Array-based Systems with Applications to Security-Aware Workflows
+  authors: Clara Bertolissi and Silvio Ranise
+  abstract: >
+    We introduce a class of symbolic transition systems capable of representing collections of security-aware workflows and we study the verification of reachability properties of such systems. More precisely, we define composed array-based systems as an extension of array-based systems in which array variables are indexed over more than one type. For an application relevant sub-class of these systems we show how to mechanize a symbolic backward reachability procedure by modularly re-using the techniques developed for array-based systems. Finally, and most importantly, we find sufficient conditions for the termination of the procedure and we apply this result to derive the decidability of the reachability problems of two important classes of security-aware workflow systems.
+  destination: FroCoS2013
+  year: 2013
+  doi: 10.1007/978-3-642-40885-4_4
+  urlNews: /news/2013/06/06/paper-accepted-at-frocos-2013/
+
+- id: FPS2013
+  title: Content-based Protection and Release for Access Control in NATO Operations
+  authors: Alessandro Armando, Sander Oudkerk, Silvio Ranise and Konrad Wrona
+  abstract: >
+    The successful operation of NATO missions requires effective and secure sharing of information among coalition partners and external organizations, while avoiding the disclosure of sensitive information to untrusted users. To resolve the conflict between confidentiality and availability, NATO is developing a new information sharing infrastructure, called Content-based Protection and Release. We describe the architecture of access control in NATO operations, which is designed to be easily built on top of available (service-oriented) infrastructures for identity and access control management. We then present a use case scenario drawn from the NATO Passive Missile Defence system for simulating the consequences of intercepting missile attacks. In the system demonstration, we show how maps annotated with the findings of the system are filtered by the access control module to produce appropriate views for users with different clearances and terminals under given release and protection policies.
+  destination: FPS2013
+  year: 2013
+  doi: 10.1007/978-3-319-05302-8_14
+  urlNews: /news/2013/08/27/paper-accepted-at-fps2013/
+
+## 2014
+- id: CSET2014
+  title: "TESTREX: a Testbed for Repeatable Exploits"
+  authors: "S. Dashevskyi, D. Santos, F. Massacci, A. Sabetta"
+  destination: CSET2014
+  year: 2014
+  urlNews: /news/2014/06/09/paper-accepted-at-cset14/
+
+- id: NOMS2014
+  title: A Dynamic Risk-based Access Control Architecture for Cloud Computing
+  authors: Daniel Ricardo dos Santos, Carla Merkle Westphall, Carlos Becker Westphall
+  destination: NOMS2014
+  year: 2014
+  doi: 10.1109/NOMS.2014.6838319
+  urlNews: /news/2013/11/05/paper-accepted-at-noms-2014/
+
+- id: SACMAT2014_ABAC
+  title: Attribute Based Access Control for APIs in Spring Security
+  authors: Alessandro Armando, Roberto Carbone, Eyasu Getahun Chekole and Silvio Ranise
+  destination: SACMAT2014
+  year: 2014
+  doi: 10.1145/2613087.2613109
+  urlNews: /news/2014/05/20/papers-accepted-at-sacmat-2014/
+
+- id: SACMAT2014_RBAC
+  title: Scalable and Precise Automated Analysis of Administrative Temporal Role-Based Access Control
+  authors: Silvio Ranise, Anh Truong and Alessandro Armando
+  destination: SACMAT2014
+  year: 2014
+  doi: 10.1145/2613087.2613102
+  urlNews: /news/2014/05/20/papers-accepted-at-sacmat-2014/
+
+- id: SmartGridSec14
+  title: Selective release of smart metering data in multi-domain smart grids
+  authors: Alessandro Armando, Roberto Carbone, Eyasu Getahun Chekole, Claudio Petrazzuolo, Andrea Ranalli and Silvio Ranise
+  destination: SmartGridSec14
+  year: 2014
+  doi: 10.1007/978-3-319-10329-7_4
+  urlNews: /news/2014/02/19/paper-accepted-at-workshop-on-smart-grid-security/
+
+## 2015
+- id: ASIACCS2015
+  title: Automated Synthesis of Run-time Monitors to Enforce Authorization Policies in Business Processes
+  authors: C. Bertolissi, D. R. Dos Santos, S. Ranise
+  destination: ASIACCS2015
+  year: 2015
+  doi: 10.1145/2714576.2714633
+  urlNews: /news/2015/04/01/paper-accepted-at-asiaccs-2015/
+
+- id: DBSec2015
+  title: Assisting the Deployment of Security-Sensitive Workflows by Finding Execution Scenarios
+  authors: D. R. Dos Santos, S. Ranise. L. Compagna, S. E. Ponta
+  destination: DBSec2015
+  year: 2015
+  doi: 10.1007/978-3-319-20810-7_6
+  urlNews: /news/2015/04/21/paper-accepted-at-dbsec-2015/
+
+- id: TaPP2015
+  title: A Proposal Architecture for Logical Data Tracking in Cloud
+  authors: Mojtaba Eskandari, Bruno Crispo, Anderson Santana de Oliveira
+  destination: TaPP2015
+  year: 2015
+  urlNews: /news/2015/06/05/paper-accepted-at-tapp-2015/
+
+## 2016
+- id: ABAC2016
+  title: SMT-based Enforcement and Analysis of NATO Content-based Protection and Release Policies
+  authors: A. Armando, S. Ranise, R. Traverso, K. Wrona (NCI Agency)
+  destination: ABAC2016
+  year: 2016
+  doi: 10.1145/2875491.2875493
+  urlNews: /news/2016/01/11/paper-accepted-at-abac-2016/
+
+- id: ESSoS2016
+  title: On the Security Cost of Using a Free and Open Source Component in a Proprietary Product
+  authors: S. Dashevskyi, A.D. Brucker, F. Massacci
+  destination: ESSoS2016
+  year: 2016
+  doi: 10.1007/978-3-319-30806-7_12
+  urlNews: /news/2016/02/16/paper-accepted-at-essos-2016/
+
+- id: NDSS2016
+  title: Attack Patterns for Black-Box Security Testing of Multi-Party Web Applications
+  authors: A. Sudhodanan, A. Armando, L. Compagna, R. Carbone
+  destination: NDSS2016
+  year: 2016
+  urlNews: /news/2015/10/23/paper-accepted-at-ndss-2016/
+
+## 2018
+- id: FPS2018
+  title: Validating Requirements of Access Control for Cloud-Edge IoT Solutions
+  authors: Tahir Ahmad and Silvio Ranise
+  abstract: >
+    The pervasiveness of Internet of Things (IoT) solutions have stimulated research on the basic security mechanisms needed in the wide range of IoT use case scenarios, ranging from home automation to industrial control systems. We focus on access control for cloud-edge based IoT solutions for which—in previous work—we have proposed a lazy approach to Access Control as a Service for the specification, administration, and enforcement of policies. The validity of the approach was evaluated in a realistic smart-lock scenario. In this paper, we argue that the approach is adaptable to a wide range of IoT use case scenarios by validating the requirements elicited when analyzing the smart lock scenario.
+  destination: FPS2018
+  year: 2018
+  doi: 10.1007/978-3-030-18419-3_9
+  urlNews: /news/2018/10/11/paper-accepted-at-fps-2018/
+
 - id: POST2018
   title: "Design, Formal Specification and Analysis of Multi-Factor Authentication Solutions with a Single Sign-On Experience"
   authors: Giada Sciarretta, Roberto Carbone, Silvio Ranise, Luca Viganò
-  destination: Principles of Security and Trust (POST 2018)
+  abstract: >
+    Over the last few years, there has been an almost exponential increase of the number of mobile applications that deal with sensitive data, such as applications for e-commerce or health. When dealing with sensitive data, classical authentication solutions based on username-password pairs are not enough, and multi-factor authentication solutions that combine two or more authentication elements of different categories are required. Many different such solutions are available, but they usually cover the scenario of a user accessing web applications on their laptops, whereas in this paper we focus on native mobile applications. This changes the exploitable attack surface and thus requires a specific analysis. In this paper, we present the design, the formal specification and the security analysis of a solution that allows users to access different mobile applications through a multi-factor authentication solution providing a Single Sign-On experience. The formal and automated analysis that we performed validates the security goals of the solution we propose.
+  destination: POST2018
   year: 2018
   doi: 10.1007/978-3-319-89722-6_8
   urlNews: /news/2018/01/25/paper-accepted-at-post-2018/
 
+## 2019
+- id: DBSec2019_TLSA
+  title: "Lost in TLS? No More! Assisted Deployment of Secure TLS Configurations"
+  authors: Salvatore Manfredi, Silvio Ranise and Giada Sciarretta
+  abstract: >
+    Over the last few years, there has been an almost exponential growth of TLS popularity and usage, especially among applications that deal with sensitive data. However, even with this widespread use, TLS remains for many system administrators a complex subject. The main reason is that they do not have the time to understand all the cryptographic algorithms and features used in a TLS suite and their relative weaknesses. For these reasons, many different tools have been developed to verify TLS implementations. However, they usually analyze the TLS configuration and provide a list of possible attacks, without specifying their mitigations. In this paper, we present TLSAssistant, a fully-featured tool that combines state-of-the-art TLS analyzers with a report system that suggests appropriate mitigations and shows the full set of viable attacks.
+  destination: DBSec2019
+  destinationAddon: vol. 11559, pp. 201-220
+  year: 2019
+  doi: 10.1007/978-3-030-22479-0_11
+  urlNews: /news/2019/04/15/paper-accepted-at-dbsec-2019/
+
+- id: ETAA2019_MuFASA
+  title: "MuFASA: A Tool for High-level Specification and Analysis of Multi-factor Authentication Protocols"
+  authors: Federico Sinigaglia, Roberto Carbone, Gabriele Costa, Silvio Ranise
+  abstract: >
+    In recent years, the usage of online services (e.g., banking) has considerably increased. To protect the sensitive resources managed by these services against attackers, Multi-Factor Authentication (MFA) has been widely adopted. To date, a variety of MFA protocols have been implemented, leveraging different designs and features and providing a non-homogeneous level of security and user experience. Public and private authorities have defined laws and guidelines to guide the design of more secure and usable MFA protocols, but their influence on existing MFA implementations remains unclear.
+    We present MuFASA, a tool for high-level specification and analysis of MFA protocols, which aims at supporting normal users and security experts (in the design phase of an MFA protocol), providing a high level report regarding possible risks associated to the specified MFA protocol, its resistance to a set of attacker models (defined by NIST), its ease-of-use and its compliance with a set of security requirements derived from European laws.
+  destination: ETAA2019
+  year: 2019
+  doi: 10.1007/978-3-030-39749-4_9
+  urlComplementary: /tools/MuFASA
+  urlNews: /news/2019/07/30/paper-accepted-at-etaa-2019/
+
+- id: FPS2019
+  title: "Enroll, and authentication will follow: eID-based enrollment for a customized, secure, and frictionless authentication experience"
+  authors: Silvio Ranise, Giada Sciarretta and Alessandro Tomasi
+  destination: FPS2019
+  year: 2019
+  doi: 10.1007/978-3-030-45371-8_10
+  urlNews: /news/2019/10/01/paper-accepted-at-fps-2019/
+
+- id: SECRYPT2019_DP
+  title: A Tool-assisted Methodology for the Data Protection Impact Assessment
+  authors: Salimeh Dashti and Silvio Ranise
+  abstract: >
+    We propose a pragmatic methodology to the Data Protection Impact Assessment (DPIA) based on a tool capable of assisting users during crucial activities such as data processing specification and risk analysis. Previous work on compliance checking and our experience in developing a DPIA methodology for the Public Administration of the province of Trento in Italy are the basis of this work.
+  destination: SECRYPT2019
+  year: 2019
+  doi: 10.5220/0007932202760283
+  urlNews: /news/2019/05/02/papers-accepted-at-secrypt-2019/
+
+- id: SECRYPT2019_SSO
+  title: A Wizard-based Approach for Secure Code Generation of Single Sign-On and Access Delegation Solutions for Mobile Native Apps
+  authors: Amir Sharif, Roberto Carbone, Silvio Ranise and Giada Sciarretta
+  abstract: >
+    Many available mobile applications (apps) have poorly implemented Single Sign-On and Access Delegation solutions leading to serious security issues. This could be caused by inexperienced developers who prioritize the implementation of core functionalities and/or misunderstand security critical parts. The situation is even worse in complex API scenarios where the app interacts with several providers. To address these problems, we propose a novel wizard-based approach that guides developers to integrate multiple third-party Identity Management (IdM) providers in their apps, by (i) “enforcing” the usage of best practices for native apps, (ii) avoiding the need to download several SDKs and understanding their online documentations (a list of known IdM providers with their configuration information is embedded within our approach), and (iii) automatically generating the code to enable the communication with the different IdM providers. The effectiveness of the proposed approach has been assessed by implementing an Android Studio plugin and using it to integrate several IdM providers, such as OKTA, Auth0, Microsoft, and Google.
+  destination: SECRYPT2019
+  year: 2019
+  doi: 10.5220/0007930502680275
+  urlNews: /news/2019/05/02/papers-accepted-at-secrypt-2019/
+
+- id: STM2019
+  title: "Audit-Based Access Control with a Distributed Ledger: Applications to Healthcare Organizations"
+  authors: Umberto Morelli, Silvio Ranise, Damiano Sartori, Giada Sciarretta and Alessandro Tomasi
+  abstract: >
+    We propose an audit-based architecture that leverages the Hyperledger Fabric distributed ledger as a means to increase accountability and decentralize the authorization decision process of Attribute-Based Access Control policies by using smart contracts. Our goal is to decrease the trust in administrators and users with privileged accounts, and make the a posteriori verification of access events more reliable. We implement our approach to the use case of Electronic Health Record access control. Preliminary experiments show the viability of the proposed approach.
+  destination: STM2019
+  year: 2019
+  doi: 10.1007/978-3-030-31511-5_2
+  urlNews: /news/2019/07/25/paper-accepted-at-stm-2019/
+
+## 2020
+- id: ASIACCS2020
+  title: "Exploring Architectures for Cryptographic Access Control Enforcement in the Cloud for Fun and Optimization"
+  authors: Stefano Berlato, Roberto Carbone, Silvio Ranise and Adam J. Lee
+  abstract: >
+    To facilitate the adoption of cloud by organizations, Cryptographic Access Control (CAC) is the obvious solution to control data sharing among users while preventing partially trusted Cloud Service Providers (CSP) to access sensitive data. Indeed, several CAC schemes have been proposed in the literature. Despite their differences, available solutions are based on a common set of entities—e.g., a data storage service or a proxy mediating the access of users to encrypted data—that operate in different (security) domains—e.g., on-premise or the CSP. However, the majority of the CAC schemes assumes a fixed assignment of entities to domains; this has security and usability implications that are not made explicit and can make inappropriate the use of a CAC scheme in certain scenarios with specific requirements. For instance, assuming that the proxy runs at the premises of the organization avoids the vendor lock-in effect but may substantially mine scalability. To the best of our knowledge, no previous work considers how to select the best possible architecture (i.e., the assignment of entities to domains) to deploy a CAC scheme for the requirements of a given scenario. In this paper, we propose a methodology to assist administrators to explore different architectures of CAC schemes for a given scenario. We do this by identifying the possible architectures underlying the CAC schemes available in the literature and formalize them in simple set theory. This allows us to reduce the problem of selecting the most suitable architecture satisfying a heterogeneous set of requirements arising from the considered scenario to a Multi-Objective Optimization Problem (MOOP) for which state-of-the-art solvers can be invoked. Finally, we show how the capability of solving the MOOP can be used to build a prototype tool assisting administrators to preliminary perform a ``What-if'' analysis to explore the trade-offs among the various architectures and then use available standards and tools (such as TOSCA and Cloudify) for automated deployment in multiple CSPs.
+  destination: ASIACCS2020
+  year: 2020
+  urlNews: /news/2020/02/15/paper-accepted-at-asiaccs-2020/
+
 - id: CODASPY2020_PN
   title: "The Good, the Bad and the (Not So) Ugly of Out-Of-Band Authentication with eID Cards and Push Notifications: Design, Formal and Risk Analysis"
   authors: Marco Pernpruner, Roberto Carbone, Silvio Ranise, Giada Sciarretta
-  destination: Proceedings of the Tenth ACM Conference on Data and Application Security and Privacy (CODASPY '20)
+  abstract: >
+    Everyday life is permeated by new technologies allowing people to perform almost any kind of operation from their smart devices. Although this is amazing from a convenience perspective, it may result in several security issues concerning the need for authenticating users in a proper and secure way. Electronic identity cards (also called eID cards) play a very important role in this regard, due to the high level of assurance they provide in identification and authentication processes. However, authentication solutions relying on them are still uncommon and suffer from many usability limitations. In this paper, we thus present the design and implementation of a novel passwordless, multi-factor authentication protocol based on eID cards. To reduce known usability issues while keeping a high level of security, our protocol leverages push notifications and mobile devices equipped with NFC, which can be used to interact with eID cards. In addition, we evaluate the security of the protocol through a formal security analysis and a risk analysis, whose results emphasize the acceptable level of security.
+  destination: CODASPY2020
   year: 2020
   doi: 10.1145/3374664.3375727
   urlComplementary: /complementary/CODASPY2020
@@ -18,25 +214,54 @@
 - id: COSE2020_MFA
   title: "A Survey on Multi-Factor Authentication for Online Banking in the Wild"
   authors: Federico Sinigaglia, Roberto Carbone, Gabriele Costa, Nicola Zannone
-  destination: Computers & Security
+  abstract: >
+    In recent years, the usage of online banking services has considerably increased. To protect the sensitive resources managed by these services against attackers, banks have started adopting Multi-Factor Authentication (MFA). To date, a variety of MFA solutions have been implemented by banks, leveraging different designs and features and providing a non-homogeneous level of security and user experience. Public and private authorities have defined laws and guidelines to guide the design of more secure and usable MFA solutions, but their influence on existing MFA implementations remains unclear. In this work, we present a latitudinal study on the adoption of MFA and the design choices made by banks operating in different countries. In particular, we evaluate the MFA solutions currently adopted in the banking sector in terms of (i) compliance with laws and best practices, (ii) robustness against attacks and (iii) complexity. We also investigate possible correlations between these criteria. Based on this study, we identify a number of lessons learned and open challenges.
+  destination: COSE
   year: 2020
   doi: 10.1016/j.cose.2020.101745
   urlComplementary: https://mfa-team.github.io/
   urlNews: /news/2020/02/02/paper-accepted-at-cose/
 
-- id: ETAA2019_MuFASA
-  title: "MuFASA: A Tool for High-level Specification and Analysis of Multi-factor Authentication Protocols"
-  authors: Federico Sinigaglia, Roberto Carbone, Gabriele Costa, Silvio Ranise
-  destination: Emerging Technologies for Authorization and Authentication (ETAA 2019)
-  year: 2019
-  doi: 10.1007/978-3-030-39749-4_9
-  urlComplementary: /tools/MuFASA
+- id: ITASEC2020_OIC
+  title: Automated Secure Code Generation for OpenID Connect iGov Profile in Mobile Native Applications
+  authors: Amir Sharif, Roberto Carbone, Silvio Ranise and Giada Sciarretta
+  destination: ITASEC2020
+  year: 2020
+  urlNews: /news/2020/01/07/papers-accepted-at-itasec-2020/
 
-- id: DBSec2019_TLSA
-  title: "Lost in TLS? No More! Assisted Deployment of Secure TLS Configurations"
-  authors: Salvatore Manfredi, Silvio Ranise and Giada Sciarretta
-  destination: Proceedings of the 33rd Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy (DBSec 2019)
-  destinationAddon: vol. 11559, pp. 201-220
-  year: 2019
-  doi: 10.1007/978-3-030-22479-0_11
-  urlNews: /news/2019/04/15/paper-accepted-at-dbsec-2019/
+- id: ITASEC2020_PP
+  title: "Pull Printing with National eID Cards: An Open-source and Software-oriented Implementation"
+  authors: Matteo Leonelli, Umberto Morelli, Silvio Ranise and Giada Sciarretta
+  destination: ITASEC2020
+  year: 2020
+  urlNews: /news/2020/01/07/papers-accepted-at-itasec-2020/
+
+- id: JISA2020
+  title: A Large-Scale Study on the Adoption of Anti-Debugging and Anti-Tampering Protections in Android Apps
+  authors: Stefano Berlato, Mariano Ceccato
+  abstract: >
+    Android apps are subject to malicious reverse engineering and code tampering for many reasons, like premium features unlocking and malware piggybacking. Scientific literature and practitioners proposed several Anti-Debugging and Anti-Tampering protections, readily implementable by app developers, to empower Android apps to react against malicious reverse engineering actively. However, the extent to which Android app developers deploy these protections is not known. In this paper, we describe a large-scale study on Android apps to quantify the practical adoption of Anti-Debugging and Anti-Tampering protections. We analyzed 14,173 apps from 2015 and 23,610 apps from 2019 from the Google Play Store. Our analysis shows that 59% of these apps implement neither Anti-Debugging nor Anti-Tampering protections. Moreover, half of the remaining apps deploy only one protection, not exploiting the variety of available protections. We also observe that app developers prefer Java to Native protections by a ratio of 99 to 1. Finally, we note that apps in 2019 employ more protections against reverse engineering than apps in 2015.
+  destination: JISA
+  year: 2020
+  doi: 10.1016/j.jisa.2020.102463
+  urlNews: /news/2020/01/29/paper-accepted-at-jisa/
+
+- id: SACMAT2020
+  title: "Deploying Access Control Enforcement for IoT in the Cloud-Edge Continuum with the help of the CAP Theorem"
+  authors: Tahir Ahmad, Umberto Morelli and Silvio Ranise
+  abstract: >
+    The CAP Theorem is used by distributed system practitioners to investigate the necessary trade-offs in the design and development of distributed systems, mainly databases and web applications. In this paper, we use it to reason about access control systems designed for the Internet of Things (IoT). 
+    We validate our approach by experimentally investigating alternative architectural designs to enforce access control in a smart lock system using the cloud-edge IoT platform offered by Amazon. 
+    We discuss the trade-off between security and performance that may help IoT designers choose the most suitable architecture supporting their requirements.
+  destination: SACMAT2020
+  year: 2020
+  urlNews: /news/2020/04/08/paper-accepted-at-sacmat-2020/
+
+- id: TOPS2020
+  title: Formal Analysis of Mobile Multi-Factor Authentication with Single Sign-On Login
+  authors: Roberto Carbone, Silvio Ranise, Giada Sciarretta and Luca Viganò
+  abstract: >
+    Over the last few years, there has been an almost exponential increase in the number of mobile applications that deal with sensitive data, such as applications for e-commerce or health. When dealing with sensitive data, classical authentication solutions based on username-password pairs are not enough, and multi-factor authentication solutions that combine two or more authentication factors of different categories are required instead. Even if several solutions are currently used, their security analyses have been performed informally or semi-formally at best, and without a reference model and a precise definition of the multi-factor authentication property. This makes a comparison among the different solutions both complex and potentially misleading. In this paper, we first present the design of two reference models for native applications based on the requirements of two real-world use-case scenarios. Common features between them are the use of one-time password approaches and the support of a single sign-on experience. Then, we provide a formal specification of our threat model and the security goals, and discuss the automated security analysis that we performed. Our formal analysis validates the security goals of the two reference models we propose and provides an important building block for the formal analysis of different multi-factor authentication solutions.
+  destination: TOPS
+  year: 2020
+  urlNews: /news/2020/03/12/paper-accepted-at-tops/
