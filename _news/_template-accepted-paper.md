@@ -1,20 +1,9 @@
 ---
 title:                          # Title of the news (e.g., Paper(s) accepted at [Acronym])
-where:                          # Full name of the conference/journal
-whereAcronym:                   # Acronym of the conference/journal (optional)
-whereUrl:                       # Website of the conference/journal (optional)
-whereType:                      # Type of publication (conference, journal, workshop)
-whereLocation:                  # If applicable, the location (optional)
-
-startDate:                      # If applicable, the start date in YYYY-MM-DD format (optional)
-endDate:                        # If applicable, the end date in YYYY-MM-DD format (optional)
 
 papers:
-    # Repeat the following structure for each accepted paper
-    - title:                    # Title of the paper
-      authors:                  # Authors of the paper
-      abstract: >
-        Write here the abstract (only plaintext, also multiline, optional)
+    # For each publication, add details on _data/publications.yml
+    # Then, add here a new line with a dash (-) followed by the assigned "id"
 
 people:                         # People involved in the project (optional)
     # For each person, add details on _data/people.yml

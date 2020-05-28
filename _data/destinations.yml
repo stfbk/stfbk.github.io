@@ -1,0 +1,237 @@
+# JOURNALS
+- id: COSE
+  name: Computers & Security Journal
+  acronym: COSE
+  url: https://www.sciencedirect.com/journal/computers-and-security
+  type: journal
+
+- id: JISA
+  name: Journal of Information Security and Applications
+  acronym: JISA
+  url: https://www.journals.elsevier.com/journal-of-information-security-and-applications
+  type: journal
+
+- id: TOPS
+  name: ACM Transactions on Privacy and Security 
+  acronym: TOPS
+  url: https://tops.acm.org/
+  type: journal
+
+# CONFERENCES/WORKSHOPS
+## 2013
+- id: FPS2013
+  name: International Symposium on Foundations and Practice of Security
+  acronym: FPS 2013
+  type: conference
+  location: La Rochelle, France
+  startDate: "2013-10-21"
+  endDate: "2013-10-22"
+
+- id: FroCoS2013
+  name: International Symposium on Frontiers of Combining Systems
+  acronym: FroCoS 2013
+  url: https://frocos2013.loria.fr/
+  type: conference
+  location: Nancy, France
+  startDate: "2013-09-18"
+  endDate: "2013-09-20"
+
+## 2014
+- id: CSET2014
+  name: 7th Workshop on Cyber Security Experimentation and Test
+  acronym: CSET '14
+  url: https://www.usenix.org/conference/cset14
+  type: workshop
+  location: San Diego, CA, USA
+  startDate: "2014-08-18"
+  endDate: "2014-08-18"
+
+- id: NOMS2014
+  name: 14th IEEE/IFIP Network Operations and Management Symposium
+  acronym: NOMS 2014
+  url: https://noms2014.ieee-noms.org/
+  type: conference
+  location: Krakow, Poland
+  startDate: "2014-05-05"
+  endDate: "2014-05-09"
+
+- id: SACMAT2014
+  name: ACM Symposium on Access Control Models and Technologies
+  acronym: SACMAT 2014
+  url: http://www.sacmat.org/2014/index.php
+  type: conference
+  location: Newark, NJ, USA
+  startDate: "2012-06-20"
+  endDate: "2012-06-22"
+
+- id: SmartGridSec14
+  name: Second Open EIT ICT Labs Workshop on Smart Grid Security
+  acronym: SmartGridSec14
+  url: https://distrinet.cs.kuleuven.be/events/essos/2014/calls-workshop-SmartGridSecurity.html
+  type: workshop
+  location: Munich, Germany
+  startDate: "2014-02-26"
+  endDate: "2014-02-26"
+
+## 2015
+- id: ASIACCS2015
+  name: 10th ACM Symposium on Information, Computer and Communications Security
+  acronym: ASIACCS2015
+  url: http://icsd.i2r.a-star.edu.sg/asiaccs15/index.php
+  type: conference
+  location: Singapore, Malaysia
+  startDate: "2015-04-14"
+  endDate: "2015-04-17"
+
+- id: DBSec2015
+  name: 29th Annual IFIP WG 11.3 Working Conference on Data and Applications Security and Privacy
+  acronym: DBSec 2015
+  url: http://dbsec2015.di.unimi.it/
+  type: conference
+  location: Fairfax, VA, USA
+  startDate: "2015-06-13"
+  endDate: "2015-06-15"
+
+- id: TaPP2015
+  name: 7th International Workshop on Theory and Practice of Provenance
+  acronym: TaPP 2015
+  url: http://workshops.inf.ed.ac.uk/tapp2015/index.html
+  type: workshop
+  location: Edinburgh, Scotland
+  startDate: "2015-07-08"
+  endDate: "2015-07-09"
+
+## 2016
+- id: ABAC2016
+  name: 1st International Workshop on Attribute Based Access Control
+  acronym: ABAC 2016
+  url: https://sites.google.com/site/abacworkshop/
+  type: workshop
+  location: New Orleans, LA, USA
+  startDate: "2016-03-11"
+  endDate: "2016-03-11"
+
+- id: ESSoS2016
+  name: International Symposium on Engineering Secure Software and Systems
+  acronym: ESSoS 2016
+  url: https://distrinet.cs.kuleuven.be/events/essos/2016/index.html
+  type: conference
+  location: London, UK
+  startDate: "2016-04-06"
+  endDate: "2016-04-08"
+
+- id: NDSS2016
+  name: Network and Distributed System Security Symposium
+  acronym: NDSS 2016
+  url: https://www.ndss-symposium.org/ndss2016/
+  type: conference
+  location: San Diego, CA, USA
+  startDate: "2016-02-21"
+  endDate: "2016-02-24"
+
+## 2018
+- id: FPS2018
+  name: 11th International Symposium on Foundations & Practice of Security
+  acronym: FPS 2018
+  url: http://fps2018.encs.concordia.ca/
+  type: conference
+  location: Montreal, Canada
+  startDate: "2018-11-13"
+  endDate: "2018-11-15"
+
+- id: POST2018
+  name: 7th International Conference on Principles of Security and Trust
+  proceedings: Principles of Security and Trust
+  acronym: POST 2018
+  url: https://www.etaps.org/2018/post
+  type: conference
+  location: Thessaloniki, Greece
+  startDate: "2018-04-14"
+  endDate: "2018-04-20"
+
+## 2019
+- id: DBSec2019
+  name: 33rd Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
+  proceedings: Proceedings of the 33rd Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
+  acronym: DBSec 2019
+  url: https://dbsec2019.cse.sc.edu/
+  type: conference
+  location: Charleston, SC, USA
+  startDate: "2019-07-15"
+  endDate: "2019-07-17"
+
+- id: ETAA2019
+  name: 2nd International Workshop on Emerging Technologies for Authorization and Authentication
+  proceedings: Emerging Technologies for Authorization and Authentication (ETAA 2019)
+  acronym: ETAA 2019
+  url: https://www.iit.cnr.it/etaa2019/index.html
+  type: workshop
+  location: Luxembourg
+  startDate: "2019-09-27"
+  endDate: "2019-09-27"
+
+- id: FPS2019
+  name: 12th International Symposium on Foundations & Practice of Security
+  acronym: FPS 2019
+  url: https://fps2019.sciencesconf.org/
+  type: conference
+  location: Toulouse, France
+  startDate: "2019-11-05"
+  endDate: "2019-11-07"
+
+- id: SECRYPT2019
+  name: 16th International Conference on Security and Cryptography
+  acronym: SECRYPT 2019
+  url: http://www.secrypt.icete.org/?y=2019
+  type: conference
+  location: Prague, Czech Republic
+  startDate: "2019-07-26"
+  endDate: "2019-07-28"
+
+- id: STM2019
+  name: 15th International Workshop on Security and Trust Management
+  acronym: STM 2019
+  url: https://stm2019.uni.lu/
+  type: workshop
+  location: Luxembourg
+  startDate: "2019-09-26"
+  endDate: "2019-09-27"
+
+## 2020
+- id: ASIACCS2020
+  name: 15th ACM ASIA Conference on Computer and Communications Security
+  acronym: ASIACCS 2020
+  url: https://asiaccs2020.cs.nthu.edu.tw/
+  type: conference
+  location: Taipei, Taiwan
+  startDate: "2020-06-01"
+  endDate: "2020-06-05"
+
+- id: CODASPY2020
+  name: 10th ACM Conference on Data and Application Security and Privacy
+  proceedings: Proceedings of the Tenth ACM Conference on Data and Application Security and Privacy
+  acronym: CODASPY 2020
+  url: http://www.codaspy.org/2020/
+  type: conference
+  location: New Orleans, LA, USA
+  startDate: "2020-03-16"
+  endDate: "2020-03-18"
+  note: "Postponed to early fall 2020 due to the escalation of the COVID-19 situation around the world"
+
+- id: ITASEC2020
+  name: Italian Conference on CyberSecurity
+  acronym: ITASEC 2020
+  url: https://itasec.it/
+  type: conference
+  location: Ancona, Italy
+  startDate: "2020-02-05"
+  endDate: "2020-02-07"
+
+- id: SACMAT2020
+  name: 25th ACM Symposium on Access Control Models And Technologies
+  acronym: SACMAT 2020
+  url: https://www.sacmat.org/2020/index.php
+  type: conference
+  location: Barcelona, Spain
+  startDate: "2020-06-10"
+  endDate: "2020-06-12"

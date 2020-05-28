@@ -1,17 +1,7 @@
 ---
 title: Paper accepted at Workshop on Smart Grid Security
-where: Second Open EIT ICT Labs Workshop on Smart Grid Security
-whereAcronym: SmartGridSec14
-whereUrl: https://distrinet.cs.kuleuven.be/events/essos/2014/calls-workshop-SmartGridSecurity.html
-whereType: workshop
-whereLocation: Munich, Germany
-
-startDate: "2014-02-26"
-endDate: "2014-02-26"
-
 papers:
-    - title: Selective release of smart metering data in multi-domain smart grids
-      authors: Alessandro Armando, Roberto Carbone, Eyasu Getahun Chekole, Claudio Petrazzuolo, Andrea Ranalli and Silvio Ranise
+  - SmartGridSec14    
 
 ---
 

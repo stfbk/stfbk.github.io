@@ -1,17 +1,7 @@
 ---
 title: Paper accepted at ASIACCS 2015
-where: 10th ACM Symposium on Information, Computer and Communications Security
-whereAcronym: ASIACCS 2015
-whereUrl: http://icsd.i2r.a-star.edu.sg/asiaccs15/index.php
-whereType: conference
-whereLocation: Singapore, Malaysia
-
-startDate: "2015-04-14"
-endDate: "2015-04-17"
-
 papers:
-    - title: Automated Synthesis of Run-time Monitors to Enforce Authorization Policies in Business Processes
-      authors: C. Bertolissi, D. R. Dos Santos, S. Ranise
+  - ASIACCS2015
 
 ---
 

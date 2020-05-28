@@ -1,17 +1,7 @@
 ---
 title: Paper accepted at IEEE/IFIP NOMS 2014
-where: 14th IEEE/IFIP Network Operations and Management Symposium
-whereAcronym: NOMS 2014
-whereUrl: https://noms2014.ieee-noms.org/
-whereType: conference
-whereLocation: Krakow, Poland
-
-startDate: "2014-05-05"
-endDate: "2014-05-09"
-
 papers:
-    - title: A Dynamic Risk-based Access Control Architecture for Cloud Computing
-      authors: Daniel Ricardo dos Santos, Carla Merkle Westphall, Carlos Becker Westphall
+  - NOMS2014    
 
 ---
 
