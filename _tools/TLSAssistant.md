@@ -8,6 +8,7 @@ people:
 
 publications:
     - DBSec2019_TLSA
+    - ICTSecMag202006_TLSA
 
 ---
 
