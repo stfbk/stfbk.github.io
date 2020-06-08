@@ -17,6 +17,12 @@
   url: https://tops.acm.org/
   type: journal
 
+# ONLINE
+- id: ICTSecurityMagazine
+  name: ICT Security Magazine
+  url: https://www.ictsecuritymagazine.com/
+  type: website
+
 # CONFERENCES/WORKSHOPS
 ## 2013
 - id: FPS2013
