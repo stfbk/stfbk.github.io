@@ -268,14 +268,10 @@
   urlComplementary: /complementary/TOPS2020
   urlNews: /news/2020/03/12/paper-accepted-at-tops/
 
-- id: DBSec2019_TLSA
-  destination: DBSec2019
-  urlNews: /news/2019/04/15/paper-accepted-at-dbsec-2019/
-
 - id: ICTSecMag202006_TLSA
   title: "TLSAssistant: uno strumento per mitigare i problemi di sicurezza di TLS"
   authors: Salvatore Manfredi, Silvio Ranise and Giada Sciarretta
-  destination: ICTSecMag
+  destination: ICTSecurityMagazine
   year: 2020
-  urlComplementary: https://www.ictsecuritymagazine.com/articoli/tlsassistant-uno-strumento-per-mitigare-i-problemi-di-sicurezza-di-tls/
+  url: https://www.ictsecuritymagazine.com/articoli/tlsassistant-uno-strumento-per-mitigare-i-problemi-di-sicurezza-di-tls/
   urlNews: /news/2020/06/03/article-published-on-ict-security-magazine/

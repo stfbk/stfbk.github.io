@@ -1,7 +1,7 @@
 ---
 title: Paper accepted at COSE
 papers:
-    - COSE2020      
+    - COSE2020_MFA
 
 people:
     - FedericoSinigaglia_PhD_FBK
