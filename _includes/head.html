@@ -1,16 +1,42 @@
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.title == site.title -%}
+    <title>{{ site.title }} - {{site.tagline }}</title>
+  {%- else -%}
     <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
-    <link rel="shortcut icon" type="image/png"
-          {% if site.favicon %} href="{{ site.favicon | prepend: site.baseurl }}" {% else %} href="{{ site.baseurl }}/favicon.png" {% endif %}
-    />
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    {% seo %}
-    {%- if site.google_analytics -%}
-      {%- include google-analytics.html -%}
-    {%- endif -%}
-    {%- include head-scripts.html -%}
+  {%- endif %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
+  <link rel="shortcut icon" type="image/png"
+    {% if site.favicon %} href="{{ site.favicon | prepend: site.baseurl }}" {% else %} href="{{ site.baseurl }}/favicon.png" {% endif %} />
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  {% seo %}
+  {%- if site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+  {%- if page.images.size > 0 -%}
+    {%- for image in page.images -%}
+      {%- assign splitSource = image.source | split: '://' -%}
+      {%- assign sliceSource = image.source | slice: 0 -%}
+      {% if splitSource[0] == "http" or splitSource[0] == "https" %}
+        {% assign imageSource = image.source %}
+      {% elsif sliceSource == '/' %}
+        {% capture imageSource %}{{ image.source | prepend: site.url }}{% endcapture %}
+      {% else %}
+        {% assign splitPath = page.url | split: '/' %}
+        {% assign pathLast = splitPath | last %}
+        {% assign pathString = "" %}
+        {% for path in splitPath %}
+          {% if path != pathLast %}
+            {% assign pathString = pathString | append: '/' | append: path %}
+          {% endif %}
+        {% endfor %}
+        {% capture imageSource %}{{ image.source | prepend: '/' | prepend: pathString | prepend: site.url }}{% endcapture %}
+      {% endif %}
+      <meta property="og:image" content="{{ imageSource }}" />
+    {%- endfor -%}
+  {%- endif %}
+
+  {% include head-scripts.html -%}
 </head>
