@@ -1,12 +1,7 @@
 ---
 title: The Good, the Bad and the (Not So) Ugly of Out-Of-Band Authentication with eID Cards and Push Notifications
 subtitle: Design, Formal and Risk Analysis
-status: accepted
-conference: 10th ACM Conference on Data and Application Security and Privacy (CODASPY '20)
-
-abstract: >
-    Everyday life is permeated by new technologies allowing people to perform almost any kind of operation from their smart devices. Although this is amazing from a convenience perspective, it may result in several security issues concerning the need for authenticating users in a proper and secure way. Electronic identity cards (also called eID cards) play a very important role in this regard, due to the high level of assurance they provide in identification and authentication processes. However, authentication solutions relying on them are still uncommon and suffer from many usability limitations.
-    In this paper, we thus present the design and implementation of a novel passwordless, multi-factor authentication protocol based on eID cards. To reduce known usability issues while keeping a high level of security, our protocol leverages push notifications and mobile devices equipped with NFC, which can be used to interact with eID cards. In addition, we evaluate the security of the protocol through a formal security analysis and a risk analysis, whose results emphasize the acceptable level of security.
+paper: CODASPY2020_PN
 
 people:
     - MarcoPernpruner_R_FBK

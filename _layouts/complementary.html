@@ -2,16 +2,32 @@
 layout: page
 ---
 
+{% if page.paper %}
+  {% assign publicationFromId = site.data.publications | where: "id", page.paper %}
+  {% if publicationFromId.size == 1 %}{% assign paper = publicationFromId[0] %}{% endif %}
+{% endif %}
+
+{% if paper.destination %}
+  {% assign destinationFromId = site.data.destinations | where: "id", paper.destination %}
+  {% if destinationFromId.size == 1 %}{% assign destination = destinationFromId[0] %}{% endif %}
+{% endif %}
+
 <div class="columns is-multiline">
-
     <div class="column is-12">
-        This page contains complementary material related to the paper "<b>{{ page.title }}{% if page.subtitle %}: {{ page.subtitle }}{% endif %}</b>", {{ page.status }} to the <i>{{ page.conference }}</i>.
+        This page contains complementary material related to the following paper:
+        <ul>
+            <li style="list-style: none;"><b>Title</b>: {{ paper.title }}</li>
+            <li style="list-style: none;"><b>Authors</b>: {{ paper.authors }}</li>
+            {% if paper.doi %}<li style="list-style: none;"><b>DOI</b>: <a href="https://doi.org/{{ paper.doi }}">{{ paper.doi }}</a></li>{% endif %}
+            {% if paper.url %}<li style="list-style: none;"><b>URL</b>: <a href="{{ paper.url }}">{{ paper.url }}</a></li>{% endif %}
+            {% if paper.urlNews %}<li style="list-style: none;"><b>Acceptance News</b>: <a href="{{ paper.urlNews }}">Link</a></li>{% endif %}
+        </ul>
     </div>
 
     <div class="column is-12">
-        <h1>Abstract</h1>
-        {{ page.abstract }}
-    </div>
+      <h1>Abstract</h1>
+      {{ paper.abstract }}
+  </div>
 
     <div class="column is-12">
         <h1>Complementary Material</h1>
