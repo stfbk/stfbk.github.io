@@ -28,8 +28,7 @@ layout: default
                 {% assign publicationsFromId = "" | split: "" %}
                 {% for publication in page.publications %}
                     {% assign publicationFromId = site.data.publications | where: "id", publication %}
-                    {% assign publicationFromIdSize = publicationFromId | size %}
-                    {% if publicationFromIdSize == 1 %}
+                    {% if publicationFromId.size == 1 %}
                         {% assign publicationsFromId = publicationsFromId | concat: publicationFromId %}
                     {% endif %}
                 {% endfor %}
@@ -37,21 +36,37 @@ layout: default
                 {%- for publication in publicationsSorted -%}
                     {%- if publication.destination -%}
                         {%- assign destinationFromId = site.data.destinations | where: "id", publication.destination -%}
-                        {%- assign destinationFromIdSize = destinationFromId | size -%}
-                        {%- if destinationFromIdSize == 1 -%}
+                        {%- if destinationFromId.size == 1 -%}
                             {% assign destination = destinationFromId[0] -%}
+                        {%- else -%}
+                            {% assign destination = "" -%}
                         {%- endif -%}
                     {%- endif -%}
                     {%- capture destinationString -%}
                         {%- if destination -%}In: <i>{% if destination.proceedings %}{{ destination.proceedings }}{% else %}{{ destination.name }}{% endif %}</i>{%- if publication.destinationAddon -%}, {{ publication.destinationAddon }}{%- endif -%}{%- endif -%}
                     {%- endcapture -%}
-                    {%- capture linksString -%}
-                        {%- if publication.urlNews or publication.doi or publication.urlComplementary %}
-                            ({%- if publication.urlNews -%}<a href="{{ publication.urlNews }}">news</a>{%- if publication.doi or publication.urlComplementary -%}, {% endif -%}{%- endif -%}
-                            {%- if publication.doi -%}<a href="https://doi.org/{{ publication.doi }}">DOI</a>{%- if publication.urlComplementary -%}, {% endif -%}{%- endif -%}
-                            {%- if publication.urlComplementary -%}<a href="{{ publication.urlComplementary }}">complementary material</a>{%- endif -%})
-                        {%- endif -%}
-                    {%- endcapture -%}
+                    {%- assign linksArray = "" | split: "" -%}
+                    {%- if publication.doi -%}
+                        {%- assign string = '<a href="https://doi.org/' | append: publication.doi | append: '">DOI</a>' -%}
+                        {%- assign linksArray = linksArray | push: string -%}
+                    {%- endif -%}
+                    {%- if publication.url -%}
+                        {%- assign string = '<a href="' | append: publication.url | append: '">URL</a>' -%}
+                        {%- assign linksArray = linksArray | push: string -%}
+                    {%- endif -%}
+                    {%- if publication.urlComplementary -%}
+                        {%- assign string = '<a href="' | append: publication.urlComplementary | append:'">complementary material</a>' -%}
+                        {%- assign linksArray = linksArray | push: string -%}
+                    {%- endif -%}
+                    {%- if publication.urlNews -%}
+                        {%- assign string = '<a href="' | append: publication.urlNews | append: '">news</a>' -%}
+                        {%- assign linksArray = linksArray | push: string -%}
+                    {%- endif -%}
+                    {%- if linksArray.size > 0 -%}
+                        {%- assign linksString = linksArray | join: ", " | prepend: " (" | append: ")" -%}
+                    {%- else -%}
+                        {%- assign linksString = "" -%}
+                    {%- endif -%}
                     <li>
                         {{ publication.authors }}<br />
                         <b>{{ publication.title }}</b><br />
@@ -69,8 +84,7 @@ layout: default
 				{% assign eventsFromId = "" | split: "" %}
 				{% for event in page.events %}
 					{% assign eventFromId = site.data.events | where: "id", event %}
-					{% assign eventFromIdSize = eventFromId | size %}
-					{% if eventFromIdSize == 1 %}
+					{% if eventFromId.size == 1 %}
 						{% assign eventsFromId = eventsFromId | concat: eventFromId %}
 					{% endif %}
 				{% endfor %}
@@ -93,8 +107,7 @@ layout: default
 				{% assign toolsFromId = "" | split: "" %}
 				{% for tool in page.tools %}
 					{% assign toolFromId = site.data.tools | where: "id", tool %}
-					{% assign toolFromIdSize = toolFromId | size %}
-					{% if toolFromIdSize == 1 %}
+					{% if toolFromId.size == 1 %}
 						{% assign toolsFromId = toolsFromId | concat: toolFromId %}
 					{% endif %}
 				{% endfor %}
@@ -115,8 +128,7 @@ layout: default
                 {% assign peopleFromId = "" | split: "" %}
                 {% for person in page.people %}
                     {% assign personFromId = site.data.people | where: "id", person %}
-                    {% assign personFromIdSize = personFromId | size %}
-                    {% if personFromIdSize == 1 %}
+                    {% if personFromId.size == 1 %}
                         {% assign peopleFromId = peopleFromId | concat: personFromId %}
                     {% endif %}
                 {% endfor %}
