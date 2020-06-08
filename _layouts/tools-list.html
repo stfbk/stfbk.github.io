@@ -14,7 +14,21 @@ show_sidebar: false
             <ul>
                 {% for tool in tools %}
                     <li class="item tool">
-                        <b>{{ tool.name }}</b>{% if tool.urlDocumentation %} [<a href="{{ tool.urlDocumentation }}">documentation</a>]{% endif %}{% if tool.urlCode %} [<a href="{{ tool.urlCode }}">code</a>]{% endif %}
+                        {%- assign linksArray = "" | split: "" -%}
+                        {%- if tool.urlDocumentation %}
+                            {%- assign string = '<a href="' | append: tool.urlDocumentation | append: '">documentation</a>' -%}
+                            {%- assign linksArray = linksArray | push: string -%}
+                        {%- endif -%}
+                        {%- if tool.urlCode %}
+                            {%- assign string = '<a href="' | append: tool.urlCode | append: '">code</a>' -%}
+                            {%- assign linksArray = linksArray | push: string -%}
+                        {%- endif -%}
+                        {%- if linksArray.size > 0 -%}
+                            {%- assign linksString = linksArray | join: ", " | prepend: " [" | append: "]" -%}
+                        {%- else -%}
+                            {%- assign linksString = "" -%}
+                        {%- endif -%}
+                        <b>{{ tool.name }}</b>{{ linksString }}
                         {% if tool.description %}
                         <ul class="description">
                             <li>{{ tool.description }}</li>
