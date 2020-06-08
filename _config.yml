@@ -1,4 +1,6 @@
 title: Security & Trust
+tagline: Research Unit in Fondazione Bruno Kessler (FBK)
+logo: /assets/images/logos/ST_symbol.png
 remote_theme: chrisrhymes/bulma-clean-theme
 markdown: kramdown
 
@@ -36,6 +38,10 @@ collections:
     show_sidebar: false
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/logos/ST_symbol.png
   - scope:
       type: complementary
     values:
