@@ -26,3 +26,7 @@ if ($("iframe").length > 0) {
        iframe16vs9();
    });
 }
+
+if ($("table").length > 0) {
+    $("table").wrap("<div class='table-scrollable'></div>");
+}
