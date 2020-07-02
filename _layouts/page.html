@@ -178,7 +178,7 @@ layout: default
                                 {% else %}
                                     {% assign personWebsite = "https://ict.fbk.eu/people/detail/" | append: person.name | append: "-" | append: person.surname | append: "/" | downcase %}
                                 {% endif %}
-                                <p class="subtitle is-4"><a href="{{ personWebsite }}">Website</a></p>
+                                {% if personWebsite != "" %}<p class="subtitle is-4"><a href="{{ personWebsite }}">Website</a></p>{% endif %}
                             </div>
                         </div>
                     </div>

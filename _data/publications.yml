@@ -275,3 +275,9 @@
   year: 2020
   url: https://www.ictsecuritymagazine.com/articoli/tlsassistant-uno-strumento-per-mitigare-i-problemi-di-sicurezza-di-tls/
   urlNews: /news/2020/06/03/article-published-on-ict-security-magazine/
+
+- id: MicroIDGym_2020
+  title: "Micro-Id-Gym: a Flexible Tool for Pen-testing Identity Management Protocols in the Wild and in the Laboratory"
+  authors: Andrea Bisegna, Roberto Carbone, Giulio Pellizzari and Silvio Ranise
+  abstract: >
+     Identity Management (IdM) solutions are increasingly important for digital infrastructures of both enterprises and public administrations. Their security is a mandatory pre-requisite for building trust in current and future digital ecosystems. Unfortunately, not only their secure deployment but even their usage are non-trivial activities that require a good level of security awareness.  In order to test whether known exploits can be reproduced in different environments, better understand their effects and facilitate the discovery of new vulnerabilities, we need to have a reliable testbed. For this, we present Micro-Id-Gym, providing, in the laboratory, an easy to configure pen-testing environment and, in the wild, several automatic tools tailored to IdM protocols.
