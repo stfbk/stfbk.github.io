@@ -76,6 +76,16 @@
   email: giada.sciarretta@fbk.eu
   usernameFBK: g.sciarretta
 
+- id: GiulioPellizzari_UniTN
+  name: Giulio
+  surname: Pellizzari
+  role: Master's Student
+  affiliations:
+    - unit: DISI
+      institution: University of Trento
+      place: Trento, Italy
+  website: ""
+
 - id: LucaViganò_KCL
   name: Luca
   surname: Viganò
