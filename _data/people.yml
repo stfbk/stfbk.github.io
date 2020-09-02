@@ -231,7 +231,7 @@
       place: Trento, Italy
   email: umorelli@fbk.eu
 
-  - id: MarcoCentenaro_ER_FBK
+- id: MarcoCentenaro_ER_FBK
   name: Marco
   surname: Centenaro
   role: Expert Researcher
@@ -242,7 +242,7 @@
   email: mcentenaro@fbk.eu
   usernameFBK: mcentenaro
 
-  - id: GianfrancoBurzio_SA_DriveSec
+- id: GianfrancoBurzio_SA_DriveSec
   name: Gianfranco
   surname: Burzio
   role: Automotive Safety & Security Advisor
@@ -253,7 +253,7 @@
   image: https://www.drivesec.com/wp-content/uploads/2018/10/Gianfranco-Burzio.jpg
   website: http://www.gianfrancoburzio.it/
 
-  - id: GiuseppeFarandaCordella_CEO_DriveSec
+- id: GiuseppeFarandaCordella_CEO_DriveSec
   name: Giuseppe Faranda
   surname: Cordella
   role: Founder & CEO
@@ -264,7 +264,7 @@
   image: https://www.drivesec.com/wp-content/uploads/2018/10/Giuseppe-Faranda-Cordella.jpg
   website: http://www.gianfrancoburzio.it/
 
-  - id: RobertoRiggio_H_FBK
+- id: RobertoRiggio_H_FBK
   name: Roberto
   surname: Riggio
   role: Head of Unit
