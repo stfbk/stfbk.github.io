@@ -11,4 +11,8 @@ people:
     - GiuseppeFarandaCordella_CEO_DriveSec
     - SilvioRanise_H_FBK
     - RobertoRiggio_H_FBK
+
+images:
+    - title: 5GWF20
+      source: /assets/images/logos/5GWF20Banner.png
 ---
