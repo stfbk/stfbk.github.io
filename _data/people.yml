@@ -204,6 +204,8 @@
     - unit: Security & Trust
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
+  website: https://stefanoberlato.it/
+  image: https://stefanoberlato.it/images/avataaars.png
   email: sberlato@fbk.eu
 
 - id: TahirAhmad_PhD_FBK
@@ -228,3 +230,47 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: umorelli@fbk.eu
+
+  - id: MarcoCentenaro_ER_FBK
+  name: Marco
+  surname: Centenaro
+  role: Expert Researcher
+  affiliations:
+    - unit: Smart Networks and Services
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: mcentenaro@fbk.eu
+  usernameFBK: mcentenaro
+
+  - id: GianfrancoBurzio_SA_DriveSec
+  name: Gianfranco
+  surname: Burzio
+  role: Automotive Safety & Security Advisor
+  affiliations:
+      institution: DriveSec
+      place: Torino, Italy
+  email: gb@drivesec.com
+  image: https://www.drivesec.com/wp-content/uploads/2018/10/Gianfranco-Burzio.jpg
+  website: http://www.gianfrancoburzio.it/
+
+  - id: GiuseppeFarandaCordella_CEO_DriveSec
+  name: Giuseppe Faranda
+  surname: Cordella
+  role: Founder & CEO
+  affiliations:
+      institution: DriveSec
+      place: Torino, Italy
+  email: gfc@drivesec.com
+  image: https://www.drivesec.com/wp-content/uploads/2018/10/Giuseppe-Faranda-Cordella.jpg
+  website: http://www.gianfrancoburzio.it/
+
+  - id: RobertoRiggio_H_FBK
+  name: Roberto
+  surname: Riggio
+  role: Head of Unit
+  affiliations:
+    - unit: Smart Networks and Services
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: rriggio@fbk.eu
+  usernameFBK: rriggio
