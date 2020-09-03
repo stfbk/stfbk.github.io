@@ -250,7 +250,6 @@
       institution: DriveSec
       place: Torino, Italy
   email: gb@drivesec.com
-  image: https://www.drivesec.com/wp-content/uploads/2018/10/Gianfranco-Burzio.jpg
   website: http://www.gianfrancoburzio.it/
 
 - id: GiuseppeFarandaCordella_CEO_DriveSec
@@ -261,7 +260,6 @@
       institution: DriveSec
       place: Torino, Italy
   email: gfc@drivesec.com
-  image: https://www.drivesec.com/wp-content/uploads/2018/10/Giuseppe-Faranda-Cordella.jpg
   website: http://www.gianfrancoburzio.it/
 
 - id: RobertoRiggio_H_FBK
