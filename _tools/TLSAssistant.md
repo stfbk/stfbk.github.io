@@ -36,7 +36,6 @@ TLSAssistant currently integrates four tools that provide state-of-the-art analy
 - [mallodroid](https://github.com/sfahl/mallodroid)
 - [testssl.sh](https://github.com/drwetter/testssl.sh)
 - [tlsfuzzer](https://github.com/tomato42/tlsfuzzer)
-- [TLS Extended_Master_Checker](https://github.com/Tripwire-VERT/TLS_Extended_Master_Checker)
 - **HTTP/HSTS checker** is the first module built in house, it contains a set of simple commands that can detect lack of proper HSTS configuration and other minor checks.
 
 ## Evaluator
@@ -54,6 +53,7 @@ It is the core of TLSAssistant and constitutes our main contribution. It is resp
 
 # Features
 
+### Mitigations
 Thanks to the integrated analyzers, TLSAssistant is currently able to detect and provide mitigations for: 
   - [3SHAKE](https://mitls.org/pages/attacks/3SHAKE)
   - [Bar Mitzvah](https://www.imperva.com/docs/HII_Attacking_SSL_when_using_RC4.pdf)
@@ -72,3 +72,29 @@ Thanks to the integrated analyzers, TLSAssistant is currently able to detect and
   - [SLOTH](https://www.mitls.org/pages/attacks/SLOTH)
   - [Sweet32](https://sweet32.info)
   - [Unsecure Android TrustManagers](https://dl.acm.org/citation.cfm?id=2382205)
+
+### Attack trees
+TLSAssistant is able to graphically represent the analysis result using a set of custom [attack trees](https://www.schneier.com/academic/archives/1999/12/attack_trees.html). Each tree consists of:
+- **A goal (root).** indicating which security property would be broken;
+- **Protocol/infrastructure subgoals.** displaying which protocol or infrastructure can be exploited in order to achieve the root goal;
+- **Technique subgoals.** showing the technique an attacker has to use in order
+to exploit the aforementioned protocol;
+- **Attacks (leaves).** is divided into boxes. The first one lists the
+prerequisites an attacker needs, the second one describes the steps needed to
+exploit the vulnerability and, if needed, a third one shows how the attack is
+concluded.
+
+The following image shows a simplified version of the output
+![stix_output](assets/TLSAssistant/atree_output.png)
+
+### STIX output
+TLSAssistant is able to export the analysis result in [STIX](https://oasis-open.github.io/cti-documentation/stix/intro), a language used to share cyber threat intelligence (CTI) that can be represented with objects and their descriptive relationships. 
+After every scan and for each discovered vulnerability, TLSAssistant generates a STIX bundle (JSON file) containing the following objects:
+1. vulnerability;
+2. course of action;
+3. relationship;
+4. observed data;
+5. sighting.
+
+The following image shows an example for the Bar Mitzvah attack
+![stix_output](assets/TLSAssistant/stix_output.jpg)
