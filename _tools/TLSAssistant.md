@@ -85,7 +85,8 @@ exploit the vulnerability and, if needed, a third one shows how the attack is
 concluded.
 
 The following image shows a simplified version of the output
-![stix_output](assets/TLSAssistant/atree_output.png)
+
+<img class="image-centered" src="assets/TLSAssistant/atree_output.png" alt="attack_tree"/>
 
 ### STIX output
 TLSAssistant is able to export the analysis result in [STIX](https://oasis-open.github.io/cti-documentation/stix/intro), a language used to share cyber threat intelligence (CTI) that can be represented with objects and their descriptive relationships. 
@@ -97,4 +98,5 @@ After every scan and for each discovered vulnerability, TLSAssistant generates a
 5. sighting.
 
 The following image shows an example for the Bar Mitzvah attack
-![stix_output](assets/TLSAssistant/stix_output.jpg)
+
+<img class="image-centered" src="assets/TLSAssistant/stix_output.jpg" alt="stix_output" width="50%" />
