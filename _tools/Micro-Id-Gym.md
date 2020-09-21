@@ -40,6 +40,7 @@ The Micro-Id-Gym Frontend contains tools used to support user pentesting activit
 - **Proxy** It is a web proxy tool that intercepts the HTTP traffic between a browser and the servers of the SUT.
 - **MSC Drawer** It provides a message sequence chart of the authentication flow and it allows easier inspection of the exchanged messages.
 - **Pentesting Tool** It supports a user to perform pentesting of an IdM protocol deployment, by providing instruments to automatically detect security issues. The tools perform both passive and active tests.
+- **STIX Visualizer** It provides a graph of CTI information taken from the STIX vulnerability repository related to the intercepted authentication flow, currently only for SAML.
 
 
 # Additional Contributors
