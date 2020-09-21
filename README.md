@@ -199,7 +199,7 @@ To add a specific destination, just open the [`_data/destinations.yml`](_data/de
   type:                     # Type of destination (among conference, journal and workshop)
   location:                 # Location of the destination (if applicable, e.g., not for journal)
   startDate:                # Starting date of the destination (if applicable, e.g., not for journal)
-  endDate: "2020-06-05"     # Ending date of the destination (if applicable, e.g., not for journal)
+  endDate:                  # Ending date of the destination (if applicable, e.g., not for journal)
 ```
 
 Then, insert the assigned "id" in the `destination` field within the publications list.

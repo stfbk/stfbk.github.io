@@ -43,7 +43,7 @@ layout: default
                         {%- endif -%}
                     {%- endif -%}
                     {%- capture destinationString -%}
-                        {%- if destination -%}In: <i>{% if destination.proceedings %}{{ destination.proceedings }}{% else %}{{ destination.name }}{% endif %}</i>{%- if publication.destinationAddon -%}, {{ publication.destinationAddon }}{%- endif -%}{%- endif -%}
+                        {%- if destination -%}In: <i>{% if destination.proceedings %}{{ destination.proceedings }}{% else %}{{ destination.name }}{% endif %}{%- if destination.acronym -%} ({{ destination.acronym }}{%- endif -%}</i>{%- if publication.destinationAddon -%}, {{ publication.destinationAddon }}{%- endif -%}{%- endif -%}
                     {%- endcapture -%}
                     {%- assign linksArray = "" | split: "" -%}
                     {%- if publication.doi -%}
