@@ -12,7 +12,7 @@ publications:
 
 ---
 
-**Micro-Id-Gym** is a framework where users can develop hands-on experiences on how IdM solutions work and increase their awareness related to the underlying security issues.
+**Micro-Id-Gym** is a framework where users can develop hands-on experiences on how IdM solutions work and increase their awareness related to the underlying security issues. It is open-source, released under [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) license and and you can contribute by visiting the project’s [repository](https://github.com/stfbk/micro-id-gym).
 
 <!--The tool is available on request. If you are interested in trying the tool, please contact us via email. 
 (Contact information is available at the bottom of this webpage.)-->
