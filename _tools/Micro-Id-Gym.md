@@ -25,6 +25,13 @@ The Micro-Id-Gym Frontend consists of tools to support user pentesting activitie
 
 <img class="image-centered" src="assets/Micro-Id-Gym/hla.png" alt="current_architecture" />
 
+## Micro-Id-Gym Backend
+The goal of the Micro-Id-Gym Backend is by construction to provide a test environment generator tailored to IdM protocols and deploy the environment in the SUT. Given a set of available IdM protocol implementations collected while using the tool for third parties, the SUT automatically sets-up a working environment in a local network.
+
+## Micro-Id-Gym Frontend
+The tools of the Micro-Id-Gym Frontend are used for the analysis of the HTTP messages generated during the authentication flow. The first step towards this process is to perform the authentication on the SUT. The messages exchanged during this process are displayed in the MSC Drawer. This is useful because at first glance the pentester can recognize whether the SUT follows the expected flow or not. The second step is to execute the automated tests provided by the Pentesting Tools.
+
+
 # Additional Contributors
 Bachelor's and master's students from the University of Trento,
 involved in internships and theses in FBK.
