@@ -5,6 +5,12 @@
   url: https://www.sciencedirect.com/journal/computers-and-security
   type: journal
 
+- id: IJISC
+  name: International Journal of Information Security and Cybercrime
+  acronym: IJISP
+  url: https://www.ijisc.com/
+  type: journal
+
 - id: JISA
   name: Journal of Information Security and Applications
   acronym: JISA

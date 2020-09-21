@@ -160,6 +160,13 @@
   doi: 10.1007/978-3-030-45371-8_10
   urlNews: /news/2019/10/01/paper-accepted-at-fps-2019/
 
+- id: MicroIDGym_2019
+  title: "Micro-Id-Gym: Identity Management Workouts with Container-Based Microservices"
+  authors: Andrea Bisegna, Roberto Carbone, Ivan Martini, Valentina Odorizzi, Giulio Pellizzari, Silvio Ranise
+  destination: IJISC
+  year: 2019
+  doi: 10.19107/IJISC.2019.01.06
+
 - id: SECRYPT2019_DP
   title: A Tool-assisted Methodology for the Data Protection Impact Assessment
   authors: Salimeh Dashti and Silvio Ranise
