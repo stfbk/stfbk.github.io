@@ -31,7 +31,7 @@ The goal of the Micro-Id-Gym Backend is by construction to provide a test enviro
 - **Config Dashboard** It is used to choose the IdM protocols as an IdP instance and one or more C instance(s) to deploy in the SUT, among the ones available. It is also used to configure some components of the Micro-Id-Gym Frontend.
 - **Client Repository** It contains the instances of Client.
 - **Identity Provider Repository** It contains the instances of Identity Provider.
-- **STIX vulnerability repository** It contains Cyber Threat Intelligence information useful for assessing vulnerabilities following the Structured Threat Information Expression (STIX) format proposed by OASIS CTI TC.
+- **STIX vulnerability repository** It contains Cyber Threat Intelligence information useful for assessing vulnerabilities following the Structured Threat Information Expression [STIX](https://oasis-open.github.io/cti-documentation/stix/intro) format proposed by OASIS CTI TC.
 
 
 ## Micro-Id-Gym Frontend
