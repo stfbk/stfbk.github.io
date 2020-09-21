@@ -3,45 +3,12 @@ title: Micro-Id-Gym
 subtitle: Identity Management Workouts with Container-Based Microservices
 
 people:
-    - name: Andrea
-      surname: Bisegna
-      role: Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      website: https://ict.fbk.eu/people/detail/andrea-bisegna/
-      email: a.bisegna@fbk.eu
-      usernameFBK: a.bisegna
-
-    - name: Roberto
-      surname: Carbone
-      role: Researcher
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      website: https://ict.fbk.eu/people/detail/roberto-carbone/
-      email: carbone@fbk.eu
-      usernameFBK: carbone
-
-    - name: Silvio
-      surname: Ranise
-      role: Head of Unit
-      affiliations:
-        - unit: Security & Trust
-          institution: Fondazione Bruno Kessler
-          place: Trento, Italy
-      website: https://ict.fbk.eu/people/detail/silvio-ranise/
-      email: ranise@fbk.eu
-      usernameFBK: ranise
+    - AndreaBisegna_T_FBK
+    - RobertoCarbone_R_FBK
+    - SilvioRanise_H_FBK
 
 publications:
-    - title: "Micro-Id-Gym: Identity Management Workouts with Container-Based Microservices"
-      authors: Andrea Bisegna, Roberto Carbone, Ivan Martini, Valentina Odorizzi, Giulio Pellizzari, Silvio Ranise
-      destination: International Journal of Information Security and Cybercrime (IJISC 2019)
-      year: 2019
-      doi: 10.19107/IJISC.2019.01.06
+    - MicroIDGym_2019
 
 ---
 
