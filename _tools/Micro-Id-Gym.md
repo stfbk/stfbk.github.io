@@ -16,9 +16,11 @@ publications:
 
 <!--The tool is available on request. If you are interested in trying the tool, please contact us via email. 
 (Contact information is available at the bottom of this webpage.)-->
+{% include toc.md %}
 
 # Architecture
 The Micro-Id-Gym Backend is used to recreate locally a sandbox as an instance of an IdP and a C and it can be done by uploading the own proprietary sandbox or by composing a new sandbox choosing the instances of IdPs and Cs provided by the IdP and C repositories.
+
 The Micro-Id-Gym Frontend consists of tools to support user pentesting activities on the System Under Test (SUT), namely a Proxy, a set of Pentesting Tools, and two tools called MSC Drawer and MSC STIX Visualizer. As already mentioned, the SUT can be a sandbox or any IdM protocol available on Internet.
 
 <img class="image-centered" src="assets/Micro-Id-Gym/hla.png" alt="current_architecture" />
