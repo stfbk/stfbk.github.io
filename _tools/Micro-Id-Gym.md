@@ -28,8 +28,18 @@ The Micro-Id-Gym Frontend consists of tools to support user pentesting activitie
 ## Micro-Id-Gym Backend
 The goal of the Micro-Id-Gym Backend is by construction to provide a test environment generator tailored to IdM protocols and deploy the environment in the SUT. Given a set of available IdM protocol implementations collected while using the tool for third parties, the SUT automatically sets-up a working environment in a local network.
 
+- **Config Dashboard** It is used to choose the IdM protocols as an IdP instance and one or more C instance(s) to deploy in the SUT, among the ones available. It is also used to configure some components of the Micro-Id-Gym Frontend.
+- **Client Repository** It contains the instances of Client.
+- **Identity Provider Repository** It contains the instances of Identity Provider.
+- **STIX vulnerability repository** It contains Cyber Threat Intelligence information useful for assessing vulnerabilities following the Structured Threat Information Expression (STIX) format proposed by OASIS CTI TC.
+
+
 ## Micro-Id-Gym Frontend
 The tools of the Micro-Id-Gym Frontend are used for the analysis of the HTTP messages generated during the authentication flow. The first step towards this process is to perform the authentication on the SUT. The messages exchanged during this process are displayed in the MSC Drawer. This is useful because at first glance the pentester can recognize whether the SUT follows the expected flow or not. The second step is to execute the automated tests provided by the Pentesting Tools.
+
+- **Proxy** It is a web proxy tool that intercepts the HTTP traffic between a browser and the servers of the SUT.
+- **MSC Drawer** It provides a message sequence chart of the authentication flow and it allows easier inspection of the exchanged messages.
+- **Pentesting Tool** It supports a user to perform pentesting of an IdM protocol deployment, by providing instruments to automatically detect security issues. The tools perform both passive and active tests.
 
 
 # Additional Contributors
