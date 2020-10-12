@@ -11,4 +11,7 @@ people:
 
 ---
 
-The paper will be presented by Marco Pernpruner on Tuesday, March 17, 2020 at 14:45 in the context of the *System Security* Session.
+Here you can find the presentation of the paper by Marco Pernpruner:
+<div class="h_iframe">
+    <iframe src="https://www.youtube.com/embed/HBLiiLZx0hM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
