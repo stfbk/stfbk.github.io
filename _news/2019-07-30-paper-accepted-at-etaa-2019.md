@@ -1,7 +1,7 @@
 ---
 title: Paper accepted at ETAA 2019
 papers:
-    - ETAA2019      
+    - ETAA2019_MuFASA
 
 people:
     - FedericoSinigaglia_PhD_FBK
