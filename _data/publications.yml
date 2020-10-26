@@ -300,3 +300,13 @@
   destination: 5GWF20
   year: 2020
   urlNews: /news/2020/07/20/paper-accepted-at-5GWF20/
+  
+  - id: SecAssAPIFinancial_book_2020
+  title: "Automated Assistance to the Security Assessment of API for Financial Services in book Cyber-Physical Threat Intelligence for Critical Infrastructures Security: A Guide to Integrated Cyber-Physical Protection of Modern Critical Infrastructures"
+  authors: Andrea Bisegna, Roberto Carbone, Mariano Ceccato, Salvatore Manfredi, Silvio Ranise, Giada Sciarretta, Alessandro Tomasi and Emanuele Viglianisi 
+  year: 2020
+
+  - id: DETIPS_2020
+title: “Verifiable contracting”
+authors: Sergio Manuel Nóbrega Gonçalves, Alessandro Tomasi, Andrea Bisegna, Giulio Pellizzari and Silvio Ranise 
+year: 2020
