@@ -47,6 +47,8 @@ The Micro-Id-Gym Frontend contains tools used to support user pentesting activit
 Bachelor's and master's students from the University of Trento,
 involved in internships and theses in FBK.
 
+- Giulio Pellizzari: "Micro-Id-Gym: A Tool to Support Sandboxing and Automated Pentensting of Identity Management Protocols" (master's thesis)
+
 - Lorenzo Tait: "A Customized Threat Modeling for Secure Deployment and
 Pentesting of SAML SSO Solutions" (bachelor's thesis).
 
