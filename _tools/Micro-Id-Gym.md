@@ -9,6 +9,9 @@ people:
 
 publications:
     - MicroIDGym_2019
+    - MicroIDGym_2020
+    - SecAssAPIFinancial_book_2020
+    - DETIPS_2020
 
 ---
 
