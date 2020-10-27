@@ -291,6 +291,8 @@
   authors: Andrea Bisegna, Roberto Carbone, Giulio Pellizzari and Silvio Ranise
   abstract: >
     Identity Management (IdM) solutions are increasingly important for digital infrastructures of both enterprises and public administrations. Their security is a mandatory pre-requisite for building trust in current and future digital ecosystems. Unfortunately, not only their secure deployment but even their usage are non-trivial activities that require a good level of security awareness. In order to test whether known exploits can be reproduced in different environments, better understand their effects and facilitate the discovery of new vulnerabilities, we need to have a reliable testbed. For this, we present Micro-Id-Gym which abstractly supports two main activities: the creation of sandboxes with an IdM protocol deployment and the pentesting of IdM protocol deployments in the wild or in the laboratory (on the created sandboxes).
+  destination: ETAA 2020
+  year: 2020
      
 - id: 5GWF20
   title: "Security Considerations on 5G-Enabled Back-Situation Awareness for CCAM"
@@ -305,8 +307,10 @@
   title: "Automated Assistance to the Security Assessment of API for Financial Services in book Cyber-Physical Threat Intelligence for Critical Infrastructures Security: A Guide to Integrated Cyber-Physical Protection of Modern Critical Infrastructures"
   authors: Andrea Bisegna, Roberto Carbone, Mariano Ceccato, Salvatore Manfredi, Silvio Ranise, Giada Sciarretta, Alessandro Tomasi and Emanuele Viglianisi 
   year: 2020
+  doi: 10.1561/9781680836875
 
 - id: DETIPS_2020
   title: "Verifiable contracting"
-  authors: Sergio Manuel Nóbrega Gonçalves, Alessandro Tomasi, Andrea Bisegna, Giulio Pellizzari and Silvio Ranise 
+  authors: Sergio Manuel Nóbrega Gonçalves, Alessandro Tomasi, Andrea Bisegna, Giulio Pellizzari and Silvio Ranise
+  destination: DETIPS 2020
   year: 2020
