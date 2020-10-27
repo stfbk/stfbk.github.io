@@ -257,3 +257,21 @@
   startDate: "2020-09-10"
   endDate: "2020-10-10"
   
+- id: ETAA2020
+  name: 3rd International Workshop on Emerging Technologies for Authorization and Authentication
+  acronym: ETAA2020
+  url: https://www.iit.cnr.it/etaa2020/
+  type: conference
+  location: Virtual Event
+  startDate: "2020-09-14"
+  endDate: "2020-09-18"
+  
+- id: DETIPS2020
+  name: 25th European Symposium on Research in Computer Security
+  acronym: DETIPS2020
+  url: https://www.surrey.ac.uk/esorics-2020
+  type: conference
+  location: Virtual Event
+  startDate: "2020-09-14"
+  endDate: "2020-09-18"  
+  
