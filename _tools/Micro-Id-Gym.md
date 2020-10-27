@@ -52,17 +52,21 @@ involved in internships and theses in FBK.
 
 - Giulio Pellizzari: "Micro-Id-Gym: A Tool to Support Sandboxing and Automated Pentensting of Identity Management Protocols" (master's thesis)
 
+- Stefano Facchini: "Design and Implementation of an Automated Tool for Checking SAML SSO Vulnerabilities and SPID Compliance" (bachelor's thesis).
+
+- Claudio Grisenti: "A Pentesting Tool for OAuth and OIDC Deployments" (bachelor's thesis).
+
 - Lorenzo Tait: "A Customized Threat Modeling for Secure Deployment and
 Pentesting of SAML SSO Solutions" (bachelor's thesis).
 
 - Ivan Martini: "An Automated Security Testing Framework for SAML SSO
-deployments" (bachelor's thesis).
+Deployments" (bachelor's thesis).
 
 - Valentina Odorizzi: "Progettazione e sviluppo di uno strumento per
 l'analisi automatica di vulnerabilit&agrave; "Missing XML Validation" in SAML
 SSO" (bachelor's thesis).
 
-- Giulio Pellizzari: "Design and implementation of a tool to detect
+- Giulio Pellizzari: "Design and Implementation of a Tool to Detect
 Login Cross-Site Request Forgery in SAML SSO: G Suite Case Study" 
 (bachelor's thesis).
 
