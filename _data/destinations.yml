@@ -275,3 +275,9 @@
   startDate: "2020-09-14"
   endDate: "2020-09-18"  
   
+- id: SecAssAPIFinancial_book_2020
+  name: now publishers inc.
+  acronym: SecAssAPIFinancial_book_2020
+  url: https://nowpublishers.com/article/BookDetails/9781680836868
+  type: book
+  
