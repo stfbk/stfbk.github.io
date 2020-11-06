@@ -307,6 +307,7 @@
   title: "Automated Assistance to the Security Assessment of API for Financial Services in book Cyber-Physical Threat Intelligence for Critical Infrastructures Security: A Guide to Integrated Cyber-Physical Protection of Modern Critical Infrastructures"
   authors: Andrea Bisegna, Roberto Carbone, Mariano Ceccato, Salvatore Manfredi, Silvio Ranise, Giada Sciarretta, Alessandro Tomasi and Emanuele Viglianisi 
   year: 2020
+  destination: SecAssAPIFinancial_book_2020
   doi: 10.1561/9781680836875
 
 - id: DETIPS2020
