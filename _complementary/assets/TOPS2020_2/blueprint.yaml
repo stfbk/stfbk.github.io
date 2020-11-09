@@ -1,0 +1,624 @@
+tosca_definitions_version: cloudify_dsl_1_3
+imports:
+  - 'http://www.getcloudify.org/spec/cloudify/5.0.0/types.yaml'
+  - 'plugin:cloudify-aws-plugin?version=2.3.0&distribution=centos'
+inputs:
+  aws_region_name:
+    description: your AWS region name
+    default: eu-central-1
+    type: string
+node_templates:
+  cloudifyLambdaFunction:
+    type: cloudify.nodes.aws.lambda.Function
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_config:
+        FunctionName: CloudifyLambdaFunction
+        Runtime: java8
+        Handler: packageName.cryptoac.dao.aws.lambda.CryptoACLambda
+        Code:
+          S3Bucket: cloudify-lambda-bucket
+          S3Key: LambdaCode.zip
+        kwargs:
+          MemorySize: 128
+    relationships:
+      - type: cloudify.relationships.connected_to
+        target: cloudifyIAMRoleLambdaFunction
+      - target: CloudifyBucketObjectLambdaCode
+        type: cloudify.relationships.depends_on
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+  cloudifyIAMRoleLambdaFunction:
+    type: cloudify.nodes.aws.iam.Role
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_config:
+        RoleName: cloudifyRoleForLambda
+        Path: /
+        AssumeRolePolicyDocument:
+          Version: '2012-10-17'
+          Statement:
+            - Effect: Allow
+              Principal:
+                Service: lambda.amazonaws.com
+              Action: 'sts:AssumeRole'
+      resource_id: ''
+    relationships:
+      - type: cloudify.relationships.aws.iam.role.connected_to
+        target: cloudifyIAMPolicyAmazonRDSFullAccess
+      - target: cloudifyIAMPolicyAmazonVPCFullAccess
+        type: cloudify.relationships.aws.iam.role.connected_to
+      - target: cloudifyIAMPolicyAmazonS3FullAccess
+        type: cloudify.relationships.aws.iam.role.connected_to
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+  CloudifyRDSInstance:
+    type: cloudify.nodes.aws.rds.Instance
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_id: cloudify-rds-instance-id
+    relationships:
+      - target: CloudifySubnetGroup
+        type: cloudify.relationships.aws.rds.instance.connected_to
+      - target: CloudifyParameterGroup
+        type: cloudify.relationships.aws.rds.instance.connected_to
+      - target: CloudifySecurityGroup
+        type: cloudify.relationships.aws.rds.instance.connected_to
+    interfaces:
+      cloudify.interfaces.lifecycle:
+        create:
+          inputs:
+            resource_config:
+              DBInstanceClass: db.t2.micro
+              Engine: mysql
+              EngineVersion: 8.0.16
+              AvailabilityZone: eu-central-1a
+              StorageType: gp2
+              AllocatedStorage: 20
+              DBName: devdb
+              MasterUsername: root
+              MasterUserPassword: themypassword
+              PubliclyAccessible: true
+              VpcSecurityGroupIds:
+                - get_attribute:
+                    - CloudifySecurityGroup
+                    - aws_resource_id
+  CloudifySubnetGroup:
+    type: cloudify.nodes.aws.rds.SubnetGroup
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_config:
+        kwargs:
+          DBSubnetGroupDescription: MySQL8.0 Cloudify Subnet Group
+      resource_id: cloudify-subnet-group-id
+    relationships:
+      - target: CloudifySubnet1
+        type: cloudify.relationships.aws.rds.subnet_group.connected_to
+      - target: CloudifySubnet2
+        type: cloudify.relationships.aws.rds.subnet_group.connected_to
+  CloudifyParameterGroup:
+    type: cloudify.nodes.aws.rds.ParameterGroup
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_config:
+        kwargs:
+          DBParameterGroupName: cloudify-parameter-group
+          DBParameterGroupFamily: mysql8.0
+          Description: MySQL8.0 Parameter Group for Cloudify
+    relationships: []
+    interfaces:
+      cloudify.interfaces.lifecycle:
+        configure:
+          inputs:
+            resource_config:
+              Parameters:
+                - ParameterName: log_bin_trust_function_creators
+                  ParameterValue: '1'
+                  ApplyMethod: immediate
+  CloudifySecurityGroup:
+    type: cloudify.nodes.aws.ec2.SecurityGroup
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_config:
+        GroupName: Cloudify RDS Security Group
+        Description: Cloudify RDS Security Group
+        VpcId:
+          get_attribute:
+            - CloudifyVpc
+            - aws_resource_id
+    relationships:
+      - target: CloudifyVpc
+        type: cloudify.relationships.depends_on
+  CloudifySecurityGroupRuleIngress:
+    type: cloudify.nodes.aws.ec2.SecurityGroupRuleIngress
+    relationships:
+      - type: cloudify.relationships.contained_in
+        target: CloudifySecurityGroup
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_config:
+        IpPermissions:
+          - IpProtocol: '-1'
+            FromPort: -1
+            ToPort: -1
+            IpRanges:
+              - CidrIp: 0.0.0.0/0
+            UserIdGroupPairs:
+              - GroupId:
+                  get_attribute:
+                    - CloudifySecurityGroup
+                    - aws_resource_id
+  CloudifyVpc:
+    type: cloudify.nodes.aws.ec2.Vpc
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_config:
+        CidrBlock: 10.0.0.0/16
+    interfaces:
+      cloudify.interfaces.lifecycle:
+        modify_vpc_attribute:
+          inputs: {}
+        configure:
+          inputs:
+            modify_vpc_attribute_args:
+              EnableDnsHostnames:
+                Value: true
+    relationships: []
+  CloudifyInternetGateway:
+    type: cloudify.nodes.aws.ec2.InternetGateway
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_id: cloudify-dev-rds-vpc-gateway
+      Tags:
+        - Key: Name
+          Value: CloudifyInternetGateway
+    relationships:
+      - target: CloudifyVpc
+        type: cloudify.relationships.depends_on
+  CloudifySubnet1:
+    type: cloudify.nodes.aws.ec2.Subnet
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_config:
+        CidrBlock: 10.0.0.0/24
+        AvailabilityZone:
+          concat:
+            - get_input: aws_region_name
+            - a
+    relationships:
+      - target: CloudifyVpc
+        type: cloudify.relationships.depends_on
+  CloudifySubnet2:
+    type: cloudify.nodes.aws.ec2.Subnet
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_config:
+        CidrBlock: 10.0.1.0/24
+        AvailabilityZone:
+          concat:
+            - get_input: aws_region_name
+            - b
+    relationships:
+      - target: CloudifyVpc
+        type: cloudify.relationships.depends_on
+  CloudifyRouteTable2:
+    type: cloudify.nodes.aws.ec2.RouteTable
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_id: cloudify-dev-rds-route-table-2
+    relationships:
+      - target: CloudifyVpc
+        type: cloudify.relationships.contained_in
+      - target: CloudifySubnet2
+        type: cloudify.relationships.connected_to
+  CloudifyRoute2:
+    type: cloudify.nodes.aws.ec2.Route
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_id: cloudify-dev-rds-route-2
+      resource_config:
+        kwargs:
+          DestinationCidrBlock: 0.0.0.0/0
+    relationships:
+      - target: CloudifyRouteTable2
+        type: cloudify.relationships.contained_in
+      - target: CloudifyInternetGateway
+        type: cloudify.relationships.connected_to
+  CloudifyUser:
+    type: cloudify.nodes.aws.iam.User
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_config:
+        UserName: CloudifyUser
+        Path: /
+    relationships:
+      - target: CloudifyUserPolicy
+        type: cloudify.relationships.aws.iam.user.connected_to
+  cloudifyIAMPolicyAmazonRDSFullAccess:
+    type: cloudify.nodes.aws.iam.Policy
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_config:
+        PolicyName: CloudifyAmazonRDSFullAccessPolicy
+        Description: AmazonRDSFullAccess policy
+        Path: /
+        PolicyDocument:
+          Version: '2012-10-17'
+          Statement: []
+      resource_id: 'arn:aws:iam::aws:policy/AmazonRDSFullAccess'
+      use_external_resource: true
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    interfaces:
+      cloudify.interfaces.lifecycle:
+        create:
+          inputs:
+            runtime_properties:
+              aws_resource_arn: 'arn:aws:iam::aws:policy/AmazonRDSFullAccess'
+    relationships: []
+  cloudifyIAMPolicyAmazonVPCFullAccess:
+    type: cloudify.nodes.aws.iam.Policy
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_id: 'arn:aws:iam::aws:policy/AmazonVPCFullAccess'
+      use_external_resource: true
+      resource_config:
+        PolicyName: CloudifyAmazonVPCFullAccessPolicy
+        Description: AmazonRDSFullAccess policy
+        Path: /
+        PolicyDocument:
+          Version: '2012-10-17'
+          Statement: []
+    interfaces:
+      cloudify.interfaces.lifecycle:
+        create:
+          inputs:
+            runtime_properties:
+              aws_resource_arn: 'arn:aws:iam::aws:policy/AmazonVPCFullAccess'
+    relationships: []
+  cloudifyIAMPolicyAmazonS3FullAccess:
+    type: cloudify.nodes.aws.iam.Policy
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_id: 'arn:aws:iam::aws:policy/AmazonS3FullAccess'
+      use_external_resource: true
+      resource_config:
+        PolicyName: CloudifyAmazonS3FullAccessPolicy
+        Description: AmazonRDSFullAccess policy
+        Path: /
+        PolicyDocument:
+          Version: '2012-10-17'
+          Statement: []
+    interfaces:
+      cloudify.interfaces.lifecycle:
+        create:
+          inputs:
+            runtime_properties:
+              aws_resource_arn: 'arn:aws:iam::aws:policy/AmazonS3FullAccess'
+    relationships: []
+  CloudifyLambdaBucket:
+    type: cloudify.nodes.aws.s3.Bucket
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      resource_config:
+        Bucket: cloudify-lambda-bucket
+        CreateBucketConfiguration:
+          LocationConstraint:
+            get_input: aws_region_name
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+    relationships: []
+  CloudifyUploadBucket:
+    type: cloudify.nodes.aws.s3.Bucket
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_id: ''
+      resource_config:
+        Bucket: cloudify-upload-bucket
+        CreateBucketConfiguration:
+          LocationConstraint:
+            get_input: aws_region_name
+    relationships: []
+  CloudifyDownloadBucket:
+    type: cloudify.nodes.aws.s3.Bucket
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_id: ''
+      resource_config:
+        Bucket: cloudify-download-bucket
+        CreateBucketConfiguration:
+          LocationConstraint:
+            get_input: aws_region_name
+    relationships: []
+  CloudifyBucketObjectLambdaCode:
+    type: cloudify.nodes.aws.s3.BucketObject
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      source_type: local
+      resource_config:
+        Bucket: cloudify-lambda-bucket
+        Key: LambdaCode.zip
+      path: CryptographicRBACLambda.zip
+    relationships:
+      - target: CloudifyLambdaBucket
+        type: cloudify.relationships.depends_on
+  CloudifyUserPolicy:
+    type: cloudify.nodes.aws.iam.Policy
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_config:
+        PolicyName: cloudify-lambda-and-bucket-policy
+        Description: Grants access to lambda and specified s3 buckets
+        Path: /
+        PolicyDocument:
+          Version: '2012-10-17'
+          Statement:
+            - Sid: VisualEditor0
+              Effect: Allow
+              Action:
+                - 's3:GetObject'
+                - 'lambda:InvokeFunction'
+              Resource:
+                - 'arn:aws:s3:::cloudify-download-bucket/*'
+                - >-
+                  arn:aws:lambda:eu-central-1:117968532143:function:CloudifyLambdaFunction
+            - Sid: VisualEditor1
+              Effect: Allow
+              Action: 's3:PutObject'
+              Resource: 'arn:aws:s3:::cloudify-upload-bucket/*'
+    relationships: []
+  CloudifyRoute1:
+    type: cloudify.nodes.aws.ec2.Route
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_id: cloudify-dev-rds-route
+      resource_config:
+        kwargs:
+          DestinationCidrBlock: 0.0.0.0/0
+    relationships:
+      - target: CloudifyRouteTable1
+        type: cloudify.relationships.contained_in
+      - target: CloudifyInternetGateway
+        type: cloudify.relationships.connected_to
+  CloudifyRouteTable1:
+    type: cloudify.nodes.aws.ec2.RouteTable
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
+    properties:
+      client_config:
+        aws_access_key_id:
+          get_secret: aws_access_key_id
+        aws_secret_access_key:
+          get_secret: aws_secret_access_key
+        region_name:
+          get_input: aws_region_name
+      resource_id: cloudify-dev-rds-route-table
+    relationships:
+      - target: CloudifyVpc
+        type: cloudify.relationships.contained_in
+      - target: CloudifySubnet1
+        type: cloudify.relationships.connected_to
