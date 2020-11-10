@@ -10,7 +10,7 @@ people:
     - SilvioRanise_H_FBK
 ---
 
-Below, you find links to complementary material and additional resources referenced by the paper.
+Below, you find links to complementary material and additional resources referenced in the paper.
 
 
 
