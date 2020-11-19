@@ -157,12 +157,12 @@ html {
 }
 
 .tag.tag-attendances {
-  background-color: #ede049;
+  background-color: #539edb;
   color: #000;
 }
 
 .tag.tag-attendances.is-light {
-  background-color: #f5ef9c;
+  background-color: #6daee3;
   color: #000;
 }
 
@@ -193,6 +193,16 @@ html {
 
 .tag.tag-seminars.is-light {
   background-color: #ccefc7;
+  color: #000;
+}
+
+.tag.tag-awards {
+  background-color: #ede049;
+  color: #000;
+}
+
+.tag.tag-awards.is-light {
+  background-color: #f5ef9c;
   color: #000;
 }
 
