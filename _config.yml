@@ -73,6 +73,11 @@ defaults:
     values:
       layout: news-seminar
       tags: [seminars]
+      
+  - scope:
+      path: "_news/*award*"
+    values:
+      tags: [awards]
 
   - scope:
       type: projects
