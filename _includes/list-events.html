@@ -1,0 +1,23 @@
+{% if include.source %}
+    {% assign source = include.source %}
+{% endif %}
+
+{% if source.size > 0 %}
+<ul class="events">
+    {% assign eventsFromId = "" | split: "" %}
+    {% for event in source %}
+        {% assign eventFromId = site.data.events | where: "id", event %}
+        {% if eventFromId.size == 1 %}
+            {% assign eventsFromId = eventsFromId | concat: eventFromId %}
+        {% endif %}
+    {% endfor %}
+    {% assign eventsSorted = eventsFromId | sort: "year" | reverse %}
+    {%- for event in eventsSorted -%}
+        <li>
+            <b>{{ event.name }}</b>{% if event.acronym %} ({{ event.acronym }}){% endif %}<br />
+            {% if event.startDate != event.endDate %}From {{ event.startDate | date: "%B %e, %Y" }} to {{ event.endDate | date: "%B %e, %Y" }}{% else %}{{ event.startDate | date: "%B %e, %Y" }}{% endif %}
+            ({% if event.url %}<a href="{{ event.url }}">link</a>){% endif %}
+        </li>
+    {% endfor %}
+</ul>
+{% endif %}

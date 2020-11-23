@@ -1,0 +1,82 @@
+{% if include.source %}
+    {% assign source = include.source %}
+{% endif %}
+{% assign details = include.details %}
+{% assign sort = include.sort %}
+{% assign style = include.style %}
+
+{% if source.size > 0 %}
+<div class="columns is-multiline">
+    {% assign peopleFromId = "" | split: "" %}
+    {% for person in source %}
+        {% assign personFromId = site.data.people | where: "id", person %}
+        {% if personFromId.size == 1 %}
+            {% assign peopleFromId = peopleFromId | concat: personFromId %}
+        {% endif %}
+    {% endfor %}
+
+    {% if sort %}
+        {% assign people = peopleFromId | sort: sort %}
+    {% else %}
+        {% assign people = peopleFromId %}
+    {% endif %}
+
+    {% if style == "card" %}
+        {% for person in people %}
+            <div class="column is-3-desktop is-4-tablet">
+                <div class="card person">
+                    {% if person.image %}
+                        {% assign personImage = person.image %}
+                    {% elsif person.usernameFBK %}
+                        {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ person.usernameFBK }}{% endcapture %}
+                    {% elsif person.email %}
+                        {% assign splitEmail = person.email | split: '@' %}
+                        {% if splitEmail[1] == "fbk.eu" %}
+                            {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ splitEmail[0] }}{% endcapture %}
+                        {% else %}
+                            {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/no-user{% endcapture %}
+                        {% endif %}
+                    {% else %}
+                        {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/no-user{% endcapture %}
+                    {% endif %}
+                    {% if personImage != "" %}
+                        <div class="card-image">
+                            <figure class="image">
+                                <img src="{{ personImage }}" alt="{{ person.surname }} {{ person.name }}" />
+                            </figure>
+                        </div>
+                    {% endif %}
+                    <div class="card-content">
+                        {% if person.name and person.surname %}<p class="title is-4">{{ person.name }} {{ person.surname }}</p>{% endif %}
+                        {% if person.role %}<p class="subtitle is-4">{{ person.role }}</p>{% endif %}
+                        {% if details != "basic" %}
+                            {% for affiliation in person.affiliations %}
+                                <div class="affiliation{% if person.affiliations.size > 1 %} more{% endif %}">
+                                    {% if affiliation.unit %}<p class="subtitle is-4">{{ affiliation.unit }}</p>{% endif %}
+                                    {% if affiliation.institution %}<p class="subtitle is-4">{{ affiliation.institution }}</p>{% endif %}
+                                    {% if affiliation.place %}<p class="subtitle is-4">{{ affiliation.place }}</p>{% endif %}
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                        {% if person.email %}<p class="subtitle is-4"><a href="mailto:{{ person.email }}">{{ person.email }}</a></p>{% endif %}
+                        {% if details != "basic" %}
+                            {% if person.website %}
+                                {% assign personWebsite = person.website %}
+                            {% else %}
+                                {% assign personWebsite = "https://ict.fbk.eu/people/detail/" | append: person.name | append: "-" | append: person.surname | append: "/" | downcase %}
+                            {% endif %}
+                            {% if personWebsite != "" %}<p class="subtitle is-4"><a href="{{ personWebsite }}">Website</a></p>{% endif %}
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    {% elsif style == "list" %}
+        <ul>
+            {% for person in people %}
+                <li>{% if person.name and person.surname %}{{ person.name }} {{ person.surname }}{% endif %}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</div>
+{% endif %}
