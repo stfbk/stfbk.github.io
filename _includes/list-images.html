@@ -1,0 +1,12 @@
+{% if include.source %}
+    {% assign source = include.source %}
+{% endif %}
+
+{% if source.size > 0 %}
+{% for image in source %}
+    <a href="{{ image.source }}" data-lightbox="images" data-title="{{ image.title }}">
+        <img class="img-attachment" src="{{ image.source }}" />
+    </a>
+{% endfor %}
+<div style="clear: both;"></div>
+{% endif %}

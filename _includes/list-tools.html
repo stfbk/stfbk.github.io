@@ -1,0 +1,21 @@
+{% if include.source %}
+    {% assign source = include.source %}
+{% endif %}
+
+{% if source.size > 0 %}
+<ul class="tools">
+    {% assign toolsFromId = "" | split: "" %}
+    {% for tool in source %}
+        {% assign toolFromId = site.data.tools | where: "id", tool %}
+        {% if toolFromId.size == 1 %}
+            {% assign toolsFromId = toolsFromId | concat: toolFromId %}
+        {% endif %}
+    {% endfor %}
+    {% assign toolsSorted = toolsFromId | sort: "year" | reverse %}
+    {%- for tool in toolsSorted -%}
+        <li>
+            <b>{{ tool.name }}</b>{% if tool.urlDocumentation %} [<a href="{{ tool.urlDocumentation }}">documentation</a>]{% endif %}{% if tool.urlCode %} [<a href="{{ tool.urlCode }}">code</a>]{% endif %}
+        </li>
+    {% endfor %}
+</ul>
+{% endif %}

@@ -1,0 +1,56 @@
+{% if include.source %}
+    {% assign source = include.source %}
+{% endif %}
+
+{% if source.size > 0 %}
+<ul class="publications">
+    {% assign publicationsFromId = "" | split: "" %}
+    {% for publication in source %}
+        {% assign publicationFromId = site.data.publications | where: "id", publication %}
+        {% if publicationFromId.size == 1 %}
+            {% assign publicationsFromId = publicationsFromId | concat: publicationFromId %}
+        {% endif %}
+    {% endfor %}
+    {% assign publicationsSorted = publicationsFromId | sort: "year" | reverse %}
+    {%- for publication in publicationsSorted -%}
+        {%- if publication.destination -%}
+            {%- assign destinationFromId = site.data.destinations | where: "id", publication.destination -%}
+            {%- if destinationFromId.size == 1 -%}
+                {% assign destination = destinationFromId[0] -%}
+            {%- else -%}
+                {% assign destination = "" -%}
+            {%- endif -%}
+        {%- endif -%}
+        {%- capture destinationString -%}
+            {%- if destination -%}In: <i>{% if destination.proceedings %}{{ destination.proceedings }}{% else %}{{ destination.name }}{% endif %}{%- if destination.acronym %} ({{ destination.acronym }}){%- endif -%}</i>{%- if publication.destinationAddon -%}, {{ publication.destinationAddon }}{%- endif -%}{%- endif -%}
+        {%- endcapture -%}
+        {%- assign linksArray = "" | split: "" -%}
+        {%- if publication.doi -%}
+            {%- assign string = '<a href="https://doi.org/' | append: publication.doi | append: '">DOI</a>' -%}
+            {%- assign linksArray = linksArray | push: string -%}
+        {%- endif -%}
+        {%- if publication.url -%}
+            {%- assign string = '<a href="' | append: publication.url | append: '">URL</a>' -%}
+            {%- assign linksArray = linksArray | push: string -%}
+        {%- endif -%}
+        {%- if publication.urlComplementary -%}
+            {%- assign string = '<a href="' | append: publication.urlComplementary | append:'">complementary material</a>' -%}
+            {%- assign linksArray = linksArray | push: string -%}
+        {%- endif -%}
+        {%- if publication.urlNews -%}
+            {%- assign string = '<a href="' | append: publication.urlNews | append: '">news</a>' -%}
+            {%- assign linksArray = linksArray | push: string -%}
+        {%- endif -%}
+        {%- if linksArray.size > 0 -%}
+            {%- assign linksString = linksArray | join: ", " | prepend: " (" | append: ")" -%}
+        {%- else -%}
+            {%- assign linksString = "" -%}
+        {%- endif -%}
+        <li>
+            {{ publication.authors }}<br />
+            <b>{{ publication.title }}</b><br />
+            {{ destinationString }}{{ linksString }}
+        </li>
+    {% endfor %}
+</ul>
+{% endif %}

@@ -12,178 +12,35 @@ layout: default
     {% if page.images.size > 0 %}
         <div class="column images is-12">
             <h1>Images</h1>
-            {% for image in page.images %}
-            <a href="{{ image.source }}" data-lightbox="images" data-title="{{ image.title }}">
-                <img class="img-attachment" src="{{ image.source }}" />
-            </a>
-            {% endfor %}
-            <div style="clear: both;"></div>
+            {% include list-images.html source=page.images %}
         </div>
     {% endif %}
 
     {% if page.publications.size > 0 %}
         <div class="column is-12">
             <h1>Related Publications</h1>
-            <ul class="publications">
-                {% assign publicationsFromId = "" | split: "" %}
-                {% for publication in page.publications %}
-                    {% assign publicationFromId = site.data.publications | where: "id", publication %}
-                    {% if publicationFromId.size == 1 %}
-                        {% assign publicationsFromId = publicationsFromId | concat: publicationFromId %}
-                    {% endif %}
-                {% endfor %}
-                {% assign publicationsSorted = publicationsFromId | sort: "year" | reverse %}
-                {%- for publication in publicationsSorted -%}
-                    {%- if publication.destination -%}
-                        {%- assign destinationFromId = site.data.destinations | where: "id", publication.destination -%}
-                        {%- if destinationFromId.size == 1 -%}
-                            {% assign destination = destinationFromId[0] -%}
-                        {%- else -%}
-                            {% assign destination = "" -%}
-                        {%- endif -%}
-                    {%- endif -%}
-                    {%- capture destinationString -%}
-                        {%- if destination -%}In: <i>{% if destination.proceedings %}{{ destination.proceedings }}{% else %}{{ destination.name }}{% endif %}{%- if destination.acronym %} ({{ destination.acronym }}){%- endif -%}</i>{%- if publication.destinationAddon -%}, {{ publication.destinationAddon }}{%- endif -%}{%- endif -%}
-                    {%- endcapture -%}
-                    {%- assign linksArray = "" | split: "" -%}
-                    {%- if publication.doi -%}
-                        {%- assign string = '<a href="https://doi.org/' | append: publication.doi | append: '">DOI</a>' -%}
-                        {%- assign linksArray = linksArray | push: string -%}
-                    {%- endif -%}
-                    {%- if publication.url -%}
-                        {%- assign string = '<a href="' | append: publication.url | append: '">URL</a>' -%}
-                        {%- assign linksArray = linksArray | push: string -%}
-                    {%- endif -%}
-                    {%- if publication.urlComplementary -%}
-                        {%- assign string = '<a href="' | append: publication.urlComplementary | append:'">complementary material</a>' -%}
-                        {%- assign linksArray = linksArray | push: string -%}
-                    {%- endif -%}
-                    {%- if publication.urlNews -%}
-                        {%- assign string = '<a href="' | append: publication.urlNews | append: '">news</a>' -%}
-                        {%- assign linksArray = linksArray | push: string -%}
-                    {%- endif -%}
-                    {%- if linksArray.size > 0 -%}
-                        {%- assign linksString = linksArray | join: ", " | prepend: " (" | append: ")" -%}
-                    {%- else -%}
-                        {%- assign linksString = "" -%}
-                    {%- endif -%}
-                    <li>
-                        {{ publication.authors }}<br />
-                        <b>{{ publication.title }}</b><br />
-                        {{ destinationString }}{{ linksString }}
-                    </li>
-                {% endfor %}
-            </ul>
+            {% include list-publications.html source=page.publications %}
         </div>
     {% endif %}
 
     {% if page.events.size > 0 %}
 		<div class="column is-12">
 			<h1>Related Events</h1>
-			<ul class="events">
-				{% assign eventsFromId = "" | split: "" %}
-				{% for event in page.events %}
-					{% assign eventFromId = site.data.events | where: "id", event %}
-					{% if eventFromId.size == 1 %}
-						{% assign eventsFromId = eventsFromId | concat: eventFromId %}
-					{% endif %}
-				{% endfor %}
-				{% assign eventsSorted = eventsFromId | sort: "year" | reverse %}
-				{%- for event in eventsSorted -%}
-					<li>
-						<b>{{ event.name }}</b>{% if event.acronym %} ({{ event.acronym }}){% endif %}<br />
-						{% if event.startDate != event.endDate %}From {{ event.startDate | date: "%B %e, %Y" }} to {{ event.endDate | date: "%B %e, %Y" }}{% else %}{{ event.startDate | date: "%B %e, %Y" }}{% endif %}
-						({% if event.url %}<a href="{{ event.url }}">link</a>){% endif %}
-					</li>
-				{% endfor %}
-			</ul>
+			{% include list-events.html source=page.events %}
 		</div>
 		{% endif %}
 		
     {% if page.tools.size > 0 %}
 		<div class="column is-12">
 			<h1>Related Tools</h1>
-			<ul class="tools">
-				{% assign toolsFromId = "" | split: "" %}
-				{% for tool in page.tools %}
-					{% assign toolFromId = site.data.tools | where: "id", tool %}
-					{% if toolFromId.size == 1 %}
-						{% assign toolsFromId = toolsFromId | concat: toolFromId %}
-					{% endif %}
-				{% endfor %}
-				{% assign toolsSorted = toolsFromId | sort: "year" | reverse %}
-				{%- for tool in toolsSorted -%}
-					<li>
-						<b>{{ tool.name }}</b>{% if tool.urlDocumentation %} [<a href="{{ tool.urlDocumentation }}">documentation</a>]{% endif %}{% if tool.urlCode %} [<a href="{{ tool.urlCode }}">code</a>]{% endif %}
-					</li>
-				{% endfor %}
-			</ul>
+			{% include list-tools.html source=page.tools %}
 		</div>
     {% endif %}
 
     {% if page.people.size > 0 %}
-        <div class="column people is-12">
+        <div class="column people top-separator is-12"></div>
             <h1 id="title-involvedpeople">Involved People</h1>
-            <div class="columns is-multiline">
-                {% assign peopleFromId = "" | split: "" %}
-                {% for person in page.people %}
-                    {% assign personFromId = site.data.people | where: "id", person %}
-                    {% if personFromId.size == 1 %}
-                        {% assign peopleFromId = peopleFromId | concat: personFromId %}
-                    {% endif %}
-                {% endfor %}
-
-                {% if page.peopleOrder %}
-                    {% assign people = peopleFromId | sort: page.peopleOrder %}
-                {% else %}
-                    {% assign people = peopleFromId %}
-                {% endif %}
-                {% for person in people %}
-                    <div class="column is-3-desktop is-4-tablet">
-                        <div class="card person">
-                            {% if person.image %}
-                                {% assign personImage = person.image %}
-                            {% elsif person.usernameFBK %}
-                                {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ person.usernameFBK }}{% endcapture %}
-                            {% elsif person.email %}
-                                {% assign splitEmail = person.email | split: '@' %}
-                                {% if splitEmail[1] == "fbk.eu" %}
-                                    {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ splitEmail[0] }}{% endcapture %}
-                                {% else %}
-                                    {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/no-user{% endcapture %}
-                                {% endif %}
-                            {% else %}
-                                {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/no-user{% endcapture %}
-                            {% endif %}
-                            {% if personImage != "" %}
-                                <div class="card-image">
-                                    <figure class="image">
-                                        <img src="{{ personImage }}" alt="{{ person.surname }} {{ person.name }}" />
-                                    </figure>
-                                </div>
-                            {% endif %}
-                            <div class="card-content">
-                                {% if person.name %}<p class="title is-4">{{ person.name }} {{ person.surname }}</p>{% endif %}
-                                {% if person.role %}<p class="subtitle is-4">{{ person.role }}</p>{% endif %}
-                                {% for affiliation in person.affiliations %}
-                                    <div class="affiliation{% if person.affiliations.size > 1 %} more{% endif %}">
-                                        {% if affiliation.unit %}<p class="subtitle is-4">{{ affiliation.unit }}</p>{% endif %}
-                                        {% if affiliation.institution %}<p class="subtitle is-4">{{ affiliation.institution }}</p>{% endif %}
-                                        {% if affiliation.place %}<p class="subtitle is-4">{{ affiliation.place }}</p>{% endif %}
-                                    </div>
-                                {% endfor %}
-                                {% if person.email %}<p class="subtitle is-4"><a href="mailto:{{ person.email }}">{{ person.email }}</a></p>{% endif %}
-                                {% if person.website %}
-                                    {% assign personWebsite = person.website %}
-                                {% else %}
-                                    {% assign personWebsite = "https://ict.fbk.eu/people/detail/" | append: person.name | append: "-" | append: person.surname | append: "/" | downcase %}
-                                {% endif %}
-                                {% if personWebsite != "" %}<p class="subtitle is-4"><a href="{{ personWebsite }}">Website</a></p>{% endif %}
-                            </div>
-                        </div>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
+            {% include list-people.html source=page.people style="card" %}
+        </div>div>
     {% endif %}
 </div>
