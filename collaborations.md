@@ -4,4 +4,3 @@ layout: collaborations-list
 permalink: /collaborations/
 ---
 
-Under construction.
