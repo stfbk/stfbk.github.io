@@ -5,6 +5,11 @@ remote_theme: chrisrhymes/bulma-clean-theme
 markdown: kramdown
 
 collections:
+  collaborations:
+    output: true
+    layout: collaboration
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
   complementary:
     output: true
     layout: complementary
@@ -42,6 +47,12 @@ defaults:
       path: ""
     values:
       image: /assets/images/logos/ST_symbol.png
+
+  - scope:
+      type: collaborations
+    values:
+      layout: collaboration
+
   - scope:
       type: complementary
     values:

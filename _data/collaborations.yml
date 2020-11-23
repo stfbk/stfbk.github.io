@@ -1,0 +1,12 @@
+- name: Poligrafico e Zecca dello Stato Italiano
+  acronym: IPZS
+  description: Test description
+  internalUrl: /collaborations/IPZS
+  officialUrl: https://www.ipzs.it/ext/index.html
+  image: IPZS.png
+
+- name: CherryChain
+  description: 
+  internalUrl: /collaborations/CherryChain
+  officialUrl: https://www.cherrychain.it/
+  image: CherryChain.png

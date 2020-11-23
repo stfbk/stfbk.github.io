@@ -51,6 +51,21 @@
   padding-top: 1.3em;
 }
 
+.card.enterprise .card-image {
+  padding: 20px;
+  height: 230px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card.enterprise .card-image img {
+  max-height: 200px;
+  width: auto;
+}
+
 .card.person .card-image img {
   border-radius: 15px;
   width: auto;
