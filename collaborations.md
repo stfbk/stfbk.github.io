@@ -1,6 +1,7 @@
 ---
 title: Collaborations
-layout: page
+layout: collaborations-list
+permalink: /collaborations/
 ---
 
-Under construction..
+Under construction.
