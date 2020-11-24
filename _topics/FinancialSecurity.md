@@ -1,9 +1,9 @@
 ---
-title: FINSEC
+title: Financial Security
 subtitle:
 type: spotlight
-url: /topics/FINSEC
-image: FINSEC.jpg
+url: /topics/FinancialSecurity
+image: FinancialSecurity.jpg
 order: 3
 
 publications:
