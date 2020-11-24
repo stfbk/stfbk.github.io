@@ -7,8 +7,11 @@
     {% assign publicationsFromId = "" | split: "" %}
     {% for publication in source %}
         {% assign publicationFromId = site.data.publications | where: "id", publication %}
+        {% assign publicationFromIdLabel = site.data.publications | where: "id", publication.id %}
         {% if publicationFromId.size == 1 %}
             {% assign publicationsFromId = publicationsFromId | concat: publicationFromId %}
+        {% elsif publicationFromIdLabel.size == 1 %}
+            {% assign publicationsFromId = publicationsFromId | concat: publicationFromIdLabel %}
         {% endif %}
     {% endfor %}
     {% assign publicationsSorted = publicationsFromId | sort: "year" | reverse %}
