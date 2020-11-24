@@ -4,8 +4,8 @@ papers:
     - POST2018
 
 people:
-    - RobertoCarbone_R_FBK
-    - SilvioRanise_H_FBK
+    - RobertoCarbone
+    - SilvioRanise
 
     - name: Giada
       surname: Sciarretta

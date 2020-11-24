@@ -6,7 +6,7 @@ customExcerpt: >
   On Monday, 7th April, Roberto Carbone will present the following paper: Alessandro Armando, Roberto Carbone and Luca Compagna. "SATMC: a SAT-based Model Checker for Security-critical Systems".
 
 people:
-    - RobertoCarbone_R_FBK
+    - RobertoCarbone
 ---
 
 The European Joint Conferences on Theory and Practice of Software (ETAPS) is the primary European forum for academic and industrial researchers working on topics relating to Software Science. ETAPS, established in 1998, is a confederation of six main annual conferences (CC, ESOP, FASE, FoSSaCS, POST and TACAS) accompanied by satellite workshops and other events.

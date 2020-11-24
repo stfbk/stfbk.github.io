@@ -4,7 +4,7 @@ papers:
     - FPS2018
 
 people:
-    - TahirAhmad_PhD_FBK
-    - SilvioRanise_H_FBK
+    - TahirAhmad
+    - SilvioRanise
 
 ---

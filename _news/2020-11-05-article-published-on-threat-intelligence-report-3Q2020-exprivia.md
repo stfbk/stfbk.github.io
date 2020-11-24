@@ -9,10 +9,10 @@ publications:
     - ETAA2019_MuFASA
 
 people:
-    - RobertoCarbone_R_FBK 
-    - MarcoPernpruner_R_FBK
-    - GiadaSciarretta_R_FBK
-    - SilvioRanise_H_FBK
+    - RobertoCarbone 
+    - MarcoPernpruner
+    - GiadaSciarretta
+    - SilvioRanise
 
       
 ---

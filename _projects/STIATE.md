@@ -22,7 +22,7 @@ partners:
       link: http://www.dfki.de/web/welcome?set_language=en&cl=en
 
 people:
-    - RobertoCarbone_R_FBK
+    - RobertoCarbone
 
 peopleOrder: surname
 ---

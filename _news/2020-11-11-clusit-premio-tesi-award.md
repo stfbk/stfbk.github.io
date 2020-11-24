@@ -5,11 +5,11 @@ customExcerpt: >
    3rd and 4th place for Stefano Berlato and Carlotta Tagliaro. Congratulations!!!
 
 people:
-    - StefanoBerlato_R_FBK
-    - CarlottaTagliaro_UniTN
-    - SilvioRanise_H_FBK
-    - RobertoCarbone_R_FBK 
-    - UmbertoMorelli_T_FBK
+    - StefanoBerlato
+    - CarlottaTagliaro
+    - SilvioRanise
+    - RobertoCarbone 
+    - UmbertoMorelli
 ---
 
 The following theses have been selected to be awarded with the thesis award “Innovare la sicurezza delle informazioni” sponsored by CLUSIT:

@@ -1,4 +1,4 @@
-- id: AdamJLee_UniPitt
+- id: AdamJLee
   name: Adam J.
   surname: Lee
   role: Associate Dean for Academic Programs
@@ -9,7 +9,35 @@
   email: adamlee@cs.pitt.edu
   website: https://people.cs.pitt.edu/~adamlee/
 
-- id: AlessandroTomasi_R_FBK
+- id: AdrienBeaugendre
+  name: Adrien
+  surname: Beaugendre
+  role: Master's Student
+  affiliations:
+    - unit: DISI
+      institution: University of Trento
+      place: Trento, Italy
+  website: ""
+
+- id: AlbertoSiena
+  name: Alberto
+  surname: Siena
+  website: https://sites.google.com/site/albertosiena/
+  image: https://sites.google.com/site/albertosiena/_/rsrc/1263330308767/config/app/images/as.jpg
+
+- id: AlessandroArmando
+  name: Alessandro
+  surname: Armando
+  role: Full Professor
+  affiliations:
+    - unit: DIBRIS
+      institution: University of Genoa
+      place: Genoa, Italy
+  email: alessandro.armando@unige.it
+  website: https://csec.it/people/alessandro_armando/
+  image: https://csec.it/pics/alessandro-armando-2020.jpg
+
+- id: AlessandroTomasi
   name: Alessandro
   surname: Tomasi
   role: Researcher
@@ -19,7 +47,11 @@
       place: Trento, Italy
   email: altomasi@fbk.eu
 
-- id: AmirSharif_PhD_FBK
+- id: AlessioValenza
+  name: Alessio
+  surname: Valenza
+
+- id: AmirSharif
   name: Amir
   surname: Sharif
   role: PhD Student
@@ -32,7 +64,7 @@
       place: Genoa, Italy
   email: asharif@fbk.eu
 
-- id: AndreaBisegna_T_FBK
+- id: AndreaBisegna
   name: Andrea
   surname: Bisegna
   role: Technologist
@@ -42,7 +74,42 @@
       place: Trento, Italy
   email: a.bisegna@fbk.eu
 
-- id: FedericoSinigaglia_PhD_FBK
+- id: BiniamFissehaDemissie
+  name: Biniam Fisseha
+  surname: Demissie
+  role: Researcher
+  affiliations:
+    - unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: demissie@fbk.eu
+
+- id: CarlottaTagliaro
+  name: Carlotta
+  surname: Tagliaro
+  role: Student
+  affiliations:
+    - unit: DISI
+      institution: University of Trento
+      place: Trento, Italy
+  website: ""
+  image: https://media-exp1.licdn.com/dms/image/C4E03AQEPRt71VVgABw/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=mmnzNewMBhrMwqgAbd0ne8RA6kTdqBtvnn8YCCpbkq4
+
+- id: DavidePiva
+  name: Davide
+  surname: Piva
+
+- id: EmanueleViglianisi
+  name: Emanuele
+  surname: Viglianisi
+  role: Data Engineer
+  affiliations:
+    - institution: Runtastic
+      place: Linz, Austria
+  image: https://emavgl.github.io/images/avatar.jpg
+  website: https://emavgl.github.io/
+
+- id: FedericoSinigaglia
   name: Federico
   surname: Sinigaglia
   role: PhD Student
@@ -55,7 +122,7 @@
       place: Genoa, Italy
   email: sinigaglia@fbk.eu
 
-- id: GabrieleCosta_IMT
+- id: GabrieleCosta
   name: Gabriele
   surname: Costa
   affiliations:
@@ -65,7 +132,7 @@
   website: https://www.imtlucca.it/it/gabriele.costa/
   email: gabriele.costa@imtlucca.it
 
-- id: GiadaSciarretta_R_FBK
+- id: GiadaSciarretta
   name: Giada
   surname: Sciarretta
   role: Researcher
@@ -75,7 +142,29 @@
       place: Trento, Italy
   email: giada.sciarretta@fbk.eu
   usernameFBK: g.sciarretta
-- id: GiulioPellizzari_UniTN
+
+- id: GianfrancoBurzio
+  name: Gianfranco
+  surname: Burzio
+  role: Automotive Safety & Security Advisor
+  affiliations:
+      institution: DriveSec
+      place: Torino, Italy
+  email: gb@drivesec.com
+  website: http://www.gianfrancoburzio.it/
+
+- id: GiovanniFerronato
+  name: Giovanni
+  surname: Ferronato
+  role: Student
+  affiliations:
+    - unit: DISI
+      institution: University of Trento
+      place: Trento, Italy
+  website: ""
+  image: https://media-exp1.licdn.com/dms/image/C5603AQEcwxof36633Q/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=h5fI2ngKcl-4rahGVBf4cRWY9ZzhGnKSDqRsz5fwo6s
+
+- id: GiulioPellizzari
   name: Giulio
   surname: Pellizzari
   role: Master's Student
@@ -85,7 +174,25 @@
       place: Trento, Italy
   website: ""
 
-- id: LucaViganò_KCL
+- id: GiuseppeFarandaCordella
+  name: Giuseppe Faranda
+  surname: Cordella
+  role: Founder & CEO
+  affiliations:
+      institution: DriveSec
+      place: Torino, Italy
+  email: gfc@drivesec.com
+  website: http://www.gianfrancoburzio.it/
+
+- id: IvanMartini
+  name: Ivan
+  surname: Martini
+
+- id: LorenzoTait
+  name: Lorenzo
+  surname: Tait
+
+- id: LucaViganò
   name: Luca
   surname: Viganò
   role: Professor
@@ -97,27 +204,43 @@
   image: http://www.lucavigano.com/images/LucaVigano2-small.jpg
   website: https://www.kcl.ac.uk/people/luca-vigano
 
-- id: MarcoPernpruner_R_FBK
+- id: MajidMollaeefar
+  name: Majid
+  surname: Mollaeefar
+  role: PhD Student
+  affiliations:
+    - unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+    - unit: DIBRIS
+      institution: University of Genoa
+      place: Genoa, Italy
+  email: mmollaeefar@fbk.eu
+
+- id: MarcoCentenaro
+  name: Marco
+  surname: Centenaro
+  role: Expert Researcher
+  affiliations:
+    - unit: Smart Networks and Services
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: mcentenaro@fbk.eu
+  usernameFBK: mcentenaro
+
+- id: MarcoPernpruner
   name: Marco
   surname: Pernpruner
-  role: Researcher
+  role: PhD Student
   affiliations:
     - unit: Security & Trust
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
+    - institution: University of Genoa
+      place: Genoa, Italy
   email: mpernpruner@fbk.eu
 
-- id: MarianoCeccato_R_FBK
-  name: Mariano
-  surname: Ceccato
-  role: Researcher
-  affiliations:
-    - unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: ceccato@fbk.eu
-
-- id: MarianoCeccato_UNIVR
+- id: MarianoCeccato
   name: Mariano
   surname: Ceccato
   role: Assistant Professor
@@ -126,10 +249,22 @@
       institution: University of Verona
       place: Verona, Italy
   email: mariano.ceccato@univr.it
-  image: http://www.di.univr.it/documenti/Persona/foto/foto660446.jpg
-  website: http://www.di.univr.it/?ent=persona&id=60574&lang=it
+  image: https://www.di.univr.it/documenti/Persona/foto/foto347921.jpg
+  website: http://www.di.univr.it/?ent=persona&id=60574
 
-- id: MatteoLeonelli_JR_FBK
+- id: MassimoMerro
+  name: Massimo
+  surname: Merro
+  role: Full Professor
+  affiliations:
+    - unit: Department of Computer Science
+      institution: University of Verona
+      place: Verona, Italy
+  email: massimo.merro@univr.it
+  image: https://www.di.univr.it/documenti//Persona/foto/foto450272.jpg
+  website: https://www.di.univr.it/?ent=persona&id=201
+
+- id: MatteoLeonelli
   name: Matteo
   surname: Leonelli
   role: Junior Researcher
@@ -139,7 +274,7 @@
       place: Trento, Italy
   email: leonelli@fbk.eu
 
-- id: RobertoCarbone_R_FBK
+- id: RobertoCarbone
   name: Roberto
   surname: Carbone
   role: Researcher
@@ -149,7 +284,24 @@
       place: Trento, Italy
   email: carbone@fbk.eu
 
-- id: SalimehDashti_PhD_FBK
+- id: RobertoRiggio
+  name: Roberto
+  surname: Riggio
+  role: Head of Unit
+  affiliations:
+    - unit: Smart Networks and Services
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: rriggio@fbk.eu
+  usernameFBK: rriggio
+
+- id: RobertoTiella
+  name: Roberto
+  surname: Tiella
+  email: tiella@fbk.eu
+  usernameFBK: tiella
+
+- id: SalimehDashti
   name: Salimeh
   surname: Dashti
   role: PhD Student
@@ -162,7 +314,7 @@
       place: Genoa, Italy
   email: sdashti@fbk.eu
 
-- id: SalvatoreManfredi_PhD_FBK
+- id: SalvatoreManfredi
   name: Salvatore
   surname: Manfredi
   role: Researcher
@@ -175,17 +327,15 @@
       place: Genoa, Italy
   email: smanfredi@fbk.eu
 
-- id: SalvatoreManfredi_R_FBK
-  name: Salvatore
-  surname: Manfredi
-  role: Researcher
+- id: SergiiKushch
+  name: Sergii
+  surname: Kushch
+  role: Senior Research Fellow
   affiliations:
-    - unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: smanfredi@fbk.eu
+    - institution: University of Limerick
+      place: Limerick, Ireland
 
-- id: SilvioRanise_H_FBK
+- id: SilvioRanise
   name: Silvio
   surname: Ranise
   role: Head of Unit
@@ -195,19 +345,21 @@
       place: Trento, Italy
   email: ranise@fbk.eu
 
-- id: StefanoBerlato_R_FBK
+- id: StefanoBerlato
   name: Stefano
   surname: Berlato
-  role: Researcher
+  role: PhD Student
   affiliations:
     - unit: Security & Trust
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
+    - institution: University of Genoa
+      place: Genoa, Italy
   website: https://stefanoberlato.it/
   image: https://stefanoberlato.it/images/avataaars.png
   email: sberlato@fbk.eu
 
-- id: TahirAhmad_PhD_FBK
+- id: TahirAhmad
   name: Tahir
   surname: Ahmad
   role: PhD Student
@@ -220,7 +372,7 @@
       place: Genoa, Italy
   email: ahmad@fbk.eu
 
-- id: UmbertoMorelli_T_FBK
+- id: UmbertoMorelli
   name: Umberto
   surname: Morelli
   role: Technologist
@@ -230,67 +382,6 @@
       place: Trento, Italy
   email: umorelli@fbk.eu
 
-- id: MarcoCentenaro_ER_FBK
-  name: Marco
-  surname: Centenaro
-  role: Expert Researcher
-  affiliations:
-    - unit: Smart Networks and Services
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: mcentenaro@fbk.eu
-  usernameFBK: mcentenaro
-
-- id: GianfrancoBurzio_SA_DriveSec
-  name: Gianfranco
-  surname: Burzio
-  role: Automotive Safety & Security Advisor
-  affiliations:
-      institution: DriveSec
-      place: Torino, Italy
-  email: gb@drivesec.com
-  website: http://www.gianfrancoburzio.it/
-
-- id: GiuseppeFarandaCordella_CEO_DriveSec
-  name: Giuseppe Faranda
-  surname: Cordella
-  role: Founder & CEO
-  affiliations:
-      institution: DriveSec
-      place: Torino, Italy
-  email: gfc@drivesec.com
-  website: http://www.gianfrancoburzio.it/
-
-- id: RobertoRiggio_H_FBK
-  name: Roberto
-  surname: Riggio
-  role: Head of Unit
-  affiliations:
-    - unit: Smart Networks and Services
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: rriggio@fbk.eu
-  usernameFBK: rriggio
-  
-- id: CarlottaTagliaro_UniTN
-  name: Carlotta
-  surname: Tagliaro
-  role: Student
-  affiliations:
-    - unit: DISI
-      institution: University of Trento
-      place: Trento, Italy
-  website: ""
-  image: https://media-exp1.licdn.com/dms/image/C4E03AQEPRt71VVgABw/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=mmnzNewMBhrMwqgAbd0ne8RA6kTdqBtvnn8YCCpbkq4
-  
-    
-- id: GiovanniFerronato_UniTN
-  name: Giovanni
-  surname: Ferronato
-  role: Student
-  affiliations:
-    - unit: DISI
-      institution: University of Trento
-      place: Trento, Italy
-  website: ""
-  image: https://media-exp1.licdn.com/dms/image/C5603AQEcwxof36633Q/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=h5fI2ngKcl-4rahGVBf4cRWY9ZzhGnKSDqRsz5fwo6s
+- id: ValentinaOdorizzi
+  name: Valentina
+  surname: Odorizzi

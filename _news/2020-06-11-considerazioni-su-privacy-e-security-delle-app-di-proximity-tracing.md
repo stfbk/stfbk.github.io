@@ -2,7 +2,7 @@
 title: Considerazioni su Privacy e Security delle App di Proximity Tracing
 
 people:
-    - SilvioRanise_H_FBK
+    - SilvioRanise
       
 ---
 

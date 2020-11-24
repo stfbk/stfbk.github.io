@@ -8,7 +8,7 @@ publications:
     - ETAA2019_MuFASA
 
 people:
-    - GiadaSciarretta_R_FBK
+    - GiadaSciarretta
      
 ---
 

@@ -3,10 +3,10 @@ title: MuFASA
 subtitle: A Tool for High-level Specification and Analysis of Multi-factor Authentication Protocols
 
 people:
-    - FedericoSinigaglia_PhD_FBK
-    - RobertoCarbone_R_FBK
-    - GabrieleCosta_IMT
-    - SilvioRanise_H_FBK
+    - FedericoSinigaglia
+    - RobertoCarbone
+    - GabrieleCosta
+    - SilvioRanise
 
 publications:
     - ETAA2019_MuFASA
