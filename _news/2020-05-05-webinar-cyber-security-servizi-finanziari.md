@@ -5,9 +5,9 @@ customExcerpt: >
     On May 5, 2020, the Security & Trust Unit held the webinar "Cyber Security & Servizi Finanziari" (Cyber Security & Financial Services), in the context of the corporate development program FBK Academy. The webinar deals with the security of financial authentication protocols, with particolar regard to the impact of the Payment Services Directive (PSD2).
 
 people:
-    - MarcoPernpruner_R_FBK
-    - GiadaSciarretta_R_FBK
-    - SilvioRanise_H_FBK
+    - MarcoPernpruner
+    - GiadaSciarretta
+    - SilvioRanise
 
 publications:
     - ETAA2019_MuFASA

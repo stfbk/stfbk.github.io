@@ -5,9 +5,9 @@ customExcerpt: >
    3rd place for Giovanni Ferronato. Congratulations!!!
 
 people:
-    - GiovanniFerronato_UniTN
-    - SilvioRanise_H_FBK
-    - GiadaSciarretta_R_FBK 
+    - GiovanniFerronato
+    - SilvioRanise
+    - GiadaSciarretta 
 ---
 
 The following thesis has been selected to be awarded with the [thesis award “Innovare la sicurezza delle informazioni”](https://tesi.clusit.it/vincitori.php) sponsored by CLUSIT:

@@ -3,7 +3,7 @@ title: Winter School SECENTIS 2016
 tag: [events]
 
 people:
-    - RobertoCarbone_R_FBK
+    - RobertoCarbone
 
     - name: Silvio
       surname: Ranise

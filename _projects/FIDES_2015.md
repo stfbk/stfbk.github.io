@@ -37,15 +37,9 @@ partners:
 
 
 people:
-    - name: Federico
-      surname: Sinigaglia
-      email: sinigaglia@fbk.eu
-      usernameFBK: sinigaglia
-    - name: Giada
-      surname: Sciarretta
-      email: giada.sciarretta@fbk.eu
-      usernameFBK: g.sciarretta
-    - RobertoCarbone_R_FBK
+    - FedericoSinigaglia
+    - GiadaSciarretta
+    - RobertoCarbone
 
 peopleOrder: surname
 ---

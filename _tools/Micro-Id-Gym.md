@@ -3,9 +3,9 @@ title: Micro-Id-Gym
 subtitle: Identity Management Workouts with Container-Based Microservices
 
 people:
-    - AndreaBisegna_T_FBK
-    - RobertoCarbone_R_FBK
-    - SilvioRanise_H_FBK
+    - AndreaBisegna
+    - RobertoCarbone
+    - SilvioRanise
 
 publications:
     - MicroIDGym_2019

@@ -3,9 +3,9 @@ title: CryptoAC
 subtitle: Flexible and Automated Role-based Cryptographic Access Control Enforcement in the Cloud
 
 people:
-    - StefanoBerlato_R_FBK
-    - RobertoCarbone_R_FBK
-    - SilvioRanise_H_FBK
+    - StefanoBerlato
+    - RobertoCarbone
+    - SilvioRanise
 
 peopleOrder: surname
 

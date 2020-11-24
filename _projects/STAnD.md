@@ -25,16 +25,13 @@ partners:
       detail: fintech business case with an app developed using the API Assistant
 
 people:
-    - AmirSharif_PhD_FBK
-    - AndreaBisegna_T_FBK
-    - GiadaSciarretta_R_FBK
-    - MarianoCeccato_R_FBK
-    - RobertoCarbone_R_FBK
-    - name: Roberto
-      surname: Tiella
-      email: tiella@fbk.eu
-      usernameFBK: tiella
-    - SilvioRanise_H_FBK
+    - AmirSharif
+    - AndreaBisegna
+    - GiadaSciarretta
+    - MarianoCeccato
+    - RobertoCarbone
+    - RobertoTiella
+    - SilvioRanise
 
 peopleOrder: surname
 ---

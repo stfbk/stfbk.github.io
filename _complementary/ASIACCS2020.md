@@ -4,10 +4,10 @@ status: accepted
 paper: ASIACCS2020
 
 people:
-    - StefanoBerlato_R_FBK
-    - RobertoCarbone_R_FBK
-    - AdamJLee_UniPitt
-    - SilvioRanise_H_FBK
+    - StefanoBerlato
+    - RobertoCarbone
+    - AdamJLee
+    - SilvioRanise
 ---
 
 Below, you find links to complementary material and additional resources referenced in the paper.

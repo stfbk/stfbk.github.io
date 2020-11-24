@@ -4,9 +4,9 @@ papers:
     - FPS2019
 
 people:
-    - SilvioRanise_H_FBK
-    - GiadaSciarretta_R_FBK
-    - AlessandroTomasi_R_FBK
+    - SilvioRanise
+    - GiadaSciarretta
+    - AlessandroTomasi
 
 ---
 

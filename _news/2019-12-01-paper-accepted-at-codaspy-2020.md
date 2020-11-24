@@ -4,10 +4,10 @@ papers:
     - CODASPY2020_PN
 
 people:
-    - MarcoPernpruner_R_FBK
-    - RobertoCarbone_R_FBK
-    - SilvioRanise_H_FBK
-    - GiadaSciarretta_R_FBK
+    - MarcoPernpruner
+    - RobertoCarbone
+    - SilvioRanise
+    - GiadaSciarretta
 
 ---
 

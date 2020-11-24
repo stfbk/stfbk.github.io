@@ -23,11 +23,8 @@ partners:
       detail: associate partner
 
 people:
-    - RobertoCarbone_R_FBK
-    - name: Silvio
-      surname: Ranise
-      email: ranise@fbk.eu
-      usernameFBK: ranise
+    - RobertoCarbone
+    - SilvioRanise
 
 peopleOrder: surname
 ---

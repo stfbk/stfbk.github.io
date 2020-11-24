@@ -6,9 +6,9 @@ publications:
     - DBSec2019_TLSA
 
 people:
-    - SalvatoreManfredi_PhD_FBK
-    - SilvioRanise_H_FBK
-    - GiadaSciarretta_R_FBK
+    - SalvatoreManfredi
+    - SilvioRanise
+    - GiadaSciarretta
       
 ---
 ## TLSAssistant: uno strumento per mitigare i problemi di sicurezza di TLS

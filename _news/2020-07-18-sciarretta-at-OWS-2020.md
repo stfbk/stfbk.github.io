@@ -6,7 +6,7 @@ customExcerpt: >
   On July 22, 2020, Giada Sciarretta will present the following paper: Giada Sciarretta, Roberto Carbone, Silvio Ranise,  and Luca Viganò "Formal Analysis of Mobile Multi-Factor Authentication with Single Sign-On Login", published at ACM Transactions on Privacy and Security (TOPS).
 
 people:
-    - GiadaSciarretta_R_FBK
+    - GiadaSciarretta
 
 publications:
     - TOPS2020

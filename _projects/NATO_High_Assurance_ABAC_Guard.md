@@ -6,10 +6,7 @@ startDate: "2012-08-01"
 endDate: "2014-12-31"
 
 people:
-    - name: Silvio
-      surname: Ranise
-      email: ranise@fbk.eu
-      usernameFBK: ranise
+    - SilvioRanise
 
 peopleOrder: surname
 ---

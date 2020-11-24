@@ -2,9 +2,9 @@
 title: TLSAssistant
 
 people:
-    - SalvatoreManfredi_PhD_FBK
-    - SilvioRanise_H_FBK
-    - GiadaSciarretta_R_FBK
+    - SalvatoreManfredi
+    - SilvioRanise
+    - GiadaSciarretta
 
 publications:
     - DBSec2019_TLSA

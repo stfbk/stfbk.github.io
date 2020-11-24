@@ -3,9 +3,9 @@ title: Deploying Access Control Enforcement for IoT in the Cloud-Edge Continuum 
 paper: SACMAT2020
 
 people:
-    - TahirAhmad_PhD_FBK
-    - UmbertoMorelli_T_FBK
-    - SilvioRanise_H_FBK
+    - TahirAhmad
+    - UmbertoMorelli
+    - SilvioRanise
 
 peopleOrder: surname
 ---

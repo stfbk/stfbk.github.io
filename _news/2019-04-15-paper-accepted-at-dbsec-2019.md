@@ -4,9 +4,9 @@ papers:
     - DBSec2019
 
 people:
-    - SalvatoreManfredi_R_FBK
-    - SilvioRanise_H_FBK
-    - GiadaSciarretta_R_FBK
+    - SalvatoreManfredi
+    - SilvioRanise
+    - GiadaSciarretta
 
 ---
 

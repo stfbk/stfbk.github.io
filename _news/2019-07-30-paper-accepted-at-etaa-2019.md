@@ -4,8 +4,8 @@ papers:
     - ETAA2019_MuFASA
 
 people:
-    - FedericoSinigaglia_PhD_FBK
-    - RobertoCarbone_R_FBK
-    - SilvioRanise_H_FBK
+    - FedericoSinigaglia
+    - RobertoCarbone
+    - SilvioRanise
 
 ---
