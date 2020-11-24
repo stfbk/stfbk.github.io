@@ -23,13 +23,20 @@ layout: default
         </div>
     {% endif %}
 
+    {% if page.theses.size > 0 %}
+        <div class="column is-12">
+            <h1>Related Theses</h1>
+            {% include list-theses.html source=page.theses %}
+        </div>
+    {% endif %}
+
     {% if page.events.size > 0 %}
 		<div class="column is-12">
 			<h1>Related Events</h1>
 			{% include list-events.html source=page.events %}
 		</div>
-		{% endif %}
-		
+    {% endif %}
+
     {% if page.tools.size > 0 %}
 		<div class="column is-12">
 			<h1>Related Tools</h1>
@@ -40,7 +47,8 @@ layout: default
     {% if page.people.size > 0 %}
         <div class="column people top-separator is-12"></div>
             <h1 id="title-involvedpeople">Involved People</h1>
-            {% include list-people.html source=page.people style="card" %}
-        </div>div>
+            {% assign details = "picture, email, website" | split: ", " %}
+            {% include list-people.html source=page.people style="card" details=details %}
+        </div>
     {% endif %}
 </div>
