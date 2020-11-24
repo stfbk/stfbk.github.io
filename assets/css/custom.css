@@ -74,7 +74,18 @@
 
 .card.person .card-content {
   text-align: center;
-  padding: 0.6rem 1.5rem 1.5rem;
+  padding: 1.2rem 1.5rem;
+}
+
+.card.person .card-content .topic,
+.card.person .card-content .thesis {
+  font-style: italic;
+  margin-top: 10px;
+  font-size: .9rem;
+}
+
+.card.person .title {
+  margin-bottom: 0.5rem;
 }
 
 .card.person .subtitle {

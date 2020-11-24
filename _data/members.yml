@@ -1,25 +1,80 @@
 current:
   head:
-    - SilvioRanise_H_FBK
+    - SilvioRanise
 
-  workers:
-    - AlessandroTomasi_R_FBK
-    - AndreaBisegna_T_FBK
-    - GiadaSciarretta_R_FBK
-    - RobertoCarbone_R_FBK
-    - TahirAhmad_R_FBK
-    - UmbertoMorelli_T_FBK
-  
-  phdStudents:
-    - AmirSharif_PhD_FBK
-    - MarcoPernpruner_PhD_FBK
-    - SalimehDashti_PhD_FBK
-    - SalvatoreManfredi_PhD_FBK
-    - StefanoBerlato_PhD_FBK
+  members:
+    - AlessandroTomasi
+    - AndreaBisegna
+    - GiadaSciarretta
+    - RobertoCarbone
+    - TahirAhmad
+    - UmbertoMorelli
+    - AmirSharif
+    - MarcoPernpruner
+    - SalimehDashti
+    - SalvatoreManfredi
+    - StefanoBerlato
+    - MajidMollaeefar
+    - BiniamFissehaDemissie
+    - MatteoLeonelli
   
   students:
+    - personId: AdrienBeaugendre
+      type: M
+      topic: Implementation of a flexible and automated risk analysis for Multi-Factor Authentication protocols
+      institution: University of Trento
 
-past:
-  collaborators:
+former:
+  members:
+    - personId: AlessandroArmando
+      formerRole: Head of Unit
+      yearFrom: 2010
+      yearTo: 2016
+
+    - personId: FedericoSinigaglia
+      formerRole: PhD Student
+      yearTo: 2020
+
+    - personId: MarianoCeccato
+      formerRole: Researcher
+      yearTo: 2019
+
+    - personId: EmanueleViglianisi
+      formerRole: Technologist
+      yearTo: 2019
+
+    - personId: SergiiKushch
+      formerRole: Researcher
+      yearTo: 2019
+
+    - personId: AlbertoSiena
+      formerRole: Researcher
+      yearTo: 2020
   
   students:
+    - personId: MarcoPernpruner
+      thesisId: MarcoPernpruner_M
+
+    - personId: StefanoBerlato
+      thesisId: StefanoBerlato_M
+
+    - personId: SalvatoreManfredi
+      thesisId: SalvatoreManfredi_M
+
+    - personId: AlessioValenza
+      thesisId: AlessioValenza_B
+
+    - personId: DavidePiva
+      thesisId: DavidePiva_B
+
+    - personId: CarlottaTagliaro
+      thesisId: CarlottaTagliaro_B
+
+    - personId: LorenzoTait
+      thesisId: LorenzoTait_M
+
+    - personId: IvanMartini
+      thesisId: IvanMartini_B
+
+    - personId: ValentinaOdorizzi
+      thesisId: ValentinaOdorizzi_B

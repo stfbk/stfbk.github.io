@@ -10,5 +10,12 @@
   link: /tools/
 - name: Teaching
   link: /teaching/
-- name: People and Publications
+- name: People
+  link: /people/
+  dropdown:
+    - name: Current
+      link: /people/
+    - name: Former
+      link: /people/former
+- name: Publications
   link: https://ict.fbk.eu/units/st/
