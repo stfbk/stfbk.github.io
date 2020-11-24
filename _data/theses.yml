@@ -1,0 +1,95 @@
+- id: MarcoPernpruner_M
+  title: "A passwordless out-of-band authentication protocol based on eID cards and push notifications: Design and formal security analysis"
+  type: M
+  author: MarcoPernpruner
+  supervisor: MassimoMerro
+  co-supervisor:
+    - GiadaSciarretta
+    - RobertoCarbone
+  year: 2019
+  institution: University of Verona
+
+- id: StefanoBerlato_M
+  title: "A Pragmatic Approach to Handle \"Honest But Curious\" Cloud Service Providers: Cryptographic Enforcement of Dynamic Access Control Policies"
+  type: M
+  author: StefanoBerlato
+  supervisor: SilvioRanise
+  co-supervisor: RobertoCarbone
+  year: 2019
+  institution: University of Trento
+  awards: 3rd place at thesis award "Innovare la sicurezza delle informazioni", sponsored by CLUSIT
+
+- id: SalvatoreManfredi_M
+  title: "Assisting users in securing TLS configurations"
+  type: M
+  author: SalvatoreManfredi
+  supervisor: SilvioRanise
+  co-supervisor:
+    - GiadaSciarretta
+  year: 2019
+  institution: University of Trento
+
+- id: AlessioValenza_B
+  title: "Autenticazione bancaria post-PSD2: siamo al sicuro? Analisi automatica del rischio di protocolli di autenticazione"
+  type: B
+  author: AlessioValenza
+  supervisor: SilvioRanise
+  co-supervisor:
+    - GiadaSciarretta
+    - MarcoPernpruner
+  year: 2020
+  institution: University of Trento
+
+- id: DavidePiva_B
+  title: "Assisting Developers in Securing OAuth 2.0 Deployment: Demystifying Threats and Protection Techniques for Bearer Credentials"
+  type: B
+  author: DavidePiva
+  supervisor: SilvioRanise
+  co-supervisor:
+    - GiadaSciarretta
+  year: 2019
+  institution: University of Trento
+
+- id: CarlottaTagliaro_B
+  title: "Security and Performance tradeoffs in the Internet of Things"
+  type: B
+  author: CarlottaTagliaro
+  supervisor: SilvioRanise
+  co-supervisor:
+    - UmbertoMorelli
+  year: 2020
+  institution: University of Trento
+  awards: 4th place at thesis award "Innovare la sicurezza delle informazioni", sponsored by CLUSIT
+
+- id: LorenzoTait_M
+  title: "A Customized Threat Modeling for Secure Deployment And Pentesting of SAML SSO Solutions"
+  type: M
+  author: LorenzoTait
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
+  year: 2019
+  institution: University of Trento
+
+- id: IvanMartini_B
+  title: "An automated security testing framework for SAML SSO deployments"
+  type: B
+  author: IvanMartini
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
+  year: 2018
+  institution: University of Trento
+
+- id: ValentinaOdorizzi_B
+  title: "Progettazione e sviluppo di unostrumento per l'analisi automatica di vulnerabilità \"Missing XML Validation\" in SAML SSO"
+  type: B
+  author: ValentinaOdorizzi
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
+  year: 2018
+  institution: University of Trento
