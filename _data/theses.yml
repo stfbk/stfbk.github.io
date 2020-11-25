@@ -82,7 +82,7 @@
     - RobertoCarbone
   year: 2018
   institution: University of Trento
-
+  
 - id: ValentinaOdorizzi_B
   title: "Progettazione e sviluppo di unostrumento per l'analisi automatica di vulnerabilità \"Missing XML Validation\" in SAML SSO"
   type: B
@@ -90,6 +90,27 @@
   supervisor: SilvioRanise
   co-supervisor:
     - AndreaBisegna
+    - RobertoCarbone
+  year: 2018
+  institution: University of Trento
+
+- id: GiovanniFerronato_B
+  title: "Multi-factor Authentication Through Push Notification and NFC-enabled Identity Card: A solution for secure authentication in unsecure contexts"
+  type: B
+  author: GiovanniFerronato
+  supervisor: SilvioRanise
+  co-supervisor:
+    - GiadaSciarretta
+  year: 2018
+  institution: University of Trento
+  
+- id: GiadaSciarretta_P
+  title: "A Methodology for the Design and Security Assessment of Mobile Identity Management: Applications to real-world scenarios"
+  type: P
+  author: GiadaSciarretta
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AlessandroArmando
     - RobertoCarbone
   year: 2018
   institution: University of Trento

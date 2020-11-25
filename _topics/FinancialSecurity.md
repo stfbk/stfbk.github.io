@@ -11,9 +11,15 @@ publications:
     - COSE2020_MFA
     - ETAA2019_MuFASA
 
-events:
-    - Webinar_CSeSF2020
-
+theses: 
+    - AlessioValenza_B
 ---
 
-Under construction.
+FinTech (contraction for financial technology) is a label that applies to all the financial services provided using digital technologies, it ranges from mobile payments to insurance, from crowd-funding to cryptocurrencies. Due to the highly sensitive nature of the FinTech transactions, it is mandatory to provide solutions and abide by standards that can keep the entire ecosystem secure.
+
+**Our focus**:
+
+- Security and risk assessment of strong customer authentication solutions
+- Compliance with fintech regulations (e.g., PSD2 and PCI-DSS)
+- Cyber threat intelligence
+
