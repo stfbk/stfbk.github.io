@@ -52,3 +52,10 @@
   endDate: "2020-09-18"
   description: CPS4CIP'20 is the first workshop dedicated to the cyber-physical security for protecting critical infrastructures that support finance, energy, health, air transport, communication, gas, and water.
   url: https://sites.google.com/fbk.eu/cps4cip20
+  
+- id: IdentityDLT
+  name: Digital Identity and Distributed Systems
+  startDate: "2020-12-02"
+  endDate: "2020-12-02"
+  description: The conference aims to highlight studies, evidence, and guidelines on how public systems of digital identity (such as SPID, CIE, CNS) or private (such as banking SCA, digital signatures, Certification Authority services) and distributed systems (such as DLT, Blockchain) can collaborate to strengthen identification, authorization and recognition mechanisms in digital processes.
+  url: https://www.fbk.eu/en/event/conference-digital-identity-and-distributed-systems/

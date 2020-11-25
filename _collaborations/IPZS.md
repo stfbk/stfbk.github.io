@@ -11,6 +11,8 @@ publications:
 
 theses:
     - MarcoPernpruner_M
+    - GiovanniFerronato_B
+    - GiadaSciarretta_P
 
 ---
 
