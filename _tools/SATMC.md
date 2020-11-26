@@ -1,6 +1,8 @@
 ---
 title: SATMC
-subtitle: 
+
+publications:
+  - TACAS2014
 ---
 
 SAT-based Model-Checker for Security Protocols and Security-sensitive Applications.
@@ -12,6 +14,3 @@ SAT-based Model-Checker for Security Protocols and Security-sensitive Applicatio
 We are currently the main developers of the tool.
 
 Official Web Site: [https://csec.it/software/satmc/](https://csec.it/software/satmc/).
-
-## Relevant Paper
-- Alessandro Armando, Roberto Carbone, Luca Compagna. *SATMC: A SAT-Based Model Checker for Security-Critical Systems*. In: Proceedings of the 20th International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS 2014), April 5-13, 2014, Grenoble, France, Springer, pp. 31-45. [[doi](https://doi.org/10.1007/978-3-642-54862-8_3)]

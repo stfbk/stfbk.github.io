@@ -1,3 +1,52 @@
+## 2010
+- id: STM2010
+  title: Automated symbolic analysis of ARBAC-policies
+  authors: Alessandro Armando, Silvio Ranise
+  abstract: >
+    One of the most widespread framework for the management of access-control policies is Administrative Role Based Access Control (ARBAC). Several automated analysis techniques have been proposed to help maintaining desirable security properties of ARBAC policies. One limitation of many available techniques is that the sets of users and roles are bounded. In this paper, we propose a symbolic framework to overcome this difficulty. We design an automated security analysis technique, parametric in the number of users and roles, by adapting recent methods for model checking infinite state systems that use first-order logic and state-of-the-art theorem proving techniques. Preliminary experiments with a prototype implementations seem to confirm the scalability of our technique.
+  destination: STM2010
+  year: 2010
+  doi: 10.1007/978-3-642-22444-7_2
+
+## 2011
+- id: ASIACCS2011
+  title: Efficient symbolic automated analysis of administrative attribute-based RBAC-policies
+  authors: Francesco Alberti, Alessandro Armando, Silvio Ranise
+  abstract: >
+    Automated techniques for the security analysis of Role-Based Access Control (RBAC) access control policies are crucial for their design and maintenance. The definition of administrative domains by means of attributes attached to users makes the RBAC model easier to use in real scenarios but complicates the development of security analysis techniques, that should be able to modularly reason about a wide range of attribute domains. In this paper, we describe an automated symbolic security analysis technique for administrative attribute-based RBAC policies. A class of formulae of first-order logic is used as an adequate symbolic representation for the policies and their administrative actions. State-of-the-art automated theorem proving techniques are used (off-the-shelf) to mechanize the security analysis procedure. Besides discussing the assumptions for the effectiveness and termination of the procedure, we demonstrate its efficiency through an extensive empirical evaluation.
+  destination: ASIACCS2011
+  year: 2011
+  doi: 10.1145/1966913.1966935
+
+- id: CADE2011
+  title: "ASASP: Automated Symbolic Analysis of Security Policies"
+  authors: Francesco Alberti, Alessandro Armando, Silvio Ranise
+  abstract: >
+    We describe asasp, a symbolic reachability procedure for the analysis of administrative access control policies. The tool represents access policies and their administrative actions as formulae of the Bernays-Shönfinkel-Ramsey class and then uses a symbolic reachability procedure to solve security analysis problems. Checks for fix-point—reduced to satisfiability problems—are mechanized by Satisfiability Modulo Theories solving and Automated Theorem Proving. asasp has been successfully applied to the analysis of benchmark problems arising in (extensions of) the Role-Based Access Control model. Our tool shows better scalability than a state-of-the-art tool on a significant set of instances of these problems.
+  destination: CADE2011
+  year: 2011
+  doi: 10.1007/978-3-642-22438-6_4
+
+## 2012
+- id: JCS2012
+  title: Scalable automated symbolic analysis of administrative role-based access control policies by SMT solving
+  authors: Alessandro Armando, Silvio Ranise
+  abstract: >
+    Administrative Role Based Access Control (ARBAC) is one of the most widespread framework for the management of access-control policies. Several automated analysis techniques have been proposed to help maintaining desirable security properties of ARBAC policies. One of the main limitation of available analysis techniques is that the set of users is bounded. In this paper, we propose a symbolic framework to overcome this limitation. We design an automated analysis technique that can handle both a bounded and an unbounded number of users by adapting recent methods for the symbolic model checking of infinite state systems that use first-order logic and SMT solving techniques. An extensive experimental evaluation confirms the scalability of the proposed technique.
+  destination: JCS
+  destinationAddon: vol. 20, no. 4, pp. 309-352
+  year: 2012
+  doi: 10.3233/JCS-2012-0461
+
+- id: STM2012
+  title: Boosting Model Checking to Analyse Large ARBAC Policies
+  authors: Silvio Ranise, Anh Truong, Alessandro Armando
+  abstract: >
+    The administration of access control policies is a task of paramount importance for distributed systems. A crucial analysis problem is to foresee if a set of administrators can give a user an access permission. We consider this analysis problem in the context of the Administrative Role-Based Access Control (ARBAC), one of the most widespread administrative models. Given the difficulty of taking into account the effect of all possible administrative actions, automated analysis techniques are needed. In this paper, we describe how a model checker can scale up to handle very large ARBAC policies while ensuring completeness. An extensive experimentation shows that an implementation of our techniques performs significantly better than Mohawk, a recently proposed tool that has become the reference for finding errors in ARBAC policies.
+  destination: STM2012
+  year: 2012
+  doi: 10.1007/978-3-642-38004-4_18
+
 ## 2013
 - id: FroCoS2013
   title: Verification of Composed Array-based Systems with Applications to Security-Aware Workflows
@@ -19,6 +68,15 @@
   doi: 10.1007/978-3-319-05302-8_14
   urlNews: /news/2013/08/27/paper-accepted-at-fps2013/
 
+- id: SACMAT2013
+  title: Content-based information protection and release in NATO operations
+  authors: Alessandro Armando, Matteo Grasso, Sander Oudkerk, Silvio Ranise and Konrad Wrona
+  abstract: >
+    The successful operation of NATO missions requires effective and secure sharing of information among coalition partners and external organizations, while avoiding the disclosure of sensitive information to untrusted users. To resolve the conflict between confidentiality and availability, NATO is developing a new information sharing infrastructure, called Content-based Protection and Release. We describe the architecture of access control in NATO operations, which is designed to be easily built on top of available (service-oriented) infrastructures for identity and access control management. We then present a use case scenario drawn from the NATO Passive Missile Defence system for simulating the consequences of intercepting missile attacks. In the system demonstration, we show how maps annotated with the findings of the system are filtered by the access control module to produce appropriate views for users with different clearances and terminals under given release and protection policies.
+  destination: SACMAT2013
+  year: 2013
+  doi: 10.1145/2462410.2462427
+
 ## 2014
 - id: CSET2014
   title: "TESTREX: a Testbed for Repeatable Exploits"
@@ -26,6 +84,15 @@
   destination: CSET2014
   year: 2014
   urlNews: /news/2014/06/09/paper-accepted-at-cset14/
+
+- id: DBSec2014
+  title: "Incremental Analysis of Evolving Administrative Role Based Access Control Policies"
+  authors: "Silvio Ranise, Anh Truong"
+  abstract: >
+    We consider the safety problem for Administrative Role-Based Access Control (ARBAC) policies, i.e. detecting whether sequences of administrative actions can result in policies by which a user can acquire permissions that may compromise some security goals. In particular, we are interested in sequences of safety problems generated by modifications (namely, adding/deleting an element to/from the set of possible actions) to an ARBAC policy accommodating the evolving needs of an organization. or resulting from fixing some safety issues. Since problems in such sequences share almost all administrative actions, we propose an incremental technique that avoids the re-computation of the solution to the current problem by re-using much of the work done on the previous problem in a sequence. An experimental evaluation shows the better performances of an implementation of our technique with respect to the only available approach to solve safety problems for evolving ARBAC policies proposed by Gofman, Luo, and Yang.
+  destination: DBSec2014
+  year: 2014
+  doi: 10.1007/978-3-662-43936-4_17
 
 - id: NOMS2014
   title: A Dynamic Risk-based Access Control Architecture for Cloud Computing
@@ -58,6 +125,13 @@
   year: 2014
   doi: 10.1007/978-3-319-10329-7_4
   urlNews: /news/2014/02/19/paper-accepted-at-workshop-on-smart-grid-security/
+
+- id: TACAS2014
+  title: "SATMC: A SAT-Based Model Checker for Security-Critical Systems"
+  authors: Alessandro Armando, Roberto Carbone, Luca Compagna
+  destination: TACAS2014
+  year: 2014
+  doi: 10.1007/978-3-642-54862-8_3
 
 ## 2015
 - id: ASIACCS2015

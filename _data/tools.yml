@@ -1,39 +1,44 @@
-- id: TLSAssistant
-  name: TLSAssistant
-  description: a fully-featured tool that combines state-of-the-art TLS analyzers with a report system that suggests appropriate mitigations and shows the full set of viable attacks.
-  urlCode: https://github.com/stfbk/tlsassistant
-  urlDocumentation: /tools/TLSAssistant
+- id: ALCC
+  name: Automated Legal Compliance Checking
+  description: A tool for automated analysis of security policies in IT designs against the EU DPD regulation.
+  urlDocumentation: https://sites.google.com/view/eu-dpd-gdpr-compliance/home
+
+- id: ASASP
+  name: "ASASP: Automated Symbolic Analysis of Security Policies"
+  description: A tool for the automated safety analysis of administrative access control policies in (extensions of) the Role-Based Access Control (RBAC) model.
+  urlDocumentation: /tools/ASASP
+
+- id: CPR
+  name: "CPR: Content-based Information Protection and Release"
+  description: A tool for the analysis and enforcement of access control policies in NATO operations.
+  urlDocumentation: /tools/CPR
+
+- id: CryptoAC
+  name: CryptoAC
+  description: To facilitate the adoption of cloud by organizations, cryptographic access control is the obvious solution to control data sharing among users while preventing partially trusted cloud service providers to access sensitive data. In this context, CryptoAC implements a state of the art role-based cryptographic access control scheme; CryptoAC comes with an easy deployment process, it supports 81 different architectures and it is cloud-independent, i.e., it can be seamlessly deployed in all major cloud service providers.
+  urlCode: https://github.com/stfbk/CryptoAC
+  urlDocumentation: /tools/CryptoAC
 
 - id: Micro-Id-Gym
   name: Micro-Id-Gym
-  description: a framework where users can develop hands-on experiences on how IdM solutions work and increase their awareness related to the underlying security issues.
+  description: A framework where users can develop hands-on experiences on how IdM solutions work and increase their awareness related to the underlying security issues.
   urlCode: https://github.com/stfbk/micro-id-gym/
   urlDocumentation: /tools/Micro-Id-Gym
 
+- id: mIDAssistant
+  name: mIDAssistant
+  description: An Android Studio plugin that guides native mobile app developers with secure integeration of Single Sign-On and Access Delegation solutions within their apps.
+  urlDocumentation: https://sites.google.com/fbk.eu/midassistant/home
+
 - id: MQTTSA
   name: MQTT Security Assistant (MQTTSA)
-  description: a tool designed to increase the security awareness of IoT developers by automatically assessing misconfigurations in MQTT-based environments and by providing a report of potential vulnerabilities and mitigation measures at a different level of details - from natural language descriptions to code snippets that can be cut-and-paste in actual deployments.
+  description: A tool designed to increase the security awareness of IoT developers by automatically assessing misconfigurations in MQTT-based environments and by providing a report of potential vulnerabilities and mitigation measures at a different level of details - from natural language descriptions to code snippets that can be cut-and-paste in actual deployments.
   urlCode: https://github.com/stfbk/mqttsa
   urlDocumentation: https://sites.google.com/fbk.eu/mqttsa
 
-- id: SecurePG
-  name: SecurePG
-  description: "a Java-based tool that allows policy administrators to generate, verify and enforce abstract Access Control (AC) policies in two of the most widely used Cloud Service Providers: Amazon AWS and OpenStack."
-  urlDocumentation: https://sites.google.com/view/securepg/home
-
-- id: mIDAssistant
-  name: mIDAssistant
-  description: an Android Studio plugin that guides native mobile app developers with secure integeration of Single Sign-On and Access Delegation solutions within their apps.
-  urlDocumentation: https://sites.google.com/fbk.eu/midassistant/home
-
-- id: ALCC
-  name: Automated Legal Compliance Checking
-  description: a tool for automated analysis of security policies in IT designs against the EU DPD regulation.
-  urlDocumentation: https://sites.google.com/view/eu-dpd-gdpr-compliance/home
-
 - id: MuFASA
   name: MuFASA
-  description: a tool for high-level specification and analysis of MFA protocols, which aims at supporting normal users and security experts (in the design phase of an MFA protocol), providing a high level report regarding possible risks associated to the specified MFA protocol, its resistance to a set of attacker models (defined by NIST), its ease-of-use and its compliance with a set of security requirements derived from European laws.
+  description: A tool for high-level specification and analysis of MFA protocols, which aims at supporting normal users and security experts (in the design phase of an MFA protocol), providing a high level report regarding possible risks associated to the specified MFA protocol, its resistance to a set of attacker models (defined by NIST), its ease-of-use and its compliance with a set of security requirements derived from European laws.
   urlDocumentation: /tools/MuFASA
 
 - id: SATMC
@@ -41,8 +46,23 @@
   description: SAT-based Model-Checker for Security Protocols and Security-sensitive Applications.
   urlDocumentation: /tools/SATMC
 
-- id: CryptoAC
-  name: CryptoAC
-  description: To facilitate the adoption of cloud by organizations, cryptographic access control is the obvious solution to control data sharing among users while preventing partially trusted cloud service providers to access sensitive data. In this context, CryptoAC implements a state of the art role-based cryptographic access control scheme; CryptoAC comes with an easy deployment process, it supports 81 different architectures and it is cloud-independent, i.e., it can be seamlessly deployed in all major cloud service providers.
-  urlCode: https://github.com/stfbk/CryptoAC
-  urlDocumentation: /tools/CryptoAC
+- id: SecSES
+  name: SecSES
+  description: A tool providing a flexible access control mechanism for APIs.
+  urlDocumentation: /tools/SecSES
+
+- id: SecurePG
+  name: SecurePG
+  description: "A Java-based tool that allows policy administrators to generate, verify and enforce abstract Access Control (AC) policies in two of the most widely used Cloud Service Providers: Amazon AWS and OpenStack."
+  urlDocumentation: https://sites.google.com/view/securepg/home
+
+- id: STIATE
+  name: STIATE Toolkit
+  description: Supports development teams toward security assessment of their under-development applications focusing on subtle security logic flaws that may go undetected by using current industrial technology.
+  urlDocumentation: /tools/STIATE
+
+- id: TLSAssistant
+  name: TLSAssistant
+  description: A fully-featured tool that combines state-of-the-art TLS analyzers with a report system that suggests appropriate mitigations and shows the full set of viable attacks.
+  urlCode: https://github.com/stfbk/tlsassistant
+  urlDocumentation: /tools/TLSAssistant

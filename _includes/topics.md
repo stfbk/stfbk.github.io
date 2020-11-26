@@ -4,7 +4,7 @@
     {% for topic in sorted_topics %}
     <div class="column is-4-desktop is-6-tablet">
         <a href="{{ topic.url | prepend: site.baseurl }}">
-            <div class="card">
+            <div class="card topic">
                 {% if topic.image %}
                 <div class="card-image">
                     <figure class="image">

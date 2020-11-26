@@ -7,7 +7,9 @@ show_sidebar: false
 
     <div class="column is-12">
         {{ page.content }}
+    </div>
 
+    <div class="column is-12">
         {% assign tools = site.data.tools | sort_natural: "name" %}
 
         <div class="tools">

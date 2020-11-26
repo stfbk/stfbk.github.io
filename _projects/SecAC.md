@@ -8,6 +8,8 @@ goals: >
 duration: 24 months
 funding: Marie Curie COFUND
 startDate: "2012-10-01"
+endDate: "2014-09-30"
+funding: RESTATE Programme, co-funded by the European Union under the FP7 COFUND Marie-Curie Action
 
 people:
     - SilvioRanise
@@ -15,6 +17,6 @@ people:
 peopleOrder: surname
 ---
 
-SecAC (Security Analysis of Complex Access Control Policies) is supported by the RESTATE Programme, co-funded by the European Union under the FP7 COFUND Marie-Curie Action ([RESTATE](http://cofund.fbk.eu/)).
+SecAC (Security Analysis of Complex Access Control Policies) is supported by the [RESTATE](http://cofund.fbk.eu/) Programme, co-funded by the European Union under the FP7 COFUND Marie-Curie Action.
 
-The general aim of the project is to tackle security verification and enforcement in distributed multi-components systems.  We want to formally specify such systems by means of a high-level symbolic language that  will allow for the (automated) analysis and enforcement of interesting security properties.
+The general aim of the project is to tackle security verification and enforcement in distributed multi-components systems. We want to formally specify such systems by means of a high-level symbolic language that will allow for the (automated) analysis and enforcement of interesting security properties.

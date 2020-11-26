@@ -6,10 +6,11 @@ goals: >
 
 funding: Initial Training Networks (ITN) - Marie Curie Actions
 duration: 4 years
-unitrole: Coordinator
+role: Coordinator
 website: http://www.secentis.eu/
 startDate: "2013-04-01"
 endDate: "2017-03-31"
+logo: logo_SECENTIS.png
 
 partners:
     - name: SAP Next Business and Technology (Security & Trust applied research department in Sophia-Antipolis)

@@ -32,14 +32,43 @@
         {% if additionalInfo.size == 1 %}
             {% assign additionalInfo = additionalInfo | first %}
         {% else %}
-            {% assign additionalInfo = "" %}
+            {% assign additionalInfo = nil %}
         {% endif %}
 
         {% assign thesis = site.data.theses | where: "id", additionalInfo.thesisId %}
         {% if thesis.size == 1 %}
             {% assign thesis = thesis | first %}
+
+            {%- if thesis.supervisor -%}
+                {%- assign supervisor = site.data.people | where: "id", thesis.supervisor -%}
+                {%- if supervisor.size == 1 -%}
+                    {% assign supervisor = supervisor[0] -%}
+                {%- else -%}
+                    {% assign supervisor = nil -%}
+                {%- endif -%}
+            {%- endif -%}
+
+            {% assign cosupervisors = "" | split: "" %}
+            {%- if thesis.co-supervisor -%}
+                {%- if thesis.co-supervisor | first -%}
+                    {% for cosup in thesis.co-supervisor %}
+                        {% assign cosupervisorFromId = site.data.people | where: "id", cosup %}
+                        {% assign cosupervisorName = cosupervisorFromId[0]["name"] | append: " " | append: cosupervisorFromId[0]["surname"] %}
+                        {%- assign cosupervisors = cosupervisors | push: cosupervisorName -%}
+                    {% endfor %}
+                {% else %}
+                    {% assign cosupervisorFromId = site.data.people | where: "id", thesis.co-supervisor %}
+                    {% assign cosupervisors = "" | concat: cosupervisorFromId[0] %}
+                {% endif %}
+            {%- endif -%}
+
+            {%- if cosupervisors.size > 0 -%}
+                {%- assign cosupervisorsString = cosupervisors | join: ", " -%}
+            {%- else -%}
+                {%- assign cosupervisorsString = nil -%}
+            {%- endif -%}
         {% else %}
-            {% assign thesis = "" %}
+            {% assign thesis = nil %}
         {% endif %}
 
         {% if details contains "type" %}
@@ -177,6 +206,8 @@
                 {% if person.name and person.surname %}<b>{{ person.name }} {{ person.surname }}</b>{% endif %}{{ detailsString }}
                 {% if thesis.title and details contains "thesis" %}
                     <br />Thesis: {{ thesis.title }}
+                    {% if supervisor %}<br />Supervisor: {{ supervisor.name }} {{ supervisor.surname }}{% if cosupervisorsString %} |{% endif %}{% endif %}
+                    {% if cosupervisorsString %}Co-supervisor{% if thesis.co-supervisor.size > 1 %}s{% endif %}: {{ cosupervisorsString }}{% endif %}
                     {% if thesis.awards %}<br />Awards: {{ thesis.awards }}{% endif %}
                 {% elsif additionalInfo.topic and details contains "topic" %}
                     <br />Topic: {{ additionalInfo.topic }}

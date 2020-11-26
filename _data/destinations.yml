@@ -11,6 +11,12 @@
   url: https://www.ijisc.com/
   type: journal
 
+- id: JCS
+  name: Journal of Computer Security
+  acronym: JCS
+  url: https://www.iospress.nl/journal/journal-of-computer-security/
+  type: journal  
+
 - id: JISA
   name: Journal of Information Security and Applications
   acronym: JISA
@@ -30,10 +36,47 @@
   type: website
 
 # CONFERENCES/WORKSHOPS
+## 2010
+- id: STM2010
+  name: 6th International Workshop on Security and Trust Management
+  acronym: STM 2010
+  type: workshop
+  location: Athens, Greece
+  startDate: "2010-09-23"
+  endDate: "2010-09-24"
+
+## 2011
+- id: ASIACCS2011
+  name: 6th ACM Symposium on Information, Computer and Communications Security
+  acronym: ASIACCS '11
+  type: conference
+  location: Hong Kong, China
+  startDate: "2011-03-22"
+  endDate: "2011-03-24"
+
+- id: CADE2011
+  name: 23rd International Conference on Automated Deduction
+  acronym: CADE 2011
+  type: conference
+  location: Wroclaw, Poland
+  startDate: "2011-07-31"
+  endDate: "2011-08-05"
+
+## 2012
+- id: STM2012
+  name: 8th International Workshop on Security and Trust Management
+  acronym: STM 2012
+  url: http://stm2012.di.unimi.it/
+  type: workshop
+  location: Pisa, Italy
+  startDate: "2012-09-13"
+  endDate: "2012-09-14"
+
 ## 2013
 - id: FPS2013
   name: International Symposium on Foundations and Practice of Security
   acronym: FPS 2013
+  url: http://conferences.telecom-bretagne.eu/fps/2013/
   type: conference
   location: La Rochelle, France
   startDate: "2013-10-21"
@@ -48,6 +91,15 @@
   startDate: "2013-09-18"
   endDate: "2013-09-20"
 
+- id: SACMAT2013
+  name: 18th ACM Symposium on Access Control Models and Technologies
+  acronym: SACMAT 2013
+  url: http://www.sacmat.org/2013/index.php
+  type: conference
+  location: Amsterdam, Netherlands
+  startDate: "2013-06-12"
+  endDate: "2013-06-14"
+
 ## 2014
 - id: CSET2014
   name: 7th Workshop on Cyber Security Experimentation and Test
@@ -57,6 +109,15 @@
   location: San Diego, CA, USA
   startDate: "2014-08-18"
   endDate: "2014-08-18"
+
+- id: DBSec2014
+  name: 28th Annual IFIP WG 11.3 Working Conference on Data and Applications Security and Privacy
+  acronym: DBSec 2014
+  url: https://dbsec2014.sba-research.org/
+  type: conference
+  location: Vienna, Austria
+  startDate: "2014-07-14"
+  endDate: "2014-07-16"
 
 - id: NOMS2014
   name: 14th IEEE/IFIP Network Operations and Management Symposium
@@ -68,7 +129,7 @@
   endDate: "2014-05-09"
 
 - id: SACMAT2014
-  name: ACM Symposium on Access Control Models and Technologies
+  name: 18th ACM Symposium on Access Control Models and Technologies
   acronym: SACMAT 2014
   url: http://www.sacmat.org/2014/index.php
   type: conference
@@ -84,6 +145,15 @@
   location: Munich, Germany
   startDate: "2014-02-26"
   endDate: "2014-02-26"
+
+- id: TACAS2014
+  name: 20th International Conference on Tools and Algorithms for the Construction and Analysis of Systems
+  acronym: TACAS 2014
+  url: https://etaps.org/2014/tacas
+  type: conference
+  location: Grenoble, France
+  startDate: "2014-04-05"
+  endDate: "2014-04-13"
 
 ## 2015
 - id: ASIACCS2015
@@ -225,10 +295,9 @@
   acronym: CODASPY 2020
   url: http://www.codaspy.org/2020/
   type: conference
-  location: New Orleans, LA, USA
-  startDate: "2020-03-16"
-  endDate: "2020-03-18"
-  note: "Postponed to early fall 2020 due to the escalation of the COVID-19 situation around the world"
+  location: Online
+  startDate: "2020-08-03"
+  endDate: "2020-08-04"
 
 - id: ITASEC2020
   name: Italian Conference on CyberSecurity
@@ -279,4 +348,3 @@
   name: now publishers inc.
   url: https://nowpublishers.com/article/BookDetails/9781680836868
   type: book
-  

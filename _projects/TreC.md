@@ -4,6 +4,7 @@ tagline: aims at the development of an on-line platform providing citizens with 
 funding: Provincia Autonoma di Trento
 role: Our role within the project is to identify a suitable framework for the specification and enforcement of the security policies of TreC.
 website: https://trec.trentinosalute.net/
+logo: logo_TreC.jpg
 
 startDate: "2010-11-01"
 endDate: "2011-11-30"
