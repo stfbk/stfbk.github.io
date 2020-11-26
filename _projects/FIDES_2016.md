@@ -6,8 +6,10 @@ leader: Rocco Mammoliti (Poste Italiane)
 goals: >
     FBK is responsible for the definition of business models relevant to the pilots and the foreground, on the basis of the market analysis accomplished in 2015 and the identified market segments. Additionally, FBK will provide innovative identity management solutions for mobile and it will contribute to the deployment and extension of the Italian pilot (with the involvement of the e-Health Unit of FBK).
 
+logo: logo_FIDES.png
 startDate: "2016-01-01"
 endDate: "2016-12-31"
+funding: ICT EIT Labs
 
 partners:
     - name: Atos

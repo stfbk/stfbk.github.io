@@ -4,24 +4,18 @@ show_sidebar: false
 ---
 
 <div class="columns is-multiline">
-
     <div class="column is-12">
         {{ page.content }}
+    </div>
 
-        {% assign sorted_projects = site.projects | sort: "startDate" | reverse %}
-        <div class="projects">
-            <ul>
-                {% for project in sorted_projects %}
-                    <li class="item project">
-                        <a href="{% if project.customURL %}{{ project.customURL | prepend: site.baseurl }}{% else %}{{ project.title | replace: " ", "_" | prepend: site.baseurl }}{% endif %}"><b>{{ project.title }}</b></a>{% if project.titleAddon %} ({{ project.titleAddon }}){% endif %}
-                        {% if project.tagline %}
-                        <ul class="description">
-                            <li>{{ project.tagline }}</li>
-                        </ul>
-                        {% endif %}
-                    </li>
-                {% endfor %}
-            </ul>
-        </div>
+    <div class="column is-12">
+        {% assign currentProjects = site.projects | where_exp: "project", "project.endDate == nil" %}
+        {% assign formerProjects = site.projects | where_exp: "project", "project.endDate != nil" %}
+
+        <h1>Current Projects</h1>
+        {% include list-projects.html source=currentProjects style="card" %}
+
+        <h1>Former Projects</h1>
+        {% include list-projects.html source=formerProjects style="card" %}
     </div>
 </div>

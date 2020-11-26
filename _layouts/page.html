@@ -2,53 +2,60 @@
 layout: default
 ---
 
-{% if page.toc %}
-    {% assign contentsTitle = page.toc_title | default: 'Contents' %}
-    {% include toc.html html=content class='menu-list' h_min=1 h_max=3 contents_title=contentsTitle %}
-{% endif %}
 <div class="content">
-    {{ content }}
-
-    {% if page.images.size > 0 %}
-        <div class="column images is-12">
-            <h1>Images</h1>
-            {% include list-images.html source=page.images %}
-        </div>
-    {% endif %}
-
-    {% if page.publications.size > 0 %}
+    <div class="columns is-multiline">
         <div class="column is-12">
-            <h1>Related Publications</h1>
-            {% include list-publications.html source=page.publications %}
+            {{ content }}
         </div>
-    {% endif %}
 
-    {% if page.theses.size > 0 %}
-        <div class="column is-12">
-            <h1>Related Theses</h1>
-            {% include list-theses.html source=page.theses %}
-        </div>
-    {% endif %}
+        {% if page.images.size > 0 %}
+            <div class="column images is-12">
+                <h1 id="related-images" class="related">Images</h1>
+                {% include list-images.html source=page.images %}
+            </div>
+        {% endif %}
 
-    {% if page.events.size > 0 %}
-		<div class="column is-12">
-			<h1>Related Events</h1>
-			{% include list-events.html source=page.events %}
-		</div>
-    {% endif %}
+        {% if page.publications.size > 0 %}
+            <div class="column is-12">
+                <h1 id="related-publications" class="related">Related Publications</h1>
+                {% include list-publications.html source=page.publications %}
+            </div>
+        {% endif %}
 
-    {% if page.tools.size > 0 %}
-		<div class="column is-12">
-			<h1>Related Tools</h1>
-			{% include list-tools.html source=page.tools %}
-		</div>
-    {% endif %}
+        {% if page.theses.size > 0 %}
+            <div class="column is-12">
+                <h1 id="related-theses" class="related">Related Theses</h1>
+                {% include list-theses.html source=page.theses %}
+            </div>
+        {% endif %}
 
-    {% if page.people.size > 0 %}
-        <div class="column people top-separator is-12"></div>
-            <h1 id="title-involvedpeople">Involved People</h1>
-            {% assign details = "picture, email, website" | split: ", " %}
-            {% include list-people.html source=page.people style="card" details=details %}
-        </div>
-    {% endif %}
+        {% if page.events.size > 0 %}
+            <div class="column is-12">
+                <h1 id="related-events" class="related">Related Events</h1>
+                {% include list-events.html source=page.events %}
+            </div>
+        {% endif %}
+
+        {% if page.projects.size > 0 %}
+            <div class="column is-12">
+                <h1 id="related-projects" class="related">Related Project</h1>
+                {% include list-projects.html source=page.projects style="list" %}
+            </div>
+        {% endif %}
+
+        {% if page.tools.size > 0 %}
+            <div class="column is-12">
+                <h1 id="related-tools" class="related">Related Tools</h1>
+                {% include list-tools.html source=page.tools %}
+            </div>
+        {% endif %}
+
+        {% if page.people.size > 0 %}
+            <div class="column is-12">
+                <h1 id="related-people" class="related">Involved People</h1>
+                {% assign details = "picture, email, website" | split: ", " %}
+                {% include list-people.html source=page.people style="card" details=details %}
+            </div>
+        {% endif %}
+    </div>
 </div>

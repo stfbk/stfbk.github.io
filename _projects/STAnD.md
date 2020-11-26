@@ -9,6 +9,7 @@ goals: >
 funding: EIT Digital innovation and entrepreneurial education organisation under Internal Agreement Grant 2018 (ID project 18163)
 startDate: "2018-01-01"
 endDate: "2018-12-31"
+logo: logo_STAnD.png
 
 partners:
     - name: Fondazione Bruno Kessler (FBK)

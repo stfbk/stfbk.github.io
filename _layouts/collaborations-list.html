@@ -9,25 +9,29 @@ show_sidebar: false
         {{ page.content }}
     </div>
 
-    {% assign collaborations = site.data.collaborations | sort: "name" %}
+    <div class="column is-12">
+        {% assign collaborations = site.data.collaborations | sort: "name" %}
 
-    {% for collaboration in collaborations %}
-        <div class="column is-4-desktop is-6-tablet collaboration">
-            <a href="{{ collaboration.internalUrl | prepend: site.baseurl }}">
-                <div class="card enterprise">
-                    {% if collaboration.image %}
-                        <div class="card-image">
-                            <figure class="image">
-                                <img src="{{ site.baseurl }}/collaborations/assets/{{ collaboration.image }}" alt="{{ collaboration.name }}" />
-                            </figure>
+        <div class="columns is-multiline">
+            {% for collaboration in collaborations %}
+                <div class="column is-4-desktop is-6-tablet collaboration">
+                    <a href="{{ collaboration.internalUrl | prepend: site.baseurl }}">
+                        <div class="card enterprise">
+                            {% if collaboration.image %}
+                                <div class="card-image">
+                                    <figure class="image">
+                                        <img src="{{ site.baseurl }}/collaborations/assets/{{ collaboration.image }}" alt="{{ collaboration.name }}" />
+                                    </figure>
+                                </div>
+                            {% endif %}
+                            <div class="card-content">
+                                <p class="title is-4">{{ collaboration.name }}{% if collaboration.acronym %} ({{ collaboration.acronym}}){% endif %}</p>
+                                {% if collaboration.description %}<p class="subtitle is-4">{{ collaboration.description }}</p>{% endif %}
+                            </div>
                         </div>
-                    {% endif %}
-                    <div class="card-content">
-                        <p class="title is-4">{{ collaboration.name }}{% if collaboration.acronym %} ({{ collaboration.acronym}}){% endif %}</p>
-                        {% if collaboration.description %}<p class="subtitle is-4">{{ collaboration.description }}</p>{% endif %}
-                    </div>
+                    </a>
                 </div>
-            </a>
+            {% endfor %}
         </div>
-    {% endfor %}
+    </div>
 </div>

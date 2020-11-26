@@ -30,3 +30,12 @@ if ($("iframe").length > 0) {
 if ($("table").length > 0) {
     $("table").wrap("<div class='table-scrollable'></div>");
 }
+
+if ($("#markdown-toc").length > 0) {
+    if ($(".related").length > 0) {
+        $(".related").each(function(index) {
+            var toAppend = '<li><a href="#'+$(this).attr("id")+'" id="markdown-toc-additional-contributors">'+$(this).text()+'</a></li>';
+            $("#markdown-toc").append(toAppend);
+        });
+    }
+}

@@ -1,6 +1,4 @@
-{% if include.source %}
-    {% assign source = include.source %}
-{% endif %}
+{% assign source = include.source %}
 
 {% if source.size > 0 %}
 <ul class="tools">
@@ -28,7 +26,7 @@
             {%- assign linksString = "" -%}
         {%- endif -%}
         <li>
-            <b>{{ tool.name }}</b>{% if tool.urlDocumentation %}{{ linksString }}
+            <b>{{ tool.name }}</b>{% if tool.urlDocumentation %}{{ linksString }}{% endif %}
         </li>
     {% endfor %}
 </ul>

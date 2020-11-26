@@ -1,6 +1,6 @@
 ---
 title: STIATE
-nameAddon: Security Threat Identification and Testing
+titleAddon: Security Threat Identification and Testing
 tagline: "an activity in the context of the EIT ICT Labs activities 2014 (Innovation Area: Privacy, Security and Trust)."
 leader: Alessandro Armando (FBK)
 goals: >
@@ -10,6 +10,8 @@ website: http://www.eitictlabs.eu/innovation-entrepreneurship/privacy-security-t
 
 startDate: "2014-01-01"
 endDate: "2014-12-31"
+logo: logo_EIT_Labs.jpeg
+funding: EIT ICT Labs
 
 partners:
     - name: Fondazione Bruno Kessler (FBK)
@@ -23,6 +25,10 @@ partners:
 
 people:
     - RobertoCarbone
+
+images:
+    - title: Partners structure
+      source: /projects/assets/STIATE_partners.jpg
 
 peopleOrder: surname
 ---

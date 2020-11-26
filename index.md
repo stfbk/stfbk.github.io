@@ -2,8 +2,8 @@
 title: Security & Trust
 subtitle: Research Unit in Fondazione Bruno Kessler
 layout: page
-logo: /assets/images/logos/ST_symbol.png
-logoRight: /assets/images/logos/FBK_white.png
+heroImageLeft: /assets/images/logos/ST_symbol.png
+heroImageRight: /assets/images/logos/FBK_white.png
 ---
 
 # Who we are
