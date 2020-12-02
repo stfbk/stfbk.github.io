@@ -4,7 +4,7 @@
     {% for spotlight in spotlights %}
     <div class="column is-4-desktop is-6-tablet">
         <a href="{{ spotlight.url | prepend: site.baseurl }}">
-            <div class="card">
+            <div class="card spotlight">
                 {% if spotlight.image %}
                 <div class="card-image">
                     <figure class="image">

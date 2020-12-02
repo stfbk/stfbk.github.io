@@ -54,7 +54,7 @@ layout: default
             <div class="column is-12">
                 <h1 id="related-people" class="related">Involved People</h1>
                 {% assign details = "picture, email, website" | split: ", " %}
-                {% include list-people.html source=page.people style="card" details=details %}
+                {% include list-people.html source=page.people style="card" details=details sort=page.peopleOrder %}
             </div>
         {% endif %}
     </div>
