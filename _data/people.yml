@@ -22,6 +22,10 @@
 - id: AlbertoSiena
   name: Alberto
   surname: Siena
+  role: Innovation Manager
+  affiliations:
+    - institution: Securics
+      place: Trento, Italy
   website: https://sites.google.com/site/albertosiena/
   image: https://sites.google.com/site/albertosiena/_/rsrc/1263330308767/config/app/images/as.jpg
 
@@ -46,6 +50,10 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: altomasi@fbk.eu
+
+- id: AlessioColetta
+  name: Alessio
+  surname: Coletta
 
 - id: AlessioValenza
   name: Alessio
@@ -74,6 +82,14 @@
       place: Trento, Italy
   email: a.bisegna@fbk.eu
 
+- id: AnnibalePanichella
+  name: Annibale
+  surname: Panichella
+
+- id: AvinashSudhodanan
+  name: Avinash
+  surname: Sudhodanan
+
 - id: BiniamFissehaDemissie
   name: Biniam Fisseha
   surname: Demissie
@@ -95,6 +111,22 @@
   website: ""
   image: https://media-exp1.licdn.com/dms/image/C4E03AQEPRt71VVgABw/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=mmnzNewMBhrMwqgAbd0ne8RA6kTdqBtvnn8YCCpbkq4
 
+- id: ClaraBertolissi
+  name: Clara
+  surname: Bertolissi
+
+- id: DamianoSartori
+  name: Damiano
+  surname: Sartori
+
+- id: DanielDosSantos
+  name: Daniel Ricardo
+  surname: dos Santos
+
+- id: DanieleDelSale
+  name: Daniele
+  surname: Del Sale
+
 - id: DavidePiva
   name: Davide
   surname: Piva
@@ -109,18 +141,13 @@
   image: https://emavgl.github.io/images/avatar.jpg
   website: https://emavgl.github.io/
 
+- id: EnricoDonadoni
+  name: Enrico
+  surname: Donadoni
+
 - id: FedericoSinigaglia
   name: Federico
   surname: Sinigaglia
-  role: PhD Student
-  affiliations:
-    - unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-    - unit: DIBRIS
-      institution: University of Genoa
-      place: Genoa, Italy
-  email: sinigaglia@fbk.eu
 
 - id: GabrieleCosta
   name: Gabriele
@@ -164,6 +191,15 @@
   website: ""
   image: https://media-exp1.licdn.com/dms/image/C5603AQEcwxof36633Q/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=h5fI2ngKcl-4rahGVBf4cRWY9ZzhGnKSDqRsz5fwo6s
 
+- id: GiovanniMariaAbbiati
+  name: Giovanni Maria
+  surname: Abbiati
+  role: Research Fellow
+  affiliations:
+    - institution: University of Milan
+      place: Milan, Italy
+  email: giovanni.abbiati@unimi.it
+
 - id: GiulioPellizzari
   name: Giulio
   surname: Pellizzari
@@ -191,6 +227,10 @@
 - id: LorenzoTait
   name: Lorenzo
   surname: Tait
+
+- id: LucaCompagna
+  name: Luca
+  surname: Compagna
 
 - id: LucaViganò
   name: Luca
@@ -226,7 +266,6 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: mcentenaro@fbk.eu
-  usernameFBK: mcentenaro
 
 - id: MarcoPernpruner
   name: Marco
@@ -252,6 +291,10 @@
   image: https://www.di.univr.it/documenti/Persona/foto/foto347921.jpg
   website: http://www.di.univr.it/?ent=persona&id=60574
 
+- id: MartaToniolli
+  name: Marta
+  surname: Toniolli
+
 - id: MassimoMerro
   name: Massimo
   surname: Merro
@@ -274,6 +317,22 @@
       place: Trento, Italy
   email: leonelli@fbk.eu
 
+- id: MicheleBezzi
+  name: Michele
+  surname: Bezzi
+
+- id: MirkoSchicchi
+  name: Mirko
+  surname: Schicchi
+
+- id: MojtabaEskandari
+  name: Mojtaba
+  surname: Eskandari
+
+- id: NadiaMetoui
+  name: Nadia
+  surname: Metoui
+
 - id: RobertoCarbone
   name: Roberto
   surname: Carbone
@@ -293,13 +352,11 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: rriggio@fbk.eu
-  usernameFBK: rriggio
 
 - id: RobertoTiella
   name: Roberto
   surname: Tiella
   email: tiella@fbk.eu
-  usernameFBK: tiella
 
 - id: SalimehDashti
   name: Salimeh
@@ -327,6 +384,10 @@
       place: Genoa, Italy
   email: smanfredi@fbk.eu
 
+- id: SaverioTuretta
+  name: Saverio
+  surname: Turetta
+
 - id: SergiiKushch
   name: Sergii
   surname: Kushch
@@ -344,6 +405,10 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: ranise@fbk.eu
+
+- id: StanislavDashevskyi
+  name: Stanislav
+  surname: Dashevskyi
 
 - id: StefanoBerlato
   name: Stefano
@@ -371,6 +436,17 @@
       institution: University of Genoa
       place: Genoa, Italy
   email: ahmad@fbk.eu
+
+- id: TuanAnhTruong
+  name: Tuan Anh
+  surname: Truong
+  role: Lecturer
+  affiliation:
+    - unit: Faculty of Computer Science and Engineering
+      institution: HCMC University of Technology
+      place: Vietnam
+  email: anhtt@cse.hcmut.edu.vn
+  website: http://www4.hcmut.edu.vn/~anhtt/
 
 - id: UmbertoMorelli
   name: Umberto

@@ -31,10 +31,6 @@ former:
       yearFrom: 2010
       yearTo: 2016
 
-    - personId: FedericoSinigaglia
-      formerRole: PhD Student
-      yearTo: 2020
-
     - personId: MarianoCeccato
       formerRole: Researcher
       yearTo: 2019
@@ -50,6 +46,40 @@ former:
     - personId: AlbertoSiena
       formerRole: Researcher
       yearTo: 2020
+
+  phdStudents:
+    - personId: FedericoSinigaglia
+      thesisId: FedericoSinigaglia_P
+
+    - personId: TahirAhmad
+      thesisId: TahirAhmad_P
+
+    - personId: AvinashSudhodanan
+      thesisId: AvinashSudhodanan_P
+
+    - personId: BiniamFissehaDemissie
+      thesisId: BiniamFissehaDemissie_P
+
+    - personId: GiadaSciarretta
+      thesisId: GiadaSciarretta_P
+
+    - personId: DanielDosSantos
+      thesisId: DanielDosSantos_P
+
+    - personId: TuanAnhTruong
+      thesisId: TuanAnhTruong_P
+
+    - personId: MojtabaEskandari
+      thesisId: MojtabaEskandari_P
+
+    - personId: StanislavDashevskyi
+      thesisId: StanislavDashevskyi_P
+
+    - personId: NadiaMetoui
+      thesisId: NadiaMetoui_P
+
+    - personId: AlessioColetta
+      thesisId: AlessioColetta_P
   
   students:
     - personId: MarcoPernpruner
@@ -71,10 +101,36 @@ former:
       thesisId: CarlottaTagliaro_B
 
     - personId: LorenzoTait
-      thesisId: LorenzoTait_M
+      thesisId: LorenzoTait_B
 
     - personId: IvanMartini
       thesisId: IvanMartini_B
 
     - personId: ValentinaOdorizzi
       thesisId: ValentinaOdorizzi_B
+
+    - personId: SaverioTuretta
+      thesisId: SaverioTuretta_B
+
+    - personId: MirkoSchicchi
+      thesisId: MirkoSchicchi_B
+
+    - personId: GiulioPellizzari
+      thesisId:
+        - GiulioPellizzari_B
+        - GiulioPellizzari_M
+      
+    - personId: GiovanniFerronato
+      thesisId: GiovanniFerronato_B
+
+    - personId: EnricoDonadoni
+      thesisId: EnricoDonadoni_B
+
+    - personId: DanieleDelSale
+      thesisId: DanieleDelSale_B
+
+    - personId: DamianoSartori
+      thesisId: DamianoSartori_B
+
+    - personId: MartaToniolli
+      thesisId: MartaToniolli_B
