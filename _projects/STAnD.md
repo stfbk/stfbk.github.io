@@ -39,8 +39,6 @@ peopleOrder: surname
 
 STAnD (Security Tools for App Development) is the outcome of EIT Digital's [API Assistant Innovation Activity 2018](https://www.eitdigital.eu/innovation-entrepreneurship/digital-infrastructure/).
 
-(Digital Infrastructure Action Line)
-
 The activity will create an assistant for mobile app developers capable of rising Cyber Security awareness and mitigating threats in API-based mobile apps by offering a toolkit for code hardening against known security problems and a managed security service for testing, analysis, and compliance.
 
 [News in EIT Digital](https://www.eitdigital.eu/newsroom/news/article/stand-stands-up-to-api-based-application-security-vulnerabilities/)

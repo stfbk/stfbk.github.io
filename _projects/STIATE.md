@@ -25,6 +25,8 @@ partners:
 
 people:
     - RobertoCarbone
+    - AlessandroArmando
+    - AnnibalePanichella
 
 images:
     - title: Partners structure

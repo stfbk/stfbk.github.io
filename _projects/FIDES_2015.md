@@ -43,6 +43,8 @@ people:
     - FedericoSinigaglia
     - GiadaSciarretta
     - RobertoCarbone
+    - AlessioColetta
+    - AlessandroArmando
 
 peopleOrder: surname
 ---

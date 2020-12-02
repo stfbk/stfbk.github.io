@@ -29,6 +29,8 @@ people:
     - GiadaSciarretta
     - RobertoCarbone
     - SilvioRanise
+    - AlessioColetta
+    - AlessandroArmando
 
 peopleOrder: surname
 ---

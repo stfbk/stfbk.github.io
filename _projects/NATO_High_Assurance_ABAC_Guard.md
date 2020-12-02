@@ -7,6 +7,7 @@ endDate: "2014-12-31"
 
 people:
     - SilvioRanise
+    - AlessandroArmando
 
 peopleOrder: surname
 ---

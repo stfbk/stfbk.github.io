@@ -20,6 +20,7 @@ partners: >
 
 people:
     - RobertoCarbone
+    - AlessandroArmando
 
 peopleOrder: surname            # How to order the involved people (must be one of the fields belonging to the "people" structure)
 
