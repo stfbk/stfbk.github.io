@@ -108,6 +108,7 @@
     - GiadaSciarretta
   year: 2018
   institution: University of Trento
+  awards: 3rd place at thesis award "Innovare la sicurezza delle informazioni 2019", sponsored by CLUSIT
 
 - id: GiulioPellizzari_B
   title: "Design and implementation of a tool to detect Login Cross-Site Request Forgery in SAML SSO: G Suite case study"
@@ -208,7 +209,7 @@
     - UmbertoMorelli
   year: 2020
   institution: University of Trento
-  awards: 4th place at thesis award "Innovare la sicurezza delle informazioni", sponsored by CLUSIT
+  awards: 4th place at thesis award "Innovare la sicurezza delle informazioni 2020", sponsored by CLUSIT
 
 - id: DavidePiva_B
   title: "Assisting Developers in Securing OAuth 2.0 Deployment: Demystifying Threats and Protection Techniques for Bearer Credentials"
@@ -269,7 +270,7 @@
   co-supervisor: RobertoCarbone
   year: 2019
   institution: University of Trento
-  awards: 3rd place at thesis award "Innovare la sicurezza delle informazioni", sponsored by CLUSIT
+  awards: 3rd place at thesis award "Innovare la sicurezza delle informazioni 2020", sponsored by CLUSIT
 
 ## 2020
 - id: BiniamFissehaDemissie_P
