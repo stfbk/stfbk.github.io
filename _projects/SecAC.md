@@ -13,6 +13,7 @@ funding: RESTATE Programme, co-funded by the European Union under the FP7 COFUND
 
 people:
     - SilvioRanise
+    - ClaraBertolissi
 
 peopleOrder: surname
 ---

@@ -26,6 +26,12 @@ partners:
 people:
     - RobertoCarbone
     - SilvioRanise
+    - AlessandroArmando
+    - DanielDosSantos
+    - MojtabaEskandari
+    - StanislavDashevskyi
+    - AvinashSudhodanan
+    - NadiaMetoui
 
 peopleOrder: surname
 ---

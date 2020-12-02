@@ -10,6 +10,7 @@ funding: Provincia Autonoma di Trento
 people:
     - RobertoCarbone
     - SilvioRanise
+    - AlessandroArmando
 
 peopleOrder: surname
 
