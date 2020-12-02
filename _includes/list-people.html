@@ -22,7 +22,7 @@
     {% endfor %}
 
     {% if sort %}
-        {% assign people = peopleFromId | sort: sort %}
+        {% assign people = peopleFromId | sort_natural: sort %}
     {% else %}
         {% assign people = peopleFromId %}
     {% endif %}
@@ -35,78 +35,112 @@
             {% assign additionalInfo = nil %}
         {% endif %}
 
-        {% assign thesis = site.data.theses | where: "id", additionalInfo.thesisId %}
-        {% if thesis.size == 1 %}
-            {% assign thesis = thesis | first %}
-
-            {%- if thesis.supervisor -%}
-                {%- assign supervisor = site.data.people | where: "id", thesis.supervisor -%}
-                {%- if supervisor.size == 1 -%}
-                    {% assign supervisor = supervisor[0] -%}
-                {%- else -%}
-                    {% assign supervisor = nil -%}
-                {%- endif -%}
-            {%- endif -%}
-
-            {% assign cosupervisors = "" | split: "" %}
-            {%- if thesis.co-supervisor -%}
-                {%- if thesis.co-supervisor | first -%}
-                    {% for cosup in thesis.co-supervisor %}
-                        {% assign cosupervisorFromId = site.data.people | where: "id", cosup %}
-                        {% assign cosupervisorName = cosupervisorFromId[0]["name"] | append: " " | append: cosupervisorFromId[0]["surname"] %}
-                        {%- assign cosupervisors = cosupervisors | push: cosupervisorName -%}
-                    {% endfor %}
-                {% else %}
-                    {% assign cosupervisorFromId = site.data.people | where: "id", thesis.co-supervisor %}
-                    {% assign cosupervisors = "" | concat: cosupervisorFromId[0] %}
-                {% endif %}
-            {%- endif -%}
-
-            {%- if cosupervisors.size > 0 -%}
-                {%- assign cosupervisorsString = cosupervisors | join: ", " -%}
-            {%- else -%}
-                {%- assign cosupervisorsString = nil -%}
-            {%- endif -%}
+        {% assign thesesId = "" | split: "" %}
+        {% if additionalInfo.thesisId | first %}
+            {% for thesis in additionalInfo.thesisId %}
+                {% assign thesesId = thesesId | push: thesis %}
+            {% endfor %}
         {% else %}
-            {% assign thesis = nil %}
+            {% assign thesesId = thesesId | push: additionalInfo.thesisId %}
         {% endif %}
 
-        {% if details contains "type" %}
-            {% if thesis.type %}
-                {% assign type = thesis.type %}
-            {% elsif additionalInfo.type %}
-                {% assign type = additionalInfo.type %}
-            {% else %}
-                {% assign type = "" %}
+        {% assign authorThesesArray = "" | split: "" %}
+        {% assign supervisorsArray = "" | split: "" %}
+        {% assign cosupervisorsArray = "" | split: "" %}
+        {% assign typeArray = "" | split: "" %}
+        {% assign institutionArray = "" | split: "" %}
+        {% assign yearArray = "" | split: "" %}
+        {% assign cycleArray = "" | split: "" %}
+        {% for thesisId in thesesId %}
+            {% assign thesis = site.data.theses | where: "id", thesisId %}
+
+            {% if thesis.size == 1 %}
+                {% assign thesis = thesis | first %}
+                {% assign authorThesesArray = authorThesesArray | push: thesis %}
+
+                {% assign supervisors = "" | split: "" %}
+                {%- if thesis.supervisor -%}
+                    {%- if thesis.supervisor | first -%}
+                        {% for sup in thesis.supervisor %}
+                            {% assign supervisorFromId = site.data.people | where: "id", sup %}
+                            {% assign supervisorName = supervisorFromId[0]["name"] | append: " " | append: supervisorFromId[0]["surname"] %}
+                            {%- assign supervisors = supervisors | push: supervisorName -%}
+                        {% endfor %}
+                    {% else %}
+                        {% assign supervisorFromId = site.data.people | where: "id", thesis.supervisor %}
+                        {% assign supervisors = "" | concat: supervisorFromId[0] %}
+                    {% endif %}
+                {%- endif -%}
+
+                {%- if supervisors.size > 0 -%}
+                    {%- assign supervisorsString = supervisors | join: ", " -%}
+                {%- else -%}
+                    {%- assign supervisorsString = nil -%}
+                {%- endif -%}
+                {% assign supervisorsArray = supervisorsArray | push: supervisorsString %}
+
+                {% assign cosupervisors = "" | split: "" %}
+                {%- if thesis.co-supervisor -%}
+                    {%- if thesis.co-supervisor | first -%}
+                        {% for cosup in thesis.co-supervisor %}
+                            {% assign cosupervisorFromId = site.data.people | where: "id", cosup %}
+                            {% assign cosupervisorName = cosupervisorFromId[0]["name"] | append: " " | append: cosupervisorFromId[0]["surname"] %}
+                            {%- assign cosupervisors = cosupervisors | push: cosupervisorName -%}
+                        {% endfor %}
+                    {% else %}
+                        {% assign cosupervisorFromId = site.data.people | where: "id", thesis.co-supervisor %}
+                        {% assign cosupervisors = "" | concat: cosupervisorFromId[0] %}
+                    {% endif %}
+                {%- endif -%}
+
+                {%- if cosupervisors.size > 0 -%}
+                    {%- assign cosupervisorsString = cosupervisors | join: ", " -%}
+                {%- else -%}
+                    {%- assign cosupervisorsString = nil -%}
+                {%- endif -%}
+                {% assign cosupervisorsArray = cosupervisorsArray | push: cosupervisorsString %}
             {% endif %}
 
-            {% case type %}
-                {% when "B" %}
-                    {%- assign type = "Bachelor's Student" -%}
-                {% when "M" %}
-                    {%- assign type = "Master's Student" -%}
-                {% when "P" %}
-                    {%- assign type = "PhD Student" -%}
-            {% endcase %}
-        {% endif %}
+            {% if details contains "type" %}
+                {% if thesis.type %}
+                    {% assign type = thesis.type %}
+                {% elsif additionalInfo.type %}
+                    {% assign type = additionalInfo.type %}
+                {% else %}
+                    {% assign type = "" %}
+                {% endif %}
 
-        {% assign institution = nil %}
-        {% if details contains "institution" %}
-            {% if thesis.institution %}
-                {% assign institution = thesis.institution %}
-            {% elsif additionalInfo.institution %}
-                {% assign institution = additionalInfo.institution %}
+                {% case type %}
+                    {% when "B" %}
+                        {%- assign type = "Bachelor's Student" -%}
+                    {% when "M" %}
+                        {%- assign type = "Master's Student" -%}
+                    {% when "P" %}
+                        {%- assign type = "PhD Student" -%}
+                {% endcase %}
             {% endif %}
-        {% endif %}
+            {% assign typeArray = typeArray | push: type %}
 
-        {% assign year = nil %}
-        {% if details contains "year" %}
-            {% if thesis.year %}
-                {% assign year = thesis.year %}
-            {% elsif additionalInfo.year %}
-                {% assign year = additionalInfo.year %}
+            {% assign institution = nil %}
+            {% if details contains "institution" %}
+                {% if thesis.institution %}
+                    {% assign institution = thesis.institution %}
+                {% elsif additionalInfo.institution %}
+                    {% assign institution = additionalInfo.institution %}
+                {% endif %}
             {% endif %}
-        {% endif %}
+            {% assign institutionArray = institutionArray | push: institution %}
+
+            {% assign year = nil %}
+            {% if details contains "year" %}
+                {% if thesis.year %}
+                    {% assign year = thesis.year %}
+                {% elsif additionalInfo.year %}
+                    {% assign year = additionalInfo.year %}
+                {% endif %}
+            {% endif %}
+            {% assign yearArray = yearArray | push: year %}
+        {% endfor %}
 
         {% assign formerRole = nil %}
         {% assign years = nil %}
@@ -117,7 +151,11 @@
                 
                 {% if details contains "year" %}
                     {% if additionalInfo.yearFrom and additionalInfo.yearTo %}
-                        {% assign years = " from " | append: additionalInfo.yearFrom | append: " to " | append: additionalInfo.yearTo %}
+                        {% if additionalInfo.yearFrom == additionalInfo.yearTo %}
+                            {% assign years = " in " | append: additionalInfo.yearFrom %}
+                        {% else %}
+                            {% assign years = " from " | append: additionalInfo.yearFrom | append: " to " | append: additionalInfo.yearTo %}
+                        {% endif %}
                     {% elsif additionalInfo.yearTo %}
                         {% assign years = " until " | append: additionalInfo.yearTo %}
                     {% endif %}
@@ -134,6 +172,12 @@
             {% endif %}
         {% endif %}
 
+        {% if person.email %}
+            {% assign splitEmail = person.email | split: '@' %}
+        {% else %}
+            {% assign splitEmail = nil %}
+        {% endif %}
+
         {% if style == "card" %}
             <div class="column is-3-desktop is-4-tablet">
                 <div class="card person">
@@ -143,7 +187,6 @@
                         {% elsif person.usernameFBK %}
                             {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ person.usernameFBK }}{% endcapture %}
                         {% elsif person.email %}
-                            {% assign splitEmail = person.email | split: '@' %}
                             {% if splitEmail[1] == "fbk.eu" %}
                                 {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ splitEmail[0] }}{% endcapture %}
                             {% else %}
@@ -182,37 +225,51 @@
                         {% if details contains "website" %}
                             {% if person.website %}
                                 {% assign personWebsite = person.website %}
-                            {% else %}
+                            {% elsif splitEmail and splitEmail[1] == "fbk.eu" %}
                                 {% assign personWebsite = "https://ict.fbk.eu/people/detail/" | append: person.name | append: "-" | append: person.surname | append: "/" | downcase %}
+                            {% else %}
+                                {% assign personWebsite = nil %}
                             {% endif %}
-                            {% if personWebsite != "" %}<p class="subtitle website is-4"><a href="{{ personWebsite }}">Website</a></p>{% endif %}
+                            {% if personWebsite %}<p class="subtitle website is-4"><a href="{{ personWebsite }}">Website</a></p>{% endif %}
                         {% endif %}
                     </div>
                 </div>
             </div>
         {% elsif style == "list" %}
-            {% assign detailsArray = "" | split: "" %}
-            {% if type %}{%- assign detailsArray = detailsArray | push: type -%}{% endif %}
-            {% if institution %}{%- assign detailsArray = detailsArray | push: institution -%}{% endif %}
-            {% if formerRole %}{%- assign detailsArray = detailsArray | push: formerRole -%}{% endif %}
-            {% if currentRole %}{%- assign detailsArray = detailsArray | push: currentRole -%}{% endif %}
-            {% if year %}{%- assign detailsArray = detailsArray | push: year -%}{% endif %}
-            {%- if detailsArray.size > 0 -%}
-                {%- assign detailsString = detailsArray | join: ", " | prepend: " (" | append: ")" -%}
-            {%- else -%}
-                {%- assign detailsString = "" -%}
-            {%- endif -%}
-            <li>
-                {% if person.name and person.surname %}<b>{{ person.name }} {{ person.surname }}</b>{% endif %}{{ detailsString }}
-                {% if thesis.title and details contains "thesis" %}
-                    <br />Thesis: {{ thesis.title }}
-                    {% if supervisor %}<br />Supervisor: {{ supervisor.name }} {{ supervisor.surname }}{% if cosupervisorsString %} |{% endif %}{% endif %}
-                    {% if cosupervisorsString %}Co-supervisor{% if thesis.co-supervisor.size > 1 %}s{% endif %}: {{ cosupervisorsString }}{% endif %}
-                    {% if thesis.awards %}<br />Awards: {{ thesis.awards }}{% endif %}
-                {% elsif additionalInfo.topic and details contains "topic" %}
-                    <br />Topic: {{ additionalInfo.topic }}
+            {% if thesesId.size > 0 %}
+                {% assign loop = thesesId.size | minus: 1 %}
+            {% else %}
+                {% assign loop = 0 %}
+            {% endif %}
+
+            {% for counter in (0..loop) %}
+                {% assign detailsArray = "" | split: "" %}
+                {% if typeArray[counter] %}{%- assign detailsArray = detailsArray | push: typeArray[counter] -%}{% endif %}
+                {% if authorThesesArray[counter].cycle %}
+                    {% assign cycle = "Cycle " | append: authorThesesArray[counter].cycle %}
+                    {% assign detailsArray = detailsArray | push: cycle %}
                 {% endif %}
-            </li>
+                {% if institutionArray[counter] %}{%- assign detailsArray = detailsArray | push: institutionArray[counter] -%}{% endif %}
+                {% if formerRole %}{%- assign detailsArray = detailsArray | push: formerRole -%}{% endif %}
+                {% if currentRole %}{%- assign detailsArray = detailsArray | push: currentRole -%}{% endif %}
+                {% if yearArray[counter] %}{%- assign detailsArray = detailsArray | push: yearArray[counter] -%}{% endif %}
+                {%- if detailsArray.size > 0 -%}
+                    {%- assign detailsString = detailsArray | join: ", " | prepend: " (" | append: ")" -%}
+                {%- else -%}
+                    {%- assign detailsString = "" -%}
+                {%- endif -%}
+                <li>
+                    {% if person.name and person.surname %}<b>{{ person.name }} {{ person.surname }}</b>{% endif %}{{ detailsString }}
+                    {% if authorThesesArray[counter] and details contains "thesis" %}
+                        <br />Thesis: {{ authorThesesArray[counter].title }}{% if authorThesesArray[counter].doi or authorThesesArray[counter].link %} (<a href="{% if authorThesesArray[counter].doi %}https://doi.org/{{ authorThesesArray[counter].doi }}{% else %}{{ authorThesesArray[counter].link }}{% endif %}">link</a>){% endif %}
+                        {% if supervisorsArray[counter] %}<br />Supervisor{% if authorThesesArray[counter].supervisor.first and authorThesesArray[counter].supervisor.size > 1 %}s{% endif %}: {{ supervisorsArray[counter] }}{% if cosupervisorsArray[counter] %} |{% endif %}{% endif %}
+                        {% if cosupervisorsArray[counter] %}Co-supervisor{% if authorThesesArray[counter].co-supervisor.first and authorThesesArray[counter].co-supervisor.size > 1 %}s{% endif %}: {{ cosupervisorsArray[counter] }}{% endif %}
+                        {% if authorThesesArray[counter].awards %}<br />Awards: {{ authorThesesArray[counter].awards }}{% endif %}
+                    {% elsif additionalInfo.topic and details contains "topic" %}
+                        <br />Topic: {{ additionalInfo.topic }}
+                    {% endif %}
+                </li>
+            {% endfor %}
         {% endif %}
     {% endfor %}
 
