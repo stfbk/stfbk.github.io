@@ -27,8 +27,14 @@
 
 - id: mIDAssistant
   name: mIDAssistant
-  description: An Android Studio plugin that guides native mobile app developers with secure integeration of Single Sign-On and Access Delegation solutions within their apps.
+  description: An Android Studio plugin that guides native mobile app developers with secure integration of Single Sign-On and Access Delegation solutions within their apps.
   urlDocumentation: https://sites.google.com/fbk.eu/midassistant/home
+  urlCode: https://github.com/stfbk/mIDAssistant
+
+- id: mIDAssistant_iGov
+  name: mIDAssistant_iGov
+  description: An Android Studio plugin that guides native mobile app developers with secure integration of OpenID Connect iGov profile (OpenID Connect iGov) solutions within their apps.
+  urlCode: https://github.com/stfbk/mIDAssistant_iGov
 
 - id: MQTTSA
   name: MQTT Security Assistant (MQTTSA)
