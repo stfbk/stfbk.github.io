@@ -314,13 +314,6 @@
   year: 2020
   urlNews: /news/2020/01/07/papers-accepted-at-itasec-2020/
 
-- id: ITASEC2020_PP
-  title: "Pull Printing with National eID Cards: An Open-source and Software-oriented Implementation"
-  authors: Matteo Leonelli, Umberto Morelli, Silvio Ranise and Giada Sciarretta
-  destination: ITASEC2020
-  year: 2020
-  urlNews: /news/2020/01/07/papers-accepted-at-itasec-2020/
-
 - id: JISA2020
   title: A Large-Scale Study on the Adoption of Anti-Debugging and Anti-Tampering Protections in Android Apps
   authors: Stefano Berlato, Mariano Ceccato
