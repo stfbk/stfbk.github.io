@@ -10,6 +10,8 @@ publications:
     - CODASPY2020_PN
     - POST2018
     - TOPS2020
+    - SECRYPT2019_SSO
+    - ETAA2020_OIDC
 
 ---
 

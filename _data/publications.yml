@@ -253,13 +253,14 @@
   urlNews: /news/2019/05/02/papers-accepted-at-secrypt-2019/
 
 - id: SECRYPT2019_SSO
-  title: A Wizard-based Approach for Secure Code Generation of Single Sign-On and Access Delegation Solutions for Mobile Native Apps
+  title: A Wizard-Based Approach for Secure Code Generation of Single Sign-On and Access Delegation Solutions for Mobile Native Apps
   authors: Amir Sharif, Roberto Carbone, Silvio Ranise and Giada Sciarretta
   abstract: >
     Many available mobile applications (apps) have poorly implemented Single Sign-On and Access Delegation solutions leading to serious security issues. This could be caused by inexperienced developers who prioritize the implementation of core functionalities and/or misunderstand security critical parts. The situation is even worse in complex API scenarios where the app interacts with several providers. To address these problems, we propose a novel wizard-based approach that guides developers to integrate multiple third-party Identity Management (IdM) providers in their apps, by (i) “enforcing” the usage of best practices for native apps, (ii) avoiding the need to download several SDKs and understanding their online documentations (a list of known IdM providers with their configuration information is embedded within our approach), and (iii) automatically generating the code to enable the communication with the different IdM providers. The effectiveness of the proposed approach has been assessed by implementing an Android Studio plugin and using it to integrate several IdM providers, such as OKTA, Auth0, Microsoft, and Google.
   destination: SECRYPT2019
   year: 2019
   doi: 10.5220/0007930502680275
+  urlComplementary: /complementary/SECRYPT2019_SSO
   urlNews: /news/2019/05/02/papers-accepted-at-secrypt-2019/
 
 - id: STM2019
@@ -398,3 +399,13 @@
   destination: TOPS
   year: 2020
   urlComplementary: /complementary/TOPS2020_2
+
+- id: ETAA2020_OIDC
+  title: Automated and Secure Integration of the OpenID Connect iGov Profile in Mobile Native Applications
+  authors: Amir Sharif, Roberto Carbone, Giada Sciarretta, Silvio Ranise
+  abstract: >
+    Electronic identification schemes have been built to simplify citizens access to online public administration services and reduce password fatigue via a single sign-on experience. To provide a precise specification for government and public service domains on how to protect the user’s identity information and activity from unintentional exposure, the OAuth working group together with the OpenID Connect foundation have published the International Government Assurance Profile (iGov) document. As the specification contains high-level concepts and brings together a lot of insights from already published documents to increase the baseline security and structure deployments, it may be unclear or misleading for mobile application developers. This is mainly due to the fact that firstly, they are not usually security experts and secondly, the aforementioned documents are not mostly designed for the native applications that can affect the implementation security based on the differences between the native and web environment. The aforementioned source of uncertainty for inexperienced developers can lead to various threats that can expose user’s resources. To avoid these problems, we demystify the iGov profile for non-security experts by extracting the wealth information from the iGov specifications, and we apply the best current practices for native applications within the iGov profile to conceptualize the flow for native applications. Furthermore, we provide a wizard-based approach to automatically integrate the secure code for the iGov profile in Android native applications.
+  destination: ETAA2020
+  year: 2020
+  doi: 10.1007/978-3-030-64455-0_4
+  urlComplementary: /complementary/ETAA2020_OIDC
