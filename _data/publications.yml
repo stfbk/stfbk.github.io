@@ -335,6 +335,15 @@
   year: 2020
   urlNews: /news/2020/04/08/paper-accepted-at-sacmat-2020/
 
+- id: SECRYPT2020
+  title: "Multi-Stakeholder Cybersecurity Risk Assessment for Data Protection"
+  authors: Majid Mollaeefar, Alberto Siena, Silvio Ranise
+  abstract: >
+    To ensure the effectiveness of the adopted security measures and minimize the impact of security issues on the rights and freedom of individuals, the General Data Protection Regulation (GDPR) requires to carry out a Data Processing Impact Assessment (DPIA). Such an assessment differs from traditional risk analyses in which the actor carrying out the evaluation is also the one interested in reducing its risk. Conflicts may thus arise between the need of protecting data subjects rights and organizations that shall provide adequate security measures while struggling with various types of constraints (e.g., budget). To alleviate this problem, we introduce the Multi-Stakeholder Risk Trade-off Analysis Problem, (MSRToAP) and propose an automated technique to solve their instances. We then show how this can help data controllers make more informed decisions about which security mechanisms allow for a better trade-off between their requirements and those of the data subjects. For concreteness, we illustrate the proposed on a simple yet realistic use case scenario.
+  destination: SECRYPT2020
+  year: 2020
+  doi: 10.5220/0009822703490356
+
 - id: TOPS2020
   title: Formal Analysis of Mobile Multi-Factor Authentication with Single Sign-On Login
   authors: Roberto Carbone, Silvio Ranise, Giada Sciarretta and Luca Viganò
