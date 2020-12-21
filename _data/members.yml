@@ -61,6 +61,25 @@ former:
       formerRole: Researcher
       yearTo: 2020
 
+    - personId: GiovanniMariaAbbiati
+      formerRole: Consultant
+      yearTo: 2020
+
+    - personId: ClaraBertolissi
+      formerRole: Visiting Researcher
+      yearFrom: 2011
+      yearTo: 2013
+
+    - personId: AnnibalePanichella
+      formerRole: Post-doc Researcher
+      yearFrom: 2014
+      yearTo: 2014
+
+    - personId: RiccardoTraverso
+      formerRole: Post-doc Researcher
+      yearFrom: 2014
+      yearTo: 2016
+
   phdStudents:
     - personId: FedericoSinigaglia
       thesisId: FedericoSinigaglia_P
@@ -149,3 +168,8 @@ former:
       institution: University of Trento
       yearFrom: 2020
       yearTo: 2020
+
+    - personId: SoniaEccher
+      topic: Risk Assessment Smart Campus
+      yearFrom: 2014
+      yearTo: 2014
