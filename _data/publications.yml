@@ -274,6 +274,15 @@
   urlNews: /news/2019/07/25/paper-accepted-at-stm-2019/
 
 ## 2020
+- id: 5GWF20
+  title: "Security Considerations on 5G-Enabled Back-Situation Awareness for CCAM"
+  authors: Marco Centenaro, Stefano Berlato, Roberto Carbone, Gianfranco Burzio, Giuseppe Faranda Cordella, Silvio Ranise and Roberto Riggio
+  abstract: >
+    The increasing demand for cooperative, connected, and automated mobility (CCAM) services should proceed at the same pace with the enforcement of security mechanisms that would make CCAM services secure. The first contribution of this paper resides in a review of the ongoing regulatory and standardization activities related to cybersecurity of autonomous vehicles. Then, referring to the ongoing piloting activities funded by the European Union, we focus on the security threats for back-situation awareness (BSA), i.e., a safety-related CCAM service dealing with emergency scenarios. We propose a practical strong authentication method for BSA, and extensively discuss how existing standards can mitigate the security threats of this prominent CCAM service.
+  destination: 5GWF20
+  year: 2020
+  urlNews: /news/2020/07/20/paper-accepted-at-5GWF20/
+
 - id: ASIACCS2020
   title: "Exploring Architectures for Cryptographic Access Control Enforcement in the Cloud for Fun and Optimization"
   authors: Stefano Berlato, Roberto Carbone, Adam J. Lee and Silvio Ranise
@@ -307,6 +316,38 @@
   urlComplementary: https://mfa-team.github.io/
   urlNews: /news/2020/02/02/paper-accepted-at-cose/
 
+- id: DETIPS2020
+  title: "Verifiable contracting"
+  authors: Sergio Manuel Nóbrega Gonçalves, Alessandro Tomasi, Andrea Bisegna, Giulio Pellizzari and Silvio Ranise
+  destination: DETIPS2020
+  year: 2020
+
+- id: ETAA2020_MIG
+  title: "Micro-Id-Gym: a Flexible Tool for Pentesting Identity Management Protocols in the Wild and in the Laboratory"
+  authors: Andrea Bisegna, Roberto Carbone, Giulio Pellizzari and Silvio Ranise
+  abstract: >
+    Identity Management (IdM) solutions are increasingly important for digital infrastructures of both enterprises and public administrations. Their security is a mandatory pre-requisite for building trust in current and future digital ecosystems. Unfortunately, not only their secure deployment but even their usage are non-trivial activities that require a good level of security awareness. In order to test whether known exploits can be reproduced in different environments, better understand their effects and facilitate the discovery of new vulnerabilities, we need to have a reliable testbed. For this, we present Micro-Id-Gym which abstractly supports two main activities: the creation of sandboxes with an IdM protocol deployment and the pentesting of IdM protocol deployments in the wild or in the laboratory (on the created sandboxes).
+  destination: ETAA2020
+  year: 2020
+
+- id: ETAA2020_OIDC
+  title: Automated and Secure Integration of the OpenID Connect iGov Profile in Mobile Native Applications
+  authors: Amir Sharif, Roberto Carbone, Giada Sciarretta, Silvio Ranise
+  abstract: >
+    Electronic identification schemes have been built to simplify citizens access to online public administration services and reduce password fatigue via a single sign-on experience. To provide a precise specification for government and public service domains on how to protect the user’s identity information and activity from unintentional exposure, the OAuth working group together with the OpenID Connect foundation have published the International Government Assurance Profile (iGov) document. As the specification contains high-level concepts and brings together a lot of insights from already published documents to increase the baseline security and structure deployments, it may be unclear or misleading for mobile application developers. This is mainly due to the fact that firstly, they are not usually security experts and secondly, the aforementioned documents are not mostly designed for the native applications that can affect the implementation security based on the differences between the native and web environment. The aforementioned source of uncertainty for inexperienced developers can lead to various threats that can expose user’s resources. To avoid these problems, we demystify the iGov profile for non-security experts by extracting the wealth information from the iGov specifications, and we apply the best current practices for native applications within the iGov profile to conceptualize the flow for native applications. Furthermore, we provide a wizard-based approach to automatically integrate the secure code for the iGov profile in Android native applications.
+  destination: ETAA2020
+  year: 2020
+  doi: 10.1007/978-3-030-64455-0_4
+  urlComplementary: /complementary/ETAA2020_OIDC
+
+- id: ICTSecMag202006_TLSA
+  title: "TLSAssistant: uno strumento per mitigare i problemi di sicurezza di TLS"
+  authors: Salvatore Manfredi, Silvio Ranise and Giada Sciarretta
+  destination: ICTSecurityMagazine
+  year: 2020
+  url: https://www.ictsecuritymagazine.com/articoli/tlsassistant-uno-strumento-per-mitigare-i-problemi-di-sicurezza-di-tls/
+  urlNews: /news/2020/06/03/article-published-on-ict-security-magazine/
+
 - id: ITASEC2020_OIC
   title: Automated Secure Code Generation for OpenID Connect iGov Profile in Mobile Native Applications
   authors: Amir Sharif, Roberto Carbone, Silvio Ranise and Giada Sciarretta
@@ -335,6 +376,13 @@
   year: 2020
   urlNews: /news/2020/04/08/paper-accepted-at-sacmat-2020/
 
+- id: SecAssAPIFinancial_book_2020
+  title: "Automated Assistance to the Security Assessment of API for Financial Services in book Cyber-Physical Threat Intelligence for Critical Infrastructures Security: A Guide to Integrated Cyber-Physical Protection of Modern Critical Infrastructures"
+  authors: Andrea Bisegna, Roberto Carbone, Mariano Ceccato, Salvatore Manfredi, Silvio Ranise, Giada Sciarretta, Alessandro Tomasi and Emanuele Viglianisi 
+  year: 2020
+  destination: SecAssAPIFinancial_book_2020
+  doi: 10.1561/9781680836875
+
 - id: SECRYPT2020
   title: "Multi-Stakeholder Cybersecurity Risk Assessment for Data Protection"
   authors: Majid Mollaeefar, Alberto Siena, Silvio Ranise
@@ -355,44 +403,6 @@
   urlComplementary: /complementary/TOPS2020
   urlNews: /news/2020/03/12/paper-accepted-at-tops/
 
-- id: ICTSecMag202006_TLSA
-  title: "TLSAssistant: uno strumento per mitigare i problemi di sicurezza di TLS"
-  authors: Salvatore Manfredi, Silvio Ranise and Giada Sciarretta
-  destination: ICTSecurityMagazine
-  year: 2020
-  url: https://www.ictsecuritymagazine.com/articoli/tlsassistant-uno-strumento-per-mitigare-i-problemi-di-sicurezza-di-tls/
-  urlNews: /news/2020/06/03/article-published-on-ict-security-magazine/
-
-- id: MicroIDGym_2020
-  title: "Micro-Id-Gym: a Flexible Tool for Pentesting Identity Management Protocols in the Wild and in the Laboratory"
-  authors: Andrea Bisegna, Roberto Carbone, Giulio Pellizzari and Silvio Ranise
-  abstract: >
-    Identity Management (IdM) solutions are increasingly important for digital infrastructures of both enterprises and public administrations. Their security is a mandatory pre-requisite for building trust in current and future digital ecosystems. Unfortunately, not only their secure deployment but even their usage are non-trivial activities that require a good level of security awareness. In order to test whether known exploits can be reproduced in different environments, better understand their effects and facilitate the discovery of new vulnerabilities, we need to have a reliable testbed. For this, we present Micro-Id-Gym which abstractly supports two main activities: the creation of sandboxes with an IdM protocol deployment and the pentesting of IdM protocol deployments in the wild or in the laboratory (on the created sandboxes).
-  destination: ETAA2020
-  year: 2020
-     
-- id: 5GWF20
-  title: "Security Considerations on 5G-Enabled Back-Situation Awareness for CCAM"
-  authors: Marco Centenaro, Stefano Berlato, Roberto Carbone, Gianfranco Burzio, Giuseppe Faranda Cordella, Silvio Ranise and Roberto Riggio
-  abstract: >
-    The increasing demand for cooperative, connected, and automated mobility (CCAM) services should proceed at the same pace with the enforcement of security mechanisms that would make CCAM services secure. The first contribution of this paper resides in a review of the ongoing regulatory and standardization activities related to cybersecurity of autonomous vehicles. Then, referring to the ongoing piloting activities funded by the European Union, we focus on the security threats for back-situation awareness (BSA), i.e., a safety-related CCAM service dealing with emergency scenarios. We propose a practical strong authentication method for BSA, and extensively discuss how existing standards can mitigate the security threats of this prominent CCAM service.
-  destination: 5GWF20
-  year: 2020
-  urlNews: /news/2020/07/20/paper-accepted-at-5GWF20/
-  
-- id: SecAssAPIFinancial_book_2020
-  title: "Automated Assistance to the Security Assessment of API for Financial Services in book Cyber-Physical Threat Intelligence for Critical Infrastructures Security: A Guide to Integrated Cyber-Physical Protection of Modern Critical Infrastructures"
-  authors: Andrea Bisegna, Roberto Carbone, Mariano Ceccato, Salvatore Manfredi, Silvio Ranise, Giada Sciarretta, Alessandro Tomasi and Emanuele Viglianisi 
-  year: 2020
-  destination: SecAssAPIFinancial_book_2020
-  doi: 10.1561/9781680836875
-
-- id: DETIPS2020
-  title: "Verifiable contracting"
-  authors: Sergio Manuel Nóbrega Gonçalves, Alessandro Tomasi, Andrea Bisegna, Giulio Pellizzari and Silvio Ranise
-  destination: DETIPS2020
-  year: 2020
-
 - id: TOPS2020_2
   title: "Formal Modelling and Automated Trade-Off Analysis of Enforcement Architectures for Cryptographic Access Control in the Cloud"
   authors: Stefano Berlato, Roberto Carbone, Adam J. Lee and Silvio Ranise
@@ -401,13 +411,3 @@
   destination: TOPS
   year: 2020
   urlComplementary: /complementary/TOPS2020_2
-
-- id: ETAA2020_OIDC
-  title: Automated and Secure Integration of the OpenID Connect iGov Profile in Mobile Native Applications
-  authors: Amir Sharif, Roberto Carbone, Giada Sciarretta, Silvio Ranise
-  abstract: >
-    Electronic identification schemes have been built to simplify citizens access to online public administration services and reduce password fatigue via a single sign-on experience. To provide a precise specification for government and public service domains on how to protect the user’s identity information and activity from unintentional exposure, the OAuth working group together with the OpenID Connect foundation have published the International Government Assurance Profile (iGov) document. As the specification contains high-level concepts and brings together a lot of insights from already published documents to increase the baseline security and structure deployments, it may be unclear or misleading for mobile application developers. This is mainly due to the fact that firstly, they are not usually security experts and secondly, the aforementioned documents are not mostly designed for the native applications that can affect the implementation security based on the differences between the native and web environment. The aforementioned source of uncertainty for inexperienced developers can lead to various threats that can expose user’s resources. To avoid these problems, we demystify the iGov profile for non-security experts by extracting the wealth information from the iGov specifications, and we apply the best current practices for native applications within the iGov profile to conceptualize the flow for native applications. Furthermore, we provide a wizard-based approach to automatically integrate the secure code for the iGov profile in Android native applications.
-  destination: ETAA2020
-  year: 2020
-  doi: 10.1007/978-3-030-64455-0_4
-  urlComplementary: /complementary/ETAA2020_OIDC

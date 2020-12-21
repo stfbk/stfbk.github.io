@@ -9,7 +9,7 @@ people:
 
 publications:
     - MicroIDGym_2019
-    - MicroIDGym_2020
+    - ETAA2020_MIG
     - SecAssAPIFinancial_book_2020
     - DETIPS2020
 

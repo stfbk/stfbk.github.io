@@ -135,8 +135,14 @@
             {% if details contains "year" %}
                 {% if thesis.year %}
                     {% assign year = thesis.year %}
-                {% elsif additionalInfo.year %}
-                    {% assign year = additionalInfo.year %}
+                {% elsif additionalInfo.yearFrom and additionalInfo.yearTo %}
+                    {% if additionalInfo.yearFrom == additionalInfo.yearTo %}
+                        {% assign year = additionalInfo.yearFrom %}
+                    {% else %}
+                        {% assign year = additionalInfo.yearFrom | append: "-" | append: additionalInfo.yearTo %}
+                    {% endif %}
+                {% elsif additionalInfo.yearTo %}
+                    {% assign year = additionalInfo.yearTo %}
                 {% endif %}
             {% endif %}
             {% assign yearArray = yearArray | push: year %}
@@ -266,7 +272,7 @@
                         {% if cosupervisorsArray[counter] %}Co-supervisor{% if authorThesesArray[counter].co-supervisor.first and authorThesesArray[counter].co-supervisor.size > 1 %}s{% endif %}: {{ cosupervisorsArray[counter] }}{% endif %}
                         {% if authorThesesArray[counter].awards %}<br />Awards: {{ authorThesesArray[counter].awards }}{% endif %}
                     {% elsif additionalInfo.topic and details contains "topic" %}
-                        <br />Topic: {{ additionalInfo.topic }}
+                        <br />Internship topic: {{ additionalInfo.topic }}
                     {% endif %}
                 </li>
             {% endfor %}
