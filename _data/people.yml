@@ -85,6 +85,11 @@
 - id: AnnibalePanichella
   name: Annibale
   surname: Panichella
+  role: Assistant Professor
+  affiliation:
+    - institution: Delft University of Technology
+      place: Delft, The Netherlands
+  website: https://apanichella.github.io/
 
 - id: AvinashSudhodanan
   name: Avinash
@@ -337,6 +342,10 @@
   name: Nadia
   surname: Metoui
 
+- id: RiccardoTraverso
+  name: Riccardo
+  surname: Traverso
+
 - id: RobertoCarbone
   name: Roberto
   surname: Carbone
@@ -413,6 +422,10 @@
 - id: SofiaPuttin
   name: Sofia
   surname: Puttin
+
+- id: SoniaEccher
+  name: Sonia
+  surname: Eccher
 
 - id: StanislavDashevskyi
   name: Stanislav

@@ -131,21 +131,21 @@
             {% endif %}
             {% assign institutionArray = institutionArray | push: institution %}
 
-            {% assign year = nil %}
+            {% assign studentYear = nil %}
             {% if details contains "year" %}
                 {% if thesis.year %}
-                    {% assign year = thesis.year %}
+                    {% assign studentYear = thesis.year %}
                 {% elsif additionalInfo.yearFrom and additionalInfo.yearTo %}
                     {% if additionalInfo.yearFrom == additionalInfo.yearTo %}
-                        {% assign year = additionalInfo.yearFrom %}
+                        {% assign studentYear = additionalInfo.yearFrom %}
                     {% else %}
-                        {% assign year = additionalInfo.yearFrom | append: "-" | append: additionalInfo.yearTo %}
+                        {% assign studentYear = additionalInfo.yearFrom | append: "-" | append: additionalInfo.yearTo %}
                     {% endif %}
                 {% elsif additionalInfo.yearTo %}
-                    {% assign year = additionalInfo.yearTo %}
+                    {% assign studentYear = additionalInfo.yearTo %}
                 {% endif %}
             {% endif %}
-            {% assign yearArray = yearArray | push: year %}
+            {% assign yearArray = yearArray | push: studentYear %}
         {% endfor %}
 
         {% assign formerRole = nil %}
@@ -250,15 +250,15 @@
 
             {% for counter in (0..loop) %}
                 {% assign detailsArray = "" | split: "" %}
-                {% if typeArray[counter] %}{%- assign detailsArray = detailsArray | push: typeArray[counter] -%}{% endif %}
-                {% if authorThesesArray[counter].cycle %}
+                {% if typeArray[counter] and typeArray[counter].size > 0 %}{%- assign detailsArray = detailsArray | push: typeArray[counter] -%}{% endif %}
+                {% if authorThesesArray[counter].cycle and authorThesesArray[counter].cycle.size > 0 %}
                     {% assign cycle = "Cycle " | append: authorThesesArray[counter].cycle %}
                     {% assign detailsArray = detailsArray | push: cycle %}
                 {% endif %}
-                {% if institutionArray[counter] %}{%- assign detailsArray = detailsArray | push: institutionArray[counter] -%}{% endif %}
-                {% if formerRole %}{%- assign detailsArray = detailsArray | push: formerRole -%}{% endif %}
-                {% if currentRole %}{%- assign detailsArray = detailsArray | push: currentRole -%}{% endif %}
-                {% if yearArray[counter] %}{%- assign detailsArray = detailsArray | push: yearArray[counter] -%}{% endif %}
+                {% if institutionArray[counter] and institutionArray[counter].size > 0 %}{%- assign detailsArray = detailsArray | push: institutionArray[counter] -%}{% endif %}
+                {% if formerRole and formerRole.size > 0 %}{%- assign detailsArray = detailsArray | push: formerRole -%}{% endif %}
+                {% if currentRole and currentRole.size > 0 %}{%- assign detailsArray = detailsArray | push: currentRole -%}{% endif %}
+                {% if yearArray[counter] and formerRole == nil %}{%- assign detailsArray = detailsArray | push: yearArray[counter] -%}{% endif %}
                 {%- if detailsArray.size > 0 -%}
                     {%- assign detailsString = detailsArray | join: ", " | prepend: " (" | append: ")" -%}
                 {%- else -%}
