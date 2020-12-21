@@ -111,6 +111,10 @@
   website: ""
   image: https://media-exp1.licdn.com/dms/image/C4E03AQEPRt71VVgABw/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=mmnzNewMBhrMwqgAbd0ne8RA6kTdqBtvnn8YCCpbkq4
 
+- id: ChaudhryMuhammadSuleman
+  name: Chaudhry Muhammad
+  surname: Suleman
+
 - id: ClaraBertolissi
   name: Clara
   surname: Bertolissi
@@ -406,6 +410,10 @@
       place: Trento, Italy
   email: ranise@fbk.eu
 
+- id: SofiaPuttin
+  name: Sofia
+  surname: Puttin
+
 - id: StanislavDashevskyi
   name: Stanislav
   surname: Dashevskyi
@@ -461,3 +469,7 @@
 - id: ValentinaOdorizzi
   name: Valentina
   surname: Odorizzi
+
+- id: VeronicaCristiano
+  name: Veronica
+  surname: Cristiano

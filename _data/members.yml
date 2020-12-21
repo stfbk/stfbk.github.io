@@ -24,6 +24,20 @@ current:
       topic: Implementation of a flexible and automated risk analysis for Multi-Factor Authentication protocols
       institution: University of Trento
 
+    - personId: ChaudhryMuhammadSuleman
+      type: M
+      topic: Cyber-security risk assessment of 5G-CARMEN use cases for Cooperative, Connected and Automated Mobility (CCAM)
+      institution: University of Trento
+      yearFrom: 2020
+      yearTo: 2021
+
+    - personId: VeronicaCristiano
+      type: M
+      topic: Study, Design and Development of Secure Cryptographic Key Management Solutions in Java for CryptoAC
+      institution: University of Trento
+      yearFrom: 2020
+      yearTo: 2021
+
 former:
   members:
     - personId: AlessandroArmando
@@ -128,3 +142,10 @@ former:
 
     - personId: MartaToniolli
       thesisId: MartaToniolli_B
+
+    - personId: SofiaPuttin
+      type: M
+      topic: 5G-BSA-ID cryptoband – Analisi giuridica alla luce delle disposizioni in materia di trattamento dei dati e tutela della privacy
+      institution: University of Trento
+      yearFrom: 2020
+      yearTo: 2020
