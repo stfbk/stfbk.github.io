@@ -387,7 +387,7 @@
 - id: SalvatoreManfredi
   name: Salvatore
   surname: Manfredi
-  role: Researcher
+  role: PhD Student
   affiliations:
     - unit: Security & Trust
       institution: Fondazione Bruno Kessler
@@ -448,14 +448,11 @@
 - id: TahirAhmad
   name: Tahir
   surname: Ahmad
-  role: PhD Student
+  role: Researcher
   affiliations:
     - unit: Security & Trust
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-    - unit: DIBRIS
-      institution: University of Genoa
-      place: Genoa, Italy
   email: ahmad@fbk.eu
 
 - id: TuanAnhTruong
