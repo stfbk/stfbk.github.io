@@ -1,23 +1,22 @@
 current:
   head:
-    - SilvioRanise
+    - RobertoCarbone
 
   members:
     - AlessandroTomasi
     - AndreaBisegna
     - GiadaSciarretta
-    - RobertoCarbone
     - TahirAhmad
     - UmbertoMorelli
     - AmirSharif
     - MarcoPernpruner
     - SalimehDashti
     - SalvatoreManfredi
+    - SilvioRanise
     - StefanoBerlato
     - MajidMollaeefar
     - BiniamFissehaDemissie
-    - MatteoLeonelli
-  
+      
   students:
     - personId: AdrienBeaugendre
       type: M
@@ -79,6 +78,16 @@ former:
       formerRole: Post-doc Researcher
       yearFrom: 2014
       yearTo: 2016
+
+    - personId: MatteoLeonelli
+      formerRole: Junior Researcher
+      yearFrom: 2019
+      yearTo: 2020
+
+    - personId: SilvioRanise
+      formerRole: Head of Unit
+      yearFrom: 2017
+      yearTo: 2020
 
   phdStudents:
     - personId: FedericoSinigaglia
