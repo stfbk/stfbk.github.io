@@ -172,11 +172,29 @@
         {% endif %}
 
         {% assign currentRole = nil %}
-        {% if details contains "currentRole" %}
-            {% if person.affiliations.size == 1 and details contains "currentRole" %}
-                {% assign currentRole = "now " | append: person.role | append: " at " | append: person.affiliations[0].institution %}
+        {% assign role = nil %}
+        {% if details contains "currentRole" or details contains "role" %}
+            {% if person.affiliations.size > 0 %}
+                {% assign currentRole = "now " %}
             {% endif %}
-        {% endif %}
+            {% assign affiliationNumbers = person.affiliations.size | minus: 1 %}
+            {% for counter in (0..affiliationNumbers) %}
+                {% if person.affiliations[counter].unit == "Security & Trust" and person.affiliations[counter].institution == "Fondazione Bruno Kessler" %}
+                    {% assign role = person.affiliations[counter].role %}
+                {% endif %}
+
+                {% assign currentRole = currentRole | append: person.affiliations[counter].role %}
+                {% assign nextCounter = counter | plus: 1 %}
+                {% if person.affiliations[counter].institution == person.affiliations[nextCounter].institution %}
+                    {% assign currentRole = currentRole | append: " and " %}
+                {% else %}
+                    {% assign currentRole = currentRole | append: " at " | append: person.affiliations[counter].institution %}
+                    {% if counter < affiliationNumbers %}
+                        {% assign currentRole = currentRole | append: ", " %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}        
 
         {% if person.email %}
             {% assign splitEmail = person.email | split: '@' %}
@@ -211,7 +229,7 @@
                     {% endif %}
                     <div class="card-content">
                         {% if person.name and person.surname %}<p class="title is-spaced is-5">{{ person.name }} {{ person.surname }}</p>{% endif %}
-                        {% if person.role and details contains "role" %}<p class="subtitle role is-4">{{ person.role }}</p>{% endif %}
+                        {% if role and details contains "role" %}<p class="subtitle role is-4">{{ role }}</p>{% endif %}
                         {% if type %}<p class="subtitle role is-4">{{ type }}</p>{% endif %}
                         {% if details contains "affiliation" %}
                             {% for affiliation in person.affiliations %}
@@ -224,7 +242,7 @@
                         {% endif %}
                         {% if institution %}<p class="subtitle institution is-4">{{ institution }}</p>{% endif %}
                         {% if formerRole %}<p class="subtitle former-role is-4">{{ formerRole }}</p>{% endif %}
-                        {% if currentRole %}<p class="subtitle current-role is-4">{{ currentRole }}</p>{% endif %}
+                        {% if currentRole and details contains "currentRole" %}<p class="subtitle current-role is-4">{{ currentRole }}</p>{% endif %}
                         {% if additionalInfo.topic and details contains "topic" %}<p class="subtitle topic is-4">{{ additionalInfo.topic }}</p>{% endif %}
                         {% if thesis.title and details contains "thesis" %}<p class="subtitle thesis is-4">Thesis: {{ thesis.title }}</p>{% endif %}
                         {% if person.email and details contains "email" %}<p class="subtitle email is-4"><a href="mailto:{{ person.email }}">{{ person.email }}</a></p>{% endif %}
