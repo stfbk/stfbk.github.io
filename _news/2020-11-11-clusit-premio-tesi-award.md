@@ -14,25 +14,14 @@ people:
 
 The following theses have been selected to be awarded with the thesis award “Innovare la sicurezza delle informazioni” sponsored by CLUSIT:
 
-- **3rd place: Stefano Berlato**
+- **3rd place: Stefano Berlato**<br />
+  Title: [A Pragmatic Approach to Handle "Honest But Curious" Cloud Service Providers: Cryptographic Enforcement of Dynamic Access Control Policies](https://github.com/StefanoBerlato/Master-Thesis)<br />
+  Supervisor: Silvio Ranise | Co-supervisor: Roberto Carbone<br /><br />
 
-  Title: [A Pragmatic Approach to Handle "Honest But Curious" Cloud Service Providers: Cryptographic Enforcement of Dynamic Access Control Policies](https://github.com/StefanoBerlato/Master-Thesis)
-
-  Supervisor: Silvio Ranise 
-
-  Co-supervisor: Roberto Carbone 
-
-  
-
-- **4th place: Carlotta Tagliaro**
-
-  Title: Security and Performance tradeoffs in the Internet of Things
-
-  Supervisor: Silvio Ranise 
-
-  Co-supervisor: Umberto Morelli
+- **4th place: Carlotta Tagliaro**<br />
+  Title: Security and Performance tradeoffs in the Internet of Things<br />
+  Supervisor: Silvio Ranise | Co-supervisor: Umberto Morelli<br />
 
 Congratulations!!!
 
-The award ceremony took place as part of the [Security Summit Streaming Edition](https://contents.astreanetwork.net/1.0/pdf/644856202/documents.pdf). 
-
+The award ceremony took place as part of the [Security Summit Streaming Edition](https://contents.astreanetwork.net/1.0/pdf/644856202/documents.pdf).
