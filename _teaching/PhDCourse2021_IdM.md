@@ -22,7 +22,7 @@ The course introduces the basic notions underlying the various aspects of digita
 
 **Duration**: 20 hours (5 half-days)
 
-**Location:** online course (the link will be communicated to the registered students)ù
+**Location:** online course (the link will be communicated to the registered students)
 
 **Schools:** [University of Trento - Mathematics Doctoral Programme](https://www.unitn.it/drmath/46/courses),  [University of Genova - PhD Program in Security, Risk and Vulnerability](https://sicurezza.unige.it/)
 
