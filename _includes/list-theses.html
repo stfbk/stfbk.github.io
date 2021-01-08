@@ -3,86 +3,87 @@
 {% endif %}
 
 {% if source.size > 0 %}
-<ul class="publications theses">
-    {% assign publicationsFromId = "" | split: "" %}
-    {% for publication in source %}
-        {% assign publicationFromId = site.data.theses | where: "id", publication %}
-        {% assign publicationFromIdLabel = site.data.theses | where: "id", publication.id %}
-        {% if publicationFromId.size == 1 %}
-            {% assign publicationsFromId = publicationsFromId | concat: publicationFromId %}
-        {% elsif publicationFromIdLabel.size == 1 %}
-            {% assign publicationsFromId = publicationsFromId | concat: publicationFromIdLabel %}
-        {% endif %}
-    {% endfor %}
-    {% assign publicationsSorted = publicationsFromId | sort: "year" | reverse %}
-    {%- for publication in publicationsSorted -%}
-        {%- if publication.author -%}
-            {%- assign author = site.data.people | where: "id", publication.author -%}
-            {%- if author.size == 1 -%}
-                {% assign author = author[0] -%}
-            {%- else -%}
-                {% assign author = nil -%}
+    <ul class="publications theses">
+        {% assign publicationsFromId = "" | split: "" %}
+        {% for publication in source %}
+            {% assign publicationFromId = site.data.theses | where: "id", publication %}
+            {% assign publicationFromIdLabel = site.data.theses | where: "id", publication.id %}
+            {% if publicationFromId.size == 1 %}
+                {% assign publicationsFromId = publicationsFromId | concat: publicationFromId %}
+            {% elsif publicationFromIdLabel.size == 1 %}
+                {% assign publicationsFromId = publicationsFromId | concat: publicationFromIdLabel %}
+            {% endif %}
+        {% endfor %}
+        {% assign publicationsSorted = publicationsFromId | sort: "year" | reverse %}
+        {%- for publication in publicationsSorted -%}
+            {%- if publication.author -%}
+                {%- assign author = site.data.people | where: "id", publication.author -%}
+                {%- if author.size == 1 -%}
+                    {% assign author = author[0] -%}
+                {%- else -%}
+                    {% assign author = nil -%}
+                {%- endif -%}
             {%- endif -%}
-        {%- endif -%}
 
-        {%- if publication.supervisor -%}
-            {%- assign supervisor = site.data.people | where: "id", publication.supervisor -%}
-            {%- if supervisor.size == 1 -%}
-                {% assign supervisor = supervisor[0] -%}
-            {%- else -%}
-                {% assign supervisor = nil -%}
+            {%- if publication.supervisor -%}
+                {%- assign supervisor = site.data.people | where: "id", publication.supervisor -%}
+                {%- if supervisor.size == 1 -%}
+                    {% assign supervisor = supervisor[0] -%}
+                {%- else -%}
+                    {% assign supervisor = nil -%}
+                {%- endif -%}
             {%- endif -%}
-        {%- endif -%}
 
-        {% assign cosupervisors = "" | split: "" %}
-        {%- if publication.co-supervisor -%}
-            {%- if publication.co-supervisor | first -%}
-                {% for cosup in publication.co-supervisor %}
-                    {% assign cosupervisorFromId = site.data.people | where: "id", cosup %}
+            {% assign cosupervisors = "" | split: "" %}
+            {%- if publication.co-supervisor -%}
+                {%- if publication.co-supervisor | first -%}
+                    {% for cosup in publication.co-supervisor %}
+                        {% assign cosupervisorFromId = site.data.people | where: "id", cosup %}
+                        {% assign cosupervisorName = cosupervisorFromId[0]["name"] | append: " " | append: cosupervisorFromId[0]["surname"] %}
+                        {%- assign cosupervisors = cosupervisors | push: cosupervisorName -%}
+                    {% endfor %}
+                {% else %}
+                    {% assign cosupervisorFromId = site.data.people | where: "id", publication.co-supervisor %}
                     {% assign cosupervisorName = cosupervisorFromId[0]["name"] | append: " " | append: cosupervisorFromId[0]["surname"] %}
                     {%- assign cosupervisors = cosupervisors | push: cosupervisorName -%}
-                {% endfor %}
-            {% else %}
-                {% assign cosupervisorFromId = site.data.people | where: "id", publication.co-supervisor %}
-                {% assign cosupervisors = "" | concat: cosupervisorFromId[0] %}
+                {% endif %}
+            {%- endif -%}
+
+            {%- if cosupervisors.size > 0 -%}
+                {%- assign cosupervisorsString = cosupervisors | join: ", " -%}
+            {%- else -%}
+                {%- assign cosupervisorsString = nil -%}
+            {%- endif -%}
+
+            {% assign detailsArray = "" | split: "" %}
+
+            {% if publication.type %}
+                {% case publication.type %}
+                    {% when "B" %}
+                        {%- assign type = "Bachelor's Thesis" -%}
+                    {% when "M" %}
+                        {%- assign type = "Master's Thesis" -%}
+                    {% when "P" %}
+                        {%- assign type = "PhD Thesis" -%}
+                {% endcase %}
+                {% if type %}{%- assign detailsArray = detailsArray | push: type -%}{% endif %}
             {% endif %}
-        {%- endif -%}
 
-        {%- if cosupervisors.size > 0 -%}
-            {%- assign cosupervisorsString = cosupervisors | join: ", " -%}
-        {%- else -%}
-            {%- assign cosupervisorsString = nil -%}
-        {%- endif -%}
+            {% if publication.institution %}{%- assign detailsArray = detailsArray | push: publication.institution -%}{% endif %}
 
-        {% assign detailsArray = "" | split: "" %}
+            {%- if detailsArray.size > 0 -%}
+                {%- assign detailsString = detailsArray | join: ", " -%}
+            {%- else -%}
+                {%- assign detailsString = nil -%}
+            {%- endif -%}
 
-        {% if publication.type %}
-            {% case publication.type %}
-                {% when "B" %}
-                    {%- assign type = "Bachelor's Thesis" -%}
-                {% when "M" %}
-                    {%- assign type = "Master's Thesis" -%}
-                {% when "P" %}
-                    {%- assign type = "PhD Thesis" -%}
-            {% endcase %}
-            {% if type %}{%- assign detailsArray = detailsArray | push: type -%}{% endif %}
-        {% endif %}
-
-        {% if publication.institution %}{%- assign detailsArray = detailsArray | push: publication.institution -%}{% endif %}
-
-        {%- if detailsArray.size > 0 -%}
-            {%- assign detailsString = detailsArray | join: ", " -%}
-        {%- else -%}
-            {%- assign detailsString = nil -%}
-        {%- endif -%}
-
-        <li>
-            {% if author %}{{ author.name }} {{ author.surname }}{% if publication.year %} ({{ publication.year }}){% endif %}<br />{% endif %}
-            <b>{{ publication.title }}</b><br />
-            {% if supervisor %}Supervisor: {{ supervisor.name }} {{ supervisor.surname }}{% if cosupervisorsString %} |{% endif %}{% endif %}
-            {% if cosupervisorsString %}Co-supervisor{% if publication.co-supervisor.size > 1 %}s{% endif %}: {{ cosupervisorsString }}{% endif %}
-            {% if detailsString %}<br />{{ detailsString }}{% endif %}
-        </li>
-    {% endfor %}
-</ul>
+            <li>
+                {% if author %}{{ author.name }} {{ author.surname }}{% if publication.year %} ({{ publication.year }}){% endif %}<br />{% endif %}
+                <b>{{ publication.title }}</b><br />
+                {% if supervisor %}Supervisor: {{ supervisor.name }} {{ supervisor.surname }}{% if cosupervisorsString %} |{% endif %}{% endif %}
+                {% if cosupervisorsString %}Co-supervisor{% if publication.co-supervisor.size > 1 %}s{% endif %}: {{ cosupervisorsString }}{% endif %}
+                {% if detailsString %}<br />{{ detailsString }}{% endif %}
+            </li>
+        {% endfor %}
+    </ul>
 {% endif %}
