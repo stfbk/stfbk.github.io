@@ -311,3 +311,80 @@ ul.no-bullet {
 .project img.logo {
   margin-top: 1em;
 }
+
+.university-projects .university-project:first {
+  margin-bottom: 30px;
+}
+
+.university-projects .university-project +
+.university-project {
+  border-top: 1px solid #f5f5f5;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.dot {
+  margin-left: 5px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.dot-green {
+  background-color: green;
+}
+
+.dot.dot-red {
+  background-color: red;
+}
+
+/* TOOLTIP */
+/* Tooltip container */
+ .tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  font-size: 14px;
+  display: inline-table;
+  padding: 5px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}

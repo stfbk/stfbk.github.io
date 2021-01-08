@@ -1,0 +1,74 @@
+{% if include.source %}
+    {% assign source = include.source %}
+{% endif %}
+
+{% if include.sort %}
+    {% assign source = source | sort_natural: include.sort %}
+{% else %}
+    {% assign source = source | sort_natural: "title" %}
+{% endif %}
+
+{% if source.size > 0 %}
+    <div class="university-projects">
+        {% for project in source %}
+            {% assign supervisorsFromId = "" | split: "" %}
+            {% if project.supervisor %}
+                {% if project.supervisor | first %}
+                    {% for supervisor in project.supervisor %}
+                        {% assign supervisorFromId = site.data.people | where: "id", supervisor %}
+                        {% assign supervisorsFromId = supervisorsFromId | push: supervisorFromId[0] %}
+                    {% endfor %}
+                {% else %}
+                    {% assign supervisorFromId = site.data.people | where: "id", project.supervisor %}
+                    {% assign supervisorsFromId = supervisorsFromId | concat: supervisorFromId[0] %}
+                {% endif %}
+            {% endif %}
+
+            {% assign supervisors = "" | split: "" %}
+            {% for supervisor in supervisorsFromId %}
+                {% assign supervisorName = supervisor.name | append: " " | append: supervisor.surname %}
+                {% assign supervisorString = supervisorName %}
+
+                {% assign supervisorEmail = nil %}
+                {% if supervisor.email %}
+                    {% assign splitEmail = supervisor.email | split: '@' %}
+                    {% if splitEmail[1] == "fbk.eu" %}
+                        {% assign supervisorEmail = supervisor.email %}
+                        {% assign supervisorString = supervisorString | append: ' (<a href=mailto:' | append: supervisorEmail | append: '>' | append: supervisorEmail | append: "</a>)" %}
+                    {% endif %}
+                {% endif %}
+
+                {% assign supervisors = supervisors | push: supervisorString %}
+            {% endfor %}
+
+            {%- if supervisors.size > 0 -%}
+                {%- assign supervisorsString = supervisors | join: ", " -%}
+            {%- else -%}
+                {%- assign supervisorsString = nil -%}
+            {%- endif -%}
+
+            <div class="university-project">
+                {% assign id = project.title | downcase | replace: " ", "-" %}
+                <h1 id="{{ id }}" class="in-toc">
+                    {{ project.title }}
+                    <span class="tooltip">
+                        {% if project.available and project.available == "N" %}
+                            <span class="dot dot-red"></span>
+                            <span class="tooltip-text">Not available</span>
+                        {% else %}
+                            <span class="dot dot-green"></span>
+                            <span class="tooltip-text">Available</span>
+                        {% endif %}
+                    </span>
+                </h1>
+                {% if project.description %}<p><b>Description:</b> {{ project.description }}</p>{% endif %}
+                {% if supervisorsString %}
+                    <p><b>Supervisor{% if project.supervisor.size > 1 %}s{% endif %}:</b> {{ supervisorsString }}
+                {% endif %}
+                {% if project.timeFrame %}<p><b>Time frame:</b> {{ project.timeFrame }}</p>{% endif %}
+                {% if project.level %}<p><b>Level:</b> {{ project.level }}</p>{% endif %}
+                {% if project.prerequisites %}<p><b>Prerequisites:</b> {{ project.prerequisites }}</p>{% endif %}
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}
