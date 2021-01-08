@@ -31,11 +31,17 @@ if ($("table").length > 0) {
     $("table").wrap("<div class='table-scrollable'></div>");
 }
 
-if ($("#markdown-toc").length > 0) {
-    if ($(".related").length > 0) {
-        $(".related").each(function(index) {
-            var toAppend = '<li><a href="#'+$(this).attr("id")+'" id="markdown-toc-additional-contributors">'+$(this).text()+'</a></li>';
-            $("#markdown-toc").append(toAppend);
+if ($("nav .contents .menu").length > 0) {
+    if ($("#markdown-toc").length == 0) {
+        $("nav .contents .menu").append('<ul id="markdown-toc"></ul>');
+    }
+
+    if ($(".in-toc").length > 0) {
+        $(".in-toc").each(function(index) {
+            if ($("#markdown-toc li[data-ref='#"+$(this).attr("id")+"'").length == 0) {
+                var toAppend = '<li data-ref="#'+$(this).attr("id")+'"><a href="#'+$(this).attr("id")+'">'+$(this).text().trim()+'</a></li>';
+                $("#markdown-toc").append(toAppend);
+            }
         });
     }
 }
