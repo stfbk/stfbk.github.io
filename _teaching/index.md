@@ -60,6 +60,3 @@ permalink: /teaching/
 
 # Projects
 - [Projects for Academic Year 2020-2021](/teaching/projects/2020-2021/)
-- [Projects for Academic Year 2019-2020](/teaching/projects/2019-2020/)
-- [Projects for Academic Year 2018-2019](/teaching/projects/2018-2019/)
-- [Projects for Academic Year 2017-2018](/teaching/projects/2017-2018/)
