@@ -36,6 +36,11 @@ collections:
     layout: project
     image: https://via.placeholder.com/800x600
     show_sidebar: false
+  teaching:
+    output: true
+    layout: page
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
   tools:
     output: true
     layout: tool
