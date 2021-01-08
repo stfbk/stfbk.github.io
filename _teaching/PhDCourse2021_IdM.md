@@ -54,14 +54,14 @@ The course is divided into two parts. *Part 1* introduces the basic notions unde
 
 - Our methodology for the design, development, and maintenance of IdM solutions 
 
-- Use case scenarios level (MuFASA)
+- Use case scenarios level (MuFASA - a tool for high-level specification and analysis of multi-factor authentication)
 
 - Cryptographic protocol level - part 1
 
-- Cryptographic protocol level - part 2 (SATMC)
+- Cryptographic protocol level - part 2 (SATMC - a SAT-based Model-Checker for security protocols)
 
-- Implementations level - part 1 (MicroID Gym)
+- Implementations level - part 1 (MicroID Gym - an identity management workout with container-based microservices)
 
-- Implementations level - part 2 (TLSAssistant)
+- Implementations level - part 2 (TLSAssistant - a tool for the analysis of TLS configuration with a report system that suggests appropriate mitigations)
 
 
