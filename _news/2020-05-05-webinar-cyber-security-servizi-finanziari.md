@@ -23,6 +23,5 @@ The webinar deals with the security of financial authentication protocols, with 
 The recording of the webinar can be found below:
 
 <div class="h_iframe">
-    <iframe src="https://drive.google.com/file/d/1xSwDX0Kr77fwBHRTzPS7XOlSk2snSzzO/preview"></iframe>
+    <iframe src="https://drive.google.com/file/d/1iOqS5FsBHULQtBIJHiqbj_AEhzmmu7SZ/preview"></iframe>
 </div>
-<!--in the [event page](/events/webinar-cyber-security-servizi-finanziari-2020/).-->
