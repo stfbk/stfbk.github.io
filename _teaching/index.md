@@ -52,11 +52,10 @@ permalink: /teaching/
 </table>
 
 ## PhD Courses
-
 - [Digital identity: enrollment, authentication, and all that](/teaching/PhDCourse2021_IdM)
 
 # Useful tools
 - [An Open and Flexible CyberSecurity Training Laboratory in IT/OT Infrastructures](https://sites.google.com/fbk.eu/itotlab)
 
 # Projects
-- [Projects for Academic Year 2020-2021](/teaching/projects/2020-2021/)
+- [Projects for Academic Year 2020-2021](/teaching/projects/2020-2021)
