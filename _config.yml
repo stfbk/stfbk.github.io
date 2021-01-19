@@ -3,6 +3,7 @@ tagline: Research Unit in Fondazione Bruno Kessler (FBK)
 logo: /assets/images/logos/ST_symbol.png
 remote_theme: chrisrhymes/bulma-clean-theme
 markdown: kramdown
+repository: stfbk/stfbk.github.io
 
 collections:
   collaborations:

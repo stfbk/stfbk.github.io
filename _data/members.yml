@@ -36,7 +36,28 @@ current:
       institution: University of Trento
       yearFrom: 2020
       yearTo: 2021
-
+      
+    - personId: MatteoLongato
+      type: B
+      topic: Verifiable credentials applied to self reports 
+      institution: University of Trento
+      yearFrom: 2020
+      yearTo: 2021
+      
+    - personId: MatteoRizzi
+      type: B
+      topic: Comparison of TLS mobile analyzers and analysis of the mutual TLS implementation of the CieID application
+      institution: University of Trento
+      yearFrom: 2020
+      yearTo: 2021
+      
+    - personId: GiovanniMagoga
+      type: B
+      topic: Attribute provisioning, verifiable credentials and privacy
+      institution: University of Trento
+      yearFrom: 2020
+      yearTo: 2021
+      
 former:
   members:
     - personId: AlessandroArmando
@@ -182,3 +203,9 @@ former:
       topic: Risk Assessment Smart Campus
       yearFrom: 2014
       yearTo: 2014
+      
+    - personId: VincenzoChiarini
+      topic: Studio dell'usabilità di soluzioni di Single Sign-On e autenticazione forte per applicazioni mobile.
+      institution: University of Trento
+      yearFrom: 2017
+      yearTo: 2017
