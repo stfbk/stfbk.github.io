@@ -189,17 +189,6 @@
   institution: University of Trento
 
   ## 2019
-- id: AlessioValenza_B
-  title: "Autenticazione bancaria post-PSD2: siamo al sicuro? Analisi automatica del rischio di protocolli di autenticazione"
-  type: B
-  author: AlessioValenza
-  supervisor: SilvioRanise
-  co-supervisor:
-    - GiadaSciarretta
-    - MarcoPernpruner
-  year: 2020
-  institution: University of Trento
-
 - id: CarlottaTagliaro_B
   title: "Security and Performance tradeoffs in the Internet of Things"
   type: B
@@ -207,7 +196,7 @@
   supervisor: SilvioRanise
   co-supervisor:
     - UmbertoMorelli
-  year: 2020
+  year: 2019
   institution: University of Trento
   awards: 4th place at thesis award "Innovare la sicurezza delle informazioni 2020", sponsored by CLUSIT
 
@@ -272,7 +261,6 @@
   institution: University of Trento
   awards: 3rd place at thesis award "Innovare la sicurezza delle informazioni 2020", sponsored by CLUSIT
 
-## 2020
 - id: BiniamFissehaDemissie_P
   title: "Security Testing of Permission Re-delegation Vulnerabilities in Android Applications"
   type: P
@@ -285,6 +273,19 @@
   institution: University of Trento
   link: http://eprints-phd.biblio.unitn.it/3700/
 
+
+## 2020
+- id: AlessioValenza_B
+  title: "Autenticazione bancaria post-PSD2: siamo al sicuro? Analisi automatica del rischio di protocolli di autenticazione"
+  type: B
+  author: AlessioValenza
+  supervisor: SilvioRanise
+  co-supervisor:
+    - GiadaSciarretta
+    - MarcoPernpruner
+  year: 2020
+  institution: University of Trento
+  
 - id: FedericoSinigaglia_P
   title: "Security Analysis of Multi-Factor Authentication Security Protocols"
   type: P

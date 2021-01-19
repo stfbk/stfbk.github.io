@@ -35,6 +35,10 @@
   website: https://csec.it/people/alessandro_armando/
   image: https://csec.it/pics/alessandro-armando-2020.jpg
 
+- id: AlessandroPegoraro
+  name: Alessandro
+  surname: Pegoraro
+  
 - id: AlessandroTomasi
   name: Alessandro
   surname: Tomasi
@@ -179,6 +183,10 @@
   surname: Ferronato
   image: https://media-exp1.licdn.com/dms/image/C5603AQEcwxof36633Q/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=h5fI2ngKcl-4rahGVBf4cRWY9ZzhGnKSDqRsz5fwo6s
 
+- id: GiovanniMagoga
+  name: Giovanni
+  surname: Magoga
+
 - id: GiovanniMariaAbbiati
   name: Giovanni Maria
   surname: Abbiati
@@ -295,6 +303,14 @@
 - id: MatteoLeonelli
   name: Matteo
   surname: Leonelli
+  
+- id: MatteoLongato
+  name: Matteo
+  surname: Longato
+  
+- id: MatteoRizzi
+  name: Matteo
+  surname: Rizzi
 
 - id: MicheleBezzi
   name: Michele
@@ -456,3 +472,8 @@
 - id: VeronicaCristiano
   name: Veronica
   surname: Cristiano
+  
+  
+- id: VincenzoChiarini
+  name: Vincenzo
+  surname: Chiarini
