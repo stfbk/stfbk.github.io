@@ -59,12 +59,18 @@ current:
       yearTo: 2021
       
 former:
-  members:
+  head:
     - personId: AlessandroArmando
       formerRole: Founder and Head of Unit
       yearFrom: 2010
       yearTo: 2016
 
+    - personId: SilvioRanise
+      formerRole: Head of Unit
+      yearFrom: 2017
+      yearTo: 2020
+
+  members:
     - personId: MarianoCeccato
       formerRole: Researcher
       yearTo: 2019
@@ -103,11 +109,6 @@ former:
     - personId: MatteoLeonelli
       formerRole: Junior Researcher
       yearFrom: 2019
-      yearTo: 2020
-
-    - personId: SilvioRanise
-      formerRole: Head of Unit
-      yearFrom: 2017
       yearTo: 2020
 
   phdStudents:
