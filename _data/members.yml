@@ -181,8 +181,8 @@ former:
     - personId: GiovanniFerronato
       thesisId: GiovanniFerronato_B
 
-    - personId: EnricoDonadoni
-      thesisId: EnricoDonadoni_B
+    - personId: EnricoDonatoni
+      thesisId: EnricoDonatoni_B
 
     - personId: DanieleDelSale
       thesisId: DanieleDelSale_B
@@ -210,3 +210,19 @@ former:
       institution: University of Trento
       yearFrom: 2017
       yearTo: 2017
+
+    - personId: LucaMorgese
+      thesisId: LucaMorgese_B
+
+    - personId: MartaArisi
+      type: M
+      topic: "Blockchain and e-health: seeking compliance with the General Data Protection Regulation"
+      institution: University of Trento
+      yearFrom: 2019
+      yearTo: 2019
+
+    - personId: ClaudioGrisenti
+      thesisId: ClaudioGrisenti_B
+
+    - personId: StefanoFacchini
+      thesisId: StefanoFacchini_B
