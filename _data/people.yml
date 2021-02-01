@@ -113,6 +113,10 @@
   name: Clara
   surname: Bertolissi
 
+- id: ClaudioGrisenti
+  name: Claudio
+  surname: Grisenti
+
 - id: DamianoSartori
   name: Damiano
   surname: Sartori
@@ -139,9 +143,9 @@
   image: https://emavgl.github.io/images/avatar.jpg
   website: https://emavgl.github.io/
 
-- id: EnricoDonadoni
+- id: EnricoDonatoni
   name: Enrico
-  surname: Donadoni
+  surname: Donatoni
 
 - id: FedericoSinigaglia
   name: Federico
@@ -222,6 +226,10 @@
   name: Luca
   surname: Compagna
 
+- id: LucaMorgese
+  name: Luca
+  surname: Morgese
+
 - id: LucaViganò
   name: Luca
   surname: Viganò
@@ -283,6 +291,10 @@
   email: mariano.ceccato@univr.it
   image: https://www.di.univr.it/documenti/Persona/foto/foto347921.jpg
   website: http://www.di.univr.it/?ent=persona&id=60574
+
+- id: MartaArisi
+  name: Marta
+  surname: Arisi
 
 - id: MartaToniolli
   name: Marta
@@ -433,6 +445,10 @@
   website: https://stefanoberlato.it/
   image: https://stefanoberlato.it/images/avataaars.png
   email: sberlato@fbk.eu
+
+- id: StefanoFacchini
+  name: Stefano
+  surname: Facchini
 
 - id: TahirAhmad
   name: Tahir
