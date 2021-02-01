@@ -53,7 +53,7 @@
   link: http://eprints-phd.biblio.unitn.it/3435/
 
 - id: DamianoSartori_B
-  title: "Attribute Based Access Control over a Hyperledgr Fabric network: An application for Electronic Health Records"
+  title: "Attribute Based Access Control over a Hyperledger Fabric Network: An application for Electronic Health Records"
   type: B
   author: DamianoSartori
   supervisor: SilvioRanise
@@ -73,10 +73,10 @@
   year: 2018
   institution: University of Trento
 
-- id: EnricoDonadoni_B
+- id: EnricoDonatoni_B
   title: "Blockchain in Finance: a comparison of Ripple, Quorum and Corda"
   type: B
-  author: EnricoDonadoni
+  author: EnricoDonatoni
   supervisor: SilvioRanise
   co-supervisor:
     - UmbertoMorelli
@@ -189,6 +189,18 @@
   institution: University of Trento
 
   ## 2019
+- id: BiniamFissehaDemissie_P
+  title: "Security Testing of Permission Re-delegation Vulnerabilities in Android Applications"
+  type: P
+  author: BiniamFissehaDemissie
+  abstract: >
+    Smartphones play an important role in our daily lives. Once used only for communication purposes are now also used for several day-to-day activities ranging from social media and entertainment to privacy sensitive operations such as data storage, fitness tracking, mobile banking and sending/receiving business e-mails. This is achieved thanks to the several smartphone applications (apps) that are available. One of the most popular smartphone operating systems is Android. As of now, there are more than 3 million apps for Android. The Android platform facilitates reuse of apps' functionalities by allowing an app to request a task from another app installed on the same device through inter-process communication mechanism. This possibility is probably one of the reasons for the popularity of Android where an app can reuse a feature available in other apps. However, this integration also poses security risks to the privacy of the end-users if it is not implemented properly. Permission re-delegation vulnerability is a kind of privilege escalation that happens when unprivileged apps exploit this integration feature to make privileged apps perform a privileged action on their behalf. Static analysis techniques as well as run-time protections have been proposed to detect permission re-delegation vulnerabilities. However, as acknowledged by their authors, most of these approaches are affected by many false positives and, hence, fall short of precision because, they do not discriminate between intentional task requests and actual permission re-delegation vulnerabilities. In this thesis, we propose automatic techniques to classify potential permission re-delegation vulnerabilities detected by static analysis in real world Android apps as intentional task requests or actual vulnerabilities and to automatically generate test cases that show how the vulnerabilities can be exploited. This could be helpful for developers to easily analyze their apps and fix vulnerabilities before releasing their apps. The proposed approaches have been experimentally validated with thousands of real world apps and have been seen to perform better than state-of-the-art tools and techniques in terms of precision.
+  supervisor: MarianoCeccato
+  year: 2019
+  cycle: XXX
+  institution: University of Trento
+  link: http://eprints-phd.biblio.unitn.it/3700/
+
 - id: CarlottaTagliaro_B
   title: "Security and Performance tradeoffs in the Internet of Things"
   type: B
@@ -221,6 +233,15 @@
   year: 2019
   institution: University of Trento
 
+- id: LucaMorgese_B
+  title: "Designing and Implementing a DLT Based Access Control Mechanism for Healthcare Data - A Proof of Concept"
+  type: B
+  author: LucaMorgese
+  supervisor: SilvioRanise
+  co-supervisor: AlessandroTomasi
+  year: 2019
+  institution: University of Trento
+
 - id: MarcoPernpruner_M
   title: "A passwordless out-of-band authentication protocol based on eID cards and push notifications: Design and formal security analysis"
   type: M
@@ -233,7 +254,7 @@
   institution: University of Verona
 
 - id: MartaToniolli_B
-  title: "Developing an android client for user enrollment with CIE 3.0 and distributed ledger interaction: An application to electronic health record access control"
+  title: "Developing an Android client for user enrollment with CIE 3.0 and distributed ledger interaction: An application to electronic health record access control"
   type: B
   author: MartaToniolli
   supervisor: SilvioRanise
@@ -261,19 +282,6 @@
   institution: University of Trento
   awards: 3rd place at thesis award "Innovare la sicurezza delle informazioni 2020", sponsored by CLUSIT
 
-- id: BiniamFissehaDemissie_P
-  title: "Security Testing of Permission Re-delegation Vulnerabilities in Android Applications"
-  type: P
-  author: BiniamFissehaDemissie
-  abstract: >
-    Smartphones play an important role in our daily lives. Once used only for communication purposes are now also used for several day-to-day activities ranging from social media and entertainment to privacy sensitive operations such as data storage, fitness tracking, mobile banking and sending/receiving business e-mails. This is achieved thanks to the several smartphone applications (apps) that are available. One of the most popular smartphone operating systems is Android. As of now, there are more than 3 million apps for Android. The Android platform facilitates reuse of apps' functionalities by allowing an app to request a task from another app installed on the same device through inter-process communication mechanism. This possibility is probably one of the reasons for the popularity of Android where an app can reuse a feature available in other apps. However, this integration also poses security risks to the privacy of the end-users if it is not implemented properly. Permission re-delegation vulnerability is a kind of privilege escalation that happens when unprivileged apps exploit this integration feature to make privileged apps perform a privileged action on their behalf. Static analysis techniques as well as run-time protections have been proposed to detect permission re-delegation vulnerabilities. However, as acknowledged by their authors, most of these approaches are affected by many false positives and, hence, fall short of precision because, they do not discriminate between intentional task requests and actual permission re-delegation vulnerabilities. In this thesis, we propose automatic techniques to classify potential permission re-delegation vulnerabilities detected by static analysis in real world Android apps as intentional task requests or actual vulnerabilities and to automatically generate test cases that show how the vulnerabilities can be exploited. This could be helpful for developers to easily analyze their apps and fix vulnerabilities before releasing their apps. The proposed approaches have been experimentally validated with thousands of real world apps and have been seen to perform better than state-of-the-art tools and techniques in terms of precision.
-  supervisor: MarianoCeccato
-  year: 2019
-  cycle: XXX
-  institution: University of Trento
-  link: http://eprints-phd.biblio.unitn.it/3700/
-
-
 ## 2020
 - id: AlessioValenza_B
   title: "Autenticazione bancaria post-PSD2: siamo al sicuro? Analisi automatica del rischio di protocolli di autenticazione"
@@ -283,6 +291,17 @@
   co-supervisor:
     - GiadaSciarretta
     - MarcoPernpruner
+  year: 2020
+  institution: University of Trento
+
+- id: ClaudioGrisenti_B
+  title: "A pentesting tool for OAuth and OIDC deployments"
+  type: B
+  author: ClaudioGrisenti
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
   year: 2020
   institution: University of Trento
   
@@ -301,10 +320,24 @@
   doi: 10.15167/sinigaglia-federico_phd2020-05-29
 
 - id: GiulioPellizzari_M
-  title: "Micro-Id-Gym: A Tool to Support Sandboxing And Automated Pentesting of Identity Management Protocols"
+  title: "Micro-Id-Gym: A Tool to Support Sandboxing and Automated Pentesting of Identity Management Protocols"
   type: M
   author: GiulioPellizzari
   supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
+  year: 2020
+  institution: University of Trento
+
+- id: StefanoFacchini_B
+  title: "Design and implementation of an automated tool for checking SAML SSO vulnerabilities and SPID compliance"
+  type: B
+  author: StefanoFacchini
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
   year: 2020
   institution: University of Trento
 

@@ -59,12 +59,18 @@ current:
       yearTo: 2021
       
 former:
-  members:
+  head:
     - personId: AlessandroArmando
       formerRole: Founder and Head of Unit
       yearFrom: 2010
       yearTo: 2016
 
+    - personId: SilvioRanise
+      formerRole: Head of Unit
+      yearFrom: 2017
+      yearTo: 2020
+
+  members:
     - personId: MarianoCeccato
       formerRole: Researcher
       yearTo: 2019
@@ -103,11 +109,6 @@ former:
     - personId: MatteoLeonelli
       formerRole: Junior Researcher
       yearFrom: 2019
-      yearTo: 2020
-
-    - personId: SilvioRanise
-      formerRole: Head of Unit
-      yearFrom: 2017
       yearTo: 2020
 
   phdStudents:
@@ -180,8 +181,8 @@ former:
     - personId: GiovanniFerronato
       thesisId: GiovanniFerronato_B
 
-    - personId: EnricoDonadoni
-      thesisId: EnricoDonadoni_B
+    - personId: EnricoDonatoni
+      thesisId: EnricoDonatoni_B
 
     - personId: DanieleDelSale
       thesisId: DanieleDelSale_B
@@ -209,3 +210,19 @@ former:
       institution: University of Trento
       yearFrom: 2017
       yearTo: 2017
+
+    - personId: LucaMorgese
+      thesisId: LucaMorgese_B
+
+    - personId: MartaArisi
+      type: M
+      topic: "Blockchain and e-health: seeking compliance with the General Data Protection Regulation"
+      institution: University of Trento
+      yearFrom: 2019
+      yearTo: 2019
+
+    - personId: ClaudioGrisenti
+      thesisId: ClaudioGrisenti_B
+
+    - personId: StefanoFacchini
+      thesisId: StefanoFacchini_B
