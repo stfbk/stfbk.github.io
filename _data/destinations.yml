@@ -358,3 +358,14 @@
   location: Virtual Event
   startDate: "2020-07-08"
   endDate: "2020-07-10"
+  
+## 2021  
+- id: CODASPY2021
+  name: 11th ACM Conference on Data and Application Security and Privacy
+  proceedings: Proceedings of the Tenth ACM Conference on Data and Application Security and Privacy
+  acronym: CODASPY 2021
+  url: http://www.codaspy.org/2021/
+  type: conference
+  location: Online
+  startDate: "2021-04-26"
+  endDate: "2021-04-28"
