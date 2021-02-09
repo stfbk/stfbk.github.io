@@ -411,3 +411,15 @@
   destination: TOPS
   year: 2020
   urlComplementary: /complementary/TOPS2020_2
+  
+## 2021
+- id: CODASPY2021_SPP
+  title: "Secure Pull Printing with QR Codes and National eID Cards: A Software-oriented Design and an Open-source Implementation"
+  authors: Matteo Leonelli, Umberto Morelli, Silvio Ranise, Giada Sciarretta
+  abstract: >
+    With more systems becoming digitized, enterprises are adopting cloud technologies and outsourcing non-critical services to reduce the pressure on IT departments. In this process, it is crucial to achieving the right balance between costs, usability and security; prioritizing security over the rest when handling sensitive data. Considering the print management, often off-premise, many enterprises report at least one print-related security incident that led to data loss in the past year. This problem can damage the enterprise business, in particular considering the fines prescribed by current regulations or its reputation. Focusing on securing enterprise printing, pull printing is the set of technologies and processes that allow the release of print jobs according to specific conditions; typically user authentication and proximity to a printer. We design a software-oriented pull printing infrastructure that supports a print release mechanism using QR codes and electronic IDentity cards as a second-factor authenticator. Our solution addresses the costs, as any medium-size organization can adopt our open-source solution without additional devices or access badges; and the user experience, as we offer a driverless print environment and a user-friendly mobile application.
+  destination: CODASPY2021
+  year: 2021
+  doi: 10.1145/3422337.3447847
+  urlComplementary: /complementary/CODASPY2021
+  urlNews: /news/2019/12/01/paper-accepted-at-codaspy-2021/
