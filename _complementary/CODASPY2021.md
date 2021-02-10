@@ -58,7 +58,7 @@ To support the cases where the QR code is missing or damaged, in Step D *Print R
 The figure below provides the messages exchanged as part of the workflow steps A-G for an employee who is already authenticated in Google (workflow steps 1-2) and is using the <i>Print Releaser</i> to release a job.    
 
 <div style="text-align: center">
-<img src="assets\CODASPY2021\Msc.png">
+<img src="assets\CODASPY2021\MSC.png">
 </div>
 
 <div>
