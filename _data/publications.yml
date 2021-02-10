@@ -316,6 +316,14 @@
   urlComplementary: https://mfa-team.github.io/
   urlNews: /news/2020/02/02/paper-accepted-at-cose/
 
+- id: CPS4CIP2020_TLS
+  title: "TLSAssistant goes FINSEC: A Security Platform Integration Extending Threat Intelligence Language "
+  authors: Salvatore Manfredi, Silvio Ranise, Giada Sciarretta and Alessandro Tomasi
+  abstract: >
+    We present the integration of TLSAssistant, a tool for TLS vulnerability scanning and mitigation, with an online platform of services for cybersecurity in critical infrastructure. We highlight the added value of intelligence sharing and synergies with other services on the platform, as well as the non-trivial challenges encountered in the process.
+  destination: CPS4CIP2020
+  year: 2020
+
 - id: DETIPS2020
   title: "Verifiable contracting"
   authors: Sergio Manuel Nóbrega Gonçalves, Alessandro Tomasi, Andrea Bisegna, Giulio Pellizzari and Silvio Ranise

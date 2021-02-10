@@ -323,6 +323,12 @@
 - id: MatteoRizzi
   name: Matteo
   surname: Rizzi
+  affiliations:
+    - role: Junior Researcher
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: mrizzi@fbk.eu
 
 - id: MicheleBezzi
   name: Michele
