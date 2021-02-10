@@ -313,6 +313,15 @@
   location: Online
   startDate: "2020-08-03"
   endDate: "2020-08-04"
+ 
+- id: CPS4CIP2020
+  name: 1st International Workshop on Cyber-Physical Security for Critical Infrastructures Protection
+  acronym: CPS4CIP 2020
+  url: https://sites.google.com/fbk.eu/cps4cip20
+  type: workshop
+  location: Online
+  startDate: "2020-09-18"
+  endDate: "2020-09-18"
 
 - id: DETIPS2020
   name: 25th European Symposium on Research in Computer Security

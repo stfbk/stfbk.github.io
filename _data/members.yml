@@ -15,6 +15,7 @@ current:
     - SilvioRanise
     - StefanoBerlato
     - MajidMollaeefar
+    - MatteoRizzi
     - BiniamFissehaDemissie
       
   students:
@@ -40,13 +41,6 @@ current:
     - personId: MatteoLongato
       type: B
       topic: Verifiable credentials applied to self reports 
-      institution: University of Trento
-      yearFrom: 2020
-      yearTo: 2021
-      
-    - personId: MatteoRizzi
-      type: B
-      topic: Comparison of TLS mobile analyzers and analysis of the mutual TLS implementation of the CieID application
       institution: University of Trento
       yearFrom: 2020
       yearTo: 2021
