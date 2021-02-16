@@ -31,9 +31,10 @@ TLSAssistant is written in Bash and can thus be invoked via  command-line. Among
 It takes as input a series of options depending on which analysis the user wants to run. 
 By design, our tool has a flexible architecture that allows a continuous integration of newer and more sophisticated tools. Currently, the set of integrated tools consists of command-line scripts written either in Bash or Python. 
 
-TLSAssistant currently integrates four tools that provide state-of-the-art analysis:
+TLSAssistant currently integrates five tools that provide state-of-the-art analysis:
 
-- [mallodroid](https://github.com/sfahl/mallodroid)
+- [mallodroid](https://github.com/stfbk/mallodroid)
+- [SUPERAnalyzer](https://github.com/SUPERAndroidAnalyzer/super)
 - [testssl.sh](https://github.com/drwetter/testssl.sh)
 - [tlsfuzzer](https://github.com/tomato42/tlsfuzzer)
 - **HTTP/HSTS checker** is the first module built in house, it contains a set of simple commands that can detect lack of proper HSTS configuration and other minor checks.
@@ -72,6 +73,10 @@ Thanks to the integrated analyzers, TLSAssistant is currently able to detect the
   - [SLOTH](https://www.mitls.org/pages/attacks/SLOTH)
   - [Sweet32](https://sweet32.info)
   - [Unsecure Android TrustManagers](https://dl.acm.org/citation.cfm?id=2382205)
+  - [Weak Algorithms](https://developer.mozilla.org/en-US/docs/Web/Security/Weak_Signature_Algorithm)
+  - Certificate or KeyStore Disclosure
+  - WebViews Ignoring SSL Errors
+  - Accepting ALL SSL Certificates
 
 For each one of them, TLSAssistant is able to suggest an appropriate mitigation to easily fix the misconfiguration. These mitigations have been collected by fetching information from both scientific literature and each vendor's technical documentation.
 
