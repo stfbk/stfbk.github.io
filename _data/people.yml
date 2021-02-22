@@ -217,6 +217,10 @@
 - id: IvanMartini
   name: Ivan
   surname: Martini
+  
+- id: LeonardoXomparo
+  name: Leonardo
+  surname: Xomparo
 
 - id: LorenzoTait
   name: Lorenzo
@@ -369,6 +373,10 @@
   name: Roberto
   surname: Tiella
   email: tiella@fbk.eu
+  
+- id: RupertGobber
+  name: Ruper
+  surname: Gobber
 
 - id: SalimehDashti
   name: Salimeh
