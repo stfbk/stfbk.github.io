@@ -23,6 +23,13 @@ current:
       type: M
       topic: Implementation of a flexible and automated risk analysis for Multi-Factor Authentication protocols
       institution: University of Trento
+      
+    - personId: AlessandroPegoraro
+      type: B
+      topic: Exploring security compliance in FinTech scenarios
+      institution: University of Trento
+      yearFrom: 2021
+      yearTo: 2021
 
     - personId: ChaudhryMuhammadSuleman
       type: M
@@ -30,14 +37,14 @@ current:
       institution: University of Trento
       yearFrom: 2020
       yearTo: 2021
-
-    - personId: VeronicaCristiano
-      type: M
-      topic: Study, Design and Development of Secure Cryptographic Key Management Solutions in Java for CryptoAC
+      
+    - personId: GiovanniMagoga
+      type: B
+      topic: Attribute provisioning, verifiable credentials and privacy
       institution: University of Trento
       yearFrom: 2020
       yearTo: 2021
-      
+          
     - personId: MatteoLongato
       type: B
       topic: Verifiable credentials applied to self reports 
@@ -45,9 +52,16 @@ current:
       yearFrom: 2020
       yearTo: 2021
       
-    - personId: GiovanniMagoga
-      type: B
-      topic: Attribute provisioning, verifiable credentials and privacy
+    - personId: RupertGobber
+      type: M
+      topic: Verifiable credentials and OpenID Connect 
+      institution: University of Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: VeronicaCristiano
+      type: M
+      topic: Study, Design and Development of Secure Cryptographic Key Management Solutions in Java for CryptoAC
       institution: University of Trento
       yearFrom: 2020
       yearTo: 2021
