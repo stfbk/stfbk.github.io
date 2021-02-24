@@ -51,7 +51,7 @@
                 {% assign id = project.title | downcase | replace: " ", "-" %}
                 <h1 id="{{ id }}" class="in-toc">
                     {{ project.title }}
-                    <span class="tooltip">
+                    <span class="tooltip no-toc">
                         {% if project.available and project.available == "N" %}
                             <span class="dot dot-red"></span>
                             <span class="tooltip-text">Not available</span>

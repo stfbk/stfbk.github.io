@@ -39,7 +39,10 @@ if ($("nav .contents .menu").length > 0) {
     if ($(".in-toc").length > 0) {
         $(".in-toc").each(function(index) {
             if ($("#markdown-toc li[data-ref='#"+$(this).attr("id")+"'").length == 0) {
-                var toAppend = '<li data-ref="#'+$(this).attr("id")+'"><a href="#'+$(this).attr("id")+'">'+$(this).text().trim()+'</a></li>';
+                var text = $(this).clone();
+                text.find(".no-toc").remove();
+                text = $(text).html().trim();
+                var toAppend = '<li data-ref="#'+$(this).attr("id")+'"><a href="#'+$(this).attr("id")+'">'+text+'</a></li>';
                 $("#markdown-toc").append(toAppend);
             }
         });
