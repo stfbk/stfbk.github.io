@@ -45,7 +45,7 @@
             </div>
         {% elsif style == "list" %}
             <li class="item project">
-                <a href="{% if project.customURL %}{{ project.customURL | prepend: site.baseurl }}{% else %}{{ project.title | replace: " ", "_" | prepend: site.baseurl }}{% endif %}"><b>{{ project.title }}</b></a>{% if project.titleAddon %} ({{ project.titleAddon }}){% endif %}
+                <a href="{% if project.customURL %}AA{{ project.customURL | prepend: site.baseurl }}{% else %}{{ project.title | replace: ' ', '_' | prepend: '/projects/' | prepend: site.baseurl }}{% endif %}"><b>{{ project.title }}</b></a>{% if project.titleAddon %} ({{ project.titleAddon }}){% endif %}
             </li>
         {% endif %}
     {% endfor %}
