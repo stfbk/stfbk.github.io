@@ -35,16 +35,7 @@ CPS4CIP invites submissions that present innovative ideas, proof of concepts, us
 - Automation for detection, prevention, and mitigation measures
 
 # Important Dates
-- **Submission deadline**:      19.07.2021
-- **Notification to authors**:  23.08.2021
-- **Camera-ready versions**:    13.09.2021
-
-# Paper Submission Guidelines
-Submissions are to be made to the submission website ([https://easychair.org/my/conference?conf=cps4cip2021](https://easychair.org/my/conference?conf=cps4cip2021)) in pdf format. At least one author of each accepted paper is required to register and present their work at the workshop; otherwise, the paper will not be included in the proceedings.
-
-Submitted papers must not substantially overlap with papers that have been published or that have been simultaneously submitted to a journal or a conference with proceedings. Submissions should be at most 16+ pages long (full paper) or 8+ pages (short paper), including the bibliography and appendices, and should follow the [LNCS style](http://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0).
-
-Pre-proceedings will be made available at the workshop. Accepted conference papers are planned to be published by Springer in the LNCS collection.
+{% include_relative includes/important-dates.md %}
 
 # Support
 The workshop is supported by the projects of the [European Cluster for Securing Critical Infrastructures (ECSCI)](https://www.finsec-project.eu/ecsci), namely:
