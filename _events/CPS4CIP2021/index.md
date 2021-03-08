@@ -2,6 +2,7 @@
 title: The 2nd International Workshop on Cyber-Physical Security for Critical Infrastructures Protection (CPS4CIP 2021)
 subtitle: Co-located with ESORICS 2021
 menubar: CPS4CIP2021
+permalink: /events/CPS4CIP2021/
 ---
 
 ESORICS 2021, as well as the accompanying workshops, will take place virtually this year.
