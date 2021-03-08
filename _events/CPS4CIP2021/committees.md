@@ -17,7 +17,7 @@ menubar: CPS4CIP2021
 - **Isabel Praça**, GECAD/ISEP, Portugal
 - **Federica Pascucci**, Roma Tre University, Italy
 
-# Program Committee
+# Program Committee (tentative)
 - **Dieter Gollmann**, Hamburg University of Technology, Germany
 - **Sokratis Katsikas**, Norwegian University of Science and Technology, Norway
 - **Javier Lopez**, University of Malaga, Spain
