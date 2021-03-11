@@ -37,12 +37,12 @@ current:
       institution: University of Trento
       yearFrom: 2020
       yearTo: 2021
-      
-    - personId: GiovanniMagoga
+                
+    - personId: LeonardoXompero
       type: B
-      topic: Attribute provisioning, verifiable credentials and privacy
+      topic: Risk-based authentication 
       institution: University of Trento
-      yearFrom: 2020
+      yearFrom: 2021
       yearTo: 2021
           
     - personId: MatteoLongato
