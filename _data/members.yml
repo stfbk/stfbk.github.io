@@ -51,13 +51,6 @@ current:
       institution: University of Trento
       yearFrom: 2021
       yearTo: 2021
-          
-    - personId: MatteoLongato
-      type: B
-      topic: Verifiable credentials applied to self reports 
-      institution: University of Trento
-      yearFrom: 2020
-      yearTo: 2021
       
     - personId: RupertGobber
       type: M
@@ -241,3 +234,9 @@ former:
 
     - personId: StefanoFacchini
       thesisId: StefanoFacchini_B
+      
+    - personId: MatteoRizzi
+      thesisId: MatteoRizzi_B
+      
+    - personId: MatteoLongato
+      thesisId: MatteoLongato_B
