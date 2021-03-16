@@ -38,18 +38,18 @@ current:
       yearFrom: 2020
       yearTo: 2021
       
-    - personId: GiovanniMagoga
+    - personId: GiacomoZanolli
       type: B
-      topic: Attribute provisioning, verifiable credentials and privacy
+      topic: Development of a FIDO 2.0 infrastructure
       institution: University of Trento
-      yearFrom: 2020
+      yearFrom: 2021
       yearTo: 2021
-          
-    - personId: MatteoLongato
+                
+    - personId: LeonardoXompero
       type: B
-      topic: Verifiable credentials applied to self reports 
+      topic: Risk-based authentication 
       institution: University of Trento
-      yearFrom: 2020
+      yearFrom: 2021
       yearTo: 2021
       
     - personId: RupertGobber
@@ -234,3 +234,9 @@ former:
 
     - personId: StefanoFacchini
       thesisId: StefanoFacchini_B
+      
+    - personId: MatteoRizzi
+      thesisId: MatteoRizzi_B
+      
+    - personId: MatteoLongato
+      thesisId: MatteoLongato_B

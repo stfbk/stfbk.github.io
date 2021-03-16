@@ -354,3 +354,26 @@
   cycle: XXXII
   institution: University of Genoa
   doi: 10.15167/ahmad-tahir_phd2020-03-26
+  
+## 2021
+- id: MatteoRizzi_B
+  title: "TLS Analyzers for Android Apps: State-of-the-art Analysis and Integration in TLSAssistant"
+  type: B
+  author: MatteoRizzi
+  supervisor: SilvioRanise
+  co-supervisor:
+    - GiadaSciarretta
+    - SalvatoreManfredi
+  year: 2021
+  institution: University of Trento
+
+- id: MatteoLongato_B
+  title: "Verifiable credentials applied to self reporting applications"
+  type: B
+  author: MatteoLongato
+  supervisor: SilvioRanise
+  co-supervisor:
+    - GiadaSciarretta
+    - AlessandroTomasi
+  year: 2021
+  institution: University of Trento
