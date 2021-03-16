@@ -63,3 +63,5 @@ menubar: CPS4CIP2021
 - **Johanna Ullrich**, SBA Research, Austria
 - **Muhammad Taimoor Khan**, University of Greenwich, UK
 - **Miguel Mira da Silva**, INOV, Portugal
+- **Ilias Gialampoukidis**, Information Technologies Institute (ITI), Greece
+- **Ilias Gkotsis**, KEMEA, Greece
