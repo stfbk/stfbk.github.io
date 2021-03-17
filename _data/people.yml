@@ -217,7 +217,11 @@
       place: Torino, Italy
   email: gfc@drivesec.com
   website: http://www.gianfrancoburzio.it/
-
+  
+- id: GiuseppeLamorgese
+  name: Giuseppe
+  surname: Lamorgese
+  
 - id: IvanMartini
   name: Ivan
   surname: Martini
