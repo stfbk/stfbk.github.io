@@ -356,17 +356,17 @@
   doi: 10.15167/ahmad-tahir_phd2020-03-26
   
 ## 2021
-- id: MatteoRizzi_B
-  title: "TLS Analyzers for Android Apps: State-of-the-art Analysis and Integration in TLSAssistant"
-  type: B
-  author: MatteoRizzi
+- id: AdrienBeaugendre_M
+  title: "A Flexible Risk Analysis on MuFASA Tool"
+  type: M
+  author: AdrienBeaugendre
   supervisor: SilvioRanise
   co-supervisor:
     - GiadaSciarretta
-    - SalvatoreManfredi
+    - MarcoPernpruner
   year: 2021
-  institution: University of Trento
-
+  institution: University of Rennes 1 and University of Trento
+  
 - id: MatteoLongato_B
   title: "Verifiable credentials applied to self reporting applications"
   type: B
@@ -375,5 +375,16 @@
   co-supervisor:
     - GiadaSciarretta
     - AlessandroTomasi
+  year: 2021
+  institution: University of Trento
+
+- id: MatteoRizzi_B
+  title: "TLS Analyzers for Android Apps: State-of-the-art Analysis and Integration in TLSAssistant"
+  type: B
+  author: MatteoRizzi
+  supervisor: SilvioRanise
+  co-supervisor:
+    - GiadaSciarretta
+    - SalvatoreManfredi
   year: 2021
   institution: University of Trento
