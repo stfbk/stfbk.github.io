@@ -1,5 +1,11 @@
 {% if page.menubar %}
-    {% assign menus = site.data.menus.[page.menubar] %}
+    {% assign pageCategory = page.url | split: "/" %}
+
+    {% if pageCategory[1] == "complementary" %}
+        {% assign menus = site.data.menus.complementary.[page.menubar] %}
+    {% elsif pageCategory[1] == "events" %}
+        {% assign menus = site.data.menus.events.[page.menubar] %}
+    {% endif %}
 {% elsif page.menubarlist %}
     {% assign menus = page.menubarlist %}
 {% endif %}

@@ -217,6 +217,33 @@
   startDate: "2016-02-21"
   endDate: "2016-02-24"
 
+- id: RTSI2016
+  name: 2nd International Forum on Research and Technologies for Society and Industry
+  acronym: RTSI 2016
+  type: forum
+  location: Bologna, Italy
+  startDate: "2016-09-07"
+  endDate: "2016-09-09"
+
+- id: SECRYPT2016
+  name: 13th International Conference on Security and Cryptography
+  acronym: SECRYPT 2016
+  url: http://www.secrypt.org/?y=2016
+  type: conference
+  location: Lisbon, Portugal
+  startDate: "2016-07-26"
+  endDate: "2016-07-28"
+
+## 2017
+- id: SECRYPT2017
+  name: 14th International Conference on Security and Cryptography
+  acronym: SECRYPT 2017
+  url: http://www.secrypt.org/?y=2017
+  type: conference
+  location: Madrid, Spain
+  startDate: "2017-07-24"
+  endDate: "2017-07-26"
+
 ## 2018
 - id: FPS2018
   name: 11th International Symposium on Foundations & Practice of Security
@@ -236,6 +263,14 @@
   location: Thessaloniki, Greece
   startDate: "2018-04-14"
   endDate: "2018-04-20"
+
+- id: SSPIM2018
+  name: 13th International IFIP Summer School on Privacy and Identity Management
+  url: https://www.etaps.org/2018/post
+  type: workshop
+  location: Vienna, Austria
+  startDate: "2018-08-22"
+  endDate: "2018-08-22"
 
 ## 2019
 - id: DBSec2019

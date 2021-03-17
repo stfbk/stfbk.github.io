@@ -1,25 +1,19 @@
-- id: OSW2018
-  name: OAuth Security Workshop 2018
-  acronym: OSW2018
-  startDate: "2018-03-14"
-  endDate: "2018-03-16"
-  description: The OAuth Security Workshop (OSW) aim is to improve the security of OAuth and related Internet protocols by a direct exchange of views between academic researchers, IETF OAuth Working Group members and industry.
-  url: /events/OSW2018/
+# 2014
+- id: CofundTrentino2014
+  name: Project COFUND Trentino - Final Workshop
+  startDate: "2014-03-22"
+  endDate: "2014-03-22"
+  description: >
+    This event will discuss the final results of the project COFUND Trentino.
+  url: /events/workshop-cofund-trentino-2014/
 
-- id: DBSec2016
-  name: 30th Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
-  acronym: DBSec 2016
-  startDate: "2016-07-18"
-  endDate: "2016-07-20"
-  description: DBSec is an annual international conference covering research in data and applications security and privacy.
-  url: http://dbsec2016.fbk.eu/
-
-- id: SWS2016
-  name: SECENTIS Winter School 2016
-  startDate: "2016-02-08"
-  endDate: "2016-02-12"
-  description: The SECENTIS Winter School provides an innovative training to tackle the scientific and technical security challenges raised by the combination of new technologies (e.g., cloud computing, mobile applications, and the Software-as-a-Service paradigm) and to manage the impact of these changes in industry.
-  url: http://secentis.fbk.eu/
+- id: STIW2014
+  name: "Second S&T Internal Workshop"
+  startDate: "2014-10-21"
+  endDate: "2014-10-21"
+  description: >
+    During the workshop the main research themes of the Unit will be discussed, namely: Web-based Authentication and Authorization Protocols (browser-based authentication and authorization protocols, protocols for strong authentication), Mobile Security (security of mobile operating systems and applications, authentication and authorization models and solutions for mobile apps) and Security of Cloud-based and Service-oriented Applications and Infrastructures (models and policies for content protection and release, design-time and run-time analysis and enforcement of access control policies).
+  url: /events/second-st-internal-workshop-2014/
 
 - id: eBusiness2014
   name: "e-Business e e-Government: cosa ne è della nostra privacy?"
@@ -28,6 +22,7 @@
   description: In this round-table, we will discuss problems and solutions related to privacy in the context of both e-Business and e-Government solutions together with the impact that these have on us, digital users. We will consider the benefits and the drawbacks for privacy of today techniques for data collection in business and government applications and systems together with their legal aspects.
   url: /events/e-business-e-government-privacy-2014/
 
+# 2015
 - id: SicurezzaCloud2015
   name: "Sicurezza e privacy dei dati sanitari nel cloud"
   startDate: "2015-10-22"
@@ -37,14 +32,32 @@
     In questa tavola rotonda, cercheremo di dare una risposta a questa domanda analizzando la situazione da diversi punti di vista: tecnico, giuridico ed amministrativo.
   url: /events/sicurezza-privacy-dati-sanitari-cloud-2015/
 
-- id: STIW2014
-  name: "Second S&T Internal Workshop"
-  startDate: "2014-10-21"
-  endDate: "2014-10-21"
-  description: >
-    During the workshop the main research themes of the Unit will be discussed, namely: Web-based Authentication and Authorization Protocols (browser-based authentication and authorization protocols, protocols for strong authentication), Mobile Security (security of mobile operating systems and applications, authentication and authorization models and solutions for mobile apps) and Security of Cloud-based and Service-oriented Applications and Infrastructures (models and policies for content protection and release, design-time and run-time analysis and enforcement of access control policies).
-  url: /events/second-st-internal-workshop-2014/
-  
+# 2016
+- id: SWS2016
+  name: SECENTIS Winter School 2016
+  startDate: "2016-02-08"
+  endDate: "2016-02-12"
+  description: The SECENTIS Winter School provides an innovative training to tackle the scientific and technical security challenges raised by the combination of new technologies (e.g., cloud computing, mobile applications, and the Software-as-a-Service paradigm) and to manage the impact of these changes in industry.
+  url: http://secentis.fbk.eu/
+
+- id: DBSec2016
+  name: 30th Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
+  acronym: DBSec 2016
+  startDate: "2016-07-18"
+  endDate: "2016-07-20"
+  description: DBSec is an annual international conference covering research in data and applications security and privacy.
+  url: http://dbsec2016.fbk.eu/
+
+# 2018
+- id: OSW2018
+  name: OAuth Security Workshop 2018
+  acronym: OSW2018
+  startDate: "2018-03-14"
+  endDate: "2018-03-16"
+  description: The OAuth Security Workshop (OSW) aim is to improve the security of OAuth and related Internet protocols by a direct exchange of views between academic researchers, IETF OAuth Working Group members and industry.
+  url: /events/OSW2018/
+
+# 2020  
 - id: CPS4CIP2020
   name: 1st International Workshop on Cyber-Physical Security for Critical Infrastructures Protection
   acronym: CPS4CIP 2020
@@ -60,6 +73,7 @@
   description: The conference aims to highlight studies, evidence, and guidelines on how public systems of digital identity (such as SPID, CIE, CNS) or private (such as banking SCA, digital signatures, Certification Authority services) and distributed systems (such as DLT, Blockchain) can collaborate to strengthen identification, authorization and recognition mechanisms in digital processes.
   url: https://www.fbk.eu/en/event/conference-digital-identity-and-distributed-systems/
 
+# 2021
 - id: CPS4CIP2021
   name: 2nd International Workshop on Cyber-Physical Security for Critical Infrastructures Protection
   acronym: CPS4CIP 2021
