@@ -181,6 +181,46 @@
   year: 2016
   urlNews: /news/2015/10/23/paper-accepted-at-ndss-2016/
 
+- id: RTSI2016
+  title: "A delegated authorization solution for smart-city mobile applications"
+  authors: Giada Sciarretta, Roberto Carbone, and Silvio Ranise
+  abstract: >
+    An increasingly popular scenario for Smart Cities is the one in which mobile apps attempt to access resources (e.g., open data about public transportation or e-government services) made available by city authorities through the use of Application Programming Interfaces (APIs). There is a growing awareness of the benefits of using APIs to foster civic engagement through a more efficient and personalized delivery of government services, and as an enabler of a new wave of innovation contributing to a more automated and sustainable city functioning. Despite these advantages, there are several factors hindering the exploitation of APIs. One of the most important technical barriers to the creation of mobile apps following the recurrent pattern of consuming data (e.g., selected parts of open data or user profiles) stored by other applications or services is the lack of a secure delegation mechanism. In this paper, we discuss the main security issues underlying the design of such a delegation mechanism for Smart City mobile apps and present a solution-based on OAuth 2.0-overcoming the security problems. An implementation of the solution has been integrated in the Smart Community Platform for developing open services in the Trentino region and is being used daily by up to 13,000 users. To date, no security issue has been reported.
+  destination: RTSI2016
+  year: 2016
+  doi: 10.1109/RTSI.2016.7740623
+
+- id: SECRYPT2016
+  title: "Security of Mobile Single Sign-On: a Rational Reconstruction of Facebook Login Solution"
+  authors: Giada Sciarretta, Alessandro Armando, Roberto Carbone, and Silvio Ranise
+  abstract: >
+    While there exist many secure authentication and authorization solutions for web applications, their adaptation in the mobile context is a new and open challenge. In this paper, we argue that the lack of a proper reference model for Single Sign-On (SSO) for mobile native applications drives many social network vendors (acting as Identity Providers) to develop their own mobile solution. However, as the implementation details are not well documented, it is difficult to establish the proper security level of these solutions. We thus provide a rational reconstruction of the Facebook SSO flow, including a comparison with the OAuth 2.0 standard and a security analysis obtained testing the Facebook SSO reconstruction against a set of identified SSO attacks. Based on this analysis, we have modified and generalized the Facebook solution proposing a native SSO solution capable of solving the identified vulnerabilities and accommodating any Identity Provider.
+  destination: SECRYPT2016
+  year: 2016
+  doi: 10.5220/0005969001470158
+  urlNews: /news/2016/06/16/paper-accepted-at-secrypt-2016/
+
+## 2017
+- id: COSE2017
+  title: "Anatomy of the Facebook solution for mobile single sign-on: Security assessment and improvements"
+  authors: Giada Sciarretta, Roberto Carbone, Silvio Ranise and Alessandro Armando
+  abstract: >
+    While there exist many secure authentication and authorization solutions for web applications, their adaptation in the mobile context is a new and open challenge. In this paper, we argue that the lack of a proper reference model for Single Sign-On (SSO) for mobile native applications drives many social network vendors (acting as Identity Providers) to develop their own mobile solution. However, as the implementation details are not well documented, it is difficult to establish the proper security level of these solutions. We thus provide a rational reconstruction of the Facebook SSO flow, including a comparison with the OAuth 2.0 standard and a security analysis obtained testing the Facebook SSO reconstruction against a set of identified SSO attacks. Based on this analysis, we have modified and generalized the Facebook solution proposing a native SSO abstract model and a related implementation capable of solving the identified vulnerabilities and accommodating any Identity Provider. Finally, we have analyzed the new native SSO solution proposed by the OAuth Working Group, extracted the related abstract model and made a comparison with our proposal.
+  destination: COSE
+  destinationAddon: Volume 71, November 2017, Pages 71-86
+  year: 2017
+  doi: 10.1016/j.cose.2017.04.011
+
+- id: SECRYPT2017
+  title: "Strong Authentication for e-Banking: a Survey on European Regulations and Implementations"
+  authors: Federico Sinigaglia, Gabriele Costa and Roberto Carbone
+  abstract: >
+    The modern, smart society needs a reliable and trustworthy access to the internet of services. Strong authentication mechanisms promise to rise the bar of security and they are polarizing the attention of both institutional and industrial stakeholders. In this survey we take stock of the strong authentication mechanisms used by e-Banking services in terms of regulations and implementations. To this aim, we reviewed the EU regulation and its evolution in the last decade. Moreover, we analyzed the strong authentication mechanisms implemented by 26 major EU and non-EU banks.
+  destination: SECRYPT2017
+  year: 2017
+  doi: 10.5220/0006438504800485
+  urlNews: /news/2017/06/15/paper-accepted-at-secrypt-2017/
+
 ## 2018
 - id: FPS2018
   title: Validating Requirements of Access Control for Cloud-Edge IoT Solutions
@@ -191,6 +231,15 @@
   year: 2018
   doi: 10.1007/978-3-030-18419-3_9
   urlNews: /news/2018/10/11/paper-accepted-at-fps-2018/
+
+- id: SSPIM2018
+  title: "Secure and Usable Mobile Solutions for Authentication and Single Sign-On: a Methodology for their Design and Assessment"
+  authors: Roberto Carbone, Silvio Ranise and Giada Sciarretta
+  abstract: >
+    The widespread use of digital identities in our everyday life, along with the release of our sensitive data on many online transactions, calls for Identity Management (IdM) solutions that are secure, usable, privacy-aware, and compatible with new technologies, such as mobile and cloud. While there exist many secure IdM solutions for web applications, their adaptation in the mobile context is a new and open challenge. Due to the lack of specifications and security guidelines, designing a mobile IdM solution that covers different authentication aspects from scratch is not a simple task; and as its security depends on several trust and communication assumptions, in most cases, could result in a solution with hidden vulnerabilities. To overcome this difficulty, we provide a reference model and a design methodology which can be used by different organizations to implement mobile Single Sign-On and multi-factor authentication. Main objectives of the workshop are to create awareness of privacy and security issues together with legal provisions related to authentication in mobile computing and perform an experimental evaluation of security vs usability of widespread second-factor authentication solutions for mobile applications.
+  destination: SSPIM2018
+  year: 2018
+  urlComplementary: /complementary/SSPIM2018
 
 - id: POST2018
   title: "Design, Formal Specification and Analysis of Multi-Factor Authentication Solutions with a Single Sign-On Experience"
