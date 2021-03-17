@@ -18,12 +18,7 @@ current:
     - MatteoRizzi
     - BiniamFissehaDemissie
       
-  students:
-    - personId: AdrienBeaugendre
-      type: M
-      topic: Implementation of a flexible and automated risk analysis for Multi-Factor Authentication protocols
-      institution: University of Trento
-      
+  students:    
     - personId: AlessandroPegoraro
       type: B
       topic: Exploring security compliance in FinTech scenarios
@@ -240,3 +235,6 @@ former:
       
     - personId: MatteoLongato
       thesisId: MatteoLongato_B
+
+    - personId: AdrienBeaugendre
+      thesisId: AdrienBeaugendre_M
