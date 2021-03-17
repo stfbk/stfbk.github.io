@@ -39,6 +39,13 @@ current:
       institution: University of Trento
       yearFrom: 2021
       yearTo: 2021
+    
+    - personId: GiuseppeLamorgese
+      type: B
+      topic: Formal analysis of FIDO 2.0
+      institution: University of Trento
+      yearFrom: 2021
+      yearTo: 2021
                 
     - personId: LeonardoXompero
       type: B
