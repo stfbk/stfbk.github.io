@@ -367,6 +367,17 @@
   year: 2021
   institution: University of Rennes 1 and University of Trento
   
+- id: ChaudhryMuhammadSuleman_M
+  title: "Cyber-security Risk Assessment for Cooperative, Connected and Automated Mobility Application to Cooperative Lane Merging"
+  type: M
+  author: ChaudhryMuhammadSuleman
+  supervisor: SilvioRanise
+  co-supervisor:
+    - RobertoCarbone
+    - StefanoBerlato
+  year: 2021
+  institution: University of Trento
+
 - id: MatteoLongato_B
   title: "Verifiable credentials applied to self reporting applications"
   type: B
@@ -386,5 +397,16 @@
   co-supervisor:
     - GiadaSciarretta
     - SalvatoreManfredi
+  year: 2021
+  institution: University of Trento
+
+- id: VeronicaCristiano_M
+  title: "Key Management for Cryptographic Enforcement of Access Control Policies in the Cloud: The CryptoAC use case"
+  type: M
+  author: VeronicaCristiano
+  supervisor: SilvioRanise
+  co-supervisor:
+    - RobertoCarbone
+    - StefanoBerlato
   year: 2021
   institution: University of Trento
