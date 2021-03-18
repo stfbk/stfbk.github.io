@@ -1,6 +1,6 @@
 ---
-title: Complex and Heterogeneous Systems
-subtitle: API, Cloud, Mobile, IoT and Blockchain
+title: Complex Systems
+subtitle: 
 type: topic
 url: /topics/ComplexHeterogeneousSystems
 image: ComplexSystems.jpg

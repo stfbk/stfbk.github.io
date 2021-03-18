@@ -1,6 +1,6 @@
 ---
 title: Legal Compliance
-subtitle: GDPR, PSD2
+subtitle: 
 type: topic
 url: /topics/LegalCompliance
 image: LegalCompliance.jpg
