@@ -1,6 +1,6 @@
 ---
 title: Identity Management
-subtitle: Authentication, Authorization, Access Control
+subtitle: 
 type: topic
 url: /topics/IdentityManagement
 image: DigitalIdentity.jpg
@@ -16,7 +16,7 @@ publications:
 ---
 
 Digital Identity Management is a key enabler for the adoption of innovative digital and physical services. It creates identity ecosystem across organization/company boundaries and injects trust (added value for citizens and public and private sectors).
- 
+
 **Our focus**:
 - Formal specification and analysis of authentication/authorization protocols and access control policies
 - Secure-by-design principles and best practices for authentication/authorization protocols
