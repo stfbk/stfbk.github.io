@@ -25,13 +25,6 @@ current:
       institution: University of Trento
       yearFrom: 2021
       yearTo: 2021
-
-    - personId: ChaudhryMuhammadSuleman
-      type: M
-      topic: Cyber-security risk assessment of 5G-CARMEN use cases for Cooperative, Connected and Automated Mobility (CCAM)
-      institution: University of Trento
-      yearFrom: 2020
-      yearTo: 2021
       
     - personId: GiacomoZanolli
       type: B
@@ -59,13 +52,6 @@ current:
       topic: Verifiable credentials and OpenID Connect 
       institution: University of Trento
       yearFrom: 2021
-      yearTo: 2021
-
-    - personId: VeronicaCristiano
-      type: M
-      topic: Study, Design and Development of Secure Cryptographic Key Management Solutions in Java for CryptoAC
-      institution: University of Trento
-      yearFrom: 2020
       yearTo: 2021
       
 former:
@@ -245,3 +231,9 @@ former:
 
     - personId: AdrienBeaugendre
       thesisId: AdrienBeaugendre_M
+
+    - personId: ChaudhryMuhammadSuleman
+      thesisId: ChaudhryMuhammadSuleman_M
+
+    - personId: VeronicaCristiano
+      thesisId: VeronicaCristiano_M
