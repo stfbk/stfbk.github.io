@@ -2,6 +2,8 @@
 title: OAuth Security Workshop 2018
 subtitle: Call for Papers
 menubar: OSW2018
+redirect_from: /osw2018/cfp
+
 ---
 
 We solicit position papers that highlight challenges and lesson-learned from OAuth-based work. As all papers and presentations will be shared online without a formal proceedings, we accept different kinds of submissions: from original contributions to already published or preliminary works.

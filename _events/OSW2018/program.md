@@ -2,6 +2,8 @@
 title: OAuth Security Workshop 2018
 subtitle: Program
 menubar: OSW2018
+redirect_from: /osw2018/program
+
 ---
 
 <h1>Wednesday, March 14</h1>

@@ -2,6 +2,8 @@
 title: OAuth Security Workshop 2018
 subtitle: Accepted Papers
 menubar: OSW2018
+redirect_from: /osw2018/accepted_papers
+
 ---
 
 The following papers have been accepted:

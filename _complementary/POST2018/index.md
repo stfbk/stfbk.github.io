@@ -3,6 +3,7 @@ title: "Design, Formal Specification and Analysis of Multi-Factor Authentication
 paper: POST2018
 menubar: POST2018
 permalink: /complementary/POST2018/
+redirect_from: /publications/POST-2018
 
 people:
     - GiadaSciarretta
