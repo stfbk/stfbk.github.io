@@ -5,6 +5,9 @@ remote_theme: chrisrhymes/bulma-clean-theme
 markdown: kramdown
 repository: stfbk/stfbk.github.io
 
+plugins:
+  - jekyll-redirect-from
+
 collections:
   collaborations:
     output: true

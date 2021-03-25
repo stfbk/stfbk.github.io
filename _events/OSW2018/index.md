@@ -1,6 +1,10 @@
 ---
 title: OAuth Security Workshop 2018
 menubar: OSW2018
+redirect_from:
+  - /osw2018
+  - /osw2018/
+  
 ---
 
 <img class="image-centered" src="assets/groupPicture.jpg" />

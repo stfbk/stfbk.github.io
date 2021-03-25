@@ -2,6 +2,8 @@
 title: OAuth Security Workshop 2018
 subtitle: Accommodation
 menubar: OSW2018
+redirect_from: /osw2018/accommodation
+
 ---
 
 The following hotels have special rates reserved for FBK guests. Please mention FBK when making your reservation:

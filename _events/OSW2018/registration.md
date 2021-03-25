@@ -2,6 +2,8 @@
 title: OAuth Security Workshop 2018
 subtitle: Registration
 menubar: OSW2018
+redirect_from: /osw2018/registration
+
 ---
 
 # Important Dates

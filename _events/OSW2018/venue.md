@@ -2,6 +2,8 @@
 title: OAuth Security Workshop 2018
 subtitle: Venue
 menubar: OSW2018
+redirect_from: /osw2018/venue
+
 ---
 
 The conference will take place at the Humanities and Social Sciences Hub of Fondazione Bruno Kessler, Trento, Italy [https://www.fbk.eu/en/research-centers/](https://www.fbk.eu/en/research-centers/).

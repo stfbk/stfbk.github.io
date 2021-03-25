@@ -2,6 +2,7 @@
 title: "Secure and Usable Mobile Identity Management Solutions: a Methodology for their Design and Assessment"
 subtitle: Tutorial at ITASEC 2018
 layout: page
+redirect_from: /tutorial-itasec-18
 
 people:
     - SilvioRanise
