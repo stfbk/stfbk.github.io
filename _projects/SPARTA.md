@@ -23,11 +23,9 @@ Become a unique innovation force in cybersecurity with transformative impacts on
 List of tools:
 
 * [Approver](https://approver.talos-sec.com)
-* [TSOpen](https://github.com/JordanSamhi/TSOpen)
-* [Project KB](https://sap.github.io/project-kb/)
-* [NeSSoS](https://www.cybersecurityosservatorio.it/en/Services/survey.jsp)
-* [Eclipse Steady](https://eclipse.github.io/steady/)
-* [Vulnex (VI)](https://github.com/dbvis-ukon/vulnex)
 * [BuildWatch](https://dl.acm.org/doi/pdf/10.1145/3407023.3409183)
-
-
+* [Eclipse Steady](https://eclipse.github.io/steady/)
+* [NeSSoS](https://www.cybersecurityosservatorio.it/en/Services/survey.jsp)
+* [Project KB](https://sap.github.io/project-kb/)
+* [TSOpen](https://github.com/JordanSamhi/TSOpen)
+* [Vulnex (VI)](https://github.com/dbvis-ukon/vulnex)
