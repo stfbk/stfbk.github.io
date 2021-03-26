@@ -8,7 +8,7 @@ startDate: # "2020-05-01"
 leader:                         # Activity leader (optional)
 referenceFBK:                   # Name of the reference in FBK (optional)
 duration:                       # Duration of the project (optional)
-funding: This project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 830892.
+funding: This project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 830892
 website: https://www.sparta.eu/
 cordisNo: # 786727
 logo: logo_SPARTA.png
@@ -20,7 +20,9 @@ SPARTA will create a long-lasting community capable of collaboration to define, 
 
 Become a unique innovation force in cybersecurity with transformative impacts on European Union economy, infrastructures, society and democracy.
 
-List of tools:
+[Continuous Assessment in Polymorphous Environments (CAPE) Program](https://www.sparta.eu/programs/cape/)
+
+List of CAPE tools in the DevSecOps pipeline of the E-government services vertical:
 
 * [Approver](https://approver.talos-sec.com)
 * [BuildWatch](https://dl.acm.org/doi/pdf/10.1145/3407023.3409183)
