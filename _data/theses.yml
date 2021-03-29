@@ -378,6 +378,28 @@
   year: 2021
   institution: University of Trento
 
+- id: FrancescoDefilippo_B
+  title: "Attack Patterns for Pentesting SAML 2.0 Web Browser Single Sign-On deployments"
+  type: B
+  author: FrancescoDefilippo
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
+  year: 2021
+  institution: University of Trento
+
+- id: LucaBazzanella_B
+  title: "Analysis of the State of the Art of DevSecOps: The Gitlab case study"
+  type: B
+  author: LucaBazzanella
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
+  year: 2021
+  institution: University of Trento
+
 - id: MatteoLongato_B
   title: "Verifiable credentials applied to self reporting applications"
   type: B
@@ -408,5 +430,16 @@
   co-supervisor:
     - RobertoCarbone
     - StefanoBerlato
+  year: 2021
+  institution: University of Trento
+
+- id: WendyBarreto_B
+  title: "Design and implementation of an attack pattern language for the automated pentesting of OAuth/OIDC deployments"
+  type: B
+  author: WendyBarreto
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
   year: 2021
   institution: University of Trento

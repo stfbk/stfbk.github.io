@@ -151,6 +151,10 @@
   name: Federico
   surname: Sinigaglia
 
+- id: FrancescoDefilippo
+  name: Francesco
+  surname: Defilippo
+
 - id: GabrieleCosta
   name: Gabriele
   surname: Costa
@@ -234,6 +238,10 @@
   name: Lorenzo
   surname: Tait
 
+- id: LucaBazzanella
+  name: Luca
+  surname: Bazzanella
+
 - id: LucaCompagna
   name: Luca
   surname: Compagna
@@ -291,6 +299,16 @@
       institution: University of Genoa
       place: Genoa, Italy
   email: mpernpruner@fbk.eu
+  phone: "+390461314337"
+  links:
+    - name: ResearchGate
+      value: Marco_Pernpruner
+    - name: GoogleScholar
+      value: H9SdwlcAAAAJ
+    - name: LinkedIn
+      value: marcopernpruner
+    - name: ORCID
+      value: 0000-0001-8936-2726
 
 - id: MarianoCeccato
   name: Mariano
@@ -511,7 +529,10 @@
   name: Veronica
   surname: Cristiano
   
-  
 - id: VincenzoChiarini
   name: Vincenzo
   surname: Chiarini
+
+- id: WendyBarreto
+  name: Wendy
+  surname: Barreto
