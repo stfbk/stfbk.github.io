@@ -50,6 +50,12 @@ The Micro-Id-Gym Frontend contains tools used to support user pentesting activit
 Bachelor's and master's students from the University of Trento,
 involved in internships and theses in FBK.
 
+- Wendy Barreto: "Design and implementation of an attack pattern language for the automated pentesting of OAuth/OIDC deployments" (bachelor's thesis).
+
+- Luca Bazzanella: "Analysis of The State Of The Art of DevSecOps The Gitlab case study" (bachelor's thesis).
+
+- Francesco Defilippo: "Attack Patterns for Pentesting SAML 2.0 Web Browser Single Sign-On deployments" (bachelor's thesis).
+
 - Giulio Pellizzari: "Micro-Id-Gym: A Tool to Support Sandboxing and Automated Pentensting of Identity Management Protocols" (master's thesis)
 
 - Stefano Facchini: "Design and Implementation of an Automated Tool for Checking SAML SSO Vulnerabilities and SPID Compliance" (bachelor's thesis).
