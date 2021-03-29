@@ -237,3 +237,12 @@ former:
 
     - personId: VeronicaCristiano
       thesisId: VeronicaCristiano_M
+
+    - personId: WendyBarreto
+      thesisId: WendyBarreto_B
+    
+    - personId: LucaBazzanella
+      thesisId: LucaBazzanella_B
+
+    - personId: FrancescoDefilippo
+      thesisId: FrancescoDefilippo_B
