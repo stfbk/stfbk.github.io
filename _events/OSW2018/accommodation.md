@@ -2,7 +2,7 @@
 title: OAuth Security Workshop 2018
 subtitle: Accommodation
 menubar: OSW2018
-redirect_from: /osw2018/accommodation
+redirect_from: /osw2018/accomodation
 
 ---
 
