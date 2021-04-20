@@ -13,6 +13,19 @@ publications:
     - SecAssAPIFinancial_book_2020
     - DETIPS2020
 
+theses:
+    - GiulioPellizzari_B
+    - ValentinaOdorizzi_B
+    - IvanMartini_B
+    - LorenzoTait_B
+    - ClaudioGrisenti_B
+    - StefanoFacchini_B
+    - GiulioPellizzari_M
+    - FrancescoDefilippo_B
+    - LucaBazzanella_B
+    - WendyBarreto_B
+    - LeonidasVasileiadis_M
+
 ---
 
 **Micro-Id-Gym** is a framework where users can develop hands-on experiences on how IdM solutions work and increase their awareness related to the underlying security issues. It is open-source, released under [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) license and and you can contribute by visiting the project’s [repository](https://github.com/stfbk/micro-id-gym).
@@ -45,35 +58,25 @@ The Micro-Id-Gym Frontend contains tools used to support user pentesting activit
 - **Pentesting Tool** It supports a user to perform pentesting of an IdM protocol deployment, by providing instruments to automatically detect security issues. The tools perform both passive and active tests.
 - **STIX Visualizer** It provides a graph of CTI information taken from the STIX vulnerability repository related to the intercepted authentication flow, currently only for SAML.
 
-
 # Additional Contributors
-Bachelor's and master's students from the University of Trento,
-involved in internships and theses in FBK.
+Bachelor's and master's students from the University of Trento, involved in internships and theses in FBK:
+- Claudio Grisenti
+- Francesco Defilippo
+- Giulio Pellizzari
+- Ivan Martini
+- Leonidas Vasileiadis
+- Lorenzo Tait
+- Luca Bazzanella
+- Stefano Facchini
+- Valentina Odorizzi
+- Wendy Barreto
 
-- Wendy Barreto: "Design and implementation of an attack pattern language for the automated pentesting of OAuth/OIDC deployments" (bachelor's thesis).
+# Related Talks
 
-- Luca Bazzanella: "Analysis of The State Of The Art of DevSecOps The Gitlab case study" (bachelor's thesis).
-
-- Francesco Defilippo: "Attack Patterns for Pentesting SAML 2.0 Web Browser Single Sign-On deployments" (bachelor's thesis).
-
-- Giulio Pellizzari: "Micro-Id-Gym: A Tool to Support Sandboxing and Automated Pentensting of Identity Management Protocols" (master's thesis)
-
-- Stefano Facchini: "Design and Implementation of an Automated Tool for Checking SAML SSO Vulnerabilities and SPID Compliance" (bachelor's thesis).
-
-- Claudio Grisenti: "A Pentesting Tool for OAuth and OIDC Deployments" (bachelor's thesis).
-
-- Lorenzo Tait: "A Customized Threat Modeling for Secure Deployment and
-Pentesting of SAML SSO Solutions" (bachelor's thesis).
-
-- Ivan Martini: "An Automated Security Testing Framework for SAML SSO
-Deployments" (bachelor's thesis).
-
-- Valentina Odorizzi: "Progettazione e sviluppo di uno strumento per
-l'analisi automatica di vulnerabilit&agrave; "Missing XML Validation" in SAML
-SSO" (bachelor's thesis).
-
-- Giulio Pellizzari: "Design and Implementation of a Tool to Detect
-Login Cross-Site Request Forgery in SAML SSO: G Suite Case Study" 
-(bachelor's thesis).
-
-- Leonidas Vasileiadis.
+<ul class="publications">
+    <li>
+        Andrea Bisegna, Roberto Carbone, and Silvio Ranise<br>
+        <b>Integrating a Pentesting Tool for IdM Protocols in a Continuous Delivery Pipeline</b><br>
+        At: <i>Italian Conference on Cybersecurity (ITASEC 2021)</i> (<a href="/news/2021/04/02/talk-itasec-2021/">news</a>)
+    </li>
+</ul>
