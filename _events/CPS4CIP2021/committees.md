@@ -53,7 +53,7 @@ menubar: CPS4CIP2021
 - **Ioan Constantin**, Orange Romania, Romania
 - **Tim Stelkens-Kobsch**, German Aerospace Center (DLR), Germany
 - **Matteo Mangini**, Network Integration and Solutions S.r.l., Italy
-- **Mirjam Fehling-Kaschek**, Fraunhofer Institute for High-Speed Dynamics, Germany
+- **Corinna Köpke**, Fraunhofer Institute for High-Speed Dynamics, Germany
 - **Vasileios Kazoukas**, Center for Security Studies (KEMEA), Greece
 - **Georgios Spanoudakis**, Sphynx Technology, Switzerland
 - **Haris Mouratidis**, University of Brighton, UK
