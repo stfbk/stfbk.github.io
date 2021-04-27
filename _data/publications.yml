@@ -374,10 +374,13 @@
   year: 2020
 
 - id: DETIPS2020
-  title: "Verifiable contracting"
+  title: "Verifiable Contracting: A Use Case for Onboarding and Contract Offering in Financial Services with eIDAS and Verifiable Credentials"
   authors: Sergio Manuel Nóbrega Gonçalves, Alessandro Tomasi, Andrea Bisegna, Giulio Pellizzari and Silvio Ranise
   destination: DETIPS2020
+  abstract: >
+    We investigate the combined use of eIDAS-based electronic identity and Verifiable Credentials for remote onboarding and contracting, and provide a proof-of-concept implementation based on SAML authentication. The main non-trivial value derived from this proposal is a higher degree of assurance in the contract offering phase for the Contracting Service Provider.
   year: 2020
+  doi: 10.1007/978-3-030-66504-3_8 
 
 - id: ETAA2020_MIG
   title: "Micro-Id-Gym: a Flexible Tool for Pentesting Identity Management Protocols in the Wild and in the Laboratory"
