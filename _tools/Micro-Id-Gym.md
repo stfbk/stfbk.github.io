@@ -79,4 +79,9 @@ Bachelor's and master's students from the University of Trento, involved in inte
         <b>Integrating a Pentesting Tool for IdM Protocols in a Continuous Delivery Pipeline</b><br>
         At: <i>Italian Conference on Cybersecurity (ITASEC 2021)</i> (<a href="/news/2021/04/02/talk-itasec-2021/">news</a>)
     </li>
+    <li>
+        Andrea Bisegna, Roberto Carbone, and Silvio Ranise<br>
+        <b>Integrating a Pentesting Tool for IdM Protocols in a Continuous Delivery Pipeline</b><br>
+        At: <i>OWASP Italy Day 2021</i> (<a href="/news/2021/04/28/talk-owasp-italy-2021/">news</a>)
+    </li>
 </ul>
