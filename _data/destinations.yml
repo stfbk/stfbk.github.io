@@ -413,3 +413,12 @@
   location: Online
   startDate: "2021-04-26"
   endDate: "2021-04-28"
+
+- id: SECRYPT2021
+  name: 18th International Conference on Security and Cryptography
+  acronym: SECRYPT 2021
+  url: http://www.secrypt.org/?y=2021
+  type: conference
+  location: Virtual Event
+  startDate: "2021-07-06"
+  endDate: "2021-07-08"

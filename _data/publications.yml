@@ -484,3 +484,13 @@
   doi: 10.1145/3422337.3447847
   urlComplementary: /complementary/CODASPY2021
   urlNews: /news/2019/12/01/paper-accepted-at-codaspy-2021/
+
+- id: SECRYPT2021
+  title: "A Framework for Security and Risk Analysis of Enrollment Procedures: Application to Fully-Remote Solutions Based on eDocuments"
+  authors: Marco Pernpruner, Giada Sciarretta, and Silvio Ranise
+  abstract: >
+    More and more online services are characterised by the need for strongly verifying the real-world identity of end users, especially when sensitive operations have to be carried out: just imagine a fully-remote signature of a contract, and what could happen whether someone managed to perform it by using another person's name. For this reason, the identity management lifecycle contains specific procedures – called enrollment or onboarding – providing a certain level of assurance on digital users' real identities. These procedures must be as secure as possible to prevent frauds and identity thefts. In this paper, we present a framework composed of a specification language, a security analysis methodology and a risk analysis methodology for enrollment solutions. For concreteness, we apply our framework to a real use case (i.e., fully-remote solutions relying on electronic documents as identity evidence) in the context of a collaboration with an Italian FinTech startup. Beyond validating the framework, we analyse and highlight the essential role of mitigations on the overall security of enrollment procedures.
+  destination: SECRYPT2021
+  year: 2021
+  urlComplementary: /complementary/SECRYPT2021
+  urlNews: 
