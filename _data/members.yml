@@ -47,6 +47,13 @@ current:
       yearFrom: 2021
       yearTo: 2021
       
+    - personId: LorenzoBellesso
+      type: Postgraduate Student
+      topic: CIE 3.0 e controllo accessi basato su attributi in ambito iOT 
+      institution: University of Genova
+      yearFrom: 2021
+      yearTo: 2021
+      
     - personId: RupertGobber
       type: M
       topic: Verifiable credentials and OpenID Connect 
