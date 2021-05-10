@@ -17,13 +17,15 @@ show_sidebar: false
                 <div class="column is-4-desktop is-6-tablet collaboration">
                     <a href="{{ collaboration.internalUrl | prepend: site.baseurl }}">
                         <div class="card enterprise">
-                            {% if collaboration.image %}
-                                <div class="card-image">
-                                    <figure class="image">
-                                        <img src="{{ site.baseurl }}/collaborations/assets/{{ collaboration.image }}" alt="{{ collaboration.name }}" />
-                                    </figure>
-                                </div>
-                            {% endif %}
+                            <div class="card-image">
+                                <figure class="image">
+                                    {% if collaboration.logo %}
+                                        <img src="{{ site.baseurl }}/collaborations/assets/{{ collaboration.logo }}" alt="{{ collaboration.name }}" />
+                                    {% else %}
+                                        <img class="default" alt="{{ collaboration.name }}" />
+                                    {% endif %}
+                                </figure>
+                            </div>
                             <div class="card-content">
                                 <p class="title is-4">{{ collaboration.name }}{% if collaboration.acronym %} ({{ collaboration.acronym}}){% endif %}</p>
                                 {% if collaboration.description %}<p class="subtitle is-4">{{ collaboration.description }}</p>{% endif %}

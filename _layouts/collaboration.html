@@ -2,8 +2,12 @@
 layout: page
 ---
 
-<div class="columns project is-multiline">
+<div class="columns collaboration is-multiline">
     <div class="column overview is-12">
+        {% if page.logo %}
+            <img class="logo pull-right" src="/collaborations/assets/{{ page.logo }}" />
+        {% endif %}
+
         {{ content }}
     </div>
 </div>

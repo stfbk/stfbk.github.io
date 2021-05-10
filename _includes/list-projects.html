@@ -8,8 +8,6 @@
             <ul>
     {% endif %}
 
-    {% assign defaultImage = "assets/images/logos/ST_symbol.png" %}
-    
     {% assign projectsFromId = "" | split: "" %}
     {% for project in source %}
         {% assign projectFromId = site.projects | where: "title", project %}
@@ -32,7 +30,7 @@
                                 {% if project.logo %}
                                     <img src="{{ site.baseurl }}/projects/assets/{{ project.logo }}" alt="{{ project.title }}" />
                                 {% else %}
-                                    <img src="{{ site.baseurl }}/{{ defaultImage }}" alt="{{ project.title }}" class="default" />
+                                    <img class="default" alt="{{ project.title }}" />
                                 {% endif %}
                             </figure>
                         </div>

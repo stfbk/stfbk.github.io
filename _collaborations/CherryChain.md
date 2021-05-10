@@ -1,5 +1,6 @@
 ---
 title: CherryChain
+logo: CherryChain.png
 
 publications:
     - DETIPS2020
