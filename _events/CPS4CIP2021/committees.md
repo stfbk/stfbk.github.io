@@ -65,3 +65,7 @@ menubar: CPS4CIP2021
 - **Miguel Mira da Silva**, INOV, Portugal
 - **Ilias Gialampoukidis**, Information Technologies Institute (ITI), Greece
 - **Ilias Gkotsis**, KEMEA, Greece
+- **Simon Hacks**, KTH Royal Institute of Technology, Sweden
+- **Ariadni Michalitsi - Psarrou**, National Technical University of Athens, Greece
+- **Anna Georgiadou**, National Technical University of Athens, Greece
+- **Angelos Liapis**, Κonnekt-able, Ireland 
