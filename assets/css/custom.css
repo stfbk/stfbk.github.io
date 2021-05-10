@@ -60,16 +60,7 @@
   padding-top: 1.3em;
 }
 
-.card.enterprise .card-image {
-  padding: 20px;
-  height: 230px;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
+.card.enterprise .card-image,
 .card.project .card-image {
   padding: 20px;
   height: 160px;
@@ -80,14 +71,14 @@
   align-items: center;
 }
 
-.card.enterprise .card-image img {
-  max-height: 200px;
-  width: auto;
-}
-
+.card.enterprise .card-image img,
 .card.project .card-image img {
   max-height: 130px;
   width: auto;
+}
+
+.card .card-image img.default {
+  content: url("/assets/images/logos/ST_symbol.png");
 }
 
 .card.person .card-image img {
