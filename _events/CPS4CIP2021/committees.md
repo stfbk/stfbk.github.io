@@ -68,4 +68,5 @@ menubar: CPS4CIP2021
 - **Simon Hacks**, KTH Royal Institute of Technology, Sweden
 - **Ariadni Michalitsi - Psarrou**, National Technical University of Athens, Greece
 - **Anna Georgiadou**, National Technical University of Athens, Greece
-- **Angelos Liapis**, Κonnekt-able, Ireland 
+- **Angelos Liapis**, Κonnekt-able, Ireland
+- **Joaquin Garcia-Alfaro**, IMT (Institut Mines-Telecom), France
