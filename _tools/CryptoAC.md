@@ -11,6 +11,7 @@ peopleOrder: surname
 
 publications:
     - ASIACCS2020
+    - SECRYPT2021_2
 
 ---
 
