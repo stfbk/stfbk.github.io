@@ -1,5 +1,6 @@
 ---
-title: "Cryptographic Enforcement of Access Control Policies in the Cloud: Implementation and Experimental Assessment"
+title: Cryptographic Enforcement of Access Control Policies in the Cloud
+subtitle: Implementation and Experimental Assessment
 status: accepted
 paper: SECRYPT2021_2
 
