@@ -494,3 +494,13 @@
   year: 2021
   urlComplementary: /complementary/SECRYPT2021
   urlNews: 
+
+  - id: SECRYPT2021_2
+  title: "Cryptographic Enforcement of Access Control Policies in the Cloud: Implementation and Experimental Assessment"
+  authors: Berlato Stefano, Roberto Carbone, and Silvio Ranise
+  abstract: >
+    While organisations move their infrastructure to the cloud, honest but curious Cloud Service Providers (CSPs) threaten the confidentiality of cloud-hosted data. In this context, many researchers proposed Cryptographic Access Control (CAC) schemes to support data sharing among users while preventing CSPs from accessing sensitive data. However, the majority of these schemes focuses on high-level features only and cannot adapt to the multiple requirements arising in different scenarios. Moreover, (almost) no CAC scheme implementation is available for enforcement of authorisation policies in the cloud, and performance evaluation is often over- looked. To fill this gap, we propose the toolchain COERCIVE, short for CryptOgraphy killEd (the honest but) cuRious Cloud servIce proVidEr, which is composed of two tools: TradeOffBoard and CryptoAC. TradeOff- Board assists organisations in identifying the optimal CAC architecture for their scenario. CryptoAC enforces authorisation policies in the cloud by deploying the architecture selected with TradeOffBoard. In this paper, we describe the implementation of CryptoAC and conduct a thorough performance evaluation to demonstrate its scalability and efficiency with synthetic benchmarks.
+  destination: SECRYPT2021
+  year: 2021
+  urlComplementary: /complementary/SECRYPT2021_2
+  urlNews: /news/2021/05/17/paper-accepted-at-secrypt-2021/
