@@ -10,6 +10,7 @@ publications:
     - ASIACCS2020
     - JISA2020
     - 5GWF20
+    - SECRYPT2021_2
 
 ---
 
