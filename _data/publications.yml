@@ -495,7 +495,7 @@
   urlComplementary: /complementary/SECRYPT2021
   urlNews: 
 
-  - id: SECRYPT2021_2
+- id: SECRYPT2021_2
   title: "Cryptographic Enforcement of Access Control Policies in the Cloud: Implementation and Experimental Assessment"
   authors: Berlato Stefano, Roberto Carbone, and Silvio Ranise
   abstract: >
