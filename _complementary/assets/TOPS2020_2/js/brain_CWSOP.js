@@ -8,6 +8,9 @@ function solveCWSOP(shallWeDraw) {
     let architecturesToOptimize = possibleArchitectures.filter(architecture => 
         (architecture.getGoals().reduce((a, b) => a + b) != Number.NEGATIVE_INFINITY)
     );
+    architecturesToOptimize = architecturesToOptimize.filter(architecture => 
+        (architecture.getProtectionLevel().reduce((a, b) => a + b) != Number.NEGATIVE_INFINITY)
+    );
 
     if (isOrderByGoals) {
         // sort by goals (remember that the last goal is actually the penalty)
@@ -17,7 +20,7 @@ function solveCWSOP(shallWeDraw) {
         });
     }
     else {
-        // sort by protections
+        // sort by protections (remember that the last protection is actually the penalty)
         architecturesToOptimize.sort(function(arc1, arc2) {
             //return Math.max(arc2.getProtectionLevel().reduce((a, b) => a + b))
             return arc2.getProtectionLevel().reduce((a, b) => a + b) - arc1.getProtectionLevel().reduce((a, b) => a + b);

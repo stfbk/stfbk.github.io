@@ -2,15 +2,15 @@
 
 
 
-let penalties = {}
+let penaltiesGoals = {}
 
-// initialize the penalties to 0
+// initialize the penaltiesGoals to 0
 Object.values(goals).forEach(function(goal) {
-    penalties[goal] = 0;
+    penaltiesGoals[goal] = 0;
 });
 
 
-$("." + classPenalty).on('change', function(event){
+$("." + classPenaltyGoal).on('change', function(event){
     
     event.stopPropagation();
     event.stopImmediatePropagation();
@@ -24,7 +24,7 @@ $("." + classPenalty).on('change', function(event){
     // limit upper bound but not lower bound
     if (newPenalty <= 0) {
 
-        penalties[goal] = newPenalty;
+        penaltiesGoals[goal] = newPenalty;
     }
 
     

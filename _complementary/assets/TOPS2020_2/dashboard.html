@@ -161,141 +161,6 @@
 			<br />
 
 
-			
-			<!-- table for scenario requirements -->
-			<div class="row collapse" id="scenarioRequirements">
-				<div class="col-md-1">
-				</div>
-				<div class="col-md-10 col text-center">
-					<div class="card">	
-						<table class="table">
-						<thead class="thead-dark">
-							<tr>
-							<th class="text-center topRounded noBorderTop" colspan="9">
-								Scenario Requirements 
-								<i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Tune Weights and Soft and Hard constraints"></i>
-							</th>
-							</tr>
-							<tr>
-							<td></td>
-							<td class="rotate"><div><span>Redundancy</span></div></td>
-							<td class="rotate"><div><span>Scalability</span></div></td>
-							<td class="rotate"><div><span>Reliability</span></div></td>
-							<td class="rotate"><div><span>Maintenance</span></div></td>
-							<td class="rotate"><div><span>DoS Resilience</span></div></td>
-							<td class="rotate"><div><span>Vendor Lock-in</span></div></td>
-							<td class="rotate"><div><span>On-premise Savings</span></div></td>
-							<td class="rotate"><div><span>CSP Savings</span></div></td>
-							</tr>
-						</thead>
-						<tbody>
-							<!--  weights -->
-							<tr>
-							<th class="align-middle" data-toggle="tooltip" data-placement="left" title="Assign the weights to each goal (default is 1)">
-								Weight
-							</th>
-							<!-- note how the ID of each weight is the key of the goal in the const.js file plus "_weight" -->
-							<td class="text-center">
-								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="redundancy_weight">
-							</td>
-							<td class="text-center">
-								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="scalability_weight">
-							</td>
-							<td class="text-center">
-								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="reliability_weight">
-							</td>
-							<td class="text-center">
-								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="maintenance_weight">
-							</td>
-							<td class="text-center">
-								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="dosResilience_weight">
-							</td>
-							<td class="text-center">
-								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="vendorLockIn_weight">
-							</td>
-							<td class="text-center">
-								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="onPremiseSavings_weight">
-							</td>
-							<td class="text-center"> 
-								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="cspSavings_weight">
-							</td>
-							</tr>
-
-							<!-- Soft/Hard Constraints -->
-							<tr>
-							<th class="align-middle" data-toggle="tooltip" data-placement="left" title="Select the threshold (>=), hard or soft constraint and the penalty">
-								<p>Threshold</p>
-								<br /> <br /> <br /> <br /><br />
-								<p>Penalty</p>
-							</th>
-							<!-- note how the ID of each element is the key of the property in the const.js file plus "_threshold", _constraint or "_penalty" -->
-							<td>
-								<input class="form-control class-threshold" type="number" value="0" id="redundancy_threshold"><br />
-								<input type="radio" name="redundancy-constraint" class="class-constraint" id="redundancy_none" checked> None<br />
-								<input type="radio" name="redundancy-constraint" class="class-constraint" id="redundancy_hard"> Hard<br />
-								<input type="radio" name="redundancy-constraint" class="class-constraint" id="redundancy_soft"> Soft<br /> <br />
-								<input class="form-control class-penalty" max="0" type="number" value="0" id="redundancy_penalty">
-							</td>
-							<td>
-								<input class="form-control class-threshold" type="number" value="0" id="scalability_threshold"> <br />
-								<input type="radio" name="scalability-constraint" class="class-constraint" id="scalability_none" checked> None<br />
-								<input type="radio" name="scalability-constraint"class="class-constraint" id="scalability_hard"> Hard<br />
-								<input type="radio" name="scalability-constraint"class="class-constraint" id="scalability_soft"> Soft<br /> <br />
-								<input class="form-control class-penalty" max="0" type="number" value="0" id="scalability_penalty">
-							</td>
-							<td>
-								<input class="form-control class-threshold" type="number" value="0" id="reliability_threshold"> <br />
-								<input type="radio" name="reliability-constraint" class="class-constraint" id="reliability_none" checked> None<br />
-								<input type="radio" name="reliability-constraint"class="class-constraint" id="reliability_hard"> Hard<br />
-								<input type="radio" name="reliability-constraint" class="class-constraint" id="reliability_soft"> Soft<br /> <br />
-								<input class="form-control class-penalty" max="0" type="number" value="0" id="reliability_penalty">
-							</td>
-							<td>
-								<input class="form-control class-threshold" type="number" value="0" id="maintenance_threshold"> <br />
-								<input type="radio" name="maintenance-constraint" class="class-constraint" id="maintenance_none" checked> None<br />
-								<input type="radio" name="maintenance-constraint" class="class-constraint" id="maintenance_hard"> Hard<br />
-								<input type="radio" name="maintenance-constraint" class="class-constraint" id="maintenance_soft"> Soft<br /> <br />
-								<input class="form-control class-penalty" max="0" type="number" value="0" id="maintenance_penalty">
-							</td>
-							<td>
-								<input class="form-control class-threshold" type="number" value="0" id="dosResilience_threshold"> <br />
-								<input type="radio" name="dosResilience-constraint" class="class-constraint" id="dosResilience_none" checked> None<br />
-								<input type="radio" name="dosResilience-constraint" class="class-constraint" id="dosResilience_hard"> Hard<br />
-								<input type="radio" name="dosResilience-constraint" class="class-constraint" id="dosResilience_soft"> Soft<br /> <br />
-								<input class="form-control class-penalty" max="0" type="number" value="0" id="dosResilience_penalty">
-							</td>
-							<td>
-								<input class="form-control class-threshold" type="number" value="0" id="vendorLockIn_threshold"> <br />
-								<input type="radio" name="vendorLockIn-constraint" class="class-constraint" id="vendorLockIn_none" checked> None<br />
-								<input type="radio" name="vendorLockIn-constraint" class="class-constraint" id="vendorLockIn_hard"> Hard<br />
-								<input type="radio" name="vendorLockIn-constraint" class="class-constraint" id="vendorLockIn_soft"> Soft<br /> <br />
-								<input class="form-control class-penalty" max="0" type="number" value="0" id="vendorLockIn_penalty">
-							</td>
-							<td>
-								<input class="form-control class-threshold" type="number" value="0" id="onPremiseSavings_threshold"> <br />
-								<input type="radio" name="onPremiseSavings-constraint" class="class-constraint" id="onPremiseSavings_none" checked> None<br />
-								<input type="radio" name="onPremiseSavings-constraint" class="class-constraint" id="onPremiseSavings_hard"> Hard<br />
-								<input type="radio" name="onPremiseSavings-constraint" class="class-constraint" id="onPremiseSavings_soft"> Soft<br /> <br />
-								<input class="form-control class-penalty" max="0" type="number" value="0" id="onPremiseSavings_penalty">
-							</td>
-							<td>
-								<input class="form-control class-threshold" type="number" value="0" id="cspSavings_threshold"> <br />
-								<input type="radio" name="cspSavings-constraint" class="class-constraint" id="cspSavings_none" checked> None<br />
-								<input type="radio" name="cspSavings-constraint" class="class-constraint" id="cspSavings_hard"> Hard<br />
-								<input type="radio" name="cspSavings-constraint" class="class-constraint" id="cspSavings_soft"> Soft<br /> <br />
-								<input class="form-control class-penalty" max="0" type="number" value="0" id="cspSavings_penalty">
-							</td>	
-							</tr>
-						</tbody>
-						</table>
-					</div>
-				</div>
-				<div class="col-md-1">
-				</div>
-			</div>
-
-			<br />
-
 			<!-- table for trust assumptions -->
 			<!-- note how the ID of each select group is "likelihood_attacker", this is not by chance -->
 			<div class="row">
@@ -422,56 +287,227 @@
 							</tr>
 						</tbody>
 						</table>
-
-
-
-
-
-
-
-						<table class="table collapse" id="riskRequirements">
-							<tbody>
-								<tr>
-									<td class="text-center noBorderTop"></td>
-									<td class="text-center noBorderTop">
-										<span class="tableTitle">Confidentiality</span>
-									</td>
-									<td class="text-center noBorderTop">
-										<span class="tableTitle">Integrity</span>
-									</td>
-									<td class="text-center noBorderTop">
-										<span class="tableTitle">Availability</span>
-									</td>
-								</tr>
-								<tr>
-								<th class="align-middle" data-toggle="tooltip" data-placement="left" title="Assign the weights to each property (default is 1)">
-									Weight
-								</th>
-								<td class="text-center"> 
-									<input class="form-control class-weight-property" min="0" type="number" value="1" id="C_weight">
-								</td>
-								<td class="text-center"> 
-									<input class="form-control class-weight-property" min="0" type="number" value="1" id="I_weight">
-								</td>
-								<td class="text-center"> 
-									<input class="form-control class-weight-property" min="0" type="number" value="1" id="A_weight">
-								</td>
-								</tr>
-							</tbody>
-						</table>
-
-
-
-
-
-
-
-
 					</div>
 				</div>
 				<div class="col-md-1">
 				</div>
 			</div>
+
+			<br />
+
+			<!-- table for scenario requirements on goals -->
+			<div class="row collapse" id="scenarioRequirementsOnGoals">
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-10 col text-center">
+					<div class="card">	
+						<table class="table">
+						<thead class="thead-dark">
+							<tr>
+							<th class="text-center topRounded noBorderTop" colspan="9">
+								Scenario Requirements on Goals
+								<i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Tune Weights and Soft and Hard constraints"></i>
+							</th>
+							</tr>
+							<tr>
+							<td></td>
+							<td class="rotate"><div><span>Redundancy</span></div></td>
+							<td class="rotate"><div><span>Scalability</span></div></td>
+							<td class="rotate"><div><span>Reliability</span></div></td>
+							<td class="rotate"><div><span>Maintenance</span></div></td>
+							<td class="rotate"><div><span>DoS Resilience</span></div></td>
+							<td class="rotate"><div><span>Vendor Lock-in</span></div></td>
+							<td class="rotate"><div><span>On-premise Savings</span></div></td>
+							<td class="rotate"><div><span>CSP Savings</span></div></td>
+							</tr>
+						</thead>
+						<tbody>
+							<!--  weights -->
+							<tr>
+							<th class="align-middle" data-toggle="tooltip" data-placement="left" title="Assign the weights to each goal (default is 1)">
+								Weight
+							</th>
+							<!-- note how the ID of each weight is the key of the goal in the const.js file plus "_weight" -->
+							<td class="text-center">
+								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="redundancy_weight">
+							</td>
+							<td class="text-center">
+								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="scalability_weight">
+							</td>
+							<td class="text-center">
+								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="reliability_weight">
+							</td>
+							<td class="text-center">
+								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="maintenance_weight">
+							</td>
+							<td class="text-center">
+								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="dosResilience_weight">
+							</td>
+							<td class="text-center">
+								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="vendorLockIn_weight">
+							</td>
+							<td class="text-center">
+								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="onPremiseSavings_weight">
+							</td>
+							<td class="text-center"> 
+								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="cspSavings_weight">
+							</td>
+							</tr>
+
+							<!-- Soft/Hard Constraints -->
+							<tr>
+							<th class="align-middle" data-toggle="tooltip" data-placement="left" title="Select the threshold (>=), hard or soft constraint and the penalty">
+								<p>Threshold</p>
+								<br /> <br /> <br /> <br /><br />
+								<p>Penalty</p>
+							</th>
+							<!-- note how the ID of each element is the key of the property in the const.js file plus "_threshold", _constraint or "_penalty" -->
+							<td>
+								<input class="form-control class-threshold-goal" type="number" value="0" id="redundancy_threshold"><br />
+								<input type="radio" name="redundancy-constraint" class="class-constraint-goal" id="redundancy_none" checked> None<br />
+								<input type="radio" name="redundancy-constraint" class="class-constraint-goal" id="redundancy_hard"> Hard<br />
+								<input type="radio" name="redundancy-constraint" class="class-constraint-goal" id="redundancy_soft"> Soft<br /> <br />
+								<input class="form-control class-penalty-goal" max="0" type="number" value="0" id="redundancy_penalty">
+							</td>
+							<td>
+								<input class="form-control class-threshold-goal" type="number" value="0" id="scalability_threshold"> <br />
+								<input type="radio" name="scalability-constraint" class="class-constraint-goal" id="scalability_none" checked> None<br />
+								<input type="radio" name="scalability-constraint"class="class-constraint-goal" id="scalability_hard"> Hard<br />
+								<input type="radio" name="scalability-constraint"class="class-constraint-goal" id="scalability_soft"> Soft<br /> <br />
+								<input class="form-control class-penalty-goal" max="0" type="number" value="0" id="scalability_penalty">
+							</td>
+							<td>
+								<input class="form-control class-threshold-goal" type="number" value="0" id="reliability_threshold"> <br />
+								<input type="radio" name="reliability-constraint" class="class-constraint-goal" id="reliability_none" checked> None<br />
+								<input type="radio" name="reliability-constraint"class="class-constraint-goal" id="reliability_hard"> Hard<br />
+								<input type="radio" name="reliability-constraint" class="class-constraint-goal" id="reliability_soft"> Soft<br /> <br />
+								<input class="form-control class-penalty-goal" max="0" type="number" value="0" id="reliability_penalty">
+							</td>
+							<td>
+								<input class="form-control class-threshold-goal" type="number" value="0" id="maintenance_threshold"> <br />
+								<input type="radio" name="maintenance-constraint" class="class-constraint-goal" id="maintenance_none" checked> None<br />
+								<input type="radio" name="maintenance-constraint" class="class-constraint-goal" id="maintenance_hard"> Hard<br />
+								<input type="radio" name="maintenance-constraint" class="class-constraint-goal" id="maintenance_soft"> Soft<br /> <br />
+								<input class="form-control class-penalty-goal" max="0" type="number" value="0" id="maintenance_penalty">
+							</td>
+							<td>
+								<input class="form-control class-threshold-goal" type="number" value="0" id="dosResilience_threshold"> <br />
+								<input type="radio" name="dosResilience-constraint" class="class-constraint-goal" id="dosResilience_none" checked> None<br />
+								<input type="radio" name="dosResilience-constraint" class="class-constraint-goal" id="dosResilience_hard"> Hard<br />
+								<input type="radio" name="dosResilience-constraint" class="class-constraint-goal" id="dosResilience_soft"> Soft<br /> <br />
+								<input class="form-control class-penalty-goal" max="0" type="number" value="0" id="dosResilience_penalty">
+							</td>
+							<td>
+								<input class="form-control class-threshold-goal" type="number" value="0" id="vendorLockIn_threshold"> <br />
+								<input type="radio" name="vendorLockIn-constraint" class="class-constraint-goal" id="vendorLockIn_none" checked> None<br />
+								<input type="radio" name="vendorLockIn-constraint" class="class-constraint-goal" id="vendorLockIn_hard"> Hard<br />
+								<input type="radio" name="vendorLockIn-constraint" class="class-constraint-goal" id="vendorLockIn_soft"> Soft<br /> <br />
+								<input class="form-control class-penalty-goal" max="0" type="number" value="0" id="vendorLockIn_penalty">
+							</td>
+							<td>
+								<input class="form-control class-threshold-goal" type="number" value="0" id="onPremiseSavings_threshold"> <br />
+								<input type="radio" name="onPremiseSavings-constraint" class="class-constraint-goal" id="onPremiseSavings_none" checked> None<br />
+								<input type="radio" name="onPremiseSavings-constraint" class="class-constraint-goal" id="onPremiseSavings_hard"> Hard<br />
+								<input type="radio" name="onPremiseSavings-constraint" class="class-constraint-goal" id="onPremiseSavings_soft"> Soft<br /> <br />
+								<input class="form-control class-penalty-goal" max="0" type="number" value="0" id="onPremiseSavings_penalty">
+							</td>
+							<td>
+								<input class="form-control class-threshold-goal" type="number" value="0" id="cspSavings_threshold"> <br />
+								<input type="radio" name="cspSavings-constraint" class="class-constraint-goal" id="cspSavings_none" checked> None<br />
+								<input type="radio" name="cspSavings-constraint" class="class-constraint-goal" id="cspSavings_hard"> Hard<br />
+								<input type="radio" name="cspSavings-constraint" class="class-constraint-goal" id="cspSavings_soft"> Soft<br /> <br />
+								<input class="form-control class-penalty-goal" max="0" type="number" value="0" id="cspSavings_penalty">
+							</td>	
+							</tr>
+						</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="col-md-1">
+				</div>
+			</div>
+
+			<br />
+
+			<!-- table for scenario requirements on protection levels -->
+			<div class="row collapse" id="scenarioRequirementsOnProtectionLevels">
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-10 col text-center">
+					<div class="card">	
+						<table class="table">
+							<thead class="thead-dark">
+								<tr>
+								<th class="text-center topRounded noBorderTop" colspan="9">
+									Scenario Requirements on Protection Levels
+									<i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Tune Weights and Soft and Hard constraints"></i>
+								</th>
+								</tr>
+								<tr>
+								<td></td>
+								<td class="rotate"><div><span>Confidentiality</span></div></td>
+								<td class="rotate"><div><span>Integrity</span></div></td>
+								<td class="rotate"><div><span>Availability</span></div></td>
+								</tr>
+							</thead>
+							<tbody>
+								<!--  weights -->
+								<tr>
+									<th class="align-middle" data-toggle="tooltip" data-placement="left" title="Assign the weights to each protection level (default is 1)">
+										Weight
+									</th>
+									<!-- note how the ID of each weight is the key of the protection level in the const.js file plus "_weight" -->
+									<td class="text-center"> 
+										<input class="form-control class-weight-property" min="0" type="number" value="1" id="C_weight">
+									</td>
+									<td class="text-center"> 
+										<input class="form-control class-weight-property" min="0" type="number" value="1" id="I_weight">
+									</td>
+									<td class="text-center"> 
+										<input class="form-control class-weight-property" min="0" type="number" value="1" id="A_weight">
+									</td>
+								</tr>
+
+
+
+								<!-- Soft/Hard Constraints -->
+								<tr>
+									<th class="align-middle" data-toggle="tooltip" data-placement="left" title="Select the threshold (>=), hard or soft constraint and the penalty">
+										<p>Threshold</p>
+										<br /> <br /> <br /> <br /><br />
+										<p>Penalty</p>
+									</th>
+									<!-- note how the ID of each element is the key of the property in the const.js file plus "_threshold", _constraint or "_penalty" -->
+									<td>
+										<input class="form-control class-threshold-property" type="number" value="0" id="C_threshold"><br />
+										<input type="radio" name="C-constraint" class="class-constraint-property" id="C_none" checked> None<br />
+										<input type="radio" name="C-constraint" class="class-constraint-property" id="C_hard"> Hard<br />
+										<input type="radio" name="C-constraint" class="class-constraint-property" id="C_soft"> Soft<br /> <br />
+										<input class="form-control class-penalty-property" max="0" type="number" value="0" id="C_penalty">
+									</td>
+									<td>
+										<input class="form-control class-threshold-property" type="number" value="0" id="I_threshold"> <br />
+										<input type="radio" name="I-constraint" class="class-constraint-property" id="I_none" checked> None<br />
+										<input type="radio" name="I-constraint"class="class-constraint-property" id="I_hard"> Hard<br />
+										<input type="radio" name="I-constraint"class="class-constraint-property" id="I_soft"> Soft<br /> <br />
+										<input class="form-control class-penalty-property" max="0" type="number" value="0" id="I_penalty">
+									</td>
+									<td>
+										<input class="form-control class-threshold-property" type="number" value="0" id="A_threshold"> <br />
+										<input type="radio" name="A-constraint" class="class-constraint-property" id="A_none" checked> None<br />
+										<input type="radio" name="A-constraint"class="class-constraint-property" id="A_hard"> Hard<br />
+										<input type="radio" name="A-constraint" class="class-constraint-property" id="A_soft"> Soft<br /> <br />
+										<input class="form-control class-penalty-property" max="0" type="number" value="0" id="A_penalty">
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="col-md-1">
+				</div>
+			</div>
+
 			
 			
 			<br />
@@ -516,9 +552,12 @@
 		
 		<script src="js/weightGoals.js"></script>
 		<script src="js/weightProperties.js"></script>
-		<script src="js/thresholds.js"></script>
-		<script src="js/constraints.js"></script>
-		<script src="js/penalty.js"></script>
+		<script src="js/thresholdsGoals.js"></script>
+		<script src="js/thresholdsProperties.js"></script>
+		<script src="js/constraintsGoals.js"></script>
+		<script src="js/constraintsProperties.js"></script>
+		<script src="js/penaltyGoals.js"></script>
+		<script src="js/penaltyProperties.js"></script>
 		<script src="js/likelihood.js"></script>
 
         <script src="js/goals.js"></script>

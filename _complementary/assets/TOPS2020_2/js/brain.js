@@ -3,8 +3,8 @@
 let isOrderByGoals = true;
 let isMOCOP = true;
 
-let scenarioRequirements = "scenarioRequirements"
-let riskRequirements = "riskRequirements"
+let scenarioRequirementsOnGoals = "scenarioRequirementsOnGoals"
+let scenarioRequirementsOnProtectionLevels = "scenarioRequirementsOnProtectionLevels"
 
 function solveMOOP() {
 
@@ -42,8 +42,8 @@ $("#" + idRadioMOCOP).on('change', function(event){
 
     isMOCOP = true
     
-    $("#" + riskRequirements).collapse("hide");
-    $("#" + scenarioRequirements).collapse("hide");
+    $("#" + scenarioRequirementsOnGoals).collapse("hide");
+    $("#" + scenarioRequirementsOnProtectionLevels).collapse("hide");
     $("#" + idRadioGoals).attr("name", "goals");
     $("#" + idRadioGoals).prop("checked", true);
     $("#" + idRadioProtection).prop("checked", true);
@@ -56,8 +56,8 @@ $("#" + idRadioCWSOP).on('change', function(event){
     event.stopPropagation();
     event.stopImmediatePropagation();
 
-    $("#" + riskRequirements).collapse("show");
-    $("#" + scenarioRequirements).collapse("show");
+    $("#" + scenarioRequirementsOnGoals).collapse("show");
+    $("#" + scenarioRequirementsOnProtectionLevels).collapse("show");
     $("#" + idRadioGoals).attr("name", "Objective");
 
     isMOCOP = false
