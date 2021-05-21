@@ -2,15 +2,15 @@
 
 
 
-let thresholds = {}
+let thresholdsGoals = {}
 
-// initialize the thresholds to 0
+// initialize the thresholdsGoals to 0
 Object.values(goals).forEach(function(goal) {
-    thresholds[goal] = 0;
+    thresholdsGoals[goal] = 0;
 });
 
 
-$("." + classThreshold).on('change', function(event){
+$("." + classThresholdGoal).on('change', function(event){
     
     event.stopPropagation();
     event.stopImmediatePropagation();
@@ -22,7 +22,7 @@ $("." + classThreshold).on('change', function(event){
     let newThreshold = parseInt($(this).val());
 
     // no lower bound nor upper bound limit
-    thresholds[goal] = newThreshold;
+    thresholdsGoals[goal] = newThreshold;
 
     // update the list of architectures and solve the MOOP
     updateArchitecturesList();

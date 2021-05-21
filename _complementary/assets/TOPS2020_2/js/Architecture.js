@@ -102,11 +102,29 @@ class Architecture {
         if(this.maximize)
             return [100,100,100];
         
-        else  
+        else {
             // convert from risk level to protection level
-            return [Math.abs(worstRiskLevelC - impacts.high) * weightsProperties[properties.C], 
+            let protectionLevels = [Math.abs(worstRiskLevelC - impacts.high) * weightsProperties[properties.C], 
                 Math.abs(worstRiskLevelI - impacts.high) * weightsProperties[properties.I], 
                 Math.abs(worstRiskLevelA - impacts.high) * weightsProperties[properties.A]];
+
+            let penalty = 0
+            let i = 0
+
+            Object.values(properties).forEach(property => {
+                if (protectionLevels[i] < thresholdsProperties[property]) {
+
+                    if (setConstraintsProperties[property] === constraints.hard)
+                            protectionLevels[i] = Number.NEGATIVE_INFINITY;
+                        else if (setConstraintsProperties[property] === constraints.soft)
+                            penalty = penalty + penaltiesProperties[property]; 
+
+                }
+                i = i + 1;
+            });
+            protectionLevels.push(penalty);
+            return protectionLevels;
+        }
     }
 
 
@@ -129,12 +147,12 @@ class Architecture {
                 sum = sum + effect[goal]
             });
 
-            if (sum < thresholds[goal]) {
+            if (sum < thresholdsGoals[goal]) {
 
-                if (setConstraints[goal] === constraints.hard)
+                if (setConstraintsGoals[goal] === constraints.hard)
                     sum = Number.NEGATIVE_INFINITY;
-                else if (setConstraints[goal] === constraints.soft)
-                    penalty = penalty + penalties[goal]; 
+                else if (setConstraintsGoals[goal] === constraints.soft)
+                    penalty = penalty + penaltiesGoals[goal]; 
             }
 
             summedGoalsEffect.push(sum);
@@ -144,8 +162,7 @@ class Architecture {
 
         // if we have to maximize, return best values
         if(this.maximize)
-        return [100,100,100,100,100,100,100,100];
-
+            return [100,100,100,100,100,100,100,100];
         else
             return summedGoalsEffect;
     }

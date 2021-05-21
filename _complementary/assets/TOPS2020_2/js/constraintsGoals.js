@@ -2,15 +2,15 @@
 
 
 
-let setConstraints = {}
+let setConstraintsGoals = {}
 
 // initialize the constraints to none
 Object.values(goals).forEach(function(goal) {
-    setConstraints[goal] = constraints.none;
+    setConstraintsGoals[goal] = constraints.none;
 });
 
 
-$("." + classConstraint).on('click', function(event){
+$("." + classConstraintGoal).on('click', function(event){
     
     event.stopPropagation();
     event.stopImmediatePropagation();
@@ -22,7 +22,7 @@ $("." + classConstraint).on('click', function(event){
     if (!(clickedGoalID[1] in constraints))
         log("error, received unexpected constraint: " + clickedGoalID[1])
 
-    setConstraints[goal] = constraints[clickedGoalID[1]];
+    setConstraintsGoals[goal] = constraints[clickedGoalID[1]];
 
     // update the list of architectures and solve the MOOP
     updateArchitecturesList();

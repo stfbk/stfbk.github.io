@@ -76,9 +76,15 @@ const classPreFilter        = "class-prefilter"
 const classWeightGoal       = "class-weight-goal"
 const classWeightProperty   = "class-weight-property"
 
-const classThreshold        = "class-threshold"
-const classConstraint       = "class-constraint"
-const classPenalty          = "class-penalty"
+const classThresholdGoal        = "class-threshold-goal"
+const classThresholdProperty    = "class-threshold-property"
+
+const classConstraintGoal       = "class-constraint-goal"
+const classConstraintProperty   = "class-constraint-property"
+
+const classPenaltyGoal          = "class-penalty-goal"
+const classPenaltyProperty      = "class-penalty-property"
+
 const classLikelihood       = "class-likelihood"
 const classSortOrder        = "class-sort-order"
 
