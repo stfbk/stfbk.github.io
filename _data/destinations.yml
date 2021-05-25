@@ -414,6 +414,15 @@
   startDate: "2021-04-26"
   endDate: "2021-04-28"
 
+- id: ICSE2021
+  name: 43rd Internation Conference on Software Engineering
+  acronym: ICSE 2021
+  url: https://conf.researchr.org/home/icse-2021
+  type: conference
+  location: Virtual Event (originally in Madrid, Spain)
+  startDate: "2021-05-24"
+  endDate: "2021-05-28"
+
 - id: SECRYPT2021
   name: 18th International Conference on Security and Cryptography
   acronym: SECRYPT 2021
