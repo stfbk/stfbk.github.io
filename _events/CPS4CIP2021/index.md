@@ -58,6 +58,7 @@ The workshop is supported by the projects of the [European Cluster for Securing 
 - [7SHIELD](https://www.7shield.eu/)
 - [EnergyShield](https://energy-shield.eu/)
 - [IMPETUS](https://www.impetus-project.eu/)
+- [SealedGRID](https://www.sgrid.eu/)
 
 And:
 - [NORCICS (Norwegian Center for Cybersecurity in Critical Sectors) project](https://www.ntnu.edu/norcics) funded by the Research Council of Norway under the Center for Research-based Innovation (SFI)
