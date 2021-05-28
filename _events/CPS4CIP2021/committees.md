@@ -70,3 +70,5 @@ menubar: CPS4CIP2021
 - **Anna Georgiadou**, National Technical University of Athens, Greece
 - **Angelos Liapis**, Κonnekt-able, Ireland
 - **Joaquin Garcia-Alfaro**, IMT (Institut Mines-Telecom), France
+- **Christos Xenakis**, University of Piraeus, Greece
+- **Nikos Passas**, Univercity of Piraeus, Greece
