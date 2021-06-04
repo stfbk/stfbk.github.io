@@ -414,6 +414,16 @@
   startDate: "2021-04-26"
   endDate: "2021-04-28"
 
+- id: DBSec2021
+  name: 35th Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
+  proceedings: Proceedings of the 33rd Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
+  acronym: DBSec 2021
+  url: https://wpsites.ucalgary.ca/dbsec2021/
+  type: conference
+  location: Virtual Event
+  startDate: "2021-07-19"
+  endDate: "2021-07-20"
+
 - id: ICSE2021
   name: 43rd Internation Conference on Software Engineering
   acronym: ICSE 2021

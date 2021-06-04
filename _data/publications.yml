@@ -485,6 +485,15 @@
   urlComplementary: /complementary/CODASPY2021
   urlNews: /news/2019/12/01/paper-accepted-at-codaspy-2021/
 
+- id: DBSec2021
+  title: "Automated Risk Assessment and What-if Analysis of OpenID Connect and OAuth 2.0 Deployments"
+  authors: Salimeh Dashti, Amir Sharif, Roberto Carbone, Silvio Ranise
+  abstract: >
+    The introduction of the Payment Service Directive (PSD2) has accelerated financial services and open banking growth. Deploying appropriate identity management solutions is crucial. This implies the adoption of secure protocols for authentication and authorization, such as OpenID Connect and OAuth 2.0. The PSD2 also requires the application of the General Data Protection Regulation (GDPR) when transactions involve personal data. In turn, the GDPR mandates a Data Protection Impact Assessment (DPIA) for assessing risks posed to data subjects’ rights and freedom. This is a time-consuming and challenging task requiring heterogeneous skills that include the knowledge of best practices for deploying protocols, security mechanisms adopted by available identity management providers, and the capability to perform careful what-if analysis of the possible alternatives. To assist users in this task, we propose a methodology based on the formalization of the what-if analysis as an optimization problem that available tools can solve.  The formalization is derived from the OAuth 2.0 and OpenID connects standards, security best practices to mitigate threats, and thorough the evaluation of 19 identity management providers to check their supported features concerning the identified set of features for OAuth/OIDC solutions. We apply the methodology to assist controllers and identify the most appropriate security setup to drive the process of making financial services compliant with the PSD2.
+  destination: DBSec2021
+  year: 2021
+  urlNews: /news/2021/06/04/paper-accepted-at-dbsec-2021/
+
 - id: ICSE2021
   title: Security Analysis of Permission Re-delegation Vulnerabilities in Android Apps
   authors: Biniam Fisseha Demissie, Mariano Ceccato, Lwin Khin Shar
