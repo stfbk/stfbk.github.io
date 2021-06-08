@@ -18,7 +18,7 @@ publications:
 
 The course introduces the basic notions underlying the various aspects of digital identity management with a focus on a security-by-design approach complemented with the use of automated formal analysis techniques for security. First, it is explained why identity is the building block of any security strategy for current and future applications and services. Then, the various phases of the life cycle of digital identities are explained and the main security issues are highlighted. The interdependencies among the design and implementation choices performed in the various phases are also discussed.  Finally, solutions for enrollment and authentication are described together with threat models and the most important mitigation techniques.  During the various topics, the security goals and the security analysis problems are formalized so that automated analysis techniques based on constraint solving and model checking can be used to assist designers in the various phases of the development. Digital identity management solutions taken from the real world are considered to illustrate the various notions and techniques.
 
-**Period:** July, 2021
+**Period:** July 12th – July 16th, 2021
 
 **Duration**: 20 hours (5 half-days)
 
@@ -63,5 +63,4 @@ The course is divided into two parts. *Part 1* introduces the basic notions unde
 - Implementations level - part 1 (MicroID Gym - an identity management workout with container-based microservices)
 
 - Implementations level - part 2 (TLSAssistant - a tool for the analysis of TLS configuration with a report system that suggests appropriate mitigations)
-
 
