@@ -441,3 +441,12 @@
   location: Virtual Event
   startDate: "2021-07-06"
   endDate: "2021-07-08"
+
+- id: ETACS2021
+  name: The 16th International Conference on Availability, Reliability and Security (ARES 2021)
+  acronym: ETACS 2021
+  url: https://www.ares-conference.eu/workshops/etacs-2021/
+  type: conference
+  location: Virtual Event
+  startDate: "2021-08-17"
+  endDate: "2021-08-20"
