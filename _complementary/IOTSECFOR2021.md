@@ -1,7 +1,7 @@
 ---
 title: DoS Attacks in Available MQTT Implementations
 subtitle: Investigating the Impact on Brokers and Devices, and supported Anti-DoS Protections
-paper: IoTSECFOR2021
+paper: IOTSECFOR2021
 conference: The 5th International Workshop on Security and Forensics of IoT (IoT-SECFOR)
 
 people:
