@@ -1,13 +1,17 @@
 ---
-title: DoS Attacks in Available MQTT Implementations: Investigating the Impact on Brokers and Devices, and supported Anti-DoS Protections.
+title: DoS Attacks in Available MQTT Implementations
+subtitle: Investigating the Impact on Brokers and Devices, and supported Anti-DoS Protections
 paper: IoTSECFOR2021
+conference: The 5th International Workshop on Security and Forensics of IoT (IoT-SECFOR)
 
 people:
     - UmbertoMorelli
     - IvanVaccari
     - SilvioRanise
     - EnricoCambiaso
+	
 ---
+
 ## Test results and configurations are available [here](https://drive.google.com/drive/u/2/folders/11QRE0hcDqyv3qZZoXZOOv0iILZmdNnkH).
 
 ## Summary
