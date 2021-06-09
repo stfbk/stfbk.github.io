@@ -8,7 +8,9 @@ people:
     - SilvioRanise
     - EnricoCambiaso
 ---
+## Test results and configurations are available [here](https://drive.google.com/drive/u/2/folders/11QRE0hcDqyv3qZZoXZOOv0iILZmdNnkH).
 
+## Summary
 The Internet of Things is a widely adopted and pervasive technology, but also one of the most conveniently attacked given the volume of shared data and the availability of affordable but insecure products. In most cases, if attackers cannot exploit security gaps and privacy issues to exfiltrate data, they can (and most probably will) damage the service by performing Denial of Service (DoS) attacks towards the backend, the connected clients or external services.
 
 In this work we investigated two classes of DoS attacks that target the handling of message queues in MQTT, one of the most broadly used IoT protocols; ref. [here](https://www.hivemq.com/mqtt-protocol/) for an introduction to MQTT and its capabilities. 
@@ -22,8 +24,8 @@ We investigated the effectiveness of the attacks with two testbeds and three ope
 
 ### Results of the DoS against the MQTT brokers under test
 - All brokers RAM usage is affected by the publishing of messages:
-  - In Mosquitto it is possible to saturate the RAM and swap spaces (and be killed by the system) with just one malicious connected client; in VerneMQ and EMQx, it is necessary to use multiple concurrent clients. 
-    However, attacking EMQx requires a much longer amount of time due to the limit (by default) on the payload size.
+  - In Mosquitto it is possible to saturate the RAM and swap spaces (and be killed by the system) with just one malicious connected client; in VerneMQ and EMQ X, it is necessary to use multiple concurrent clients. 
+    However, attacking EMQ X requires a much longer amount of time due to the limit (by default) on the payload size.
 - In VerneMQ it is possible to attack the disk as it stores (by default) received messages on the disk.
 - To attack the CPU usage, we used up to 400 concurrent clients (400 publishers and in the second test run 400 subscribers). When also using the subscribers (that connect with a certain quality of service and disconnect before the publishing begins), the attack is successful only in EMQ X: starting from 250 concurrent publishers, the CPU usage is on average over 80% (93% peak use). In the worst case, Mosquitto have an increment of 7.75% and VerneMQ 14.4%.
   - During the test, Mosquitto will use only one CPU core being single-threaded; VerneMQ and EMQ X will use concurrently all cores at the same CPU level with minimal variations.
@@ -36,9 +38,11 @@ We investigated the effectiveness of the attacks with two testbeds and three ope
 
 To improve the security awareness in MQTT-based deployments, we integrate the attacks and mitigations in [MQTTSA](https://github.com/stfbk/mqttsa), a tool that detects MQTT (mis)configurations and provides security-oriented recommendations and configuration snippets. 
 
-Finally, we identified the settings in the MQTT brokers that would preventing or support (if misconfigured) a DoS.
+Finally, we identified the settings in the MQTT brokers under test that would preventing or support (if misconfigured) a DoS attack.
 
-### Eclipse Mosquitto settings
+### Settings associated with Denial of Service attacks in Mosquitto, VerneMQ and EMQ x
+
+#### Eclipse Mosquitto
 
 Settings to limit message size:
 
@@ -80,7 +84,7 @@ Additional settings that can limit or support DoS attacks:
 - *check_retain_source*, enabled by default, controls the source of a retained message for access rights before republishing it. This prevents, for instance, the publishing of messages from malicious clients whose access have been revoked; and, for instance, the re-publishing of an heavy retained message to a client that keeps attempting the receiving and crashing (due to the message size).
 - *retain_available* allows to disable retained messages.
 
-### VerneMQ settings
+#### VerneMQ
 
 Settings to limit message size:
 
@@ -120,7 +124,7 @@ Additional settings that can limit or support DoS attacks:
 
 Further investigation is necessary for the *suppress_lwt_on_session_takeover* and *receive_max_client* parameters as possibly related to DoS attacks on connected clients but not described in the documentation.
 
-### EMQ X settings
+#### EMQ X settings
 
 Considering the amount of parameters available to customize the  broker with respect to the MQTT protocol and the Erlang runtime  environment, in the following we provide an high-level description of  the EMQ X distinguishing features. Ref. [here](assets/IOTSECFOR2021/Broker_Parameters_(M)=misconfigurable.xlsx) for a comprehensive list.
 
@@ -129,5 +133,3 @@ Considering the amount of parameters available to customize the  broker with res
 - The monitoring and alarm features supports configuring thresholds on the number of triggered alarms, CPU and memory usage (percentage),  number of processes and default behaviour (log the event or report it to specific topics). In addition, it is possible to detect frequent  disconnections (ref. to 'flapping detection' in the documentation)  and set a ban interval; and monitor the broker status via an  'heartbeat' signal.
 - It is finally possible to set low-level settings, such as the  number of threads, concurrent processes and memory limits, RPC  configuration and TCP buffers. Then, to disable the use of wildcards in  subscriptions or retain messages, set a limit and timeout for MQTT QoS 2 acknowledgements (PUBREL) and configure topic priorities.
 - logging ( 'warning' by default), *max_packet_size* (1MB by default), *upgrade_qos* (disabled), *max_inflight* (32 messages), *retry_interval* (30s), *session_expiry_interval* (2h), *max_mqueue_len* (1'000), *mqueue_store_qos0* (**true**), connection acceptors (in EMQ X specific to the type of connection, and if on the same system or external) and *max_connections* (1'024'000), all function as in Verne MQ.
-
-## Test results and configurations are available [here](https://drive.google.com/drive/u/2/folders/11QRE0hcDqyv3qZZoXZOOv0iILZmdNnkH).
