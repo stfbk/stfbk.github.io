@@ -536,7 +536,7 @@
   doi: 10.1145/3465481.3469187
   
 - id: IoTSECFOR2021
-  title: DoS Attacks in Available MQTT Implementations: Investigating the Impact on Brokers and Devices, and supported Anti-DoS Protections.
+  title: "DoS Attacks in Available MQTT Implementations: Investigating the Impact on Brokers and Devices, and supported Anti-DoS Protections."
   authors: Umberto Morelli, Ivan Vaccari (Consiglio Nazionale delle Ricerche, Italy), Silvio Ranise, Enrico Cambiaso (Consiglio Nazionale delle Ricerche, Italy)
   abstract: >
     The Internet of Things is a widely adopted and pervasive technology, but also one of the most conveniently attacked given the volume of shared data and the availability of affordable but insecure products. This paper investigates two classes of denial of service (DoS) attacks that target the handling of message queues in MQTT, one of the most broadly used IoT protocols. The first attack attempts to saturate the MQTT broker resources, while the second exploits the broker to perform an amplification attack against the connected clients. We demonstrate the effectiveness of the attacks and indicate the parameters that would hinder the capabilities of a DoS attacker in three open-source MQTT implementations: Mosquitto, VerneMQ and EMQ X. To improve the security awareness in MQTT-based deployments, we integrate the attacks and mitigations in MQTTSA, a tool that detects MQTT misconfigurations and provides security-oriented recommendations and configuration snippets.
