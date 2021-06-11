@@ -9,7 +9,6 @@ people:
     - IvanVaccari
     - SilvioRanise
     - EnricoCambiaso
-	
 ---
 
 ## Test results and configurations are available [here](https://drive.google.com/drive/u/2/folders/11QRE0hcDqyv3qZZoXZOOv0iILZmdNnkH).
