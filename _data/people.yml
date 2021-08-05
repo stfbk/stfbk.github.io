@@ -540,3 +540,27 @@
 - id: WendyBarreto
   name: Wendy
   surname: Barreto
+  
+- id: EnricoCambiaso
+  name: Enrico
+  surname: Cambiaso
+  affiliations:
+    - role: Researcher
+      unit: IEIIT
+      institution: CNR
+      place: Genoa, Italy
+  email: enrico.cambiaso@ieiit.cnr.it
+  image: https://www.cnr.it/peoplepublic/peoplepublic/index/profileimage/login/enrico.cambiaso
+  website: https://www.cnr.it/people/enrico.cambiaso
+
+- id: IvanVaccari
+  name: Ivan
+  surname: Vaccari
+  affiliations:
+    - role: PhD Student
+      unit: IEIIT
+      institution: CNR
+      place: Genoa, Italy
+  email: ivan.vaccari@ieiit.cnr.it 
+  image: https://www.cnr.it/peoplepublic/peoplepublic/index/profileimage/login/ivanvaccari
+  website: https://www.cnr.it/people/ivanvaccari
