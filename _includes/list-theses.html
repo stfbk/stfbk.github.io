@@ -70,6 +70,7 @@
             {% endif %}
 
             {% if publication.institution %}{%- assign detailsArray = detailsArray | push: publication.institution -%}{% endif %}
+            {% if publication.year %}{%- assign detailsArray = detailsArray | push: publication.year -%}{% endif %}
 
             {%- if detailsArray.size > 0 -%}
                 {%- assign detailsString = detailsArray | join: ", " -%}
@@ -78,11 +79,11 @@
             {%- endif -%}
 
             <li>
-                {% if author %}{{ author.name }} {{ author.surname }}{% if publication.year %} ({{ publication.year }}){% endif %}<br />{% endif %}
+                {% if author %}{{ author.name }} {{ author.surname }}{% if detailsString %} ({{ detailsString }}){% endif %}<br />{% endif %}
                 <b>{{ publication.title }}</b><br />
                 {% if supervisor %}Supervisor: {{ supervisor.name }} {{ supervisor.surname }}{% if cosupervisorsString %} |{% endif %}{% endif %}
                 {% if cosupervisorsString %}Co-supervisor{% if publication.co-supervisor.size > 1 %}s{% endif %}: {{ cosupervisorsString }}{% endif %}
-                {% if detailsString %}<br />{{ detailsString }}{% endif %}
+                {% if publication.awards %}<br />Awards: {{ publication.awards }}{% endif %}
             </li>
         {% endfor %}
     </ul>
