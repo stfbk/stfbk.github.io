@@ -1,3 +1,3 @@
-- **Submission deadline**:      ~~19.07.2021~~ extended to 02.08.2021
+- **Submission deadline**:      ~~19.07.2021~~ extended to 16.08.2021
 - **Notification to authors**:  23.08.2021
 - **Camera-ready versions**:    13.09.2021
