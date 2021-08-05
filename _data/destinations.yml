@@ -441,3 +441,21 @@
   location: Virtual Event
   startDate: "2021-07-06"
   endDate: "2021-07-08"
+
+- id: ETACS2021
+  name: The 16th International Conference on Availability, Reliability and Security (ARES 2021)
+  acronym: ETACS 2021
+  url: https://www.ares-conference.eu/workshops/etacs-2021/
+  type: conference
+  location: Virtual Event
+  startDate: "2021-08-17"
+  endDate: "2021-08-20"
+  
+- id: IOTSECFOR2021
+  name: The 5th International Workshop on Security and Forensics of IoT
+  acronym: IoT-SECFOR 2021
+  url: https://www.ares-conference.eu/workshops/iot-secfor-2021/
+  type: workshop
+  location: Virtual Event
+  startDate: "2021-08-17"
+  endDate: "2021-08-20"
