@@ -12,6 +12,8 @@ publications:
     - TOPS2020
     - SECRYPT2019_SSO
     - ETAA2020_OIDC
+    - DBSec2021
+    - SECRYPT2021
 
 ---
 
