@@ -389,6 +389,17 @@
   year: 2021
   institution: University of Trento
 
+- id: GiacomoZanolli_B
+  title: "FIDO2 Passwordless Authentication: From the basics to an implementation in the context of an authorization system"
+  type: B
+  author: GiacomoZanolli
+  supervisor: SilvioRanise
+  co-supervisor:
+    - GiadaSciarretta
+    - MarcoPernpruner
+  year: 2021
+  institution: University of Trento
+
 - id: LucaBazzanella_B
   title: "Analysis of the State of the Art of DevSecOps: The Gitlab case study"
   type: B
