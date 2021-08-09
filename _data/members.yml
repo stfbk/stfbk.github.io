@@ -25,13 +25,6 @@ current:
       institution: University of Trento
       yearFrom: 2021
       yearTo: 2021
-      
-    - personId: GiacomoZanolli
-      type: B
-      topic: Development of a FIDO 2.0 infrastructure
-      institution: University of Trento
-      yearFrom: 2021
-      yearTo: 2021
     
     - personId: GiuseppeLamorgese
       type: B
@@ -253,3 +246,6 @@ former:
 
     - personId: FrancescoDefilippo
       thesisId: FrancescoDefilippo_B
+
+    - personId: GiacomoZanolli
+      thesisId: GiacomoZanolli_B
