@@ -31,10 +31,10 @@ Areas of interest where OAuth can be used as enabler of innovative scenarios inc
 - Workshop: **Wed, March 14, 2018** (half-day), **Thu, March 15, 2018** (full-day), and **Fri, March 16, 2018** (half-day)
 
 # Call for Papers
-The details of the call are available [here](cfp.md).
+The details of the call are available [here](cfp).
 
 # Accepted Papers
-The accepted papers are available [here](accepted_papers.md).
+The accepted papers are available [here](accepted_papers).
 
 # Event Details
 ## Event Dates & Venue
