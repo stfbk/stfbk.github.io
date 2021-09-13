@@ -11,7 +11,8 @@ people:
     - EnricoCambiaso
 ---
 
-## Test results and configurations are available [here](https://drive.google.com/drive/u/2/folders/11QRE0hcDqyv3qZZoXZOOv0iILZmdNnkH).
+## Slides, test results and configurations are available [here](https://drive.google.com/drive/u/2/folders/11QRE0hcDqyv3qZZoXZOOv0iILZmdNnkH).
+## The presentation is on the *ARES & CD-MAKE Conference*  [Youtube channel](https://www.youtube.com/watch?v=5xhcJVmdJSI). 
 
 ## Summary
 The Internet of Things is a widely adopted and pervasive technology, but also one of the most conveniently attacked given the volume of shared data and the availability of affordable but insecure products. In most cases, if attackers cannot exploit security gaps and privacy issues to exfiltrate data, they can (and most probably will) damage the service by performing Denial of Service (DoS) attacks towards the backend, the connected clients or external services.
