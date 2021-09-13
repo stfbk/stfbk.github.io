@@ -4,6 +4,7 @@ logo: CherryChain.png
 
 publications:
     - DETIPS2020
+    - SECRYPT2021
 
 events:
     - IdentityDLT
