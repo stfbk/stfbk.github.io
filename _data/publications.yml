@@ -494,6 +494,17 @@
   year: 2021
   urlNews: /news/2021/06/04/paper-accepted-at-dbsec-2021/
 
+- id: ETACS2021
+  title: "Do Security Reports Meet Usability? - Lessons Learned from Using Actionable Mitigations for Patching TLS Misconfigurations"
+  authors: Salvatore Manfredi, Mariano Ceccato, Giada Sciarretta, and Silvio Ranise
+  abstract: >
+    Several automated tools have been proposed to detect vulnerabilities. These tools are mainly evaluated in terms of their accuracy in detecting vulnerabilities, but the evaluation of their usability is a commonly neglected topic. Usability of automated security tools is particularly crucial when dealing with problems of cryptographic protocols for which even small—apparently insignificant—changes in their configuration can result in vulnerabilities that, if exploited, pave the way to attacks with dramatic consequences for the confidentiality and integrity of exchanged messages. This becomes even more acute when considering such ubiquitous protocols as the one for Transport Layer Security (TLS for short). In this paper, we present the design and the lessons learned of a user study, meant to compare two different approaches when reporting misconfigurations. Results reveal that including contextualized actionable mitigations in security reports significantly impact the accuracy and the time needed to patch TLS vulnerabilities. Along with the lessons learned, we share the experimental material that can be used during cybersecurity labs to let students configure and patch TLS first-hand.
+  destination: ETACS2021
+  year: 2021
+  urlComplementary: /complementary/ETACS2021
+  urlNews: /news/2021/05/31/paper-accepted-at-etacs-2021
+  doi: 10.1145/3465481.3469187
+
 - id: ICSE2021
   title: Security Analysis of Permission Re-delegation Vulnerabilities in Android Apps
   authors: Biniam Fisseha Demissie, Mariano Ceccato, Lwin Khin Shar
@@ -503,6 +514,16 @@
   destination: ICSE2021
   year: 2021
   urlNews: /news/2021/05/23/paper-accepted-at-icse-2021/
+  
+- id: IOTSECFOR2021
+  title: "DoS Attacks in Available MQTT Implementations: Investigating the Impact on Brokers and Devices, and supported Anti-DoS Protections."
+  authors: Umberto Morelli, Ivan Vaccari (Consiglio Nazionale delle Ricerche, Italy), Silvio Ranise, Enrico Cambiaso (Consiglio Nazionale delle Ricerche, Italy)
+  abstract: >
+    The Internet of Things is a widely adopted and pervasive technology, but also one of the most conveniently attacked given the volume of shared data and the availability of affordable but insecure products. This paper investigates two classes of denial of service (DoS) attacks that target the handling of message queues in MQTT, one of the most broadly used IoT protocols. The first attack attempts to saturate the MQTT broker resources, while the second exploits the broker to perform an amplification attack against the connected clients. We demonstrate the effectiveness of the attacks and indicate the parameters that would hinder the capabilities of a DoS attacker in three open-source MQTT implementations: Mosquitto, VerneMQ and EMQ X. To improve the security awareness in MQTT-based deployments, we integrate the attacks and mitigations in MQTTSA, a tool that detects MQTT misconfigurations and provides security-oriented recommendations and configuration snippets.
+  destination: IOTSECFOR2021
+  year: 2021
+  urlComplementary: /complementary/IOTSECFOR2021
+  urlNews: /news/2021/06/05/paper-accepted-at-IoT-SECFOR-2021/
 
 - id: SECRYPT2021
   title: "A Framework for Security and Risk Analysis of Enrollment Procedures: Application to Fully-Remote Solutions Based on eDocuments"
@@ -524,25 +545,12 @@
   year: 2021
   urlComplementary: /complementary/SECRYPT2021_2
   urlNews: /news/2021/05/17/paper-accepted-at-secrypt-2021/
-
-- id: ETACS2021
-  title: "Do Security Reports Meet Usability? - Lessons Learned from Using Actionable Mitigations for Patching TLS Misconfigurations"
-  authors: Salvatore Manfredi, Mariano Ceccato, Giada Sciarretta, and Silvio Ranise
-  abstract: >
-    Several automated tools have been proposed to detect vulnerabilities. These tools are mainly evaluated in terms of their accuracy in detecting vulnerabilities, but the evaluation of their usability is a commonly neglected topic. Usability of automated security tools is particularly crucial when dealing with problems of cryptographic protocols for which even small—apparently insignificant—changes in their configuration can result in vulnerabilities that, if exploited, pave the way to attacks with dramatic consequences for the confidentiality and integrity of exchanged messages. This becomes even more acute when considering such ubiquitous protocols as the one for Transport Layer Security (TLS for short). In this paper, we present the design and the lessons learned of a user study, meant to compare two different approaches when reporting misconfigurations. Results reveal that including contextualized actionable mitigations in security reports significantly impact the accuracy and the time needed to patch TLS vulnerabilities. Along with the lessons learned, we share the experimental material that can be used during cybersecurity labs to let students configure and patch TLS first-hand.
-  destination: ETACS2021
-  year: 2021
-  urlComplementary: /complementary/ETACS2021
-  urlNews: /news/2021/05/31/paper-accepted-at-etacs-2021
-  doi: 10.1145/3465481.3469187
   
-- id: IOTSECFOR2021
-  title: "DoS Attacks in Available MQTT Implementations: Investigating the Impact on Brokers and Devices, and supported Anti-DoS Protections."
-  authors: Umberto Morelli, Ivan Vaccari (Consiglio Nazionale delle Ricerche, Italy), Silvio Ranise, Enrico Cambiaso (Consiglio Nazionale delle Ricerche, Italy)
+- id: SMDS2021
+  title: "Assessing the Effectiveness of the Shared Responsibility Model for Cloud Databases: the Case of Google's Firebase"
+  authors: Biniam Fisseha Demissie, Silvio Ranise
   abstract: >
-    The Internet of Things is a widely adopted and pervasive technology, but also one of the most conveniently attacked given the volume of shared data and the availability of affordable but insecure products. This paper investigates two classes of denial of service (DoS) attacks that target the handling of message queues in MQTT, one of the most broadly used IoT protocols. The first attack attempts to saturate the MQTT broker resources, while the second exploits the broker to perform an amplification attack against the connected clients. We demonstrate the effectiveness of the attacks and indicate the parameters that would hinder the capabilities of a DoS attacker in three open-source MQTT implementations: Mosquitto, VerneMQ and EMQ X. To improve the security awareness in MQTT-based deployments, we integrate the attacks and mitigations in MQTTSA, a tool that detects MQTT misconfigurations and provides security-oriented recommendations and configuration snippets.
-  destination: IOTSECFOR2021
+    Migrating databases to the cloud requires the adoption of the shared responsibility model for protecting data. The database-as-a-service provider secures the database from different kinds of attacks while the developer defines the access control policy to prevent unauthorized access. Recent reports show that developers fail to properly secure their cloud databases leading to sensitive data leaks. In this paper, we investigate the prevalence of the access control misconfigurations in 50K+ top Android apps that use one of the most popular cloud database services, namely Firebase. Overall, we found 763 apps (1 billion downloads) with public databases and 536 apps (630 million downloads) with world-writable databases. Considering the popularity of these apps and the cross-platform nature of Firebase databases, our findings reveal a worrying state in the adoption of the shared responsibility model for the security of cloud databases. To assist developers, we make our prototype tool publicly available as an Android Studio plugin. The plugin performs static analysis to automatically extract Firebase database information from the app under development and checks its configuration status.
+  destination: SMDS2021
   year: 2021
-  urlComplementary: /complementary/IOTSECFOR2021
   urlNews: /news/2021/06/05/paper-accepted-at-IoT-SECFOR-2021/
-  
