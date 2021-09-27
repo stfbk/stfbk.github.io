@@ -366,6 +366,33 @@
     - MarcoPernpruner
   year: 2021
   institution: University of Rennes 1 and University of Trento
+
+- id: AlessandroPegoraro_B
+  title: "Payment Services Directive 2 in the Wild - A comparison between Open Banking UK and NextGenPSD2"
+  type: B
+  author: AlessandroPegoraro
+  supervisor: SilvioRanise
+  co-supervisor:
+    - GiadaSciarretta
+    - SalvatoreManfredi
+  year: 2021
+  institution: University of Trento
+
+- id: AmirSharif_P
+  title: "Analysis of Best Current Practices to Assist Native App Developers with Secure OAuth/OIDC Implementations"
+  type: P
+  author: AmirSharif
+  abstract: >
+    OAuth 2.0 and OpenID Connect are two of the most widely used protocols to support secure and frictionless access delegation and single sign-on login solutions, which have been extensively integrated within web and mobile native applications. While securing the OAuth and OpenID Connect implementations within the web applications is widely investigated, this is not true for mobile native applications due to their peculiarities compared to web applications. Given that, we investigate the availability of necessary information to mobile native application developers. Our investigation reveals that mobile native application developers need to access many sparse documents and understand technical security writing, when they are not necessarily security experts that leads to insecure integration of OAuth and OpenID Connect solutions due to various implementation flaws. Thus, to assist mobile native application developers in the understanding of OAuth and OpenID Connect documentations, we demystify the OAuth and OpenID Connect core documentations and two of the most security-critical profiles for governmental and financial domains, namely “International Government Assurance” and “Financial Grade API” to extract the wealth information and summarize them in plain English. To secure the integration of OAuth and OpenID Connect solutions, the OAuth working group and the OpenID foundation have produced many security-related documents to provide general guidelines and best current practices. These documents explain the features that OAuth and OpenID Connect providers must support and how web and mobile native application developers should implement these solutions for the different use case scenarios. In addition, due to the peculiarities of mobile native applications, the OAuth working group has published the “OAuth 2.0 for Na- tive Apps” documentation dedicated to assist mobile native application developers. Recently, the OAuth working group released AppAuth SDK to support mobile native application developers in the secure implementation of access delegation and single sign-on login solutions within mobile native applications. It enables mobile native applications to authorize and authenticate users by communicating with OAuth and OpenID Connect providers, beside embedding the security and usability best current practices described in [DB17]. We thus perform a comprehensive analysis to investigate the compliance with the best current practices of the main OAuth and OpenID Connect providers and top-ranked Google Play Store applications. Our analysis shows that 7 out of 14 providers, and 5 out of 87 top-ranked Google Play Store applications are fully compliant with the best current practices and none of the Google Play Store applications use AppAuth SDK. We conjecture that the root-causes of the non-compliant solutions are different for OAuth and OpenID Connect providers and Google Play Store applications. Concerning providers, they might be aware of these best current practices violations and their non-compliant solutions can be due to legacy reasons. Concerning Google Play Store applications, their non-compliant solutions can be due to the following: (i) the best current practices documents for OAuth and OpenID Connect are sparse, and mobile native application developers may be either unaware of them or misinterpret them as they are not (necessarily) security expert, (ii) lack of the best current practices adoption by OAuth and OpenID Connect providers that leads to the difficulty in integration of AppAuth SDK within mobile native applications. In addition, even in the case of compliant OAuth and OpenID Connect providers, the mobile native application developers still need to properly configure the AppAuth SDK and write the secure code to invoke the SDK properly within their mobile native applications, which is not a daunting task, and (iii) the pressure on mobile native application developers to provide new functionalities for the mobile native applications may result in prioritizing the functionality over the security—as performing a risk as- assessment procedure is a complex task in the context of OAuth and OpenID Connect solutions—they could not have the resources to perform a risk assessment procedure. The above-mentioned problems motivate us to propose methodologies to assist mobile native application developers with the secure implementation of OAuth and OpenID Connect solutions within their mobile native applications. To this aim, we provide a reference model for OAuth and OpenID Connect solutions by utilizing the extracted information from various documents that can be used within a risk as- assessment approach to enable mobile native application developers with an informed decision w.r.t. their implementation choices. In addition, we design a wizard-based approach and implement it within an Android Studio plugin called mIDAssistant that assists mobile native application developers with automatic integration of the core functionalities and ensures the enforcement of the best current practices by leveraging AppAuth SDK. The effectiveness of our approach has been verified in several real-world scenarios (e.g., pull printing), research and innovation projects (e.g., the EIT Digital activity API Assistant), and in the context of industrial collaborations (Poste Italiane, IPZS). Furthermore, we had the opportunity to present our work to the OAuth working group experts (during the OAuth Security Workshop), and they have shown interest in our approach.
+  supervisor:
+    - RobertoCarbone
+  co-supervisor:
+    - SilvioRanise
+    - GiadaSciarretta
+  year: 2021
+  cycle: XXXIII
+  institution: University of Genoa
+  doi: 10.15167/sharif-amir_phd2021-07-27
   
 - id: ChaudhryMuhammadSuleman_M
   title: "Cyber-security Risk Assessment for Cooperative, Connected and Automated Mobility Application to Cooperative Lane Merging"
@@ -400,6 +427,35 @@
   year: 2021
   institution: University of Trento
 
+- id: GiuseppeLamorgese_B
+  title: "Autenticazione password-less con FIDO2: Descrizione del flusso e considerazioni sulla sicurezza"
+  type: B
+  author: GiuseppeLamorgese
+  supervisor: SilvioRanise
+  co-supervisor: GiadaSciarretta
+  year: 2021
+  institution: University of Trento
+
+- id: LeonardoXompero_B
+  title: "A Survey of Risk-Based Authentication: How features and security actions can be used to mitigate attackers"
+  type: B
+  author: LeonardoXompero
+  supervisor: SilvioRanise
+  co-supervisor:
+    - GiadaSciarretta
+    - MarcoPernpruner
+  year: 2021
+  institution: University of Trento
+
+- id: LorenzoBellesso_PG
+  title: "Implementazione di una soluzione di generazione e rilascio credenziali in ambito IoT fondata sull'uso della Carta d'Identità Elettronica (CIE)"
+  type: PG
+  author: LorenzoBellesso
+  supervisor: SilvioRanise
+  co-supervisor: UmbertoMorelli
+  year: 2021
+  institution: University of Genoa
+
 - id: LucaBazzanella_B
   title: "Analysis of the State of the Art of DevSecOps: The Gitlab case study"
   type: B
@@ -408,6 +464,15 @@
   co-supervisor:
     - AndreaBisegna
     - RobertoCarbone
+  year: 2021
+  institution: University of Trento
+
+- id: MatteoLeonelli_B
+  title: "Open and Cross-platform Ecosystem for Enterprise Services: Secure and Authenticated Access with the use of Italian Identity Cards and FIDO"
+  type: B
+  author: MatteoLeonelli
+  supervisor: SilvioRanise
+  co-supervisor: UmbertoMorelli
   year: 2021
   institution: University of Trento
 
@@ -432,6 +497,19 @@
     - SalvatoreManfredi
   year: 2021
   institution: University of Trento
+
+- id: SalimehDashti_P
+  title: "An Assisted Methodology to Conduct Data Protection Impact Assessment"
+  type: P
+  author: SalimehDashti
+  abstract: >
+    The uptake of digital technologies in our everyday activities today is unlike any time in history. Consequently, the amount of personal data produced and shared is staggering. Indeed, they have become the primary asset for many businesses. While users benefit from online engagement, an increasing number of critics have voiced their privacy concerns. To protect peoples’ fundamental rights concerning processing their personal data, General Data Protection Regulation (GDPR) has been introduced. GDPR requires to conduct a Data Protection Impact Assessment (DPIA) when data processing is likely to result in a high risk to the rights and freedoms of individuals. For example, where the processing may lead to discrimination, damage to the reputation, loss of confidentiality personal data. Therefore, it requires assessing security risks and privacy risks—we learned identifying the latter is not easy even for information security and data protection experts. GDPR is not clear about when and how to conduct a DPIA. Thus, academic works and legal bodies introduced guidelines and tools to help controllers conduct the DPIA. However, these works lack to either provide an assistance, include all steps of the DPIA or be applicable to all domains. These shortages motivated us to propose an assisted methodology to conduct a DPIA. The methodology provides assistance from identifying the required data type for a given data processing to identifying and evaluating privacy and security risks. We have adopted our methodology to conduct a DPIA-compliance risk analysis for OAuth/OIDC-based financial services. That is because of: (1) the growth of open banking, (2) the necessity of deploying appropriate identity management solutions—as stated in PSD2, which requires to respect the GDPR requirement—and (3) the wide usage of OAuth/OIDC identity management solutions that are secure but error-prone. The methodology can also be used for any OAuth/OIDC-based services.
+  supervisor:
+    - SilvioRanise
+  year: 2021
+  cycle: XXXIII
+  institution: University of Genoa
+  doi: 10.15167/dashti-salimeh_phd2021-07-27
 
 - id: VeronicaCristiano_M
   title: "Key Management for Cryptographic Enforcement of Access Control Policies in the Cloud: The CryptoAC use case"
