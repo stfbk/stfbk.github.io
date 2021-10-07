@@ -37,7 +37,7 @@ Chair: Silvio Ranise<br />
 - PRECINCT - A collaborative Ecosystem Platform for increased resilience of connected Critical Infrastructures<br />
   **Jenny Rainbird**, Inlecom Commercial Pathways
 - CyberSANE - Cyber Security Incident Handling, Warning and Response System for the European Critical Infrastructures<br />
-  **Eleni - Maria** Kalogeraki, Maggioli
+  **Eleni - Maria Kalogeraki**, Ubitech & **Thanos Karantjias**, Maggioli
 
 *10:30 – 11:00*
 
