@@ -20,7 +20,7 @@ In this talk, we will overview the techniques used in our security analysis, the
 
 *09:00 – 09:45*
 
-General Welcome (Introduction to the Workshop)<br />
+General Welcome (Introduction to the Workshop) [[presentation](assets/CPS4CIP-2021-Welcome-Workshop-Introduction.pdf)]<br />
 Chair: Habtamu Abie
 
 Keynote<br />
@@ -32,10 +32,12 @@ Speaker: **Daniel dos Santos**, Sr. Research Manager - Forescout Technologies
 
 SESSION 1: Resilience<br />
 Chair: Silvio Ranise<br />
-- Resilience quantification for critical infrastructure: Exemplified for airport operations<br />
+- Resilience quantification for critical infrastructure: Exemplified for airport operations [[presentation](assets/CPS4CIP_2021_Paper_7_ResilienceQuantificationForCI.pdf)]<br />
   **Corinna Köpke**, Kushal Srivastava, Natalie Miller and Elena Branchini
-- PRECINCT - A collaborative Ecosystem Platform for increased resilience of connected Critical Infrastructures<br />
+
+- PRECINCT - A collaborative Ecosystem Platform for increased resilience of connected Critical Infrastructures [[presentation](assets/CPS4CIP_2021_PRECINCT_Presentation.pdf)]<br />
   **Jenny Rainbird**, Inlecom Commercial Pathways
+
 - CyberSANE - Cyber Security Incident Handling, Warning and Response System for the European Critical Infrastructures<br />
   **Eleni - Maria Kalogeraki**, Ubitech & **Thanos Karantjias**, Maggioli
 
@@ -47,11 +49,13 @@ Coffee break
 
 SESSION 2: Threat and Vulnerability<br />
 Chair: Habtamu Abie
-- Severity level assessment from semantically fused video content analysis for physical threat detection in ground segments of space systems<br />
+- Severity level assessment from semantically fused video content analysis for physical threat detection in ground segments of space systems [[presentation](assets/CPS4CIP_2021_Paper_4_Presentation_7SHIELD_CERTH.pdf)]<br />
   **Gerasimos Antzoulatos**, Georgios Orfanidis, Panagiotis Giannakeris, Giorgos Tzanetis, Grigorios Kampilis-Stathopoulos, Nikolaos Kopalidis, Ilias Gialampoukidis, Stefanos Vrochidis, and Ioannis Kompatsiaris
-- Diminisher: A Linux Kernel based Countermeasure for TAA Vulnerability<br />
+
+- Diminisher: A Linux Kernel based Countermeasure for TAA Vulnerability [[presentation](assets/CPS4CIP_2021_Paper_3_Diminisher.pdf)]<br />
   **Ameer Hamza**, Maria Mushtaq, Khurram Bhatti, David Novo, Florent Bruguier and Pascal Benoit
-- The Rise of ICS Malware: A Comparative Analysis<br />
+
+- The Rise of ICS Malware: A Comparative Analysis [[presentation](assets/CPS4CIP_2021_Paper_5_The_Rise_of_ICS_Malware.pdf)]<br />
   **Yassine Mekdad**, Giuseppe Bernieri, Mauro Conti and Abdeslam El Fergougui
 
 *11:45 - 12:00*
@@ -62,9 +66,14 @@ Coffee break
 
 SESSION 3: ECSCI Projects Presentations I<br />
 Chair: Rita Ugarelli, SINTEF
-- SOTER - human factors in cybersecurity, **Robin Renwick**, Trilateral Research
-- EnergyShield, **Otilia Bularca**, SIMAVI
-- ENSURESEC - Securing the e-commerce ecosystem from cyber, physical and cyber-physical threats, **Luís Júdice Sousa**, INOV
+- SOTER - human factors in cybersecurity [[presentation](assets/CPS4CIP_2021_SOTER_ESORICS.pdf)]<br />
+  **Robin Renwick**, Trilateral Research
+
+- EnergyShield [[presentation](assets/CPS4CIP_2021_EnergyShield_Concept_presentation.pdf)]<br />
+  **Otilia Bularca**, SIMAVI
+
+- ENSURESEC - Securing the e-commerce ecosystem from cyber, physical and cyber-physical threats [[presentation](assets/CPS4CIP_2021_ENSURESEC_Project_Overview_Presentation.pdf)]<br />
+  **Luís Júdice Sousa**, INOV
 
 *12:45 - 13:30*
 
@@ -74,10 +83,12 @@ LUNCH BREAK
 
 SESSION 4: ECSCI Projects Presentations II<br />
 Chair: Habtamu Abie
-- 7SHIELD project - A holistic framework to protect Ground Segments of Space Systems against cyber, physical and natural complex threats<br />
+- 7SHIELD project - A holistic framework to protect Ground Segments of Space Systems against cyber, physical and natural complex threats [[presentation](assets/CPS4CIP_2021_7SHIELD_project.pdf)]<br />
   **Gerasimos Antzoulatos**, Centre for Research and Technology-Hellas (CERTH)
-- SPHINX - A Universal Cyber Security Toolkit for Health-Care Industry<br />
+
+- SPHINX - A Universal Cyber Security Toolkit for Health-Care Industry [[presentation](assets/CPS4CIP_2021_SPHINX_Esorics.pdf)]<br />
   **Stylianos Karagiannis**, PDMFC
+
 - InfraStress - Improving the resiliense and Cyber-Physical protections of Sensitive Industrial Plants: the InfraStress solution<br />
   **Alexander Jovanović**, EU-VRi
 
