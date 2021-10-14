@@ -25,7 +25,7 @@ Chair: Habtamu Abie
 
 Keynote<br />
 Chair: Silvio Ranise<br />
-Invited Talk Title: Analyzing the Impact of Software Supply Chain Vulnerabilities on Critical Infrastructures<br />
+Invited Talk Title: Analyzing the Impact of Software Supply Chain Vulnerabilities on Critical Infrastructures [[presentation](assets/CPS4CIP_2021_keynote.pdf)]<br />
 Speaker: **Daniel dos Santos**, Sr. Research Manager - Forescout Technologies
 
 *9:45 – 10:30*
@@ -38,7 +38,7 @@ Chair: Silvio Ranise<br />
 - PRECINCT - A collaborative Ecosystem Platform for increased resilience of connected Critical Infrastructures [[presentation](assets/CPS4CIP_2021_PRECINCT_Presentation.pdf)]<br />
   **Jenny Rainbird**, Inlecom Commercial Pathways
 
-- CyberSANE - Cyber Security Incident Handling, Warning and Response System for the European Critical Infrastructures<br />
+- CyberSANE - Cyber Security Incident Handling, Warning and Response System for the European Critical Infrastructures [[presentation](assets/CPS4CIP_2021_CyberSane_EM_Kalogeraki.ppsx)]<br />
   **Eleni - Maria Kalogeraki**, Ubitech & **Thanos Karantjias**, Maggioli
 
 *10:30 – 11:00*
@@ -88,9 +88,6 @@ Chair: Habtamu Abie
 
 - SPHINX - A Universal Cyber Security Toolkit for Health-Care Industry [[presentation](assets/CPS4CIP_2021_SPHINX_Esorics.pdf)]<br />
   **Stylianos Karagiannis**, PDMFC
-
-- InfraStress - Improving the resiliense and Cyber-Physical protections of Sensitive Industrial Plants: the InfraStress solution<br />
-  **Alexander Jovanović**, EU-VRi
 
 *14:15 - 14:30*
 
