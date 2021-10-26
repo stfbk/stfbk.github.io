@@ -23,6 +23,12 @@
   url: https://www.journals.elsevier.com/journal-of-information-security-and-applications
   type: journal
 
+- id: T-ITS
+  name: IEEE Transactions on Intelligent Transportation Systems
+  acronym: T-ITS
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979
+  type: journal
+
 - id: TOPS
   name: ACM Transactions on Privacy and Security 
   acronym: TOPS

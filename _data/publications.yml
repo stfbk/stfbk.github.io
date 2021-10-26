@@ -554,3 +554,13 @@
   destination: SMDS2021
   year: 2021
   urlNews: /news/2021/06/05/paper-accepted-at-IoT-SECFOR-2021/
+
+- id: T-ITS2021
+  title: "Smart Card-Based Identity Management Protocols for V2V and V2I Communications in CCAM: a Systematic Literature Review"
+  authors: Stefano Berlato, Marco Centenaro and Silvio Ranise
+  abstract: >
+    Besides developing new Cooperative, Connected and Automated Mobility (CCAM) services for the improvement of road safety and travel experience, researchers are considering protection mechanisms to ensure the security of these services and the safety of involved users (drivers but also, e.g., cyclists and pedestrians). In particular, several Identity Management (IDM) protocols have been designed as the first line of defence against external attackers. Among these protocols, a promising trend in research consists in the use of a Smart Card (SC) as a technical enabler for strong authentication. Indeed, many SC-based IDM protocols for Vehicle-to-Vehicle (V2V) and Vehicle-to-Infrastructure (V2I) communications in real-time CCAM services have been proposed in the literature which present interesting features and promising usability experimental results. However, this research line is far from being exhausted, especially considering the recent spread of SC technologies and use cases. For this reason, in this paper we propose a systematic literature review on SC-based IDM protocols for real-time CCAM services. In particular, we identify characterising assumptions of CCAM scenarios and extrapolate a unified high-level view of the steps composing a SC-based IDM protocol. Then, we present a detailed survey of several SC-based IDM protocols. Finally, we identify trends in research and formulate guidelines and useful recommendations to provide a solid base which researchers can use as a starting point for the design of new and improved SC-based IDM protocols for CCAM scenarios.
+  destination: T-ITS
+  year: 2021
+  doi: 10.1109/TITS.2021.3118721
+  urlNews: /news/2021/10/26/paper-accepted-at-t-its/
