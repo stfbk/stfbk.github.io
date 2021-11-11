@@ -415,3 +415,25 @@ section.page-top {
     right: 0.75rem;
   }
 }
+
+.university-project .description p:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.university-project .description {
+  margin-bottom: 1em;
+}
+
+.university-project ol {
+  counter-reset: list;
+  margin-left: 1em;
+}
+
+.university-project ol > li {
+  list-style: none;
+}
+
+.university-project ol > li:before {
+  content: "[" counter(list) "] ";
+  counter-increment: list;
+}
