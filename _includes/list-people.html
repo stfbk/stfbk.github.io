@@ -117,6 +117,8 @@
                         {%- assign type = "Master's Student" -%}
                     {% when "P" %}
                         {%- assign type = "PhD Student" -%}
+                    {% when "PG" %}
+                        {%- assign type = "Postgraduate Student" -%}
                 {% endcase %}
             {% endif %}
             {% assign typeArray = typeArray | push: type %}
@@ -209,15 +211,15 @@
                         {% if person.image %}
                             {% assign personImage = person.image %}
                         {% elsif person.usernameFBK %}
-                            {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ person.usernameFBK }}{% endcapture %}
+                            {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ person.usernameFBK }}?w=200{% endcapture %}
                         {% elsif person.email %}
                             {% if splitEmail[1] == "fbk.eu" %}
-                                {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ splitEmail[0] }}{% endcapture %}
+                                {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ splitEmail[0] }}?w=200{% endcapture %}
                             {% else %}
-                                {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/no-user{% endcapture %}
+                                {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/no-user?w=200{% endcapture %}
                             {% endif %}
                         {% else %}
-                            {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/no-user{% endcapture %}
+                            {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/no-user?w=200{% endcapture %}
                         {% endif %}
                         {% if personImage != "" %}
                             <div class="card-image">
@@ -245,17 +247,33 @@
                         {% if currentRole and details contains "currentRole" %}<p class="subtitle current-role is-4">{{ currentRole }}</p>{% endif %}
                         {% if additionalInfo.topic and details contains "topic" %}<p class="subtitle topic is-4">{{ additionalInfo.topic }}</p>{% endif %}
                         {% if thesis.title and details contains "thesis" %}<p class="subtitle thesis is-4">Thesis: {{ thesis.title }}</p>{% endif %}
-                        {% if person.email and details contains "email" %}<p class="subtitle email is-4"><a href="mailto:{{ person.email }}">{{ person.email }}</a></p>{% endif %}
-                        {% if details contains "website" %}
-                            {% if person.website %}
-                                {% assign personWebsite = person.website %}
-                            {% elsif splitEmail and splitEmail[1] == "fbk.eu" %}
-                                {% assign personWebsite = "https://ict.fbk.eu/people/detail/" | append: person.name | append: "-" | append: person.surname | append: "/" | downcase %}
-                            {% else %}
-                                {% assign personWebsite = nil %}
+                        <div class="links">
+                            {% if person.email and details contains "email" %}
+                                <a href="mailto:{{ person.email }}">
+                                    <span class="fa-stack" style="vertical-align: top;">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
                             {% endif %}
-                            {% if personWebsite %}<p class="subtitle website is-4"><a href="{{ personWebsite }}">Website</a></p>{% endif %}
-                        {% endif %}
+                            {% if details contains "website" %}
+                                {% if person.website %}
+                                    {% assign personWebsite = person.website %}
+                                {% elsif splitEmail and splitEmail[1] == "fbk.eu" %}
+                                    {% assign personWebsite = "https://ict.fbk.eu/people/detail/" | append: person.name | append: "-" | append: person.surname | append: "/" | downcase %}
+                                {% else %}
+                                    {% assign personWebsite = nil %}
+                                {% endif %}
+                                {% if personWebsite %}
+                                    <a href="{{ personWebsite }}">
+                                        <span class="fa-stack" style="vertical-align: top;">
+                                            <i class="fas fa-circle fa-stack-2x"></i>
+                                            <i class="fas fa-link fa-stack-1x fa-inverse"></i>
+                                        </span>
+                                    </a>
+                                {% endif %}
+                            {% endif %}
+                        </div>
                     </div>
                 </div>
             </div>
