@@ -59,3 +59,4 @@ permalink: /teaching/
 
 # Projects
 - [Projects for Academic Year 2020-2021](/teaching/projects/2020-2021)
+- [Projects for Academic Year 2021-2022](/teaching/projects/2021-2022)
