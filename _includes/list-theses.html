@@ -65,6 +65,8 @@
                         {%- assign type = "Master's Thesis" -%}
                     {% when "P" %}
                         {%- assign type = "PhD Thesis" -%}
+                    {% when "PG" %}
+                        {%- assign type = "Postgraduate Thesis" -%}
                 {% endcase %}
                 {% if type %}{%- assign detailsArray = detailsArray | push: type -%}{% endif %}
             {% endif %}
