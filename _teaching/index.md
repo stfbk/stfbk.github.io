@@ -51,8 +51,37 @@ permalink: /teaching/
   </tbody>
 </table>
 
+
 ## PhD Courses
-- [Digital identity: enrollment, authentication, and all that](/teaching/PhDCourse2021_IdM)
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Involved People</th>
+      <th>University</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Digital identity: enrollment, authentication, and all that</td>
+      <td>
+          Roberto Carbone<br />
+          Silvio Ranise<br />
+          Giada Sciarretta
+      </td>
+      <td>
+          Trento<br />
+          Genova
+      </td>
+      <td>
+        <a href="/teaching/PhDCourse2022_IdM">2021-2022</a><br />
+        <a href="/teaching/PhDCourse2021_IdM">2020-2021</a>
+      </td>    
+    </tr>
+  </tbody>
+</table>
+
 
 # Useful tools
 - [An Open and Flexible CyberSecurity Training Laboratory in IT/OT Infrastructures](https://sites.google.com/fbk.eu/itotlab)
@@ -60,3 +89,4 @@ permalink: /teaching/
 # Projects
 - [Projects for Academic Year 2020-2021](/teaching/projects/2020-2021)
 - [Projects for Academic Year 2021-2022](/teaching/projects/2021-2022)
+
