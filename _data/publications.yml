@@ -564,3 +564,10 @@
   year: 2021
   doi: 10.1109/TITS.2021.3118721
   urlNews: /news/2021/10/26/paper-accepted-at-t-its/
+
+- id: TOPS2021
+  title: "A Multi-Layered Methodology to Assist the Secure and Risk-Aware Design of Authentication Protocols: Application to Passwordless Solutions based on eID Cards"
+  authors: Marco Pernpruner, Roberto Carbone, Giada Sciarretta and Silvio Ranise
+  abstract: >
+    Password-based authentication has been extensively proven to suffer from many trivial attacks, mainly based on the fact that users set easy passwords and keep the same ones for every online service. Moreover, in sensitive contexts, online services require not only to securely authenticate users, but also to have guarantees on their real identity. Electronic identity cards (in short, eID cards) are among the most promising techniques to solve these issues, given the security features they are equipped with, which also allow for electronic identification.
+    In this work, we define a methodology to analyse the security and risk of authentication procedures, in order to provide security designers with the information they need to fully understand the security level of their protocols, both from a quantitative and qualitative perspective. For concreteness, we apply the methodology to the world of passwordless authentication relying on eID cards protected with PIN or biometrics. In particular, we analyse two protocols -- based on push notifications and QR codes -- that we have designed to let users authenticate from their personal computer's browser by using their mobile device as a card reader. We also propose some suitable security mitigations and evaluate their role in the context of our protocols.
