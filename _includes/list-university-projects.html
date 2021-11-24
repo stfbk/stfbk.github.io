@@ -204,12 +204,20 @@
                 <h1 id="{{ id }}" class="in-toc">
                     {{ project.title }}
                     <span class="tooltip no-toc">
-                        {% if project.available and project.available == "N" %}
-                            <span class="dot dot-red"></span>
-                            <span class="tooltip-text">Not available</span>
+                        {% if project.available %}
+                            {% if project.available == "N" %}
+                                <span class="dot dot-red"></span>
+                                <span class="tooltip-text">Not available</span>
+                            {% elsif project.available == "Y" %}
+                                <span class="dot dot-green"></span>
+                                <span class="tooltip-text">Available</span>
+                            {% elsif project.available == "US" %}
+                                <span class="dot dot-orange"></span>
+                                <span class="tooltip-text">Under selection</span>
+                            {% endif %}
                         {% else %}
-                            <span class="dot dot-green"></span>
-                            <span class="tooltip-text">Available</span>
+                            <span class="dot dot-grey"></span>
+                            <span class="tooltip-text">Unknown availability</span>
                         {% endif %}
                     </span>
                 </h1>
