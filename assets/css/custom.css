@@ -334,6 +334,14 @@ ul.no-bullet {
   background-color: red;
 }
 
+.dot.dot-orange {
+  background-color: orange;
+}
+
+.dot.dot-grey {
+  background-color: grey;
+}
+
 /* TOOLTIP */
 /* Tooltip container */
  .tooltip {
