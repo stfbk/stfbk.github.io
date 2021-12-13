@@ -5,10 +5,14 @@ people:
     - SalvatoreManfredi
     - SilvioRanise
     - GiadaSciarretta
+    - MatteoRizzi
 
 publications:
     - DBSec2019_TLSA
     - ICTSecMag202006_TLSA
+    - CPS4CIP2020_TLS
+    - SecAssAPIFinancial_book_2020
+    - ETACS2021
 
 ---
 
