@@ -505,6 +505,15 @@
   urlNews: /news/2021/05/31/paper-accepted-at-etacs-2021
   doi: 10.1145/3465481.3469187
 
+- id: JISA2021
+  title: "Best Current Practices for OAuth/OIDC Native Apps: A Study of their Adoption in Popular Providers and Top-Ranked Android Clients"
+  authors: Amir Sharif, Roberto Carbone, Giada Sciarretta, Silvio Ranise
+  abstract: >
+    OAuth 2.0 and OpenID Connect have been extensively integrated into mobile applications during recent years to manage access delegation and reduce password fatigue via a single sign-on experience. To provide a precise specification for mobile application developers on how to secure their implementations, the OAuth Working Group has published a set of best current practices called “OAuth 2.0 for Native Apps”. Nevertheless, many available mobile applications still suffer from poor implementations leading to serious security issues. To find the source of the problem, we perform a comprehensive analysis on 14 popular OAuth 2.0 and OpenID Connect providers and 87 top-ranked Google Play Store applications selected out of 2505 top-ranked applications to investigate their compliance with the best current practices for native apps. Our analysis reveals that only 7 OAuth 2.0 and OpenID Connect providers and 5 Google Play Store applications are fully compliant with the best current practices. To help mobile application developers with securing the implementation of OAuth 2.0 and OpenID Connect solutions, we introduce a wizard-based approach to assist mobile application developers to integrate multiple third-party OAuth 2.0 and OpenID Connect providers in their mobile applications. To verify the correctness and security of the integrated code by our wizard-based approach, we performed a security analysis by using both open-source and commercial source-code analysis tools. The result of security analysis confirms the security of using our approach in mobile applications, even though it raises some security issues related to the general implementation of mo- bile applications (e.g., insufficient code obfuscation). Despite these issues are out of the scope of our work, they stimulate interesting challenges at the intersection of theory and practice of security in mobile applications using OAuth 2.0 and OpenID Connect.
+  destination: JISA
+  year: 2021
+  urlNews: /news/2021/12/14/paper-accepted-at-jisa/
+
 - id: ICSE2021
   title: Security Analysis of Permission Re-delegation Vulnerabilities in Android Apps
   authors: Biniam Fisseha Demissie, Mariano Ceccato, Lwin Khin Shar
