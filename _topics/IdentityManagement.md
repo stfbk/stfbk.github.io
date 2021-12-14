@@ -14,6 +14,7 @@ publications:
     - ETAA2020_OIDC
     - DBSec2021
     - SECRYPT2021
+    - JISA2021
 
 ---
 
