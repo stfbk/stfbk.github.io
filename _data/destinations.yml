@@ -474,3 +474,12 @@
   location: Virtual Event
   startDate: "2021-09-05"
   endDate: "2021-09-11"
+  
+- id: ETAA2021
+  name: 4th International Workshop on Emerging Technologies for Authorization and Authentication
+  acronym: ETAA2021
+  url: https://hosting.services.iit.cnr.it/etaa2021/
+  type: conference
+  location: Virtual Event
+  startDate: "2021-10-8"
+  endDate: "2021-10-8"  
