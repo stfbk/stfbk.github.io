@@ -61,7 +61,7 @@
   name: Amir
   surname: Sharif
   affiliations:
-    - role: Junior Researcher
+    - role: Researcher
       unit: Security & Trust
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -412,7 +412,7 @@
   name: Salimeh
   surname: Dashti
   affiliations:
-    - role: Junior Researcher
+    - role: Researcher
       unit: Security & Trust
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
