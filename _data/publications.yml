@@ -589,3 +589,17 @@
   destination: ETAA2021
   year: 2021
   doi: 10.1007/978-3-030-93747-8_7
+  
+## 2022
+- id: CODASPY2022_TLSA2
+  title: "A Modular and Extensible Framework for Securing TLS"
+  authors: Matteo Rizzi, Salvatore Manfredi, Giada Sciarretta and Silvio Ranise
+  abstract: >
+    While being both extremely powerful and popular, TLS is a protocol that is hard to securely deploy. On the one hand, system administrators are required to grasp several security concepts to fully understand the impact of each option and avoid misconfigurations. 
+    On the other hand, app developers should use cryptographic libraries in a secure way avoiding dangerous default settings or other subtleties (e.g., padding or modes of operations).
+    To help secure TLS, we propose a modular framework, extensible with new features and capable of streamlining the mitigation process of known and newly discovered TLS attacks even for non-expert users.
+  destination: CODASPY2022
+  year: 2022
+  doi: 10.1145/3508398.3511505
+  urlNews: /news/2021/12/21/paper-accepted-at-codaspy-2022/
+  
