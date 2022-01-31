@@ -513,6 +513,7 @@
   destination: JISA
   year: 2021
   urlNews: /news/2021/12/14/paper-accepted-at-jisa-2021/
+  doi: 10.1016/j.jisa.2021.103097
 
 - id: ICSE2021
   title: Security Analysis of Permission Re-delegation Vulnerabilities in Android Apps
