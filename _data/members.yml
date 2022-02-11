@@ -25,6 +25,56 @@ current:
       institution: University of Trento
       yearFrom: 2021
       yearTo: 2021
+
+    - personId: GiuseppeAlessioSciumè
+      type: B
+      topic: Attack patterns for Identity Management protocols
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2022
+
+    - personId: MicheleZucchelli
+      type: B
+      topic: Attack patterns for Identity Management protocols
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2022
+
+    - personId: AlessandroColombo
+      type: B
+      topic: Attribute-based Encryption for Advanced Data Protection in IoT with MQTT
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2022
+
+    - personId: NicolaCasagrande
+      type: B
+      topic: Dematerialized Identity
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2022
+
+    - personId: StefanoDaRoit
+      type: B
+      topic: Denial of Service attacks in MQTT 5.0 features
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2022
+
+    - personId: IvanValentini
+      type: B
+      topic: Enhancing TLSAssistant analysis capabilities
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2022
+
+    - personId: FedericoCucino
+      type: B
+      topic: Improving TLSAssistant webserver coverage
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2022
+
       
 former:
   head:
