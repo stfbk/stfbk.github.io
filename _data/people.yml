@@ -35,6 +35,10 @@
   website: https://csec.it/people/alessandro_armando/
   image: https://csec.it/pics/alessandro-armando-2020.jpg
 
+- id: AlessandroColombo
+  name: Alessandro
+  surname: Colombo
+
 - id: AlessandroPegoraro
   name: Alessandro
   surname: Pegoraro
@@ -143,9 +147,25 @@
   image: https://emavgl.github.io/images/avatar.jpg
   website: https://emavgl.github.io/
 
+- id: EnricoCambiaso
+  name: Enrico
+  surname: Cambiaso
+  affiliations:
+    - role: Researcher
+      unit: IEIIT
+      institution: CNR
+      place: Genoa, Italy
+  email: enrico.cambiaso@ieiit.cnr.it
+  image: https://www.cnr.it/peoplepublic/peoplepublic/index/profileimage/login/enrico.cambiaso
+  website: https://www.cnr.it/people/enrico.cambiaso
+
 - id: EnricoDonatoni
   name: Enrico
   surname: Donatoni
+
+- id: FedericoCucino
+  name: Federico
+  surname: Cucino
 
 - id: FedericoSinigaglia
   name: Federico
@@ -212,6 +232,10 @@
   name: Giulio
   surname: Pellizzari
 
+- id: GiuseppeAlessioSciumè
+  name: Giuseppe Alessio
+  surname: Sciumè
+
 - id: GiuseppeFarandaCordella
   name: Giuseppe Faranda
   surname: Cordella
@@ -229,6 +253,22 @@
 - id: IvanMartini
   name: Ivan
   surname: Martini
+
+- id: IvanVaccari
+  name: Ivan
+  surname: Vaccari
+  affiliations:
+    - role: PhD Student
+      unit: IEIIT
+      institution: CNR
+      place: Genoa, Italy
+  email: ivan.vaccari@ieiit.cnr.it 
+  image: https://www.cnr.it/peoplepublic/peoplepublic/index/profileimage/login/ivanvaccari
+  website: https://www.cnr.it/people/ivanvaccari
+
+- id: IvanValentini
+  name: Ivan
+  surname: Valentini
   
 - id: LeonardoXompero
   name: Leonardo
@@ -368,6 +408,10 @@
   name: Michele
   surname: Bezzi
 
+- id: MicheleZucchelli
+  name: Michele
+  surname: Zucchelli
+
 - id: MirkoSchicchi
   name: Mirko
   surname: Schicchi
@@ -379,6 +423,10 @@
 - id: NadiaMetoui
   name: Nadia
   surname: Metoui
+
+- id: NicolaCasagrande
+  name: Nicola
+  surname: Casagrande
 
 - id: RiccardoTraverso
   name: Riccardo
@@ -490,6 +538,10 @@
   image: https://stefanoberlato.it/images/avataaars.png
   email: sberlato@fbk.eu
 
+- id: StefanoDaRoit
+  name: Stefano
+  surname: Da Roit
+
 - id: StefanoFacchini
   name: Stefano
   surname: Facchini
@@ -540,27 +592,5 @@
 - id: WendyBarreto
   name: Wendy
   surname: Barreto
-  
-- id: EnricoCambiaso
-  name: Enrico
-  surname: Cambiaso
-  affiliations:
-    - role: Researcher
-      unit: IEIIT
-      institution: CNR
-      place: Genoa, Italy
-  email: enrico.cambiaso@ieiit.cnr.it
-  image: https://www.cnr.it/peoplepublic/peoplepublic/index/profileimage/login/enrico.cambiaso
-  website: https://www.cnr.it/people/enrico.cambiaso
 
-- id: IvanVaccari
-  name: Ivan
-  surname: Vaccari
-  affiliations:
-    - role: PhD Student
-      unit: IEIIT
-      institution: CNR
-      place: Genoa, Italy
-  email: ivan.vaccari@ieiit.cnr.it 
-  image: https://www.cnr.it/peoplepublic/peoplepublic/index/profileimage/login/ivanvaccari
-  website: https://www.cnr.it/people/ivanvaccari
+# Please keep alphabetical order
