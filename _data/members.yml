@@ -75,6 +75,12 @@ current:
       yearFrom: 2022
       yearTo: 2022
 
+    - personId: MartinaVecellioReane
+      type: B
+      topic: Security and Risk Analysis of Enrollment Procedures
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2022
       
 former:
   head:
