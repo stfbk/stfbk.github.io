@@ -1,6 +1,12 @@
-# Standard Mitigations
+---
+title: TLSAssistant
+subtitle: Standard Mitigations
+layout: page
+---
 
-### Default Name
+{% include toc.md %}
+
+# Default Name
 
 While creating a mitigation, you **must**:
 
@@ -16,7 +22,7 @@ your module `rabbit hole` will have as a mitigation:
 
 * ​	`RABBIT_HOLE.json` 
 
-### Template
+# Template
 
 While writing a mitigation you should follow this template:
 

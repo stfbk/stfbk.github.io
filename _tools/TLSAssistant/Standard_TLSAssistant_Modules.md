@@ -1,12 +1,14 @@
-# Standard TLSAssistant Modules
+---
+title: TLSAssistant
+subtitle: Standard TLSAssistant Modules
+layout: page
+---
 
-[TOC]
+{% include toc.md %}
 
-----
+# Module Definition
 
-## Module Definition
-
-### Module rules
+## Module rules
 
 A module:
 
@@ -100,7 +102,7 @@ A module:
   * have a mitigation in output if it is not a wrapper module[^1] ;
   * be as independent as possible;
 
-### Configuration file
+## Configuration file
 
 The configuration file **must** define:
 
@@ -151,12 +153,12 @@ The configuration file **must** define:
 
 These files will be stored in `configs/modules` 
 
-### How to communicate between modules
+## How to communicate between modules
 
 * Use JSON or
 * Use ``dict()`` directly.
 
-### Output of a module
+## Output of a module
 
 The output:
 
@@ -192,6 +194,6 @@ The output:
 
 
 
-### Footnotes
+## Footnotes
 
 [^1]: A module that calls an external software/dependency.

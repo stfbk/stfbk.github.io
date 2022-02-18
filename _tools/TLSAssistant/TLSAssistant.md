@@ -1,5 +1,6 @@
 ---
 title: TLSAssistant
+permalink: /tools/TLSAssistant/
 
 people:
     - SalvatoreManfredi
@@ -55,9 +56,9 @@ We have different type of modules
 
 ## Defined standards
 
-- [Modules](assets/TLSAssistant/Standard_TLSAssistant_Modules.md)
-- [Mitigations](assets/TLSAssistant/Standard_Mitigations.md)
-- [Configurations](assets/TLSAssistant/Config_Requirements_TLSA.md) 
+- [Modules](Standard_TLSAssistant_Modules)
+- [Mitigations](Standard_Mitigations)
+- [Configurations](Config_Requirements_TLSA) 
 
 ## List of modules
 
