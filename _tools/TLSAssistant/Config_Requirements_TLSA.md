@@ -1,6 +1,12 @@
-# Config Requirements TLSA
+---
+title: TLSAssistant
+subtitle: Config Requirements TLSA
+layout: page
+---
 
-## Definition
+{% include toc.md %}
+
+# Definition
 
 Each config file
 
@@ -52,7 +58,7 @@ For example: `Config with include`
 
 
 
-## Notes
+# Notes
 
 * If `include` is used, `modules` and other entries are ignored, except for `name`, `include`.
 
