@@ -30,7 +30,7 @@ The tool has been developed within [Digimat](https://ict.fbk.eu/partnerships/co-
 
 # Architecture
 
-<img class="image-centered" src="assets/TLSAssistant/current_architecture.png" alt="current_architecture" />
+<img class="image-centered" src="../assets/TLSAssistant/current_architecture.png" alt="current_architecture" />
 
 **TLSAssistant v2** is an evolution of the previous monolithic version: [TLSAssistant v1.x](https://github.com/stfbk/tlsassistant/tree/v1.x)
 
