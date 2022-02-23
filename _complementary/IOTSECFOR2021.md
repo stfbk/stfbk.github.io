@@ -11,7 +11,7 @@ people:
     - EnricoCambiaso
 ---
 
-## Slides, test results and configurations are available [here](https://drive.google.com/drive/u/2/folders/11QRE0hcDqyv3qZZoXZOOv0iILZmdNnkH).
+## Slides, test results and configurations are available [here](https://drive.google.com/drive/folders/1YOGKlGiSuHcViDgV3p-7D_QEu2qNY1ck?usp=sharing).
 ## The presentation is on the *ARES & CD-MAKE Conference*  [Youtube channel](https://www.youtube.com/watch?v=5xhcJVmdJSI). 
 
 ## Summary
