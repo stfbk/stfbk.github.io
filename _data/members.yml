@@ -81,6 +81,13 @@ current:
       institution: University of Trento
       yearFrom: 2022
       yearTo: 2022
+
+    - personId: MircoBisoffi
+      type: B
+      topic: Smishing
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2022
       
 former:
   head:
