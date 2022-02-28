@@ -47,6 +47,13 @@ current:
       yearFrom: 2022
       yearTo: 2022
 
+    - personId: EnricoMarconi
+      type: B
+      topic: Blockchain Meets Cryptographic Access Control for Advanced Data Protection
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2022
+
     - personId: NicolaCasagrande
       type: B
       topic: Dematerialized Identity
