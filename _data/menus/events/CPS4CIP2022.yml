@@ -1,7 +1,7 @@
 - label: Menu
   items:
     - name: Home
-      link: /events/CPS4CIP2021/
+      link: /events/CPS4CIP2022/
     - name: Submission
       link: submission
     - name: Committees
