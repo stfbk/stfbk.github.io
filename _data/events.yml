@@ -79,5 +79,14 @@
   acronym: CPS4CIP 2021
   startDate: "2021-10-04"
   endDate: "2021-10-08"
-  description: CPS4CIP 2021 is the second workshop dedicated to cyber-physical security for protecting critical infrastructures that support finance, energy, health, air transport, communication, gas, and water. 
+  description: CPS4CIP 2021 is the second workshop dedicated to cyber-physical security for protecting critical infrastructures that support finance, energy, health, air transport, communication, gas, and water.
   url: /events/CPS4CIP2021
+
+# 2022
+- id: CPS4CIP2022
+  name: 3rd International Workshop on Cyber-Physical Security for Critical Infrastructures Protection
+  acronym: CPS4CIP 2022
+  startDate: "2022-09-26"
+  endDate: "2022-09-30"
+  description: CPS4CIP 2022 is the third workshop dedicated to cyber-physical security for protecting critical infrastructures that support finance, energy, health, air transport, communication, gas, and water.
+  url: /events/CPS4CIP2022
