@@ -15,7 +15,7 @@ menubar: CPS4CIP2022
 - **Rita Ugarelli**, SINTEF, Norway
 - **Isabel Praça**, GECAD/ISEP, Portugal
 
-# Program Committee
+# Program Committee (tentative)
 - **Dieter Gollmann**, Hamburg University of Technology, Germany
 - **Sokratis Katsikas**, Norwegian University of Science and Technology, Norway
 - **Fabio Martinelli**, IIT-CNR, Italy
