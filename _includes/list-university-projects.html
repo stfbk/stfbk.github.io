@@ -47,7 +47,6 @@
                 {%- assign supervisorsString = nil -%}
             {%- endif -%}
 
-
             {% assign cosupervisorsFromId = "" | split: "" %}
             {% if project.cosupervisor %}
                 {% if project.cosupervisor | first %}
@@ -221,14 +220,15 @@
                         {% endif %}
                     </span>
                 </h1>
+                {% if project.published %}<p><b>Published on:</b> {{ project.published | date: "%B %e, %Y" }}</p>{% endif %}
                 {% if project.description %}
                     <div class="description">
                         <p><b>Description:</b></p>
                         {{ descriptionString }}
                     </div>
                 {% endif %}
-                {% if supervisorsString %}<p><b>Supervisor{% if supervisorsFromId.size > 1 %}s{% endif %}:</b> {{ supervisorsString }}{% endif %}
-                {% if cosupervisorsString %}<p><b>Co-supervisor{% if cosupervisorsFromId.size > 1 %}s{% endif %}:</b> {{ cosupervisorsString }}{% endif %}
+                {% if supervisorsString %}<p><b>Supervisor{% if supervisorsFromId.size > 1 %}s{% endif %}:</b> {{ supervisorsString }}</p>{% endif %}
+                {% if cosupervisorsString %}<p><b>Co-supervisor{% if cosupervisorsFromId.size > 1 %}s{% endif %}:</b> {{ cosupervisorsString }}</p>{% endif %}
                 {% if project.timeFrame %}<p><b>Time frame:</b> {{ project.timeFrame }}</p>{% endif %}
                 {% if project.level %}<p><b>Level:</b> {{ project.level }}</p>{% endif %}
                 {% if project.objectives %}{{ objectivesString }}{% endif %}
