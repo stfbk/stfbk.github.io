@@ -532,3 +532,15 @@
     - RobertoCarbone
   year: 2021
   institution: University of Trento
+
+## 2022
+- id: RupertGobber_M
+  title: "Design and implementation of a verifiable credentials service for a data marketplace"
+  type: M
+  author: RupertGobber
+  supervisor: SilvioRanise
+  co-supervisor:
+    - GiadaSciarretta
+    - AlessandroTomasi
+  year: 2022
+  institution: University of Trento

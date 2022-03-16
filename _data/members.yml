@@ -18,14 +18,7 @@ current:
     - MatteoRizzi
     - BiniamFissehaDemissie
       
-  students:    
-    - personId: RupertGobber
-      type: M
-      topic: Verifiable credentials and OpenID Connect 
-      institution: University of Trento
-      yearFrom: 2021
-      yearTo: 2021
-
+  students:
     - personId: GiuseppeAlessioSciumè
       type: B
       topic: Attack patterns for Identity Management protocols
@@ -312,3 +305,6 @@ former:
 
     - personId: MatteoLeonelli
       thesisId: MatteoLeonelli_B
+
+    - personId: RupertGobber
+      thesisId: RupertGobber_M
