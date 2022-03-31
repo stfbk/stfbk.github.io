@@ -175,6 +175,10 @@
   name: Federico
   surname: Sinigaglia
 
+- id: FrancescoAntonioMarino
+  name: Francesco Antonio
+  surname: Marino
+
 - id: FrancescoDefilippo
   name: Francesco
   surname: Defilippo
@@ -239,6 +243,10 @@
 - id: GiuseppeAlessioSciumè
   name: Giuseppe Alessio
   surname: Sciumè
+
+- id: GiuseppeDeMarco
+  name: Giuseppe
+  surname: De Marco
 
 - id: GiuseppeFarandaCordella
   name: Giuseppe Faranda
