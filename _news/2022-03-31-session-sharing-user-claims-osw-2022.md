@@ -12,7 +12,7 @@ people:
      
 ---
 
-The session "**Cross-domain sharing of user claims: a proposal for OIDC**" has been accepted to the [OAuth Security Workshop (OSW) 2022](https://oauth.secworkshop.events/osw2022), which will take place in Trondheim, Norway, from May 4 to May 6, 2022. The session will be presented by Amir Sharif (FBK).
+The session "**Cross-domain sharing of user claims: a proposal for OIDC**" has been accepted to the [OAuth Security Workshop (OSW) 2022](https://oauth.secworkshop.events/osw2022), which will take place in Trondheim, Norway, from May 4 to May 6, 2022. The session will be presented by **Amir Sharif** (FBK).
 
 Here is the abstract:
 
