@@ -8,7 +8,7 @@ people:
      
 ---
 
-The session **Top OAuth2/OpenID Connect mistakes found in production mobile apps** has been accepted to [Identiverse 2022](https://identiverse.com), which will take place in Trondheim, Norway, from May 4 to May 6, 2022. The session will be presented by Amir Sharif (FBK) and Joseph Heenan.
+The session "**Top OAuth2/OpenID Connect mistakes found in production mobile apps**" has been accepted to [Identiverse 2022](https://identiverse.com), which will take place in Trondheim, Norway, from May 4 to May 6, 2022. The session will be presented by Amir Sharif (FBK) and Joseph Heenan.
 
 Here is the abstract:
 
