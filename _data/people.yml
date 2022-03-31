@@ -178,6 +178,7 @@
 - id: FrancescoAntonioMarino
   name: Francesco Antonio
   surname: Marino
+  email: fa.marino@ipzs.it
 
 - id: FrancescoDefilippo
   name: Francesco
@@ -247,6 +248,8 @@
 - id: GiuseppeDeMarco
   name: Giuseppe
   surname: De Marco
+  email: giuseppe.demarco@teamdigitale.governo.it
+  url: https://www.linkedin.com/in/giuseppe-de-marco-bb054245/
 
 - id: GiuseppeFarandaCordella
   name: Giuseppe Faranda
@@ -285,6 +288,8 @@
 - id: JosephHeenan
   name: Joseph
   surname: Heenan
+  email: joseph@authlete.com
+  website: https://www.linkedin.com/in/josephheenan/
   
 - id: LeonardoXompero
   name: Leonardo

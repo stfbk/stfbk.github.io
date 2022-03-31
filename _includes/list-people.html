@@ -216,10 +216,10 @@
                             {% if splitEmail[1] == "fbk.eu" %}
                                 {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ splitEmail[0] }}?w=200{% endcapture %}
                             {% else %}
-                                {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/no-user?w=200{% endcapture %}
+                                {% capture personImage %}/assets/images/no-user.jpg{% endcapture %}
                             {% endif %}
                         {% else %}
-                            {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/no-user?w=200{% endcapture %}
+                            {% capture personImage %}/assets/images/no-user.jpg{% endcapture %}
                         {% endif %}
                         {% if personImage != "" %}
                             <div class="card-image">
