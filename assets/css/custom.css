@@ -109,7 +109,8 @@
   font-size: 1rem;
 }
 
-.footer .company-data p {
+.footer .company-data p,
+.footer .content-manager p {
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
