@@ -422,7 +422,7 @@
 
 - id: DBSec2021
   name: 35th Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
-  proceedings: Proceedings of the 33rd Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
+  proceedings: Proceedings of the 35th Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
   acronym: DBSec 2021
   url: https://wpsites.ucalgary.ca/dbsec2021/
   type: conference
@@ -495,3 +495,12 @@
   startDate: "2022-04-25"
   endDate: "2022-04-27"
   
+- id: DBSEC2022
+  name: 36th Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
+  proceedings: Proceedings of the 36th Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
+  acronym: DBSec 2022
+  url: http://cs.iit.edu/~dbsec2022/
+  type: conference
+  location: Newark, NJ, USA
+  startDate: "2022-07-18"
+  endDate: "2022-07-20"
