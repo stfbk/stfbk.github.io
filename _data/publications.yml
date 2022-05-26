@@ -604,3 +604,11 @@
   doi: 10.1145/3508398.3511505
   urlNews: /news/2021/12/21/paper-accepted-at-codaspy-2022/
   
+- id: DBSEC2022
+  title: "End-to-End Protection of IoT Communications Through Cryptographic Enforcement of Access Control Policies"
+  authors: Stefano Berlato, Roberto Carbone, Umberto Morelli and Silvio Ranise
+  abstract: >
+    It is crucial to ensure the security and privacy of communications in IoT scenarios that process an increasingly large amount of sensitive data. In this context, we propose a cryptographic enforcement mechanism of access control policies to guarantee the confidentiality and integrity of messages exchanged with the MQTT protocol in presence of external attackers, malicious insiders and "honest-but-curious" service providers. A preliminary performance evaluation with a prototype implementation in an open-source tool shows the overhead is acceptable in relevant use case scenarios and provides a higher level of security with respect to other approaches.
+  destination: DBSEC2022
+  year: 2022
+  urlComplementary: /complementary/DBSEC2022
