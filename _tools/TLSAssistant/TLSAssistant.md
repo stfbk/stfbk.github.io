@@ -21,9 +21,9 @@ publications:
 
 **TLSAssistant** is a modular extensive framework that combines state-of-the-art TLS analyzers with a report system that suggests appropriate mitigations and shows the full set of viable attacks. It is open-source, released under [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) license and and you can contribute by visiting the project's [repository](https://github.com/stfbk/tlsassistant). 
 
-The tool has been developed within [Digimat](https://ict.fbk.eu/partnerships/co-innovation-labs/ipzs/), a joint lab between [Poligrafico e Zecca dello Stato](https://www.ipzs.it/ext/index.html) and the [Center for Cybersecurity](https://www.fbk.eu/it/cybersecurity/) of the Fondazione Bruno Kessler .
+The tool has been developed within [Digimat](https://ict.fbk.eu/partnerships/co-innovation-labs/ipzs/), a joint lab between [Poligrafico e Zecca dello Stato](https://www.ipzs.it/ext/index.html) and the [Center for Cybersecurity](https://www.fbk.eu/it/cybersecurity/) of the Fondazione Bruno Kessler.
 
-<img class="image-centered" src="/assets/images/logos/IPZS.png" alt="IPZS_logo" width="400px"/>
+<img class="image-centered" src="/assets/images/logos/IPZS.png" alt="IPZS_logo" width="300px"/>
 
 {% include toc.md %}
 
