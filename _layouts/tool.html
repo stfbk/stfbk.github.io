@@ -5,6 +5,9 @@ layout: page
 <div class="columns is-multiline">
 
   <div class="column is-12">
+    {% if page.logo %}
+      <img class="logo pull-right" src="/tools/assets/{{ page.logo }}" />
+    {% endif %}
     {{ content }}
   </div>
 </div>

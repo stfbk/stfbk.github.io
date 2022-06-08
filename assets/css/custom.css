@@ -121,6 +121,10 @@
   margin-top: 60px;
 }
 
+.section .logo {
+  padding-left: 10px;
+}
+
 .logo {
   max-height: 100px;
 }
