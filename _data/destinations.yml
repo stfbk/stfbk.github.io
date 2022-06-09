@@ -504,3 +504,13 @@
   location: Newark, NJ, USA
   startDate: "2022-07-18"
   endDate: "2022-07-20"
+  
+- id: SACMAT2022
+  name: 27th ACM Symposium on Access Control Models And Technologies
+  proceedings: Proceedings of the 27th ACM Symposium on Access Control Models and Technologies
+  acronym: SACMAT 2022
+  url: https://sacmat.dista.uninsubria.it/2022/index.php
+  type: conference
+  location: Virtual Event
+  startDate: "2022-06-08"
+  endDate: "2022-06-10"

@@ -612,3 +612,13 @@
   destination: DBSEC2022
   year: 2022
   urlComplementary: /complementary/DBSEC2022
+  
+- id: SACMAT2022
+  title: "Demo: TLSAssistant v2 - A Modular and Extensible Framework for Securing TLS"
+  authors: Matteo Rizzi, Salvatore Manfredi, Giada Sciarretta and Silvio Ranise
+  abstract: >
+    To grasp the security implications of the various TLS configuration options, system administrators and app developers must be familiar with a wide range of concepts, including cryptography. To assist users in this task, we propose TLSAssistant - a modular and extensible framework designed to streamline the discovery and mitigation of potential vulnerabilities in TLS deployments. This demo will focus on two of the four available analysis types.
+  destination: SACMAT2022
+  year: 2022
+  doi: 10.1145/3532105.3535042
+  urlNews: /news/2022/04/25/demo-accepted-at-sacmat-2022/
