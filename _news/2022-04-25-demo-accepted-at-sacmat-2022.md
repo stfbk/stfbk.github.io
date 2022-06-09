@@ -1,4 +1,5 @@
 ---
+layout: news-accepted-paper
 title: Demo accepted at SACMAT 2022
 papers:
     - SACMAT2022_TLSA2
