@@ -16,7 +16,7 @@ publications:
     - SecAssAPIFinancial_book_2020
     - ETACS2021
     - CODASPY2022_TLSA2
-    - SACMAT2022
+    - SACMAT2022_TLSA2
 
 ---
 
