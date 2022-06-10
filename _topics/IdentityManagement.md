@@ -15,6 +15,7 @@ publications:
     - DBSec2021
     - SECRYPT2021
     - JISA2021
+    - FARES2022
 
 ---
 

@@ -612,6 +612,14 @@
   destination: DBSEC2022
   year: 2022
   urlComplementary: /complementary/DBSEC2022
+
+- id: FARES2022
+  title: "SoK: A Survey on Technological Trends for (pre)Notified eIDAS Electronic Identity Schemes"
+  authors: Amir Sharif, Matteo Ranzi, Roberto Carbone, Giada Sciarretta, Silvio Ranise
+  abstract: >
+    The eIDAS Regulation aims to provide an interoperable European framework to enable EU citizens to authenticate and communicate with services of other Member States by using their national electronic identity. While a set of high-level requirements (e.g., related to privacy and security) are established to make interoperability among Member States possible, the eIDAS Regulation does not explicitly specify the technologies that can be adopted during the development phase to meet the requirements as mentioned earlier. This paper considers the technological trends of (pre)notified eIDAS electronic identity schemes used by Member States, and they satisfy the eIDAS regulation requirements. We do this by defining a set of research questions that allow us to investigate the correlations between different design dimensions such as security, privacy, and usability. Based on these findings, we provide a set of lessons learned that can be used by the security community to protect interoperable national digital identities more efficiently.
+  destination: FARES2022
+  year: 2022
   
 - id: SACMAT2022_TLSA2
   title: "Demo: TLSAssistant v2 - A Modular and Extensible Framework for Securing TLS"

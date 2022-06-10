@@ -504,6 +504,15 @@
   location: Newark, NJ, USA
   startDate: "2022-07-18"
   endDate: "2022-07-20"
+
+- id: FARES2022
+  name: 17th International Workshop on Frontiers in Availability, Reliability and Security
+  acronym: FARES2022
+  url: https://www.ares-conference.eu/workshops/fares-2022/
+  type: workshop
+  location: Vienna, Germany
+  startDate: "2022-08-23"
+  endDate: "2022-08-26"
   
 - id: SACMAT2022
   name: 27th ACM Symposium on Access Control Models And Technologies
