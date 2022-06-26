@@ -681,7 +681,7 @@
   year: 2022
   urlNews: /news/2022/06/10/papers-accepted-at-fares-2022/
   
-  - id: FARES2022_ITS
+- id: FARES2022_ITS
   title: "Distributed Enforcement of Access Control policies in Intelligent Transportation System (ITS) for Situation Awareness"
   authors: Ahmad Tahir, Umberto Morelli and Silvio Ranise
   abstract: >
