@@ -241,6 +241,24 @@
   endDate: "2016-07-28"
 
 ## 2017
+- id: EUROSP2017
+  name: 2nd IEEE European Symposium on Security and Privacy
+  acronym: EUROS&P 2017
+  url: https://www.ieee-security.org/TC/EuroSP2017/
+  type: conference
+  location: Paris, France
+  startDate: "2017-04-26"
+  endDate: "2017-04-28"
+
+- id: IFIPSEC2017
+  name: 32nd International Conference on ICT Systems Security and Privacy Protection 
+  acronym: IFIPSEC 2017
+  url: https://ifipsec.org/2017/
+  type: conference
+  location: Rome, Italy
+  startDate: "2017-05-29"
+  endDate: "2017-05-31"
+
 - id: SECRYPT2017
   name: 14th International Conference on Security and Cryptography
   acronym: SECRYPT 2017
@@ -251,6 +269,15 @@
   endDate: "2017-07-26"
 
 ## 2018
+- id: SACMAT2018
+  name: 23th ACM Symposium on Access Control Models And Technologies
+  acronym: SACMAT 2018
+  url: http://www.sacmat.org/2018/
+  type: conference
+  location: Indianapolis, USA
+  startDate: "2018-06-13"
+  endDate: "2018-06-15"
+  
 - id: FPS2018
   name: 11th International Symposium on Foundations & Practice of Security
   acronym: FPS 2018
@@ -279,6 +306,15 @@
   endDate: "2018-08-22"
 
 ## 2019
+- id: IEEESERVICES2019
+  name: IEEE SERVICES Workshop on Cyber Security & Resilience in the Internet of Things
+  acronym: IEEE SERVICES CSRIoT 2019
+  url: https://conferences.computer.org/services/2019/
+  type: workshop
+  location: Milan, Italy
+  startDate: "2019-07-08"
+  endDate: "2019-07-13"
+  
 - id: DBSec2019
   name: 33rd Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
   proceedings: Proceedings of the 33rd Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
@@ -317,6 +353,15 @@
   startDate: "2019-07-26"
   endDate: "2019-07-28"
 
+- id: MSTEC2019
+  name: 1st Model-driven Simulation and Training Environments for Cybersecurity Workshop
+  acronym: MSTEC 2019
+  url: https://www.threat-arrest.eu/html/mstec-2019/
+  type: workshop
+  location: Luxembourg, Luxembourg
+  startDate: "2019-09-26"
+  endDate: "2019-09-27"
+   
 - id: STM2019
   name: 15th International Workshop on Security and Trust Management
   acronym: STM 2019
