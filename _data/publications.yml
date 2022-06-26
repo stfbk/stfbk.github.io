@@ -211,6 +211,26 @@
   year: 2017
   doi: 10.1016/j.cose.2017.04.011
 
+- id: EUROSP2017
+  title: "Large-scale Analysis & Detection of Authentication Cross-Site Request Forgeries"
+  authors: Avinash Sudhodanan, Roberto Carbone, Luca Compagna, Nicolas Dolgin, Alessandro Armando and Umberto Morelli
+  abstract: >
+    Cross-Site Request Forgery (CSRF) attacks are one of the critical threats to web applications. In this paper, we focus on CSRF attacks targeting web sites' authentication and identity management functionalities. We will refer to them collectively as Authentication CSRF (Auth-CSRF in short). We started by collecting several Auth-CSRF attacks reported in the literature, then analyzed their underlying strategies and identified 7 security testing strategies that can help a manual tester uncover vulnerabilities enabling Auth-CSRF. In order to check the effectiveness of our testing strategies and to estimate the incidence of Auth-CSRF, we conducted an experimental analysis considering 300 web sites belonging to 3 different rank ranges of the Alexa global top 1500. The results of our experiments are alarming: out of the 300 web sites we considered, 133 qualified for conducting our experiments and 90 of these suffered from at least one vulnerability enabling Auth-CSRF (i.e. 68%). We further generalized our testing strategies, enhanced them with the knowledge we acquired during our experiments and implemented them as an extension (namely CSRF-checker) to the open-source penetration testing tool OWASP ZAP. With the help of CSRFchecker, we tested 132 additional web sites (again from the Alexa global top 1500) and identified 95 vulnerable ones (i.e. 72%). Our findings include serious vulnerabilities among the web sites of Microsoft, Google, eBay etc. Finally, we responsibly disclosed our findings to the affected vendors.
+  destination: EUROSP2017
+  year: 2017
+  doi: 10.1109/EuroSP.2017.45
+  urlNews: /news/2017/10/17/paper-accepted-at-eurosp-2017/
+
+- id: IFIPSEC2017
+  title: "Assisted Authoring, Analysis and Enforcement of Access Control Policies in the Cloud"
+  authors: Umberto Morelli and Silvio Ranise
+  abstract: >
+    The heterogeneity of cloud computing platforms hinders the proper exploitation of cloud technologies since it prevents interoperability, promotes vendor lock-in and makes it very difficult to exploit the well-engineered security mechanisms made available by cloud providers. In this paper, we introduce a technique to help developers to specify and enforce access control policies in cloud applications. The main idea is twofold. First, use a high-level specification language with a formal semantics that allows to answer access requests abstracting from an access control mechanism available in a particular cloud platform. Second, exploit an automated translation mechanism to compute (equivalent) policies that can be enforced in two of the most widely used cloud platforms: AWS and Openstack. We illustrate the technique on a running example and report our experience with a prototype implementation. 
+  destination: IFIPSEC2017
+  year: 2017
+  doi: 10.1007/978-3-319-58469-0_20
+  urlNews: /news/2017/06/15/paper-accepted-at-ifipsec-2017/
+  
 - id: SECRYPT2017
   title: "Strong Authentication for e-Banking: a Survey on European Regulations and Implementations"
   authors: Federico Sinigaglia, Gabriele Costa and Roberto Carbone
@@ -222,6 +242,16 @@
   urlNews: /news/2017/06/15/paper-accepted-at-secrypt-2017/
 
 ## 2018
+- id: SACMAT2018
+  title: "A Lazy Approach to Access Control as a Service (ACaaS) for IoT: An AWS Case Study"
+  authors: Tahir Ahmad, Umberto Morelli, Silvio Ranise and Nicola Zannone
+  abstract: >
+    The Internet of Things (IoT) is receiving considerable attention from both industry and academia because of the new business models that it enables and the new security and privacy challenges that it generates. Major Cloud Service Providers (CSPs) have proposed platforms to support IoT by combining cloud and edge computing. However, the security mechanisms available in the cloud have been extended to IoT with some shortcomings with respect to the management and enforcement of access control policies. Access Control as a Service (ACaaS) is emerging as a solution to overcome these difficulties. The paper proposes a lazy approach to ACaaS that allows the specification and management of policies independently of the CSP while leveraging its enforcement mechanisms. We demonstrate the approach by investigating (also experimentally) alternative deployments in the IoT platform offered by Amazon Web Services on a realistic smart lock solution.
+  destination: SACMAT2018
+  year: 2018
+  doi: 10.1145/3205977.3205989
+  urlNews: /news/2018/04/02/paper-accepted-at-sacmat-2018/
+  
 - id: FPS2018
   title: Validating Requirements of Access Control for Cloud-Edge IoT Solutions
   authors: Tahir Ahmad and Silvio Ranise
@@ -252,6 +282,26 @@
   urlNews: /news/2018/01/25/paper-accepted-at-post-2018/
 
 ## 2019
+- id: MSTEC2019
+  title: "An Open and Flexible CyberSecurity Training Laboratory in IT/OT Infrastructures"
+  authors: Umberto Morelli, Silvio Ranise and Lorenzo Nicolodi
+  abstract: >
+    There are significant concerns regarding the lack of proficient cybersecurity professionals with a background in both Information Technology (IT) and Operational Technology (OT). To alleviate this problem, we propose an open and flexible laboratory for experimenting with an IT/OT infrastructure and the related cybersecurity problems, such as emulating attacks and understanding how they work and how they could be identified and mitigated. We also report our experience in using the laboratory during a one-week training event with 24 students from 7 different high-schools at the mechatronics prototyping facility ProM in Rovereto (Italy).
+  destination: MSTEC2019
+  year: 2019
+  doi: 10.1007/978-3-030-42051-2_10
+  urlNews: /news/2019/08/06/paper-accepted-at-mstec-2019/
+
+- id: IEEESERVICES2019
+  title: "A Tool for Automatically Assisting the Secure Deployments of MQTT brokers"
+  authors: Andrea Palmieri, Paolo Prem, Silvio Ranise, Umberto Morelli, Tahir Ahmad
+  abstract: >
+    The Internet of Things (IoT) is radically changing the way people live and interact with society: ranging from wearables to smart cities, the number of IoT devices has grown exponentially. The Message Queuing Telemetry Transport (MQTT) protocol is one of the most widely used IoT communication protocols. However, our investigation over publicly available MQTT endpoints confirms an alarming trend, i.e. many do not provide adequate security measures and often rely on the insecure default configuration. To improve the security awareness on the use of MQTT the paper presents MQTT Security Assistant (MQTTSA), a tool that automatically detects misconfigurations in MQTT-based IoT deployments. To assist IoT system developers, MQTTSA produces a report outlining detected vulnerabilities, together with (high level) hints and code snippets to implement adequate mitigations. The effectiveness of the tool is assessed by a thorough experimental evaluation.
+  destination: IEEESERVICES2019
+  year: 2019
+  doi: 10.1109/SERVICES.2019.00023
+  urlNews: /news/2019/05/04/paper-accepted-at-ieee-services-2019/
+
 - id: DBSec2019_TLSA
   title: "Lost in TLS? No More! Assisted Deployment of Secure TLS Configurations"
   authors: Salvatore Manfredi, Silvio Ranise and Giada Sciarretta
@@ -416,6 +466,15 @@
   year: 2020
   urlNews: /news/2020/01/07/papers-accepted-at-itasec-2020/
 
+- id: ITASEC2020_PP
+  title: "Pull Printing with National eID Cards: An Open-source and Software-oriented Implementation"
+  authors: Matteo Leonelli, Umberto Morelli, Silvio Ranise and Giada Sciarretta
+  abstract: >
+    Pull printing is the set of technologies and processes that allow print jobs to be released according to specific conditions; typically user authentication and proximity to a printer. In this paper, we propose an open-source and software-oriented pull printing infrastructure that use a cloud print orchestrator and leverages the OpenID Connect protocol and the Italian electronic identity card to protect user prints with a second-factor authentication. Our goal is to prevent print-related data breaches and tackle the challenges that hinder the widespread adoption of more secure printing solutions: costs and user experience.
+  destination: ITASEC2020
+  year: 2020
+  urlNews: /news/2020/01/07/papers-accepted-at-itasec-2020/
+  
 - id: JISA2020
   title: A Large-Scale Study on the Adoption of Anti-Debugging and Anti-Tampering Protections in Android Apps
   authors: Stefano Berlato, Mariano Ceccato
@@ -620,7 +679,17 @@
     The eIDAS Regulation aims to provide an interoperable European framework to enable EU citizens to authenticate and communicate with services of other Member States by using their national electronic identity. While a set of high-level requirements (e.g., related to privacy and security) are established to make interoperability among Member States possible, the eIDAS Regulation does not explicitly specify the technologies that can be adopted during the development phase to meet the requirements as mentioned earlier. This paper considers the technological trends of (pre)notified eIDAS electronic identity schemes used by Member States, and they satisfy the eIDAS regulation requirements. We do this by defining a set of research questions that allow us to investigate the correlations between different design dimensions such as security, privacy, and usability. Based on these findings, we provide a set of lessons learned that can be used by the security community to protect interoperable national digital identities more efficiently.
   destination: FARES2022
   year: 2022
+  urlNews: /news/2022/06/10/papers-accepted-at-fares-2022/
   
+  - id: FARES2022_ITS
+  title: "Distributed Enforcement of Access Control policies in Intelligent Transportation System (ITS) for Situation Awareness"
+  authors: Ahmad Tahir, Umberto Morelli and Silvio Ranise
+  abstract: >
+    Intelligent Transport Systems (ITS) are crucial to support Situation Awareness (SA), which aims to keep a safe and efficient driving experience. While promising, ITS use for SA brings several security challenges, including enforcing access control policies in distributed environments with stringent computational constraints in terms of availability, consistency, and latency. Consequently, traditional mechanisms used to enforce authorization policies cannot be reused off-the-shelf but need to be carefully adapted to the particular requirements and minimize the overhead of access control enforcement. In this paper, we propose a distributed architecture for access control enforcement for ITS capable of satisfying the requirements of SA scenarios based on the idea of dynamically compiling a high-level specification of access control policies (written in the Attribute-Based Access Control model) into a set of low-level Access Control Lists that are easier to enforce. We discuss how to realize it by reusing well-known techniques developed in the field of distributed systems. To evaluate the applicability of the proposed approach, we build a prototype that we use to conduct an experimental evaluation in the context of two practical use case scenarios.
+  destination: FARES2022
+  year: 2022
+  urlNews: /news/2022/06/10/papers-accepted-at-fares-2022/
+    
 - id: SACMAT2022_TLSA2
   title: "Demo: TLSAssistant v2 - A Modular and Extensible Framework for Securing TLS"
   authors: Matteo Rizzi, Salvatore Manfredi, Giada Sciarretta and Silvio Ranise
