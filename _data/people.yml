@@ -298,7 +298,11 @@
 - id: LorenzoBellesso
   name: Lorenzo
   surname: Bellesso
- 
+
+- id: LorenzoNicolodi
+  name: Lorenzo
+  surname: Nicolodi
+  
 - id: LorenzoTait
   name: Lorenzo
   surname: Tait

@@ -1,7 +1,7 @@
 ---
 title: Papers accepted at FARES2022
 papers:
-    - FARES2022
+    - FARES2022_EIDAS
 	- FARES2022_ITS
 
 people:
