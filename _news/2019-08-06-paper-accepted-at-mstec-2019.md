@@ -7,5 +7,5 @@ people:
     - UmbertoMorelli	
     - LorenzoNicolodi
     - SilvioRanise
-	
+    
 ---
