@@ -75,11 +75,10 @@
   name: Andrea
   surname: Bisegna
   affiliations:
-    - role: Technologist
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: a.bisegna@fbk.eu
+    - role: Employee
+      institution: "Futuro & Conoscenza"
+  email: a.bisegna@futuroeconoscenza.it
+  usernameFBK: a.bisegna
 
 - id: AnnibalePanichella
   name: Annibale
@@ -97,17 +96,20 @@
 - id: BiniamFissehaDemissie
   name: Biniam Fisseha
   surname: Demissie
-  affiliations:
-    - role: Researcher
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: demissie@fbk.eu
 
 - id: CarlottaTagliaro
   name: Carlotta
   surname: Tagliaro
   image: https://media-exp1.licdn.com/dms/image/C4E03AQEPRt71VVgABw/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=mmnzNewMBhrMwqgAbd0ne8RA6kTdqBtvnn8YCCpbkq4
+
+- id: CeciliaPasquini
+  name: Cecilia
+  surname: Pasquini
+  affiliations:
+    - role: Employee
+      institution: "Futuro & Conoscenza"
+  email: c.pasquini@futuroeconoscenza.it
+  usernameFBK: c.pasquini
 
 - id: ChaudhryMuhammadSuleman
   name: Chaudhry Muhammad
@@ -290,6 +292,15 @@
   surname: Heenan
   email: joseph@authlete.com
   website: https://www.linkedin.com/in/josephheenan/
+
+- id: LauraCristiano
+  name: Laura
+  surname: Cristiano
+  affiliations:
+    - role: Employee
+      institution: "Futuro & Conoscenza"
+  email: l.cristiano@futuroeconoscenza.it
+  usernameFBK: l.cristiano
   
 - id: LeonardoXompero
   name: Leonardo
@@ -492,12 +503,6 @@
 - id: SalimehDashti
   name: Salimeh
   surname: Dashti
-  affiliations:
-    - role: Researcher
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: sdashti@fbk.eu
 
 - id: SalvatoreManfredi
   name: Salvatore
@@ -604,11 +609,9 @@
   name: Umberto
   surname: Morelli
   affiliations:
-    - role: Technologist
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: umorelli@fbk.eu
+    - role: Employee
+      institution: "Futuro & Conoscenza"
+  email: u.morelli@futuroeconoscenza.it
 
 - id: ValentinaOdorizzi
   name: Valentina
