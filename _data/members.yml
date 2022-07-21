@@ -36,13 +36,6 @@ current:
       yearFrom: 2022
       yearTo: 2022
 
-    - personId: AlessandroColombo
-      type: B
-      topic: Attribute-based Encryption for Advanced Data Protection in IoT with MQTT
-      institution: University of Trento
-      yearFrom: 2022
-      yearTo: 2022
-
     - personId: EnricoMarconi
       type: B
       topic: Blockchain Meets Cryptographic Access Control for Advanced Data Protection
@@ -57,13 +50,6 @@ current:
       yearFrom: 2022
       yearTo: 2022
 
-    - personId: StefanoDaRoit
-      type: B
-      topic: Denial of Service attacks in MQTT 5.0 features
-      institution: University of Trento
-      yearFrom: 2022
-      yearTo: 2022
-
     - personId: IvanValentini
       type: B
       topic: Enhancing TLSAssistant analysis capabilities
@@ -74,13 +60,6 @@ current:
     - personId: FedericoCucino
       type: B
       topic: Improving TLSAssistant webserver coverage
-      institution: University of Trento
-      yearFrom: 2022
-      yearTo: 2022
-
-    - personId: MartinaVecellioReane
-      type: B
-      topic: Security and Risk Analysis of Enrollment Procedures
       institution: University of Trento
       yearFrom: 2022
       yearTo: 2022
@@ -321,3 +300,12 @@ former:
 
     - personId: RupertGobber
       thesisId: RupertGobber_M
+
+    - personId: MartinaVecellioReane
+      thesisId: MartinaVecellioReane_B
+
+    - personId: AlessandroColombo
+      thesisId: AlessandroColombo_B
+
+    - personId: StefanoDaRoit
+      thesisId: StefanoDaRoit_B

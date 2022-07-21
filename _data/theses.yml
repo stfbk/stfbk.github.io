@@ -534,6 +534,28 @@
   institution: University of Trento
 
 ## 2022
+- id: AlessandroColombo_B
+  title: "Attribute Based Encryption for Advanced Data Protection in IoT with MQTT"
+  type: B
+  author: AlessandroColombo
+  supervisor: SilvioRanise
+  co-supervisor:
+    - StefanoBerlato
+    - RobertoCarbone
+  year: 2022
+  institution: University of Trento
+
+- id: MartinaVecellioReane_B
+  title: "Automated Security and Risk Analysis of Remote Identity Proofing Procedures"
+  type: B
+  author: MartinaVecellioReane
+  supervisor: SilvioRanise
+  co-supervisor:
+    - MarcoPernpruner
+    - GiadaSciarretta
+  year: 2022
+  institution: University of Trento
+
 - id: RupertGobber_M
   title: "Design and implementation of a verifiable credentials service for a data marketplace"
   type: M
@@ -542,5 +564,15 @@
   co-supervisor:
     - GiadaSciarretta
     - AlessandroTomasi
+  year: 2022
+  institution: University of Trento
+
+- id: StefanoDaRoit_B
+  title: "Automated Detection of DoS Attacks in MQTT 5.0 Brokers"
+  type: B
+  author: StefanoDaRoit
+  supervisor: SilvioRanise
+  co-supervisor:
+    - UmbertoMorelli
   year: 2022
   institution: University of Trento
