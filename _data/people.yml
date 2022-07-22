@@ -199,6 +199,13 @@
 - id: GiacomoZanolli
   name: Giacomo
   surname: Zanolli
+  affiliations:
+    - role: Junior Researcher
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: gzanolli@fbk.eu
+  website: ""
 
 - id: GiadaSciarretta
   name: Giada
@@ -426,6 +433,17 @@
   image: https://www.di.univr.it/documenti//Persona/foto/foto450272.jpg
   website: https://www.di.univr.it/?ent=persona&id=201
 
+- id: MatteoBitussi
+  name: Matteo
+  surname: Bitussi
+  affiliations:
+    - role: Junior Researcher
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: mbitussi@fbk.eu
+  website: ""
+
 - id: MatteoLeonelli
   name: Matteo
   surname: Leonelli
@@ -443,6 +461,7 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: mrizzi@fbk.eu
+  website: ""
 
 - id: MicheleBezzi
   name: Michele
@@ -638,5 +657,6 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: zebadiansaroudi@fbk.eu
+  website: ""
 
 # Please keep alphabetical order
