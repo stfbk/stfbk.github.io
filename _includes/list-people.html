@@ -258,7 +258,11 @@
                             {% endif %}
                             {% if details contains "website" %}
                                 {% if person.website %}
-                                    {% assign personWebsite = person.website %}
+                                    {% if person.website == "" %}
+                                        {% assign personWebsite = nil %}
+                                    {% else %}
+                                        {% assign personWebsite = person.website %}
+                                    {% endif %}
                                 {% elsif splitEmail and splitEmail[1] == "fbk.eu" %}
                                     {% assign personWebsite = "https://ict.fbk.eu/people/detail/" | append: person.name | append: "-" | append: person.surname | append: "/" | downcase %}
                                 {% else %}
