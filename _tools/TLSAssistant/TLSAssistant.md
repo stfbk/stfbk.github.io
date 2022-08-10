@@ -24,7 +24,7 @@ publications:
 
 The tool has been developed within [Digimat](https://ict.fbk.eu/partnerships/co-innovation-labs/ipzs/), a joint lab between [Poligrafico e Zecca dello Stato](https://www.ipzs.it/ext/index.html) and the [Center for Cybersecurity](https://www.fbk.eu/it/cybersecurity/) of the Fondazione Bruno Kessler.
 
-<img class="image-centered" src="/assets/images/logos/IPZS.png" alt="IPZS_logo" width="300px"/>
+<img class="image-centered" src="/assets/images/logos/GitHub.png" alt="GitHub_logo" width="300px"/>
 
 {% include toc.md %}
 
