@@ -26,7 +26,7 @@ The tool has been developed within [Digimat](https://ict.fbk.eu/partnerships/co-
 
 
 <a href="https://github.com/stfbk/tlsassistant">
-         <img class="image-centered" src="/assets/images/logos/GitHub.png" alt="GitHub_logo" width="300px"/>
+         <img class="image-centered" src="/assets/images/logos/GitHub.png" alt="GitHub_logo" width="150px"/>
       </a>
 
 
