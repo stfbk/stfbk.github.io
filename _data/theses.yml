@@ -497,6 +497,7 @@
     - SalvatoreManfredi
   year: 2021
   institution: University of Trento
+  awards: 3rd place at thesis award "Innovare la sicurezza delle informazioni 2021", sponsored by CLUSIT
 
 - id: SalimehDashti_P
   title: "An Assisted Methodology to Conduct Data Protection Impact Assessment"
@@ -574,5 +575,27 @@
   supervisor: SilvioRanise
   co-supervisor:
     - UmbertoMorelli
+  year: 2022
+  institution: University of Trento
+
+- id: IvanValentini_B
+  title: "Estensione delle capacità di analisi di TLSAssistant - Rilevazione e mitigazione di ALPACA, POODLE e Raccoon"
+  type: B
+  author: IvanValentini
+  supervisor: SilvioRanise
+  co-supervisor:
+    - SalvatoreManfredi
+    - GiadaSciarretta
+  year: 2022
+  institution: University of Trento
+
+- id: FedericoCucino_B
+  title: "Miglioramento delle capacità di analisi di TLSAssistant - Automatizzazione delle mitigazioni per NGINX"
+  type: B
+  author: FedericoCucino
+  supervisor: SilvioRanise
+  co-supervisor:
+    - SalvatoreManfredi
+    - GiadaSciarretta
   year: 2022
   institution: University of Trento

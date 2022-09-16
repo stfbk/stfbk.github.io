@@ -52,20 +52,6 @@ current:
       yearFrom: 2022
       yearTo: 2022
 
-    - personId: IvanValentini
-      type: B
-      topic: Enhancing TLSAssistant analysis capabilities
-      institution: University of Trento
-      yearFrom: 2022
-      yearTo: 2022
-
-    - personId: FedericoCucino
-      type: B
-      topic: Improving TLSAssistant webserver coverage
-      institution: University of Trento
-      yearFrom: 2022
-      yearTo: 2022
-
     - personId: MircoBisoffi
       type: B
       topic: Smishing
@@ -311,3 +297,19 @@ former:
 
     - personId: StefanoDaRoit
       thesisId: StefanoDaRoit_B
+
+    - personId: IvanValentini
+      thesisId: IvanValentini_B
+      type: B
+      topic: Enhancing TLSAssistant analysis capabilities
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2022
+
+    - personId: FedericoCucino
+      thesisId: FedericoCucino_B
+      type: B
+      topic: Improving TLSAssistant webserver coverage
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2022
