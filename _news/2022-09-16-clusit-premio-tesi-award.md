@@ -14,7 +14,7 @@ people:
 The following thesis has been selected to be awarded with the thesis award “Innovare la sicurezza delle informazioni” sponsored by CLUSIT:
 
 - **3rd place: Matteo Rizzi**<br />
-  Title: Security and Performance tradeoffs in the Internet of Things<br />
+  Title: TLS Analyzers for Android Apps - State-of-the-art Analysis and Integration in TLSAssistant<br />
   Supervisor: Silvio Ranise | Co-supervisors: Giada Sciarretta and Salvatore Manfredi<br />
 
 Congratulations!!!
