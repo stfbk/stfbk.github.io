@@ -678,6 +678,7 @@
   abstract: >
     The eIDAS Regulation aims to provide an interoperable European framework to enable EU citizens to authenticate and communicate with services of other Member States by using their national electronic identity. While a set of high-level requirements (e.g., related to privacy and security) are established to make interoperability among Member States possible, the eIDAS Regulation does not explicitly specify the technologies that can be adopted during the development phase to meet the requirements as mentioned earlier. This paper considers the technological trends of (pre)notified eIDAS electronic identity schemes used by Member States, and they satisfy the eIDAS regulation requirements. We do this by defining a set of research questions that allow us to investigate the correlations between different design dimensions such as security, privacy, and usability. Based on these findings, we provide a set of lessons learned that can be used by the security community to protect interoperable national digital identities more efficiently.
   destination: FARES2022
+  awards: Best paper award
   year: 2022
   urlNews: /news/2022/06/10/papers-accepted-at-fares-2022/
   
