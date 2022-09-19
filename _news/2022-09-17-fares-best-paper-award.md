@@ -1,5 +1,5 @@
 ---
-title: "FARES'22 Best Paper Award" - 17th Edition
+title: Best Paper Award - FARES'22 (17th Edition)
 
 customExcerpt: >
    Best paper award in FARES'22 Conference for Amir Sharif, Matteo Ranzi, Roberto Carbone, Giada Sciarretta, and Silvio Ranise. Congratulations!!!
