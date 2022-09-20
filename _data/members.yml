@@ -45,13 +45,6 @@ current:
       yearFrom: 2022
       yearTo: 2022
 
-    - personId: NicolaCasagrande
-      type: B
-      topic: Dematerialized Identity
-      institution: University of Trento
-      yearFrom: 2022
-      yearTo: 2022
-
     - personId: MircoBisoffi
       type: B
       topic: Smishing
@@ -313,3 +306,6 @@ former:
       institution: University of Trento
       yearFrom: 2022
       yearTo: 2022
+
+    - personId: NicolaCasagrande
+      thesisId: NicolaCasagrande_B

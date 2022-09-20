@@ -15,6 +15,13 @@ layout: default
             </div>
         {% endif %}
 
+        {% if page.tools.size > 0 %}
+            <div class="column is-12">
+                <h1 id="related-tools" class="related in-toc">Related Tools</h1>
+                {% include list-tools.html source=page.tools %}
+            </div>
+        {% endif %}
+
         {% if page.publications.size > 0 %}
             <div class="column is-12">
                 <h1 id="related-publications" class="related in-toc">Related Publications</h1>
@@ -40,13 +47,6 @@ layout: default
             <div class="column is-12">
                 <h1 id="related-projects" class="related in-toc">Related Project</h1>
                 {% include list-projects.html source=page.projects style="list" %}
-            </div>
-        {% endif %}
-
-        {% if page.tools.size > 0 %}
-            <div class="column is-12">
-                <h1 id="related-tools" class="related in-toc">Related Tools</h1>
-                {% include list-tools.html source=page.tools %}
             </div>
         {% endif %}
 
