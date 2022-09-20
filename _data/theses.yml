@@ -599,3 +599,14 @@
     - GiadaSciarretta
   year: 2022
   institution: University of Trento
+
+- id: NicolaCasagrande_B
+  title: "Dematerialized Documents: The Italian Driving License Use Case"
+  type: B
+  author: NicolaCasagrande
+  supervisor: SilvioRanise
+  co-supervisor:
+    - GiadaSciarretta
+    - TahirAhmad
+  year: 2022
+  institution: University of Trento
