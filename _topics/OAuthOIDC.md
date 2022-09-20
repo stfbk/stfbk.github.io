@@ -3,7 +3,7 @@ title: OAuth & OIDC
 subtitle: 
 type: spotlight
 url: /topics/OAuthOIDC
-image: Oauth.jpg
+image: OAuth.jpg
 order: 5
 
 tools:
