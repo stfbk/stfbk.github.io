@@ -241,6 +241,24 @@
   doi: 10.5220/0006438504800485
   urlNews: /news/2017/06/15/paper-accepted-at-secrypt-2017/
 
+- id: SAFECOMP2017
+  title: "Automated Legal Compliance Checking by Security Policy Analysis"
+  authors: Silvio Ranise and Hari Siswantoro 
+  abstract: >
+    Legal compliance-by-design is the process of developing a software system that processes personal data in such a way that its ability to meet specific legal provisions is ascertained. In this paper, we describe techniques to automatically check the compliance of the security policies of a system against formal rules derived from legal provisions by re-using available tools for security policy verification. We also show the practical viability of our approach by reporting the experimental results of a prototype for checking compliance of realistic and synthetic policies against the European Data Protection Directive (EU DPD).
+  destination: SAFECOMP2017
+  year: 2017
+  doi: 10.1007/978-3-319-66284-8_30
+
+- id: SACMAT2017
+  title: "Security Analysis and Legal Compliance Checking for the Design of Privacy-friendly Information Systems"
+  authors: Paolo Guarda, Silvio Ranise and Hari Siswantoro
+  abstract: >
+    Nowadays, most of business practices involve personal data-processing of customers and employees. This is strictly regulated by legislation to protect the rights of the data subject. Enforcing regulation into enterprise information system is a non-trivial task that requires an interdisciplinary approach. This paper presents a declarative framework to support the specification of information system designs, purpose-aware access control policies, and the legal requirements derived from the European Data Protection Directive. This allows for compliance checking via a reduction to policy refinement that is supported by available automated tools. We briefly discuss the results of the compliance analysis with a prototype tool on a simple but realistic scenario about the processing of personal data to produce salary slips of employees in an Italian organization.
+  destination: SACMAT2017
+  year: 2017
+  doi: 10.1145/3078861.3078879
+
 ## 2018
 - id: SACMAT2018
   title: "A Lazy Approach to Access Control as a Service (ACaaS) for IoT: An AWS Case Study"

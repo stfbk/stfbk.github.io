@@ -13,6 +13,8 @@ publications:
     - SECRYPT2017
     - COSE2020_MFA
     - SECRYPT2020
+    - SAFECOMP2017
+    - SACMAT2017
 
 theses:
     - AlessioValenza_B
