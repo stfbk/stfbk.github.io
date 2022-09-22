@@ -610,3 +610,46 @@
     - TahirAhmad
   year: 2022
   institution: University of Trento
+
+- id: EnricoMarconi_B
+  title: Combining Blockchain-as-a-Service and Cryptographic Access Control for Secure Data Sharing Across Multiple Organizations
+  type: B
+  author: EnricoMarconi
+  supervisor: SilvioRanise
+  co-supervisor:
+    - RobertoCarbone
+    - StefanoBerlato
+  year: 2022
+  institution: University of Trento
+
+- id: GiuseppeAlessioSciumè_B
+  title: A Comprehensive Analysis of the OAuth 2.0 Threat Model to Develop a Chatbot Providing Actionable Security Suggestions
+  type: B
+  author: GiuseppeAlessioSciumè
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
+  year: 2022
+  institution: University of Trento
+
+- id: MicheleZucchelli_B
+  title: "Pimp My Micro-Id-Gym: Enhancing the Automation and Usability of a Security Testing Tool for Digital Identity Protocol"
+  type: B
+  author: MicheleZucchelli
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
+  year: 2022
+  institution: University of Trento
+
+- id: MircoBisoffi_B
+  title: Lo Smishing e la Threat Intelligence Platform
+  type: B
+  author: MircoBisoffi
+  supervisor: SilvioRanise
+  co-supervisor:
+    - BiniamFissehaDemissie
+  year: 2022
+  institution: University of Trento

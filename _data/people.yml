@@ -83,7 +83,7 @@
 - id: AnnibalePanichella
   name: Annibale
   surname: Panichella
-  affiliation:
+  affiliations:
     - role: Assistant Professor
       institution: Delft University of Technology
       place: Delft, The Netherlands
@@ -96,6 +96,10 @@
 - id: BiniamFissehaDemissie
   name: Biniam Fisseha
   surname: Demissie
+  affiliations:
+    - role: Senior Security Researcher
+      institution: Technology Innovation Institute
+      place: Abu Dhabi, United Arab Emirates
 
 - id: CarlottaTagliaro
   name: Carlotta
@@ -138,6 +142,17 @@
 - id: DavidePiva
   name: Davide
   surname: Piva
+
+- id: EleonoraMarchesini
+  name: Eleonora
+  surname: Marchesini
+  affiliations:
+    - role: Junior Researcher
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: emarchesini@fbk.eu
+  website: ""
 
 - id: EmanueleViglianisi
   name: Emanuele
@@ -227,6 +242,10 @@
       place: Torino, Italy
   email: gb@drivesec.com
   website: http://www.gianfrancoburzio.it/
+
+- id: GianlucaSassetti
+  name: Gianluca
+  surname: Sassetti
 
 - id: GiovanniFerronato
   name: Giovanni
@@ -620,7 +639,7 @@
 - id: TuanAnhTruong
   name: Tuan Anh
   surname: Truong
-  affiliation:
+  affiliations:
     - role: Lecturer
       unit: Faculty of Computer Science and Engineering
       institution: HCMC University of Technology
@@ -635,6 +654,8 @@
     - role: Employee
       institution: "Futuro & Conoscenza"
   email: u.morelli@futuroeconoscenza.it
+  usernameFBK: umorelli
+  website: ""
 
 - id: ValentinaOdorizzi
   name: Valentina
