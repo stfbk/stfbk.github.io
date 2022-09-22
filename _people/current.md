@@ -12,10 +12,14 @@ permalink: /people/
 <h1>Members</h1>
 {% include list-people.html source=site.data.members.current.members style="card" details=details sort="name" %}
 
-<h1>Collaborators</h1>
-{% assign details = "picture, role, email, website, institution" | split: ", " %}
-{% include list-people.html source=site.data.members.current.collaborators style="card" details=details sort="name" %}
+{%- if site.data.members.current.collaborators.size > 0 -%}
+  <h1>Collaborators</h1>
+  {% assign details = "picture, role, email, website, institution" | split: ", " %}
+  {% include list-people.html source=site.data.members.current.collaborators style="card" details=details sort="name" %}
+{%- endif -%}
 
-<h1>Students</h1>
-{% assign details = "institution, topic, type, thesis" | split: ", " %}
-{% include list-people.html source=site.data.members.current.students style="card" details=details sort="name" %}
+{%- if site.data.members.current.students.size > 0 -%}
+  <h1>Students</h1>
+  {% assign details = "institution, topic, type, thesis" | split: ", " %}
+  {% include list-people.html source=site.data.members.current.students style="card" details=details sort="name" %}
+{%- endif -%}

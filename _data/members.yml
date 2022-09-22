@@ -16,6 +16,7 @@ current:
     - ZahraEbadiAnsaroudi
     - MatteoBitussi
     - GiacomoZanolli
+    - EleonoraMarchesini
 
   collaborators:
     - AndreaBisegna
@@ -24,30 +25,9 @@ current:
     - CeciliaPasquini
       
   students:
-    - personId: GiuseppeAlessioSciumè
-      type: B
-      topic: Attack patterns for Identity Management protocols
-      institution: University of Trento
-      yearFrom: 2022
-      yearTo: 2022
-
-    - personId: MicheleZucchelli
-      type: B
-      topic: Attack patterns for Identity Management protocols
-      institution: University of Trento
-      yearFrom: 2022
-      yearTo: 2022
-
-    - personId: EnricoMarconi
-      type: B
-      topic: Blockchain Meets Cryptographic Access Control for Advanced Data Protection
-      institution: University of Trento
-      yearFrom: 2022
-      yearTo: 2022
-
-    - personId: MircoBisoffi
-      type: B
-      topic: Smishing
+    - personId: GianlucaSassetti
+      type: M
+      topic: Privacy Issues in OIDC implementations in the Wild
       institution: University of Trento
       yearFrom: 2022
       yearTo: 2022
@@ -124,6 +104,9 @@ former:
 
     - personId: AvinashSudhodanan
       thesisId: AvinashSudhodanan_P
+
+    - personId: HariSiswantoro
+      thesisId: HariSiswantoro_P
 
     - personId: BiniamFissehaDemissie
       thesisId: BiniamFissehaDemissie_P
@@ -293,19 +276,21 @@ former:
 
     - personId: IvanValentini
       thesisId: IvanValentini_B
-      type: B
-      topic: Enhancing TLSAssistant analysis capabilities
-      institution: University of Trento
-      yearFrom: 2022
-      yearTo: 2022
 
     - personId: FedericoCucino
       thesisId: FedericoCucino_B
-      type: B
-      topic: Improving TLSAssistant webserver coverage
-      institution: University of Trento
-      yearFrom: 2022
-      yearTo: 2022
 
     - personId: NicolaCasagrande
       thesisId: NicolaCasagrande_B
+
+    - personId: EnricoMarconi
+      thesisId: EnricoMarconi_B
+
+    - personId: GiuseppeAlessioSciumè
+      thesisId: GiuseppeAlessioSciumè_B
+
+    - personId: MicheleZucchelli
+      thesisId: MicheleZucchelli_B
+
+    - personId: MircoBisoffi
+      thesisId: MircoBisoffi_B
