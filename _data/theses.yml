@@ -34,6 +34,10 @@
   author: DanielDosSantos
   abstract: >
     Workflows specify a collection of tasks that must be executed under the responsibility or supervision of human users. Workflow management systems and workflow-driven applications need to enforce security policies in the form of access control, specifying which users can execute which tasks, and authorization constraints, such as Separation/Binding of Duty, further restricting the execution of tasks at run-time. Enforcing these policies is crucial to avoid frauds and malicious use, but it may lead to situations where a workflow instance cannot be completed without the violation of the policy. The Workflow Satisfiability Problem (WSP) asks whether there exists an assignment of users to tasks in a workflow such that every task is executed and the policy is not violated. The run-time version of this problem amounts to answering user requests to execute tasks positively if the policy is respected and the workflow instance is guaranteed to terminate. The WSP is inherently hard, but solutions to this problem have a practical application in reconciling business compliance (stating that workflow instances should follow the specified policies) and business continuity (stating that workflow instances should be deadlock-free). Related problems, such as finding execution scenarios that not only satisfy a workflow but also satisfy other properties (e.g., that a workflow instance is still satisfiable even in the absence of users), can be solved at deployment-time to help users design policies and reuse available workflow models. The main contributions of this thesis are three: 1. We present a technique to synthesize monitors capable of solving the run-time version of the WSP, i.e., capable of answering user requests to execute tasks in such a way that the policy is not violated and the workflow instance is guaranteed to terminate. The technique is extended to modular workflow specifications, using components and gluing assertions. This allows us to compose synthesized monitors, reuse workflow models, and synthesize monitors for large models. 2. We introduce and present techniques to solve a new class of problems called Scenario Finding Problems, i.e., finding execution scenarios that satisfy properties of interest to users. Solutions to these problems can assist customers during the deployment of reusable workflow models with custom authorization policies. 3. We implement the proposed techniques in two tools. Cerberus integrates monitor synthesis, scenario finding, and run-time enforcement into workflow management systems. Aegis recovers workflow models from web applications using process mining, synthesizes monitors, and invokes them at run-time by using a reverse proxy. An extensive experimental evaluation shows the practical applicability of the proposed approaches on realistic and synthetic (for scalability) problem instances.
+  supervisor: SilvioRanise
+  co-supervisor:
+    - LucaCompagna
+    - SerenaPonta
   year: 2017
   cycle: XXIX
   institution: University of Trento
@@ -127,6 +131,9 @@
   author: HariSiswantoro
   abstract: >
     Enforcing legal compliance into software systems is a non-trivial task that requires an interdisciplinary approach. This thesis presents a new methodology for legal compliance checking against European legal provisions, namely the EU Data Protection Directive, the EU General Data Protection Regulation and the revised EU Payment Services Directive. We propose two types of compliance checking mechanisms that should be exploited at design-time or run-time. The former is based on security policy analysis of access control policies. The later is built on top of an approach to synthesizing run-time monitors for workflow-driven applications. Our contributions include a comprehensive methodology for legal compliance checking, the formalization of the regulations and the prototype tool of the implemented compliance methodology.
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AlessandroArmando
   year: 2018
   cycle: XXIX
   link: http://eprints-phd.biblio.unitn.it/2914/
