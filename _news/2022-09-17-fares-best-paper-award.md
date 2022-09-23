@@ -10,6 +10,10 @@ people:
     - RobertoCarbone
     - GiadaSciarretta 
     - SilvioRanise
+    
+ images:
+    - title: Best Paper Award acknowledgement
+      source: /assets/news/best_paper_award.png
 ---
 
 The following paper has been selected to be awarded with the best paper award in the "17th International Workshop on Frontiers in Availability, Reliability and Security (FARES 2022)":
