@@ -1,8 +1,6 @@
 ---
 title: Best Paper Award - FARES'22 (17th Edition)
 
-customExcerpt: >
-   Best paper award in FARES'22 Conference for Amir Sharif, Matteo Ranzi, Roberto Carbone, Giada Sciarretta, and Silvio Ranise. Congratulations!!!
 
 people:
     - AmirSharif
@@ -10,10 +8,11 @@ people:
     - RobertoCarbone
     - GiadaSciarretta 
     - SilvioRanise
-    
- images:
-    - title: Best Paper Award acknowledgement
-      source: /assets/news/best_paper_award.png
+
+images:
+    - title: Best Paper Award Acknowledgement
+      source: /assets/news/best-paper-award.png
+     
 ---
 
 The following paper has been selected to be awarded with the best paper award in the "17th International Workshop on Frontiers in Availability, Reliability and Security (FARES 2022)":
