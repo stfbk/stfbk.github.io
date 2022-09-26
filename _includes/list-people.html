@@ -101,6 +101,7 @@
                 {% assign cosupervisorsArray = cosupervisorsArray | push: cosupervisorsString %}
             {% endif %}
 
+            {% assign type = nil %}
             {% if details contains "type" %}
                 {% if thesis.type %}
                     {% assign type = thesis.type %}
