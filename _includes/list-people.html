@@ -182,8 +182,10 @@
             {% endif %}
             {% assign affiliationNumbers = person.affiliations.size | minus: 1 %}
             {% for counter in (0..affiliationNumbers) %}
-                {% if person.affiliations[counter].unit == "Security & Trust" and person.affiliations[counter].institution == "Fondazione Bruno Kessler" %}
-                    {% assign role = person.affiliations[counter].role %}
+                {% if person.affiliations[counter].unit == "Security & Trust" or person.affiliations[counter].unit == "Center for Cybersecurity" %}
+                    {% if person.affiliations[counter].institution == "Fondazione Bruno Kessler" %}
+                        {% assign role = person.affiliations[counter].role %}
+                    {% endif %}        
                 {% endif %}
 
                 {% assign currentRole = currentRole | append: person.affiliations[counter].role %}
