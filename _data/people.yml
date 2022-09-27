@@ -522,7 +522,7 @@
   name: Roberto
   surname: Carbone
   affiliations:
-    - role: Head of Unit
+    - role: Head of the Security & Trust Unit
       unit: Security & Trust
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -580,10 +580,6 @@
   name: Silvio
   surname: Ranise
   affiliations:
-    - role: Senior Researcher
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
     - role: Director of the Center for Cybersecurity
       unit: Center for Cybersecurity
       institution: Fondazione Bruno Kessler
