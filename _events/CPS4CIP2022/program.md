@@ -43,9 +43,6 @@ Chairs: Enrico Cambiaso and Rita Ugarelli
 - Coverage-guided fuzzing of embedded systems leveraging hardware tracing<br />
   **Maximilian Beckmann** and Jan Steffan
 
-- Best practices on cyber and physical security standards in healthcare organisations <br />
-  **Vasiliki Mantzana**, Ilias Gkotsis, Vasileios Kazoukas, and Filippo Giacinti
-
 - Challenges and Pitfalls in Generating Representative ICS Datasets in Cyber Security Research<br />
   **Asya Mitseva**, Paul Thierse, Harald Hoffmann, Devran Er, and Andriy Panchenko
 
