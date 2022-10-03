@@ -230,8 +230,7 @@
       unit: Security & Trust
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-  email: giada.sciarretta@fbk.eu
-  usernameFBK: g.sciarretta
+  email: g.sciarretta@fbk.eu
 
 - id: GianfrancoBurzio
   name: Gianfranco
@@ -376,14 +375,9 @@
   name: Majid
   surname: Mollaeefar
   affiliations:
-    - role: PhD Student
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-    - role: PhD Student
-      unit: DIBRIS
-      institution: University of Genoa
-      place: Genoa, Italy
+    - role: Researcher
+      institution: V-Research
+      place: Verona, Italy
   email: mmollaeefar@fbk.eu
 
 - id: MarcoCentenaro
