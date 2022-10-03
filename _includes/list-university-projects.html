@@ -227,13 +227,14 @@
                         {{ descriptionString }}
                     </div>
                 {% endif %}
+                {% if project.level %}<p><b>Level:</b> {{ project.level }}</p>{% endif %}
                 {% if supervisorsString %}<p><b>Supervisor{% if supervisorsFromId.size > 1 %}s{% endif %}:</b> {{ supervisorsString }}</p>{% endif %}
                 {% if cosupervisorsString %}<p><b>Co-supervisor{% if cosupervisorsFromId.size > 1 %}s{% endif %}:</b> {{ cosupervisorsString }}</p>{% endif %}
                 {% if project.timeFrame %}<p><b>Time frame:</b> {{ project.timeFrame }}</p>{% endif %}
-                {% if project.level %}<p><b>Level:</b> {{ project.level }}</p>{% endif %}
-                {% if project.objectives %}{{ objectivesString }}{% endif %}
                 {% if project.prerequisites %}{{ prerequisitesString }}{% endif %}
+                {% if project.objectives %}{{ objectivesString }}{% endif %}
                 {% if project.topics %}<p><b>Topic{% if topics.size > 1 %}s{% endif %}:</b> {{ topicsString }}</p>{% endif %}
+                {% if project.notes %}<p><b>Notes:</b> {{ project.notes }}</p>{% endif %}
                 {% if project.references %}{{ referencesString }}{% endif %}
             </div>
         {% endfor %}
