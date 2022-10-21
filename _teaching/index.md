@@ -64,7 +64,23 @@ permalink: /teaching/
   </thead>
   <tbody>
     <tr>
-      <td>Digital identity: enrollment, authentication, and all that</td>
+      <td>Cryptography and Codes: enrollment, authentication, authorization, and all that</td>
+      <td>
+          Roberto Carbone<br />
+          Silvio Ranise<br />
+          Giada Sciarretta
+      </td>
+      <td>
+          Trento<br />
+          Genova
+      </td>
+      <td>
+        <a href="/teaching/PhDCourse2023_IdM">2022-2023</a><br />
+      </td>    
+    </tr>
+        <tr>
+      <td>Digital identity: enrollment, authentication, and all that
+      </td>
       <td>
           Roberto Carbone<br />
           Silvio Ranise<br />
