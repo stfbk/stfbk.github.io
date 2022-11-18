@@ -36,14 +36,36 @@ if ($("nav .contents .menu").length > 0) {
         $("nav .contents .menu").append('<ul id="markdown-toc"></ul>');
     }
 
-    if ($(".in-toc").length > 0) {
-        $(".in-toc").each(function(index) {
+    if ($(":header:not(.no-toc)").length > 0) {
+        var prevH1List = null;
+        var prevH1Item = null;
+        var prevH2List = null;
+        var prevH2Item = null;
+
+        $(":header:not(.no-toc)").each(function(index) {
             if ($("#markdown-toc li[data-ref='#"+$(this).attr("id")+"'").length == 0) {
                 var text = $(this).clone();
                 text.find(".no-toc").remove();
                 text = $(text).html().trim();
-                var toAppend = '<li data-ref="#'+$(this).attr("id")+'"><a href="#'+$(this).attr("id")+'">'+text+'</a></li>';
-                $("#markdown-toc").append(toAppend);
+                var toAppend = $('<li data-ref="#'+$(this).attr("id")+'"><a href="#'+$(this).attr("id")+'">'+text+'</a></li>');
+
+                if ($(this).is("h1")) {
+                    prevH1List = $("#markdown-toc");
+                    $(prevH1List).append(toAppend);
+                    prevH1Item = toAppend;
+                    prevH2List = null;
+                } else if ($(this).is("h2")) {
+                    if (prevH2List == null) {
+                        prevH2List = $("<ul></ul>");
+                        $(prevH1Item).append(prevH2List);
+                    }
+                    $(prevH2List).append(toAppend);
+                    prevH2Item = toAppend;
+                } else {
+                    var prevH3List = $("<ul></ul>");
+                    $(prevH2Item).append(prevH3List);
+                    $(prevH3List).append(toAppend);
+                }
             }
         });
     }
