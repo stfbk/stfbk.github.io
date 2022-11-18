@@ -8,235 +8,244 @@
     {% assign source = source | sort_natural: "title" %}
 {% endif %}
 
-{% if source.size > 0 %}
-    <div class="university-projects">
-        {% for project in source %}
-            {% assign supervisorsFromId = "" | split: "" %}
-            {% if project.supervisor %}
-                {% if project.supervisor | first %}
-                    {% for supervisor in project.supervisor %}
-                        {% assign supervisorFromId = site.data.people | where: "id", supervisor %}
-                        {% assign supervisorsFromId = supervisorsFromId | push: supervisorFromId[0] %}
-                    {% endfor %}
-                {% else %}
-                    {% assign supervisorFromId = site.data.people | where: "id", project.supervisor %}
-                    {% assign supervisorsFromId = supervisorsFromId | concat: supervisorFromId[0] %}
-                {% endif %}
-            {% endif %}
-
-            {% assign supervisors = "" | split: "" %}
-            {% for supervisor in supervisorsFromId %}
-                {% assign supervisorName = supervisor.name | append: " " | append: supervisor.surname %}
-                {% assign supervisorString = supervisorName %}
-
-                {% assign supervisorEmail = nil %}
-                {% if supervisor.email %}
-                    {% assign splitEmail = supervisor.email | split: '@' %}
-                    {% if splitEmail[1] == "fbk.eu" %}
-                        {% assign supervisorEmail = supervisor.email %}
-                        {% assign supervisorString = supervisorString | append: ' (<a href=mailto:' | append: supervisorEmail | append: '>' | append: supervisorEmail | append: "</a>)" %}
-                    {% endif %}
-                {% endif %}
-
-                {% assign supervisors = supervisors | push: supervisorString %}
-            {% endfor %}
-
-            {%- if supervisors.size > 0 -%}
-                {%- assign supervisorsString = supervisors | join: ", " -%}
+{% if source.first.calls.size > 0 %}
+    {% for call in source.first.calls %}
+        <div class="university-projects-call">
+            {%- if call.title %}
+                <h1 id="{{ call.id }}" class="in-toc">{{ call.title }}</h1>
             {%- else -%}
-                {%- assign supervisorsString = nil -%}
+                <h1 id="{{ call.id }}" class="in-toc">List of Projects</h1>
             {%- endif -%}
-
-            {% assign cosupervisorsFromId = "" | split: "" %}
-            {% if project.cosupervisor %}
-                {% if project.cosupervisor | first %}
-                    {% for cosupervisor in project.cosupervisor %}
-                        {% assign cosupervisorFromId = site.data.people | where: "id", cosupervisor %}
-                        {% assign cosupervisorsFromId = cosupervisorsFromId | push: cosupervisorFromId[0] %}
-                    {% endfor %}
-                {% else %}
-                    {% assign cosupervisorFromId = site.data.people | where: "id", project.cosupervisor %}
-                    {% assign cosupervisorsFromId = cosupervisorsFromId | concat: cosupervisorFromId[0] %}
-                {% endif %}
-            {% endif %}
-
-            {% assign cosupervisors = "" | split: "" %}
-            {% for cosupervisor in cosupervisorsFromId %}
-                {% assign cosupervisorName = cosupervisor.name | append: " " | append: cosupervisor.surname %}
-                {% assign cosupervisorString = cosupervisorName %}
-
-                {% assign cosupervisorEmail = nil %}
-                {% if cosupervisor.email %}
-                    {% assign splitEmail = cosupervisor.email | split: '@' %}
-                    {% if splitEmail[1] == "fbk.eu" %}
-                        {% assign cosupervisorEmail = cosupervisor.email %}
-                        {% assign cosupervisorString = cosupervisorString | append: ' (<a href=mailto:' | append: cosupervisorEmail | append: '>' | append: cosupervisorEmail | append: "</a>)" %}
-                    {% endif %}
-                {% endif %}
-
-                {% assign cosupervisors = cosupervisors | push: cosupervisorString %}
-            {% endfor %}
-
-            {%- if cosupervisors.size > 0 -%}
-                {%- assign cosupervisorsString = cosupervisors | join: ", " -%}
-            {%- else -%}
-                {%- assign cosupervisorsString = nil -%}
-            {%- endif -%}
-
-
-            {% assign descriptionParagraphs = "" | split: "" %}
-            {% if project.description %}
-                {% if project.description | first %}
-                    {% for description in project.description %}
-                        {% assign descriptionParagraphs = descriptionParagraphs | push: description %}
-                    {% endfor %}
-                {% else %}
-                    {% assign descriptionParagraphs = descriptionParagraphs | push: project.description %}
-                {% endif %}
-            {% endif %}
-
-            {%- assign descriptionString = nil -%}
-            {%- if descriptionParagraphs.size > 0 -%}
-                {% capture descriptionString %}
-                    {% for description in descriptionParagraphs %}
-                        <p>{{ description }}</p>
-                    {% endfor %}
-                {% endcapture %}
-            {%- endif -%}
-
-
-            {% assign objectives = "" | split: "" %}
-            {% if project.objectives %}
-                {% if project.objectives | first %}
-                    {% for objective in project.objectives %}
-                        {% assign objectives = objectives | push: objective %}
-                    {% endfor %}
-                {% else %}
-                    {% assign objectives = objectives | push: project.objectives %}
-                {% endif %}
-            {% endif %}
-
-            {%- assign objectivesString = nil -%}
-            {%- if objectives.size == 1 -%}
-                {%- assign objectivesString = objectives[0] | prepend: "<p><b>Objectives:</b> " | append: "</p>" -%}
-            {%- else -%}
-                {% capture objectivesString %}
-                    <p style="margin-bottom: 5px;"><b>Objectives:</b></p>
-                    <ul style="margin-top: 0px;">
-                    {% for objective in objectives %}
-                        <li>{{ objective }}</li>
-                    {% endfor %}
-                    </ul>
-                {% endcapture %}
-            {%- endif -%}
-
-
-            {% assign prerequisites = "" | split: "" %}
-            {% if project.prerequisites %}
-                {% if project.prerequisites | first %}
-                    {% for prerequisite in project.prerequisites %}
-                        {% assign prerequisites = prerequisites | push: prerequisite %}
-                    {% endfor %}
-                {% else %}
-                    {% assign prerequisites = prerequisites | push: project.prerequisites %}
-                {% endif %}
-            {% endif %}
-
-            {%- assign prerequisitesString = nil -%}
-            {%- if prerequisites.size == 1 -%}
-                {%- assign prerequisitesString = prerequisites[0] | prepend: "<p><b>Prerequisites:</b> " | append: "</p>" -%}
-            {%- else -%}
-                {% capture prerequisitesString %}
-                    <p style="margin-bottom: 5px;"><b>Prerequisites:</b></p>
-                    <ul style="margin-top: 0px;">
-                    {% for prerequisite in prerequisites %}
-                        <li>{{ prerequisite }}</li>
-                    {% endfor %}
-                    </ul>
-                {% endcapture %}
-            {%- endif -%}
-
-
-            {% assign topics = "" | split: "" %}
-            {% if project.topics %}
-                {% if project.topics | first %}
-                    {% for topic in project.topics %}
-                        {% assign topics = topics | push: topic %}
-                    {% endfor %}
-                {% else %}
-                    {% assign topics = topics | push: project.topics %}
-                {% endif %}
-            {% endif %}
-
-            {%- assign topicsString = nil -%}
-            {%- if topics.size > 0 -%}
-                {%- assign topicsString = topics | join: ", " -%}
-            {%- endif -%}
-
-
-            {% assign references = "" | split: "" %}
-            {% if project.references %}
-                {% if project.references | first %}
-                    {% for reference in project.references %}
-                        {% assign references = references | push: reference %}
-                    {% endfor %}
-                {% else %}
-                    {% assign references = references | push: project.references %}
-                {% endif %}
-            {% endif %}
-
-            {%- assign referencesString = nil -%}
-            {%- if references.size > 0 -%}
-                {% capture referencesString %}
-                    <p style="margin-bottom: 5px;"><b>References:</b></p>
-                    <ol style="margin-top: 0px;">
-                    {% for reference in references %}
-                        <li>{{ reference }}</li>
-                    {% endfor %}
-                    </ol>
-                {% endcapture %}
-            {%- endif -%}
-
-
-            <div class="university-project">
-                {% assign id = project.title | downcase | replace: " ", "-" %}
-                <h1 id="{{ id }}" class="in-toc">
-                    {{ project.title }}
-                    <span class="tooltip no-toc">
-                        {% if project.available %}
-                            {% if project.available == "N" %}
-                                <span class="dot dot-red"></span>
-                                <span class="tooltip-text">Not available</span>
-                            {% elsif project.available == "Y" %}
-                                <span class="dot dot-green"></span>
-                                <span class="tooltip-text">Available</span>
-                            {% elsif project.available == "US" %}
-                                <span class="dot dot-orange"></span>
-                                <span class="tooltip-text">Under selection</span>
+            {%- if call.text -%}<p>{{ call.text }}</p>{%- endif -%}
+            {%- if call.projects.size > 0 -%}
+                <div class="university-projects">
+                    {% for project in call.projects %}
+                        {% assign supervisorsFromId = "" | split: "" %}
+                        {% if project.supervisor %}
+                            {% if project.supervisor | first %}
+                                {% for supervisor in project.supervisor %}
+                                    {% assign supervisorFromId = site.data.people | where: "id", supervisor %}
+                                    {% assign supervisorsFromId = supervisorsFromId | push: supervisorFromId[0] %}
+                                {% endfor %}
+                            {% else %}
+                                {% assign supervisorFromId = site.data.people | where: "id", project.supervisor %}
+                                {% assign supervisorsFromId = supervisorsFromId | concat: supervisorFromId[0] %}
                             {% endif %}
-                        {% else %}
-                            <span class="dot dot-grey"></span>
-                            <span class="tooltip-text">Unknown availability</span>
                         {% endif %}
-                    </span>
-                </h1>
-                {% if project.published %}<p><b>Published on:</b> {{ project.published | date: "%B %e, %Y" }}</p>{% endif %}
-                {% if project.description %}
-                    <div class="description">
-                        <p><b>Description:</b></p>
-                        {{ descriptionString }}
-                    </div>
-                {% endif %}
-                {% if project.level %}<p><b>Level:</b> {{ project.level }}</p>{% endif %}
-                {% if supervisorsString %}<p><b>Supervisor{% if supervisorsFromId.size > 1 %}s{% endif %}:</b> {{ supervisorsString }}</p>{% endif %}
-                {% if cosupervisorsString %}<p><b>Co-supervisor{% if cosupervisorsFromId.size > 1 %}s{% endif %}:</b> {{ cosupervisorsString }}</p>{% endif %}
-                {% if project.timeFrame %}<p><b>Time frame:</b> {{ project.timeFrame }}</p>{% endif %}
-                {% if project.prerequisites %}{{ prerequisitesString }}{% endif %}
-                {% if project.objectives %}{{ objectivesString }}{% endif %}
-                {% if project.topics %}<p><b>Topic{% if topics.size > 1 %}s{% endif %}:</b> {{ topicsString }}</p>{% endif %}
-                {% if project.notes %}<p><b>Notes:</b> {{ project.notes }}</p>{% endif %}
-                {% if project.references %}{{ referencesString }}{% endif %}
-            </div>
-        {% endfor %}
-    </div>
+
+                        {% assign supervisors = "" | split: "" %}
+                        {% for supervisor in supervisorsFromId %}
+                            {% assign supervisorName = supervisor.name | append: " " | append: supervisor.surname %}
+                            {% assign supervisorString = supervisorName %}
+
+                            {% assign supervisorEmail = nil %}
+                            {% if supervisor.email %}
+                                {% assign splitEmail = supervisor.email | split: '@' %}
+                                {% if splitEmail[1] == "fbk.eu" %}
+                                    {% assign supervisorEmail = supervisor.email %}
+                                    {% assign supervisorString = supervisorString | append: ' (<a href=mailto:' | append: supervisorEmail | append: '>' | append: supervisorEmail | append: "</a>)" %}
+                                {% endif %}
+                            {% endif %}
+
+                            {% assign supervisors = supervisors | push: supervisorString %}
+                        {% endfor %}
+
+                        {%- if supervisors.size > 0 -%}
+                            {%- assign supervisorsString = supervisors | join: ", " -%}
+                        {%- else -%}
+                            {%- assign supervisorsString = nil -%}
+                        {%- endif -%}
+
+                        {% assign cosupervisorsFromId = "" | split: "" %}
+                        {% if project.cosupervisor %}
+                            {% if project.cosupervisor | first %}
+                                {% for cosupervisor in project.cosupervisor %}
+                                    {% assign cosupervisorFromId = site.data.people | where: "id", cosupervisor %}
+                                    {% assign cosupervisorsFromId = cosupervisorsFromId | push: cosupervisorFromId[0] %}
+                                {% endfor %}
+                            {% else %}
+                                {% assign cosupervisorFromId = site.data.people | where: "id", project.cosupervisor %}
+                                {% assign cosupervisorsFromId = cosupervisorsFromId | concat: cosupervisorFromId[0] %}
+                            {% endif %}
+                        {% endif %}
+
+                        {% assign cosupervisors = "" | split: "" %}
+                        {% for cosupervisor in cosupervisorsFromId %}
+                            {% assign cosupervisorName = cosupervisor.name | append: " " | append: cosupervisor.surname %}
+                            {% assign cosupervisorString = cosupervisorName %}
+
+                            {% assign cosupervisorEmail = nil %}
+                            {% if cosupervisor.email %}
+                                {% assign splitEmail = cosupervisor.email | split: '@' %}
+                                {% if splitEmail[1] == "fbk.eu" %}
+                                    {% assign cosupervisorEmail = cosupervisor.email %}
+                                    {% assign cosupervisorString = cosupervisorString | append: ' (<a href=mailto:' | append: cosupervisorEmail | append: '>' | append: cosupervisorEmail | append: "</a>)" %}
+                                {% endif %}
+                            {% endif %}
+
+                            {% assign cosupervisors = cosupervisors | push: cosupervisorString %}
+                        {% endfor %}
+
+                        {%- if cosupervisors.size > 0 -%}
+                            {%- assign cosupervisorsString = cosupervisors | join: ", " -%}
+                        {%- else -%}
+                            {%- assign cosupervisorsString = nil -%}
+                        {%- endif -%}
+
+
+                        {% assign descriptionParagraphs = "" | split: "" %}
+                        {% if project.description %}
+                            {% if project.description | first %}
+                                {% for description in project.description %}
+                                    {% assign descriptionParagraphs = descriptionParagraphs | push: description %}
+                                {% endfor %}
+                            {% else %}
+                                {% assign descriptionParagraphs = descriptionParagraphs | push: project.description %}
+                            {% endif %}
+                        {% endif %}
+
+                        {%- assign descriptionString = nil -%}
+                        {%- if descriptionParagraphs.size > 0 -%}
+                            {% capture descriptionString %}
+                                {% for description in descriptionParagraphs %}
+                                    <p>{{ description }}</p>
+                                {% endfor %}
+                            {% endcapture %}
+                        {%- endif -%}
+
+
+                        {% assign objectives = "" | split: "" %}
+                        {% if project.objectives %}
+                            {% if project.objectives | first %}
+                                {% for objective in project.objectives %}
+                                    {% assign objectives = objectives | push: objective %}
+                                {% endfor %}
+                            {% else %}
+                                {% assign objectives = objectives | push: project.objectives %}
+                            {% endif %}
+                        {% endif %}
+
+                        {%- assign objectivesString = nil -%}
+                        {%- if objectives.size == 1 -%}
+                            {%- assign objectivesString = objectives[0] | prepend: "<p><b>Objectives:</b> " | append: "</p>" -%}
+                        {%- else -%}
+                            {% capture objectivesString %}
+                                <p style="margin-bottom: 5px;"><b>Objectives:</b></p>
+                                <ul style="margin-top: 0px;">
+                                {% for objective in objectives %}
+                                    <li>{{ objective }}</li>
+                                {% endfor %}
+                                </ul>
+                            {% endcapture %}
+                        {%- endif -%}
+
+
+                        {% assign prerequisites = "" | split: "" %}
+                        {% if project.prerequisites %}
+                            {% if project.prerequisites | first %}
+                                {% for prerequisite in project.prerequisites %}
+                                    {% assign prerequisites = prerequisites | push: prerequisite %}
+                                {% endfor %}
+                            {% else %}
+                                {% assign prerequisites = prerequisites | push: project.prerequisites %}
+                            {% endif %}
+                        {% endif %}
+
+                        {%- assign prerequisitesString = nil -%}
+                        {%- if prerequisites.size == 1 -%}
+                            {%- assign prerequisitesString = prerequisites[0] | prepend: "<p><b>Prerequisites:</b> " | append: "</p>" -%}
+                        {%- else -%}
+                            {% capture prerequisitesString %}
+                                <p style="margin-bottom: 5px;"><b>Prerequisites:</b></p>
+                                <ul style="margin-top: 0px;">
+                                {% for prerequisite in prerequisites %}
+                                    <li>{{ prerequisite }}</li>
+                                {% endfor %}
+                                </ul>
+                            {% endcapture %}
+                        {%- endif -%}
+
+
+                        {% assign topics = "" | split: "" %}
+                        {% if project.topics %}
+                            {% if project.topics | first %}
+                                {% for topic in project.topics %}
+                                    {% assign topics = topics | push: topic %}
+                                {% endfor %}
+                            {% else %}
+                                {% assign topics = topics | push: project.topics %}
+                            {% endif %}
+                        {% endif %}
+
+                        {%- assign topicsString = nil -%}
+                        {%- if topics.size > 0 -%}
+                            {%- assign topicsString = topics | join: ", " -%}
+                        {%- endif -%}
+
+
+                        {% assign references = "" | split: "" %}
+                        {% if project.references %}
+                            {% if project.references | first %}
+                                {% for reference in project.references %}
+                                    {% assign references = references | push: reference %}
+                                {% endfor %}
+                            {% else %}
+                                {% assign references = references | push: project.references %}
+                            {% endif %}
+                        {% endif %}
+
+                        {%- assign referencesString = nil -%}
+                        {%- if references.size > 0 -%}
+                            {% capture referencesString %}
+                                <p style="margin-bottom: 5px;"><b>References:</b></p>
+                                <ol style="margin-top: 0px;">
+                                {% for reference in references %}
+                                    <li>{{ reference }}</li>
+                                {% endfor %}
+                                </ol>
+                            {% endcapture %}
+                        {%- endif -%}
+
+
+                        <div class="university-project">
+                            {% assign id = project.title | downcase | replace: " ", "-" %}
+                            <h2 id="{{ id }}" class="in-toc">
+                                {{ project.title }}
+                                <span class="tooltip no-toc">
+                                    {% if project.available %}
+                                        {% if project.available == "N" %}
+                                            <span class="dot dot-red"></span>
+                                            <span class="tooltip-text">Not available</span>
+                                        {% elsif project.available == "Y" %}
+                                            <span class="dot dot-green"></span>
+                                            <span class="tooltip-text">Available</span>
+                                        {% elsif project.available == "US" %}
+                                            <span class="dot dot-orange"></span>
+                                            <span class="tooltip-text">Under selection</span>
+                                        {% endif %}
+                                    {% endif %}
+                                </span>
+                            </h2>
+                            {% if project.published %}<p><b>Published on:</b> {{ project.published | date: "%B %e, %Y" }}</p>{% endif %}
+                            {% if project.description %}
+                                <div class="description">
+                                    <p><b>Description:</b></p>
+                                    {{ descriptionString }}
+                                </div>
+                            {% endif %}
+                            {% if project.level %}<p><b>Level:</b> {{ project.level }}</p>{% endif %}
+                            {% if supervisorsString %}<p><b>Supervisor{% if supervisorsFromId.size > 1 %}s{% endif %}:</b> {{ supervisorsString }}</p>{% endif %}
+                            {% if cosupervisorsString %}<p><b>Co-supervisor{% if cosupervisorsFromId.size > 1 %}s{% endif %}:</b> {{ cosupervisorsString }}</p>{% endif %}
+                            {% if project.timeFrame %}<p><b>Time frame:</b> {{ project.timeFrame }}</p>{% endif %}
+                            {% if project.prerequisites %}{{ prerequisitesString }}{% endif %}
+                            {% if project.objectives %}{{ objectivesString }}{% endif %}
+                            {% if project.topics %}<p><b>Topic{% if topics.size > 1 %}s{% endif %}:</b> {{ topicsString }}</p>{% endif %}
+                            {% if project.notes %}<p><b>Notes:</b> {{ project.notes }}</p>{% endif %}
+                            {% if project.references %}{{ referencesString }}{% endif %}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+    {% endfor %}
 {% endif %}
