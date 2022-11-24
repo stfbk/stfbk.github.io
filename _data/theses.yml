@@ -660,3 +660,36 @@
     - BiniamFissehaDemissie
   year: 2022
   institution: University of Trento
+
+- id: SofiaZanrosso_B
+  title: Enlarging the Pen-Test Coverage of SAML Single Sign-On Solutions with Cyber Threat Intelligence
+  type: B
+  author: SofiaZanrosso
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
+  year: 2022
+  institution: University of Trento
+
+- id: EleonoraMarchesini_B
+  title: "Design and Implementation of a Cybersecurity Chatbot for Identity Management Protocols: the SAML and Slack Use Case"
+  type: B
+  author: EleonoraMarchesini
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
+  year: 2022
+  institution: University of Trento
+
+- id: MatteoBitussi_B
+  title: "Declarative Specification of Pentesting Strategies for Browser-based Security Protocols: the Case Studies of SAML and OAuth/OIDC"
+  type: B
+  author: EleonoraMarchesini
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
+  year: 2022
+  institution: University of Trento
