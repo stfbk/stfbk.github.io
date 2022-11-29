@@ -672,9 +672,9 @@
   year: 2022
   institution: University of Trento
 
-- id: EleonoraMarchesini_B
+- id: EleonoraMarchesini_M
   title: "Design and Implementation of a Cybersecurity Chatbot for Identity Management Protocols: the SAML and Slack Use Case"
-  type: B
+  type: M
   author: EleonoraMarchesini
   supervisor: SilvioRanise
   co-supervisor:
