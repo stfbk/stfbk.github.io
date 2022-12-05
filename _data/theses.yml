@@ -693,3 +693,15 @@
     - RobertoCarbone
   year: 2022
   institution: University of Trento
+
+- id: MajidMollaeefar_P
+  title: "Automating the Quantification and Mitigation of Risks for Multiple Stakeholders"
+  type: P
+  author: MajidMollaeefar
+  abstract: >
+    Cybersecurity risk management consists of several steps including the selection of appropriate controls to minimize risks. This is a difficult task that requires searching through all possible subsets of a set of available controls and identifying those that minimize the risks of all stakeholders. Since stakeholders may have different perceptions of the risks (especially when considering the impact of threats), conflicting goals may arise that require finding the best possible trade-offs among the various needs such as costs and expertise needed to deploy controls. The ability to tackle this kind of problem is particularly relevant when considering privacy provisions deriving from national or international regulations (such as the General Data Protection Regulation, GDPR) whereby the organization offering a data processing activity should reduce the user’s risk to an acceptable level while controlling costs and other business goals. In this context, being able to compute the subsets of controls that minimize the risks of both the organization of the system and its users is a necessary prerequisite to identify the most appropriate configuration of the controls that offer the best possible trade-off among the various objectives. The thesis proposes a quantitative and (semi)-automated approach to solve this problem based on the well-known notion of Pareto optimality. First, we describe a methodology to semi-automatically assist stakeholders in defining their objectives that measures how much risks are reduced by adopting a certain configuration of mitigation controls. Second, we define a decidable multi-objective optimization problem (based on the objectives previously identified)—called Multi-Stakeholder Risk Minimization Problem (MSRMP)—whose Pareto optimal solutions are the subsets of the controls for which no stakeholder’s risk can be further reduced without increasing the risk of at least one of the other stakeholders. Third, we validate our approach by showing how a prototype tool based on it can assist in the Data Protection Impact Assessment mandated by the General Data Protection Regulation on different use case scenarios. Lastly, we evaluate the scalability of the approach by conducting an experimental evaluation.
+  supervisor:
+    - SilvioRanise
+  year: 2022
+  cycle: XXXIV
+  institution: University of Genoa

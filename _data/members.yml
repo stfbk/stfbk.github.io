@@ -94,6 +94,11 @@ former:
       yearFrom: 2019
       yearTo: 2022
 
+    - personId: MajidMollaeefar
+      formerRole: Researcher
+      yearFrom: 2022
+      yearTo: 2022
+
   phdStudents:
     - personId: FedericoSinigaglia
       thesisId: FedericoSinigaglia_P
@@ -130,6 +135,9 @@ former:
 
     - personId: SalimehDashti
       thesisId: SalimehDashti_P
+
+    - personId: MajidMollaeefar
+      thesisId: MajidMollaeefar_P
   
   students:
     - personId: MarcoPernpruner
