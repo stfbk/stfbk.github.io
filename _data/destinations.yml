@@ -34,6 +34,12 @@
   acronym: TOPS
   url: https://tops.acm.org/
   type: journal
+  
+- id: MDPI-applsci
+  name: MDPI Journal of Applied Science
+  acronym: APPLSCI
+  url: https://www.mdpi.com/journal/applsci
+  type: journal
 
 # ONLINE
 - id: ICTSecurityMagazine
