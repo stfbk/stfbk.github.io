@@ -14,9 +14,13 @@ publications:
     - RTSI2016
     - SECRYPT2016
     - COSE2017
-    - ETAA2020_OIDC- DBSec2021
+    - SECRYPT2019_SSO
+    - ETAA2020_OIDC
+    - DBSec2021
     - JISA2021
     - ETAA2021_MIG
+    - FARES2022_EIDAS
+    - MDPI2022
 
 theses:
     - AmirSharif_P 
