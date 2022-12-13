@@ -15,7 +15,8 @@ publications:
     - DBSec2021
     - SECRYPT2021
     - JISA2021
-    - FARES2022
+    - FARES2022_EIDAS
+    - MDPI2022
     - MicroIDGym_2019
     - DETIPS2020
     - ETAA2020_MIG
