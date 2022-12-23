@@ -375,11 +375,6 @@
 - id: MajidMollaeefar
   name: Majid
   surname: Mollaeefar
-  affiliations:
-    - role: Researcher
-      institution: V-Research
-      place: Verona, Italy
-  email: mmollaeefar@fbk.eu
 
 - id: MarcoCentenaro
   name: Marco
