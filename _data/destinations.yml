@@ -41,6 +41,12 @@
   url: https://www.mdpi.com/journal/applsci
   type: journal
 
+- id: JOWUA
+  name:  Journal of Wireless Mobile Networks, Ubiquitous Computing, and Dependable Applications
+  acronym: JoWUA
+  url: https://jowua.com
+  type: journal
+
 # ONLINE
 - id: ICTSecurityMagazine
   name: ICT Security Magazine
