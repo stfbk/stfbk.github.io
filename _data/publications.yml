@@ -681,6 +681,15 @@
   doi: 10.1145/3508398.3511505
   urlNews: /news/2021/12/21/paper-accepted-at-codaspy-2022/
   
+- id: JOWUA2022
+  title: "Empirical Validation on the Usability of Security Reports for Patching TLS Misconfigurations: User- and Case-Studies on Actionable Mitigations"
+  authors: Salvatore Manfredi, Mariano Ceccato, Giada Sciarretta and Silvio Ranise
+  abstract: >
+    Several automated tools have been proposed to detect vulnerabilities. These tools are mainly evaluated in terms of their accuracy in detecting vulnerabilities, but the evaluation of their usability is commonly neglected. Usability of automated security tools is particularly crucial when dealing with problems of cryptographic protocols for which even small—apparently insignificant—changes in configuration can result in vulnerabilities that, if exploited, pave the way to attacks with dramatic consequences for the confidentiality and integrity of the exchanged messages. This becomes even more acute when considering such ubiquitous protocols as the one for Transport Layer Security (TLS for short). In this paper, we present the design and the lessons learned of a user study, meant to compare two different approaches when reporting misconfigurations. Results reveal that including contextualized actionable mitigations in security reports significantly impact the accuracy and the time needed to patch TLS vulnerabilities. We used these results to build an open-source tool called TLSAssistant, able to combine state-of-the-art analyzers with a report systems that generates actionable mitigations to assist the user. Finally, we report our experience in using TLSAssistant in two case studies conducted in a corporate environment.
+  destination: JOWUA
+  year: 2022
+  doi: 10.1145/3508398.3511505
+  
 - id: DBSEC2022
   title: "End-to-End Protection of IoT Communications Through Cryptographic Enforcement of Access Control Policies"
   authors: Stefano Berlato, Roberto Carbone, Umberto Morelli and Silvio Ranise
