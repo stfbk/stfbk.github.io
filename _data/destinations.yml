@@ -59,6 +59,10 @@
   url: https://nowpublishers.com/article/BookDetails/9781680836868
   type: book
 
+# UNIGE THESES
+- id: UNIGE
+  url: https://unige.it/it/
+
 # CONFERENCES/WORKSHOPS
 ## 2010
 - id: STM2010

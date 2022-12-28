@@ -765,6 +765,6 @@
         The strengths of the tool include its ability to generate actionable reports, containing accurate, concise information and code fragments that can be copied and pasted into the webserver configuration in order to mitigate the detected vulnerabilities;
     - the development of a methodology that can assist users in assessing the compliance of their systems against a single or multiple agency-issued security guidelines;
     - the application of TLSAssistant in a variety of corporate scenarios and projects, describing its impact and the lessons learned from its deployment. 
-  destination: UNIGE2023_MANFREDI
+  destination: UNIGE
   year: 2023
   urlComplementary: /complementary/UNIGE2023_MANFREDI
