@@ -1,5 +1,6 @@
 ---
 title: "Automated Assistance for Actionable Security: Security and Compliance of TLS Configurations"
+paper: UNIGE2023_MANFREDI
 
 people:
     - SalvatoreManfredi
