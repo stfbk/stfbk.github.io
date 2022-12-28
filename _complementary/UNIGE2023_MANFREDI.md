@@ -31,12 +31,12 @@ Administrators can take advantage of the availability of state-of-the-art tools,
 To assist system administrators and app developers with the crucial task of configurating their deployments, we contribute with:
 - a study of the state-of-the-art in terms of TLS analyzers capable of inspecting webservers' configuration, performing vulnerability detection and compliance analysis, with a focus on their features, limitations and application domains;
     
-- the design and development of~\tlsa, a modular and extendable framework that can assist system administrators and app developers in correctly configuring TLS deployments.
+- the design and development of TLSAssistant, a modular and extendable framework that can assist system administrators and app developers in correctly configuring TLS deployments.
     The strengths of the tool include its ability to generate actionable reports, containing accurate, concise information and code fragments that can be copied and pasted into the webserver configuration in order to mitigate the detected vulnerabilities;
 
 - the development of a methodology that can assist users in assessing the compliance of their systems against a single or multiple agency-issued security guidelines;
 
-- the application of~\tlsa~in a variety of corporate scenarios and projects, describing its impact and the lessons learned from its deployment. 
+- the application of TLSAssistant in a variety of corporate scenarios and projects, describing its impact and the lessons learned from its deployment. 
 
 
 

@@ -133,6 +133,9 @@ former:
 
     - personId: MajidMollaeefar
       thesisId: MajidMollaeefar_P
+
+    - personId: SalvatoreManfredi
+      thesisId: SalvatoreManfredi_P
   
   students:
     - personId: MarcoPernpruner
