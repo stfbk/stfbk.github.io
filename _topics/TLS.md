@@ -14,6 +14,7 @@ publications:
     - CPS4CIP2020_TLS
     - ETACS2021
     - CODASPY2022_TLSA2
+    - JOWUA2022
     - SACMAT2022_TLSA2
 
 theses:
