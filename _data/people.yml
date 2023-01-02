@@ -540,14 +540,10 @@
   name: Salvatore
   surname: Manfredi
   affiliations:
-    - role: PhD Student
+    - role: Researcher
       unit: Security & Trust
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-    - role: PhD Student
-      unit: DIBRIS
-      institution: University of Genoa
-      place: Genoa, Italy
   email: smanfredi@fbk.eu
 
 - id: SaverioTuretta
