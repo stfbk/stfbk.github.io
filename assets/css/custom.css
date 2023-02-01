@@ -462,6 +462,11 @@ section.page-top {
   counter-increment: list;
 }
 
-.university-projects-call h1 {
-  margin-bottom: 10px;
+.university-projects-call-header {
+  margin-bottom: 30px;
+}
+
+.university-projects-call-text {
+  border: 1px solid #c7c7c7;
+  padding: 10px;
 }
