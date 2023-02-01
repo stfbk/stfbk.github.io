@@ -461,3 +461,7 @@ section.page-top {
   content: "[" counter(list) "] ";
   counter-increment: list;
 }
+
+.university-projects-call h1 {
+  margin-bottom: 10px;
+}
