@@ -41,7 +41,7 @@
                             {% assign supervisorEmail = nil %}
                             {% if supervisor.email %}
                                 {% assign splitEmail = supervisor.email | split: '@' %}
-                                {% if splitEmail[1] == "fbk.eu" %}
+                                {% if splitEmail[1] == "fbk.eu" or splitEmail[1] == "futuroeconoscenza.it" %}
                                     {% assign supervisorEmail = supervisor.email %}
                                     {% assign supervisorString = supervisorString | append: ' (<a href=mailto:' | append: supervisorEmail | append: '>' | append: supervisorEmail | append: "</a>)" %}
                                 {% endif %}
@@ -77,7 +77,7 @@
                             {% assign cosupervisorEmail = nil %}
                             {% if cosupervisor.email %}
                                 {% assign splitEmail = cosupervisor.email | split: '@' %}
-                                {% if splitEmail[1] == "fbk.eu" %}
+                                {% if splitEmail[1] == "fbk.eu" or splitEmail[1] == "futuroeconoscenza.it" %}
                                     {% assign cosupervisorEmail = cosupervisor.email %}
                                     {% assign cosupervisorString = cosupervisorString | append: ' (<a href=mailto:' | append: cosupervisorEmail | append: '>' | append: cosupervisorEmail | append: "</a>)" %}
                                 {% endif %}
