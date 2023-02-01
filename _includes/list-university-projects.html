@@ -11,12 +11,18 @@
 {% if source.first.calls.size > 0 %}
     {% for call in source.first.calls %}
         <div class="university-projects-call">
-            {%- if call.title %}
-                <h1 id="{{ call.id }}" class="in-toc">{{ call.title }}</h1>
-            {%- else -%}
-                <h1 id="{{ call.id }}" class="in-toc">List of Projects</h1>
-            {%- endif -%}
-            {%- if call.text -%}<p>{{ call.text }}</p>{%- endif -%}
+            <div class="university-projects-call-header">
+                {%- if call.title %}
+                    <h1 id="{{ call.id }}" class="in-toc">{{ call.title }}</h1>
+                {%- else -%}
+                    <h1 id="{{ call.id }}" class="in-toc">List of Projects</h1>
+                {%- endif -%}
+                {%- if call.text -%}
+                    <div class="university-projects-call-text">
+                        <p>{{ call.text }}</p>
+                    </div>
+                {%- endif -%}
+            </div>
             {%- if call.projects.size > 0 -%}
                 <div class="university-projects">
                     {% for project in call.projects %}
