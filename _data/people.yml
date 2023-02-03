@@ -155,6 +155,17 @@
   email: emarchesini@fbk.eu
   website: ""
 
+- id: ElhamArshad
+  name: Elham
+  surname: Arshad
+  affiliations:
+    - role: Researcher
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: earshad@fbk.eu
+  website: ""
+
 - id: EmanueleViglianisi
   name: Emanuele
   surname: Viglianisi
@@ -272,6 +283,13 @@
 - id: GiuseppeAlessioSciumè
   name: Giuseppe Alessio
   surname: Sciumè
+  affiliations:
+    - role: Junior Researcher
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: gsciume@fbk.eu
+  website: ""
 
 - id: GiuseppeDeMarco
   name: Giuseppe
@@ -495,6 +513,17 @@
 - id: MojtabaEskandari
   name: Mojtaba
   surname: Eskandari
+
+- id: MuhammadImran
+  name: Muhammad
+  surname: Imran
+  affiliations:
+    - role: Researcher
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: mimran@fbk.eu
+  website: ""
 
 - id: NadiaMetoui
   name: Nadia
