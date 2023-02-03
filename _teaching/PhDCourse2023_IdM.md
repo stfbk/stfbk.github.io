@@ -1,5 +1,5 @@
 ---
-title: "Cryptography and Codes: enrollment, authentication, authorization, and all that"
+title: "Advances in Cryptography and Codes: enrollment, authentication, authorization, and all that"
 layout: page
 
 people:
@@ -18,7 +18,10 @@ publications:
 
 The course introduces the basic notions underlying the various aspects of digital identity management with a focus on a security-by-design approach complemented with the use of automated formal analysis techniques for security. First, it is explained why identity is the building block of any security strategy for current and future applications and services. Then, the various phases of the life cycle of digital identities are explained and the main security issues are highlighted. The interdependencies among the design and implementation choices performed in the various phases are also discussed.  Finally, solutions for enrollment and authentication are described together with threat models and the most important mitigation techniques.  During the various topics, the security goals and the security analysis problems are formalized so that automated analysis techniques based on constraint solving and model checking can be used to assist designers in the various phases of the development. Digital identity management solutions taken from the real world are considered to illustrate the various notions and techniques.
 
-**Period:** TBD (March-June 2023)
+**Period:** 
+- March 20, 22, 24, 27, 29, 31 (from 10:00 to 12:00 and from 14:00 to 16:00, CEST)
+- April 3 (from 10:00 to 12:00 CEST)
+- June 15, 22 (from 10:00 to 12:00, CEST) 
 
 **Duration**: 30 hours 
 
