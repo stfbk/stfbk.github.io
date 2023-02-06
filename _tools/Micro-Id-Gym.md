@@ -43,7 +43,7 @@ The Micro-Id-Gym Backend is used to recreate locally a sandbox as an instance of
 
 The Micro-Id-Gym Frontend consists of tools to support user pentesting activities on the System Under Test (SUT), namely a Proxy, a MIG Tool (MIG-T), and two tools called MSC Drawer and MSC STIX Visualizer. The SUT can be a sandbox or any IdM protocol available on Internet.
 
-<img class="image-centered" src="assets/Micro-Id-Gym/Scenario_DevSecOps.png" alt="current_architecture" />
+<img class="image-centered" src="assets/Micro-Id-Gym/micro-id-gym-architecture.png" alt="current_architecture" />
 
 ## Dashboard
 It is used to choose the IdM protocols as an IdP instance and one or more C instance(s) to deploy in the SUT, among the ones available. It is also used to configure some components of the Micro-Id-Gym Frontend.
