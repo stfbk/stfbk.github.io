@@ -45,7 +45,7 @@ The Micro-Id-Gym Frontend consists of tools to support user pentesting activitie
 
 <img class="image-centered" src="assets/Micro-Id-Gym/Scenario_DevSecOps.png" alt="current_architecture" />
 
-## MicroDashboard
+## Dashboard
 It is used to choose the IdM protocols as an IdP instance and one or more C instance(s) to deploy in the SUT, among the ones available. It is also used to configure some components of the Micro-Id-Gym Frontend.
 
 ## Micro-Id-Gym Backend
