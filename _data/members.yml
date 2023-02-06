@@ -33,6 +33,47 @@ current:
       institution: University of Trento
       yearFrom: 2022
       yearTo: 2022
+
+    - personId: AlessandroBiasi
+      type: B
+      topic: Attack patterns for Identity Management protocols
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2023
+
+    - personId: LuigiDellEva
+      type: B
+      topic: Attack patterns for Identity Management protocols
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2023
+
+    - personId: RobertaPeracchio
+      type: M
+      topic: "Dematerialization of documents: A Digital Travel Credential Case Study"
+      institution: University of Trento
+      yearFrom: 2023
+      yearTo: 2023
+
+    - personId: RiccardoGermenia
+      type: B
+      topic: Enhancing TLSAssistant analysis capabilities
+      institution: University of Trento
+      yearFrom: 2023
+      yearTo: 2023
+    - personId: MarioScuro
+      type: M
+      topic: Privacy enhancing technologies for digital identity
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2023
+
+    - personId: IonAndyDitu
+      type: B
+      topic: Trusted Execution Environments for Advanced Data Protection
+      institution: University of Trento
+      yearFrom: 2023
+      yearTo: 2023
       
 former:
   head:

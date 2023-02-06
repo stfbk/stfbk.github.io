@@ -35,6 +35,10 @@
   website: https://csec.it/people/alessandro_armando/
   image: https://csec.it/pics/alessandro-armando-2020.jpg
 
+- id: AlessandroBiasi
+  name: Alessandro
+  surname: Biasi
+
 - id: AlessandroColombo
   name: Alessandro
   surname: Colombo
@@ -314,6 +318,10 @@
 - id: HariSiswantoro
   name: Hari
   surname: Siswantoro
+
+- id: IonAndyDitu
+  name: Ion Andy
+  surname: Ditu
   
 - id: IvanMartini
   name: Ivan
@@ -390,6 +398,10 @@
   image: http://www.lucavigano.com/images/LucaVigano2-small.jpg
   website: https://www.kcl.ac.uk/people/luca-vigano
 
+- id: LuigiDellEva
+  name: Luigi
+  surname: Dell'Eva
+
 - id: MajidMollaeefar
   name: Majid
   surname: Mollaeefar
@@ -439,6 +451,10 @@
   email: mariano.ceccato@univr.it
   image: https://www.di.univr.it/documenti/Persona/foto/foto347921.jpg
   website: http://www.di.univr.it/?ent=persona&id=60574
+
+- id: MarioScuro
+  name: Mario
+  surname: Scuro
 
 - id: MartaArisi
   name: Marta
@@ -533,9 +549,17 @@
   name: Nicola
   surname: Casagrande
 
+- id: RiccardoGermenia
+  name: Riccardo
+  surname: Germenia
+
 - id: RiccardoTraverso
   name: Riccardo
   surname: Traverso
+
+- id: RobertaPeracchio
+  name: Roberta
+  surname: Peracchio
 
 - id: RobertoCarbone
   name: Roberto
