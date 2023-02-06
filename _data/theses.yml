@@ -686,7 +686,7 @@
 - id: MatteoBitussi_B
   title: "Declarative Specification of Pentesting Strategies for Browser-based Security Protocols: the Case Studies of SAML and OAuth/OIDC"
   type: B
-  author: EleonoraMarchesini
+  author: MatteoBitussi
   supervisor: SilvioRanise
   co-supervisor:
     - AndreaBisegna
