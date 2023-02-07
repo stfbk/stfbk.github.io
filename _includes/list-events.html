@@ -3,21 +3,30 @@
 {% endif %}
 
 {% if source.size > 0 %}
-<ul class="events">
     {% assign eventsFromId = "" | split: "" %}
     {% for event in source %}
         {% assign eventFromId = site.data.events | where: "id", event %}
+        {% assign eventFromIdLabel = site.data.events | where: "id", event.id %}
         {% if eventFromId.size == 1 %}
             {% assign eventsFromId = eventsFromId | concat: eventFromId %}
+        {% elsif eventFromIdLabel.size == 1 %}
+            {% assign eventsFromId = eventsFromId | concat: eventFromIdLabel %}
         {% endif %}
     {% endfor %}
-    {% assign eventsSorted = eventsFromId | sort: "year" | reverse %}
-    {%- for event in eventsSorted -%}
-        <li>
-            <b>{{ event.name }}</b>{% if event.acronym %} ({{ event.acronym }}){% endif %}<br />
-            {% if event.startDate != event.endDate %}From {{ event.startDate | date: "%B %e, %Y" }} to {{ event.endDate | date: "%B %e, %Y" }}{% else %}{{ event.startDate | date: "%B %e, %Y" }}{% endif %}
-            ({% if event.url %}<a href="{{ event.url }}">link</a>){% endif %}
+    {% assign eventsSorted = eventsFromId | sort: "startDate" | reverse %}
+
+    <div class="events">
+        <ul>
+            {%- for event in eventsSorted -%}
+                <li class="item event">
+                    <a href="{{ event.url }}"><b>{{ event.name }}</b></a>{% if event.acronym %} ({{ event.acronym }}){% endif %}, {% if event.startDate != event.endDate %}from {{ event.startDate | date: "%B %e, %Y" }} to {{ event.endDate | date: "%B %e, %Y" }}{% else %}{{ event.startDate | date: "%B %e, %Y" }}{% endif %}
+                    {% if event.description %}
+                    <ul class="description">
+                        <li>{{ event.description }}</li>
+                    </ul>
+                    {% endif %}
+                </li>
+            {% endfor %}
         </li>
-    {% endfor %}
-</ul>
+    </div>
 {% endif %}

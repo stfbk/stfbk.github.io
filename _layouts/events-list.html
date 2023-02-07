@@ -8,21 +8,24 @@ show_sidebar: false
     <div class="column is-12">
         {{ content }}
 
-        {% assign events = site.data.events | sort: "startDate" | reverse %}
+        {% assign todayDate = 'now' | date: '%Y-%m-%d' %}
+        {% assign currentEvents = site.data.events | where_exp: "event", "event.startDate <= todayDate" | where_exp: "event", "event.endDate >= todayDate" | sort: "startDate" | reverse %}
+        {% assign incomingEvents = site.data.events | where_exp: "event", "event.startDate > todayDate" | sort: "startDate" | reverse %}
+        {% assign pastEvents = site.data.events | where_exp: "event", "event.endDate < todayDate" | sort: "startDate" | reverse %}
+        
+        {% if currentEvents.size > 0 %}
+            <h1>Ongoing Events</h1>
+            {% include list-events.html source=currentEvents %}
+        {% endif %}        
 
-        <div class="events">
-            <ul>
-                {% for event in events %}
-                    <li class="item event">
-                        <a href="{{ event.url }}"><b>{{ event.name }}</b></a>{% if event.acronym %} ({{ event.acronym }}){% endif %}, {% if event.startDate != event.endDate %}from {{ event.startDate | date: "%B %e, %Y" }} to {{ event.endDate | date: "%B %e, %Y" }}{% else %}{{ event.startDate | date: "%B %e, %Y" }}{% endif %}
-                        {% if event.description %}
-                        <ul class="description">
-                            <li>{{ event.description }}</li>
-                        </ul>
-                        {% endif %}
-                    </li>
-                {% endfor %}
-            </li>
-        </div>
+        {% if incomingEvents.size > 0 %}
+            <h1>Incoming Events</h1>
+            {% include list-events.html source=incomingEvents %}
+        {% endif %}        
+
+        {% if pastEvents.size > 0 %}
+            <h1>Past Events</h1>
+            {% include list-events.html source=pastEvents %}
+        {% endif %}
     </div>
 </div>
