@@ -90,3 +90,12 @@
   endDate: "2022-09-30"
   description: CPS4CIP 2022 is the third workshop dedicated to cyber-physical security for protecting critical infrastructures that support finance, energy, health, air transport, communication, gas, and water.
   url: /events/CPS4CIP2022
+
+# 2023
+- id: SACMAT2023
+  name: 28th ACM Symposium on Access Control Models and Technologies
+  acronym: SACMAT 2023
+  startDate: "2023-06-07"
+  endDate: "2023-06-09"
+  description: The ACM Symposium on Access Control Models and Technologies (SACMAT) is the premier forum for the presentation of research results and experience reports on leading edge issues of access control, including models, systems, applications, and theory.
+  url: https://sacmat2023.fbk.eu
