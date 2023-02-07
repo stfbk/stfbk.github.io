@@ -10,7 +10,13 @@ show_sidebar: false
     </div>
 
     <div class="column is-12">
-        {% assign collaborations = site.data.collaborations | sort: "name" %}
-        {% include list-collaborations.html source=collaborations style="card" %}
+        {% assign currentCollaborations = site.data.collaborations | where_exp: "collaboration", "collaboration.endYear == nil" | sort: "name" %}
+        {% assign formerCollaborations = site.data.collaborations | where_exp: "collaboration", "collaboration.endYear != nil" | sort: "name" %}
+        
+        <h1>Active Collaborations</h1>
+        {% include list-collaborations.html source=currentCollaborations style="card" %}
+
+        <h1>Past Collaborations</h1>
+        {% include list-collaborations.html source=formerCollaborations style="card" %}
     </div>
 </div>
