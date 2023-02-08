@@ -11,9 +11,33 @@ layout: page
 	{% assign object = "thesis" %}
 	{% assign publicationFromId = site.data.theses | where: "id", page.thesis %}
 	{% if publicationFromId.size == 1 %}{% assign paper = publicationFromId[0] %}{% endif %}
-	{% assign authorId = paper.author %}
-    {% assign authorFromId = site.data.people | where: "id", authorId %}
-    {% assign authors = authorFromId[0]["name"] | append: " " | append: authorFromId[0]["surname"] %}
+	{% assign authors = paper.author %}
+{% endif %}
+
+{% assign authorsList = "" | split: "" %}
+{%- if authors -%}
+    {%- if authors.first -%}
+        {% for author in authors %}
+            {% assign authorFromId = site.data.people | where: "id", author %}
+            {% assign authorName = authorFromId[0]["name"] | append: " " | append: authorFromId[0]["surname"] %}
+            {%- assign authorsList = authorsList | push: authorName -%}
+        {% endfor %}
+    {% else %}
+        {% assign authorFromId = site.data.people | where: "id", authors %}
+        {% assign authorName = authorFromId[0]["name"] | append: " " | append: authorFromId[0]["surname"] %}
+        {%- assign authorsList = authorsList | push: authorName -%}
+    {% endif %}
+{%- endif -%}
+
+{%- if authorsList.size > 0 -%}
+    {%- assign authorsString = authorsList | join: ", " -%}
+{%- else -%}
+    {%- assign authorsString = nil -%}
+{%- endif -%}
+
+{% if paper.destination %}
+	{% assign destinationFromId = site.data.destinations | where: "id", paper.destination %}
+	{% if destinationFromId.size == 1 %}{% assign destination = destinationFromId[0] %}{% endif %}
 {% endif %}
 
 <div class="columns is-multiline">
@@ -21,7 +45,7 @@ layout: page
         This page contains complementary material related to the following {{ object }}:
         <ul>
             <li style="list-style: none;"><b>Title</b>: {{ paper.title }}</li>
-            <li style="list-style: none;"><b>Authors</b>: {{ authors }}</li>
+            <li style="list-style: none;"><b>Author{% if authorsList.size > 1 %}s{% endif %}</b>: {{ authorsString }}</li>
             {% if paper.doi %}<li style="list-style: none;"><b>DOI</b>: <a href="https://doi.org/{{ paper.doi }}">{{ paper.doi }}</a></li>{% endif %}
             {% if paper.url %}<li style="list-style: none;"><b>URL</b>: <a href="{{ paper.url }}">{{ paper.url }}</a></li>{% endif %}
             {% if paper.urlNews %}<li style="list-style: none;"><b>Acceptance News</b>: <a href="{{ paper.urlNews }}">Link</a></li>{% endif %}

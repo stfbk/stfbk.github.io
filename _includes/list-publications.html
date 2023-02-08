@@ -16,6 +16,27 @@
     {% endfor %}
     {% assign publicationsSorted = publicationsFromId | sort: "year" | reverse %}
     {%- for publication in publicationsSorted -%}
+        {% assign authors = "" | split: "" %}
+        {%- if publication.authors -%}
+            {%- if publication.authors | first -%}
+                {% for author in publication.authors %}
+                    {% assign authorFromId = site.data.people | where: "id", author %}
+                    {% assign authorName = authorFromId[0]["name"] | append: " " | append: authorFromId[0]["surname"] %}
+                    {%- assign authors = authors | push: authorName -%}
+                {% endfor %}
+            {% else %}
+                {% assign authorFromId = site.data.people | where: "id", publication.authors %}
+                {% assign authorName = authorFromId[0]["name"] | append: " " | append: authorFromId[0]["surname"] %}
+                {%- assign authors = authors | push: authorName -%}
+            {% endif %}
+        {%- endif -%}
+
+        {%- if authors.size > 0 -%}
+            {%- assign authorsString = authors | join: ", " -%}
+        {%- else -%}
+            {%- assign authorsString = nil -%}
+        {%- endif -%}
+
         {%- if publication.destination -%}
             {%- assign destinationFromId = site.data.destinations | where: "id", publication.destination -%}
             {%- if destinationFromId.size == 1 -%}
@@ -50,7 +71,7 @@
             {%- assign linksString = "" -%}
         {%- endif -%}
         <li>
-            {{ publication.authors }}<br />
+            {{ authorsString }}<br />
             <b>{{ publication.title }}</b><br />
             {{ destinationString }}{{ linksString }}
         </li>
