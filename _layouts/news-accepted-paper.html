@@ -22,14 +22,35 @@ layout: news
 
 The following paper{% if publicationsSorted.size > 1 %}s have{% else %} has{% endif %} been accepted at the {{ destination.name }}{% if destination.acronym %} ({% if destination.url %}<a href="{{ destination.url }}">{% endif %}{{ destination.acronym }}{% if destination.url %}</a>{% endif %}){% endif %}:
 {% for paper in publicationsSorted %}
-<ul>
-    <li{% if page.papers.size == 1 %} style="list-style: none;"{% endif %}><b>Title</b>: {{ paper.title }}</li>
-    <li style="list-style: none;"><b>Authors</b>: {{ paper.authors }}</li>
-    {% if paper.abstract %}<li style="list-style: none;"><b>Abstract</b>: {{ paper.abstract }}</li>{% endif %}
-    {% if paper.doi %}<li style="list-style: none;"><b>DOI</b>: <a href="https://doi.org/{{ paper.doi }}">{{ paper.doi }}</a></li>{% endif %}
-    {% if paper.url %}<li style="list-style: none;"><b>URL</b>: <a href="{{ paper.url }}">{{ paper.url }}</a></li>{% endif %}
-    {% if paper.urlComplementary %}<li style="list-style: none;"><b>Complementary Material</b>: <a href="{{ paper.urlComplementary }}">Link</a></li>{% endif %}
-</ul>
+	{% assign authorsList = "" | split: "" %}
+	{%- if paper.authors -%}
+		{%- if paper.authors.first -%}
+			{% for author in paper.authors %}
+				{% assign authorFromId = site.data.people | where: "id", author %}
+				{% assign authorName = authorFromId[0]["name"] | append: " " | append: authorFromId[0]["surname"] %}
+				{%- assign authorsList = authorsList | push: authorName -%}
+			{% endfor %}
+		{% else %}
+			{% assign authorFromId = site.data.people | where: "id", paper.authors %}
+			{% assign authorName = authorFromId[0]["name"] | append: " " | append: authorFromId[0]["surname"] %}
+			{%- assign authorsList = authorsList | push: authorName -%}
+		{% endif %}
+	{%- endif -%}
+
+	{%- if authorsList.size > 0 -%}
+		{%- assign authorsString = authorsList | join: ", " -%}
+	{%- else -%}
+		{%- assign authorsString = nil -%}
+	{%- endif -%}
+
+	<ul>
+		<li{% if page.papers.size == 1 %} style="list-style: none;"{% endif %}><b>Title</b>: {{ paper.title }}</li>
+		<li style="list-style: none;"><b>Author{% if authorList.size > 1 %}s{% endif %}</b>: {{ authorsString }}</li>
+		{% if paper.abstract %}<li style="list-style: none;"><b>Abstract</b>: {{ paper.abstract }}</li>{% endif %}
+		{% if paper.doi %}<li style="list-style: none;"><b>DOI</b>: <a href="https://doi.org/{{ paper.doi }}">{{ paper.doi }}</a></li>{% endif %}
+		{% if paper.url %}<li style="list-style: none;"><b>URL</b>: <a href="{{ paper.url }}">{{ paper.url }}</a></li>{% endif %}
+		{% if paper.urlComplementary %}<li style="list-style: none;"><b>Complementary Material</b>: <a href="{{ paper.urlComplementary }}">Link</a></li>{% endif %}
+	</ul>
 {% endfor %}
 
 {{ content }}
