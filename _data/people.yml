@@ -1,11 +1,10 @@
+- id: AchimBrucker
+  name: Achim D.
+  surname: Brucker
+
 - id: AdamJLee
   name: Adam J.
   surname: Lee
-  affiliations:
-    - role: Associate Dean for Academic Programs
-      unit: Computer Science Department
-      institution: University of Pittsburgh
-      place: Pittsburgh, United States
   email: adamlee@cs.pitt.edu
   website: https://people.cs.pitt.edu/~adamlee/
 
@@ -61,6 +60,10 @@
   name: Alessio
   surname: Coletta
 
+- id: AlessioMerlo
+  name: Alessio
+  surname: Merlo
+
 - id: AlessioValenza
   name: Alessio
   surname: Valenza
@@ -75,6 +78,10 @@
       place: Trento, Italy
   email: asharif@fbk.eu
 
+- id: AndersonSantanaDeOliveira
+  name: Anderson
+  surname: Santana de Oliveira
+
 - id: AndreaBisegna
   name: Andrea
   surname: Bisegna
@@ -84,6 +91,22 @@
   email: a.bisegna@futuroeconoscenza.it
   usernameFBK: a.bisegna
 
+- id: AndreaPalmieri
+  name: Andrea
+  surname: Palmieri
+
+- id: AndreaRanalli
+  name: Andrea
+  surname: Ranalli
+  
+- id: AndreaValenza
+  name: Andrea
+  surname: Valenza
+
+- id: AndreasHeiderAviet
+  name: Andreas
+  surname: Heider-Aviet
+
 - id: AnnibalePanichella
   name: Annibale
   surname: Panichella
@@ -92,6 +115,14 @@
       institution: Delft University of Technology
       place: Delft, The Netherlands
   website: https://apanichella.github.io/
+
+- id: AntoninoSabetta
+  name: Antonino
+  surname: Sabetta
+
+- id: AntonioSchizzerotto
+  name: Antonio
+  surname: Schizzerotto
 
 - id: AvinashSudhodanan
   name: Avinash
@@ -104,6 +135,18 @@
     - role: Senior Security Researcher
       institution: Technology Innovation Institute
       place: Abu Dhabi, United Arab Emirates
+
+- id: BrunoCrispo
+  name: Bruno
+  surname: Crispo
+
+- id: CarlaMerkleWestphall
+  name: Carla Merkle
+  surname: Westphall
+
+- id: CarlosBeckerWestphall
+  name: Carlos Becker
+  surname: Westphall
 
 - id: CarlottaTagliaro
   name: Carlotta
@@ -132,6 +175,14 @@
   name: Claudio
   surname: Grisenti
 
+- id: ClaudioPetrazzuolo
+  name: Claudio
+  surname: Petrazzuolo
+
+- id: ClausPahl
+  name: Claus
+  surname: Pahl
+
 - id: DamianoSartori
   name: Damiano
   surname: Sartori
@@ -144,9 +195,17 @@
   name: Daniele
   surname: Del Sale
 
+- id: DannyRoswinOllik
+  name: Danny Roswin
+  surname: Ollik
+
 - id: DavidePiva
   name: Davide
   surname: Piva
+
+- id: EdliraDushku
+  name: Edlira
+  surname: Dushku
 
 - id: EleonoraMarchesini
   name: Eleonora
@@ -183,13 +242,7 @@
 - id: EnricoCambiaso
   name: Enrico
   surname: Cambiaso
-  affiliations:
-    - role: Researcher
-      unit: IEIIT
-      institution: CNR
-      place: Genoa, Italy
   email: enrico.cambiaso@ieiit.cnr.it
-  image: https://www.cnr.it/peoplepublic/peoplepublic/index/profileimage/login/enrico.cambiaso
   website: https://www.cnr.it/people/enrico.cambiaso
 
 - id: EnricoDonatoni
@@ -200,6 +253,18 @@
   name: Enrico
   surname: Marconi
 
+- id: EyasuGetahunChekole
+  name: Eyasu Getahun
+  surname: Chekole
+
+- id: FabioMassacci
+  name: Fabio
+  surname: Massacci
+
+- id: FatihTurkmen
+  name: Fatih
+  surname: Turkmen
+
 - id: FedericoCucino
   name: Federico
   surname: Cucino
@@ -207,6 +272,10 @@
 - id: FedericoSinigaglia
   name: Federico
   surname: Sinigaglia
+
+- id: FrancescoAlberti
+  name: Francesco
+  surname: Alberti
 
 - id: FrancescoAntonioMarino
   name: Francesco Antonio
@@ -220,10 +289,6 @@
 - id: GabrieleCosta
   name: Gabriele
   surname: Costa
-  affiliations:
-    - unit: SysMA
-      institution: IMT School for Advanced Studies
-      place: Lucca, Italy
   website: https://www.imtlucca.it/it/gabriele.costa/
   email: gabriele.costa@imtlucca.it
 
@@ -251,12 +316,12 @@
 - id: GianfrancoBurzio
   name: Gianfranco
   surname: Burzio
-  affiliations:
-    - role: Automotive Safety & Security Advisor
-      institution: DriveSec
-      place: Torino, Italy
   email: gb@drivesec.com
   website: http://www.gianfrancoburzio.it/
+
+- id: GianlucaBocci
+  name: Gianluca
+  surname: Bocci
 
 - id: GianlucaSassetti
   name: Gianluca
@@ -299,21 +364,21 @@
   name: Giuseppe
   surname: De Marco
   email: giuseppe.demarco@teamdigitale.governo.it
-  url: https://www.linkedin.com/in/giuseppe-de-marco-bb054245/
+  website: https://www.linkedin.com/in/giuseppe-de-marco-bb054245/
 
 - id: GiuseppeFarandaCordella
   name: Giuseppe Faranda
   surname: Cordella
-  affiliations:
-    - role: Founder & CEO
-      institution: DriveSec
-      place: Torino, Italy
   email: gfc@drivesec.com
   website: http://www.gianfrancoburzio.it/
   
 - id: GiuseppeLamorgese
   name: Giuseppe
   surname: Lamorgese
+
+- id: HamidBerzegar
+  name: Hamid R.
+  surname: Berzegar
 
 - id: HariSiswantoro
   name: Hari
@@ -330,11 +395,6 @@
 - id: IvanVaccari
   name: Ivan
   surname: Vaccari
-  affiliations:
-    - role: PhD Student
-      unit: IEIIT
-      institution: CNR
-      place: Genoa, Italy
   email: ivan.vaccari@ieiit.cnr.it 
   image: https://www.cnr.it/peoplepublic/peoplepublic/index/profileimage/login/ivanvaccari
   website: https://www.cnr.it/people/ivanvaccari
@@ -343,11 +403,19 @@
   name: Ivan
   surname: Valentini
 
+- id: JerryDenHartog
+  name: Jerry
+  surname: Den Hartog
+
 - id: JosephHeenan
   name: Joseph
   surname: Heenan
   email: joseph@authlete.com
   website: https://www.linkedin.com/in/josephheenan/
+
+- id: KonradWrona
+  name: Konrad
+  surname: Wrona
 
 - id: LauraCristiano
   name: Laura
@@ -389,11 +457,6 @@
 - id: LucaViganò
   name: Luca
   surname: Viganò
-  affiliations:
-    - role: Professor
-      unit: Department of Informatics
-      institution: King's College London
-      place: London, UK
   email: luca.vigano@kcl.ac.uk
   image: http://www.lucavigano.com/images/LucaVigano2-small.jpg
   website: https://www.kcl.ac.uk/people/luca-vigano
@@ -402,6 +465,14 @@
   name: Luigi
   surname: Dell'Eva
 
+- id: LuigiMancini
+  name: Luigi V.
+  surname: Mancini
+
+- id: LwinKhinShar
+  name: Lwin Khin
+  surname: Shar
+
 - id: MajidMollaeefar
   name: Majid
   surname: Mollaeefar
@@ -409,11 +480,6 @@
 - id: MarcoCentenaro
   name: Marco
   surname: Centenaro
-  affiliations:
-    - role: Expert Researcher
-      unit: Smart Networks and Services
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
   email: mcentenaro@fbk.eu
 
 - id: MarcoPernpruner
@@ -471,11 +537,6 @@
 - id: MassimoMerro
   name: Massimo
   surname: Merro
-  affiliations:
-    - role: Full Professor
-      unit: Department of Computer Science
-      institution: University of Verona
-      place: Verona, Italy
   email: massimo.merro@univr.it
   image: https://www.di.univr.it/documenti//Persona/foto/foto450272.jpg
   website: https://www.di.univr.it/?ent=persona&id=201
@@ -491,6 +552,10 @@
   email: mbitussi@fbk.eu
   website: ""
 
+- id: MatteoGrasso
+  name: Matteo
+  surname: Grasso
+
 - id: MatteoLeonelli
   name: Matteo
   surname: Leonelli
@@ -498,6 +563,10 @@
 - id: MatteoLongato
   name: Matteo
   surname: Longato
+
+- id: MatteoRanzi
+  name: Matteo
+  surname: Ranzi
   
 - id: MatteoRizzi
   name: Matteo
@@ -509,6 +578,14 @@
       place: Trento, Italy
   email: mrizzi@fbk.eu
   website: ""
+  
+- id: MauroConti
+  name: Mauro
+  surname: Conti
+
+- id: MdMasoomRabbani
+  name: Md Masoom
+  surname: Rabbani
 
 - id: MicheleBezzi
   name: Michele
@@ -530,6 +607,10 @@
   name: Mojtaba
   surname: Eskandari
 
+- id: MorenoAmbrosin
+  name: Moreno
+  surname: Ambrosin
+
 - id: MuhammadImran
   name: Muhammad
   surname: Imran
@@ -541,6 +622,10 @@
   email: mimran@fbk.eu
   website: ""
 
+- id: NabilElIoini
+  name: Nabil
+  surname: El Ioini
+
 - id: NadiaMetoui
   name: Nadia
   surname: Metoui
@@ -549,9 +634,33 @@
   name: Nicola
   surname: Casagrande
 
+- id: NicolaZannone
+  name: Nicola
+  surname: Zannone
+
+- id: NicolasDolgin
+  name: Nicolas
+  surname: Dolgin
+
+- id: PallaviKaliyar
+  name: Pallavi
+  surname: Kaliyar
+
+- id: PaoloGuarda
+  name: Paolo
+  surname: Guarda
+
+- id: PaoloPrem
+  name: Paolo
+  surname: Prem
+
 - id: RiccardoGermenia
   name: Riccardo
   surname: Germenia
+
+- id: RiccardoLazzaretti
+  name: Riccardo
+  surname: Lazzaretti
 
 - id: RiccardoTraverso
   name: Riccardo
@@ -580,6 +689,10 @@
   name: Roberto
   surname: Tiella
   email: tiella@fbk.eu
+
+- id: RoccoMammoliti
+  name: Rocco
+  surname: Mammoliti
   
 - id: RupertGobber
   name: Rupert
@@ -599,12 +712,16 @@
       place: Trento, Italy
   email: smanfredi@fbk.eu
 
+- id: SanderOudkerk
+  name: Sander
+  surname: Oudkerk
+
 - id: SaverioTuretta
   name: Saverio
   surname: Turetta
 
 - id: SerenaPonta
-  name: Serena
+  name: Serena Elisa
   surname: Ponta
 
 - id: SergiiKushch
@@ -614,6 +731,10 @@
     - role: Senior Research Fellow
       institution: University of Limerick
       place: Limerick, Ireland
+
+- id: SergioManuelNobregaGoncalves
+  name: Sergio Manuel
+  surname: Nóbrega Gonçalves
 
 - id: SilvioRanise
   name: Silvio
@@ -679,6 +800,10 @@
       place: Trento, Italy
   email: ahmad@fbk.eu
 
+- id: ThanhTungNguyen
+  name: Thanh-Tung
+  surname: Nguyen 
+
 - id: TuanAnhTruong
   name: Tuan Anh
   surname: Truong
@@ -703,6 +828,10 @@
 - id: ValentinaOdorizzi
   name: Valentina
   surname: Odorizzi
+
+- id: VanThanhLe
+  name: Van Thanh
+  surname: Le
 
 - id: VeronicaCristiano
   name: Veronica
