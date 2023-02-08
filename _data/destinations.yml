@@ -1,8 +1,18 @@
 # JOURNALS
+- id: AHN
+  name: Ad Hoc Networks
+  url: https://www.sciencedirect.com/journal/ad-hoc-networks
+  type: journal
+
 - id: COSE
   name: Computers & Security Journal
   acronym: COSE
   url: https://www.sciencedirect.com/journal/computers-and-security
+  type: journal
+
+- id: IJIS
+  name: International Journal of Information Security
+  url: https://www.springer.com/journal/10207
   type: journal
 
 - id: IJISC
@@ -23,10 +33,22 @@
   url: https://www.journals.elsevier.com/journal-of-information-security-and-applications
   type: journal
 
+- id: STTT
+  name: International Journal on Software Tools for Technology Transfer
+  acronym: STTT
+  url: https://www.springer.com/journal/10009
+  type: journal
+
 - id: T-ITS
   name: IEEE Transactions on Intelligent Transportation Systems
   acronym: T-ITS
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979
+  type: journal
+
+- id: TIFS
+  name: IEEE Transactions on Information Forensics and Security
+  acronym: TIFS
+  url: https://signalprocessingsociety.org/publications-resources/ieee-transactions-information-forensics-and-security
   type: journal
 
 - id: TOPS
@@ -42,9 +64,20 @@
   type: journal
 
 - id: JOWUA
-  name:  Journal of Wireless Mobile Networks, Ubiquitous Computing, and Dependable Applications
+  name: Journal of Wireless Mobile Networks, Ubiquitous Computing, and Dependable Applications
   acronym: JoWUA
   url: https://jowua.com
+  type: journal
+
+- id: TLDKS
+  name: Transactions on Large-Scale Data- and Knowledge-Centered Systems
+  acronym: TLDKS
+  url: https://www.springer.com/series/8637
+  type: journal
+
+- id: VTMagazine
+  name: IEEE Vehicular Technology Magazine
+  url: https://vtmagazine.ieee.org/
   type: journal
 
 # ONLINE
@@ -58,10 +91,6 @@
   name: "Cyber-Physical Threat Intelligence for Critical Infrastructures Security: A Guide to Integrated Cyber-Physical Protection of Modern Critical Infrastructures"
   url: https://nowpublishers.com/article/BookDetails/9781680836868
   type: book
-
-# UNIGE THESES
-- id: UNIGE
-  url: https://unige.it/it/
 
 # CONFERENCES/WORKSHOPS
 ## 2010
@@ -202,6 +231,14 @@
   startDate: "2015-06-13"
   endDate: "2015-06-15"
 
+- id: MIST2015
+  name: 7th ACM CCS International Workshop on Managing Insider Security Threats
+  acronym: MIST 2015
+  type: workshop
+  location: Denver, Colorado, US 
+  startDate: "2015-10-12"
+  endDate: "2015-10-16"
+
 - id: TaPP2015
   name: 7th International Workshop on Theory and Practice of Provenance
   acronym: TaPP 2015
@@ -230,6 +267,15 @@
   startDate: "2016-04-06"
   endDate: "2016-04-08"
 
+- id: FDSE2016
+  name: 3rd International Conference on Future Data and Security Engineering
+  acronym: FDSE 2016
+  url: http://www.cse.hcmut.edu.vn/fdse2016/
+  type: conference
+  location: Can Tho City, Vietnam
+  startDate: "2016-11-23"
+  endDate: "2016-11-25"
+
 - id: NDSS2016
   name: Network and Distributed System Security Symposium
   acronym: NDSS 2016
@@ -247,6 +293,15 @@
   startDate: "2016-09-07"
   endDate: "2016-09-09"
 
+- id: SACMAT2016
+  name: 21st ACM Symposium on Access Control Models And Technologies
+  acronym: SACMAT 2016
+  url: http://www.sacmat.org/2016/
+  type: conference
+  location: Shanghai, China
+  startDate: "2016-06-05"
+  endDate: "2016-06-08"
+
 - id: SECRYPT2016
   name: 13th International Conference on Security and Cryptography
   acronym: SECRYPT 2016
@@ -256,7 +311,25 @@
   startDate: "2016-07-26"
   endDate: "2016-07-28"
 
+- id: TACAS2016
+  name: 22nd International Conference on Tools and Algorithms for the Construction and Analysis of Systems
+  acronym: TACAS 2016
+  type: conference
+  location: Eindhoven, The Netherlands
+  startDate: "2016-04-02"
+  endDate: "2016-04-08"
+
 ## 2017
+- id: CODASPY2017
+  name: 7th ACM Conference on Data and Application Security and Privacy
+  proceedings: Proceedings of the Seventh ACM Conference on Data and Application Security and Privacy
+  acronym: CODASPY 2017
+  url: http://www.codaspy.org/2017/
+  type: conference
+  location: Scottsdale, Arizona, USA
+  startDate: "2017-03-22"
+  endDate: "2017-03-24"
+
 - id: EUROSP2017
   name: 2nd IEEE European Symposium on Security and Privacy
   acronym: EUROS&P 2017
@@ -285,7 +358,7 @@
   endDate: "2017-07-26"
 
 - id: SACMAT2017
-  name: 22th ACM Symposium on Access Control Models And Technologies
+  name: 22nd ACM Symposium on Access Control Models And Technologies
   acronym: SACMAT 2017
   type: conference
   location: Indianapolis, USA
@@ -301,16 +374,25 @@
   startDate: "2017-09-12"
   endDate: "2017-09-15"
 
-## 2018
-- id: SACMAT2018
-  name: 23th ACM Symposium on Access Control Models And Technologies
-  acronym: SACMAT 2018
-  url: http://www.sacmat.org/2018/
+- id: SEFM2017
+  name: 15th International Conference on Software Engineering and Formal Methods
+  acronym: SEFM 2017
+  url: https://sefm17.fbk.eu/
   type: conference
-  location: Indianapolis, USA
-  startDate: "2018-06-13"
-  endDate: "2018-06-15"
-  
+  location: Trento, Italy
+  startDate: "2017-09-04"
+  endDate: "2017-09-08"
+
+- id: WiSec2017
+  name: 10th ACM Conference on Security and Privacy in Wireless and Mobile Networks
+  acronym: WiSec 2017
+  url: https://wisec2017.ccs.neu.edu/
+  type: conference
+  location: Boston, Massachusetts, USA
+  startDate: "2017-07-18"
+  endDate: "2017-07-20"
+
+## 2018
 - id: FPS2018
   name: 11th International Symposium on Foundations & Practice of Security
   acronym: FPS 2018
@@ -319,6 +401,14 @@
   location: Montreal, Canada
   startDate: "2018-11-13"
   endDate: "2018-11-15"
+
+- id: PIM2018
+  name: 13th IFIP International Summer School on Privacy and Identity Management
+  proceedings: Privacy and Identity Management. Fairness, Accountability, and Transparency in the Age of Big Data
+  type: summer school
+  location: Vienna, Austria
+  startDate: "2018-08-20"
+  endDate: "2018-08-24"
 
 - id: POST2018
   name: 7th International Conference on Principles of Security and Trust
@@ -330,6 +420,24 @@
   startDate: "2018-04-14"
   endDate: "2018-04-20"
 
+- id: SACMAT2018
+  name: 23rd ACM Symposium on Access Control Models And Technologies
+  acronym: SACMAT 2018
+  url: http://www.sacmat.org/2018/
+  type: conference
+  location: Indianapolis, USA
+  startDate: "2018-06-13"
+  endDate: "2018-06-15"
+
+- id: SIoT2018
+  name: 7th International Workshop on Secure Internet of Things
+  acronym: SIoT 2018
+  url: https://ieeexplore.ieee.org/xpl/conhome/8892390/proceeding
+  type: workshop
+  location: Barcelona, Spain
+  startDate: "2018-09-06"
+  endDate: "2018-09-07"
+
 - id: SSPIM2018
   name: 13th International IFIP Summer School on Privacy and Identity Management
   url: https://www.etaps.org/2018/post
@@ -337,6 +445,15 @@
   location: Vienna, Austria
   startDate: "2018-08-22"
   endDate: "2018-08-22"
+
+- id: WiMob2018
+  name: 14th International Conference on Wireless and Mobile Computing, Networking and Communications
+  acronym: WiMob 2018
+  url: http://www.wimob.org/wimob2018/
+  type: conference
+  location: Limassol, Cyprus
+  startDate: "2018-10-15"
+  endDate: "2018-10-17"
 
 ## 2019
 - id: IEEESERVICES2019
@@ -376,6 +493,24 @@
   location: Toulouse, France
   startDate: "2019-11-05"
   endDate: "2019-11-07"
+
+- id: GCIoT2019
+  name: 2019 IEEE Global Conference on Internet of Things
+  acronym: GCIoT 2019
+  url: https://ieeexplore.ieee.org/xpl/conhome/9043328/proceeding
+  type: conference
+  location: Dubai, United Arab Emirates
+  startDate: "2019-12-04"
+  endDate: "2019-12-07"
+
+- id: IoTBDS2019
+  name: 4th International Conference on Internet of Things, Big Data and Security
+  acronym: IoTBDS 2019
+  url: https://iotbds.scitevents.org/?y=2019
+  type: conference
+  location: Heraklion, Crete, Greece
+  startDate: "2019-05-02"
+  endDate: "2019-05-04"
 
 - id: SECRYPT2019
   name: 16th International Conference on Security and Cryptography
@@ -565,7 +700,7 @@
 ## 2022  
 - id: CODASPY2022
   name: 12th ACM Conference on Data and Application Security and Privacy
-  proceedings: Proceedings of the Twelveth ACM Conference on Data and Application Security and Privacy
+  proceedings: Proceedings of the Twelfth ACM Conference on Data and Application Security and Privacy
   acronym: CODASPY 2022
   url: http://www.codaspy.org/2022/
   type: conference
