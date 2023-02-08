@@ -1,3 +1,4 @@
+{% assign sort = include.sort %}
 {% if include.source %}
     {% assign source = include.source %}
 {% endif %}
@@ -14,7 +15,17 @@
             {% assign publicationsFromId = publicationsFromId | concat: publicationFromIdLabel %}
         {% endif %}
     {% endfor %}
-    {% assign publicationsSorted = publicationsFromId | sort: "year" | reverse %}
+
+    {% if sort %}
+        {% if sort == "none" %}
+            {% assign publicationsSorted = publicationsFromId %}
+        {% else %}
+            {% assign publicationsSorted = publicationsFromId | sort_natural: sort %}
+        {% endif %}
+    {% else %}
+        {% assign publicationsSorted = publicationsFromId | sort: "year" | reverse %}
+    {% endif %}
+
     {%- for publication in publicationsSorted -%}
         {% assign authors = "" | split: "" %}
         {%- if publication.authors -%}
