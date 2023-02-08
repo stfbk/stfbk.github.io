@@ -3,21 +3,25 @@ layout: page
 ---
 
 {% if page.paper %}
-  {% assign publicationFromId = site.data.publications | where: "id", page.paper %}
-  {% if publicationFromId.size == 1 %}{% assign paper = publicationFromId[0] %}{% endif %}
-{% endif %}
-
-{% if paper.destination %}
-  {% assign destinationFromId = site.data.destinations | where: "id", paper.destination %}
-  {% if destinationFromId.size == 1 %}{% assign destination = destinationFromId[0] %}{% endif %}
+	{% assign object = "paper" %}
+	{% assign publicationFromId = site.data.publications | where: "id", page.paper %}
+	{% if publicationFromId.size == 1 %}{% assign paper = publicationFromId[0] %}{% endif %}
+	{% assign authors = paper.authors %}
+{% elsif page.thesis %}
+	{% assign object = "thesis" %}
+	{% assign publicationFromId = site.data.theses | where: "id", page.thesis %}
+	{% if publicationFromId.size == 1 %}{% assign paper = publicationFromId[0] %}{% endif %}
+	{% assign authorId = paper.author %}
+    {% assign authorFromId = site.data.people | where: "id", authorId %}
+    {% assign authors = authorFromId[0]["name"] | append: " " | append: authorFromId[0]["surname"] %}
 {% endif %}
 
 <div class="columns is-multiline">
     <div class="column is-12">
-        This page contains complementary material related to the following paper:
+        This page contains complementary material related to the following {{ object }}:
         <ul>
             <li style="list-style: none;"><b>Title</b>: {{ paper.title }}</li>
-            <li style="list-style: none;"><b>Authors</b>: {{ paper.authors }}</li>
+            <li style="list-style: none;"><b>Authors</b>: {{ authors }}</li>
             {% if paper.doi %}<li style="list-style: none;"><b>DOI</b>: <a href="https://doi.org/{{ paper.doi }}">{{ paper.doi }}</a></li>{% endif %}
             {% if paper.url %}<li style="list-style: none;"><b>URL</b>: <a href="{{ paper.url }}">{{ paper.url }}</a></li>{% endif %}
             {% if paper.urlNews %}<li style="list-style: none;"><b>Acceptance News</b>: <a href="{{ paper.urlNews }}">Link</a></li>{% endif %}
@@ -25,8 +29,8 @@ layout: page
     </div>
 
     <div class="column is-12">
-      <h1>Abstract</h1>
-      {{ paper.abstract }}
+        <h1>Abstract</h1>
+        {{ paper.abstract }}
   </div>
 
     <div class="column is-12">
