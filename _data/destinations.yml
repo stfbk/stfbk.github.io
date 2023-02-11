@@ -1,3 +1,5 @@
+# PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)
+
 # JOURNALS
 - id: AHN
   name: Ad Hoc Networks
@@ -8,6 +10,21 @@
   name: Computers & Security Journal
   acronym: COSE
   url: https://www.sciencedirect.com/journal/computers-and-security
+  type: journal
+
+- id: FMSD
+  name: Formal Methods in System Design 
+  url: https://www.springer.com/journal/10703
+  type: journal
+
+- id: IC
+  name: Information and Computation
+  url: https://www.sciencedirect.com/journal/information-and-computation
+  type: journal
+
+- id: IJFCS
+  name: International Journal of Foundations of Computer Science
+  url: https://www.worldscientific.com/worldscinet/ijfcs
   type: journal
 
 - id: IJIS
@@ -25,12 +42,52 @@
   name: Journal of Computer Security
   acronym: JCS
   url: https://www.iospress.nl/journal/journal-of-computer-security/
-  type: journal  
+  type: journal
+
+- id: JSC
+  name: Journal of Symbolic Computation
+  url: https://www.sciencedirect.com/journal/journal-of-symbolic-computation
+  type: journal
 
 - id: JISA
   name: Journal of Information Security and Applications
   acronym: JISA
   url: https://www.journals.elsevier.com/journal-of-information-security-and-applications
+  type: journal
+
+- id: JOWUA
+  name: Journal of Wireless Mobile Networks, Ubiquitous Computing, and Dependable Applications
+  acronym: JoWUA
+  url: https://jowua.com
+  type: journal
+
+- id: JSAT
+  name: Journal on Satisfiability, Boolean Modeling and Computation
+  acronym: JSAT
+  url: https://content.iospress.com/journals/journal-on-satisfiability-boolean-modeling-and-computation/
+  type: journal
+
+- id: LMCS
+  name: Logical Methods in Computer Science
+  acronym: LMCS
+  url: https://lmcs.episciences.org/
+  type: journal
+
+- id: MDPI-applsci
+  name: MDPI Journal of Applied Science
+  acronym: APPLSCI
+  url: https://www.mdpi.com/journal/applsci
+  type: journal
+
+- id: SCPE
+  name: "Scalable Computing: Practice and Experience"
+  acronym: SCPES
+  url: https://www.scpe.org/index.php/scpe/index
+  type: journal
+
+- id: SOCA
+  name: Service Oriented Computing and Applications
+  url: https://www.springer.com/journal/11761
   type: journal
 
 - id: STTT
@@ -51,28 +108,22 @@
   url: https://signalprocessingsociety.org/publications-resources/ieee-transactions-information-forensics-and-security
   type: journal
 
-- id: TOPS
-  name: ACM Transactions on Privacy and Security 
-  acronym: TOPS
-  url: https://tops.acm.org/
-  type: journal
-  
-- id: MDPI-applsci
-  name: MDPI Journal of Applied Science
-  acronym: APPLSCI
-  url: https://www.mdpi.com/journal/applsci
-  type: journal
-
-- id: JOWUA
-  name: Journal of Wireless Mobile Networks, Ubiquitous Computing, and Dependable Applications
-  acronym: JoWUA
-  url: https://jowua.com
-  type: journal
-
 - id: TLDKS
   name: Transactions on Large-Scale Data- and Knowledge-Centered Systems
   acronym: TLDKS
   url: https://www.springer.com/series/8637
+  type: journal
+
+- id: TOCL
+  name: ACM Transactions on Computational Logic 
+  acronym: TOCL
+  url: https://dl.acm.org/journal/tocl
+  type: journal
+
+- id: TOPS
+  name: ACM Transactions on Privacy and Security 
+  acronym: TOPS
+  url: https://tops.acm.org/
   type: journal
 
 - id: VTMagazine
@@ -94,6 +145,31 @@
 
 # CONFERENCES/WORKSHOPS
 ## 2010
+- id: DISC2010
+  name: 24th International Symposium on Distributed Computing
+  acronym: DISC 2010
+  type: conference
+  location: Cambridge, MA, USA
+  startDate: "2010-09-13"
+  endDate: "2010-09-15"
+
+- id: HVC2010
+  name: 6th International Haifa Verification Conference
+  acronym: HVC 2010
+  type: conference
+  location: Israel
+  startDate: "2010-10-04"
+  endDate: "2010-10-07"
+
+- id: IJCAR2010
+  name: 4th International Joint Conference on Automated Reasoning
+  acronym: IJCAR 2010
+  proceedings: Proceedings of the 4th International Joint Conference on Automated Reasoning (IJCAR 2010)
+  type: conference
+  location: Edinburgh, UK
+  startDate: "2010-07-16"
+  endDate: "2010-07-19"
+
 - id: STM2010
   name: 6th International Workshop on Security and Trust Management
   acronym: STM 2010
@@ -101,6 +177,14 @@
   location: Athens, Greece
   startDate: "2010-09-23"
   endDate: "2010-09-24"
+
+- id: SYNASC2010
+  name: 12th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing
+  acronym: SYNASC 2010
+  type: conference
+  location: Timisoara, Romania
+  startDate: "2010-09-23"
+  endDate: "2010-09-26"
 
 ## 2011
 - id: ASIACCS2011
@@ -119,7 +203,112 @@
   startDate: "2011-07-31"
   endDate: "2011-08-05"
 
+- id: FroCoS2011
+  name: 8th International Symposium on Frontiers of Combining Systems
+  acronym: FroCoS 2011
+  url: https://conferences.mpi-inf.mpg.de/frocos2011/
+  type: conference
+  location: Saarbrücken, Germany
+  startDate: "2011-10-05"
+  endDate: "2011-10-07"
+
+- id: ICSC2011
+  name: 2011 IEEE Fifth International Conference on Semantic Computing
+  acronym: ICSC 2011
+  type: conference
+  location: Palo Alto, California, USA
+  startDate: "2011-11-18"
+  endDate: "2011-11-21"
+
+- id: RP2011
+  name: 5th International Workshop on Reachability Problems
+  acronym: RP 2011
+  type: conference
+  location: Genoa, Italy
+  startDate: "2011-09-28"
+  endDate: "2011-09-30"
+
+- id: RTA2011
+  name: 22nd International Conference on Rewriting Techniques and Applications
+  acronym: RTA'11
+  url: http://www.rdp2011.uns.ac.rs/rta/
+  type: conference
+  location: Novi Sad, Serbia
+  startDate: "2011-05-30"
+  endDate: "2011-06-01"
+
+- id: STM2011
+  name: 7th International Workshop on Security and Trust Management
+  acronym: STM 2011
+  type: workshop
+  location: Copenhagen, Denmark
+  startDate: "2011-06-27"
+  endDate: "2011-06-28"
+
 ## 2012
+- id: CAV2012
+  name: 24th International Conference on Computer Aided Verification
+  acronym: CAV 2012
+  url: http://cav12.cs.illinois.edu/
+  type: conference
+  location: Berkeley, California, USA
+  startDate: "2012-07-07"
+  endDate: "2012-07-13"
+
+- id: CODASPY2012
+  name: 2nd ACM Conference on Data and Application Security and Privacy
+  proceedings: Proceedings of the Second ACM Conference on Data and Application Security and Privacy
+  acronym: CODASPY 2012
+  url: http://www.codaspy.org/2012/
+  type: conference
+  location: San Antonio, Texas, USA
+  startDate: "2012-02-07"
+  endDate: "2012-02-09"
+
+- id: DBSec2012
+  name: 26th Annual IFIP WG 11.3 Working Conference on Data and Applications Security and Privacy
+  acronym: DBSec 2012
+  type: conference
+  location: Paris, France
+  startDate: "2012-07-11"
+  endDate: "2012-07-13"
+
+- id: IJCAR2012
+  name: 6th International Joint Conference on Automated Reasoning
+  acronym: IJCAR 2012
+  proceedings: Proceedings of the 6th International Joint Conference on Automated Reasoning (IJCAR 2012)
+  type: conference
+  location: Manchester, UK
+  startDate: "2012-06-26"
+  endDate: "2012-06-29"
+
+- id: LPAR2012
+  name: 4th NASA Formal Methods Symposium
+  acronym: LPAR 2012
+  proceedings: Proceedings of the 18th International Conference on  Logic for Programming, Artificial Intelligence, and Reasoning (LPAR 2012)
+  type: conference
+  location: Merida, Venezuela
+  startDate: "2012-03-11"
+  endDate: "2012-03-15"
+
+- id: NFM2012
+  name: 4th NASA Formal Methods Symposium
+  acronym: NFM 2012
+  proceedings: Proceedings of the 4th NASA Formal Methods Symposium (NFM 2012)
+  type: conference
+  location: Norfolk, Virginia, USA
+  startDate: "2012-04-03"
+  endDate: "2012-04-05"
+
+- id: NSS2012
+  name: 6th International Conference on Network and System Security
+  acronym: NSS 2012
+  url: http://www.anss.org.au/nss2012/
+  type: conference
+  location: Wu Yi Shan, Fujian, China
+  startDate: "2012-11-21"
+  endDate: "2012-11-23"
+
 - id: STM2012
   name: 8th International Workshop on Security and Trust Management
   acronym: STM 2012
@@ -147,6 +336,15 @@
   location: Nancy, France
   startDate: "2013-09-18"
   endDate: "2013-09-20"
+
+- id: ICITST2013
+  name: 8th International Conference for Internet Technology and Secured Transactions
+  acronym: ICITST 2013
+  proceedings: Proceedings of the 8th International Conference for Internet Technology and Secured Transactions
+  type: conference
+  location: London, UK
+  startDate: "2013-12-09"
+  endDate: "2013-12-12"
 
 - id: SACMAT2013
   name: 18th ACM Symposium on Access Control Models and Technologies
@@ -191,8 +389,8 @@
   url: http://www.sacmat.org/2014/index.php
   type: conference
   location: Newark, NJ, USA
-  startDate: "2012-06-20"
-  endDate: "2012-06-22"
+  startDate: "2014-06-20"
+  endDate: "2014-06-22"
 
 - id: SmartGridSec14
   name: Second Open EIT ICT Labs Workshop on Smart Grid Security
@@ -202,6 +400,15 @@
   location: Munich, Germany
   startDate: "2014-02-26"
   endDate: "2014-02-26"
+  
+- id: STM2014
+  name: 10th International Workshop on Security and Trust Management
+  acronym: STM 2014
+  url: https://stm14.uni.lu/
+  type: workshop
+  location: Wroclaw, Poland
+  startDate: "2014-09-10"
+  endDate: "2014-09-11"
 
 - id: TACAS2014
   name: 20th International Conference on Tools and Algorithms for the Construction and Analysis of Systems
@@ -222,6 +429,15 @@
   startDate: "2015-04-14"
   endDate: "2015-04-17"
 
+- id: CNS2015
+  name: 2015 IEEE Conference on Communications and Network Security
+  acronym: CNS
+  url: https://cns2015.ieee-cns.org/
+  type: conference
+  location: Florence, Italy
+  startDate: "2015-09-28"
+  endDate: "2015-09-30"
+
 - id: DBSec2015
   name: 29th Annual IFIP WG 11.3 Working Conference on Data and Applications Security and Privacy
   acronym: DBSec 2015
@@ -238,6 +454,54 @@
   location: Denver, Colorado, US 
   startDate: "2015-10-12"
   endDate: "2015-10-16"
+
+- id: POST2015
+  name: 4th International Conference on Principles of Security and Trust
+  proceedings: Principles of Security and Trust
+  acronym: POST 2015
+  type: conference
+  location: London, UK
+  startDate: "2015-04-11"
+  endDate: "2015-04-18"
+
+- id: SAC2015
+  name: 30th Annual ACM Symposium on Applied Computing
+  acronym: SAC 2015
+  proceedings: Proceedings of the 30th Annual ACM Symposium on Applied Computing
+  url: https://www.sigapp.org/sac/sac2015/
+  type: conference
+  location: Salamanca, Spain
+  startDate: "2015-04-13"
+  endDate: "2015-04-17"
+
+- id: SACMAT2015
+  name: 20th ACM Symposium on Access Control Models and Technologies
+  acronym: SACMAT 2015
+  proceedings: Proceedings of the 20th ACM Symposium on Access Control Models and Technologies (SACMAT 2015)
+  url: http://www.sacmat.org/2015/
+  type: conference
+  location: Vienna, Austria
+  startDate: "2015-06-01"
+  endDate: "2015-06-03"
+
+- id: SECRYPT2015
+  name: 12th International Conference on Security and Cryptography
+  acronym: SECRYPT 2015
+  proceedings: Proceedings of the 12th International Conference on Security and Cryptography
+  url: https://secrypt.scitevents.org/?y=2015
+  type: conference
+  location: Colmar, France
+  startDate: "2015-07-20"
+  endDate: "2015-07-22"
+
+- id: STM2015
+  name: 11th International Workshop on Security and Trust Management
+  acronym: STM 2015
+  url: http://stm2015.di.unimi.it/
+  type: workshop
+  location: Vienna, Austria
+  startDate: "2015-09-21"
+  endDate: "2015-09-22"
 
 - id: TaPP2015
   name: 7th International Workshop on Theory and Practice of Provenance
@@ -348,15 +612,6 @@
   startDate: "2017-05-29"
   endDate: "2017-05-31"
 
-- id: SECRYPT2017
-  name: 14th International Conference on Security and Cryptography
-  acronym: SECRYPT 2017
-  url: http://www.secrypt.org/?y=2017
-  type: conference
-  location: Madrid, Spain
-  startDate: "2017-07-24"
-  endDate: "2017-07-26"
-
 - id: SACMAT2017
   name: 22nd ACM Symposium on Access Control Models And Technologies
   acronym: SACMAT 2017
@@ -373,6 +628,15 @@
   location: Trento, Italy
   startDate: "2017-09-12"
   endDate: "2017-09-15"
+
+- id: SECRYPT2017
+  name: 14th International Conference on Security and Cryptography
+  acronym: SECRYPT 2017
+  url: http://www.secrypt.org/?y=2017
+  type: conference
+  location: Madrid, Spain
+  startDate: "2017-07-24"
+  endDate: "2017-07-26"
 
 - id: SEFM2017
   name: 15th International Conference on Software Engineering and Formal Methods
@@ -456,15 +720,6 @@
   endDate: "2018-10-17"
 
 ## 2019
-- id: IEEESERVICES2019
-  name: IEEE SERVICES Workshop on Cyber Security & Resilience in the Internet of Things
-  acronym: IEEE SERVICES CSRIoT 2019
-  url: https://conferences.computer.org/services/2019/
-  type: workshop
-  location: Milan, Italy
-  startDate: "2019-07-08"
-  endDate: "2019-07-13"
-  
 - id: DBSec2019
   name: 33rd Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
   proceedings: Proceedings of the 33rd Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
@@ -502,6 +757,15 @@
   location: Dubai, United Arab Emirates
   startDate: "2019-12-04"
   endDate: "2019-12-07"
+
+- id: IEEESERVICES2019
+  name: IEEE SERVICES Workshop on Cyber Security & Resilience in the Internet of Things
+  acronym: IEEE SERVICES CSRIoT 2019
+  url: https://conferences.computer.org/services/2019/
+  type: workshop
+  location: Milan, Italy
+  startDate: "2019-07-08"
+  endDate: "2019-07-13"
 
 - id: IoTBDS2019
   name: 4th International Conference on Internet of Things, Big Data and Security
@@ -643,14 +907,14 @@
   startDate: "2021-07-19"
   endDate: "2021-07-20"
 
-- id: ICSE2021
-  name: 43rd Internation Conference on Software Engineering
-  acronym: ICSE 2021
-  url: https://conf.researchr.org/home/icse-2021
+- id: ETAA2021
+  name: 4th International Workshop on Emerging Technologies for Authorization and Authentication
+  acronym: ETAA2021
+  url: https://hosting.services.iit.cnr.it/etaa2021/
   type: conference
-  location: Virtual Event (originally in Madrid, Spain)
-  startDate: "2021-05-24"
-  endDate: "2021-05-28"
+  location: Virtual Event
+  startDate: "2021-10-8"
+  endDate: "2021-10-8"  
 
 - id: ETACS2021
   name: The 16th International Conference on Availability, Reliability and Security (ARES 2021)
@@ -660,6 +924,15 @@
   location: Virtual Event
   startDate: "2021-08-17"
   endDate: "2021-08-20"
+
+- id: ICSE2021
+  name: 43rd Internation Conference on Software Engineering
+  acronym: ICSE 2021
+  url: https://conf.researchr.org/home/icse-2021
+  type: conference
+  location: Virtual Event (originally in Madrid, Spain)
+  startDate: "2021-05-24"
+  endDate: "2021-05-28"
   
 - id: IOTSECFOR2021
   name: The 5th International Workshop on Security and Forensics of IoT
@@ -687,15 +960,6 @@
   location: Virtual Event
   startDate: "2021-09-05"
   endDate: "2021-09-11"
-  
-- id: ETAA2021
-  name: 4th International Workshop on Emerging Technologies for Authorization and Authentication
-  acronym: ETAA2021
-  url: https://hosting.services.iit.cnr.it/etaa2021/
-  type: conference
-  location: Virtual Event
-  startDate: "2021-10-8"
-  endDate: "2021-10-8"  
 
 ## 2022  
 - id: CODASPY2022
@@ -736,3 +1000,5 @@
   location: Virtual Event
   startDate: "2022-06-08"
   endDate: "2022-06-10"
+
+# PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)
