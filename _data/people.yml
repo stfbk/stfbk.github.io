@@ -1,3 +1,7 @@
+- id: AaronStump
+  name: Aaron
+  surname: Stump
+
 - id: AchimBrucker
   name: Achim D.
   surname: Brucker
@@ -11,6 +15,10 @@
 - id: AdrienBeaugendre
   name: Adrien
   surname: Beaugendre
+
+- id: AlbertoCalvi
+  name: Alberto
+  surname: Calvi
 
 - id: AlbertoSiena
   name: Alberto
@@ -37,6 +45,10 @@
 - id: AlessandroBiasi
   name: Alessandro
   surname: Biasi
+
+- id: AlessandroCarioni
+  name: Alessandro
+  surname: Carioni
 
 - id: AlessandroColombo
   name: Alessandro
@@ -163,13 +175,33 @@
   usernameFBK: c.pasquini
   website: https://sites.google.com/view/ceciliapasquini/home-page
 
+- id: CesareTinelli
+  name: Cesare
+  surname: Tinelli
+
 - id: ChaudhryMuhammadSuleman
   name: Chaudhry Muhammad
   surname: Suleman
 
+- id: ChiaraGhidini
+  name: Chiara
+  surname: Ghidini
+
+- id: ChristopheRingeissen
+  name: Christophe
+  surname: Ringeissen
+
+- id: ChristopherLynch
+  name: Christopher
+  surname: Lynch
+
 - id: ClaraBertolissi
   name: Clara
   surname: Bertolissi
+
+- id: ClarkBarrett
+  name: Clark
+  surname: Barrett
 
 - id: ClaudioGrisenti
   name: Claudio
@@ -203,9 +235,17 @@
   name: Davide
   surname: Piva
 
+- id: DucKhahnTran
+  name: Duc-Khahn
+  surname: Tran
+
 - id: EdliraDushku
   name: Edlira
   surname: Dushku
+
+- id: ElenaPagani
+  name: Elena
+  surname: Pagani
 
 - id: EleonoraMarchesini
   name: Eleonora
@@ -312,6 +352,8 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: g.sciarretta@fbk.eu
+  phone: "+390461312378"
+  personalPage: true
 
 - id: GianfrancoBurzio
   name: Gianfranco
@@ -326,6 +368,10 @@
 - id: GianlucaSassetti
   name: Gianluca
   surname: Sassetti
+
+- id: GianPaoloRossi
+  name: Gian Paolo
+  surname: Rossi
 
 - id: GiovanniFerronato
   name: Giovanni
@@ -426,6 +472,10 @@
   email: l.cristiano@futuroeconoscenza.it
   usernameFBK: l.cristiano
   
+- id: LeonardoDeMoura
+  name: Leonardo
+  surname: de Moura
+
 - id: LeonardoXompero
   name: Leonardo
   surname: Xompero
@@ -460,6 +510,10 @@
   email: luca.vigano@kcl.ac.uk
   image: http://www.lucavigano.com/images/LucaVigano2-small.jpg
   website: https://www.kcl.ac.uk/people/luca-vigano
+
+- id: LucaZanetti
+  name: Luca
+  surname: Zanetti
 
 - id: LuigiDellEva
   name: Luigi
@@ -496,6 +550,7 @@
       place: Genoa, Italy
   email: mpernpruner@fbk.eu
   phone: "+390461314337"
+  personalPage: true
   links:
     - name: ResearchGate
       value: Marco_Pernpruner
@@ -587,6 +642,10 @@
   name: Md Masoom
   surname: Rabbani
 
+- id: MicheleBarletta
+  name: Michele
+  surname: Barletta
+
 - id: MicheleBezzi
   name: Michele
   surname: Bezzi
@@ -630,6 +689,10 @@
   name: Nadia
   surname: Metoui
 
+- id: NatashaSharygina
+  name: Natasha
+  surname: Sharygina
+
 - id: NicolaCasagrande
   name: Nicola
   surname: Casagrande
@@ -654,6 +717,10 @@
   name: Paolo
   surname: Prem
 
+- id: RiccardoDeMasellis
+  name: Riccardo
+  surname: De Masellis
+
 - id: RiccardoGermenia
   name: Riccardo
   surname: Germenia
@@ -669,6 +736,10 @@
 - id: RobertaPeracchio
   name: Roberta
   surname: Peracchio
+
+- id: RobertaBruttomesso
+  name: Roberta
+  surname: Bruttomesso
 
 - id: RobertoCarbone
   name: Roberto
@@ -749,6 +820,10 @@
       institution: University of Trento
       place: Trento, Italy
   email: ranise@fbk.eu
+
+- id: SilvioGhilardi
+  name: Silvio
+  surname: Ghilardi
 
 - id: SofiaPuttin
   name: Sofia
@@ -844,6 +919,10 @@
 - id: WendyBarreto
   name: Wendy
   surname: Barreto
+
+- id: WorachetUttha
+  name: Worachet
+  surname: Uttha
 
 - id: ZahraEbadiAnsaroudi
   name: Zahra

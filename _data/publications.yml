@@ -1,4 +1,61 @@
+# PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
+
 ## 2010
+- id: DISC2010
+  id_iris: 21329
+  title: "Brief Announcement: Automated Support for the Design and Validation of Fault Tolerant Parameterized Systems - A Case Study"
+  authors:
+    - FrancescoAlberti
+    - SilvioGhilardi
+    - ElenaPagani
+    - SilvioRanise
+    - GianPaoloRossi
+  abstract: >
+    Background and motivations. Algorithms for ensuring fault tolerance are key ingredients in many applications such as avionics and networking. There is an increasing demand to integrate (formal) validation in the design process of these algorithms as they are often part of safety critical systems.When validation fails, the designer would benefit from tracking the sequence of events that led to an incorrect state to recover the error. To productively integrate formal verification in the design phase, tools should be able to return such error traces. Fault tolerant algorithms are often parametric, which makes their automated verification a daunting task. Indeed, checking that an algorithm satisfies a certain property requires to prove it for any number of processes.
+  destination: DISC2010
+  year: 2010
+  doi: 10.1007/978-3-642-15763-9_36
+
+- id: HVC2010
+  id_iris: 21635
+  title: Automated Symbolic Analysis of ARBAC Policies
+  authors:
+    - ClarkBarrett
+    - LeonardoDeMoura
+    - SilvioRanise
+    - AaronStump
+    - CesareTinelli
+  abstract: >
+    Satisfiability modulo theories (SMT) is a branch of automated reasoning that builds on advances in propositional satisfiability and on decision procedures for first-order reasoning. Its defining feature is the use of reasoning methods specific to logical theories of interest in target applications. Advances in SMT research and technology have led in the last few years to the development of very powerful satisfiability solvers and to an explosion of applications. SMT solvers are now used for processor verification, equivalence checking, bounded and unbounded model checking, predicate abstraction, static analysis, automated test case generation, extended static checking, scheduling and optimization. While the roots of SMT go back to work in the late 1970s and early 1980s on using decision procedures in formal methods, the field was born in the late 1990s with various independent attempts to harness the power of modern SAT solvers, reaching the current level of sophistication with the research and development advances of the last decade. Major enablers for these advances were SMT-LIB, a standardization and benchmark collection initiative supported by a large number of SMT researchers and users world-wide, and its offsprings: the SMT workshop, an international workshop bringing together SMT researchers and users of SMT applications or techniques; SMT-COMP, an international competition for SMT solvers supporting the SMT-LIB input format; and SMT-EXEC, a public execution service allowing researchers to configure and execute benchmarking experiments on SMT solvers.
+    This talk provides historical perspectives on the development of the field and on the SMT-LIB initiative and its offsprings. It highlights the initiative’s milestones and main achievements, and the role of the authors and other major contributors in it. It then concludes with a brief discussion of a few promising directions for future research in SMT.
+  destination: HVC2010
+  year: 2010
+  doi: 10.1007/978-3-642-19583-9_2
+
+- id: IJCAR2010
+  id_iris: 21309
+  title: "MCMT: A Model Checker Modulo Theories"
+  authors:
+    - SilvioGhilardi
+    - SilvioRanise
+  abstract: >
+    We describe mcmt, a fully declarative and deductive symbolic model checker for safety properties of infinite state systems whose state variables are arrays. Theories specify the properties of the indexes and the elements of the arrays. Sets of states and transitions of a system are described by quantified first-order formulae. The core of the system is a backward reachability procedure which symbolically computes pre-images of the set of unsafe states and checks for safety and fix-points by solving Satisfiability Modulo Theories (SMT) problems. Besides standard SMT techniques, efficient heuristics for quantifier instantiation, specifically tailored to model checking, are at the very heart of the system. mcmt has been successfully applied to the verification of imperative programs, parametrised, timed, and distributed systems.
+  destination: IJCAR2010
+  year: 2010
+  doi: 10.1007/978-3-642-14203-1_3
+
+- id: LMCS2010
+  id_iris: 50380
+  title: "Backward Reachability of Array-based Systems by SMT solving: Termination and Invariant Synthesis"
+  authors:
+    - SilvioGhilardi
+    - SilvioRanise
+  abstract: >
+    The safety of infinite state systems can be checked by a backward reachability procedure. For certain classes of systems, it is possible to prove the termination of the procedure and hence conclude the decidability of the safety problem. Although backward reachability is property-directed, it can unnecessarily explore (large) portions of the state space of a system which are not required to verify the safety property under consideration. To avoid this, invariants can be used to dramatically prune the search space. Indeed, the problem is to guess such appropriate invariants. In this paper, we present a fully declarative and symbolic approach to the mechanization of backward reachability of infinite state systems manipulating arrays by Satisfiability Modulo Theories solving. Theories are used to specify the topology and the data manipulated by the system. We identify sufficient conditions on the theories to ensure the termination of backward reachability and we show the completeness of a method for invariant synthesis (obtained as the dual of backward reachability), again, under suitable hypotheses on the theories. We also present a pragmatic approach to interleave invariant synthesis and backward reachability so that a fix-point for the set of backward reachable states is more easily obtained. Finally, we discuss heuristics that allow us to derive an implementation of the techniques in the model checker MCMT, showing remarkable speed-ups on a significant set of safety problems extracted from a variety of sources.
+  destination: LMCS
+  year: 2010
+  doi: 10.2168/LMCS-6(4:10)2010
+
 - id: STM2010
   id_iris: 21635
   title: Automated Symbolic Analysis of ARBAC Policies
@@ -10,6 +67,34 @@
   destination: STM2010
   year: 2010
   doi: 10.1007/978-3-642-22444-7_2
+
+- id: SYNASC2010
+  id_iris: 50391
+  title: "WSSMT: Towards the Automated Analysis of Security-Sensitive Services and Applications"
+  authors:
+    - MicheleBarletta
+    - AlbertoCalvi
+    - SilvioRanise
+    - LucaViganò
+    - LucaZanetti
+  abstract: >
+    The security of service-oriented applications is crucial in several contexts such as e-commerce or e-governance. The design, implementation, and deployment of this kind of services are often so complex that serious vulnerabilities remain even after extensive application of traditional validation techniques, such as testing. Given the importance of security-sensitive service applications, the development of techniques for their automated validation is growing. In this paper, we illustrate our formal framework to the specification and validation of security-sensitive applications structured in two levels: the workflow level (dealing with the control of flow and the manipulation of data) and the policy level (describing trust relationships and access control). In our framework, verification problems are reduced to logical problems whose decidability can be shown under suitable assumptions, which permit the validation of practically relevant classes of services. As a by-product, it is possible to re-use state-of-the-art theorem-proving technology to mechanize the verification process. This is the idea underlying our prototype validation tool WSSMT, "Web-Service (validation by) Satisfiability Modulo Theories'', which has been successfully used on two industrial case studies taken from the FP7 European project AVANTSSAR.
+  destination: SYNASC2010
+  year: 2010
+  doi: 10.1109/SYNASC.2010.74
+
+- id: SYNASC2010_Validation
+  id_iris: 50392
+  title: Automated Validation of Security-sensitive Web Services specified in BPEL and RBAC
+  authors:
+    - AlbertoCalvi
+    - SilvioRanise
+    - LucaViganò
+  abstract: >
+    We formalize automated analysis techniques for the validation of web services specified in BPEL and a RBAC variant tailored to BPEL. The idea is to use decidable fragments of first-order logic to describe the state space of a certain class of web services and then use state-of-the-art SMT solvers to handle their reach ability problems. To assess the practical viability of our approach, we have developed a prototype tool implementing our techniques and applied it to a digital contract signing service inspired by an industrial case study.
+  destination: SYNASC2010
+  year: 2010
+  doi: 10.1109/SYNASC.2010.75
 
 ## 2011
 - id: ASIACCS2011
@@ -38,7 +123,170 @@
   year: 2011
   doi: 10.1007/978-3-642-22438-6_4
 
+- id: FroCoS2011
+  id_iris: 50387
+  title: A Combination of Rewriting and Constraint Solving for the Quantifier-Free Interpolation of Arrays with Integer Difference Constraints
+  authors:
+    - RobertoBruttomesso
+    - SilvioGhilardi
+    - SilvioRanise
+  abstract: >
+    The use of interpolants in model checking is progressively gaining importance. The application of encodings based on the theory of arrays, however, is limited by the impossibility of deriving quantifier-free interpolants in general. To overcome this problem, we have recently proposed a quantifier-free interpolation solver for a natural variant of the theory of arrays. However, arrays are usually combined with fragments of arithmetic over indexes in applications, especially those related to software verification. In this paper, we propose a quantifier-free interpolation solver for the variant of arrays considered in previous work when combined with integer difference logic over indexes.
+  destination: FroCoS2011
+  year: 2011
+  doi: 10.1007/978-3-642-24364-6_8
+
+- id: IC2011
+  id_iris: 50382
+  title: Automatic Decidability and Combinability
+  authors:
+    - ChristopherLynch
+    - SilvioRanise
+    - ChristopheRingeissen
+    - DucKhahnTran
+  abstract: >
+    Verification problems can often be encoded as first-order validity or satisfiability problems. The availability of efficient automated theorem provers is a crucial pre-requisite for automating various verification tasks as well as their cooperation with specialized decision procedures for selected theories, such as Presburger Arithmetic. In this paper, we investigate how automated provers based on a form of equational reasoning, called paramodulation, can be used in verification tools. More precisely, given a theory T axiomatizing some data structure, we devise a procedure to answer the following questions. Is the satisfiability problem of T decidable by paramodulation? Can a procedure based on paramodulation for T be efficiently combined with other specialized procedures by using the Nelson–Oppen schema? Finally, if paramodulation decides the satisfiability problem of two theories, does it decide satisfiability in their union?
+    The procedure capable of answering all questions above is based on Schematic Saturation; an inference system capable of over-approximating the inferences of paramodulation when solving satisfiability problems in a given theory T. Clause schemas derived by Schematic Saturation describe all clauses derived by paramodulation so that the answers to the questions above are obtained by checking that only finitely many different clause schemas are derived or that certain clause schemas are not derived.
+  destination: IC
+  destinationAddon: Volume 209, Issue 7, July 2011, Pages 1026-1047
+  year: 2011
+  doi: 10.1016/j.ic.2011.03.005
+
+- id: ICSC2011
+  id_iris: 50388
+  title: "Automated analysis of semantic-aware access control policies: a logic-based approach"
+  authors:
+    - AlessandroArmando
+    - RobertoCarbone
+    - SilvioRanise
+  abstract: >
+    As the number and sophistication of on-line applications increase, there is a growing concern on how access to sensitive resources (e.g., personal health records) is regulated. Since ontologies can support the definition of fine-grained policies as well as the combination of heterogeneous policies, semantic technologies are expected to play an important role in this context. But understanding the implications of the access control policies of the needed complexity goes beyond the ability of a security administrator. Automatic support to the analysis of access control policies is therefore needed. In this paper we present an automatic analysis technique for access control policies that reduces the reach ability problem for access control policies to satisfiability problems in a decidable fragment of first-order logic for which efficient solvers exist. We illustrate the application of our technique on an access control model inspired by a Personal Health Application of real-world complexity.
+  destination: ICSC2011
+  year: 2011
+  doi: 10.1109/ICSC.2011.74
+
+- id: RP2011
+  id_iris: 50386
+  title: Automated Termination in Model Checking Modulo Theories
+  authors:
+    - AlessandroCarioni
+    - SilvioGhilardi
+    - SilvioRanise
+  abstract: >
+    We use a declarative SMT-based approach to model-checking of infinite state systems to design a procedure for automatically establishing the termination of backward reachability by using well-quasi-orderings. Besides showing that our procedure succeeds in many instances of problems covered by general termination results, we argue that it could predict termination also on single problems outside the scope of applicability of such general results.
+  destination: RP2011
+  year: 2011
+  doi: 10.1007/978-3-642-24288-5_11
+
+- id: RTA2011
+  id_iris: 50383
+  title: Rewriting-based Quantifier-free Interpolation for a Theory of Arrays
+  authors:
+    - RobertoBruttomesso
+    - SilvioGhilardi
+    - SilvioRanise
+  abstract: >
+    The use of interpolants in model checking is becoming an enabling technology to allow fast and robust verification of hardware and software. The application of encodings based on the theory of arrays, however, is limited by the impossibility of deriving quantifier-free interpolants in general. In this paper, we show that, with a minor extension to the theory of arrays, it is possible to obtain quantifier-free interpolants. We prove this by designing an interpolating procedure, based on solving equations between array updates. Rewriting techniques are used in the key steps of the solver and its proof of correctness. To the best of our knowledge, this is the first successful attempt of computing quantifier-free interpolants for a theory of arrays.
+  destination: RTA2011
+  year: 2011
+  doi: 10.4230/LIPIcs.RTA.2011.171
+
+- id: SCPE2011
+  id_iris: 50390
+  title: "Workflow and Access Control Reloaded: a Declarative Specification Framework for the Automated Analysis of Web Services"
+  authors:
+    - MicheleBarletta
+    - AlbertoCalvi
+    - SilvioRanise
+    - LucaViganò
+    - LucaZanetti
+  abstract: >
+    Web services supporting business and administrative transactions between several parties over the Internet are more and more widespread. Their development involves several security issues ranging from authentication to the management of the access to shared resources according to given business and legal models. The capability of validating designs against fast evolving requirements is of paramount importance for the adaptation of business and administrative models to changing regulations and rapidly evolving market needs. We present formal specification and analysis techniques that allow us to validate the designs of security-sensitive web services specified in the Business Process Execution Language and extensions of the Role-Based Access Control model. We also present a prototype tool, called \WSSMT{}, mechanizing our approach and describe our experience in using it on two industrial case studies, on in the e-business and one in the e-government area.
+  destination: SCPE
+  year: 2011
+  doi: 10.1007/s11761-010-0073-4
+
+- id: SOCA2011
+  id_iris: 50381
+  title: A declarative two-level framework to specify and verify workflow and authorization policies in service-oriented architectures
+  authors:
+    - MicheleBarletta
+    - SilvioRanise
+    - LucaViganò
+  abstract: >
+    The specification of distributed service-oriented applications spans several levels of abstraction, e.g., the protocol for exchanging messages, the set of interface functionalities, the types of the manipulated data, the workflow, the access policy, etc. Many (even executable) specification languages are available to describe each level in separation. However, these levels may interact in subtle ways (for example, the control flow may depend on the values of some data variables) so that a precise abstraction of the application amounts to more than the sum of its per level components. This problem is even more acute in the design phase when automated analysis techniques may greatly help the difficult task of building “correct” applications faced by designers. To alleviate this kind of problems, this paper introduces a framework for the formal specification and automated analysis of distributed service-oriented applications in two levels: one for the workflow and one for the authorization policies. The former allows one to precisely describe the control and data parts of an application with their mutual dependencies. The latter focuses on the specification of the criteria for granting or denying third-party applications the possibility to access shared resources or to execute certain interface functionalities. These levels can be seen as abstractions of one or of several levels of specification mentioned above. The novelty of our proposal is the possibility to unambiguously specify the—often subtle—interplay between the workflow and policy levels uniformly in the same framework. Additionally, our framework allows us to define and investigate verification problems for service-oriented applications (such as executability and invariant checking) and give sufficient conditions for their decidability. These results are non-trivial because their scope of applicability goes well beyond the case of finite state spaces allowing for applications manipulating variables ranging over infinite domains. As proof of concept, we show the suitability and flexibility of our approach on two quite different examples inspired by industrial case studies.
+  destination: SOCA
+  year: 2011
+  doi: 10.1007/s11761-010-0073-4
+
+- id: STM2011
+  id_iris: 50385
+  title: Automated Analysis of Infinite State Workflows with Access Control Policies
+  authors:
+    - AlessandroArmando
+    - SilvioRanise
+  abstract: >
+    Business processes are usually specified by workflows extended with access control policies. In previous works, automated techniques have been developed for the analysis of authorization constraints of workflows. One of main drawback of available approaches is that only a bounded number of workflow instances is considered and analyses are limited to consider intra-instance authorization constraints. Instead, in applications, several workflow instances execute concurrently, may synchronize, and be required to ensure inter-instance constraints. Performing an analysis by considering a finite but arbitrary number of workflow instances can give designers a higher confidence about the quality of their business process. In this paper, we propose an automated technique for the analysis of both intra- and inter-instance authorization constraints in workflow systems. We reduce the analysis problem to a model checking problem, parametric in the number of workflow instances, and identify a sub-class of workflow systems with a decidable analysis problem.
+  destination: STM2011
+  year: 2011
+  doi: 10.1007/978-3-642-29963-6_12
+
 ## 2012
+- id: CAV2012
+  id_iris: 101402
+  title: "SAFARI: SMT-Based Abstraction for Arrays with Interpolants"
+  authors:
+    - FrancescoAlberti
+    - RobertoBruttomesso
+    - SilvioGhilardi
+    - SilvioRanise
+    - NatashaSharygina
+  abstract: >
+    We present SAFARI, a model checker designed to prove (possibly universally quantified) safety properties of imperative programs with arrays of unknown length. SAFARI is based on an extension of lazy abstraction capable of handling existentially quantified formulæ for symbolically representing states. A heuristics, called term abstraction, favors the convergence of the tool by “tuning” interpolants and guessing additional quantified variables of invariants to prune the search space efficiently.
+  destination: CAV2012
+  year: 2012
+  doi: 10.1007/978-3-642-31424-7_49
+
+- id: CODASPY2012
+  id_iris: 101401
+  title: "Efficient run-time solving of RBAC user authorization queries: pushing the envelope"
+  authors:
+    - AlessandroArmando
+    - SilvioRanise
+    - FatihTurkmen
+    - BrunoCrispo
+  abstract: >
+    The User Authorization Query (UAQ) Problem for Role- Based Access Control (RBAC) amounts to determining a set of roles to be activated in a given session in order to achieve some permissions while satisfying a collection of authorization constraints governing the activation of roles. Techniques ranging from greedy algorithms to reduction to (variants of) the propositional satisfiability (SAT) problem have been used to tackle the UAQ problem. Unfortunately, available techniques su er two major limitations that seem to question their practical usability. On the one hand, authorization constraints over multiple sessions or histories are not considered. On the other hand, the experimental evaluations of the various techniques are not satisfactory since they do not seem to scale to larger RBAC policies.
+    In this paper, we describe a SAT-based technique to solve the UAQ problem which overcomes these limitations. First, we show how authorization constraints over multiple sessions and histories can be supported. Second, we carefully tune the reduction to the SAT problem so that most of the clauses need not to be generated at run-time but only in a pre-processing step. Finally, we present an extensive experimental evaluation of an implementation of our techniques on a significant set of UAQ problem instances that show the practical viability of our approach; e.g., problems with 300 roles are solved in less than a second.
+  destination: CODASPY2012
+  year: 2012
+  doi: 10.1145/2133601.2133631
+
+- id: DBSec2012
+  id_iris: 101206
+  title: Automated and Efficient Analysis of Role-Based Access Control with Attributes
+  authors:
+    - AlessandroArmando
+    - SilvioRanise
+  abstract: >
+    We consider an extension of the Role-Based Access Control model in which rules assign users to roles based on attributes. We consider an open (allow-by-default) policy approach in which rules can assign users negated roles thus preventing access to the permissions associated to the role. The problems of detecting redundancies and inconsistencies are formally stated. By expressing the conditions on the attributes in the rules with formulae of theories that can be efficiently decided by Satisfiability Modulo Theories (SMT) solvers, we characterize the decidability and complexity of the problems of detecting redundancies and inconsistencies. The proof of the result is constructive and based on an algorithm that repeatedly solves SMT problems. An experimental evaluation with synthetic benchmark problems shows the practical viability of our technique.
+  destination: DBSec2012
+  year: 2012
+  doi: 10.1007/978-3-642-31540-4_3
+
+- id: IJCAR2012
+  id_iris: 101205
+  title: From Strong Amalgamability to Modularity of Quantifier-Free Interpolation
+  authors:
+    - RobertoBruttomesso
+    - SilvioGhilardi
+    - SilvioRanise
+  abstract: >
+    The use of interpolants in verification is gaining more and more importance. Since theories used in applications are usually obtained as (disjoint) combinations of simpler theories, it is important to modularly re-use interpolation algorithms for the component theories. We show that a sufficient and necessary condition to do this for quantifier-free interpolation is that the component theories have the ‘strong (sub-)amalgamation’ property. Then, we provide an equivalent syntactic characterization, identify a sufficient condition, and design a combined quantifier-free interpolation algorithm handling both convex and non-convex theories, that subsumes and extends most existing work on combined interpolation.
+  destination: IJCAR2012
+  year: 2012
+  doi: 10.1007/978-3-642-31365-3_12
+
 - id: JCS2012
   id_iris: 121401
   title: Scalable automated symbolic analysis of administrative role-based access control policies by SMT solving
@@ -51,6 +299,89 @@
   destinationAddon: vol. 20, no. 4, pp. 309-352
   year: 2012
   doi: 10.3233/JCS-2012-0461
+
+- id: JSAT2012
+  id_iris: 101202
+  title: Universal Guards, Relativization of Quantifiers, and Failure Models in Model Checking Modulo Theories
+  authors:
+    - FrancescoAlberti
+    - SilvioGhilardi
+    - ElenaPagani
+    - SilvioRanise
+    - GianPaoloRossi
+  abstract: >
+    Model Checking Modulo Theories is a recent approach for the automated verification of safety properties of a class of infinite state systems manipulating arrays, called array-based systems. The idea is to repeatedly compute pre-images of a set of (unsafe) states by using certain classes of first-order formulae representing sets of states and transitions, and then reduce fix-point checks to Satisfiability Modulo Theories problems. Unfortunately, if the guards contain universally quantified index variables, the backward procedure cannot be fully automated. In this paper, we overcome the problem by describing a syntactic transformation on array-based systems, which can be seen as an instance of the well-known operation of relativization of quantifiers in first-order logic. Interestingly, when specifying and verifying distributed systems, the proposed syntactic transformation can be interpreted as the adoption of the crash-failure model, which is well-known in the literature of fault-tolerant systems. By eliminating universal quantifiers from guards, the transformation significantly extends the scope of applicability of the symbolic backward reachability procedure. To provide empirical evidence of this claim, we discuss our findings in applying the proposed technique to a significant case-study in the verification of some classical algorithms for reliable broadcast.
+  destination: JSAT
+  year: 2012
+  doi: 10.3233/SAT190087
+
+- id: JSC2012
+  id_iris: 50389
+  title: On the Verification of Security-Aware E-services
+  authors:
+    - SilvioRanise
+  abstract: >
+    Web services providing E-commerce capabilities to support business transactions over the Internet are more and more widespread. The development of such services involves several security issues ranging from authentication to the management of the access to shared resources according to a given business model. The capability of validating designs against fast evolving requirements is of paramount importance for the adaptation of business models to changing regulations and rapidly evolving market needs. So, techniques for the specification and automated analysis of web services to be used in security-sensitive applications are crucial in the development of these systems.
+    In this paper, we propose an extension of the relational transducers introduced by Abiteboul, Vianu, Fordham, and Yesha for the specification of the transaction protocols of web services and their security properties. We investigate the decidability of relevant verification problems such as goal reachability (for the validation of use-case scenarios) and log validation (for detecting frauds) and provide sufficient conditions for their decidability. The extension we propose is two-fold. First, we add constraints to specify the algebraic structure of the resources manipulated by the transducers. Second, recursion is allowed (only) in policy rules to express important policy idioms such as delegation. Technically, decidability is obtained by a reduction to a decidable class of first-order formulae and fix-point computation to handle recursion.
+  destination: JSC
+  destinationAddon: Volume 47, Issue 9
+  year: 2012
+  doi: 10.1016/j.jsc.2011.12.033
+
+- id: LMCS2012
+  id_iris: 101201
+  title: Quantifier-Free Interpolation of a Theory of Arrays
+  authors:
+    - RobertoBruttomesso
+    - SilvioGhilardi
+    - SilvioRanise
+  abstract: >
+    The use of interpolants in model checking is becoming an enabling technology to allow fast and robust verification of hardware and software. The application of encodings based on the theory of arrays, however, is limited by the impossibility of deriving quantifier- free interpolants in general. In this paper, we show that it is possible to obtain quantifier-free interpolants for a Skolemized version of the extensional theory of arrays. We prove this in two ways: (1) non-constructively, by using the model theoretic notion of amalgamation, which is known to be equivalent to admit quantifier-free interpolation for universal theories; and (2) constructively, by designing an interpolating procedure, based on solving equations between array updates. (Interestingly, rewriting techniques are used in the key steps of the solver and its proof of correctness.) To the best of our knowledge, this is the first successful attempt of computing quantifier- free interpolants for a variant of the theory of arrays with extensionality. 
+  destination: LMCS
+  destinationAddon: Volume 8, Issue 2
+  year: 2012
+  doi: 10.2168/LMCS-8(2:4)2012
+
+- id: LPAR2012
+  id_iris: 101204
+  title: Lazy Abstraction with Interpolants for Arrays
+  authors:
+    - FrancescoAlberti
+    - RobertoBruttomesso
+    - SilvioGhilardi
+    - SilvioRanise
+    - NatashaSharygina
+  abstract: >
+    Lazy abstraction with interpolants has been shown to be a powerful technique for verifying imperative programs. In presence of arrays, however, the method shows an intrinsic limitation, due to the fact that successful invariants usually contain universally quantified variables, which are not present in the program specification. In this work we present an extension of the interpolation-based lazy abstraction in which arrays of unknown length can be handled in a natural manner. In particular, we exploit the Model Checking Modulo Theories framework, to derive a backward reachability version of lazy abstraction that embeds array reasoning. The approach is generic, in that it is valid for both parameterized systems and imperative programs. We show by means of experiments that our approach can synthesize and prove universally quantified properties over arrays in a completely automatic fashion.
+  destination: LPAR
+  year: 2012
+  doi: 10.1007/978-3-642-28717-6_7
+
+- id: NFM2012
+  id_iris: 101203
+  title: Automated Analysis of Parametric Timing-Based Mutual Exclusion Algorithms
+  authors:
+    - RobertoBruttomesso
+    - AlessandroCarioni
+    - SilvioGhilardi
+    - SilvioRanise
+  abstract: >
+    Deadlock-free algorithms that ensure mutual exclusion crucially depend on timing assumptions. In this paper, we describe our experience in automatically verifying mutual-exclusion and deadlock-freedom of the Fischer and Lynch-Shavit algorithms, using the model checker modulo theories mcmt. First, we explain how to specify timing-based algorithms in the mcmt input language as symbolic transition systems. Then, we show how the tool can verify all the safety properties used by Lynch and Shavit to establish mutual-exclusion, regardless of the number of processes in the system. Finally, we verify deadlock-freedom by following a reduction to “safety problems with lemmata synthesis” and using acceleration to avoid divergence. We also show how to automatically synthesize the bounds on the waiting time of a process to enter the critical section.
+  destination: NFM2012
+  year: 2012
+  doi: 10.1007/978-3-642-28891-3_28
+
+- id: NSS2012
+  id_iris: 101403
+  title: "On the Automated Analysis of Safety in Usage Control: A New Decidability Result"
+  authors:
+    - SilvioRanise
+    - AlessandroArmando
+  abstract: >
+    We study the decidability of the safety problem in the usage control (UCON) model. After defining a formal model, we identify sufficient conditions for the decidability of the safety problem for UCON systems whose attributes are allowed to range over infinite domains and updates in one process may affect the state of another. Our result is a significant generalization of those available in the literature.
+  destination: NSS2012
+  year: 2012
+  doi: 10.1007/978-3-642-34601-9_2
 
 - id: STM2012
   id_iris: 101602
@@ -65,7 +396,31 @@
   year: 2012
   doi: 10.1007/978-3-642-38004-4_18
 
+- id: STM2012_DAC
+  id_iris: 101601
+  title: Automated Analysis of Scenario-based Specifications of Distributed Access Control Policies with Non-Mechanizable Activities
+  authors:
+    - MicheleBarletta
+    - SilvioRanise
+    - LucaViganò
+  abstract: >
+    The advance of web services technologies promises to have far-reaching effects on the Internet and enterprise networks allowing for greater accessibility of data. The security challenges presented by the web services approach are formidable. In particular, access control solutions should be revised to address new challenges, such as the need of using certificates for the identification of users and their attributes, human intervention in the creation or selection of the certificates, and (chains of) certificates for trust management. With all these features, it is not surprising that analyzing policies to guarantee that a sensitive resource can be accessed only by authorized users becomes very difficult. In this paper, we present an automated technique to analyze scenario-based specifications of access control policies in open and distributed systems. We illustrate our ideas on a case study arising in the e-government area.
+  destination: STM2012
+  year: 2012
+  doi: 10.1007/978-3-642-38004-4_4
+
 ## 2013
+- id: FMSD2013
+  id_iris: 180610
+  title: Symbolic backward reachability with effectively propositional logic
+  authors:
+    - SilvioRanise
+  abstract: >
+    We describe a symbolic procedure for solving the reachability problem of transition systems that use formulae of Effectively Propositional Logic to represent sets of backward reachable states. We discuss the key ideas for the mechanization of the procedure where fix-point checks are reduced to SMT problems. We also show the termination of the procedure on a sub-class of transition systems. Then, we discuss how reachability problems for this sub-class can be used to encode analysis problems of administrative policies in the Role-Based Access Control (RBAC) model that is one of the most widely adopted access control paradigms. An implementation of a refinement of the backward reachability procedure, called asasp, shows better flexibility and scalability than a state-of-the-art tool on a significant set of security problems.
+  destination: FMSD
+  year: 2013
+  doi: 10.1007/s10703-012-0157-1
+
 - id: FroCoS2013
   id_iris: 180614
   title: Verification of Composed Array-based Systems with Applications to Security-Aware Workflows
@@ -93,6 +448,31 @@
   year: 2013
   doi: 10.1007/978-3-319-05302-8_14
   urlNews: /news/2013/08/27/paper-accepted-at-fps2013/
+
+- id: ICITST2013
+  id_iris: 222616
+  title: A methodology to build run-time monitors for security-aware workflows
+  authors:
+    - ClaraBertolissi
+    - SilvioRanise
+  abstract: >
+    Run-time monitors are crucial to the development of workflow management systems, which are at the heart of several modern E-services. In this paper, we propose a new methodology to build run-time monitors capable of ensuring the successful termination of workflows subject to authorization constraints. The methodology is based on state-of-the-art Satisfiability Modulo Theories techniques.
+  destination: ICITST2013
+  year: 2013
+  doi: 10.1109/ICITST.2013.6750251
+
+- id: IJFCS2013
+  id_iris: 180611
+  title: Automated Termination in Model-Checking Modulo Theories
+  authors:
+    - AlessandroCarioni
+    - SilvioGhilardi
+    - SilvioRanise
+  abstract: >
+    We identify sufficient conditions to automatically establish the termination of a backward reachability procedure for infinite state systems by using well-quasi-orderings. Besides showing that backward reachability succeeds on many instances of problems covered by general termination results, we argue that it could predict termination also on interesting instances of the reachability problem that are outside the scope of applicability of such general results. We work in the declarative framework of Model Checking Modulo Theories that permits us to exploit recent advances in Satisfiability Modulo Theories solving and model-theoretic notions of first-order logic.
+  destination: IJFCS
+  year: 2013
+  doi: 10.1142/S012905411340008X
 
 - id: SACMAT2013
   id_iris: 180613
@@ -133,6 +513,21 @@
   destination: DBSec2014
   year: 2014
   doi: 10.1007/978-3-662-43936-4_17
+
+- id: FMSD2014
+  id_iris: 269019
+  title: An extension of lazy abstraction with interpolation for programs with arrays
+  authors:
+    - FrancescoAlberti
+    - RobertoBruttomesso
+    - SilvioGhilardi
+    - SilvioRanise
+    - NatashaSharygina
+  abstract: >
+    Lazy abstraction with interpolation-based refinement has been shown to be a powerful technique for verifying imperative programs. In presence of arrays, however, the method suffers from an intrinsic limitation, due to the fact that invariants needed for verification usually contain universally quantified variables, which are not present in program specifications. In this work we present an extension of the interpolation-based lazy abstraction framework in which arrays of unknown length can be handled in a natural manner. In particular, we exploit the Model Checking Modulo Theories framework to derive a backward reachability version of lazy abstraction that supports reasoning about arrays. The new approach has been implemented in a tool, called safari, which has been validated on a wide range of benchmarks. We show by means of experiments that our approach can synthesize and prove universally quantified properties over arrays in a completely automatic fashion.
+  destination: FMSD
+  year: 2014
+  doi: 10.1007/s10703-014-0209-9
 
 - id: NOMS2014
   id_iris: 250444
@@ -195,6 +590,18 @@
   doi: 10.1007/978-3-319-10329-7_4
   urlNews: /news/2014/02/19/paper-accepted-at-workshop-on-smart-grid-security/
 
+- id: STM2014
+  id_iris: 251431
+  title: "ALPS: An Action Language for Policy Specification and Automated Safety Analysis"
+  authors:
+    - SilvioRanise
+    - RiccardoTraverso
+  abstract: >
+    Authorization conditions of access control policies are complex and varied as they might depend, e.g., on the current time, the position of the users, selected parts of the system state, and even on the history of the computations. Several models, languages, and enforcement mechanisms have been proposed for different scenarios. Unfortunately, this complicates the verification of safety, i.e. no permission is leaked to unauthorized users. To avoid these problems, we present an intermediate language called Action Language for Policy Specification. Two desiderata drive its definition: (i) it should support as many models and policies as possible and (ii) it should be easily integrated in existing verification systems so that robust techniques (e.g., model checking or satisfiability solving) can be exploited to safety. We argue (i) by using selected examples of access control models and policies taken from the literature. For (ii), we prove some theoretical properties of the language that pave the way to the definition of automatic translations to available verification techniques.
+  destination: STM2014
+  year: 2014
+  doi: 10.1007/978-3-319-11851-2_10
+
 - id: TACAS2014
   id_iris: 211216
   title: "SATMC: A SAT-Based Model Checker for Security-Critical Systems"
@@ -208,6 +615,20 @@
   year: 2014
   doi: 10.1007/978-3-642-54862-8_3
 
+- id: TOCL2014
+  id_iris: 264419
+  title: Quantifier-free interpolation in combinations of equality interpolating theories
+  authors:
+    - RobertaBruttomesso
+    - SilvioGhilardi
+    - SilvioRanise
+  abstract: >
+    The use of interpolants in verification is gaining more and more importance. Since theories used in applications are usually obtained as (disjoint) combinations of simpler theories, it is important to modularly reuse interpolation algorithms for the component theories. We show that a sufficient and necessary condition to do this for quantifier-free interpolation is that the component theories have the strong (sub-)amalgamation property. Then, we provide an equivalent syntactic characterization and show that such characterization covers most theories commonly employed in verification. Finally, we design a combined quantifier-free interpolation algorithm capable of handling both convex and nonconvex theories; this algorithm subsumes and extends most existing work on combined interpolation.
+  destination: TOCL
+  destinationAddon: Volume 15, Issue 1, No. 5
+  year: 2014
+  doi: 10.1145/2490253
+
 ## 2015
 - id: ASIACCS2015
   id_iris: 303737
@@ -220,6 +641,18 @@
   year: 2015
   doi: 10.1145/2714576.2714633
   urlNews: /news/2015/04/01/paper-accepted-at-asiaccs-2015/
+
+- id: CNS2015
+  id_iris: 303740
+  title: Compiling NATO authorization policies for enforcement in the cloud and SDNs
+  authors:
+    - AlessandroArmando
+    - SilvioRanise
+    - RiccardoTraverso
+    - KonradWrona
+  destination: CNS2015
+  year: 2015
+  doi: 10.1109/CNS.2015.7346913
 
 - id: DBSec2015
   id_iris: 303743
@@ -250,6 +683,70 @@
   year: 2015
   doi: 10.1007/978-3-319-20810-7_6
   urlNews: /news/2015/04/21/paper-accepted-at-dbsec-2015/
+
+- id: POST2015
+  id_iris: 303746
+  title: Analysis of XACML Policies with SMT
+  authors:
+    - FatihTurkmen
+    - JerryDenHartog
+    - SilvioRanise
+    - NicolaZannone
+  destination: POST2015
+  abstract: >
+    The eXtensible Access Control Markup Language (XACML) is an extensible and flexible XML language for the specification of access control policies. However, the richness and flexibility of the language (along with the verbose syntax of XML) come with a price: errors are easy to make and difficult to detect when policies grow in size. If these errors are not detected and rectified, they can result in serious data leakage and/or privacy violations leading to significant legal and financial consequences. To assist policy authors in the analysis of their policies, several policy analysis tools have been proposed based on different underlying formalisms. However, most of these tools either abstract away functions over non-Boolean domains (hence they cannot provide information about them) or produce very large encodings which hinder the performance. In this paper, we present a generic policy analysis framework that employs SMT as the underlying reasoning mechanism. The use of SMT does not only allow more fine-grained analysis of policies but also improves the performance. We demonstrate that a wide range of security properties proposed in the literature can be easily modeled within the framework. A prototype implementation and its evaluation are also provided.
+  year: 2015
+  doi: 10.1007/978-3-662-46666-7_7
+
+- id: SAC2015
+  id_iris: 303755
+  title: Automated analysis of RBAC policies with temporal constraints and static role hierarchies
+  authors:
+    - SilvioRanise
+    - TuanAnhTruong
+    - LucaViganò
+  destination: SAC2015
+  abstract: >
+    Temporal role based access control models support the specification and enforcement of several temporal constraints on role enabling, role activation, and temporal role hierarchies among others. In this paper, we define three mappings that preserve the solutions to a class of policy problems (they map security analysis problems in presence of static temporal role hierarchies to problems without them) and we show how they can be used to extend the capabilities of a tool for the analysis of administrative temporal role-based access control policies to reason in presence of temporal role hierarchies. An experimental evaluation with a prototype implementation shows the better behavior of one of the proposed mappings over the other two. To the best of our knowledge, ours is the first tool capable of reasoning with (static) temporal role hierarchies.
+  year: 2015
+  doi: 10.1145/2695664.2695787
+
+- id: SACMAT2015
+  id_iris: 303728
+  title: A SMT-based Tool for the Analysis and Enforcement of NATO Content-based Protection and Release Policies
+  authors:
+    - AlessandroArmando
+    - SilvioRanise
+    - RiccardoTraverso
+    - KonradWrona
+  destination: SACMAT2015
+  year: 2015
+  doi: 10.1145/2752952.2752954
+
+- id: SECRYPT2015
+  id_iris: 303758
+  title: Modeling Authorization Policies for Web Services in Presence of Transitive Dependencies
+  authors:
+    - WorachetUttha
+    - ClaraBertolissi
+    - SilvioRanise
+  destination: SECRYPT2015
+  year: 2015
+  doi: 10.5220/0005548502930300
+
+- id: STM2015
+  id_iris: 303761
+  title: A Declarative Framework for Specifying and Enforcing Purpose-Aware Policies
+  authors:
+    - RiccardoDeMasellis
+    - ChiaraGhidini
+    - SilvioRanise
+  destination: STM2015
+  abstract: >
+    Purpose is crucial for privacy protection as it makes users confident that their personal data are processed as intended. Available proposals for the specification and enforcement of purpose-aware policies are unsatisfactory for their ambiguous semantics of purposes and/or lack of support to the run-time enforcement of policies.
+    In this paper, we propose a declarative framework based on a first-order temporal logic that allows us to give a precise semantics to purpose-aware policies and to reuse algorithms for the design of a run-time monitor enforcing purpose-aware policies. We also show the complexity of the generation and use of the monitor which, to the best of our knowledge, is the first such a result in literature on purpose-aware policies.
+  year: 2015
+  doi: 10.1007/978-3-319-24858-5_4
 
 - id: TaPP2015
   title: A Proposal Architecture for Logical Data Tracking in Cloud
@@ -1130,6 +1627,19 @@
   year: 2021
   urlNews: /news/2021/06/04/paper-accepted-at-dbsec-2021/
 
+- id: ETAA2021_MIG
+  id_iris: 331569
+  title: "Integrating a Pentesting Tool for IdM Protocols in a Continuous Delivery Pipeline"
+  authors:
+    - AndreaBisegna
+    - RobertoCarbone
+    - SilvioRanise
+  abstract: >
+    Identity Management (IdM) solutions are increasingly important for digital infrastructures of both enterprises and public administrations. Their security is a mandatory prerequisite for building trust in current and future digital ecosystems. IdM solutions are usually large-scale complex software systems maintained and developed by several groups of ICT professionals. Continuous Delivery (CD) pipeline is adopted to make maintenance, extension, and deployment of such solutions as efficient and repeatable as possible. For security, CD pipeline is also used as a continuous risk assessment to quickly evaluate the security impact of changes. Several tools have been developed and integrated in the CD pipeline to support this view in the so called DevSecOps approach with the notable exception of a tool for protocol pentesting and compliance against standards such as SAML 2.0, OAuth 2.0 and OpenID Connect. To fill this gap, we propose an approach to integrate Micro-Id-Gym—a tool for the automated pentesting of IdM deployments—in a CD pipeline. We report our experience in doing this and discuss the advantages of using the tool in the context of a joint effort with Poligrafico e Zecca dello Stato Italiano to build a digital identity infrastructure.
+  destination: ETAA2021
+  year: 2021
+  doi: 10.1007/978-3-030-93747-8_7
+
 - id: ETACS2021
   id_iris: 331068
   title: "Do Security Reports Meet Usability? - Lessons Learned from Using Actionable Mitigations for Patching TLS Misconfigurations"
@@ -1146,35 +1656,6 @@
   urlNews: /news/2021/05/31/paper-accepted-at-etacs-2021
   doi: 10.1145/3465481.3469187
 
-- id: IJIS2021
-  id_iris: 331088
-  title: "Extending access control in AWS IoT through event-driven functions: an experimental evaluation using a smart lock system"
-  authors:
-    - TahirAhmad
-    - UmbertoMorelli
-    - SilvioRanise
-    - NicolaZannone
-  abstract: >
-    In recent years, the design of effective authorization mechanisms for IoT and, in particular, for smart home applications has gained increasing attention from researchers and practitioners. However, very little attention is given to the performance evaluation of those authorization mechanisms. To fill this gap, this paper presents a thorough experimental evaluation of cloud- and edge-based access control mechanisms for smart home applications. We discuss the main architectural choices, namely (a) where the access control logic is deployed (in the cloud or the edge) and (b) how the attributes needed for policy evaluation are provided to the policy evaluation point and identify possible deployment models for cloud- and edge-based access control mechanisms. To study the impact of these choices on the performance of smart homes, we realized the identified deployment models within the IoT platforms offered by Amazon Web Services (AWS), namely AWS IoT and Greengrass, and empirically evaluate them using a smart lock system. Based on our experimental evaluation, we provide recommendations to both researchers and practitioners.
-  destination: IJIS2021
-  year: 2021
-  doi: 10.1007/s10207-021-00558-3
-
-- id: JISA2021
-  id_iris: 329426
-  title: "Best Current Practices for OAuth/OIDC Native Apps: A Study of their Adoption in Popular Providers and Top-Ranked Android Clients"
-  authors:
-    - AmirSharif
-    - RobertoCarbone
-    - GiadaSciarretta
-    - SilvioRanise
-  abstract: >
-    OAuth 2.0 and OpenID Connect have been extensively integrated into mobile applications during recent years to manage access delegation and reduce password fatigue via a single sign-on experience. To provide a precise specification for mobile application developers on how to secure their implementations, the OAuth Working Group has published a set of best current practices called “OAuth 2.0 for Native Apps”. Nevertheless, many available mobile applications still suffer from poor implementations leading to serious security issues. To find the source of the problem, we perform a comprehensive analysis on 14 popular OAuth 2.0 and OpenID Connect providers and 87 top-ranked Google Play Store applications selected out of 2505 top-ranked applications to investigate their compliance with the best current practices for native apps. Our analysis reveals that only 7 OAuth 2.0 and OpenID Connect providers and 5 Google Play Store applications are fully compliant with the best current practices. To help mobile application developers with securing the implementation of OAuth 2.0 and OpenID Connect solutions, we introduce a wizard-based approach to assist mobile application developers to integrate multiple third-party OAuth 2.0 and OpenID Connect providers in their mobile applications. To verify the correctness and security of the integrated code by our wizard-based approach, we performed a security analysis by using both open-source and commercial source-code analysis tools. The result of security analysis confirms the security of using our approach in mobile applications, even though it raises some security issues related to the general implementation of mo- bile applications (e.g., insufficient code obfuscation). Despite these issues are out of the scope of our work, they stimulate interesting challenges at the intersection of theory and practice of security in mobile applications using OAuth 2.0 and OpenID Connect.
-  destination: JISA
-  year: 2021
-  urlNews: /news/2021/12/14/paper-accepted-at-jisa-2021/
-  doi: 10.1016/j.jisa.2021.103097
-
 - id: ICSE2021
   id_iris: 324116
   title: Security Analysis of Permission Re-delegation Vulnerabilities in Android Apps
@@ -1188,6 +1669,20 @@
   destination: ICSE2021
   year: 2021
   urlNews: /news/2021/05/23/paper-accepted-at-icse-2021/
+
+- id: IJIS2021
+  id_iris: 331088
+  title: "Extending access control in AWS IoT through event-driven functions: an experimental evaluation using a smart lock system"
+  authors:
+    - TahirAhmad
+    - UmbertoMorelli
+    - SilvioRanise
+    - NicolaZannone
+  abstract: >
+    In recent years, the design of effective authorization mechanisms for IoT and, in particular, for smart home applications has gained increasing attention from researchers and practitioners. However, very little attention is given to the performance evaluation of those authorization mechanisms. To fill this gap, this paper presents a thorough experimental evaluation of cloud- and edge-based access control mechanisms for smart home applications. We discuss the main architectural choices, namely (a) where the access control logic is deployed (in the cloud or the edge) and (b) how the attributes needed for policy evaluation are provided to the policy evaluation point and identify possible deployment models for cloud- and edge-based access control mechanisms. To study the impact of these choices on the performance of smart homes, we realized the identified deployment models within the IoT platforms offered by Amazon Web Services (AWS), namely AWS IoT and Greengrass, and empirically evaluate them using a smart lock system. Based on our experimental evaluation, we provide recommendations to both researchers and practitioners.
+  destination: IJIS2021
+  year: 2021
+  doi: 10.1007/s10207-021-00558-3
   
 - id: IOTSECFOR2021
   id_iris: 331086
@@ -1203,6 +1698,21 @@
   year: 2021
   urlComplementary: /complementary/IOTSECFOR2021
   urlNews: /news/2021/06/05/paper-accepted-at-IoT-SECFOR-2021/
+
+- id: JISA2021
+  id_iris: 329426
+  title: "Best Current Practices for OAuth/OIDC Native Apps: A Study of their Adoption in Popular Providers and Top-Ranked Android Clients"
+  authors:
+    - AmirSharif
+    - RobertoCarbone
+    - GiadaSciarretta
+    - SilvioRanise
+  abstract: >
+    OAuth 2.0 and OpenID Connect have been extensively integrated into mobile applications during recent years to manage access delegation and reduce password fatigue via a single sign-on experience. To provide a precise specification for mobile application developers on how to secure their implementations, the OAuth Working Group has published a set of best current practices called “OAuth 2.0 for Native Apps”. Nevertheless, many available mobile applications still suffer from poor implementations leading to serious security issues. To find the source of the problem, we perform a comprehensive analysis on 14 popular OAuth 2.0 and OpenID Connect providers and 87 top-ranked Google Play Store applications selected out of 2505 top-ranked applications to investigate their compliance with the best current practices for native apps. Our analysis reveals that only 7 OAuth 2.0 and OpenID Connect providers and 5 Google Play Store applications are fully compliant with the best current practices. To help mobile application developers with securing the implementation of OAuth 2.0 and OpenID Connect solutions, we introduce a wizard-based approach to assist mobile application developers to integrate multiple third-party OAuth 2.0 and OpenID Connect providers in their mobile applications. To verify the correctness and security of the integrated code by our wizard-based approach, we performed a security analysis by using both open-source and commercial source-code analysis tools. The result of security analysis confirms the security of using our approach in mobile applications, even though it raises some security issues related to the general implementation of mo- bile applications (e.g., insufficient code obfuscation). Despite these issues are out of the scope of our work, they stimulate interesting challenges at the intersection of theory and practice of security in mobile applications using OAuth 2.0 and OpenID Connect.
+  destination: JISA
+  year: 2021
+  urlNews: /news/2021/12/14/paper-accepted-at-jisa-2021/
+  doi: 10.1016/j.jisa.2021.103097
 
 - id: SECRYPT2021
   id_iris: 327626
@@ -1278,19 +1788,6 @@
   doi: 10.1109/TITS.2021.3118721
   urlNews: /news/2021/10/26/paper-accepted-at-t-its/
 
-- id: ETAA2021_MIG
-  id_iris: 331569
-  title: "Integrating a Pentesting Tool for IdM Protocols in a Continuous Delivery Pipeline"
-  authors:
-    - AndreaBisegna
-    - RobertoCarbone
-    - SilvioRanise
-  abstract: >
-    Identity Management (IdM) solutions are increasingly important for digital infrastructures of both enterprises and public administrations. Their security is a mandatory prerequisite for building trust in current and future digital ecosystems. IdM solutions are usually large-scale complex software systems maintained and developed by several groups of ICT professionals. Continuous Delivery (CD) pipeline is adopted to make maintenance, extension, and deployment of such solutions as efficient and repeatable as possible. For security, CD pipeline is also used as a continuous risk assessment to quickly evaluate the security impact of changes. Several tools have been developed and integrated in the CD pipeline to support this view in the so called DevSecOps approach with the notable exception of a tool for protocol pentesting and compliance against standards such as SAML 2.0, OAuth 2.0 and OpenID Connect. To fill this gap, we propose an approach to integrate Micro-Id-Gym—a tool for the automated pentesting of IdM deployments—in a CD pipeline. We report our experience in doing this and discuss the advantages of using the tool in the context of a joint effort with Poligrafico e Zecca dello Stato Italiano to build a digital identity infrastructure.
-  destination: ETAA2021
-  year: 2021
-  doi: 10.1007/978-3-030-93747-8_7
-
 - id: VTM2021
   id_iris: 328346
   title: "Safety-Related Cooperative, Connected, and Automated Mobility Services: Interplay Between Functional and Security Requirements"
@@ -1326,20 +1823,6 @@
   year: 2022
   doi: 10.1145/3508398.3511505
   urlNews: /news/2021/12/21/paper-accepted-at-codaspy-2022/
-  
-- id: JOWUA2022
-  id_iris: 332248
-  title: "Empirical Validation on the Usability of Security Reports for Patching TLS Misconfigurations: User- and Case-Studies on Actionable Mitigations"
-  authors:
-    - SalvatoreManfredi
-    - MarianoCeccato
-    - GiadaSciarretta
-    - SilvioRanise
-  abstract: >
-    Several automated tools have been proposed to detect vulnerabilities. These tools are mainly evaluated in terms of their accuracy in detecting vulnerabilities, but the evaluation of their usability is commonly neglected. Usability of automated security tools is particularly crucial when dealing with problems of cryptographic protocols for which even small—apparently insignificant—changes in configuration can result in vulnerabilities that, if exploited, pave the way to attacks with dramatic consequences for the confidentiality and integrity of the exchanged messages. This becomes even more acute when considering such ubiquitous protocols as the one for Transport Layer Security (TLS for short). In this paper, we present the design and the lessons learned of a user study, meant to compare two different approaches when reporting misconfigurations. Results reveal that including contextualized actionable mitigations in security reports significantly impact the accuracy and the time needed to patch TLS vulnerabilities. We used these results to build an open-source tool called TLSAssistant, able to combine state-of-the-art analyzers with a report systems that generates actionable mitigations to assist the user. Finally, we report our experience in using TLSAssistant in two case studies conducted in a corporate environment.
-  destination: JOWUA
-  year: 2022
-  doi: 10.1145/3508398.3511505
   
 - id: DBSEC2022
   id_iris: 335865
@@ -1387,6 +1870,38 @@
   year: 2022
   doi: 10.1145/3538969.3543792
   urlNews: /news/2022/06/10/papers-accepted-at-fares-2022/
+
+- id: JOWUA2022
+  id_iris: 332248
+  title: "Empirical Validation on the Usability of Security Reports for Patching TLS Misconfigurations: User- and Case-Studies on Actionable Mitigations"
+  authors:
+    - SalvatoreManfredi
+    - MarianoCeccato
+    - GiadaSciarretta
+    - SilvioRanise
+  abstract: >
+    Several automated tools have been proposed to detect vulnerabilities. These tools are mainly evaluated in terms of their accuracy in detecting vulnerabilities, but the evaluation of their usability is commonly neglected. Usability of automated security tools is particularly crucial when dealing with problems of cryptographic protocols for which even small—apparently insignificant—changes in configuration can result in vulnerabilities that, if exploited, pave the way to attacks with dramatic consequences for the confidentiality and integrity of the exchanged messages. This becomes even more acute when considering such ubiquitous protocols as the one for Transport Layer Security (TLS for short). In this paper, we present the design and the lessons learned of a user study, meant to compare two different approaches when reporting misconfigurations. Results reveal that including contextualized actionable mitigations in security reports significantly impact the accuracy and the time needed to patch TLS vulnerabilities. We used these results to build an open-source tool called TLSAssistant, able to combine state-of-the-art analyzers with a report systems that generates actionable mitigations to assist the user. Finally, we report our experience in using TLSAssistant in two case studies conducted in a corporate environment.
+  destination: JOWUA
+  year: 2022
+  doi: 10.1145/3508398.3511505
+
+- id: MDPI2022
+  id_iris: 335107
+  title: "The eIDAS Regulation: A Survey of Technological Trends for European Electronic Identity Schemes"
+  authors:
+    - AmirSharif
+    - MatteoRanzi
+    - RobertoCarbone
+    - GiadaSciarretta
+    - FrancescoAntonioMarino
+    - SilvioRanise
+  abstract: >
+    The eIDAS regulation aims to provide an interoperable European framework to enable EU citizens to authenticate and communicate with services of other Member States by using their national electronic identity. While a number of high-level requirements (e.g., related to privacy and security) are established to make interoperability among Member States possible, the eIDAS regulation does not explicitly specify the technologies that can be adopted during the development phase to meet the requirements as mentioned earlier. To the best of our knowledge, there is no work available in the literature investigating the technological trends within the notified eIDAS electronic identity schemes used by Member States. To fill this gap, this paper analyzes how the different technological trends of notified schemes satisfy the requirements of the eIDAS regulation. To do this, we define a set of research questions that allow us to investigate the correlations between different design dimensions such as security, privacy, and usability. Based on these findings, we provide a set of lessons learned that would be valuable to the security community, as they can provide useful insights on how to more efficiently protect interoperable national digital identities. Furthermore, we provide a brief overview regarding the new eIDAS regulation (eIDAS 2.0) that aims to provide a more privacy-preserving electronic identity solution by moving from a centralized approach to a decentralized one.
+  destination: MDPI-applsci
+  year: 2022
+  urlNews: /news/2022/12/08/papers-accepted-at-MDPI-2022/
+  doi: 10.3390/app122412679
+  urlComplementary: /complementary/MDPI2022
     
 - id: SACMAT2022_TLSA2
   id_iris: 332827
@@ -1412,21 +1927,5 @@
     - SilvioRanise
   abstract: >
     Authentication protocols represent the entry point to online services, so they must be sturdily designed in order to allow only authorized users to access the underlying data. However, designing authentication protocols is a complex process: security designers should carefully select the technologies to involve and integrate them properly in order to prevent potential vulnerabilities. In addition, these choices are usually restricted by further factors, such as the requirements associated with the scenario, the regulatory framework, the dimensions to balance (e.g., security vs. usability), and the standards to rely on. We come to the rescue by presenting an automated multi-layered methodology we have developed to assist security designers in this phase: by repeatedly evaluating their protocols, they can select the security mitigations to consider until they reach the desired security level, thus enabling a security-by-design approach. For concreteness, we also show how we have applied our methodology to a real use case scenario in the context of a collaboration with the Italian Government Printing Office and Mint.
-    
-- id: MDPI2022
-  id_iris: 335107
-  title: "The eIDAS Regulation: A Survey of Technological Trends for European Electronic Identity Schemes"
-  authors:
-    - AmirSharif
-    - MatteoRanzi
-    - RobertoCarbone
-    - GiadaSciarretta
-    - FrancescoAntonioMarino
-    - SilvioRanise
-  abstract: >
-    The eIDAS regulation aims to provide an interoperable European framework to enable EU citizens to authenticate and communicate with services of other Member States by using their national electronic identity. While a number of high-level requirements (e.g., related to privacy and security) are established to make interoperability among Member States possible, the eIDAS regulation does not explicitly specify the technologies that can be adopted during the development phase to meet the requirements as mentioned earlier. To the best of our knowledge, there is no work available in the literature investigating the technological trends within the notified eIDAS electronic identity schemes used by Member States. To fill this gap, this paper analyzes how the different technological trends of notified schemes satisfy the requirements of the eIDAS regulation. To do this, we define a set of research questions that allow us to investigate the correlations between different design dimensions such as security, privacy, and usability. Based on these findings, we provide a set of lessons learned that would be valuable to the security community, as they can provide useful insights on how to more efficiently protect interoperable national digital identities. Furthermore, we provide a brief overview regarding the new eIDAS regulation (eIDAS 2.0) that aims to provide a more privacy-preserving electronic identity solution by moving from a centralized approach to a decentralized one.
-  destination: MDPI-applsci
-  year: 2022
-  urlNews: /news/2022/12/08/papers-accepted-at-MDPI-2022/
-  doi: 10.3390/app122412679
-  urlComplementary: /complementary/MDPI2022
+
+# PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
