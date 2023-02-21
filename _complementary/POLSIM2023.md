@@ -10,6 +10,7 @@ people:
     - RobertoCarbone
     - SilvioRanise
 
+peopleOrder: surname
 ---
 
 Below, you find links to complementary material and additional resources referenced in the paper.
