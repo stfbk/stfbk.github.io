@@ -9,6 +9,8 @@ people:
     - StefanoBerlato
     - RobertoCarbone
     - SilvioRanise
+
+peopleOrder: surname
 ---
 
 The results of the experimental evaluation are available [**here**](assets/SECRYPT2021_2/evaluation.zip). Please see [**the repository**](https://github.com/stfbk/CryptoAC) for more details on **CryptoAC**.
