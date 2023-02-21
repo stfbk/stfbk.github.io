@@ -10,7 +10,7 @@ people:
 peopleOrder: surname
 
 publications:
-    - POLSIM23
+    - POLSIM2023
 ---
 
 ### Description
