@@ -12,15 +12,14 @@ peopleOrder: surname
 publications:
     - ASIACCS2020
     - SECRYPT2021_2
-
+    - TOPS2020_2
+    - DBSEC2022
 ---
 
 ### Description
 
-To facilitate the adoption of cloud by organizations, *cryptographic access control* is the obvious solution to control data sharing among users while preventing partially trusted cloud service providers to access sensitive data. In this context, **CryptoAC** implements a state of the art role-based cryptographic access control scheme proposed by [**Garrison et al**](https://arxiv.org/pdf/1602.09069). **CryptoAC** comes with an easy deployment process, it supports 81 different architectures and it is cloud-independent, i.e., it can be seamlessly deployed in all major cloud service providers.
+CryptoAC (*Cryptographic Access Control*) provides end-to-end protection of sensitive data–such as documents, files and messages–through **cryptographic enforcement of access control policies**.
 
-<video width="1280" height="720" controls>
-    <source src="assets/ASIACCS2020/prototype.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>    
-<br />
+CryptoAC is an open-source tool written in the (multiplatform) Kotlin language; it comes either with an easy **microservice-based architecture** including an **optimisation step** to maximise the performance and the security of the deployment or, potentially, even as a programming library or plugin. CryptoAC is highly modular, can be easily extended to fit the needs of new scenarios and its APIs allow for straightforward integration with other services.
+
+Please see [**the repository**](https://github.com/stfbk/CryptoAC) for more details on **CryptoAC**.
