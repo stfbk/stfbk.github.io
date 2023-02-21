@@ -1928,4 +1928,21 @@
   abstract: >
     Authentication protocols represent the entry point to online services, so they must be sturdily designed in order to allow only authorized users to access the underlying data. However, designing authentication protocols is a complex process: security designers should carefully select the technologies to involve and integrate them properly in order to prevent potential vulnerabilities. In addition, these choices are usually restricted by further factors, such as the requirements associated with the scenario, the regulatory framework, the dimensions to balance (e.g., security vs. usability), and the standards to rely on. We come to the rescue by presenting an automated multi-layered methodology we have developed to assist security designers in this phase: by repeatedly evaluating their protocols, they can select the security mitigations to consider until they reach the desired security level, thus enabling a security-by-design approach. For concreteness, we also show how we have applied our methodology to a real use case scenario in the context of a collaboration with the Italian Government Printing Office and Mint.
 
+  
+## 2023
+- id: POLSIM2023
+  #id_iris: 323366
+  title: "A Simulation Framework for the Experimental Evaluation of Access Control Enforcement Mechanisms based on Business Processes"
+  authors:
+    - StefanoBerlato
+    - RobertoCarbone
+    - SilvioRanise
+  abstract: >
+    While the security analysis of Access Control (AC) policies has received a lot of attention, the same cannot be said for their enforcement. As systems become more distributed (e.g., centralized services may become a bottleneck) and legal compliance constraints stricter (e.g., the problem of honest but curious Cloud providers in the light of privacy regulations), the fine-tuning of AC enforcement mechanisms is likely to become more and more important. This is especially true in scenarios where the quality of service may suffer from computationally heavy security mechanisms and low latency is a prominent requirement. As a first step towards a principled approach to fine-tune AC enforcement, this paper introduces a methodology providing the means to measure the performance of AC enforcement mechanisms through the simulation of realistic deployment scenarios. To do so, we base our methodology on Business Process Model and Notation (BPMN) workflows—that provide for an appropriate abstraction of the sequence of requests toward AC enforcement mechanisms performed by applications—to derive lists of AC operations (e.g., access a resource, revoke a permission) and execute them to evaluate and compare the performance of different mechanisms. Finally, we implement our methodology and apply it to three case studies representative of both traditional centralized AC—i.e., the Open Policy Agent (OPA) and the eXtensible Access Control Markup Language (XACML)—and decentralized Cryptographic Access Control (CAC)—i.e., CryptoAC—.
+  destination: POLSIM2023
+  year: 2023
+  #doi: 10.1145/3320269.3384767
+  urlComplementary: /complementary/POLSIM2023
+  #urlNews: /news/2020/02/15/paper-accepted-at-asiaccs-2020/
+
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
