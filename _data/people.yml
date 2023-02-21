@@ -353,7 +353,6 @@
       place: Trento, Italy
   email: g.sciarretta@fbk.eu
   phone: "+390461312378"
-  personalPage: true
 
 - id: GianfrancoBurzio
   name: Gianfranco
@@ -550,7 +549,6 @@
       place: Genoa, Italy
   email: mpernpruner@fbk.eu
   phone: "+390461314337"
-  personalPage: true
   links:
     - name: ResearchGate
       value: Marco_Pernpruner

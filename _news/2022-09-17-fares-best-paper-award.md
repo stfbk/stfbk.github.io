@@ -1,6 +1,6 @@
 ---
 title: Best Paper Award - FARES'22 (17th Edition)
-
+customExcerpt: "The paper \"SoK: A Survey on Technological Trends for (pre)Notified eIDAS Electronic Identity Schemes\" has been awarded with the best paper award in the \"17th International Workshop on Frontiers in Availability, Reliability and Security\" (FARES 2022)."
 
 people:
     - AmirSharif
@@ -11,7 +11,7 @@ people:
 
 images:
     - title: Best Paper Award Acknowledgement
-      source: /assets/news/best-paper-award.png
+      source: /assets/news/2022-09-17-fares-best-paper-award/best-paper-award.png
      
 ---
 
