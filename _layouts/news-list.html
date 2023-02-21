@@ -33,7 +33,33 @@ show_sidebar: false
                         {% endif %}
 
                         {% assign numberPapersFromZero = publicationsSorted.size | minus: 1 %}
-                        {% capture customExcerpt %}The paper{% if publicationsSorted.size > 1 %}s{% endif %} {% for paper in publicationsSorted %}"{{ paper.title }}" by {{ paper.authors }}{% if forloop.index < numberPapersFromZero %}, {% elsif forloop.last == false %}, and {% endif %}{% endfor %} {% if publicationsFromId.size > 1 %}have{% else %}has{% endif %} been accepted at the {{ destination.name }}{% if destination.acronym %} ({{ destination.acronym }}){% endif %}.{% endcapture %}
+                        {% capture customExcerpt %}The paper{% if publicationsSorted.size > 1 %}s{% endif %}{% endcapture %}
+                        {% for paper in publicationsSorted %}
+                            {% assign authorsList = "" | split: "" %}
+                            {%- if paper.authors -%}
+                                {%- if paper.authors.first -%}
+                                    {% for author in paper.authors %}
+                                        {% assign authorFromId = site.data.people | where: "id", author %}
+                                        {% assign authorName = authorFromId[0]["name"] | append: " " | append: authorFromId[0]["surname"] %}
+                                        {%- assign authorsList = authorsList | push: authorName -%}
+                                    {% endfor %}
+                                {% else %}
+                                    {% assign authorFromId = site.data.people | where: "id", paper.authors %}
+                                    {% assign authorName = authorFromId[0]["name"] | append: " " | append: authorFromId[0]["surname"] %}
+                                    {%- assign authorsList = authorsList | push: authorName -%}
+                                {% endif %}
+                            {%- endif -%}
+                        
+                            {%- if authorsList.size > 0 -%}
+                                {%- assign authorsString = authorsList | join: ", " -%}
+                            {%- else -%}
+                                {%- assign authorsString = nil -%}
+                            {%- endif -%}
+
+                            {% capture customExcerpt %}{{ customExcerpt }} "{{ paper.title }}" by {{ authorsString }}{% if forloop.index < numberPapersFromZero %}, {% elsif forloop.last == false %}, and{% endif %}{% endcapture %}
+                        {% endfor %}
+                        
+                        {% capture customExcerpt %}{{ customExcerpt }} {% if publicationsFromId.size > 1 %}have{% else %}has{% endif %} been accepted at the {{ destination.name }}{% if destination.acronym %} ({{ destination.acronym }}){% endif %}.{% endcapture %}
                     {% elsif post.layout == "news-seminar" %}
                         {% capture customExcerpt %}Seminar {% if post.seminarTitle %}"{{ post.seminarTitle }}" {% endif %}{% if post.topic %}on {{ post.topic }} {% endif %}by {{ post.speaker }} will be held on {{ post.date | date: "%A, %d %B %Y at %l:%M %p" }}.{% endcapture %}
                     {% elsif post.customExcerpt %}
