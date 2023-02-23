@@ -14,5 +14,5 @@ people:
 
 images:
     - title: 5GWF20
-      source: /assets/images/logos/5GWF20Banner.png
+      source: /assets/areas/news/2020-07-20-paper-accepted-at-5GWF20/5GWF20Banner.png
 ---

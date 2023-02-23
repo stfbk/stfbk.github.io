@@ -11,4 +11,4 @@ people:
 peopleOrder: surname
 ---
 
-Test results are available [**here**](assets/FARES2022/Results.xlsx); configuration files [**here**](assets/FARES2022/Configuration_and_scripts.zip).
+Test results are available [**here**](/assets/areas/complementary/FARES2022/Results.xlsx); configuration files [**here**](/assets/areas/complementary/FARES2022/Configuration_and_scripts.zip).

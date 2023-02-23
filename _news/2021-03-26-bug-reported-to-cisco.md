@@ -9,7 +9,7 @@ tools:
 
 images:
     - title: Screenshot of the bug acknowledgement
-      source: /assets/news/2021-03-26-bug-reported-to-cisco/defect_CSCvw76899.png
+      source: /assets/areas/news/2021-03-26-bug-reported-to-cisco/defect_CSCvw76899.png
      
 ---
 

@@ -26,17 +26,15 @@ The tool has been developed within [Digimat](https://ict.fbk.eu/partnerships/co-
 
 
 <a href="https://github.com/stfbk/tlsassistant">
-         <img class="image-centered" src="/assets/images/logos/GitHub.png" alt="GitHub_logo" width="150px"/>
-      </a>
-
+  <img class="image-centered" src="/assets/images/logos/GitHub.png" alt="GitHub_logo" width="150px"/>
+</a>
 
 {% include toc.md %}
 
 
-
 # Architecture
 
-<img class="image-centered" src="../assets/TLSAssistant/current_architecture.png" alt="current_architecture" />
+<img class="image-centered" src="/assets/areas/tools/TLSAssistant/current_architecture.png" alt="current_architecture" />
 
 **TLSAssistant v2** is an evolution of the previous monolithic version: [TLSAssistant v1.x](https://github.com/stfbk/tlsassistant/tree/v1.x)
 

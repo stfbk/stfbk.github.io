@@ -19,4 +19,4 @@ Below, you find links to complementary material and additional resources referen
 
 ### Experimental Results
 
-The experimental results of the experimentation described in the paper are available [**here**](assets/POLSIM2023/results.zip). Please see [**the repository**](https://github.com/stfbk/PolicySimulator) for more details on the **Policy Simulator**.
+The experimental results of the experimentation described in the paper are available [**here**](/assets/areas/complementary/POLSIM2023/results.zip). Please see [**the repository**](https://github.com/stfbk/PolicySimulator) for more details on the **Policy Simulator**.

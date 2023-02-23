@@ -3,13 +3,13 @@ title: "e-Business e e-Government: cosa ne è della nostra privacy?"
 
 images:
     - title: Locandina
-      source: assets/locandina.png
+      source: /assets/areas/events/e-business-e-government-privacy-2014/locandina.png
     - title: "Da sinistra a destra: Fabio Martinelli, Rossana Ducato, Paolo Guarda, Pier Luigi Sartori, Sergio Bettotti e Silvio Ranise"
-      source: assets/foto_relatori.jpg
+      source: /assets/areas/events/e-business-e-government-privacy-2014/foto_relatori.jpg
     - title: "In collegamento: Andrea Rigoni"
-      source: assets/foto_rigoni.jpg
+      source: /assets/areas/events/e-business-e-government-privacy-2014/foto_rigoni.jpg
     - title: L'intervento di Loredana Mancini
-      source: assets/foto_mancini.jpg
+      source: /assets/areas/events/e-business-e-government-privacy-2014/foto_mancini.jpg
 
 ---
 

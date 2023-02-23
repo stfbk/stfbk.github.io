@@ -8,7 +8,7 @@
                 {% if spotlight.image %}
                 <div class="card-image">
                     <figure class="image">
-                        <img src="{{ site.baseurl }}/topics/assets/{{ spotlight.image }}" alt="{{ spotlight.title }}" width="640px" height="480px" />
+                        <img src="{{ site.baseurl }}/assets/areas/topics/{{ spotlight.image }}" alt="{{ spotlight.title }}" width="640px" height="480px" />
                     </figure>
                 </div>
                 {% endif %}

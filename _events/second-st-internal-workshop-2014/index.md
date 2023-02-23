@@ -3,39 +3,39 @@ title: "Second S&T Internal Workshop"
 
 images:
     - title: Alessandro Armando
-      source: assets/photo_armando.jpg
+      source: /assets/areas/events/second-st-internal-workshop-2014/photo_armando.jpg
     - title: Riccardo Focardi
-      source: assets/photo_focardi.jpg
+      source: /assets/areas/events/second-st-internal-workshop-2014/photo_focardi.jpg
     - title: Silvio Ranise
-      source: assets/photo_ranise.jpg
+      source: /assets/areas/events/second-st-internal-workshop-2014/photo_ranise.jpg
     - title: Roberto Carbone
-      source: assets/photo_carbone.jpg
+      source: /assets/areas/events/second-st-internal-workshop-2014/photo_carbone.jpg
     - title: Annibale Pannichella
-      source: assets/photo_pannichella.jpg
+      source: /assets/areas/events/second-st-internal-workshop-2014/photo_pannichella.jpg
     - title: Giada Sciarretta
-      source: assets/photo_sciarretta.jpg
+      source: /assets/areas/events/second-st-internal-workshop-2014/photo_sciarretta.jpg
     - title: Riccardo Traverso
-      source: assets/photo_traverso.jpg
+      source: /assets/areas/events/second-st-internal-workshop-2014/photo_traverso.jpg
     - title: Alessio Coletta
-      source: assets/photo_coletta.jpg
+      source: /assets/areas/events/second-st-internal-workshop-2014/photo_coletta.jpg
     - title: Tuan Anh Truong
-      source: assets/photo_truong.jpg
+      source: /assets/areas/events/second-st-internal-workshop-2014/photo_truong.jpg
     - title: Hari Siswantoro
-      source: assets/photo_siswantoro.jpg
+      source: /assets/areas/events/second-st-internal-workshop-2014/photo_siswantoro.jpg
     - title: Gabriele Costa
-      source: assets/photo_costa.jpg
+      source: /assets/areas/events/second-st-internal-workshop-2014/photo_costa.jpg
     - title: Luca Verderame
-      source: assets/photo_verderame.jpg
+      source: /assets/areas/events/second-st-internal-workshop-2014/photo_verderame.jpg
     - title: Nadia Metoui
-      source: assets/photo_metoui.jpg
+      source: /assets/areas/events/second-st-internal-workshop-2014/photo_metoui.jpg
     - title: Daniel Ricardo dos Santos
-      source: assets/photo_dossantos.jpg
+      source: /assets/areas/events/second-st-internal-workshop-2014/photo_dossantos.jpg
     - title: Stanislav Dashevskyi
-      source: assets/photo_dashevskyi.jpg
+      source: /assets/areas/events/second-st-internal-workshop-2014/photo_dashevskyi.jpg
     - title: Avinash Sudhodanan
-      source: assets/photo_sudhodanan.jpg
+      source: /assets/areas/events/second-st-internal-workshop-2014/photo_sudhodanan.jpg
     - title: Mojtaba Eskandari
-      source: assets/photo_eskandari.jpg
+      source: /assets/areas/events/second-st-internal-workshop-2014/photo_eskandari.jpg
 
 ---
 
@@ -49,18 +49,18 @@ During the workshop the main research themes of the Unit will be discussed, name
 **Location**: Villa Tambosi
 
 **Programme**:
-<img src="assets/programme.png" class="image-centered" />
+<img src="/assets/areas/events/second-st-internal-workshop-2014/programme.png" class="image-centered" />
 
 **Slides**:
-- [Security & Trust Research unit: a bird's eye view perspective](assets/slides_armando.pdf), Alessandro Armando
-- [An Overview of Access Control in ST](assets/slides_ranise.pdf), Silvio Ranise
-- [Automatic Analysis of Security Protocols](assets/slides_carbone.pdf), Roberto Carbone
-- [Smart Campus Project: API Manager](assets/slides_sciarretta.pdf), Giada Sciarretta
-- [ALPS: an Action Language for Policy Specification](assets/slides_traverso.pdf), Riccardo Traverso
-- [Automatic Symbolic Analysis of Security Policies: New Heuristics](assets/slides_truong.pdf), Tuan Anh Truong
-- [An Integrated Purpose Control Framework for Enhanced Privacy Protection](assets/slides_siswantoro.pdf), Hari Siswantoro
-- [Risk-Based Access Control](assets/slides_metoui.pdf), Nadia Metoui
-- [Automatic Security Analysis of Business Processes](assets/slides_dossantos.pdf), Daniel Ricardo dos Santos
-- [Security Certification of Third-parties Applications](assets/slides_dashevskyi.pdf), Stanislav Dashevskyi
-- [Automatic Analysis of Browser-based Security Protocols](assets/slides_sudhodanan.pdf), Avinash Sudhodanan
-- [VLOC: Verifying the Physical Location of A Virtual Machine In Cloud](assets/slides_eskandari.pdf), Mojtaba Eskandari
+- [Security & Trust Research unit: a bird's eye view perspective](/assets/areas/events/second-st-internal-workshop-2014/slides_armando.pdf), Alessandro Armando
+- [An Overview of Access Control in ST](/assets/areas/events/second-st-internal-workshop-2014/slides_ranise.pdf), Silvio Ranise
+- [Automatic Analysis of Security Protocols](/assets/areas/events/second-st-internal-workshop-2014/slides_carbone.pdf), Roberto Carbone
+- [Smart Campus Project: API Manager](/assets/areas/events/second-st-internal-workshop-2014/slides_sciarretta.pdf), Giada Sciarretta
+- [ALPS: an Action Language for Policy Specification](/assets/areas/events/second-st-internal-workshop-2014/slides_traverso.pdf), Riccardo Traverso
+- [Automatic Symbolic Analysis of Security Policies: New Heuristics](/assets/areas/events/second-st-internal-workshop-2014/slides_truong.pdf), Tuan Anh Truong
+- [An Integrated Purpose Control Framework for Enhanced Privacy Protection](/assets/areas/events/second-st-internal-workshop-2014/slides_siswantoro.pdf), Hari Siswantoro
+- [Risk-Based Access Control](/assets/areas/events/second-st-internal-workshop-2014/slides_metoui.pdf), Nadia Metoui
+- [Automatic Security Analysis of Business Processes](/assets/areas/events/second-st-internal-workshop-2014/slides_dossantos.pdf), Daniel Ricardo dos Santos
+- [Security Certification of Third-parties Applications](/assets/areas/events/second-st-internal-workshop-2014/slides_dashevskyi.pdf), Stanislav Dashevskyi
+- [Automatic Analysis of Browser-based Security Protocols](/assets/areas/events/second-st-internal-workshop-2014/slides_sudhodanan.pdf), Avinash Sudhodanan
+- [VLOC: Verifying the Physical Location of A Virtual Machine In Cloud](/assets/areas/events/second-st-internal-workshop-2014/slides_eskandari.pdf), Mojtaba Eskandari

@@ -4,8 +4,8 @@ papers:
   - NDSS2016
 
 images:
-  - source: /assets/news/2015-10-23-paper-accepted-at-ndss-2016/image1.jpg
-  - source: /assets/news/2015-10-23-paper-accepted-at-ndss-2016/image2.jpg
+  - source: /assets/areas/news/2015-10-23-paper-accepted-at-ndss-2016/image1.jpg
+  - source: /assets/areas/news/2015-10-23-paper-accepted-at-ndss-2016/image2.jpg
 
 ---
 

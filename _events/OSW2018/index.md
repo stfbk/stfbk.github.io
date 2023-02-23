@@ -7,7 +7,7 @@ redirect_from:
   
 ---
 
-<img class="image-centered" src="assets/groupPicture.jpg" />
+<img class="image-centered" src="/assets/areas/events/OSW2018/groupPicture.jpg" />
 
 # Summary
 The OAuth Security Workshop (OSW) aim is to improve the security of OAuth and related Internet protocols by a direct exchange of views between academic researchers, IETF OAuth Working Group members and industry. The workshop is hosted by the Security and Trust research unit of the Bruno Kessler Foundation (FBK).

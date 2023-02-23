@@ -43,7 +43,7 @@ CPS4CIP invites submissions that present innovative ideas, proof of concepts, us
 We are happy to announce that a special issue of the [Journal of Cybersecurity and Privacy](https://www.mdpi.com/journal/jcp) entitled "[Cyber-Physical Security for Critical Infrastructures](https://www.mdpi.com/journal/jcp/special_issues/Cyber-Physical_Security)" is planned as a follow up to the workshop.
 
 <a href="https://www.mdpi.com/journal/jcp/special_issues/Cyber-Physical_Security">
-  <img class="image-centered" src="assets/Cyber-Physical_Security_horizontal_dark.png" />
+  <img class="image-centered" src="/assets/areas/events/CPS4CIP2022/Cyber-Physical_Security_horizontal_dark.png" />
 </a>
 
 # Support
