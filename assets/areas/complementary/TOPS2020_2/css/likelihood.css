@@ -1,0 +1,33 @@
+.likelihood-container {
+    display: flex;
+}
+
+.likelihood-div-dot {
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+select option[value="High"] {
+    background: rgba(240, 84, 79, 0.9);
+}
+  
+  select option[value="Medium"] {
+    background: rgba(255, 201, 41, 0.9);
+}
+  
+  select option[value="Low"] {
+    background: rgba(102, 186, 107, 0.9);
+}
+  
+  select option[value="None"] {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: rgba(240, 84, 79, 0.9);
+  border-radius: 50%;
+}

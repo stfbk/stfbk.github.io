@@ -12,4 +12,4 @@ people:
 ---
 
 Documents:
-- [Slides](assets/SSPIM2018/slides.pdf)
+- [Slides](/assets/areas/complementary/SSPIM2018/slides.pdf)

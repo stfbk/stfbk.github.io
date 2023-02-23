@@ -22,7 +22,7 @@ Our open source pull-printing solution is available at [https://github.com/stfbk
 To provide an open, flexible and secure pull printing service for enterprises, we decided to extend the capabilities of a *Print Orchestrator* with a multi-platform, printer-agnostic system that authenticates employees on a mobile application (*Print Releaser*); in case of sensitive documents, a second-factor authentication is performed with the *eID* card. The use of the *eID* cards (that we assume in possession of any employee) allows the enterprise to avoid issuing new smart cards or customize (if even possible) employee badges.
 
 <div style="text-align: center">
-<img src="assets\CODASPY2021\Architecture.png" style="zoom:90%">
+<img src="/assets/areas/complementary/CODASPY2021/Architecture.png" style="zoom:90%">
 </div>
 
 The figure above provides a high-level view of the architecture, which involves:
@@ -40,9 +40,9 @@ The figure above provides a high-level view of the architecture, which involves:
 Employees enrol in the pull printing service by authenticating on a webpage with their enterprise account and accepting the service level agreement, or with the support of the *IT Administrator*. Then, they will receive an email with a link to install the *Virtual Printers* and, if employees do not use enterprise mobile devices, a link to download the *Print Releaser* and *ID Authenticator* applications on their smartphones. 
 
 <div style="text-align: center">
-<img src="assets\CODASPY2021\Use_case_I.png" style="zoom:60%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="assets\CODASPY2021\Use_case_II.png" style="zoom:60%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="assets\CODASPY2021\Confirmation.png" style="zoom:40%">
+<img src="/assets/areas/complementary/CODASPY2021/Use_case_I.png" style="zoom:60%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/assets/areas/complementary/CODASPY2021/Use_case_II.png" style="zoom:60%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/assets/areas/complementary/CODASPY2021/Confirmation.png" style="zoom:40%">
 </div>
 
 Once the pull printing service is deployed and operating in the enterprise, enrolled employees can use the service to print data as reported in the figure above; where a lock indicates when employees need to be authenticated to perform the corresponding operation. 
@@ -58,7 +58,7 @@ To support the cases where the QR code is missing or damaged, in Step D *Print R
 The figure below provides the messages exchanged as part of the workflow steps A-G for an employee who is already authenticated in Google (workflow steps 1-2) and is using the <i>Print Releaser</i> to release a job.    
 
 <div style="text-align: center">
-<img src="assets\CODASPY2021\MSC.png">
+<img src="/assets/areas/complementary/CODASPY2021/MSC.png">
 </div>
 
 <div>

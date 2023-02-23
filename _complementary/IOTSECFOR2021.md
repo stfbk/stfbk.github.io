@@ -130,7 +130,7 @@ Further investigation is necessary for the *suppress_lwt_on_session_takeover* an
 
 #### EMQ X settings
 
-Considering the amount of parameters available to customize the  broker with respect to the MQTT protocol and the Erlang runtime  environment, in the following we provide an high-level description of  the EMQ X distinguishing features. Ref. [here](assets/IOTSECFOR2021/Broker_Parameters_(M)=misconfigurable.xlsx) for a comprehensive list.
+Considering the amount of parameters available to customize the  broker with respect to the MQTT protocol and the Erlang runtime  environment, in the following we provide an high-level description of  the EMQ X distinguishing features. Ref. [here](/assets/areas/complementary/IOTSECFOR2021/Broker_Parameters_(M)=misconfigurable.xlsx) for a comprehensive list.
 
 - Retain messages configuration (enabled by default) allows to specify the destination, expiration (replaced by the one in the PUBLISH packet if indicated), and limit the number of messages or payload size.
 - Rate limiting allows to set quotas and restrict the number of  connection and its rate, the number of publish messages and in general  TCP packets.

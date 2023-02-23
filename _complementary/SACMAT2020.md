@@ -19,7 +19,7 @@ In this work we propose the use of the **CAP Theorem** (ref. [here](https://www.
 
 Following figure provides the deployment models with respect to a smart-lock system (named IoT entity in the figure) and the components prescribed in the [XACML](http://docs.oasis-open.org/xacml/3.0/xacml-3.0-core-spec-os-en.html) (eXtensible Access Control Markup Language) policy definition language: a Policy Enforcement Point (PEP) that intercepts authorization requests, sends them to the Policy Decision Point (PDP) and waits the access decision to enforce (grant or deny), possibly complemented with obligations (processed by the Obligation Service - OS); a Policy Decision Point (PDP), responsible to authorize or deny requests evalutating the attributes collected by querying a Policy Information Point (PIP) and the policies requested to the Policy Administration Point (PAP). We indicate with ''-" a limited PIP or PDP that accounts for resource-constrained devices (tipically found in edge scenarios).
 
-![Deployment models](assets/SACMAT2020/acscenarios.png)
+![Deployment models](/assets/areas/complementary/SACMAT2020/acscenarios.png)
 
 
 We complement the analysis with a performance evaluation that assess latency and throughput of requests, and provide additional security considerations (as suggested in \[2]). Our main contributions are:
@@ -33,7 +33,7 @@ We complement the analysis with a performance evaluation that assess latency and
 * Following the suggestion in \[2], discuss the relationships between identified trade-offs and security issues to highlight the guarantees offered by the different architectures.
 
 
-Complete test results and configurations are available [here](assets/SACMAT2020/SACMAT2020.zip).
+Complete test results and configurations are available [here](/assets/areas/complementary/SACMAT2020/SACMAT2020.zip).
 
 [\[1\]](https://www.researchgate.net/publication/325633706_A_Lazy_Approach_to_Access_Control_as_a_Service_ACaaS_for_IoT_An_AWS_Case_Study): Ahmad Tahir, Morelli Umberto, Ranise Silvio and Zannone Nicola. (2018). A Lazy Approach to Access Control as a Service (ACaaS) for IoT: An AWS Case Study. 235-246. 10.1145/3205977.3205989. 
 

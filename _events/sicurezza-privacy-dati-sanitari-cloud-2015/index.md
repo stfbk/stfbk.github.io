@@ -4,17 +4,17 @@ subtitle:
 
 images:
     - title: Introduzione di Silvio Ranise
-      source: assets/foto_ranise.jpg
+      source: /assets/areas/events/sicurezza-privacy-dati-sanitari-cloud-2015/foto_ranise.jpg
     - title: Diego Conforti
-      source: assets/foto_conforti.jpg
+      source: /assets/areas/events/sicurezza-privacy-dati-sanitari-cloud-2015/foto_conforti.jpg
     - title: Leonardo Sartori
-      source: assets/foto_sartori.jpg
+      source: /assets/areas/events/sicurezza-privacy-dati-sanitari-cloud-2015/foto_sartori.jpg
     - title: Paolo Guarda
-      source: assets/foto_guarda.jpg
+      source: /assets/areas/events/sicurezza-privacy-dati-sanitari-cloud-2015/foto_guarda.jpg
     - title: Rossana Ducato
-      source: assets/foto_ducato.jpg
+      source: /assets/areas/events/sicurezza-privacy-dati-sanitari-cloud-2015/foto_ducato.jpg
     - title: Jovan Stevovic
-      source: assets/foto_stevovic.jpg
+      source: /assets/areas/events/sicurezza-privacy-dati-sanitari-cloud-2015/foto_stevovic.jpg
 ---
 
 Secondo un'indagine sul cloud della Citrix (una multinazionale americana leader nello sviluppo di applicazioni software per il cloud), nel 2012 la maggioranza delle persone intervistate sul significato della parola "cloud" rispondeva con "una nuvola nel cielo".
@@ -44,8 +44,8 @@ RTTR Notizie di Giovedì, 22 Ottobre 2015 (tra i minuti 05:10 e 07:33): [http://
 **Location**: Povo presso il Polo Ferrari (aula A212). Inizio alle 10.30
 
 **Programma**:
-- [Diego Conforti](https://www.linkedin.com/profile/view?id=ADEAAAaFFo0BsiRjc-IR2ywMmsxKyU8__zpDQh4&authType=NAME_SEARCH&authToken=URci&locale=it_IT&srchid=32318511444821430772&srchindex=1&srchtotal=5&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A32318511444821430772%2CVSRPtargetId%3A109385357%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH) (Responsabile Ufficio Innovazione e ricerca - Dipartimento Salute e solidarietà sociale della Provincia Autonoma di Trento): **Accesso sicuro del cittadino: troppo complicato per essere vero. L'esperienza della Provincia Autonoma di Trento** ([slides](assets/slide_conforti.pdf))
-- [Leonardo Sartori](https://www.apss.tn.it/-/leonardo-sartori) (Responsabile del Servizio Sistemi Informativi dell’Azienda Provinciale per i Servizi Sanitari della Provincia Autonoma di Trento): **L'organizzazione della privacy in APSS e il sistema dei controlli interni** ([slides](assets/slide_sartori.pdf))
+- [Diego Conforti](https://www.linkedin.com/profile/view?id=ADEAAAaFFo0BsiRjc-IR2ywMmsxKyU8__zpDQh4&authType=NAME_SEARCH&authToken=URci&locale=it_IT&srchid=32318511444821430772&srchindex=1&srchtotal=5&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A32318511444821430772%2CVSRPtargetId%3A109385357%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH) (Responsabile Ufficio Innovazione e ricerca - Dipartimento Salute e solidarietà sociale della Provincia Autonoma di Trento): **Accesso sicuro del cittadino: troppo complicato per essere vero. L'esperienza della Provincia Autonoma di Trento** ([slides](/assets/areas/events/sicurezza-privacy-dati-sanitari-cloud-2015/slide_conforti.pdf))
+- [Leonardo Sartori](https://www.apss.tn.it/-/leonardo-sartori) (Responsabile del Servizio Sistemi Informativi dell’Azienda Provinciale per i Servizi Sanitari della Provincia Autonoma di Trento): **L'organizzazione della privacy in APSS e il sistema dei controlli interni** ([slides](/assets/areas/events/sicurezza-privacy-dati-sanitari-cloud-2015/slide_sartori.pdf))
 - [Paolo Guarda](https://www5.unitn.it/People/en/Web/Persona/PER0003411#INFO) (Facoltà di Giurisprudenza dell'Univ. di Trento): **Il cielo è blu sopra le nuvole: cloud e sanità elettronica** ([presentazione Prezi](https://prezi.com/4caesetovj3l/il-cielo-e-blu-sopra-le-nuvole-cloud-e-sanita-elettronica/))
 - [Rossana Ducato](https://www5.unitn.it/People/en/Web/Persona/PER0011430#INFO) (Facoltà di Giurisprudenza dell'Univ. di Trento): **App sanitarie e privacy: aspetti giuridici rilevanti** ([presentazione Prezi](https://prezi.com/zduehhnwo4iw/app-sanitarie-e-privacy/))
-- [Jovan Stevovic](http://www.chino.io/) (CEO CHINO): **Il Cloud come strumento per una maggiore sicurezza e rispetto delle leggi sulla privacy** ([slides](assets/slide_stevovic.pdf))
+- [Jovan Stevovic](http://www.chino.io/) (CEO CHINO): **Il Cloud come strumento per una maggiore sicurezza e rispetto delle leggi sulla privacy** ([slides](/assets/areas/events/sicurezza-privacy-dati-sanitari-cloud-2015/slide_stevovic.pdf))

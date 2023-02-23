@@ -11,7 +11,7 @@ people:
 
 images:
     - title: Best Paper Award Acknowledgement
-      source: /assets/news/2022-09-17-fares-best-paper-award/best-paper-award.png
+      source: /assets/areas/news/2022-09-17-fares-best-paper-award/best-paper-award.png
      
 ---
 

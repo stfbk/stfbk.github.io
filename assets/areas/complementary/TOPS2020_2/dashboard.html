@@ -1,0 +1,575 @@
+<html>
+	<head>
+        <script
+			src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			crossorigin="anonymous">
+		</script>
+		<script 
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" 
+			integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" 
+			crossorigin="anonymous">
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/card.css">
+		<link rel="stylesheet" type="text/css" href="css/shape.css">
+		<link rel="stylesheet" type="text/css" href="css/font.css">
+		<link rel="stylesheet" type="text/css" href="css/likelihood.css">
+		<link rel="stylesheet" type="text/css" href="css/toggle.css">
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+	</head>
+	
+	<body>
+        
+        <!-- Title -->
+		<div class="container-fluid">
+			<br />
+			<div class="row">
+				<div class="col text-center">
+					<h1 id="titleDashboard">CryptoAC Dashboard</h1>
+				</div>
+			</div>
+			<br />
+
+
+			<!-- table for switching between Best and AdHoc -->
+			<!-- note how the ID of each icon is "entity_domain", this is not by chance -->
+			<div class="row">
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-10 col text-center">
+					<div class="card">
+						<table class="table">
+						<thead class="thead-dark">
+							<tr>
+							<th class="text-center topRounded noBorderTop" colspan="5">
+								Configuration
+								<i class="fa fa-question-circle " data-toggle="tooltip" data-placement="right" title="Switch between Best and AdHoc and decide whether to optimize by goals or protection levels"></i>
+							</th>
+							</tr>
+							<tr>
+							<td class="text-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+							<td class="text-center">Algorithm</td>
+							<td class="text-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+							<td class="text-center">Metric</td>
+							<td class="text-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+							<td class="text-center"> </td>
+							<td class="text-left">
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="Problem" id="radioMOCOP" value="MOCOP" checked>
+									<label class="form-check-label" for="radioMOCOP">
+										Best
+									</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="Problem" id="radioCWSOP" value="CWSOP">
+									<label class="form-check-label" for="radioCWSOP">
+										AdHoc
+									</label>
+								</div>
+							</td>
+							<td class="text-center"> </td>	
+							<td class="text-left">
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="goals" id="radioGoals" value="option1" checked>
+									<label class="form-check-label" for="radioGoals">
+									  Goal Levels
+									</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="Objective" id="radioProtection" value="option2" checked>
+									<label class="form-check-label" for="radioProtection">
+										Protection Levels
+									</label>
+								</div>
+							</td>
+							<td class="text-center"> </td>	
+							</tr>
+						</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="col-md-1">
+				</div>
+			</div>
+			
+			
+			<br />
+
+
+
+			<!-- table for prefilters -->
+			<!-- note how the ID of each icon is "entity_domain", this is not by chance -->
+			<div class="row">
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-10 col text-center">
+					<div class="card">
+						<table class="table">
+						<thead class="thead-dark">
+							<tr>
+							<th class="text-center topRounded noBorderTop" colspan="5">
+								Pre-Filters
+								<i class="fa fa-question-circle " data-toggle="tooltip" data-placement="right" title="Click on an icon to exclude that entity from that domain (or pair of domains) in the set of possible architectures"></i>
+							</th>
+							</tr>
+							<tr>
+							<td class="text-center">Client</td>
+							<td class="text-center">Client, On-Premise</td>
+							<td class="text-center">On-premise</td>
+							<td class="text-center">On-Premise, CSP</td>
+							<td class="text-center">CSP</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+							<td class="text-center">
+								<img src="./img/entities/proxy.png" class="img-fluid class-prefilter" id="Proxy_Client" width="30em" height="30em" /> 
+							</td>
+							<td class="text-center">
+								<img src="./img/entities/proxy.png" class="img-fluid class-prefilter" id="Proxy_ClientOnPremise" width="30em" height="30em" /> 
+							</td>
+							<td class="text-center">
+								<img src="./img/entities/proxy.png"	class="img-fluid mx-1 class-prefilter" id="Proxy_OnPremise" width="30em" height="30em" /> 
+								<img src="./img/entities/ms.png" 	class="img-fluid mx-1 class-prefilter" id="MS_OnPremise" 	width="30em" height="30em" /> 
+								<img src="./img/entities/rm.png" 	class="img-fluid mx-1 class-prefilter" id="RM_OnPremise" 	width="30em" height="30em" /> 
+								<img src="./img/entities/ds.png" 	class="img-fluid mx-1 class-prefilter" id="DS_OnPremise" 	width="30em" height="30em" /> 
+							</td>
+							<td class="text-center">
+								<img src="./img/entities/ms.png" 	class="img-fluid mx-1 class-prefilter" id="MS_OnPremiseCSP" width="30em" height="30em" /> 
+								<img src="./img/entities/ds.png" 	class="img-fluid mx-1 class-prefilter" id="DS_OnPremiseCSP" width="30em" height="30em" /> 
+							</td>
+							<td class="text-center">
+								<img src="./img/entities/ms.png" 	class="img-fluid mx-1 class-prefilter" id="MS_CSP" width="30em" height="30em" /> 
+								<img src="./img/entities/rm.png" 	class="img-fluid mx-1 class-prefilter" id="RM_CSP" width="30em" height="30em" /> 
+								<img src="./img/entities/ds.png" 	class="img-fluid mx-1 class-prefilter" id="DS_CSP" width="30em" height="30em" /> 
+							</td>
+							</tr>
+						</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="col-md-1">
+				</div>
+			</div>
+
+
+			<br />
+
+
+			<!-- table for trust assumptions -->
+			<!-- note how the ID of each select group is "likelihood_attacker", this is not by chance -->
+			<div class="row">
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-10 col text-center">
+					<div class="card">
+						<table class="table">
+						<thead class="thead-dark">
+							<tr>
+							<th class="text-center topRounded noBorderTop" colspan="6">
+								Trust Assumptions
+								<i class="fa fa-question-circle " data-toggle="tooltip" data-placement="right" title="Set the likelihood of the attackers"></i>
+							</th>
+							</tr>
+							<tr>
+								<td class="text-center">
+									<span class="tableTitle">Malicious Insider</span>
+									<span class="tableSubtitle">(On-premise)</span>
+								</td>
+								<td class="text-center">
+									<span class="tableTitle">Malicious Insider</span>
+									<span class="tableSubtitle">(CSP)</span>
+								</td>
+								<td class="text-center">
+									<span class="tableTitle">MitM</span>
+									<span class="tableSubtitle">(Client, On-premise)</span>
+								</td>
+								<td class="text-center">
+									<span class="tableTitle">MitM</span>
+									<span class="tableSubtitle">(Client, CSP)</span>
+								</td>
+								<td class="text-center">
+									<span class="tableTitle">MitM</span>
+									<span class="tableSubtitle">(On-premise, CSP)</span>
+								</td>
+								<td class="text-center">
+									<span class="tableTitle">MatD</span>
+									<span class="tableSubtitle">(Client)</span>
+								</td>
+							</tr>
+							
+						</thead>
+						<tbody>
+							<tr>
+							<td>
+								<div class="likelihood-container">
+									<select class="form-control class-likelihood" id="likelihood_MaliciousInsiderOnPremise">
+										<option value="high">High</option>
+										<option value="medium">Medium</option>
+										<option value="low">Low</option>
+										<option value="none">None</option>
+									</select>
+									<div class="likelihood-div-dot">
+										<span class="dot" id="dot_MaliciousInsiderOnPremise"></span>
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="likelihood-container">
+									<select class="form-control class-likelihood" id="likelihood_MaliciousInsiderCSP">
+										<option value="high">High</option>
+										<option value="medium">Medium</option>
+										<option value="low">Low</option>
+										<option value="none">None</option>
+									</select>
+									<div class="likelihood-div-dot">
+										<span class="dot" id="dot_MaliciousInsiderCSP"></span>
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="likelihood-container">
+									<select class="form-control class-likelihood" id="likelihood_MitMClientOnPremise">
+										<option value="high">High</option>
+										<option value="medium">Medium</option>
+										<option value="low">Low</option>
+										<option value="none">None</option>
+									</select>
+									<div class="likelihood-div-dot">
+										<span class="dot" id="dot_MitMClientOnPremise"></span>
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="likelihood-container">
+									<select class="form-control class-likelihood" id="likelihood_MitMClientCSP">
+										<option value="high">High</option>
+										<option value="medium">Medium</option>
+										<option value="low">Low</option>
+										<option value="none">None</option>
+									</select>
+									<div class="likelihood-div-dot">
+										<span class="dot" id="dot_MitMClientCSP"></span>
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="likelihood-container">
+									<select class="form-control class-likelihood" id="likelihood_MitMOnPremiseCSP">
+										<option value="high">High</option>
+										<option value="medium">Medium</option>
+										<option value="low">Low</option>
+										<option value="none">None</option>
+									</select>
+									<div class="likelihood-div-dot">
+										<span class="dot" id="dot_MitMOnPremiseCSP"></span>
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="likelihood-container">
+									<select class="form-control class-likelihood" id="likelihood_MatD">
+										<option value="high">High</option>
+										<option value="medium">Medium</option>
+										<option value="low">Low</option>
+										<option value="none">None</option>
+									</select>
+									<div class="likelihood-div-dot">
+										<span class="dot" id="dot_MatD"></span>
+									</div>
+								</div>
+							</td>
+							</tr>
+						</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="col-md-1">
+				</div>
+			</div>
+
+			<br />
+
+			<!-- table for scenario requirements on goals -->
+			<div class="row collapse" id="scenarioRequirementsOnGoals">
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-10 col text-center">
+					<div class="card">	
+						<table class="table">
+						<thead class="thead-dark">
+							<tr>
+							<th class="text-center topRounded noBorderTop" colspan="9">
+								Scenario Requirements on Goals
+								<i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Tune Weights and Soft and Hard constraints"></i>
+							</th>
+							</tr>
+							<tr>
+							<td></td>
+							<td class="rotate"><div><span>Redundancy</span></div></td>
+							<td class="rotate"><div><span>Scalability</span></div></td>
+							<td class="rotate"><div><span>Reliability</span></div></td>
+							<td class="rotate"><div><span>Maintenance</span></div></td>
+							<td class="rotate"><div><span>DoS Resilience</span></div></td>
+							<td class="rotate"><div><span>Vendor Lock-in</span></div></td>
+							<td class="rotate"><div><span>On-premise Savings</span></div></td>
+							<td class="rotate"><div><span>CSP Savings</span></div></td>
+							</tr>
+						</thead>
+						<tbody>
+							<!--  weights -->
+							<tr>
+							<th class="align-middle" data-toggle="tooltip" data-placement="left" title="Assign the weights to each goal (default is 1)">
+								Weight
+							</th>
+							<!-- note how the ID of each weight is the key of the goal in the const.js file plus "_weight" -->
+							<td class="text-center">
+								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="redundancy_weight">
+							</td>
+							<td class="text-center">
+								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="scalability_weight">
+							</td>
+							<td class="text-center">
+								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="reliability_weight">
+							</td>
+							<td class="text-center">
+								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="maintenance_weight">
+							</td>
+							<td class="text-center">
+								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="dosResilience_weight">
+							</td>
+							<td class="text-center">
+								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="vendorLockIn_weight">
+							</td>
+							<td class="text-center">
+								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="onPremiseSavings_weight">
+							</td>
+							<td class="text-center"> 
+								<input class="form-control class-weight-goal" min="0" type="number" value="1" id="cspSavings_weight">
+							</td>
+							</tr>
+
+							<!-- Soft/Hard Constraints -->
+							<tr>
+							<th class="align-middle" data-toggle="tooltip" data-placement="left" title="Select the threshold (>=), hard or soft constraint and the penalty">
+								<p>Threshold</p>
+								<br /> <br /> <br /> <br /><br />
+								<p>Penalty</p>
+							</th>
+							<!-- note how the ID of each element is the key of the property in the const.js file plus "_threshold", _constraint or "_penalty" -->
+							<td>
+								<input class="form-control class-threshold-goal" type="number" value="0" id="redundancy_threshold"><br />
+								<input type="radio" name="redundancy-constraint" class="class-constraint-goal" id="redundancy_none" checked> None<br />
+								<input type="radio" name="redundancy-constraint" class="class-constraint-goal" id="redundancy_hard"> Hard<br />
+								<input type="radio" name="redundancy-constraint" class="class-constraint-goal" id="redundancy_soft"> Soft<br /> <br />
+								<input class="form-control class-penalty-goal" max="0" type="number" value="0" id="redundancy_penalty">
+							</td>
+							<td>
+								<input class="form-control class-threshold-goal" type="number" value="0" id="scalability_threshold"> <br />
+								<input type="radio" name="scalability-constraint" class="class-constraint-goal" id="scalability_none" checked> None<br />
+								<input type="radio" name="scalability-constraint"class="class-constraint-goal" id="scalability_hard"> Hard<br />
+								<input type="radio" name="scalability-constraint"class="class-constraint-goal" id="scalability_soft"> Soft<br /> <br />
+								<input class="form-control class-penalty-goal" max="0" type="number" value="0" id="scalability_penalty">
+							</td>
+							<td>
+								<input class="form-control class-threshold-goal" type="number" value="0" id="reliability_threshold"> <br />
+								<input type="radio" name="reliability-constraint" class="class-constraint-goal" id="reliability_none" checked> None<br />
+								<input type="radio" name="reliability-constraint"class="class-constraint-goal" id="reliability_hard"> Hard<br />
+								<input type="radio" name="reliability-constraint" class="class-constraint-goal" id="reliability_soft"> Soft<br /> <br />
+								<input class="form-control class-penalty-goal" max="0" type="number" value="0" id="reliability_penalty">
+							</td>
+							<td>
+								<input class="form-control class-threshold-goal" type="number" value="0" id="maintenance_threshold"> <br />
+								<input type="radio" name="maintenance-constraint" class="class-constraint-goal" id="maintenance_none" checked> None<br />
+								<input type="radio" name="maintenance-constraint" class="class-constraint-goal" id="maintenance_hard"> Hard<br />
+								<input type="radio" name="maintenance-constraint" class="class-constraint-goal" id="maintenance_soft"> Soft<br /> <br />
+								<input class="form-control class-penalty-goal" max="0" type="number" value="0" id="maintenance_penalty">
+							</td>
+							<td>
+								<input class="form-control class-threshold-goal" type="number" value="0" id="dosResilience_threshold"> <br />
+								<input type="radio" name="dosResilience-constraint" class="class-constraint-goal" id="dosResilience_none" checked> None<br />
+								<input type="radio" name="dosResilience-constraint" class="class-constraint-goal" id="dosResilience_hard"> Hard<br />
+								<input type="radio" name="dosResilience-constraint" class="class-constraint-goal" id="dosResilience_soft"> Soft<br /> <br />
+								<input class="form-control class-penalty-goal" max="0" type="number" value="0" id="dosResilience_penalty">
+							</td>
+							<td>
+								<input class="form-control class-threshold-goal" type="number" value="0" id="vendorLockIn_threshold"> <br />
+								<input type="radio" name="vendorLockIn-constraint" class="class-constraint-goal" id="vendorLockIn_none" checked> None<br />
+								<input type="radio" name="vendorLockIn-constraint" class="class-constraint-goal" id="vendorLockIn_hard"> Hard<br />
+								<input type="radio" name="vendorLockIn-constraint" class="class-constraint-goal" id="vendorLockIn_soft"> Soft<br /> <br />
+								<input class="form-control class-penalty-goal" max="0" type="number" value="0" id="vendorLockIn_penalty">
+							</td>
+							<td>
+								<input class="form-control class-threshold-goal" type="number" value="0" id="onPremiseSavings_threshold"> <br />
+								<input type="radio" name="onPremiseSavings-constraint" class="class-constraint-goal" id="onPremiseSavings_none" checked> None<br />
+								<input type="radio" name="onPremiseSavings-constraint" class="class-constraint-goal" id="onPremiseSavings_hard"> Hard<br />
+								<input type="radio" name="onPremiseSavings-constraint" class="class-constraint-goal" id="onPremiseSavings_soft"> Soft<br /> <br />
+								<input class="form-control class-penalty-goal" max="0" type="number" value="0" id="onPremiseSavings_penalty">
+							</td>
+							<td>
+								<input class="form-control class-threshold-goal" type="number" value="0" id="cspSavings_threshold"> <br />
+								<input type="radio" name="cspSavings-constraint" class="class-constraint-goal" id="cspSavings_none" checked> None<br />
+								<input type="radio" name="cspSavings-constraint" class="class-constraint-goal" id="cspSavings_hard"> Hard<br />
+								<input type="radio" name="cspSavings-constraint" class="class-constraint-goal" id="cspSavings_soft"> Soft<br /> <br />
+								<input class="form-control class-penalty-goal" max="0" type="number" value="0" id="cspSavings_penalty">
+							</td>	
+							</tr>
+						</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="col-md-1">
+				</div>
+			</div>
+
+			<br />
+
+			<!-- table for scenario requirements on protection levels -->
+			<div class="row collapse" id="scenarioRequirementsOnProtectionLevels">
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-10 col text-center">
+					<div class="card">	
+						<table class="table">
+							<thead class="thead-dark">
+								<tr>
+								<th class="text-center topRounded noBorderTop" colspan="9">
+									Scenario Requirements on Protection Levels
+									<i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Tune Weights and Soft and Hard constraints"></i>
+								</th>
+								</tr>
+								<tr>
+								<td></td>
+								<td class="rotate"><div><span>Confidentiality</span></div></td>
+								<td class="rotate"><div><span>Integrity</span></div></td>
+								<td class="rotate"><div><span>Availability</span></div></td>
+								</tr>
+							</thead>
+							<tbody>
+								<!--  weights -->
+								<tr>
+									<th class="align-middle" data-toggle="tooltip" data-placement="left" title="Assign the weights to each protection level (default is 1)">
+										Weight
+									</th>
+									<!-- note how the ID of each weight is the key of the protection level in the const.js file plus "_weight" -->
+									<td class="text-center"> 
+										<input class="form-control class-weight-property" min="0" type="number" value="1" id="C_weight">
+									</td>
+									<td class="text-center"> 
+										<input class="form-control class-weight-property" min="0" type="number" value="1" id="I_weight">
+									</td>
+									<td class="text-center"> 
+										<input class="form-control class-weight-property" min="0" type="number" value="1" id="A_weight">
+									</td>
+								</tr>
+
+
+
+								<!-- Soft/Hard Constraints -->
+								<tr>
+									<th class="align-middle" data-toggle="tooltip" data-placement="left" title="Select the threshold (>=), hard or soft constraint and the penalty">
+										<p>Threshold</p>
+										<br /> <br /> <br /> <br /><br />
+										<p>Penalty</p>
+									</th>
+									<!-- note how the ID of each element is the key of the property in the const.js file plus "_threshold", _constraint or "_penalty" -->
+									<td>
+										<input class="form-control class-threshold-property" type="number" value="0" id="C_threshold"><br />
+										<input type="radio" name="C-constraint" class="class-constraint-property" id="C_none" checked> None<br />
+										<input type="radio" name="C-constraint" class="class-constraint-property" id="C_hard"> Hard<br />
+										<input type="radio" name="C-constraint" class="class-constraint-property" id="C_soft"> Soft<br /> <br />
+										<input class="form-control class-penalty-property" max="0" type="number" value="0" id="C_penalty">
+									</td>
+									<td>
+										<input class="form-control class-threshold-property" type="number" value="0" id="I_threshold"> <br />
+										<input type="radio" name="I-constraint" class="class-constraint-property" id="I_none" checked> None<br />
+										<input type="radio" name="I-constraint"class="class-constraint-property" id="I_hard"> Hard<br />
+										<input type="radio" name="I-constraint"class="class-constraint-property" id="I_soft"> Soft<br /> <br />
+										<input class="form-control class-penalty-property" max="0" type="number" value="0" id="I_penalty">
+									</td>
+									<td>
+										<input class="form-control class-threshold-property" type="number" value="0" id="A_threshold"> <br />
+										<input type="radio" name="A-constraint" class="class-constraint-property" id="A_none" checked> None<br />
+										<input type="radio" name="A-constraint"class="class-constraint-property" id="A_hard"> Hard<br />
+										<input type="radio" name="A-constraint" class="class-constraint-property" id="A_soft"> Soft<br /> <br />
+										<input class="form-control class-penalty-property" max="0" type="number" value="0" id="A_penalty">
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="col-md-1">
+				</div>
+			</div>
+
+			
+			
+			<br />
+		
+		
+				 
+			<!-- Here there is the result section showing the best architectures-->
+			<div class="row">
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-10 col text-center">
+					<div class="card">
+						<table class="table">
+						<thead class="table-primary">
+							<tr>
+								<th class="text-center topRounded noBorderTop" colspan="5">
+									Best Architectures
+									<i class="fa fa-question-circle " data-toggle="tooltip" data-placement="right" title="The best architectures with respect to your inputs"></i>
+								</th>
+							</tr>
+						</thead>
+						<tbody id="bestArchitectures">
+
+						</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="col-md-1">
+				</div>
+			</div>	 
+				 
+	
+			
+			<br />
+			<br />
+			
+		</div>	
+
+        <script src="js/const.js"></script>
+        <script src="js/util.js"></script>
+		<script src="js/Assignment.js"></script>
+		
+		<script src="js/weightGoals.js"></script>
+		<script src="js/weightProperties.js"></script>
+		<script src="js/thresholdsGoals.js"></script>
+		<script src="js/thresholdsProperties.js"></script>
+		<script src="js/constraintsGoals.js"></script>
+		<script src="js/constraintsProperties.js"></script>
+		<script src="js/penaltyGoals.js"></script>
+		<script src="js/penaltyProperties.js"></script>
+		<script src="js/likelihood.js"></script>
+
+        <script src="js/goals.js"></script>
+        <script src="js/Impacts.js"></script>
+        <script src="js/Architecture.js"></script>
+
+		<script src="js/preFilters.js"></script>
+
+		<script src="js/brain.js"></script>
+		<script src="js/brain_CWSOP.js"></script>
+		<script src="js/brain_MOCOP.js"></script>
+
+		<script src="js/latexGenerator.js"></script>
+    </body>
+</html>

@@ -51,6 +51,6 @@ The tutorial will be presented in 1.5 hours by:
 - Andrea De Maria (Istituto Poligrafico e Zecca dello Stato)
 
 # Slides
-<a href="/complementary/assets/ITASEC2018/Slides.pdf" target="_blank">
-  <img style="width: 100%; max-width: 300px;" src="/complementary/assets/ITASEC2018/Slides_image.png" />
+<a href="/assets/areas/complementary/ITASEC2018/Slides.pdf" target="_blank">
+  <img style="width: 100%; max-width: 300px;" src="/assets/areas/complementary/ITASEC2018/Slides_image.png" />
 </a>
