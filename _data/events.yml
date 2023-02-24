@@ -92,6 +92,14 @@
   url: /events/CPS4CIP2022
 
 # 2023
+- id: TDI2023
+  name: 1st International Workshop on Trends in Digital Identity
+  acronym: TDI 2023
+  startDate: "2023-06-06"
+  endDate: "2023-06-06"
+  description:
+  url: /events/TDI2023
+
 - id: SACMAT2023
   name: 28th ACM Symposium on Access Control Models and Technologies
   acronym: SACMAT 2023
