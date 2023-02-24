@@ -1,0 +1,8 @@
+- label: Menu
+  items:
+    - name: Home
+      link: /events/TDI2023/
+    - name: Submission
+      link: submission
+    - name: Committees
+      link: committees
