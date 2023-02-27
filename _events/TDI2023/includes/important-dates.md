@@ -1,2 +1,2 @@
-- **Submission**:               March 31, 2023 (11:59 pm AOE)
-- **Notification to Authors**:  April 7, 2023
+- **Submission deadline**:      March 31, 2023 (11:59 pm AOE)
+- **Notification to Authors**:  April 12, 2023
