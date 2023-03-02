@@ -193,9 +193,13 @@
                 {% if person.affiliations[counter].institution == person.affiliations[nextCounter].institution %}
                     {% assign currentRole = currentRole | append: " and " %}
                 {% else %}
-                    {% assign currentRole = currentRole | append: " at " | append: person.affiliations[counter].institution %}
+                    {% assign currentRole = currentRole | append: " at " %}
+                    {% if person.affiliations[counter].unit %}
+                        {% assign currentRole = currentRole | append: person.affiliations[counter].unit | append: ", " %}
+                    {% endif %}
+                    {% assign currentRole = currentRole | append: person.affiliations[counter].institution %}
                     {% if counter < affiliationNumbers %}
-                        {% assign currentRole = currentRole | append: ", " %}
+                        {% assign currentRole = currentRole | append: "; " %}
                     {% endif %}
                 {% endif %}
             {% endfor %}
@@ -243,13 +247,23 @@
                         {% if person.name and person.surname %}<p class="title is-spaced is-5">{{ person.name }} {{ person.surname }}</p>{% endif %}
                         {% if role and details contains "role" %}<p class="subtitle role is-4">{{ role }}</p>{% endif %}
                         {% if type %}<p class="subtitle role is-4">{{ type }}</p>{% endif %}
-                        {% if details contains "affiliation" %}
+                        {% if details contains "unit" or details contains "institution" or details contains "place" %}
                             {% for affiliation in person.affiliations %}
                                 <div class="affiliation{% if person.affiliations.size > 1 %} more{% endif %}">
-                                    {% if affiliation.unit %}<p class="subtitle affiliation unit is-4">{{ affiliation.unit }}</p>{% endif %}
-                                    {% if affiliation.institution %}<p class="subtitle affiliation institution is-4">{{ affiliation.institution }}</p>{% endif %}
-                                    {% if affiliation.place %}<p class="subtitle affiliation place is-4">{{ affiliation.place }}</p>{% endif %}
+                                    {% if affiliation.unit and details contains "unit" %}<p class="subtitle affiliation unit is-4">{{ affiliation.unit }}</p>{% endif %}
+                                    {% if affiliation.institution and details contains "institution" %}<p class="subtitle affiliation institution is-4">{{ affiliation.institution }}</p>{% endif %}
+                                    {% if affiliation.place and details contains "place" %}<p class="subtitle affiliation place is-4">{{ affiliation.place }}</p>{% endif %}
                                 </div>
+                            {% endfor %}
+                        {% elsif details contains "internalUnit" %}
+                            {% for affiliation in person.affiliations %}
+                                {% if affiliation.institution == "Fondazione Bruno Kessler" %}
+                                    {% if affiliation.unit == "Security & Trust" or affiliation.unit == "Center for Cybersecurity" %}
+                                        <div class="affiliation">
+                                            <p class="subtitle affiliation unit is-4">{{ affiliation.unit }}</p>
+                                        </div>
+                                    {% endif %}
+                                {% endif %}
                             {% endfor %}
                         {% endif %}
                         {% if institution %}<p class="subtitle institution is-4">{{ institution }}</p>{% endif %}
