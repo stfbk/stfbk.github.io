@@ -743,7 +743,7 @@
   name: Roberto
   surname: Carbone
   affiliations:
-    - role: Head of the Security & Trust Unit
+    - role: Head of Unit
       unit: Security & Trust
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -809,7 +809,7 @@
   name: Silvio
   surname: Ranise
   affiliations:
-    - role: Director of the Center for Cybersecurity
+    - role: Director of Center
       unit: Center for Cybersecurity
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -852,7 +852,6 @@
       institution: University of Genoa
       place: Genoa, Italy
   website: https://stefanoberlato.it/
-  image: https://stefanoberlato.it/images/avataaars.png
   email: sberlato@fbk.eu
 
 - id: StefanoDaRoit
