@@ -4,7 +4,7 @@ layout: page
 permalink: /people/
 ---
 
-{% assign details = "picture, role, unit, email, website" | split: ", " %}
+{% assign details = "picture, role, unit, email, personalPage, website" | split: ", " %}
 
 <h1>Heads</h1>
 {% include list-people.html source=site.data.members.current.head style="card" details=details %}
@@ -14,7 +14,7 @@ permalink: /people/
 
 {%- if site.data.members.current.collaborators.size > 0 -%}
   <h1>Collaborators</h1>
-  {% assign details = "picture, role, email, website, institution" | split: ", " %}
+  {% assign details = "picture, role, email, personalPage, website, institution" | split: ", " %}
   {% include list-people.html source=site.data.members.current.collaborators style="card" details=details sort="name" %}
 {%- endif -%}
 

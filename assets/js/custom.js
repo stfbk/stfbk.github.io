@@ -70,3 +70,8 @@ if ($("nav .contents .menu").length > 0) {
         });
     }
 }
+
+if ($("#set-subtitle").length == 1) {
+    var subtitle = $("#set-subtitle").text();
+    $(".hero-body .subtitle:first").text(subtitle);
+}
