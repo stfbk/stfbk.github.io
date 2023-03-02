@@ -13,9 +13,11 @@
 - name: People
   link: /people/
   dropdown:
-    - name: Current
+    - name: The Unit
+      link: /people/unit
+    - name: Current Members
       link: /people/
-    - name: Former
+    - name: Former Members
       link: /people/former
 - name: Publications
   link: /publications/
