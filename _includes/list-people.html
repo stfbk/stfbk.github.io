@@ -259,6 +259,23 @@
                                     </span>
                                 </a>
                             {% endif %}
+
+                            {% if details contains "personalPage" %}
+                                {% assign personFullName = person.name | append: " " | append: person.surname %}
+                                {% assign personURL = personFullName | replace: " ", "-" | downcase %}
+                                {% assign personFullURL = "/people/" | append: personURL %}
+                                {% assign personFullPath = "_people/" | append: personURL | append: ".md" %}
+                                {% assign personPage = site.people | where_exp: "page", "page.path == personFullPath" %}
+                                {% if personPage.size == 1 %}
+                                    <a href="{{ site.baseurl }}{{ personFullURL }}">
+                                        <span class="fa-stack" style="vertical-align: top;">
+                                            <i class="fas fa-circle fa-stack-2x"></i>
+                                            <i class="fas fa-id-card fa-stack-1x fa-inverse"></i>
+                                        </span>
+                                    </a>
+                                {% endif %}
+                            {% endif %}
+
                             {% if details contains "website" %}
                                 {% if person.website %}
                                     {% if person.website == "" %}
@@ -266,8 +283,6 @@
                                     {% else %}
                                         {% assign personWebsite = person.website %}
                                     {% endif %}
-                                {% elsif splitEmail and splitEmail[1] == "fbk.eu" %}
-                                    {% assign personWebsite = "https://ict.fbk.eu/people/detail/" | append: person.name | append: "-" | append: person.surname | append: "/" | downcase %}
                                 {% else %}
                                     {% assign personWebsite = nil %}
                                 {% endif %}
@@ -307,8 +322,24 @@
                 {%- else -%}
                     {%- assign detailsString = "" -%}
                 {%- endif -%}
+
+                {% assign personFullURL = nil %}
+                {% if details contains "personalPage" %}
+                    {% assign personFullName = person.name | append: " " | append: person.surname %}
+                    {% assign personURL = personFullName | replace: " ", "-" | downcase %}
+                    {% assign personFullPath = "_people/" | append: personURL | append: ".md" %}
+                    {% assign personPage = site.people | where_exp: "page", "page.path == personFullPath" %}
+                    {% if personPage.size == 1 %}
+                        {% assign personFullURL = "/people/" | append: personURL %}
+                    {% endif %}
+                {% endif %}
                 <li>
                     {% if person.name and person.surname %}<b>{{ person.name }} {{ person.surname }}</b>{% endif %}{{ detailsString }}
+                    {% if personFullURL %}
+                        <a href="{{ site.baseurl }}{{ personFullURL }}">
+                            <i class="fas fa-id-card"></i>
+                        </a>
+                    {% endif %}
                     {% if authorThesesArray[counter] and details contains "thesis" %}
                         <br />Thesis: {{ authorThesesArray[counter].title }}{% if authorThesesArray[counter].doi or authorThesesArray[counter].link %} (<a href="{% if authorThesesArray[counter].doi %}https://doi.org/{{ authorThesesArray[counter].doi }}{% else %}{{ authorThesesArray[counter].link }}{% endif %}">link</a>){% endif %}
                         {% if supervisorsArray[counter] %}<br />Supervisor{% if authorThesesArray[counter].supervisor.first and authorThesesArray[counter].supervisor.size > 1 %}s{% endif %}: {{ supervisorsArray[counter] }}{% if cosupervisorsArray[counter] %} |{% endif %}{% endif %}

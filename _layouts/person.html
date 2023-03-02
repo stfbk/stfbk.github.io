@@ -1,0 +1,144 @@
+---
+layout: default
+---
+
+{% assign personFromId = site.data.people | where: "id", page.person %}
+{% if personFromId.size == 1 %}
+    {% assign person = personFromId | first %}
+{% else %}
+    {% assign person = nil %}
+{% endif %}
+
+{% assign staticImageName = page.person | append: ".jpg" %}
+{% assign staticImageURL = "/assets/areas/people/" | append: staticImageName %}
+{% assign staticImage = site.static_files | where_exp: "file", "file.path == staticImageURL" %}
+
+{% if person.image %}
+    {% assign personImage = person.image %}
+{% elsif staticImage.size == 1 %}
+    {% assign personImage = staticImageURL %}
+{% elsif person.usernameFBK %}
+    {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ person.usernameFBK }}?w=300{% endcapture %}
+{% elsif person.email %}
+    {% assign splitEmail = person.email | split: '@' %}
+    {% if splitEmail[1] == "fbk.eu" %}
+        {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ splitEmail[0] }}?w=300{% endcapture %}
+    {% else %}
+        {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/no-user?w=300{% endcapture %}
+    {% endif %}
+{% endif %}
+
+{% assign contactsAvailable = false %}
+
+{% if person.phone %}
+    {% assign phone = person.phone %}
+    {% assign contactsAvailable = true %}
+{% endif %}
+
+{% if person.email %}
+    {% assign email = person.email %}
+    {% assign contactsAvailable = true %}
+{% endif %}
+
+{% assign affiliationNumbers = person.affiliations.size | minus: 1 %}
+{% assign roleST = nil %}
+{% for counter in (0..affiliationNumbers) %}
+    {% if person.affiliations[counter].institution == "Fondazione Bruno Kessler" %}
+        {% if person.affiliations[counter].unit == "Security & Trust" or person.affiliations[counter].unit == "Center for Cybersecurity" %}
+            {% assign roleST = person.affiliations[counter].role %}
+        {% endif %}
+    {% elsif person.affiliations[counter].institution == "Futuro & Conoscenza" %}
+        {% assign roleST = "Collaborator" %}
+    {% endif %}
+{% endfor %}
+
+<div class="content single-fbkperson">
+    <span id="set-title">{{ person.name }} {{ person.surname }}</span>
+    <span id="set-subtitle">{{ roleST }}</span>
+    <div class="columns is-multiline">
+        <div class="column is-12">
+            {% if personImage %}
+                <div class="profile-thumb">
+                    <img src="{{ personImage }}" />
+                </div>
+            {% endif %}
+
+            <section class="contains-bio">
+                {{ content }}
+            </section>
+
+            <section class="additional-info-wrapper">
+                {% if contactsAvailable %}
+                    <div class="section-title">Contacts</div>
+                    <ul class="people-contacts-list">
+                        {% if phone %}
+                            <li class="contains-phone">
+                                <a href="tel:{{ phone }}">{{ phone }}</a>
+                            </li>
+                        {% endif %}
+                        
+                        {% if email %}
+                            <li class="contains-email">
+                                <a href="mailto:{{ email }}">{{ email }}</a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                {% endif %}
+
+                {% if person.links.size > 0 %}
+                    <div class="section-title">Links</div>
+                    <ul class="people-links-list">
+                        {% assign links = person.links | sort_natural: "name" %}
+                        {% for link in links %}
+                            {% assign linkName = nil %}
+                            {% assign url = nil %}
+                            {% case link.name %}
+                                {% when "ACM" %}
+                                    {% assign linkName = "ACM" %}
+                                    {% assign linkURL = "https://dl.acm.org/profile/" | append: link.value %}
+                                {% when "dblp" %}
+                                    {% assign linkName = "dblp" %}
+                                    {% assign linkURL = "https://dblp.uni-trier.de/pid/" | append: link.value %}
+                                {% when "GoogleScholar" %}
+                                    {% assign linkName = "Google Scholar" %}
+                                    {% assign linkURL = "https://scholar.google.com/citations?user=" | append: link.value %}
+                                {% when "LinkedIn" %}
+                                    {% assign linkName = "LinkedIn" %}
+                                    {% assign linkURL = "https://www.linkedin.com/in/" | append: link.value | append: "/" %}
+                                {% when "ORCID" %}
+                                    {% assign linkName = "ORCID" %}
+                                    {% assign linkURL = "https://orcid.org/" | append: link.value %}
+                                {% when "Publons" %}
+                                    {% assign linkName = "Publons" %}
+                                {% when "ResearchGate" %}
+                                    {% assign linkName = "ResearchGate" %}
+                                    {% assign linkURL = "https://www.researchgate.net/profile/" | append: link.value %}
+                                {% when "Twitter" %}
+                                    {% assign linkName = "Twitter" %}
+                                    {% assign linkURL = "https://twitter.com/" | append: link.value %}
+                                {% when "Website" %}
+                                    {% assign linkName = "Website" %}
+                                    {% assign linkURL = link.value %}
+                            {% endcase %}
+                            <li class="contains-{{ link.name }}">
+                                <a href="{{ linkURL }}" target="_blank">{{ linkName }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </section>
+
+            <section class="contains-publications">
+                {% assign publicationsByYear = site.data.publications | where_exp: "publication", "publication.authors contains page.person" | where_exp: "publication", "publication.id_iris != nil" | group_by: "year" | sort: "name" | reverse %}
+              
+                {% if publicationsByYear.size > 0 %}
+                    <h1>Publications</h1>
+                    {% for year in publicationsByYear %}
+                        <h4>{{ year.name }} <small>({{ year.items.size }})</small></h4>
+                        {% include list-publications.html source=year.items sort="title" %}
+                    {% endfor %}
+                {% endif %}
+            </section>
+        </div>
+    </div>
+</div>
