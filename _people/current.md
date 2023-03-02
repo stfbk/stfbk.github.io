@@ -20,6 +20,6 @@ permalink: /people/
 
 {%- if site.data.members.current.students.size > 0 -%}
   <h1>Students</h1>
-  {% assign details = "institution, topic, type, thesis" | split: ", " %}
+  {% assign details = "picture, institution, topic, type, thesis" | split: ", " %}
   {% include list-people.html source=site.data.members.current.students style="card" details=details sort="name" %}
 {%- endif -%}
