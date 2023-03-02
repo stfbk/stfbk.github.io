@@ -62,8 +62,8 @@
   name: Alessandro
   surname: Tomasi
   affiliations:
-    - role: Researcher
-      unit: Security & Trust
+    - role: Head of Unit
+      unit: AppLiEd cryptogrPHy
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: altomasi@fbk.eu
@@ -337,7 +337,7 @@
   surname: Zanolli
   affiliations:
     - role: Junior Researcher
-      unit: Security & Trust
+      unit: AppLiEd cryptogrPHy
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: gzanolli@fbk.eu
@@ -844,7 +844,7 @@
   surname: Berlato
   affiliations:
     - role: PhD Student
-      unit: Security & Trust
+      unit: AppLiEd cryptogrPHy
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
     - role: PhD Student
@@ -927,7 +927,7 @@
   surname: Ebadi Ansaroudi
   affiliations:
     - role: Researcher
-      unit: Security & Trust
+      unit: AppLiEd cryptogrPHy
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: zebadiansaroudi@fbk.eu

@@ -4,17 +4,13 @@ current:
     - RobertoCarbone
 
   members:
-    - AlessandroTomasi
     - GiadaSciarretta
     - TahirAhmad
     - AmirSharif
     - MarcoPernpruner
     - SalvatoreManfredi
-    - StefanoBerlato
     - MatteoRizzi
-    - ZahraEbadiAnsaroudi
     - MatteoBitussi
-    - GiacomoZanolli
     - EleonoraMarchesini
     - ElhamArshad
     - MuhammadImran
@@ -25,6 +21,10 @@ current:
     - LauraCristiano
     - UmbertoMorelli
     - CeciliaPasquini
+    - AlessandroTomasi
+    - StefanoBerlato
+    - GiacomoZanolli
+    - ZahraEbadiAnsaroudi
       
   students:
     - personId: GianlucaSassetti
