@@ -48,10 +48,11 @@ layout: default
         {% if person.affiliations[counter].unit == "Security & Trust" or person.affiliations[counter].unit == "Center for Cybersecurity" %}
             {% assign roleST = person.affiliations[counter].role %}
         {% endif %}
-    {% elsif person.affiliations[counter].institution == "Futuro & Conoscenza" %}
-        {% assign roleST = "Collaborator" %}
     {% endif %}
 {% endfor %}
+{% unless roleST %}
+    {% assign roleST = "Collaborator" %}
+{% endunless %}
 
 <div class="content single-fbkperson">
     <span id="set-title">{{ person.name }} {{ person.surname }}</span>
