@@ -10,7 +10,8 @@ layout: default
 {% endif %}
 
 {% assign staticImageName = page.person | append: ".jpg" %}
-{% assign staticImageURL = "/assets/areas/people/" | append: staticImageName %}
+{% assign staticImageNameNoAccents = staticImageName | replace: 'à', 'a' | replace: 'è', 'e'  | replace: 'ì', 'i'  | replace: 'ò', 'o'  | replace: 'ù', 'u' %}
+{% assign staticImageURL = "/assets/areas/people/" | append: staticImageNameNoAccents %}
 {% assign staticImage = site.static_files | where_exp: "file", "file.path == staticImageURL" %}
 
 {% if person.image %}

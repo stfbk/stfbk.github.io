@@ -293,8 +293,9 @@
                             {% if details contains "personalPage" %}
                                 {% assign personFullName = person.name | append: " " | append: person.surname %}
                                 {% assign personURL = personFullName | replace: " ", "-" | downcase %}
-                                {% assign personFullURL = "/people/" | append: personURL %}
-                                {% assign personFullPath = "_people/" | append: personURL | append: ".md" %}
+                                {% assign personalURLNoAccents = personURL | replace: 'à', 'a' | replace: 'è', 'e'  | replace: 'ì', 'i'  | replace: 'ò', 'o'  | replace: 'ù', 'u' %}
+                                {% assign personFullURL = "/people/" | append: personalURLNoAccents %}
+                                {% assign personFullPath = "_people/" | append: personalURLNoAccents | append: ".md" %}
                                 {% assign personPage = site.people | where_exp: "page", "page.path == personFullPath" %}
                                 {% if personPage.size == 1 %}
                                     <a href="{{ site.baseurl }}{{ personFullURL }}">
