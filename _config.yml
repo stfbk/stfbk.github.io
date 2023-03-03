@@ -105,6 +105,11 @@ defaults:
       tags: [awards]
 
   - scope:
+      path: "_people/*-*"
+    values:
+      layout: person
+
+  - scope:
       type: projects
     values:
       layout: project
@@ -119,4 +124,4 @@ defaults:
     values:
       layout: topic
 
-exclude: ["*/template*.md", "*/_template*.md", "README.md"]
+exclude: ["*/template*.md", "*/_template*.md", "README*.md"]
