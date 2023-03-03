@@ -499,7 +499,8 @@ section.page-top {
   margin: 0 0 24px;
 }
 
-.single-fbkperson ul {
+.single-fbkperson ul.people-contacts-list,
+.single-fbkperson ul.people-links-list {
   margin: 0;
   padding: 0;
 }
@@ -704,10 +705,29 @@ section.page-top {
   content: "\e93c";
 }
 
+/* CV */
+.single-fbkperson .additional-info-wrapper ul.people-links-list li.contains-CV:before {
+  font-family: "Academicons";
+  content: "\e9a5";
+}
+
 /* dblp */
 .single-fbkperson .additional-info-wrapper ul.people-links-list li.contains-dblp:before {
   font-family: "Academicons";
   content: "\e94f";
+}
+
+/* GitHub */
+.single-fbkperson .additional-info-wrapper ul.people-links-list li.contains-GitHub:before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "\f09b";
+}
+
+/* IEEE */
+.single-fbkperson .additional-info-wrapper ul.people-links-list li.contains-IEEE:before {
+  font-family: "Academicons";
+  content: "\e929";
 }
 
 /* Google Scholar */
@@ -749,6 +769,7 @@ section.page-top {
 /* URL */
 .single-fbkperson .additional-info-wrapper ul.people-links-list li.contains-Website:before {
   font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   content: "\f0c1";
 }
 /* END LINKS */

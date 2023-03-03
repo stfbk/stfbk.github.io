@@ -97,9 +97,18 @@ layout: default
                                 {% when "ACM" %}
                                     {% assign linkName = "ACM" %}
                                     {% assign linkURL = "https://dl.acm.org/profile/" | append: link.value %}
+                                {% when "CV" %}
+                                    {% assign linkName = "Curriculum Vitae" %}
+                                    {% assign linkURL = link.value %}
                                 {% when "dblp" %}
                                     {% assign linkName = "dblp" %}
-                                    {% assign linkURL = "https://dblp.uni-trier.de/pid/" | append: link.value %}
+                                    {% assign linkURL = "https://dblp.uni-trier.de/pid/" | append: link.value | append: ".html" %}
+                                {% when "IEEE" %}
+                                    {% assign linkName = "IEEE" %}
+                                    {% assign linkURL = "https://ieeexplore.ieee.org/author/" | append: link.value %}
+                                {% when "GitHub" %}
+                                    {% assign linkName = "GitHub" %}
+                                    {% assign linkURL = "https://github.com/" | append: link.value %}
                                 {% when "GoogleScholar" %}
                                     {% assign linkName = "Google Scholar" %}
                                     {% assign linkURL = "https://scholar.google.com/citations?user=" | append: link.value %}
