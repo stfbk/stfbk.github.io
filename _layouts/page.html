@@ -60,7 +60,7 @@ layout: default
         {% if page.people.size > 0 %}
             <div class="column is-12">
                 <h1 id="related-people" class="related in-toc">Involved People</h1>
-                {% assign details = "picture, email, personalPage, website" | split: ", " %}
+                {% assign details = "picture, email, phone, personalPage, website" | split: ", " %}
                 {% include list-people.html source=page.people style="card" details=details sort=page.peopleOrder %}
             </div>
         {% endif %}
