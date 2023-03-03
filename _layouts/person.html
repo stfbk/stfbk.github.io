@@ -86,10 +86,10 @@ layout: default
                     </ul>
                 {% endif %}
 
-                {% if person.links.size > 0 %}
+                {% if page.links.size > 0 %}
                     <div class="section-title">Links</div>
                     <ul class="people-links-list">
-                        {% assign links = person.links | sort_natural: "name" %}
+                        {% assign links = page.links | sort_natural: "name" %}
                         {% for link in links %}
                             {% assign linkName = nil %}
                             {% assign url = nil %}
