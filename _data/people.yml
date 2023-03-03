@@ -1,3 +1,5 @@
+# Please keep alphabetical order
+
 - id: AaronStump
   name: Aaron
   surname: Stump
@@ -10,7 +12,6 @@
   name: Adam J.
   surname: Lee
   email: adamlee@cs.pitt.edu
-  website: https://people.cs.pitt.edu/~adamlee/
 
 - id: AdrienBeaugendre
   name: Adrien
@@ -27,7 +28,6 @@
     - role: Innovation Manager
       institution: Securics
       place: Trento, Italy
-  website: https://sites.google.com/site/albertosiena/
   image: https://sites.google.com/site/albertosiena/_/rsrc/1263330308767/config/app/images/as.jpg
 
 - id: AlessandroArmando
@@ -39,7 +39,6 @@
       institution: University of Genoa
       place: Genoa, Italy
   email: alessandro.armando@unige.it
-  website: https://csec.it/people/alessandro_armando/
   image: https://csec.it/pics/alessandro-armando-2020.jpg
 
 - id: AlessandroBiasi
@@ -126,7 +125,6 @@
     - role: Assistant Professor
       institution: Delft University of Technology
       place: Delft, The Netherlands
-  website: https://apanichella.github.io/
 
 - id: AntoninoSabetta
   name: Antonino
@@ -173,7 +171,6 @@
       institution: "Futuro & Conoscenza"
   email: c.pasquini@futuroeconoscenza.it
   usernameFBK: c.pasquini
-  website: https://sites.google.com/view/ceciliapasquini/home-page
 
 - id: CesareTinelli
   name: Cesare
@@ -256,7 +253,6 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: emarchesini@fbk.eu
-  website: ""
 
 - id: ElhamArshad
   name: Elham
@@ -267,7 +263,6 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: earshad@fbk.eu
-  website: ""
 
 - id: EmanueleViglianisi
   name: Emanuele
@@ -277,13 +272,11 @@
       institution: Runtastic
       place: Linz, Austria
   image: https://emavgl.github.io/images/avatar.jpg
-  website: https://emavgl.github.io/
 
 - id: EnricoCambiaso
   name: Enrico
   surname: Cambiaso
   email: enrico.cambiaso@ieiit.cnr.it
-  website: https://www.cnr.it/people/enrico.cambiaso
 
 - id: EnricoDonatoni
   name: Enrico
@@ -329,7 +322,6 @@
 - id: GabrieleCosta
   name: Gabriele
   surname: Costa
-  website: https://www.imtlucca.it/it/gabriele.costa/
   email: gabriele.costa@imtlucca.it
 
 - id: GiacomoZanolli
@@ -341,7 +333,6 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: gzanolli@fbk.eu
-  website: ""
 
 - id: GiadaSciarretta
   name: Giada
@@ -358,7 +349,6 @@
   name: Gianfranco
   surname: Burzio
   email: gb@drivesec.com
-  website: http://www.gianfrancoburzio.it/
 
 - id: GianlucaBocci
   name: Gianluca
@@ -403,19 +393,16 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: gsciume@fbk.eu
-  website: ""
 
 - id: GiuseppeDeMarco
   name: Giuseppe
   surname: De Marco
   email: giuseppe.demarco@teamdigitale.governo.it
-  website: https://www.linkedin.com/in/giuseppe-de-marco-bb054245/
 
 - id: GiuseppeFarandaCordella
   name: Giuseppe Faranda
   surname: Cordella
   email: gfc@drivesec.com
-  website: http://www.gianfrancoburzio.it/
   
 - id: GiuseppeLamorgese
   name: Giuseppe
@@ -442,7 +429,6 @@
   surname: Vaccari
   email: ivan.vaccari@ieiit.cnr.it 
   image: https://www.cnr.it/peoplepublic/peoplepublic/index/profileimage/login/ivanvaccari
-  website: https://www.cnr.it/people/ivanvaccari
 
 - id: IvanValentini
   name: Ivan
@@ -456,7 +442,6 @@
   name: Joseph
   surname: Heenan
   email: joseph@authlete.com
-  website: https://www.linkedin.com/in/josephheenan/
 
 - id: KonradWrona
   name: Konrad
@@ -508,7 +493,6 @@
   surname: Viganò
   email: luca.vigano@kcl.ac.uk
   image: http://www.lucavigano.com/images/LucaVigano2-small.jpg
-  website: https://www.kcl.ac.uk/people/luca-vigano
 
 - id: LucaZanetti
   name: Luca
@@ -548,16 +532,7 @@
       institution: University of Genoa
       place: Genoa, Italy
   email: mpernpruner@fbk.eu
-  phone: "+390461314337"
-  links:
-    - name: ResearchGate
-      value: Marco_Pernpruner
-    - name: GoogleScholar
-      value: H9SdwlcAAAAJ
-    - name: LinkedIn
-      value: marcopernpruner
-    - name: ORCID
-      value: 0000-0001-8936-2726
+  phone: "+390461314337"  
 
 - id: MarianoCeccato
   name: Mariano
@@ -569,7 +544,6 @@
       place: Verona, Italy
   email: mariano.ceccato@univr.it
   image: https://www.di.univr.it/documenti/Persona/foto/foto347921.jpg
-  website: http://www.di.univr.it/?ent=persona&id=60574
 
 - id: MarioScuro
   name: Mario
@@ -592,7 +566,6 @@
   surname: Merro
   email: massimo.merro@univr.it
   image: https://www.di.univr.it/documenti//Persona/foto/foto450272.jpg
-  website: https://www.di.univr.it/?ent=persona&id=201
 
 - id: MatteoBitussi
   name: Matteo
@@ -603,7 +576,6 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: mbitussi@fbk.eu
-  website: ""
 
 - id: MatteoGrasso
   name: Matteo
@@ -630,7 +602,7 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: mrizzi@fbk.eu
-  website: ""
+  phone: "+390461312356"
   
 - id: MauroConti
   name: Mauro
@@ -677,7 +649,6 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: mimran@fbk.eu
-  website: ""
 
 - id: NabilElIoini
   name: Nabil
@@ -748,6 +719,7 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: carbone@fbk.eu
+  phone: "+390461314185"
 
 - id: RobertoRiggio
   name: Roberto
@@ -780,6 +752,7 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: smanfredi@fbk.eu
+  phone: "+390461314193"
 
 - id: SanderOudkerk
   name: Sander
@@ -818,6 +791,7 @@
       institution: University of Trento
       place: Trento, Italy
   email: ranise@fbk.eu
+  phone: "+390461314192"
 
 - id: SilvioGhilardi
   name: Silvio
@@ -851,7 +825,6 @@
       unit: DIBRIS
       institution: University of Genoa
       place: Genoa, Italy
-  website: https://stefanoberlato.it/
   email: sberlato@fbk.eu
 
 - id: StefanoDaRoit
@@ -885,7 +858,6 @@
       institution: HCMC University of Technology
       place: Vietnam
   email: anhtt@cse.hcmut.edu.vn
-  website: http://www4.hcmut.edu.vn/~anhtt/
 
 - id: UmbertoMorelli
   name: Umberto
@@ -895,7 +867,6 @@
       institution: "Futuro & Conoscenza"
   email: u.morelli@futuroeconoscenza.it
   usernameFBK: umorelli
-  website: ""
 
 - id: ValentinaOdorizzi
   name: Valentina
@@ -930,6 +901,5 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: zebadiansaroudi@fbk.eu
-  website: ""
 
 # Please keep alphabetical order
