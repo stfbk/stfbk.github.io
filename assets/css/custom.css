@@ -300,6 +300,7 @@ li.abstract, li.bio {
 }
 
 ul.publications li,
+ul.dissemination li,
 ul.events li,
 ul.tools li {
   margin-bottom: 10px;
@@ -565,8 +566,10 @@ section.page-top {
   background-color: #909cc2;
 }
 
-.single-fbkperson .containts-bio {
-  overflow: visible;
+.single-fbkperson .contains-bio {
+  background-color: whitesmoke;
+  border-left: 5px solid #dbdbdb;
+  padding: 1.25em 1.5em;
 }
 
 .single-fbkperson ul.contains-person-interests li {
