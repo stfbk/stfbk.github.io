@@ -12,4 +12,10 @@ menubar: TDI2023
 - **Amir Sharif** (Fondazione Bruno Kessler, Italy)
 
 # Program Committee
-*Under definition*
+- **Francesco Buccafurri** (University of Reggio Calabria)
+- **Marco Pernpruner** (Fondazione Bruno Kessler and University of Genoa)
+- **Giada Sciarretta** (Fondazione Bruno Kessler)
+- **Amir Sharif** (Fondazione Bruno Kessler)
+- **Daniel Takabi** (Georgia State University)
+- **Luca Viganò** (King’s College London)
+- **Nicola Zannone** (Eindhoven University of Technology)
