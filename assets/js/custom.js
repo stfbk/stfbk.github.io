@@ -43,6 +43,11 @@ if ($("nav .contents .menu").length > 0) {
         var prevH2Item = null;
 
         $(":header:not(.no-toc)").each(function(index) {
+            if ($(this).attr("id") == undefined) {
+                var id = $(this).text().replace(" ", "-").toLowerCase();
+                $(this).attr("id", id);
+            }
+            
             if ($("#markdown-toc li[data-ref='#"+$(this).attr("id")+"'").length == 0) {
                 var text = $(this).clone();
                 text.find(".no-toc").remove();
