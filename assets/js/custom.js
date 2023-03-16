@@ -31,10 +31,18 @@ if ($("table").length > 0) {
     $("table").wrap("<div class='table-scrollable'></div>");
 }
 
-if ($("nav .contents .menu").length > 0) {
-    if ($("#markdown-toc").length == 0) {
-        $("nav .contents .menu").append('<ul id="markdown-toc"></ul>');
-    }
+if ($("#toc").length > 0) {
+    $("#toc").html(' \
+        <nav> \
+            <div class="contents"> \
+                <div class="menu" markdown="1"> \
+                    <p class="menu-label">Contents</p> \
+                </div> \
+            </div> \
+        </nav> \
+    ');
+
+    $("nav .contents .menu").append('<ul id="markdown-toc"></ul>');
 
     if ($(":header:not(.no-toc)").length > 0) {
         var prevH1List = null;
