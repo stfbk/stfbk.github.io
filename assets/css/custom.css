@@ -520,13 +520,6 @@ section.page-top {
   object-fit: cover;
 }
 
-@media (min-width: 480px) {
-  .single-fbkperson .profile-thumb {
-    float: right;
-    margin: 0 0 0 30px;
-  }
-}
-
 .single-fbkperson .contains-organisation {
   font-size: 14px;
   margin-bottom: 20px;
@@ -595,8 +588,8 @@ section.page-top {
 }
 
 .single-fbkperson .additional-info-wrapper {
-  overflow:hidden;
-  *zoom:1;
+  overflow: hidden;
+  padding: 10px 20px 20px;
 }
 
 .single-fbkperson .additional-info-wrapper .section-title,
@@ -609,7 +602,6 @@ section.page-top {
 .single-fbkperson .additional-info-wrapper .section-title {
   background: #4a4a4a;
   color: #fff;
-  display: inline-block;
   font-weight: 500;
   margin-bottom: 10px;
   padding: 4px 10px;
@@ -624,26 +616,6 @@ section.page-top {
   white-space:nowrap;
   overflow:hidden;
   text-overflow:ellipsis
-}
-
-@media (min-width:768px) {
-  .single-fbkperson .additional-info-wrapper .section-title {
-    background:#333;
-    color:#fff;
-    font-size:14px;
-    font-weight:500;
-    float:left;
-    margin-bottom:0;
-    padding-right:10px;
-    width:15%
-  }
-  
-  .single-fbkperson .additional-info-wrapper ul {
-    float:left;
-    margin-bottom:0;
-    padding:0 40px 20px 15px;
-    width:35%
-  }
 }
 
 .single-fbkperson .additional-info-wrapper ul.people-contacts-list li,
@@ -798,3 +770,10 @@ section.page-top {
   content: "\f019";
 }
 /** END PERSON PAGES **/
+
+@media (max-width: 768px) {
+  .reverse-columns {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+}
