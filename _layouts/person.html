@@ -57,17 +57,36 @@ layout: default
 <div class="content single-fbkperson">
     <span id="set-title">{{ person.name }} {{ person.surname }}</span>
     <span id="set-subtitle">{{ roleST }}</span>
-    <div class="columns is-multiline">
-        <div class="column is-12">
+    <div class="columns is-multiline reverse-columns">
+        <div class="column is-8-tablet is-9-desktop">
+            {% assign strippedContent = content | strip %}
+            {% if strippedContent.size > 0 %}
+                <section class="contains-bio">
+                    {{ strippedContent }}
+                </section>
+            {% endif %}
+
+            <div id="toc"></div>
+
+            <section class="contains-publications">
+                {% assign publicationsByYear = site.data.publications | where_exp: "publication", "publication.authors contains page.person" | where_exp: "publication", "publication.id_iris != nil" | group_by: "year" | sort: "name" | reverse %}
+              
+                {% if publicationsByYear.size > 0 %}
+                    <h1>Publications</h1>
+                    {% for year in publicationsByYear %}
+                        <h4>{{ year.name }} <small>({{ year.items.size }})</small></h4>
+                        {% include list-publications.html source=year.items sort="title" %}
+                    {% endfor %}
+                {% endif %}
+            </section>
+        </div>
+
+        <div class="column is-4-tablet is-3-desktop">
             {% if personImage %}
                 <div class="profile-thumb">
                     <img src="{{ personImage }}" />
                 </div>
             {% endif %}
-
-            <section class="contains-bio">
-                {{ content }}
-            </section>
 
             <section class="additional-info-wrapper">
                 {% if contactsAvailable %}
@@ -136,18 +155,6 @@ layout: default
                             </li>
                         {% endfor %}
                     </ul>
-                {% endif %}
-            </section>
-
-            <section class="contains-publications">
-                {% assign publicationsByYear = site.data.publications | where_exp: "publication", "publication.authors contains page.person" | where_exp: "publication", "publication.id_iris != nil" | group_by: "year" | sort: "name" | reverse %}
-              
-                {% if publicationsByYear.size > 0 %}
-                    <h1>Publications</h1>
-                    {% for year in publicationsByYear %}
-                        <h4>{{ year.name }} <small>({{ year.items.size }})</small></h4>
-                        {% include list-publications.html source=year.items sort="title" %}
-                    {% endfor %}
                 {% endif %}
             </section>
         </div>
