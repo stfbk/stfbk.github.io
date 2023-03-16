@@ -25,13 +25,25 @@
                 {%- endif -%}
             {%- endif -%}
 
+            {% assign supervisors = "" | split: "" %}
             {%- if publication.supervisor -%}
-                {%- assign supervisor = site.data.people | where: "id", publication.supervisor -%}
-                {%- if supervisor.size == 1 -%}
-                    {% assign supervisor = supervisor[0] -%}
-                {%- else -%}
-                    {% assign supervisor = nil -%}
-                {%- endif -%}
+                {%- if publication.supervisor | first -%}
+                    {% for sup in publication.supervisor %}
+                        {% assign supervisorFromId = site.data.people | where: "id", sup %}
+                        {% assign supervisorName = supervisorFromId[0]["name"] | append: " " | append: supervisorFromId[0]["surname"] %}
+                        {%- assign supervisors = supervisors | push: supervisorName -%}
+                    {% endfor %}
+                {% else %}
+                    {% assign supervisorFromId = site.data.people | where: "id", publication.supervisor %}
+                    {% assign supervisorName = supervisorFromId[0]["name"] | append: " " | append: supervisorFromId[0]["surname"] %}
+                    {%- assign supervisors = supervisors | push: supervisorName -%}
+                {% endif %}
+            {%- endif -%}
+
+            {%- if supervisors.size > 0 -%}
+                {%- assign supervisorsString = supervisors | join: ", " -%}
+            {%- else -%}
+                {%- assign supervisorsString = nil -%}
             {%- endif -%}
 
             {% assign cosupervisors = "" | split: "" %}
@@ -83,7 +95,7 @@
             <li>
                 {% if author %}{{ author.name }} {{ author.surname }}{% if detailsString %} ({{ detailsString }}){% endif %}<br />{% endif %}
                 <b>{{ publication.title }}</b><br />
-                {% if supervisor %}Supervisor: {{ supervisor.name }} {{ supervisor.surname }}{% if cosupervisorsString %} |{% endif %}{% endif %}
+                {% if supervisorsString %}Supervisor{% if publication.supervisor.size > 1 %}s{% endif %}: {{ supervisorsString }}{% if cosupervisorsString %} |{% endif %}{% endif %}
                 {% if cosupervisorsString %}Co-supervisor{% if publication.co-supervisor.size > 1 %}s{% endif %}: {{ cosupervisorsString }}{% endif %}
                 {% if publication.awards %}<br />Awards: {{ publication.awards }}{% endif %}
             </li>
