@@ -74,6 +74,10 @@ if ($("nav .contents .menu").length > 0) {
             }
         });
     }
+
+    if ($("#markdown-toc li").length == 0) {
+        $("nav").remove();
+    }
 }
 
 if ($("#set-subtitle").length == 1) {
