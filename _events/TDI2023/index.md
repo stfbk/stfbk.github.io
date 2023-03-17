@@ -2,8 +2,7 @@
 title: 1st International Workshop on Trends in Digital Identity (TDI 2023)
 menubar: TDI2023
 permalink: /events/TDI2023/
-previewImages:
-  - /assets/areas/events/TDI2023/picture.jpg
+image: /assets/areas/events/TDI2023/picture.jpg
 ---
 
 <img class="image-centered" src="/assets/areas/events/TDI2023/picture.jpg" />
