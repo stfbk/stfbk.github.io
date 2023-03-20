@@ -21,19 +21,20 @@ We encourage submissions on a range of topics, including but not limited to:
 - Access Control in IoT and Distributed Systems
 - Behavioral and Risk-based Authentication Mechanisms
 - Compliance with Regulations such as eIDAS (2), PSD2, NIS2
+- Cryptography for Digital Identity (e.g., hiding commitments, selective disclosure signatures, zero knowledge proofs, accumulators, and secure elements)
 - Decentralized Identity and Self Sovereign Identity
-- Digital Wallets and Verifiable Credentials (such as Selective Disclosure and Revocation)
+- Digital Wallets and Verifiable Credentials (e.g., selective disclosure and revocation)
 - Identification, Onboarding and Know Your Customer (KYC) Procedures
 - Identity for Web 3.0 and Metaverse
 - Identity Governance and Administration
 - Identity of Things and Cloud Security
-- Passwordless Authentication including passkeys
+- Mobile and Strong Authentication
+- Passwordless Authentication (including passkeys)
 - Privacy-Enhancing Technologies for Identity Management
 - Securing Identities for the Financial and Governmental Services
 - Session Management for Seamless and Continuous Authentication
-- Trends in Mobile and Strong Authentication 
-- Trust Frameworks Trends in Identity Management Solutions
-- Zero Trust Trends and Best Practices
+- Trust Frameworks for Identity Management Solutions
+- Zero Trust Architectures
 
 We look forward to receiving your submissions and engaging in fruitful and lively discussions on the latest trends and developments in identity management for critical infrastructures and services.
 
