@@ -707,6 +707,18 @@
   institution: University of Genoa
   doi: 10.15167/mollaeefar-majid_phd2022-11-21
 
+## 2023
+- id: EricaElia_M
+  title: "A Key Recovery Protocol based on Threshold Secret Sharing for Cryptographic Access Control in the Cloud: The CryptoAC use case"
+  type: M
+  author: EricaElia
+  supervisor: SilvioRanise
+  co-supervisor:
+    - RobertoCarbone
+    - StefanoBerlato
+  year: 2023
+  institution: University of Trento
+
 - id: SalvatoreManfredi_P
   title: "Automated Assistance for Actionable Security: Security and Compliance of TLS Configurations"
   type: P
