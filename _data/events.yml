@@ -107,3 +107,11 @@
   endDate: "2023-06-09"
   description: The ACM Symposium on Access Control Models and Technologies (SACMAT) is the premier forum for the presentation of research results and experience reports on leading edge issues of access control, including models, systems, applications, and theory.
   url: https://sacmat2023.fbk.eu
+
+- id: CPS4CIP2023
+  name: 4th International Workshop on Cyber-Physical Security for Critical Infrastructures Protection
+  acronym: CPS4CIP 2023
+  startDate: "2023-09-25"
+  endDate: "2023-09-29"
+  description: CPS4CIP 2023 is the fourth workshop dedicated to cyber-physical security for protecting critical infrastructures that support finance, energy, health, air transport, communication, gas, and water.
+  url: /events/CPS4CIP2023
