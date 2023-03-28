@@ -1928,8 +1928,21 @@
   abstract: >
     Authentication protocols represent the entry point to online services, so they must be sturdily designed in order to allow only authorized users to access the underlying data. However, designing authentication protocols is a complex process: security designers should carefully select the technologies to involve and integrate them properly in order to prevent potential vulnerabilities. In addition, these choices are usually restricted by further factors, such as the requirements associated with the scenario, the regulatory framework, the dimensions to balance (e.g., security vs. usability), and the standards to rely on. We come to the rescue by presenting an automated multi-layered methodology we have developed to assist security designers in this phase: by repeatedly evaluating their protocols, they can select the security mitigations to consider until they reach the desired security level, thus enabling a security-by-design approach. For concreteness, we also show how we have applied our methodology to a real use case scenario in the context of a collaboration with the Italian Government Printing Office and Mint.
 
-  
 ## 2023
+- id: COSE2023
+  title: "Identifying and Quantifying Trade-offs in Multi-Stakeholder Risk Evaluation with Applications to the Data Protection Impact Assessment of the GDPR"
+  authors:
+    - MajidMollaeefar
+    - SilvioRanise
+  abstract: >
+    Cybersecurity risk management consists of several steps including the selection of appropriate controls to minimize risks.  
+    This is a difficult task that requires to search through all possible subsets of a set of available controls and identify those that minimize the risks of all stakeholders.
+    Since stakeholders may have different perceptions of the risks (especially when considering the impact of threats), conflicting goals may arise that require to find the best possible trade-offs among the various needs.
+    In this work, we propose a quantitative and (semi-)automated approach to solve this problem based on the well-known notion of Pareto optimality.  For validation, we show how a prototype tool based on our approach can assist in the Data Protection Impact Assessment mandated by the General Data Protection Regulation on a simplified–but realistic–use case scenario.  We also evaluate the scalability of the approach by conducting an experimental evaluation with the prototype with encouraging results.
+  destination: COSE
+  year: 2023
+  urlNews: /news/2023/03/28/paper-accepted-at-cose/
+
 - id: POLSIM2023
   #id_iris: 323366
   title: "A Simulation Framework for the Experimental Evaluation of Access Control Enforcement Mechanisms based on Business Processes"
