@@ -18,5 +18,6 @@ menubar: TDI2023
 - **Marco Pernpruner** (Fondazione Bruno Kessler and University of Genoa)
 - **Amir Sharif** (Fondazione Bruno Kessler)
 - **Daniel Takabi** (Georgia State University)
-- **Luca Viganò** (King’s College London)
+- **Luca Viganò** (King's College London)
+- **Andrea Visconti** (University of Milan)
 - **Nicola Zannone** (Eindhoven University of Technology)
