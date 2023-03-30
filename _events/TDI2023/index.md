@@ -40,3 +40,10 @@ We look forward to receiving your submissions and engaging in fruitful and livel
 
 # Important Dates
 {% include_relative includes/important-dates.md %}
+
+<div class="text-right">
+  <h1>Under the patronage of</h1>
+  <a href="https://www.decifris.it/">
+    <img src="/assets/areas/events/TDI2023/logo_decifris.jpg" width="200px" />
+  </a>
+</div>
