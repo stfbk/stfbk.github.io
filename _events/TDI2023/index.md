@@ -11,6 +11,9 @@ image: /assets/areas/events/TDI2023/picture.jpg
 <p>Co-located with the 28th ACM Symposium on Access Control Models and Technologies (<a href="https://sacmat2023.fbk.eu/">SACMAT 2023</a>).</p>
 </blockquote>
 
+# Recent News
+- 31/03/2023: The paper submission deadline has been extended to **April 9, 2023**.
+
 # Scope
 Identity management is a critical component in the development and deployment of digital services in a variety of fields, including e-commerce, e-government, healthcare, and financial services. With the increased adoption of digital technologies, the demand for reliable identity management solutions is greater than ever. This brings many challenges ranging from technical (such as security and interoperability) to legal and regulatory (such as data protection and privacy). Addressing these challenges requires collaboration among researchers and practitioners from various fields with an interdisciplinary approach. This workshop seeks to foster this collaboration to share knowledge, experiences, and best practices obtained from dealing with the identity management field.
 
