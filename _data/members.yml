@@ -23,7 +23,6 @@ current:
     - CeciliaPasquini
     - AlessandroTomasi
     - StefanoBerlato
-    - GiacomoZanolli
     - ZahraEbadiAnsaroudi
       
   students:
@@ -61,6 +60,7 @@ current:
       institution: University of Trento
       yearFrom: 2023
       yearTo: 2023
+
     - personId: MarioScuro
       type: M
       topic: Privacy enhancing technologies for digital identity
@@ -137,6 +137,11 @@ former:
       formerRole: Researcher
       yearFrom: 2019
       yearTo: 2022
+
+    - personId: GiacomoZanolli
+      formerRole: Junior Researcher
+      yearFrom: 2022
+      yearTo: 2023
 
   phdStudents:
     - personId: FedericoSinigaglia

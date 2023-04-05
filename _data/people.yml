@@ -331,12 +331,6 @@
 - id: GiacomoZanolli
   name: Giacomo
   surname: Zanolli
-  affiliations:
-    - role: Junior Researcher
-      unit: AppLiEd cryptograPHy
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: gzanolli@fbk.eu
 
 - id: GiadaSciarretta
   name: Giada
