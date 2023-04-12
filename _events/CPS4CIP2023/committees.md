@@ -72,3 +72,4 @@ menubar: CPS4CIP2023
 - **Basel Katt**, Norwegian University of Science and Technology, Norway
 - **Sotiris Ioannidis**, Technical University of Crete, Greece
 - **Manos Athanatos**, Foundation for Research and Technology Hellas, Crete
+- **Rafael Palacios Hielscher**, ICAI- Universidad Pontificia Comillas, Spain
