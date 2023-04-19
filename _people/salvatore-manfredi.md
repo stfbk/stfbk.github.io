@@ -22,7 +22,7 @@ links:
 ---
 Salvatore Manfredi is a researcher at the Center for Cybersecurity.
 
-He earned his Bachelor's degree in Computer Science from the University of Catania in 2016 and his Master's degree in 2019 from the University of Trento. He is currently a Ph.D. Candidate in a joint scholarship with University of Genoa and FBK, working on Identity Management for Digital Financial Infrastructures.
+He earned his Bachelor's degree in Computer Science from the University of Catania in 2016 and his Master's degree in 2019 from the University of Trento. He received his Ph.D. in Secure and Reliable Systems from the University of Genoa in 2023.
 
 In recent years, he has worked on the security analysis of the authentication scheme for the Italian electronic identity card (CIE 3.0) and on the Horizon 2020-funded FINSEC project. Recently, he joined the team working on MERIT, an EU project that aims to create a dynamic educational ecosystem for the training of digital specialists.
 
