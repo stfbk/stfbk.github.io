@@ -20,6 +20,7 @@ publications:
 theses:
     - MatteoRizzi_B
     - SalvatoreManfredi_M
+    - SalvatoreManfredi_P
     - IvanValentini_B
     - FedericoCucino_B
 ---
