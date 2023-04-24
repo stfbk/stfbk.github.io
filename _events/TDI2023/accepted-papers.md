@@ -22,6 +22,6 @@ menubar: TDI2023
 
   <li>
     Diego Ponte and Carlo Rizzi<br />
-    <b>Identity verification systems: the Distributed Know your Custumer platform</b>
+    <b>Identity verification systems: the Distributed Know your Customer platform</b>
   </li>
 </ul>
