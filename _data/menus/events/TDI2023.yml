@@ -8,3 +8,5 @@
       link: committees
     - name: Registration
       link: registration
+    - name: Accepted Papers
+      link: accepted-papers
