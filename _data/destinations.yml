@@ -1001,4 +1001,13 @@
   startDate: "2022-06-08"
   endDate: "2022-06-10"
 
+- id: SECRYPT2023
+  name: 20th International Conference on Security and Cryptography
+  acronym: SECRYPT 2023
+  url: http://www.secrypt.org/?y=2023
+  type: conference
+  location: Rome, Italy
+  startDate: "2023-07-10"
+  endDate: "2023-07-12"
+
 # PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)
