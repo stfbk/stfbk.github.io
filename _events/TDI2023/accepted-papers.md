@@ -4,6 +4,7 @@ subtitle: Accepted Papers
 menubar: TDI2023
 ---
 
+The following papers have been accepted to the workshop:
 <ul>
   <li>
     Giovanni Bartolomeo<br />
