@@ -1001,6 +1001,16 @@
   startDate: "2022-06-08"
   endDate: "2022-06-10"
 
+## 2023
+- id: ARES2023
+  name: 18th International Conference on Availability, Reliability and Security
+  acronym: ARES 2023
+  url: https://www.ares-conference.eu
+  type: conference
+  location: Benevento, Italy
+  startDate: "2023-08-29"
+  endDate: "2023-09-01"
+  
 - id: SECRYPT2023
   name: 20th International Conference on Security and Cryptography
   acronym: SECRYPT 2023
@@ -1009,14 +1019,5 @@
   location: Rome, Italy
   startDate: "2023-07-10"
   endDate: "2023-07-12"
-  
-  - id: ARES2023
-  name: 18th International Conference on Availability, Reliability and Security
-  acronym: ARES 2023
-  url: https://www.ares-conference.eu
-  type: conference
-  location: Benevento, Italy
-  startDate: "2023-08-29"
-  endDate: "2023-09-01"
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)

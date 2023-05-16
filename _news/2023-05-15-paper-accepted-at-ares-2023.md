@@ -1,6 +1,5 @@
 ---
 title: Paper accepted at ARES 2023
-layout: news-accepted-paper
 papers:
     - ARES2023
 
@@ -11,7 +10,6 @@ people:
     - GiuseppeDeMarco
     - RobertoCarbone
     - SilvioRanise
-    
 
 peopleOrder: surname
 

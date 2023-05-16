@@ -399,7 +399,6 @@
 - id: GiuseppeDeMarco
   name: Giuseppe
   surname: De Marco
-  email: giuseppe.demarco@teamdigitale.governo.it
 
 - id: GiuseppeFarandaCordella
   name: Giuseppe Faranda
@@ -714,8 +713,8 @@
   name: Roberta
   surname: Peracchio
 
-- id: RobertaBruttomesso
-  name: Roberta
+- id: RobertoBruttomesso
+  name: Roberto
   surname: Bruttomesso
 
 - id: RobertoCarbone
