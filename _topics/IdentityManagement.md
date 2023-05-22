@@ -63,6 +63,7 @@ theses:
     - AvinashSudhodanan_P
     - NadiaMetoui_P
     - NicolaCasagrande_B
+    - MatteoBitussi_B
 
 ---
 
