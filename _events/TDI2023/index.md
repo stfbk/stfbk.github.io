@@ -12,6 +12,7 @@ image: /assets/areas/events/TDI2023/picture.jpg
 </blockquote>
 
 # Recent News
+- **25/05/2023**: The [tentative program](program) have been published.
 - **13/04/2023**: The [registration details](registration) have been published.
 - **31/03/2023**: The paper submission deadline has been extended to **April 9, 2023**.
 
