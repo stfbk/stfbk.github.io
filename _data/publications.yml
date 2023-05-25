@@ -1957,6 +1957,20 @@
   destination: COSE
   year: 2023
   urlNews: /news/2023/03/28/paper-accepted-at-cose/
+  
+  - id: DBSEC2023
+  title: "Assurance, Consent and Access Control for Privacy-Aware OIDC Deployments"
+  authors:
+    - GianlucaSassetti
+    - AmirSharif
+    - GiadaSciarretta
+    - RobertoCarbone
+    - SilvioRanise
+  abstract: >
+    The large amount of personal data that is shared in the digital age has proportionally increased the risks of user privacy violations. The same privacy risks are reflected in OpenID Connect, which is one of the most widespread protocols used for identity management to access both private and public administration services. Since personal data is collected and shared via OpenID Connect, appropriate technologies to protect user privacy should be adopted as suggested by data protection guidelines and regulations (e.g., the General Data Protection Regulation). Unfortunately, it is difficult to make the privacy-enhancing technology suggestions in such documents actionable and available to IT professionals who are required to configure them within their OpenID Connect deployments. To overcome this problem, we present a practical approach to improving user privacy in OpenID Connect-based solutions by identifying a set of privacy-preserving features extracted from the available OpenID Connect specifications. We conduct a privacy compliance analysis on popular private and governmental OpenID Providers to determine how widely these privacy best practices are used in the wild. The findings indicate that different OpenID Providers grant varying levels of assurance and address different aspects of privacy, failing to provide full support for data protection principles. 
+  destination: DBSEC2023
+  year: 2023
+  urlNews: /news/2023-05-15-paper-accepted-at-dbsec-2023/
 
 - id: POLSIM2023
   #id_iris: 323366
