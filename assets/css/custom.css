@@ -191,6 +191,7 @@ html {
   max-width: 100%;
 }
 
+.text-center,
 .text-centered {
   text-align: center;
 }
@@ -780,4 +781,92 @@ section.page-top {
     flex-direction: column-reverse;
     display: flex;
   }
+}
+
+/* EVENT PROGRAMS */
+table.program + table.program {
+  margin-top: 20px;
+}
+
+table.program tr td:first-child,
+table.program tr td:only-child {
+  width: 80%;
+}
+
+table.program tr td:last-child:not(:only-child) {
+  width: 20%;
+  text-align: center;
+}
+
+table.program tr.day td {
+  background-color: #FFCCC9;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+table.program tr.session td {
+  background-color: #CBCEFB;
+  text-align: center;
+  font-size: medium;
+}
+
+table.program tr.session .chair {
+  margin-top: 3px;
+  font-size: smaller;
+  font-style: italic;
+}
+
+table.program tr.session .chair::before {
+  content: "Chair: ";
+}
+
+table.program tr.institutional td {
+  background-color: #f7f7d0;
+}
+
+table.program tr.recreational td {
+  background-color: #def5ce;
+}
+
+table.program tr.session p,
+table.program td.keynote p,
+table.program td.paper p,
+table.program td.demo p,
+table.program td.poster p,
+table.program td.award p,
+table.program td.talk p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+table.program td.award p.name {
+  font-weight: bold;
+}
+
+table.program td p.title {
+  font-size: medium;
+  font-weight: normal;
+}
+
+table.program .session td p.title {
+  font-weight: bold;
+}
+
+table.program td p.speakers,
+table.program td p.authors {
+  font-size: smaller;
+}
+
+table.program td p.type {
+  font-size: smaller;
+  font-weight: bold;
+}
+/* END EVENT PROGRAMS */
+
+.bordered,
+table.bordered tr td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 10px;
 }
