@@ -73,3 +73,5 @@ menubar: CPS4CIP2023
 - **Sotiris Ioannidis**, Technical University of Crete, Greece
 - **Manos Athanatos**, Foundation for Research and Technology Hellas, Crete
 - **Rafael Palacios Hielscher**, ICAI- Universidad Pontificia Comillas, Spain
+- **Mohsen Toorani**, University of South-Eastern Norway, Norway
+- **Aida Omerovic**, SINTEF, Norway
