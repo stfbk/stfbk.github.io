@@ -1,7 +1,7 @@
 ---
 title: TLSAssistant
 permalink: /tools/TLSAssistant/
-logo: TLSAssistant.png
+logo: TLSAssistant/TLSAssistant.png
 
 people:
     - SalvatoreManfredi
