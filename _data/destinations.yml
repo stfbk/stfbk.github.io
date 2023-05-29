@@ -1011,7 +1011,7 @@
   startDate: "2023-08-29"
   endDate: "2023-09-01"
   
-  - id: DBSEC2023
+- id: DBSEC2023
   name: 37th Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
   proceedings: Proceedings of the 37th Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
   acronym: DBSec 2023
