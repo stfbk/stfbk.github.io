@@ -122,21 +122,14 @@ menubar: TDI2023
   <tr>
     <td class="talk">
       <p class="title">The citizen's app towards the European Digital Identity</p>
-      <p class="speakers">Mirko Calvaresi (PagoPA)</p>
+      <p class="speakers">Mirko Calvaresi, Pietro Stroia (PagoPA)</p>
     </td>
     <td>14:50-15:15</td>
-  </tr>
-  <tr>
-    <td class="talk">
-      <p class="title"><i>To be defined</i></p>
-      <p class="speakers"><i>To be defined</i></p>
-    </td>
-    <td>15:15-15:40</td>
   </tr>
 
   <tr class="recreational">
     <td>Coffee Break</td>
-    <td>15:50-16:30</td>
+    <td>15:25-16:00</td>
   </tr>
 
   <tr class="session">
@@ -149,19 +142,19 @@ menubar: TDI2023
       <p class="title">The digital identity scenario in Italy: towards the European wallet</p>
       <p class="speakers">Giorgia Dragoni (Digital Identity Observatory, Politecnico di Milano)</p>
     </td>
-    <td>16:30-16:55</td>
+    <td>16:00-16:25</td>
   </tr>
   <tr>
     <td class="talk">
       <p class="title">PNRR: the Secure and TRaceable Identities in Distributed Environments (STRIDE) project</p>
-      <p class="speakers">Francesco Buccafurri (University of Reggio Calabria)</p>
+      <p class="speakers">Silvio Ranise (Fondazione Bruno Kessler)</p>
     </td>
-    <td>16:55-17:20</td>
+    <td>16:25-16:50</td>
   </tr>
 
   <tr class="institutional">
     <td>Closing Remarks</td>
-    <td>17:30-17:45</td>
+    <td>16:50-17:00</td>
   </tr>
 
   <tr class="recreational">
