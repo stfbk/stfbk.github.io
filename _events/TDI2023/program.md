@@ -121,7 +121,7 @@ menubar: TDI2023
   </tr>
   <tr>
     <td class="talk">
-      <p class="title">The citizen's path towards the European Digital Identity</p>
+      <p class="title">The citizen's app towards the European Digital Identity</p>
       <p class="speakers">Mirko Calvaresi (PagoPA)</p>
     </td>
     <td>14:50-15:15</td>
