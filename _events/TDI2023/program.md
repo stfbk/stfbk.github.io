@@ -126,10 +126,17 @@ menubar: TDI2023
     </td>
     <td>14:50-15:15</td>
   </tr>
+  <tr>
+    <td class="talk">
+      <p class="title">eIDAS 2.0 and EUDIW, opportunities and challenges for private companies</p>
+      <p class="speakers">Matteo Panfilo (Intesa)</p>
+    </td>
+    <td>15:15-15:40</td>
+  </tr>
 
   <tr class="recreational">
     <td>Coffee Break</td>
-    <td>15:25-16:00</td>
+    <td>15:45-16:30</td>
   </tr>
 
   <tr class="session">
@@ -142,19 +149,19 @@ menubar: TDI2023
       <p class="title">The digital identity scenario in Italy: towards the European wallet</p>
       <p class="speakers">Giorgia Dragoni (Digital Identity Observatory, Politecnico di Milano)</p>
     </td>
-    <td>16:00-16:25</td>
+    <td>16:30-16:55</td>
   </tr>
   <tr>
     <td class="talk">
       <p class="title">PNRR: the Secure and TRaceable Identities in Distributed Environments (STRIDE) project</p>
       <p class="speakers">Silvio Ranise (Fondazione Bruno Kessler)</p>
     </td>
-    <td>16:25-16:50</td>
+    <td>16:55-17:20</td>
   </tr>
 
   <tr class="institutional">
     <td>Closing Remarks</td>
-    <td>16:50-17:00</td>
+    <td>17:20-17:30</td>
   </tr>
 
   <tr class="recreational">
