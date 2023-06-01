@@ -108,7 +108,7 @@ menubar: TDI2023
   <tr>
     <td class="talk">
       <p class="title">Do you trust the Wallet?</p>
-      <p class="speakers">Francesco Antonio Marino (Poligrafico e Zecca dello Stato, IPZS) and Giuseppe De Marco (Dipartimento per la Trasformazione Digitale)</p>
+      <p class="speakers">Francesco Antonio Marino (Poligrafico e Zecca dello Stato, IPZS)</p>
     </td>
     <td>14:00-14:25</td>
   </tr>
