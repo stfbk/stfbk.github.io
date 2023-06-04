@@ -1020,6 +1020,15 @@
   location: Sophia Antipolis, France
   startDate: "2022-07-19"
   endDate: "2022-07-21"
+
+- id: ESORICS2023
+  name: European Symposium on Research in Computer Security
+  acronym: ESORICS 2023
+  url: https://esorics2023.org/
+  type: conference
+  location: The Hague, The Netherlands 
+  startDate: "2023-09-25"
+  endDate: "2023-09-29"
   
 - id: SECRYPT2023
   name: 20th International Conference on Security and Cryptography
