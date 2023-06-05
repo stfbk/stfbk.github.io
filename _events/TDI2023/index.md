@@ -46,9 +46,17 @@ We look forward to receiving your submissions and engaging in fruitful and livel
 # Important Dates
 {% include_relative includes/important-dates.md %}
 
-<div class="text-right">
-  <h1>Under the patronage of</h1>
-  <a href="https://www.decifris.it/">
-    <img src="/assets/areas/events/TDI2023/logo_decifris.jpg" width="200px" />
-  </a>
+<div class="columns mt-4">
+  <div class="column is-full-mobile is-half-tablet">
+    <h1>Supported by</h1>
+    <a href="https://allitude.it/">
+      <img src="/assets/areas/events/TDI2023/logo_allitude.png" width="200px" />
+    </a>
+  </div>
+  <div class="column is-full-mobile is-half-tablet has-text-left-mobile has-text-right-tablet">
+    <h1>Under the patronage of</h1>
+    <a href="https://www.decifris.it/">
+      <img src="/assets/areas/events/TDI2023/logo_decifris.jpg" width="200px" />
+    </a>
+  </div>
 </div>
