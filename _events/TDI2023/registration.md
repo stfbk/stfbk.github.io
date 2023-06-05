@@ -4,9 +4,9 @@ subtitle: Registration
 menubar: TDI2023
 ---
 
-Physical registrations to the main conference [SACMAT 2023](https://www.sacmat.org) include full access to TDI 2023.
+Registrations to the main conference [SACMAT 2023](https://www.sacmat.org) include full access to TDI 2023.
 
-Attending <u>only</u> the workshop, instead, requires a specific registration with a fee of **€ 110**, to be performed through the following platform by selecting the "TDI only" registration:
+Attending <u>only</u> the workshop, instead, requires a specific registration with a fee of **€ 110** (for physical participation) or **€ 30** (for remote participation). The registration must be performed through the following platform by selecting the "TDI only" or "TDI only - Remote" registration:
 
 <div class="text-centered">
   <b><a href="https://www.eventbrite.it/e/sacmat2023-registration-602173536257" target="_blank">https://www.eventbrite.it/e/sacmat2023-registration-602173536257</a></b>
