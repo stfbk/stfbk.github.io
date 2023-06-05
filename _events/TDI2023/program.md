@@ -32,6 +32,7 @@ menubar: TDI2023
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 1: Specifications and Standards</p>
+      <p class="chair">Roberto Carbone (Fondazione Bruno Kessler)</p>
     </td>
   </tr>
   <tr>
@@ -64,6 +65,7 @@ menubar: TDI2023
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 2: Academic Papers</p>
+      <p class="chair">Giada Sciarretta (Fondazione Bruno Kessler)</p>
     </td>
   </tr>
   <tr>
@@ -103,6 +105,7 @@ menubar: TDI2023
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 3: Industry and Government</p>
+      <p class="chair">Silvio Ranise (Fondazione Bruno Kessler and University of Trento)</p>
     </td>
   </tr>
   <tr>
@@ -142,6 +145,7 @@ menubar: TDI2023
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 4: Italian Scenario</p>
+      <p class="chair">Marco Pernpruner (Fondazione Bruno Kessler and University of Genoa)</p>
     </td>
   </tr>
   <tr>
