@@ -814,7 +814,7 @@ table.program tr.session .chair {
 }
 
 table.program tr.session .chair::before {
-  content: "Chair: ";
+  content: "Session Chair: ";
 }
 
 table.program tr.institutional td {
