@@ -21,6 +21,8 @@ publications:
     - ETAA2021_MIG
     - FARES2022_EIDAS
     - MDPI2022
+    - ARES2023
+    - DBSEC2023
 
 theses:
     - AmirSharif_P 
