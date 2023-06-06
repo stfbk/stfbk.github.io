@@ -49,6 +49,9 @@ We look forward to receiving your submissions and engaging in fruitful and livel
 <div class="columns mt-4">
   <div class="column is-full-mobile is-half-tablet">
     <h1>Supported by</h1>
+    <a href="https://www.cassacentrale.it/en">
+      <img src="/assets/areas/events/TDI2023/logo_ccb.png" width="200px" />
+    </a><br />
     <a href="https://allitude.it/">
       <img src="/assets/areas/events/TDI2023/logo_allitude.png" width="200px" />
     </a>
