@@ -17,7 +17,12 @@ menubar: TDI2023
   </tr>
 
   <tr class="institutional">
-    <td>Introductory Remarks</td>
+    <td>
+      Introductory Remarks
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2023/slides/0_1_IntroductoryRemarks.pdf">Slides</a>
+      </p>
+    </td>
     <td>8:45-9:00</td>
   </tr>
 
@@ -39,6 +44,9 @@ menubar: TDI2023
     <td class="talk">
       <p class="title">Framework for Wallet Security in Identity Ecosystems</p>
       <p class="speakers">Paul Bastian (Bundesdruckerei GmbH/IDunion)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2023/slides/1_1_BastianPaul.pdf">Slides</a>
+      </p>
     </td>
     <td>9:15-9:40</td>
   </tr>
@@ -53,6 +61,9 @@ menubar: TDI2023
     <td class="talk">
       <p class="title">The Trust Chain in OpenID Connect Federation 1.0 vs the X.509 Certificate Chain</p>
       <p class="speakers">Vladimir Dzhuvinov (Connect2id)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2023/slides/1_3_DzhuvinovVladimir.pdf">Slides</a>
+      </p>
     </td>
     <td>10:05-10:20</td>
   </tr>  
@@ -72,6 +83,10 @@ menubar: TDI2023
     <td class="paper">
       <p class="title">Attribute-Based Encryption for Access Control in Cloud Ecosystems</p>
       <p class="authors">Giovanni Bartolomeo (Consorzio Nazionale Interuniversitario per le Telecomunicazioni, CNIT)</p>
+      <p class="links">
+        <a class="link paper" target="_blank" href="/assets/areas/events/TDI2023/papers/2_1_BartolomeoGiovanni.pdf">Paper</a>
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2023/slides/2_1_BartolomeoGiovanni.pdf">Slides</a>
+      </p>
     </td>
     <td>11:00-11:20</td>
   </tr>
@@ -79,6 +94,10 @@ menubar: TDI2023
     <td class="paper">
       <p class="title">DARC: Decentralized Anonymous Researcher Credentials for Access to Federated Genomic Data</p>
       <p class="authors">Mohammed Alghazwi, Fatih Turkmen and Dimka Karastoyanova (University of Groningen)</p>
+      <p class="links">
+        <a class="link paper" target="_blank" href="/assets/areas/events/TDI2023/papers/2_2_AlghazwiMohammed.pdf">Paper</a>
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2023/slides/2_2_AlghazwiMohammed.pdf">Slides</a>
+      </p>
     </td>
     <td>11:20-11:40</td>
   </tr>
@@ -86,6 +105,9 @@ menubar: TDI2023
     <td class="paper">
       <p class="title">DeepClap: A Gesture-Based User Authentication Scheme with Deep Neural Networks</p>
       <p class="authors">Attaullah Buriro and Kevin Fred Mwaita (Free University of Bolzano)</p>
+      <p class="links">
+        <a class="link paper" target="_blank" href="/assets/areas/events/TDI2023/papers/2_3_BuriroAttaullah.pdf">Paper</a>
+      </p>
     </td>
     <td>11:40-12:00</td>
   </tr>
@@ -93,6 +115,10 @@ menubar: TDI2023
     <td class="paper">
       <p class="title">Identity verification systems: the Distributed Know your Customer platform</p>
       <p class="authors">Diego Ponte (University of Trento) and Carlo Rizzi (Cherrychain)</p>
+      <p class="authors"><i>Not presented at the workshop</i></p>
+      <p class="links">
+        <a class="link paper" target="_blank" href="/assets/areas/events/TDI2023/papers/2_4_PonteDiego.pdf">Paper</a>
+      </p>
     </td>
     <td>12:00-12:20</td>
   </tr>
@@ -112,6 +138,9 @@ menubar: TDI2023
     <td class="talk">
       <p class="title">Do you trust the Wallet?</p>
       <p class="speakers">Francesco Antonio Marino (Poligrafico e Zecca dello Stato, IPZS)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2023/slides/3_1_MarinoFrancescoAntonio.pdf">Slides</a>
+      </p>
     </td>
     <td>14:00-14:25</td>
   </tr>
@@ -119,6 +148,9 @@ menubar: TDI2023
     <td class="talk">
       <p class="title">European Digital Identity Wallet: what could go wrong?</p>
       <p class="speakers">Paolo Campegiani (Bit4id)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2023/slides/3_2_CampegianiPaolo.pdf">Slides</a>
+      </p>
     </td>
     <td>14:25-14:50</td>
   </tr>
@@ -133,6 +165,9 @@ menubar: TDI2023
     <td class="talk">
       <p class="title">eIDAS 2.0 and EUDIW, opportunities and challenges for private companies</p>
       <p class="speakers">Matteo Panfilo (Intesa)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2023/slides/3_4_PanfiloMatteo.pdf">Slides</a>
+      </p>
     </td>
     <td>15:15-15:40</td>
   </tr>
@@ -152,6 +187,9 @@ menubar: TDI2023
     <td class="talk">
       <p class="title">The digital identity scenario in Italy: towards the European wallet</p>
       <p class="speakers">Giorgia Dragoni (Digital Identity Observatory, Politecnico di Milano)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2023/slides/4_1_DragoniGiorgiaPaola.pdf">Slides</a>
+      </p>
     </td>
     <td>16:30-16:55</td>
   </tr>
@@ -159,12 +197,20 @@ menubar: TDI2023
     <td class="talk">
       <p class="title">PNRR: the Secure and TRaceable Identities in Distributed Environments (STRIDE) project</p>
       <p class="speakers">Silvio Ranise (Fondazione Bruno Kessler)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2023/slides/4_2_RaniseSilvio.pdf">Slides</a>
+      </p>
     </td>
     <td>16:55-17:20</td>
   </tr>
 
   <tr class="institutional">
-    <td>Closing Remarks</td>
+    <td>
+      Closing Remarks
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2023/slides/5_1_ClosingRemarks.pdf">Slides</a>
+      </p>
+    </td>
     <td>17:20-17:30</td>
   </tr>
 

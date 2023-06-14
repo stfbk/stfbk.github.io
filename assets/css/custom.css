@@ -850,8 +850,13 @@ table.program .session td p.title {
 }
 
 table.program td p.speakers,
-table.program td p.authors {
+table.program td p.authors,
+table.program td p.links {
   font-size: smaller;
+}
+
+table.program td p.links a.link ~ a.link::before {
+  content: " • ";
 }
 
 table.program td p.type {
