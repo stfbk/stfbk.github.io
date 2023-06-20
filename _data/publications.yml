@@ -2000,7 +2000,7 @@
   #urlNews: /news/2020/02/15/paper-accepted-at-asiaccs-2020/
 
 - id: SECRYPT2023
- id_iris: 338307
+  id_iris: 338307
   title: "A First Appraisal of Cryptographic Mechanisms for the Selective Disclosure of Verifiable Credentials"
   authors:
     - AndreaFlamini
