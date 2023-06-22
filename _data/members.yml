@@ -25,6 +25,7 @@ current:
     - AlessandroTomasi
     - StefanoBerlato
     - ZahraEbadiAnsaroudi
+    - RiccardoLongo
       
   students:
     - personId: GianlucaSassetti
@@ -72,6 +73,20 @@ current:
     - personId: IonAndyDitu
       type: B
       topic: Trusted Execution Environments for Advanced Data Protection
+      institution: University of Trento
+      yearFrom: 2023
+      yearTo: 2023
+
+    - personId: SaraSorrentino
+      type: B
+      topic: "Empowering the Public to Protect Themselves: Developing a Web-based Assessment Tool for Promoting Awareness at Dissemination Events"
+      institution: University of Trento
+      yearFrom: 2023
+      yearTo: 2023
+
+    - personId: RiccardoZiglio
+      type: M
+      topic: Video manipulation vs liveness detection
       institution: University of Trento
       yearFrom: 2023
       yearTo: 2023

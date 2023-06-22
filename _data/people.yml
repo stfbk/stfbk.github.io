@@ -705,9 +705,23 @@
   name: Riccardo
   surname: Lazzaretti
 
+- id: RiccardoLongo
+  name: Riccardo
+  surname: Longo
+  affiliations:
+    - role: Researcher
+      unit: AppLiEd cryptograPHy
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: rlongo@fbk.eu
+
 - id: RiccardoTraverso
   name: Riccardo
   surname: Traverso
+
+- id: RiccardoZiglio
+  name: Riccardo
+  surname: Ziglio
 
 - id: RobertaPeracchio
   name: Roberta
@@ -764,6 +778,10 @@
 - id: SanderOudkerk
   name: Sander
   surname: Oudkerk
+
+- id: SaraSorrentino
+  name: Sara
+  surname: Sorrentino
 
 - id: SaverioTuretta
   name: Saverio
