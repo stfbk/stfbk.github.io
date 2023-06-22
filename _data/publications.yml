@@ -1960,6 +1960,7 @@
   urlNews: /news/2023/03/28/paper-accepted-at-cose/
   
 - id: DBSEC2023
+  id_iris: 339007
   title: "Assurance, Consent and Access Control for Privacy-Aware OIDC Deployments"
   authors:
     - GianlucaSassetti
