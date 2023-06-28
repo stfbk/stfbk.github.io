@@ -1029,6 +1029,15 @@
   location: The Hague, The Netherlands 
   startDate: "2023-09-25"
   endDate: "2023-09-29"
+
+- id: EVOTEID2023
+  name: International Joint Conference on Electronic Voting
+  acronym: E-Vote-ID 2023
+  url: https://e-vote-id.org
+  type: conference
+  location: Luxembourg City, Luxembourg 
+  startDate: "2023-10-03"
+  endDate: "2023-10-06"
   
 - id: SECRYPT2023
   name: 20th International Conference on Security and Cryptography
