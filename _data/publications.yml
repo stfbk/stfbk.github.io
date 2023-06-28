@@ -1985,7 +1985,7 @@
   destination: ESORICS2023
   year: 2023
 
-  - id: EVOTEID2023
+- id: EVOTEID2023
   title: "Coercion-resistant i-voting with short PIN and OAuth 2.0"
   authors:
     - MatteoBitussi
