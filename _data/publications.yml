@@ -1985,6 +1985,22 @@
   destination: ESORICS2023
   year: 2023
 
+  - id: EVOTEID2023
+  title: "Coercion-resistant i-voting with short PIN and OAuth 2.0"
+  authors:
+    - MatteoBitussi
+    - RiccardoLongo
+    - FrancescoAntonioMarino
+    - UmbertoMorelli
+    - AmirSharif
+    - ChiaraSpadafora
+    - AlessandroTomasi
+  abstract: >
+   This paper presents an architecture for an OAuth 2.0-based i-voting solution using a mobile native client in a variant of the Ara ́ujo- Traor ́e protocol. We follow a systematic approach by identifying relevant OAuth 2.0 specifications and best practices. We provide a threat model to identify threats applicable to our proposed methodology and detail how our design can mitigate them to provide a safer i-voting process.
+  destination: EVOTEID2023
+  year: 2023
+  urlNews: /news/2023-06-28-paper-accepted-at-evoteid-2023/
+
 - id: POLSIM2023
   #id_iris: 323366
   title: "A Simulation Framework for the Experimental Evaluation of Access Control Enforcement Mechanisms based on Business Processes"
