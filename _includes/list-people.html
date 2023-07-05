@@ -182,7 +182,7 @@
             {% endif %}
             {% assign affiliationNumbers = person.affiliations.size | minus: 1 %}
             {% for counter in (0..affiliationNumbers) %}
-                {% if person.affiliations[counter].unit == "Security & Trust" or person.affiliations[counter].unit == "Center for Cybersecurity" %}
+                {% if person.affiliations[counter].unit == "Robust and Secure Distributed Computing" or person.affiliations[counter].unit == "Center for Cybersecurity" %}
                     {% if person.affiliations[counter].institution == "Fondazione Bruno Kessler" %}
                         {% assign role = person.affiliations[counter].role %}
                     {% endif %}        
@@ -258,7 +258,7 @@
                         {% elsif details contains "internalUnit" %}
                             {% for affiliation in person.affiliations %}
                                 {% if affiliation.institution == "Fondazione Bruno Kessler" %}
-                                    {% if affiliation.unit == "Security & Trust" or affiliation.unit == "Center for Cybersecurity" %}
+                                    {% if affiliation.unit == "Robust and Secure Distributed Computing" or affiliation.unit == "Center for Cybersecurity" %}
                                         <div class="affiliation">
                                             <p class="subtitle affiliation unit is-4">{{ affiliation.unit }}</p>
                                         </div>
