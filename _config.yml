@@ -1,9 +1,9 @@
-title: Security & Trust
+title: Robust and Secure Distributed Computing
 tagline: Research Unit in Fondazione Bruno Kessler (FBK)
-logo: /assets/images/logos/ST_symbol.png
+logo: /assets/images/logos/RiSING_symbol.png
 remote_theme: chrisrhymes/bulma-clean-theme
 markdown: kramdown
-repository: stfbk/stfbk.github.io
+repository: risingfbk/risingfbk.github.io
 
 plugins:
   - jekyll-redirect-from
@@ -60,7 +60,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/logos/ST_symbol.png
+      image: /assets/images/logos/RiSING_symbol.png
 
   - scope:
       type: collaborations
