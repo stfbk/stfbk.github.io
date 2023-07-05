@@ -1,3 +1,0 @@
-- **Submission deadline**:      July 24, 2022
-- **Notification to authors**:  ~August 31, 2022~ September 7, 2022 (extended)
-- **Camera-ready versions**:    September 18, 2022
