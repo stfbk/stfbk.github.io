@@ -1,934 +1,185 @@
 # Please keep alphabetical order
 
-- id: AaronStump
-  name: Aaron
-  surname: Stump
-
-- id: AchimBrucker
-  name: Achim D.
-  surname: Brucker
-
-- id: AdamJLee
-  name: Adam J.
-  surname: Lee
-  email: adamlee@cs.pitt.edu
-
-- id: AdrienBeaugendre
-  name: Adrien
-  surname: Beaugendre
-
-- id: AlbertoCalvi
-  name: Alberto
-  surname: Calvi
-
-- id: AlbertoSiena
-  name: Alberto
-  surname: Siena
+- id: ArslanRafi
+  name: Arslan
+  surname: Rafi
+  email: arafi@fbk.eu
   affiliations:
-    - role: Innovation Manager
-      institution: Securics
+    - role: PhD Student
+      unit: Robust and Secure Distributed Computing
+      institution: Fondazione Bruno Kessler
       place: Trento, Italy
-  image: https://sites.google.com/site/albertosiena/_/rsrc/1263330308767/config/app/images/as.jpg
 
-- id: AlessandroArmando
-  name: Alessandro
-  surname: Armando
+- id: AndreaZanardi
+  name: Andrea
+  surname: Zanardi
+  email: azanardi@fbk.eu
+  phone: "+390461312450"
   affiliations:
-    - role: Full Professor
-      unit: DIBRIS
-      institution: University of Genoa
-      place: Genoa, Italy
-  email: alessandro.armando@unige.it
-  image: https://rubrica.unige.it/static/foto/VUZDXlxu.jpg?1688135377.3747
-
-- id: AlessandroBiasi
-  name: Alessandro
-  surname: Biasi
-
-- id: AlessandroCarioni
-  name: Alessandro
-  surname: Carioni
-
-- id: AlessandroColombo
-  name: Alessandro
-  surname: Colombo
-
-- id: AlessandroPegoraro
-  name: Alessandro
-  surname: Pegoraro
+    - role: Developer
+      unit: Robust and Secure Distributed Computing
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
   
-- id: AlessandroTomasi
-  name: Alessandro
-  surname: Tomasi
+- id: DomenicoSiracusa
+  name: Domenico
+  surname: Siracusa
+  email: dsiracusa@fbk.eu
+  phone: "+390461312435"
   affiliations:
     - role: Head of Unit
-      unit: AppLiEd cryptograPHy
+      unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-  email: altomasi@fbk.eu
-
-- id: AlessioColetta
-  name: Alessio
-  surname: Coletta
-
-- id: AlessioMerlo
-  name: Alessio
-  surname: Merlo
-
-- id: AlessioValenza
-  name: Alessio
-  surname: Valenza
-
-- id: AmirSharif
-  name: Amir
-  surname: Sharif
-  affiliations:
-    - role: Researcher
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: asharif@fbk.eu
-
-- id: AndersonSantanaDeOliveira
-  name: Anderson
-  surname: Santana de Oliveira
-
-- id: AndreaBisegna
-  name: Andrea
-  surname: Bisegna
-  affiliations:
-    - role: Employee
-      institution: "Futuro & Conoscenza"
-  email: a.bisegna@futuroeconoscenza.it
-  usernameFBK: a.bisegna
-
-- id: AndreaFlamini
-  name: Andrea
-  surname: Flamini
-
-- id: AndreaPalmieri
-  name: Andrea
-  surname: Palmieri
-
-- id: AndreaRanalli
-  name: Andrea
-  surname: Ranalli
   
-- id: AndreaValenza
-  name: Andrea
-  surname: Valenza
-
-- id: AndreasHeiderAviet
-  name: Andreas
-  surname: Heider-Aviet
-
-- id: AnnibalePanichella
-  name: Annibale
-  surname: Panichella
-  affiliations:
-    - role: Assistant Professor
-      institution: Delft University of Technology
-      place: Delft, The Netherlands
-
-- id: AntoninoSabetta
-  name: Antonino
-  surname: Sabetta
-
-- id: AntonioSchizzerotto
-  name: Antonio
-  surname: Schizzerotto
-
-- id: AvinashSudhodanan
-  name: Avinash
-  surname: Sudhodanan
-
-- id: BiniamFissehaDemissie
-  name: Biniam Fisseha
-  surname: Demissie
-  affiliations:
-    - role: Senior Security Researcher
-      institution: Technology Innovation Institute
-      place: Abu Dhabi, United Arab Emirates
-
-- id: BrunoCrispo
-  name: Bruno
-  surname: Crispo
-
-- id: CarlaMerkleWestphall
-  name: Carla Merkle
-  surname: Westphall
-
-- id: CarlosBeckerWestphall
-  name: Carlos Becker
-  surname: Westphall
-
-- id: CarlottaTagliaro
-  name: Carlotta
-  surname: Tagliaro
-  image: https://media-exp1.licdn.com/dms/image/C4E03AQEPRt71VVgABw/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=mmnzNewMBhrMwqgAbd0ne8RA6kTdqBtvnn8YCCpbkq4
-
-- id: CeciliaPasquini
-  name: Cecilia
-  surname: Pasquini
-  affiliations:
-    - role: Employee
-      institution: "Futuro & Conoscenza"
-  email: c.pasquini@futuroeconoscenza.it
-  usernameFBK: c.pasquini
-
-- id: CesareTinelli
-  name: Cesare
-  surname: Tinelli
-
-- id: ChaudhryMuhammadSuleman
-  name: Chaudhry Muhammad
-  surname: Suleman
-
-- id: ChiaraGhidini
-  name: Chiara
-  surname: Ghidini
-
-- id: ChiaraSpadafora
-  name: Chiara
-  surname: Spadafora
-
-- id: ChristopheRingeissen
-  name: Christophe
-  surname: Ringeissen
-
-- id: ChristopherLynch
-  name: Christopher
-  surname: Lynch
-
-- id: ClaraBertolissi
-  name: Clara
-  surname: Bertolissi
-
-- id: ClarkBarrett
-  name: Clark
-  surname: Barrett
-
-- id: ClaudioGrisenti
+- id: ClaudioFacchinetti
   name: Claudio
-  surname: Grisenti
-
-- id: ClaudioPetrazzuolo
-  name: Claudio
-  surname: Petrazzuolo
-
-- id: ClausPahl
-  name: Claus
-  surname: Pahl
-
-- id: DamianoSartori
-  name: Damiano
-  surname: Sartori
-
-- id: DanielDosSantos
-  name: Daniel Ricardo
-  surname: dos Santos
-
-- id: DanieleDelSale
+  surname: Facchinetti
+  email: cfacchinetti@fbk.eu
+  phone: "+390461314940"
+  affiliations:
+    - role: Junior Researcher
+      unit: Robust and Secure Distributed Computing
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  
+- id: DanieleSantoro
   name: Daniele
-  surname: Del Sale
-
-- id: DannyRoswinOllik
-  name: Danny Roswin
-  surname: Ollik
-
-- id: DavidePiva
-  name: Davide
-  surname: Piva
-
-- id: DucKhahnTran
-  name: Duc-Khahn
-  surname: Tran
-
-- id: EdliraDushku
-  name: Edlira
-  surname: Dushku
-
-- id: ElenaPagani
-  name: Elena
-  surname: Pagani
-
-- id: EleonoraMarchesini
-  name: Eleonora
-  surname: Marchesini
+  surname: Santoro
+  email: dsantoro@fbk.eu
+  phone: "+390461312430"
   affiliations:
-    - role: Junior Researcher
-      unit: Security & Trust
+    - role: Developer
+      unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-  email: emarchesini@fbk.eu
-
-- id: ElhamArshad
-  name: Elham
-  surname: Arshad
+  
+- id: FrancescoTomasselli
+  name: Francesco
+  surname: Tomasselli
+  email: ftomasselli@fbk.eu
   affiliations:
-    - role: Researcher
-      unit: Security & Trust
+    - role: PhD Student
+      unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-  email: earshad@fbk.eu
-
-- id: EmanueleViglianisi
-  name: Emanuele
-  surname: Viglianisi
-  affiliations:
-    - role: Data Engineer
-      institution: Runtastic
-      place: Linz, Austria
-  image: https://emavgl.github.io/images/avatar.jpg
-
-- id: EnricoCambiaso
-  name: Enrico
-  surname: Cambiaso
-  email: enrico.cambiaso@ieiit.cnr.it
-
-- id: EnricoDonatoni
-  name: Enrico
-  surname: Donatoni
-
-- id: EnricoMarconi
-  name: Enrico
-  surname: Marconi
-
-- id: EricaElia
-  name: Erica
-  surname: Elia
-
-- id: EyasuGetahunChekole
-  name: Eyasu Getahun
-  surname: Chekole
-
-- id: FabioMassacci
-  name: Fabio
-  surname: Massacci
-
-- id: FatihTurkmen
-  name: Fatih
-  surname: Turkmen
-
-- id: FedericoCucino
-  name: Federico
-  surname: Cucino
-
-- id: FedericoSinigaglia
-  name: Federico
-  surname: Sinigaglia
-
-- id: FrancescoAlberti
-  name: Francesco
-  surname: Alberti
-
-- id: FrancescoAntonioMarino
-  name: Francesco Antonio
-  surname: Marino
-  email: fa.marino@ipzs.it
-
-- id: FrancescoDefilippo
-  name: Francesco
-  surname: Defilippo
-
-- id: GabrieleCosta
-  name: Gabriele
-  surname: Costa
-  email: gabriele.costa@imtlucca.it
-
-- id: GiacomoZanolli
+  
+- id: GiacomoSegala
   name: Giacomo
-  surname: Zanolli
-
-- id: GiadaSciarretta
-  name: Giada
-  surname: Sciarretta
+  surname: Segala
+  email: g.segala@fbk.eu
+  affiliations:
+    - role: PhD Student
+      unit: Robust and Secure Distributed Computing
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  
+- id: LorenzoGalvagni
+  name: Lorenzo
+  surname: Galvagni
+  email: lgalvagni@fbk.eu
+  phone: "+390461312427"
+  affiliations:
+    - role: Developer
+      unit: Robust and Secure Distributed Computing
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  
+- id: LuisAugustoDiasKnob
+  name: Luis Augusto
+  surname: Dias Knob
+  email: l.diasknob@fbk.eu
   affiliations:
     - role: Researcher
-      unit: Security & Trust
+      unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-  email: g.sciarretta@fbk.eu
-  phone: "+390461312378"
-
-- id: GianfrancoBurzio
-  name: Gianfranco
-  surname: Burzio
-  email: gb@drivesec.com
-
-- id: GianlucaBocci
-  name: Gianluca
-  surname: Bocci
-
-- id: GianlucaSassetti
-  name: Gianluca
-  surname: Sassetti
-
-- id: GianPaoloRossi
-  name: Gian Paolo
-  surname: Rossi
-
-- id: GiovanniFerronato
-  name: Giovanni
-  surname: Ferronato
-  image: https://media-exp1.licdn.com/dms/image/C5603AQEcwxof36633Q/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=h5fI2ngKcl-4rahGVBf4cRWY9ZzhGnKSDqRsz5fwo6s
-
-- id: GiovanniMagoga
-  name: Giovanni
-  surname: Magoga
-
-- id: GiovanniMariaAbbiati
-  name: Giovanni Maria
-  surname: Abbiati
-  affiliations:
-    - role: Research Fellow
-      institution: University of Milan
-      place: Milan, Italy
-  email: giovanni.abbiati@unimi.it
-
-- id: GiulioPellizzari
-  name: Giulio
-  surname: Pellizzari
-
-- id: GiuseppeAlessioSciumè
-  name: Giuseppe Alessio
-  surname: Sciumè
-  affiliations:
-    - role: Junior Researcher
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: gsciume@fbk.eu
-
-- id: GiuseppeDeMarco
-  name: Giuseppe
-  surname: De Marco
-
-- id: GiuseppeFarandaCordella
-  name: Giuseppe Faranda
-  surname: Cordella
-  email: gfc@drivesec.com
   
-- id: GiuseppeLamorgese
-  name: Giuseppe
-  surname: Lamorgese
-
-- id: HamidBerzegar
-  name: Hamid R.
-  surname: Berzegar
-
-- id: HariSiswantoro
-  name: Hari
-  surname: Siswantoro
-
-- id: IonAndyDitu
-  name: Ion Andy
-  surname: Ditu
+- id: MagedAbdelaty
+  name: Maged
+  surname: Abdelaty
+  email: mabdelaty@fbk.eu
   
-- id: IvanMartini
-  name: Ivan
-  surname: Martini
-
-- id: IvanVaccari
-  name: Ivan
-  surname: Vaccari
-  email: ivan.vaccari@ieiit.cnr.it 
-  image: https://www.cnr.it/peoplepublic/peoplepublic/index/profileimage/login/ivanvaccari
-
-- id: IvanValentini
-  name: Ivan
-  surname: Valentini
-
-- id: JerryDenHartog
-  name: Jerry
-  surname: Den Hartog
-
-- id: JosephHeenan
-  name: Joseph
-  surname: Heenan
-  email: joseph@authlete.com
-
-- id: KonradWrona
-  name: Konrad
-  surname: Wrona
-
-- id: LauraCristiano
-  name: Laura
-  surname: Cristiano
-  affiliations:
-    - role: Employee
-      institution: "Futuro & Conoscenza"
-  email: l.cristiano@futuroeconoscenza.it
-  usernameFBK: l.cristiano
-  
-- id: LeonardoDeMoura
-  name: Leonardo
-  surname: de Moura
-
-- id: LeonardoXompero
-  name: Leonardo
-  surname: Xompero
-
-- id: LorenzoBellesso
-  name: Lorenzo
-  surname: Bellesso
-
-- id: LorenzoNicolodi
-  name: Lorenzo
-  surname: Nicolodi
-  
-- id: LorenzoTait
-  name: Lorenzo
-  surname: Tait
-
-- id: LucaBazzanella
-  name: Luca
-  surname: Bazzanella
-
-- id: LucaCompagna
-  name: Luca
-  surname: Compagna
-
-- id: LucaMorgese
-  name: Luca
-  surname: Morgese
-
-- id: LucaViganò
-  name: Luca
-  surname: Viganò
-  email: luca.vigano@kcl.ac.uk
-  image: http://www.lucavigano.com/images/LucaVigano2-small.jpg
-
-- id: LucaZanetti
-  name: Luca
-  surname: Zanetti
-
-- id: LuigiDellEva
-  name: Luigi
-  surname: Dell'Eva
-
-- id: LuigiMancini
-  name: Luigi V.
-  surname: Mancini
-
-- id: LwinKhinShar
-  name: Lwin Khin
-  surname: Shar
-
-- id: MajidMollaeefar
-  name: Majid
-  surname: Mollaeefar
-  email: mmollaeefar@fbk.eu
-  affiliations:
-    - role: Researcher
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-
-- id: MarcoCentenaro
+- id: MarcoZambianco
   name: Marco
-  surname: Centenaro
-  email: mcentenaro@fbk.eu
-
-- id: MarcoPernpruner
-  name: Marco
-  surname: Pernpruner
+  surname: Zambianco
+  email: mzambianco@fbk.eu
   affiliations:
-    - role: PhD Student
-      unit: Security & Trust
+    - role: Researcher
+      unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-    - role: PhD Student
-      unit: DIBRIS
-      institution: University of Genoa
-      place: Genoa, Italy
-  email: mpernpruner@fbk.eu
-  phone: "+390461314337"  
-
-- id: MarianoCeccato
-  name: Mariano
-  surname: Ceccato
-  affiliations:
-    - role: Assistant Professor
-      unit: Department of Computer Science
-      institution: University of Verona
-      place: Verona, Italy
-  email: mariano.ceccato@univr.it
-  image: https://www.di.univr.it/documenti/Persona/foto/foto347921.jpg
-
-- id: MarioScuro
-  name: Mario
-  surname: Scuro
-
-- id: MartaArisi
-  name: Marta
-  surname: Arisi
-
-- id: MartaToniolli
-  name: Marta
-  surname: Toniolli
-
-- id: MartinaVecellioReane
-  name: Martina
-  surname: Vecellio Reane
-
-- id: MassimoMerro
-  name: Massimo
-  surname: Merro
-  email: massimo.merro@univr.it
-  image: https://www.di.univr.it/documenti//Persona/foto/foto450272.jpg
-
-- id: MatteoBitussi
+  
+- id: MatteoFranzil
   name: Matteo
-  surname: Bitussi
+  surname: Franzil
+  email: mfranzil@fbk.eu
+  phone: "+390461314046"
   affiliations:
     - role: Junior Researcher
-      unit: Security & Trust
+      unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-  email: mbitussi@fbk.eu
-
-- id: MatteoGrasso
-  name: Matteo
-  surname: Grasso
-
-- id: MatteoLeonelli
-  name: Matteo
-  surname: Leonelli
   
-- id: MatteoLongato
+- id: MatteoManfrin
   name: Matteo
-  surname: Longato
-
-- id: MatteoRanzi
-  name: Matteo
-  surname: Ranzi
-  
-- id: MatteoRizzi
-  name: Matteo
-  surname: Rizzi
+  surname: Manfrin
+  email: mmanfrin@fbk.eu
   affiliations:
-    - role: Junior Researcher
-      unit: Security & Trust
+    - role: Developer
+      unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-  email: mrizzi@fbk.eu
-  phone: "+390461312356"
   
-- id: MauroConti
-  name: Mauro
-  surname: Conti
-
-- id: MdMasoomRabbani
-  name: Md Masoom
-  surname: Rabbani
-
-- id: MicheleBarletta
-  name: Michele
-  surname: Barletta
-
-- id: MicheleBezzi
-  name: Michele
-  surname: Bezzi
-
-- id: MicheleZucchelli
-  name: Michele
-  surname: Zucchelli
-
-- id: MircoBisoffi
-  name: Mirco
-  surname: Bisoffi
-
-- id: MirkoSchicchi
-  name: Mirko
-  surname: Schicchi
-
-- id: MojtabaEskandari
-  name: Mojtaba
-  surname: Eskandari
-
-- id: MorenoAmbrosin
-  name: Moreno
-  surname: Ambrosin
-
-- id: MuhammadImran
-  name: Muhammad
-  surname: Imran
+- id: PietroDeMatteis
+  name: Pietro
+  surname: De Matteis
+  email: pdematteis@fbk.eu
+  phone:  "+390461312465"
+  affiliations:
+    - role: Developer
+      unit: Robust and Secure Distributed Computing
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  
+- id: RobertoDoriguzziCorin
+  name: Roberto
+  surname: Doriguzzi Corin
+  email: rdoriguzzi@fbk.eu
+  phone: "+390461312429"
   affiliations:
     - role: Researcher
-      unit: Security & Trust
+      unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-  email: mimran@fbk.eu
-
-- id: NabilElIoini
-  name: Nabil
-  surname: El Ioini
-
-- id: NadiaMetoui
-  name: Nadia
-  surname: Metoui
-
-- id: NatashaSharygina
-  name: Natasha
-  surname: Sharygina
-
-- id: NicolaCasagrande
-  name: Nicola
-  surname: Casagrande
-
-- id: NicolaZannone
-  name: Nicola
-  surname: Zannone
-
-- id: NicolasDolgin
-  name: Nicolas
-  surname: Dolgin
-
-- id: PallaviKaliyar
-  name: Pallavi
-  surname: Kaliyar
-
-- id: PaoloGuarda
-  name: Paolo
-  surname: Guarda
-
-- id: PaoloPrem
-  name: Paolo
-  surname: Prem
-
-- id: RiccardoDeMasellis
-  name: Riccardo
-  surname: De Masellis
-
-- id: RiccardoGermenia
-  name: Riccardo
-  surname: Germenia
-
-- id: RiccardoLazzaretti
-  name: Riccardo
-  surname: Lazzaretti
-
-- id: RiccardoLongo
-  name: Riccardo
-  surname: Longo
-  affiliations:
-    - role: Researcher
-      unit: AppLiEd cryptograPHy
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: rlongo@fbk.eu
-
-- id: RiccardoTraverso
-  name: Riccardo
-  surname: Traverso
-
-- id: RiccardoZiglio
-  name: Riccardo
-  surname: Ziglio
-
-- id: RobertaPeracchio
-  name: Roberta
-  surname: Peracchio
-
-- id: RobertoBruttomesso
-  name: Roberto
-  surname: Bruttomesso
-
-- id: RobertoCarbone
-  name: Roberto
-  surname: Carbone
-  affiliations:
-    - role: Head of Unit
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: carbone@fbk.eu
-  phone: "+390461314185"
-
-- id: RobertoRiggio
-  name: Roberto
-  surname: Riggio
-  email: rriggio@fbk.eu
-
-- id: RobertoTiella
-  name: Roberto
-  surname: Tiella
-  email: tiella@fbk.eu
-
-- id: RoccoMammoliti
-  name: Rocco
-  surname: Mammoliti
   
-- id: RupertGobber
-  name: Rupert
-  surname: Gobber
-
-- id: SalimehDashti
-  name: Salimeh
-  surname: Dashti
-
-- id: SalvatoreManfredi
-  name: Salvatore
-  surname: Manfredi
-  affiliations:
-    - role: Researcher
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: smanfredi@fbk.eu
-  phone: "+390461314193"
-
-- id: SanderOudkerk
-  name: Sander
-  surname: Oudkerk
-
-- id: SaraSorrentino
-  name: Sara
-  surname: Sorrentino
-
-- id: SaverioTuretta
-  name: Saverio
-  surname: Turetta
-
-- id: SerenaPonta
-  name: Serena Elisa
-  surname: Ponta
-
-- id: SergiiKushch
-  name: Sergii
-  surname: Kushch
-  affiliations:
-    - role: Senior Research Fellow
-      institution: University of Limerick
-      place: Limerick, Ireland
-
-- id: SergioManuelNobregaGoncalves
-  name: Sergio Manuel
-  surname: Nóbrega Gonçalves
-
-- id: SilvioRanise
+- id: SilvioCretti
   name: Silvio
-  surname: Ranise
+  surname: Cretti
+  email: scretti@fbk.eu
+  phone: "+390461312433"
   affiliations:
-    - role: Director of Center
-      unit: Center for Cybersecurity
+    - role: Developer
+      unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-    - role: Full Professor
-      unit: Department of Mathematics
-      institution: University of Trento
-      place: Trento, Italy
-  email: ranise@fbk.eu
-  phone: "+390461314192"
-
-- id: SilvioGhilardi
-  name: Silvio
-  surname: Ghilardi
-
-- id: SofiaPuttin
-  name: Sofia
-  surname: Puttin
-
-- id: SofiaZanrosso
-  name: Sofia
-  surname: Zanrosso
-
-- id: SoniaEccher
-  name: Sonia
-  surname: Eccher
-
-- id: StanislavDashevskyi
-  name: Stanislav
-  surname: Dashevskyi
-
-- id: StefanoBerlato
-  name: Stefano
-  surname: Berlato
+  
+- id: SimoneMagnani
+  name: Simone
+  surname: Magnani
+  email: smagnani@fbk.eu
   affiliations:
     - role: PhD Student
-      unit: AppLiEd cryptograPHy
+      unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-    - role: PhD Student
-      unit: DIBRIS
-      institution: University of Genoa
-      place: Genoa, Italy
-  email: sberlato@fbk.eu
-
-- id: StefanoDaRoit
-  name: Stefano
-  surname: Da Roit
-
-- id: StefanoFacchini
-  name: Stefano
-  surname: Facchini
-
-- id: TahirAhmad
-  name: Tahir
-  surname: Ahmad
-  affiliations:
-    - role: Researcher
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: ahmad@fbk.eu
-
-- id: ThanhTungNguyen
-  name: Thanh-Tung
-  surname: Nguyen 
-
-- id: TuanAnhTruong
-  name: Tuan Anh
-  surname: Truong
-  affiliations:
-    - role: Lecturer
-      unit: Faculty of Computer Science and Engineering
-      institution: HCMC University of Technology
-      place: Vietnam
-  email: anhtt@cse.hcmut.edu.vn
-
-- id: UmbertoMorelli
-  name: Umberto
-  surname: Morelli
-  affiliations:
-    - role: Employee
-      institution: "Futuro & Conoscenza"
-  email: u.morelli@futuroeconoscenza.it
-  usernameFBK: umorelli
-
-- id: ValentinaOdorizzi
-  name: Valentina
-  surname: Odorizzi
-
-- id: VanThanhLe
-  name: Van Thanh
-  surname: Le
-
-- id: VeronicaCristiano
-  name: Veronica
-  surname: Cristiano
   
-- id: VincenzoChiarini
-  name: Vincenzo
-  surname: Chiarini
-
-- id: WendyBarreto
-  name: Wendy
-  surname: Barreto
-
-- id: WorachetUttha
-  name: Worachet
-  surname: Uttha
-
-- id: ZahraEbadiAnsaroudi
-  name: Zahra
-  surname: Ebadi Ansaroudi
+- id: ValentinoArmani
+  name: Valentino
+  surname: Armani
+  email: varmani@fbk.eu
   affiliations:
     - role: Researcher
-      unit: AppLiEd cryptograPHy
+      unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-  email: zebadiansaroudi@fbk.eu
-
-# Please keep alphabetical order

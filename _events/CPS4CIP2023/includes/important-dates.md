@@ -1,3 +1,0 @@
-- **Submission deadline**:      <s>03.07.2023</s> 17.07.2023 (extended)
-- **Notification to authors**:  03.08.2023
-- **Camera-ready versions**:    20.08.2023
