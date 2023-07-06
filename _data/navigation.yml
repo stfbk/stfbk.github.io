@@ -1,7 +1,7 @@
 - name: Collaborations
   link: /collaborations
-- name: Events
-  link: /events/
+# - name: Events
+#   link: /events/
 - name: News
   link: /news/
 - name: Projects
