@@ -29,7 +29,7 @@
   iris_id: rp03832
   affiliations:
     - role: Head of Unit
-      unit: Robust and Secure Distributed Computing
+      unit: Center for Cybersecurity 
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   
@@ -97,11 +97,6 @@
       unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-  
-- id: MagedAbdelaty
-  name: Maged
-  surname: Abdelaty
-  email: mabdelaty@fbk.eu
   
 - id: MarcoZambianco
   name: Marco
@@ -190,10 +185,105 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
 
+# Interns
+
 - id: MarcoZani 
   name: Marco
   surname: Zani
   usernameFBK: mzani
+  
+# Former
+- id: StefanoDiSanto
+  name: Stefano
+  surname: Di Santo
+
+- id: MarianAlexandruDiaconu
+  name: Marian Alexandru
+  surname: Diaconu
+
+- id: RiccardoCapraro
+  name: Riccardo
+  surname: Capraro
+
+- id: StefanoSetti
+  name: Stefano
+  surname: Setti
+
+- id: MehariKinfeSimon
+  name: Mehari Kinfe
+  surname: Simon
+
+- id: MatteoCaliandro
+  name: Matteo
+  surname: Caliandro
+
+- id: MartinaLanzi
+  name: Martina
+  surname: Lanzi
+
+- id: RiccardoMicheletto
+  name: Riccardo
+  surname: Micheletto
+
+- id: DavideTessarolo
+  name: Davide
+  surname: Tessarolo
+
+- id: FrancescoDePellegrini
+  name: Francesco
+  surname: De Pellegrini
+
+- id: DamuDing
+  name: Damu
+  surname: Ding
+
+- id: FrancescomariaFaticanti
+  name: Francescomaria
+  surname: Faticanti
+
+- id: RaihanaFerdous
+  name: Raihana
+  surname: Ferdous
+
+- id: AndreaFregonese
+  name: Andrea
+  surname: Fregonese
+
+- id: MatteoGerola
+  name: Matteo
+  surname: Gerola
+
+- id: AntonioMassaro
+  name: Antonio
+  surname: Massaro
+
+- id: FedericoPederzolli
+  name: Federico
+  surname: Pederzolli
+
+- id: DanielePizzolli
+  name: Daniele
+  surname: Pizzolli
+
+- id: KewinRausch
+  name: Kewin
+  surname: Rausch
+
+- id: MarcoSavi
+  name: Marco
+  surname: Savi
+
+- id: KindeGutemaTefera
+  name: Kinde Gutema
+  surname: Tefera
+
+- id: XiaohuWu
+  name: Xiaohu
+  surname: Wu
+
+- id: MagedAbdelaty
+  name: Maged
+  surname: Abdelaty
 
 # The following string is a separator used by the parser to trim away generated content
 # Please, please, please, keep this here!
@@ -262,17 +352,9 @@
   name: Elio
   surname: Salvadori
 
-- id: MatteoGerola
-  name: Matteo
-  surname: Gerola
-
 - id: A.Broglio
   name:  A.
   surname: Broglio
-
-- id: FrancescoDePellegrini
-  name: Francesco
-  surname: De Pellegrini
 
 - id: R.Riggio
   name:  R.
@@ -538,10 +620,6 @@
   name:  R.
   surname: Sommese
 
-- id: MarcoSavi
-  name: Marco
-  surname: Savi
-
 - id: StuartMillar
   name: Stuart
   surname: Millar
@@ -622,10 +700,6 @@
   name:  Tiziana
   surname: Catena
 
-- id: DanielePizzolli
-  name:  Daniele
-  surname: Pizzolli
-
 - id: GiuseppeCossu
   name:  Giuseppe
   surname: Cossu
@@ -649,10 +723,6 @@
 - id: DanielZozin
   name:  Daniel
   surname: Zozin
-
-- id: FrancescomariaFaticanti
-  name:  Francescomaria
-  surname: Faticanti
 
 - id: KatarzynaTeresaDiMeo
   name:  Katarzyna Teresa
@@ -978,10 +1048,6 @@
   name:  S.
   surname: Spadaro
 
-- id: FedericoPederzolli
-  name:  Federico
-  surname: Pederzolli
-
 - id: JoseSanchez
   name:  José
   surname: Sánchez
@@ -1238,10 +1304,6 @@
   name:  E.
   surname: Grasa
 
-- id: KewinRausch
-  name:  Kewin
-  surname: Rausch
-
 - id: T.Bao
   name:  T.
   surname: Bao
@@ -1350,10 +1412,6 @@
   name:  Li
   surname: Xi
 
-- id: RaihanaFerdous
-  name:  Raihana
-  surname: Ferdous
-
 - id: CarlaFabianaChiasserini
   name:  Carla Fabiana
   surname: Chiasserini
@@ -1458,10 +1516,6 @@
   name:  Wolfgang
   surname: Kellerer
 
-- id: D.Ding
-  name:  D.
-  surname: Ding
-
 - id: GianniAntichi
   name: Gianni
   surname: Antichi
@@ -1501,10 +1555,6 @@
 - id: EitanAltman
   name:  Eitan
   surname: Altman
-
-- id: DamuDing
-  name:  Damu
-  surname: Ding
 
 - id: DanieleTovazzi
   name:  Daniele
