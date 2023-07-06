@@ -1,0 +1,144 @@
+- id: StefanoDiSanto_M
+  author: StefanoDiSanto
+  type: M
+  title: "Exploring the Feasibility of Honeypots in Information Gathering: A Case Study"
+  institution: University of Trento
+  year: 2023
+  supervisor: DomenicoSiracusa
+  
+- id: MatteoCaliandro_M
+  author: MatteoCaliandro
+  type: M
+  title: Energy-Aware Placement of Cloud-Native Workloads in a Robotic Environment
+  institution: University of Trento
+  year: 2022
+  supervisor: DomenicoSiracusa
+  co-supervisor: FrancescomariaFaticanti
+
+- id: ClaudioFacchinetti_M 
+  author: ClaudioFacchinetti
+  type: M
+  title: A Resource-Aware Decoy Allocation Strategy for Cyber Deception in the Cloud
+  institution: University of Trento
+  year: 2022
+  supervisor: DomenicoSiracusa
+  co-supervisor: MarcoZambianco
+
+- id: MartinaLanzi_M 
+  author: MartinaLanzi
+  type: M
+  title: Adversarial DDoS Attack Detection with Multimodal Deep Learning
+  institution: University of Trento
+  year: 2022
+  supervisor: DomenicoSiracusa
+  co-supervisor: RobertoDoriguzziCorin
+
+- id: MatteoFranzil_M
+  author: MatteoFranzil
+  type: M
+  title: Real-Time Monitoring of the QUIC Protocol
+  institution: University of Trento
+  year: 2022
+  supervisor: DomenicoSiracusa
+  co-supervisor: GianniAntichi
+
+- id: RiccardoMicheletto_M 
+  author: RiccardoMicheletto
+  type: M
+  title: A Cost-Aware Optimization Algorithm for Time-Constrained Applications in Hybrid Clouds
+  institution: University of Trento
+  year: 2022
+  supervisor: DomenicoSiracusa
+  co-supervisor: FrancescomariaFaticanti
+
+- id: MagedAbdelaty_P
+  author: MagedAbdelaty
+  type: P
+  title: Robust Anomaly Detection in Critical Infrastructure
+  institution: University of Trento
+  year: 2022
+  supervisor: DomenicoSiracusa
+  co-supervisor: RobertoDoriguzziCorin
+  abstract: >
+    Critical Infrastructures (CIs) such as water treatment plants, power grids and telecommunication networks are critical to the daily activities and well-being of our society. Disruption of such CIs would have catastrophic consequences for public safety and the national economy. Hence, these infrastructures have become major targets in the upsurge of cyberattacks. Defending against such attacks often depends on an arsenal of cyber-defence tools, including Machine Learning (ML)-based Anomaly Detection Systems (ADSs). These detection systems use ML models to learn the profile of the normal behaviour of a CI and classify deviations that go well beyond the normality profile as anomalies. [...]
+  cycle: XXXIV
+  doi: 10.15168/11572_352463
+
+- id: ValentinoArmani_M 
+  author: ValentinoArmani
+  type: M
+  title: A Cost-Effective Workload Allocation Strategy for Cloud-Native Edge Services
+  institution: University of Trento
+  year: 2021
+  supervisor: DomenicoSiracusa
+  co-supervisor: FrancescomariaFaticanti
+
+- id: DavideTessarolo_M 
+  author: DavideTessarolo
+  type: M
+  title: Dynamic Offloading of Robotic Workloads Under Latency Constraints
+  institution: University of Trento
+  year: 2021
+  supervisor: DomenicoSiracusa
+
+- id: AndreaFregonese_M 
+  author: AndreaFregonese
+  type: M
+  title: Federated Learning of a Deep Neural Network for DDoS Detection Trained with Non-IID Data
+  institution: University of Trento
+  year: 2021
+  supervisor: DomenicoSiracusa
+  co-supervisor: RobertoDoriguzziCorin
+
+- id: MarianAlexandruDiaconu_M 
+  author: MarianAlexandruDiaconu
+  type: M
+  title: A Distributed Serverless Caching System for Small Objects Management
+  institution: University of Trento
+  year: 2021
+  supervisor: DomenicoSiracusa
+
+- id: RiccardoCapraro_M 
+  author: RiccardoCapraro
+  type: M
+  title: Service-Aware Autoscaling of Cloud-Native Workloads
+  institution: University of Trento
+  year: 2021
+  supervisor: DomenicoSiracusa
+
+- id: StefanoSetti_M 
+  author: StefanoSetti
+  type: M
+  title: Implementing a Federated Learning Technique for DDoS Detection
+  institution: University of Trento
+  year: 2021
+  supervisor: DomenicoSiracusa
+
+- id: KindeGutemaTefera_M 
+  author: KindeGutemaTefera
+  type: M
+  title: Application-Aware Survivability in Multilayer IP-Over-DWDM Optical Transport Networks
+  institution: University of Trento
+  year: 2017
+  supervisor: FabrizioGranelli
+  co-supervisor: DomenicoSiracusa
+
+- id: MehariKinfeSimon_M 
+  author: MehariKinfeSimon
+  type: M
+  title: Energy-Aware Network Virtualization in Heterogeneous Multi-Domain Networks
+  institution: University of Trento
+  year: 2014
+  supervisor: FabrizioGranelli
+  co-supervisor: DomenicoSiracusa
+
+- id: FedericoPederzolli_M 
+  author: FedericoPederzolli
+  type: M
+  title: Cognitive Enhancements for Optical Networks Control Planes
+  institution: University of Trento
+  year: 2013
+  supervisor: RenatoLoCigno
+  co-supervisor: 
+    - DomenicoSiracusa
+    - FabrizioGranelli
