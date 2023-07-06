@@ -26,6 +26,7 @@
   surname: Siracusa
   email: dsiracusa@fbk.eu
   phone: "+390461312435"
+  iris_id: rp03832
   affiliations:
     - role: Head of Unit
       unit: Robust and Secure Distributed Computing
@@ -48,6 +49,7 @@
   surname: Santoro
   email: dsantoro@fbk.eu
   phone: "+390461312430"
+  iris_id: rp02795
   affiliations:
     - role: Developer
       unit: Robust and Secure Distributed Computing
@@ -68,6 +70,7 @@
   name: Giacomo
   surname: Segala
   email: g.segala@fbk.eu
+  iris_id: rp19776
   affiliations:
     - role: PhD Student
       unit: Robust and Secure Distributed Computing
@@ -147,6 +150,7 @@
   surname: Doriguzzi Corin
   email: rdoriguzzi@fbk.eu
   phone: "+390461312429"
+  iris_id: rp02135
   affiliations:
     - role: Researcher
       unit: Robust and Secure Distributed Computing
@@ -158,6 +162,7 @@
   surname: Cretti
   email: scretti@fbk.eu
   phone: "+390461312433"
+  iris_id: rp05551
   affiliations:
     - role: Developer
       unit: Robust and Secure Distributed Computing
@@ -168,6 +173,7 @@
   name: Simone
   surname: Magnani
   email: smagnani@fbk.eu
+  iris_id: rp19839
   affiliations:
     - role: PhD Student
       unit: Robust and Secure Distributed Computing
@@ -179,7 +185,11 @@
   surname: Armani
   email: varmani@fbk.eu
   affiliations:
-    - role: Researcher
+    - role: Developer 
       unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
+
+# The following string is a separator used by the parser to trim away generated content
+# Please, please, please, keep this here!
+#--#--#--#--#--#

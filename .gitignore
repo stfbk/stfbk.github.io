@@ -1,2 +1,6 @@
 _site/
+__old/
+*.bib
+*_generated.yml
+*.bak
 .jekyll-metadata
