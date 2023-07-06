@@ -89,7 +89,7 @@
     - RobertoDoriguzziCorin
     - StuartMillar
     - SandraScott-Hayward
-    - JesusMartinezdelRincon
+    - JesusMartinez-Del-Rincón
     - DomenicoSiracusa
   destination: IEEETRANSACTIONSONNETWORKANDSERVICEMANAGEMENT
   year: 2020
@@ -341,12 +341,12 @@
     - MatteoGerola
     - DomenicoSiracusa
     - FedericoPederzolli
-    - D.M.Marom
+    - DanM.Marom
     - M.Blau
     - J.Macdonald
     - N.Psaila
-    - C.Sanchez-Costa
-    - A.D.Ellis
+    - ChristianSánchezCosta
+    - AndrewD.Ellis
     - X.Forns
     - J.F.Ferran
     - F.Jimenez
@@ -388,12 +388,12 @@
   id_iris: 315057,
   title: "Technologies for the Implementation of Spectrally-Spatially Flexible Optical Networks (SS-FONs)"
   authors:
-    - D.Marom
+    - DanM.Marom
     - M.Blau
     - J.Macdonald
     - N.Psaila
-    - C.Sanchez
-    - A.Ellis
+    - ChristianSánchezCosta
+    - AndrewD.Ellis
     - J.F.Ferran
     - F.Jimenez
     - G.Papastergiou
@@ -493,7 +493,7 @@
     - FrancescomariaFaticanti
     - MarcoSavi
     - DomenicoSiracusa
-    - SeungwooKum
+    - Seung-wooKum
   destination: JOURNALOFGRIDCOMPUTING
   year: 2020
   doi: 10.1007/s10723-020-09534-y
@@ -595,7 +595,7 @@
   id_iris: 326726,
   title: "Artificial Intelligence Service Architecture for Edge Device"
   authors:
-    - SeungwooKum
+    - Seung-wooKum
     - YoungkeeKim
     - DomenicoSiracusa
     - JaewonMoon
@@ -690,7 +690,7 @@
   id_iris: 336467,
   title: "Locality-aware deployment of application microservices for multi-domain fog computing"
   authors:
-    - F.Faticanti
+    - FrancescomariaFaticanti
     - MarcoSavi
     - FrancescoDePellegrini
     - DomenicoSiracusa

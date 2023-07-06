@@ -21,6 +21,36 @@ def remove_accents(input_str):
     return only_ascii.decode('ASCII').strip()
 
 
+def saner_journal_name(name):
+    # Gets a name like IEEE TRANSACTIONS ON NETWORK AND SERVICE MANAGEMENT
+    # and turns it into IEEE Transactions on Network and Service Management
+    uncapitalize = ["a of", "a on", "and", "by", "for", "in", "on", "to",
+                    "the", "you", "with", "without", "of", "over", "an", "a"]
+    acronyms = ["IEEE", "ICDCS", "WWW", "ICCCN", "ACM", "IEEE/IFIP",
+                "OSAPUBLISHING", "OSA", "IFIP", "IEEE", "EDGECOM", "GECON"]
+    parts = name.split(" ")
+    final_name = [parts[0].capitalize() if not parts[0].upper() in acronyms
+                  else parts[0].upper()]
+    open_par = False
+    for part in parts[1:]:
+        if part.endswith(")"):
+            open_par = False
+            final_name.append(part)
+            continue
+        if part.startswith("(") or open_par:
+            open_par = True
+            final_name.append(part)
+            continue
+        if part.upper() in acronyms:
+            final_name.append(part.upper())
+        elif part.lower() in uncapitalize:
+            final_name.append(part.lower())
+        else:
+            final_name.append(part.capitalize())
+    name = " ".join(final_name)
+    return name
+
+
 def generate_yaml(citation):
     # Generate the YAML output
     if citation == {}:
@@ -39,13 +69,13 @@ def generate_yaml(citation):
         cid = filter(lambda x: x not in removed_chars_ids, citation['conference'])
         cid = "".join(cid)
         cid = remove_accents(cid).replace(' ', '').strip()
-        __name = citation['conference']
+        __name = saner_journal_name(citation['conference'])
         __type = "conference"
     elif "journal" in citation:
         cid = filter(lambda x: x not in removed_chars_ids, citation['journal'])
         cid = "".join(cid)
         cid = remove_accents(cid).replace(' ', '').strip()
-        __name = citation['journal']
+        __name = saner_journal_name(citation['journal'])
         __type = "journal"
     else:
         raise RuntimeError("You should have either conference or journal")
@@ -60,6 +90,8 @@ def generate_yaml(citation):
                     .replace("Proceedings of", "")\
                     .replace("Proceedings", "")\
                     .strip()
+        if __name.split(" ")[0][0].upper() != __name.split(" ")[0][0]:
+            __name = __name.split(" ")[0].capitalize() + " " + " ".join(__name.split(" ")[1:])
         proc = "Proceedings of " + __name
     else:
         proc = None

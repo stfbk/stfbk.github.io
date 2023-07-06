@@ -25,11 +25,11 @@
     ],
     "J.MartinezdelRincon": [
         "Jesus",
-        "Martinez del Rincon"
+        "Martinez-Del-Rincón"
     ],
     "J.Martinez-del-Rincon": [
         "Jesus",
-        "Martinez del Rincon"
+        "Martinez-Del-Rincón"
     ],
     "S.Millar": [
         "Stuart",
@@ -118,5 +118,41 @@
     "D.Ding": [
         "Damu",
         "Ding"
+    ],
+    "F.Faticanti": [
+        "Francescomaria",
+        "Faticanti"
+    ],
+    "SeungwooKum": [
+        "Seung-woo",
+        "Kum"
+    ],
+    "ChristianS.Costa": [
+        "Christian",
+        "Sánchez Costa"
+    ],
+    "C.Sanchez-Costa": [
+        "Christian",
+        "Sánchez Costa"
+    ],
+    "C.Sanchez": [
+        "Christian",
+        "Sánchez Costa"
+    ],
+    "A.Ellis": [
+        "Andrew D.",
+        "Ellis"
+    ],
+    "A.D.Ellis": [
+        "Andrew D.",
+        "Ellis"
+    ],
+    "D.Marom": [
+        "Dan M.",
+        "Marom"
+    ],
+    "D.M.Marom": [
+        "Dan M.",
+        "Marom"
     ]
 }
