@@ -42,7 +42,7 @@ if ($("#toc").length > 0) {
         </nav> \
     ');
 
-    $("nav .contents .menu").append('<ul id="markdown-toc"></ul>');
+    $("#toc nav .contents .menu").append('<ul id="markdown-toc"></ul>');
 
     if ($(":header:not(.no-toc)").length > 0) {
         var prevH1List = null;
@@ -84,7 +84,7 @@ if ($("#toc").length > 0) {
     }
 
     if ($("#markdown-toc li").length == 0) {
-        $("nav").remove();
+        $("#toc nav").remove();
     }
 }
 
