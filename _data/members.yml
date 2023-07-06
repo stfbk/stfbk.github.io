@@ -20,6 +20,13 @@ current:
     - SimoneMagnani
     - ValentinoArmani
 
+  students:
+    - personId: MarcoZani 
+      type: B
+      institution: University of Trento
+      yearFrom: 2023
+      yearTo: 2023
+
 former:
   members:
     - MagedAbdelaty

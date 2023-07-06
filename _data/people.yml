@@ -190,6 +190,11 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
 
+- id: MarcoZani 
+  name: Marco
+  surname: Zani
+  usernameFBK: mzani
+
 # The following string is a separator used by the parser to trim away generated content
 # Please, please, please, keep this here!
 #--#--#--#--#--#
