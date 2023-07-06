@@ -87,7 +87,7 @@ def generate_yaml(citation):
     yaml_output = []
     yaml_output.append('- id: ' + ppid)
     yaml_output.append('  id_iris: ' + citation['id_iris'])
-    yaml_output.append('  title: "' + __name + '"')
+    yaml_output.append('  title: "' + citation['title'] + '"')
     yaml_output.append('  authors:')
     for author in citation['authors']:
         yaml_output.append('    - ' + author)

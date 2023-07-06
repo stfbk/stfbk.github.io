@@ -87,11 +87,36 @@
         "Fulvio",
         "Risso"
     ],
-    "S.Miano": ["Sebastiano", "Miano"],
-    "F.Pellegrini": ["Francesco", "De Pellegrini"],
-    "F.DePellegrini": ["Francesco", "De Pellegrini"],
-    "R.Doriguzzi": ["Roberto", "Doriguzzi Corin"],
-    "M.Gerola": ["Matteo", "Gerola"],
-    "S.Cretti": ["Silvio", "Cretti"],
-    "DePellegrini": ["Francesco", "De Pellegrini"]
+    "S.Miano": [
+        "Sebastiano",
+        "Miano"
+    ],
+    "F.Pellegrini": [
+        "Francesco",
+        "De Pellegrini"
+    ],
+    "F.DePellegrini": [
+        "Francesco",
+        "De Pellegrini"
+    ],
+    "R.Doriguzzi": [
+        "Roberto",
+        "Doriguzzi Corin"
+    ],
+    "M.Gerola": [
+        "Matteo",
+        "Gerola"
+    ],
+    "S.Cretti": [
+        "Silvio",
+        "Cretti"
+    ],
+    "DePellegrini": [
+        "Francesco",
+        "De Pellegrini"
+    ],
+    "D.Ding": [
+        "Damu",
+        "Ding"
+    ]
 }
