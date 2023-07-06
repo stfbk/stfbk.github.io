@@ -44,6 +44,7 @@
 - id: AlessandroBiasi
   name: Alessandro
   surname: Biasi
+  usernameFBK: abiasi
 
 - id: AlessandroCarioni
   name: Alessandro
@@ -456,8 +457,10 @@
   name: Laura
   surname: Cristiano
   affiliations:
-    - role: Employee
-      institution: "Futuro & Conoscenza"
+    - role: Researcher
+      unit: Center for Cybersecurity
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
   email: l.cristiano@futuroeconoscenza.it
   usernameFBK: l.cristiano
   
@@ -726,6 +729,7 @@
 - id: RiccardoZiglio
   name: Riccardo
   surname: Ziglio
+  usernameFBK: rziglio
 
 - id: RobertaPeracchio
   name: Roberta
@@ -786,6 +790,7 @@
 - id: SaraSorrentino
   name: Sara
   surname: Sorrentino
+  usernameFBK: ssorrentino
 
 - id: SaverioTuretta
   name: Saverio
@@ -892,8 +897,10 @@
   name: Umberto
   surname: Morelli
   affiliations:
-    - role: Employee
-      institution: "Futuro & Conoscenza"
+    - role: Technologist
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
   email: u.morelli@futuroeconoscenza.it
   usernameFBK: umorelli
 
