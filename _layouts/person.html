@@ -68,7 +68,6 @@ layout: default
 
             <div id="toc"></div>
 
-            {% if person.bibliography.size > 0 %}
             <section class="contains-publications">
                 {% assign publicationsByYear = site.data.publications | where_exp: "publication", "publication.authors contains page.person" | where_exp: "publication", "publication.id_iris != nil" | group_by: "year" | sort: "name" | reverse %}
               
@@ -80,7 +79,6 @@ layout: default
                     {% endfor %}
                 {% endif %}
             </section>
-            {% endif %}
 
         </div>
 
