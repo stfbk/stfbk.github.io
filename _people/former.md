@@ -18,5 +18,5 @@ permalink: /people/former
 {% include list-people.html source=site.data.members.former.phdStudents style="list" details=details sort="name" %}
 
 <h1>Former Bachelor's and Master's Students</h1>
-{% assign details = "institution, thesis, year, type, topic" | split: ", " %}
+{% assign details = "institution, thesis, year, type, topic, personalPage" | split: ", " %}
 {% include list-people.html source=site.data.members.former.students style="list" details=details sort="name" %}
