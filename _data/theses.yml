@@ -113,32 +113,3 @@
   institution: University of Trento
   year: 2021
   supervisor: DomenicoSiracusa
-
-- id: KindeGutemaTefera_M 
-  author: KindeGutemaTefera
-  type: M
-  title: Application-Aware Survivability in Multilayer IP-Over-DWDM Optical Transport Networks
-  institution: University of Trento
-  year: 2017
-  supervisor: FabrizioGranelli
-  co-supervisor: DomenicoSiracusa
-
-- id: MehariKinfeSimon_M 
-  author: MehariKinfeSimon
-  type: M
-  title: Energy-Aware Network Virtualization in Heterogeneous Multi-Domain Networks
-  institution: University of Trento
-  year: 2014
-  supervisor: FabrizioGranelli
-  co-supervisor: DomenicoSiracusa
-
-- id: FedericoPederzolli_M 
-  author: FedericoPederzolli
-  type: M
-  title: Cognitive Enhancements for Optical Networks Control Planes
-  institution: University of Trento
-  year: 2013
-  supervisor: RenatoLoCigno
-  co-supervisor: 
-    - DomenicoSiracusa
-    - FabrizioGranelli
