@@ -30,3 +30,129 @@ current:
 former:
   members:
     - MagedAbdelaty
+    - FrancescoDePellegrini
+    - DamuDing
+    - FrancescomariaFaticanti
+    - RaihanaFerdous
+    - AndreaFregonese
+    - MatteoGerola
+    - AntonioMassaro
+    - FedericoPederzolli
+    - DanielePizzolli
+    - KewinRausch
+    - MarcoSavi
+    - KindeGutemaTefera
+    - XiaohuWu
+
+  students:
+    - personId: StefanoDiSanto
+      type: M
+      topic: "Exploring the Feasibility of Honeypots in Information Gathering: A Case Study"
+      institution: University of Trento
+      yearFrom: 2023
+      yearTo: 2023
+      
+    - personId: MatteoCaliandro
+      type: M
+      topic: Energy-Aware Placement of Cloud-Native Workloads in a Robotic Environment
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2022
+
+    - personId: ClaudioFacchinetti
+      type: M
+      topic: A Resource-Aware Decoy Allocation Strategy for Cyber Deception in the Cloud
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2022
+
+    - personId: MartinaLanzi
+      type: M
+      topic: Adversarial DDoS Attack Detection with Multimodal Deep Learning
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2022
+
+    - personId: MatteoFranzil
+      type: M
+      topic: Real-Time Monitoring of the QUIC Protocol
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2022
+
+    - personId: RiccardoMicheletto
+      type: M
+      topic: A Cost-Aware Optimization Algorithm for Time-Constrained Applications in Hybrid Clouds
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2022
+
+    - personId: MagedAbdelaty
+      type: M
+      topic: Robust Anomaly Detection in Critical Infrastructure
+      institution: University of Trento
+      yearFrom: 2022
+      yearTo: 2022
+
+    - personId: ValentinoArmani
+      type: M
+      topic: A Cost-Effective Workload Allocation Strategy for Cloud-Native Edge Services
+      institution: University of Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: DavideTessarolo
+      type: M
+      topic: Dynamic Offloading of Robotic Workloads Under Latency Constraints
+      institution: University of Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: AndreaFregonese
+      type: M
+      topic: Federated Learning of a Deep Neural Network for DDoS Detection Trained with Non-IID Data
+      institution: University of Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: MarianAlexandruDiaconu
+      type: M
+      topic: A Distributed Serverless Caching System for Small Objects Management
+      institution: University of Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: RiccardoCapraro
+      type: M
+      topic: Service-Aware Autoscaling of Cloud-Native Workloads
+      institution: University of Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: StefanoSetti
+      type: M
+      topic: Implementing a Federated Learning Technique for DDoS Detection
+      institution: University of Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: KindeGutemaTefera
+      type: Ingegneria delle telecomunicazioni
+      topic: Application-Aware Survivability in Multilayer IP-Over-DWDM Optical Transport Networks
+      institution: University of Trento
+      yearFrom: 2017
+      yearTo: 2017
+
+    - personId: MehariKinfeSimon
+      type: Ingegneria delle telecomunicazioni
+      topic: Energy-Aware Network Virtualization in Heterogeneous Multi-Domain Networks
+      institution: University of Trento
+      yearFrom: 2014
+      yearTo: 2014
+
+    - personId: FedericoPederzolli
+      type: M
+      topic: Cognitive Enhancements for Optical Networks Control Planes
+      institution: University of Trento
+      yearFrom: 2013
+      yearTo: 2013

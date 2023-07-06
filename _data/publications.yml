@@ -1947,7 +1947,7 @@
   id_iris: 317869,
   title: "Incremental Deployment of Programmable Switches for Network-wide Heavy-hitter Detection"
   authors:
-    - D.Ding
+    - DamuDing
     - MarcoSavi
     - GianniAntichi
     - DomenicoSiracusa
@@ -2058,7 +2058,7 @@
   id_iris: 320250,
   title: "Estimating Logarithmic and Exponential Functions to Track Network Traffic Entropy in P4"
   authors:
-    - D.Ding
+    - DamuDing
     - MarcoSavi
     - DomenicoSiracusa
   destination: ProceedingsIEEE/IFIPNetworkOperationsandManagementSymposiumNOMS
