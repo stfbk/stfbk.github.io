@@ -368,9 +368,9 @@
   name: Stuart
   surname: Millar
 
-- id: JesusMartinezdelRincon
+- id: JesusMartinez-Del-Rincón
   name: Jesus
-  surname: Martinez del Rincon
+  surname: Martinez-Del-Rincón
 
 - id: SajadKhorsandroo
   name:  Sajad
@@ -524,8 +524,8 @@
   name:  S.
   surname: Ben-Ezra
 
-- id: D.M.Marom
-  name:  D. M.
+- id: DanM.Marom
+  name: Dan M.
   surname: Marom
 
 - id: M.Blau
@@ -540,12 +540,12 @@
   name:  N.
   surname: Psaila
 
-- id: C.Sanchez-Costa
-  name:  C.
-  surname: Sanchez-Costa
+- id: ChristianSánchezCosta
+  name: Christian
+  surname: Sánchez Costa
 
-- id: A.D.Ellis
-  name:  A. D.
+- id: AndrewD.Ellis
+  name: Andrew D.
   surname: Ellis
 
 - id: X.Forns
@@ -567,18 +567,6 @@
 - id: BehnamShariati
   name: Behnam
   surname: Shariati
-
-- id: D.Marom
-  name:  D.
-  surname: Marom
-
-- id: C.Sanchez
-  name:  C.
-  surname: Sanchez
-
-- id: A.Ellis
-  name:  A.
-  surname: Ellis
 
 - id: G.Papastergiou
   name:  G.
@@ -632,10 +620,6 @@
   name:  Sandi
   surname: Gec
 
-- id: SeungwooKum
-  name:  Seungwoo
-  surname: Kum
-
 - id: MandarDatar
   name:  Mandar
   surname: Datar
@@ -683,8 +667,4 @@
 - id: MauroCampanella
   name:  Mauro
   surname: Campanella
-
-- id: F.Faticanti
-  name:  F.
-  surname: Faticanti
 
