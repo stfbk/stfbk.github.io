@@ -14,7 +14,7 @@ permalink: /people/
 
 {%- if site.data.members.current.collaborators.size > 0 -%}
   <h1>Collaborators</h1>
-  {% assign details = "picture, role, unit, institution, email, phone, personalPage, website" | split: ", " %}
+  {% assign details = "picture, unit, institution, email, phone, personalPage, website" | split: ", " %}
   {% include list-people.html source=site.data.members.current.collaborators style="card" details=details sort="name" %}
 {%- endif -%}
 
