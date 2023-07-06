@@ -80,6 +80,36 @@ layout: default
                 {% endif %}
             </section>
 
+            <section class="contains-supervised-theses">
+                {% assign handledThesesByYear = "" | split: "," %}
+                {% for thesis in site.data.theses %}
+                    {% if thesis.supervisor == page.person or thesis.co-supervisor contains page.person %}
+                        {% assign handledThesesByYear = handledThesesByYear | push:thesis %}
+                    {% endif %}
+                {% endfor %}
+                {% assign handledThesesByYear = handledThesesByYear | group_by: "year" | sort: "title" %}
+                {% if handledThesesByYear.size > 0 %}
+                    <h1>Supervised Theses</h1>
+                    {% for year in handledThesesByYear %}
+                        <h4>{{ year.name }} <small>({{ year.items.size }})</small></h4>
+                        {% include list-theses.html source=year.items sort="title" %}
+                    {% endfor %}
+                {% endif %}
+            </section>
+            
+            <section class="contains-theses">
+                {% assign thesesByYear = site.data.theses | where_exp: "thesis", "thesis.author == page.person" | group_by: "year" | sort: "title" %}
+
+                {% if thesesByYear.size > 0 %}
+                    <h1>Theses</h1>
+                    {% for year in thesesByYear %}
+                        <h4>{{ year.name }} <small>({{ year.items.size }})</small></h4>
+                        {% include list-theses.html source=year.items sort="title" %}
+                    {% endfor %}
+                {% endif %}
+            </section>
+
+
         </div>
 
         <div class="column is-4-tablet is-3-desktop">
