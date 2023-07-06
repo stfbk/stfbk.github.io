@@ -5,11 +5,13 @@ import unicodedata
 import os
 import json
 
-conferences = {}
+destinations = {}
 global_authors = {}
 with open("known_names.json") as f:
     known_names = json.load(f)
 seen_ppids = []
+
+removed_chars_ids = [".", "+", ":", "&", "-", "?", " ", ";", ",", "'", "`", "(", ")", "{", "}"]
 
 
 def remove_accents(input_str):
@@ -30,25 +32,62 @@ def generate_yaml(citation):
         return
 
     ppid = citation['title'].replace(' ', '').replace(":", "").lower() + str(citation['year'])
+
     if "conference" in citation and "journal" in citation:
         raise RuntimeError("You cannot have both conference and journal")
     elif "conference" in citation:
-        # Slurp conference name and year into an acronym and
-        # add it to the global map
-        cid = citation['conference'].replace(' ', '').strip()
-        if cid not in conferences:
-            conferences[cid] = (citation['conference'], citation['year'], "conference")
+        cid = filter(lambda x: x not in removed_chars_ids, citation['conference'])
+        cid = "".join(cid)
+        cid = remove_accents(cid).replace(' ', '').strip()
+        __name = citation['conference']
+        __type = "conference"
     elif "journal" in citation:
-        cid = citation['journal'].replace(' ', '').strip() + str(citation['year'])
-        if cid not in conferences:
-            conferences[cid] = (citation['journal'], citation['year'], "journal")
+        cid = filter(lambda x: x not in removed_chars_ids, citation['journal'])
+        cid = "".join(cid)
+        cid = remove_accents(cid).replace(' ', '').strip()
+        __name = citation['journal']
+        __type = "journal"
     else:
         raise RuntimeError("You should have either conference or journal")
+
+    __name = __name.strip().replace("  ", " ")
+    if __name.endswith(";"):
+        __name = __name[:-1]
+
+    if __name.startswith("Proceedings"):
+        __name = __name.replace("Proceedings -", "")\
+                    .replace("Proceedings of the", "")\
+                    .replace("Proceedings of", "")\
+                    .replace("Proceedings", "")\
+                    .strip()
+        proc = "Proceedings of " + __name
+    else:
+        proc = None
+
+    # Attempt to identify acronym
+    acr = None
+    # acr = re.search(r'\([A-Z0-9 ]+\)', __name)
+    # if acr is not None:
+    #    acr = acr[0][1:-1]
+
+    if cid not in destinations:
+        destinations[cid] = {
+            "id": cid,
+            "name": __name,
+            "acronym": acr,
+            "type": __type,
+            "url": "",
+        }
+        if __type == "conference":
+            destinations[cid]['proceedings'] = proc
+            destinations[cid]['startDate'] = citation['year']
+            destinations[cid]['endDate'] = citation['year']
+            destinations[cid]['location'] = ""
 
     yaml_output = []
     yaml_output.append('- id: ' + ppid)
     yaml_output.append('  id_iris: ' + citation['id_iris'])
-    yaml_output.append('  title: "' + citation['title'] + '"')
+    yaml_output.append('  title: "' + __name + '"')
     yaml_output.append('  authors:')
     for author in citation['authors']:
         yaml_output.append('    - ' + author)
@@ -145,9 +184,12 @@ def main():
     files = list(sorted(filter(lambda x: x.endswith(".bib"), files)))
     data = ""
 
-    os.remove("tmp/publications_generated.yml")
-    os.remove("tmp/people_generated.yml")
-    os.remove("tmp/destinations_generated.yml")
+    if "tmp/publications_generated.yml" in files:
+        os.remove("tmp/publications_generated.yml")
+    if "tmp/people_generated.yml" in files:
+        os.remove("tmp/people_generated.yml")
+    if "tmp/destinations_generated.yml" in files:
+        os.remove("tmp/destinations_generated.yml")
 
     for filename in files:
         with open("tmp/" + filename) as f:
@@ -172,14 +214,27 @@ def main():
                 "  surname: " + global_authors[k][1] + "\n",
                 file=people)
     # Parse conferences
-    with open('tmp/destinations_generated.yml', 'w') as conferencesf:
-        for k in conferences:
-            name, year, type = conferences[k]
-            print(
-                "- id: " + k + "\n" +
-                "  name: " + name + "\n" +
-                "  type: " + type + "\n",
-                file=conferencesf)
+    with open('tmp/destinations_generated.yml', 'w') as destinationsf:
+        for k in destinations.keys():
+            v = destinations[k]
+            name = v["name"]
+            __type = v["type"]
+            data = "- id: " + k + "\n" + \
+                "  name: " + name + "\n" + \
+                "  type: " + __type + "\n"
+
+            if v["url"] is not None and v["url"] != "":
+                data += "  url: " + v["url"] + "\n"
+
+            if __type == 'conference':
+                if v["acronym"] is not None and v["acronym"] != "":
+                    data += "  acronym: " + v["acronym"] + "\n"
+                if v["proceedings"] is not None and v["proceedings"] != "":
+                    data += "  proceedings: " + v["proceedings"] + "\n"
+                if v["location"] is not None and v["location"] != "":
+                    data += "  location: " + v["location"] + "\n"
+
+            print(data, file=destinationsf)
 
 
 if __name__ == '__main__':
