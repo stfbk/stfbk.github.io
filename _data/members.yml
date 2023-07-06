@@ -1,4 +1,4 @@
-current:
+urrent:
   head:
     - DomenicoSiracusa
 
@@ -123,12 +123,3 @@ former:
 
     - personId: StefanoSetti
       thesisId: StefanoSetti_M
-
-    - personId: KindeGutemaTefera
-      thesisId: KindeGutemaTefera_M
-
-    - personId: MehariKinfeSimon
-      thesisId: MehariKinfeSimon_M
-
-    - personId: FedericoPederzolli
-      thesisId: FedericoPederzolli_M
