@@ -80,24 +80,6 @@ layout: default
                 </section>
             {% endif %}
 
-            <!-- SUPERVISED THESES -->
-            {% assign handledThesesByYear = "" | split: "," %}
-            {% for thesis in site.data.theses %}
-                {% if thesis.supervisor contains page.person or thesis.co-supervisor contains page.person %}
-                    {% assign handledThesesByYear = handledThesesByYear | push: thesis %}
-                {% endif %}
-            {% endfor %}
-            {% assign handledThesesByYear = handledThesesByYear | group_by: "year" | sort: "name" | reverse %}
-            {% if handledThesesByYear.size > 0 %}
-                <section class="contains-supervised-theses">
-                    <h1>Supervised Theses</h1>
-                    {% for year in handledThesesByYear %}
-                        <h4>{{ year.name }}</h4>
-                        {% include list-theses.html source=year.items sort="title" %}
-                    {% endfor %}
-                </section>
-            {% endif %}
-
             <!-- THESES -->
             {% assign theses = site.data.theses | where_exp: "thesis", "thesis.author == page.person" | sort: "year" | reverse %}
             {% if theses.size > 0 %}
@@ -124,6 +106,24 @@ layout: default
                             {% include list-projects.html source=formerProjects sort="title" style="card" %}
                         </div>
                     {% endif %}
+                </section>
+            {% endif %}
+
+            <!-- SUPERVISED THESES -->
+            {% assign handledThesesByYear = "" | split: "," %}
+            {% for thesis in site.data.theses %}
+                {% if thesis.supervisor contains page.person or thesis.co-supervisor contains page.person %}
+                    {% assign handledThesesByYear = handledThesesByYear | push: thesis %}
+                {% endif %}
+            {% endfor %}
+            {% assign handledThesesByYear = handledThesesByYear | group_by: "year" | sort: "name" | reverse %}
+            {% if handledThesesByYear.size > 0 %}
+                <section class="contains-supervised-theses">
+                    <h1>Supervised Theses</h1>
+                    {% for year in handledThesesByYear %}
+                        <h4>{{ year.name }} <small>({{ year.items.size }})</small></h4>
+                        {% include list-theses.html source=year.items sort="title" %}
+                    {% endfor %}
                 </section>
             {% endif %}
         </div>
