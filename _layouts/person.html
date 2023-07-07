@@ -74,7 +74,7 @@ layout: default
                 {% if publicationsByYear.size > 0 %}
                     <h1>Publications</h1>
                     {% for year in publicationsByYear %}
-                        <h4>{{ year.name }} <small>({{ year.items.size }})</small></h4>
+                        <h4>{{ year.name }}</h4>
                         {% include list-publications.html source=year.items sort="title" %}
                     {% endfor %}
                 {% endif %}
@@ -98,14 +98,11 @@ layout: default
             </section>
             
             <section class="contains-theses">
-                {% assign thesesByYear = site.data.theses | where_exp: "thesis", "thesis.author == page.person" | group_by: "year" | sort: "title" %}
 
-                {% if thesesByYear.size > 0 %}
+                {% assign theses = site.data.theses | where_exp: "thesis", "thesis.author == page.person" | sort: "year" | reverse %}
+                {% if theses.size > 0 %}
                     <h1>Theses</h1>
-                    {% for year in thesesByYear %}
-                        <h4>{{ year.name }} <small>({{ year.items.size }})</small></h4>
-                        {% include list-theses.html source=year.items sort="title" %}
-                    {% endfor %}
+                    {% include list-theses.html source=theses %}
                 {% endif %}
             </section>
 
