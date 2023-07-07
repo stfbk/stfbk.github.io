@@ -4,3 +4,4 @@ __old
 *_generated.yml
 *.bak
 .jekyll-metadata
+**/.DS_Store
