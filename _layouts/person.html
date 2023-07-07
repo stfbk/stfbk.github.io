@@ -142,8 +142,41 @@ layout: default
                         <h4>{{ year.name }}</h4>
                         {% include list-theses.html source=year.items sort="title" %}
                     {% endfor %}
-                </section>
-            {% endif %}
+                {% endif %}
+            </section>
+            
+            <section class="contains-theses">
+                {% assign thesesByYear = site.data.theses | where_exp: "thesis", "thesis.author == page.person" | group_by: "year" | sort: "title" | reverse %}
+
+                {% if thesesByYear.size > 0 %}
+                    <h1>Theses</h1>
+                    {% for year in thesesByYear %}
+                        <h4>{{ year.name }} <small>({{ year.items.size }})</small></h4>
+                        {% include list-theses.html source=year.items sort="title" %}
+                    {% endfor %}
+                {% endif %}
+            </section>
+
+
+            <section class="contains-projects">
+                {% assign currentProjects = site.projects | where_exp: "project", "project.people contains page.person" | sort: "name" | where_exp: "project", "project.endDate == nil" %}
+                {% assign formerProjects = site.projects | where_exp: "project", "project.people contains page.person" | sort: "name" | where_exp: "project", "project.endDate != nil" %}
+            
+                {% if currentProjects.size > 0 or formerProjects.size > 0 %}
+                    <h1>Projects</h1>
+                    {% if currentProjects.size > 0 %}
+                        <h4>Current</h4>
+                        <div class="column is-12">
+                            {% include list-projects.html source=currentProjects sort="title" style="card" %}
+                        </div>
+                    {% else %}
+                        <h4>Former</h4>
+                        <div class="column is-12">
+                            {% include list-projects.html source=formerProjects sort="title" style="card" %}
+                        </div>
+                    {% endif %}
+                {% endif %}
+            </section>
         </div>
 
         <div class="column is-4-tablet is-3-desktop">
