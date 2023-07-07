@@ -11,34 +11,8 @@ show_sidebar: false
 
     <div class="column is-12">
         {% assign tools = site.data.tools | sort_natural: "name" %}
+        {% assign details = "description" | split: ", " %}
 
-        <div class="tools">
-            <ul>
-                {% for tool in tools %}
-                    <li class="item tool">
-                        {%- assign linksArray = "" | split: "" -%}
-                        {%- if tool.urlDocumentation %}
-                            {%- assign string = '<a href="' | append: tool.urlDocumentation | append: '">documentation</a>' -%}
-                            {%- assign linksArray = linksArray | push: string -%}
-                        {%- endif -%}
-                        {%- if tool.urlCode %}
-                            {%- assign string = '<a href="' | append: tool.urlCode | append: '">code</a>' -%}
-                            {%- assign linksArray = linksArray | push: string -%}
-                        {%- endif -%}
-                        {%- if linksArray.size > 0 -%}
-                            {%- assign linksString = linksArray | join: ", " | prepend: " [" | append: "]" -%}
-                        {%- else -%}
-                            {%- assign linksString = "" -%}
-                        {%- endif -%}
-                        <b>{{ tool.name }}</b>{{ linksString }}
-                        {% if tool.description %}
-                        <ul class="description">
-                            <li>{{ tool.description }}</li>
-                        </ul>
-                        {% endif %}
-                    </li>
-                {% endfor %}
-            </li>
-        </div>
+        {% include list-tools.html source=tools details=details %}
     </div>
 </div>
