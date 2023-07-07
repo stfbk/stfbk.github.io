@@ -121,7 +121,7 @@ layout: default
                 <section class="contains-supervised-theses">
                     <h1>Supervised Theses</h1>
                     {% for year in handledThesesByYear %}
-                        <h4>{{ year.name }} <small>({{ year.items.size }})</small></h4>
+                        <h4>{{ year.name }}</h4>
                         {% include list-theses.html source=year.items sort="title" %}
                     {% endfor %}
                 </section>
