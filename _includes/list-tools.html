@@ -1,3 +1,5 @@
+{% assign details = include.details %}
+{% assign sort = include.sort %}
 {% assign source = include.source %}
 
 {% if source.size > 0 %}
@@ -5,11 +7,24 @@
     {% assign toolsFromId = "" | split: "" %}
     {% for tool in source %}
         {% assign toolFromId = site.data.tools | where: "id", tool %}
+        {% assign toolFromIdLabel = site.data.tools | where: "id", tool.id %}
         {% if toolFromId.size == 1 %}
             {% assign toolsFromId = toolsFromId | concat: toolFromId %}
+        {% elsif toolFromIdLabel.size == 1 %}
+            {% assign toolsFromId = toolsFromId | concat: toolFromIdLabel %}
         {% endif %}
     {% endfor %}
-    {% assign toolsSorted = toolsFromId | sort: "year" | reverse %}
+
+    {% if sort %}
+        {% if sort == "none" %}
+            {% assign toolsSorted = toolsFromId %}
+        {% else %}
+            {% assign toolsSorted = toolsFromId | sort_natural: sort %}
+        {% endif %}
+    {% else %}
+        {% assign toolsSorted = toolsFromId | sort_natural: "name" %}
+    {% endif %}
+
     {%- for tool in toolsSorted -%}
         {%- assign linksArray = "" | split: "" -%}
         {%- if tool.urlDocumentation %}
@@ -25,8 +40,13 @@
         {%- else -%}
             {%- assign linksString = "" -%}
         {%- endif -%}
-        <li>
+        <li class="item tool">
             <b>{{ tool.name }}</b>{% if tool.urlDocumentation %}{{ linksString }}{% endif %}
+            {% if tool.description and details contains "description" %}
+                <ul class="description">
+                    <li>{{ tool.description }}</li>
+                </ul>
+            {% endif %}
         </li>
     {% endfor %}
 </ul>
