@@ -83,11 +83,11 @@ layout: default
             <section class="contains-supervised-theses">
                 {% assign handledThesesByYear = "" | split: "," %}
                 {% for thesis in site.data.theses %}
-                    {% if thesis.supervisor == page.person or thesis.co-supervisor contains page.person %}
-                        {% assign handledThesesByYear = handledThesesByYear | push:thesis %}
+                    {% if thesis.supervisor contains page.person or thesis.co-supervisor contains page.person %}
+                        {% assign handledThesesByYear = handledThesesByYear | push: thesis %}
                     {% endif %}
                 {% endfor %}
-                {% assign handledThesesByYear = handledThesesByYear | group_by: "year" | sort: "title" %}
+                {% assign handledThesesByYear = handledThesesByYear | group_by: "year" | sort: "name" | reverse %}
                 {% if handledThesesByYear.size > 0 %}
                     <h1>Supervised Theses</h1>
                     {% for year in handledThesesByYear %}
