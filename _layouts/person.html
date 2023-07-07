@@ -80,38 +80,38 @@ layout: default
                 </section>
             {% endif %}
 
-            <section class="contains-supervised-theses">
-                {% assign handledThesesByYear = "" | split: "," %}
-                {% for thesis in site.data.theses %}
-                    {% if thesis.supervisor contains page.person or thesis.co-supervisor contains page.person %}
-                        {% assign handledThesesByYear = handledThesesByYear | push: thesis %}
-                    {% endif %}
-                {% endfor %}
-                {% assign handledThesesByYear = handledThesesByYear | group_by: "year" | sort: "name" | reverse %}
-                {% if handledThesesByYear.size > 0 %}
+            <!-- SUPERVISED THESES -->
+            {% assign handledThesesByYear = "" | split: "," %}
+            {% for thesis in site.data.theses %}
+                {% if thesis.supervisor contains page.person or thesis.co-supervisor contains page.person %}
+                    {% assign handledThesesByYear = handledThesesByYear | push: thesis %}
+                {% endif %}
+            {% endfor %}
+            {% assign handledThesesByYear = handledThesesByYear | group_by: "year" | sort: "name" | reverse %}
+            {% if handledThesesByYear.size > 0 %}
+                <section class="contains-supervised-theses">
                     <h1>Supervised Theses</h1>
                     {% for year in handledThesesByYear %}
                         <h4>{{ year.name }}</h4>
                         {% include list-theses.html source=year.items sort="title" %}
                     {% endfor %}
-                {% endif %}
-            </section>
-            
-            <section class="contains-theses">
+                </section>
+            {% endif %}
 
-                {% assign theses = site.data.theses | where_exp: "thesis", "thesis.author == page.person" | sort: "year" | reverse %}
-                {% if theses.size > 0 %}
+            <!-- THESES -->
+            {% assign theses = site.data.theses | where_exp: "thesis", "thesis.author == page.person" | sort: "year" | reverse %}
+            {% if theses.size > 0 %}
+                <section class="contains-theses">
                     <h1>Theses</h1>
                     {% include list-theses.html source=theses %}
-                {% endif %}
-            </section>
+                </section>
+            {% endif %}
 
-
-            <section class="contains-projects">
-                {% assign currentProjects = site.projects | where_exp: "project", "project.people contains page.person" | sort: "name" | where_exp: "project", "project.endDate == nil" %}
-                {% assign formerProjects = site.projects | where_exp: "project", "project.people contains page.person" | sort: "name" | where_exp: "project", "project.endDate != nil" %}
-            
-                {% if currentProjects.size > 0 or formerProjects.size > 0 %}
+            <!-- PROJECTS -->
+            {% assign currentProjects = site.projects | where_exp: "project", "project.people contains page.person" | sort: "name" | where_exp: "project", "project.endDate == nil" %}
+            {% assign formerProjects = site.projects | where_exp: "project", "project.people contains page.person" | sort: "name" | where_exp: "project", "project.endDate != nil" %}
+            {% if currentProjects.size > 0 or formerProjects.size > 0 %}
+                <section class="contains-projects">
                     <h1>Projects</h1>
                     {% if currentProjects.size > 0 %}
                         <h4>Current</h4>
@@ -124,8 +124,8 @@ layout: default
                             {% include list-projects.html source=formerProjects sort="title" style="card" %}
                         </div>
                     {% endif %}
-                {% endif %}
-            </section>
+                </section>
+            {% endif %}
         </div>
 
         <div class="column is-4-tablet is-3-desktop">
