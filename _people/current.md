@@ -23,3 +23,9 @@ permalink: /people/
   {% assign details = "picture, institution, topic, type, thesis" | split: ", " %}
   {% include list-people.html source=site.data.members.current.students style="card" details=details sort="name" %}
 {%- endif -%}
+
+{%- if site.data.members.current.junior.size > 0 -%}
+  <h1>FBK Junior Students</h1>
+  {% assign details = "institution, topic" | split: ", " %}
+  {% include list-people.html source=site.data.members.current.junior style="card" details=details sort="name" %}
+{%- endif -%}
