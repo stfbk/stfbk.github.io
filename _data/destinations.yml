@@ -2,14 +2,121 @@
 # The following string is a separator used by the parser to trim away generated content
 # Please, please, please, keep this here!
 #--#--#--#--#--#
-- id: ProceedingsofAdvancedPhotonics2018OsaTechnicalDigest
-  name: Advanced Photonics 2018 - OSA Technical Digest
+- id: Proceedingsofthe10thIntConferenceonInformationProcessinginSensorNetworks
+  name: 10th Int. Conference on Information Processing in Sensor Networks
   type: conference
-  proceedings: Proceedings of Advanced Photonics 2018 - OSA Technical Digest
+  proceedings: Proceedings of 10th Int. Conference on Information Processing in Sensor Networks
+
+- id: INTERNATIONALJOURNALOFCOMMUNICATIONNETWORKSANDDISTRIBUTEDSYSTEMS
+  name: International Journal of Communication Networks and Distributed Systems
+  type: journal
+
+- id: ProceedingsACMSIGCOMM2011conference
+  name: ACM Sigcomm 2011 Conference
+  type: conference
+  proceedings: Proceedings of ACM Sigcomm 2011 Conference
+
+- id: ProceedingsIEEEGlobalTelecommunicationsConferenceGLOBECOM20112011
+  name: IEEE Global Telecommunications Conference (GLOBECOM 2011), 2011
+  type: conference
+  proceedings: Proceedings of IEEE Global Telecommunications Conference (GLOBECOM 2011), 2011
+
+- id: Proceedingsofthe6thInternationalConferenceonTestbedsandResearchInfrastructuresfortheDevelopmentofNetworksandCommunitiesTRIDENTCOM2010
+  name: 6th International Conference on Testbeds and Research Infrastructures for the Development of Networks and Communities, Tridentcom 2010
+  type: conference
+  proceedings: Proceedings of 6th International Conference on Testbeds and Research Infrastructures for the Development of Networks and Communities, Tridentcom 2010
+
+- id: ProceedingsEighthInternationalConferenceonWirelessOnDemandNetworkSystemsandServicesWONS2011
+  name: Eighth International Conference on Wireless On-demand Network Systems and Services (WONS), 2011
+  type: conference
+  proceedings: Proceedings of Eighth International Conference on Wireless On-demand Network Systems and Services (WONS), 2011
+
+- id: Proceedingsofthe6thInternationalConferenceonTestbedsandResearchInfrastructuresfortheDevelopmentofNetworksandCommunities
+  name: 6th International Conference on Testbeds and Research Infrastructures for the Development of Networks and Communities
+  type: conference
+  proceedings: Proceedings of 6th International Conference on Testbeds and Research Infrastructures for the Development of Networks and Communities
+
+- id: ProceedingsEuropeanWorkshoponSoftwareDefinedNetworkingEWSDN2012
+  name: European Workshop on Software Defined Networking (EWSDN), 2012
+  type: conference
+  proceedings: Proceedings of European Workshop on Software Defined Networking (EWSDN), 2012
+
+- id: ProceedingsIEEEConferenceonComputerCommunicationsWorkshopsINFOCOMWKSHPS
+  name: IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)
+  type: conference
+  proceedings: Proceedings of IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)
+
+- id: proceedingsIFIP/IEEEInternationalSymposiumonIntegratedNetworkManagementIM20132013
+  name: Ifip/ieee International Symposium on Integrated Network Management (IM 2013), 2013
+  type: conference
+  proceedings: Proceedings of Ifip/ieee International Symposium on Integrated Network Management (IM 2013), 2013
+
+- id: ProceedingsThirdEuropeanWorkshoponSoftwareDefinedNetworksEWSDN2014
+  name: Third European Workshop on Software Defined Networks (EWSDN), 2014
+  type: conference
+  proceedings: Proceedings of Third European Workshop on Software Defined Networks (EWSDN), 2014
+
+- id: SecurityforMultihopWirelessNetworks
+  name: Security for Multihop Wireless Networks
+  type: conference
+
+- id: ProceedingsofSIGCOMMDCC
+  name: Sigcomm Dcc
+  type: conference
+  proceedings: Proceedings of Sigcomm Dcc
+
+- id: Proceedings20143rdEuropeanWorkshoponSoftwareDefinedNetworksEWSDN2014
+  name: 2014 3rd European Workshop on Software-defined Networks, Ewsdn 2014
+  type: conference
+  proceedings: Proceedings of 2014 3rd European Workshop on Software-defined Networks, Ewsdn 2014
+
+- id: TERENANetworkingConference
+  name: Terena Networking Conference
+  type: conference
+
+- id: Proceedings1stIEEEConferenceonNetworkSoftwarizationNetSoft2015
+  name: 1st IEEE Conference on Network Softwarization (NetSoft), 2015
+  type: conference
+  proceedings: Proceedings of 1st IEEE Conference on Network Softwarization (NetSoft), 2015
+
+- id: ProceedingsACMSigcommSymposiumonSDNResearchSOSR
+  name: ACM Sigcomm Symposium on Sdn Research (SOSR)
+  type: conference
+  proceedings: Proceedings of ACM Sigcomm Symposium on Sdn Research (SOSR)
+
+- id: ProceedingsIEEENetSoftConferenceandWorkshopsNetSoft2016
+  name: IEEE Netsoft Conference and Workshops (NetSoft), 2016
+  type: conference
+  proceedings: Proceedings of IEEE Netsoft Conference and Workshops (NetSoft), 2016
+
+- id: ProceedingsIEEE/IFIPNetworkOperationsandManagementSymposiumNOMS2016
+  name: IEEE/IFIP Network Operations and Management Symposium (NOMS), 2016
+  type: conference
+  proceedings: Proceedings of IEEE/IFIP Network Operations and Management Symposium (NOMS), 2016
+
+- id: ProceedingsIFIP/IEEESymposiumonIntegratedNetworkandServiceManagementIM2017
+  name: Ifip/ieee Symposium on Integrated Network and Service Management (IM), 2017
+  type: conference
+  proceedings: Proceedings of Ifip/ieee Symposium on Integrated Network and Service Management (IM), 2017
+
+- id: Proceedings12thInternationalConferenceonNetworkandServiceManagementCNSM2016
+  name: 12th International Conference on Network and Service Management (CNSM), 2016
+  type: conference
+  proceedings: Proceedings of 12th International Conference on Network and Service Management (CNSM), 2016
+
+- id: ProceedingsofIEEEInternationalWorkshoponSecurityinNFVSDNSN2017
+  name: IEEE International Workshop on Security in Nfv-sdn (SN-2017)
+  type: conference
+  proceedings: Proceedings of IEEE International Workshop on Security in Nfv-sdn (SN-2017)
 
 - id: ACMCOMPUTINGSURVEYS
   name: ACM Computing Surveys
   type: journal
+
+- id: ProceedingsofAdvancedPhotonics2018OsaTechnicalDigest
+  name: Advanced Photonics 2018 - OSA Technical Digest
+  type: conference
+  proceedings: Proceedings of Advanced Photonics 2018 - OSA Technical Digest
 
 - id: IEEEACCESS
   name: IEEE Access
@@ -29,12 +136,12 @@
   type: conference
   proceedings: Proceedings of 2021 IEEE Conference on Communications and Network Security (CNS)
 
-- id: COMPUTERNETWORKS
-  name: Computer Networks
-  type: journal
-
 - id: APPLIEDSCIENCES
   name: Applied Sciences
+  type: journal
+
+- id: COMPUTERNETWORKS
+  name: Computer Networks
   type: journal
 
 - id: IEEETRANSACTIONSONEMERGINGTOPICSINCOMPUTING
@@ -50,6 +157,16 @@
   name: 2022 IEEE 8th International Conference on Network Softwarization (NetSoft)
   type: conference
 
+- id: ProceedingsIEEEInternationalConferenceonCloudComputingTechnologyandScienceCloudCom2016
+  name: IEEE International Conference on Cloud Computing Technology and Science (CloudCom), 2016
+  type: conference
+  proceedings: Proceedings of IEEE International Conference on Cloud Computing Technology and Science (CloudCom), 2016
+
+- id: ProceedingsCloudCom2017IEEE9thInternationalconferenceoncloudcomputingtechnologyandscience
+  name: Cloudcom 2017, IEEE 9th International Conference on Cloud Computing Technology and Science
+  type: conference
+  proceedings: Proceedings of Cloudcom 2017, IEEE 9th International Conference on Cloud Computing Technology and Science
+
 - id: ProceedingsofIEEEEDGECOM2019
   name: IEEE EDGECOM 2019
   type: conference
@@ -60,20 +177,252 @@
   type: conference
   proceedings: Proceedings of Conference on Innovation in Clouds, Internet and Networks
 
-- id: Proceedingsof202124thConferenceonInnovationinCloudsInternetandNetworksandWorkshopsICIN
-  name: 2021 24th Conference on Innovation in Clouds, Internet and Networks and Workshops (ICIN)
-  type: conference
-  proceedings: Proceedings of 2021 24th Conference on Innovation in Clouds, Internet and Networks and Workshops (ICIN)
-
 - id: Proceedingsofthe6thIEEE/IFIPInternationalWorkshoponAnalyticsforNetworkandServiceManagementAnNet2021
   name: 6th IEEE/IFIP International Workshop on Analytics for Network and Service Management (AnNet 2021)
   type: conference
   proceedings: Proceedings of 6th IEEE/IFIP International Workshop on Analytics for Network and Service Management (AnNet 2021)
 
-- id: ProceedingsOpticalFiberCommunicationConference2018
-  name: Optical Fiber Communication Conference, 2018
+- id: Proceedingsof202124thConferenceonInnovationinCloudsInternetandNetworksandWorkshopsICIN
+  name: 2021 24th Conference on Innovation in Clouds, Internet and Networks and Workshops (ICIN)
   type: conference
-  proceedings: Proceedings of Optical Fiber Communication Conference, 2018
+  proceedings: Proceedings of 2021 24th Conference on Innovation in Clouds, Internet and Networks and Workshops (ICIN)
+
+- id: Proceedingsof2012IEEEInternationalConferenceonCommunicationsICC2012
+  name: 2012 IEEE International Conference on Communications, Icc 2012
+  type: conference
+  proceedings: Proceedings of 2012 IEEE International Conference on Communications, Icc 2012
+
+- id: Proceedingsof20124thInternationalCongressonUltraModernTelecommunicationsandControlSystemsICUMT2012
+  name: 2012 4th International Congress on Ultra Modern Telecommunications and Control Systems, Icumt 2012
+  type: conference
+  proceedings: Proceedings of 2012 4th International Congress on Ultra Modern Telecommunications and Control Systems, Icumt 2012
+
+- id: FIA2012TheFutureInternet
+  name: Fia 2012 the Future Internet
+  type: conference
+
+- id: Proceedings14thInternationalConferenceonTransparentOpticalNetworksICTON2012
+  name: 14th International Conference on Transparent Optical Networks (ICTON), 2012
+  type: conference
+  proceedings: Proceedings of 14th International Conference on Transparent Optical Networks (ICTON), 2012
+
+- id: JOURNALOFOPTICALCOMMUNICATIONSANDNETWORKING
+  name: Journal of Optical Communications and Networking
+  type: journal
+
+- id: Proceedingsofthe39thEuropeanConferenceandExhibitiononOpticalCommunicationECOC2013
+  name: 39th European Conference and Exhibition on Optical Communication, Ecoc 2013
+  type: conference
+  proceedings: Proceedings of 39th European Conference and Exhibition on Optical Communication, Ecoc 2013
+
+- id: Proceedingsofthe2013IEEESDNforFutureNetworksandServicesSDN4FNS
+  name: 2013 IEEE Sdn for Future Networks and Services (SDN4FNS)
+  type: conference
+  proceedings: Proceedings of 2013 IEEE Sdn for Future Networks and Services (SDN4FNS)
+
+- id: OPTICALSWITCHINGANDNETWORKING
+  name: Optical Switching and Networking
+  type: journal
+
+- id: ProceedingsofOpticalFiberCommunicationConferenceOFC2013
+  name: Optical Fiber Communication Conference, Ofc 2013
+  type: conference
+  proceedings: Proceedings of Optical Fiber Communication Conference, Ofc 2013
+
+- id: Proceedingsof201318thEuropeanConferenceonNetworkandOpticalCommunicationsNOC2013
+  name: 2013 18th European Conference on Network and Optical Communications, Noc 2013
+  type: conference
+  proceedings: Proceedings of 2013 18th European Conference on Network and Optical Communications, Noc 2013
+
+- id: Fotonica2013
+  name: Fotonica 2013
+  type: conference
+
+- id: Proceedingsof201315thInternationalConferenceonTransparentOpticalNetworksICTON
+  name: 2013 15th International Conference on Transparent Optical Networks (ICTON)
+  type: conference
+  proceedings: Proceedings of 2013 15th International Conference on Transparent Optical Networks (ICTON)
+
+- id: JOURNALOFLIGHTWAVETECHNOLOGY
+  name: Journal of Lightwave Technology
+  type: journal
+
+- id: JOURNALOFNETWORKANDSYSTEMSMANAGEMENT
+  name: Journal of Network and Systems Management
+  type: journal
+
+- id: PHOTONICS
+  name: Photonics
+  type: journal
+
+- id: OpticalFiberCommunicationsConferenceandExhibitionOFC2014
+  name: Optical Fiber Communications Conference and Exhibition (OFC), 2014
+  type: conference
+
+- id: Proceedingsofthe201413thInternationalConferenceonOpticalCommunicationsandNetworksICOCN2014
+  name: 2014 13th International Conference on Optical Communications and Networks, Icocn 2014
+  type: conference
+  proceedings: Proceedings of 2014 13th International Conference on Optical Communications and Networks, Icocn 2014
+
+- id: ProceedingsofIEEE/IFIPNetworkOperationsandManagementSymposiumManagementinaSoftwareDefinedWorldNOMS2014
+  name: Ofieee/ifip Network Operations and Management Symposium Management in a Software Defined World, Noms 2014
+  type: conference
+  proceedings: Proceedings of Ofieee/ifip Network Operations and Management Symposium Management in a Software Defined World, Noms 2014
+
+- id: Proceedingsof20141stInternationalConferenceon5GforUbiquitousConnectivity5GU2014
+  name: 2014 1st International Conference on 5g for Ubiquitous Connectivity, 5gu 2014
+  type: conference
+  proceedings: Proceedings of 2014 1st International Conference on 5g for Ubiquitous Connectivity, 5gu 2014
+
+- id: Proceedingsofthe10thInternationalConferenceonHeterogeneousNetworkingforQualityReliabilitySecurityandRobustnessQSHINE2014
+  name: 10th International Conference on Heterogeneous Networking for Quality, Reliability, Security and Robustness, Qshine 2014
+  type: conference
+  proceedings: Proceedings of 10th International Conference on Heterogeneous Networking for Quality, Reliability, Security and Robustness, Qshine 2014
+
+- id: ProcSPIE9009NextGenerationOpticalCommunicationComponentsSubSystemsandSystemsIII
+  name: Proc. Spie 9009, Next-generation Optical Communication Components, Sub-systems, and Systems Iii
+  type: conference
+
+- id: Proceedingsofthe2014OpticalFiberCommunicationsConferenceandExhibitionOFC2014
+  name: 2014 Optical Fiber Communications Conference and Exhibition, Ofc 2014
+  type: conference
+  proceedings: Proceedings of 2014 Optical Fiber Communications Conference and Exhibition, Ofc 2014
+
+- id: Proceedingsofthe16thInternationalConferenceonTransparentOpticalNetworksICTON2014
+  name: 16th International Conference on Transparent Optical Networks, Icton 2014
+  type: conference
+  proceedings: Proceedings of 16th International Conference on Transparent Optical Networks, Icton 2014
+
+- id: ProceedingsOpticalFiberCommunicationsConferenceandExhibitionOFC2014
+  name: Optical Fiber Communications Conference and Exhibition (OFC), 2014
+  type: conference
+  proceedings: Proceedings of Optical Fiber Communications Conference and Exhibition (OFC), 2014
+
+- id: IEEECOMMUNICATIONSMAGAZINE
+  name: IEEE Communications Magazine
+  type: journal
+
+- id: ProceedingsInternationalConferenceonOpticalNetworkDesignandModelingONDM2015
+  name: International Conference on Optical Network Design and Modeling (ONDM), 2015
+  type: conference
+  proceedings: Proceedings of International Conference on Optical Network Design and Modeling (ONDM), 2015
+
+- id: ProceedingsEuropeanConferenceonOpticalCommunicationECOC2015
+  name: European Conference on Optical Communication (ECOC), 2015
+  type: conference
+  proceedings: Proceedings of European Conference on Optical Communication (ECOC), 2015
+
+- id: ProceedingsEuropeanConferenceonNetworksandCommunicationsEuCNC2015
+  name: European Conference on Networks and Communications (EuCNC), 2015
+  type: conference
+  proceedings: Proceedings of European Conference on Networks and Communications (EuCNC), 2015
+
+- id: ProceedingsofOSAPhotonicNetworksandDevices2015
+  name: OSA Photonic Networks and Devices 2015
+  type: conference
+  proceedings: Proceedings of OSA Photonic Networks and Devices 2015
+
+- id: proceedings2015InternationalConferenceonPhotonicsinSwitchingPS
+  name: 2015 International Conference on Photonics in Switching (PS)
+  type: conference
+  proceedings: Proceedings of 2015 International Conference on Photonics in Switching (PS)
+
+- id: Proceedingsof12thAnnualIEEEConsumerCommunicationsandNetworkingConferenceCCNC
+  name: 12th Annual IEEE Consumer Communications and Networking Conference (CCNC)
+  type: conference
+  proceedings: Proceedings of 12th Annual IEEE Consumer Communications and Networking Conference (CCNC)
+
+- id: PHOTONICNETWORKCOMMUNICATIONS
+  name: Photonic Network Communications
+  type: journal
+
+- id: ProceedingsIEEEInternationalConferenceonCommunicationsICC2016
+  name: IEEE International Conference on Communications (ICC), 2016
+  type: conference
+  proceedings: Proceedings of IEEE International Conference on Communications (ICC), 2016
+
+- id: ProceedingsECOC201642ndEuropeanConferenceonOpticalCommunication
+  name: Ecoc 2016; 42nd European Conference on Optical Communication
+  type: conference
+  proceedings: Proceedings of Ecoc 2016; 42nd European Conference on Optical Communication
+
+- id: Proceedings18thInternationalConferenceonTransparentOpticalNetworksICTON2016
+  name: 18th International Conference on Transparent Optical Networks (ICTON), 2016
+  type: conference
+  proceedings: Proceedings of 18th International Conference on Transparent Optical Networks (ICTON), 2016
+
+- id: ECOC2016Proceedingsof42ndEuropeanConferenceonOpticalCommunication
+  name: Ecoc 2016 Proceedings of 42nd European Conference on Optical Communication
+  type: conference
+
+- id: ProceedingsEuropeanConferenceonNetworksandCommunicationsEuCNC2016
+  name: European Conference on Networks and Communications (EuCNC), 2016
+  type: conference
+  proceedings: Proceedings of European Conference on Networks and Communications (EuCNC), 2016
+
+- id: ProceedingsofAsiaCommunicationsandPhotonicsConference2016
+  name: Asia Communications and Photonics Conference 2016
+  type: conference
+  proceedings: Proceedings of Asia Communications and Photonics Conference 2016
+
+- id: Proceedings42ndEuropeanConferenceonOpticalCommunicationECOC2016
+  name: 42nd European Conference on Optical Communication Ecoc 2016
+  type: conference
+  proceedings: Proceedings of 42nd European Conference on Optical Communication Ecoc 2016
+
+- id: ProceedingsofECOC201642ndEuropeanConferenceonOpticalCommunication
+  name: Ecoc 2016, 42nd European Conference on Optical Communication
+  type: conference
+  proceedings: Proceedings of Ecoc 2016, 42nd European Conference on Optical Communication
+
+- id: ProceedingsInternationalConferenceonOpticalNetworkDesignandModelingONDM2016
+  name: International Conference on Optical Network Design and Modeling (ONDM), 2016
+  type: conference
+  proceedings: Proceedings of International Conference on Optical Network Design and Modeling (ONDM), 2016
+
+- id: ProceedingsOpticalFiberCommunicationsConferenceandExhibitionOFC2017
+  name: Optical Fiber Communications Conference and Exhibition (OFC), 2017
+  type: conference
+  proceedings: Proceedings of Optical Fiber Communications Conference and Exhibition (OFC), 2017
+
+- id: Proceedingsof2017OpticalFiberCommunicationConferenceOFC2017
+  name: 2017 Optical Fiber Communication Conference (OFC 2017)
+  type: conference
+  proceedings: Proceedings of 2017 Optical Fiber Communication Conference (OFC 2017)
+
+- id: proceedingsIEEEInternationalConferenceonCommunicationsWorkshopsICCWorkshops2017
+  name: IEEE International Conference on Communications Workshops (ICC Workshops), 2017
+  type: conference
+  proceedings: Proceedings of IEEE International Conference on Communications Workshops (ICC Workshops), 2017
+
+- id: ProceedingsEuropeanConferenceonNetworksandCommunicationsEuCNC2017
+  name: European Conference on Networks and Communications (EuCNC), 2017
+  type: conference
+  proceedings: Proceedings of European Conference on Networks and Communications (EuCNC), 2017
+
+- id: Proceedingsof13thInternationalConferenceonDesignofReliableCommunicationNetworksDRCN2017
+  name: 13th International Conference on Design of Reliable Communication Networks, Drcn 2017
+  type: conference
+  proceedings: Proceedings of 13th International Conference on Design of Reliable Communication Networks, Drcn 2017
+
+- id: Proceedings19thInternationalConferenceonTransparentOpticalNetworksICTON2017ECCS
+  name: 19th International Conference on Transparent Optical Networks (ICTON), 2017 ECCS
+  type: conference
+  proceedings: Proceedings of 19th International Conference on Transparent Optical Networks (ICTON), 2017 ECCS
+
+- id: Proceedings2017EuropeanConferenceonOpticalCommunicationECOC2017
+  name: 2017 European Conference on Optical Communication (ECOC 2017)
+  type: conference
+  proceedings: Proceedings of 2017 European Conference on Optical Communication (ECOC 2017)
+
+- id: ProceedingsIEEEConferenceonNetworkSoftwarizationNetSoft2017
+  name: IEEE Conference on Network  Softwarization (NetSoft), 2017
+  type: conference
+  proceedings: Proceedings of IEEE Conference on Network  Softwarization (NetSoft), 2017
+
+- id: IEEESYSTEMSJOURNAL
+  name: IEEE Systems Journal
+  type: journal
 
 - id: ProceedingsTheOpticalNetworkingandCommunicationConferenceOFC2018
   name: The Optical Networking and Communication Conference (OFC 2018)
@@ -85,88 +434,81 @@
   type: conference
   proceedings: Proceedings of Optical Networking and Communication Conference 2018 (OFC)
 
-- id: Proceedingsofthe44thEuropeanConferenceonOpticalCommunicationECOC2018
-  name: 44th European Conference on Optical Communication (ECOC 2018)
+- id: ProceedingsOpticalFiberCommunicationConference2018
+  name: Optical Fiber Communication Conference, 2018
   type: conference
-  proceedings: Proceedings of 44th European Conference on Optical Communication (ECOC 2018)
+  proceedings: Proceedings of Optical Fiber Communication Conference, 2018
 
 - id: ProceedingsAdvancedPhotonics2018BGPPIPRNPNOMASensorsNetworksSPPComSOFOSATechnicalDigestonlineOpticalSocietyofAmerica2018
   name: Advanced Photonics 2018 (BGPP, IPR, NP, NOMA, Sensors, Networks, SPPCom, SOF) OSA Technical Digest (online) (Optical Society of America, 2018)
   type: conference
   proceedings: Proceedings of Advanced Photonics 2018 (BGPP, IPR, NP, NOMA, Sensors, Networks, SPPCom, SOF) OSA Technical Digest (online) (Optical Society of America, 2018)
 
-- id: JOURNALOFLIGHTWAVETECHNOLOGY
-  name: Journal of Lightwave Technology
-  type: journal
-
-- id: OPTICALSWITCHINGANDNETWORKING
-  name: Optical Switching and Networking
-  type: journal
-
 - id: ProceedingsAdvancedPhotonics2018
   name: Advanced Photonics 2018
   type: conference
   proceedings: Proceedings of Advanced Photonics 2018
 
-- id: JOURNALOFOPTICALCOMMUNICATIONSANDNETWORKING
-  name: Journal of Optical Communications and Networking
-  type: journal
-
-- id: ProceedingsIEEEConferenceonNetworkSoftwarizationNetSoft2019
-  name: IEEE Conference on Network Softwarization (NetSoft 2019)
+- id: Proceedingsofthe44thEuropeanConferenceonOpticalCommunicationECOC2018
+  name: 44th European Conference on Optical Communication (ECOC 2018)
   type: conference
-  proceedings: Proceedings of IEEE Conference on Network Softwarization (NetSoft 2019)
+  proceedings: Proceedings of 44th European Conference on Optical Communication (ECOC 2018)
 
 - id: ProceedingsOpticalFiberCommunicationConferenceOFC2019OSAPublishing
   name: Optical Fiber Communication Conference (OFC) 2019, OSAPUBLISHING
   type: conference
   proceedings: Proceedings of Optical Fiber Communication Conference (OFC) 2019, OSAPUBLISHING
 
-- id: JOURNALOFGRIDCOMPUTING
-  name: Journal of Grid Computing
-  type: journal
+- id: ProceedingsIEEEConferenceonNetworkSoftwarizationNetSoft2019
+  name: IEEE Conference on Network Softwarization (NetSoft 2019)
+  type: conference
+  proceedings: Proceedings of IEEE Conference on Network Softwarization (NetSoft 2019)
+
+- id: EconomicsofGridsCloudsSystemsandServices17thInternationalConferenceGECON2020
+  name: Economics of Grids, Clouds, Systems, and Services 17th International Conference, GECON 2020
+  type: conference
 
 - id: ProceedingsofIEEE2020InternationalConferenceonOmnilayerIntelligentSystemsCOINS
   name: IEEE 2020 International Conference on Omni-layer Intelligent Systems (COINS)
   type: conference
   proceedings: Proceedings of IEEE 2020 International Conference on Omni-layer Intelligent Systems (COINS)
 
-- id: Proceedingsofthe18thInternationalSymposiumonModelingandOptimizationinMobileAdHocandWirelessNetworksWiOpt2020
-  name: 18th International Symposium on Modeling and Optimization in Mobile, Ad Hoc and Wireless Networks (WiOpt 2020)
-  type: conference
-  proceedings: Proceedings of 18th International Symposium on Modeling and Optimization in Mobile, Ad Hoc and Wireless Networks (WiOpt 2020)
-
-- id: QUANTUMREPORTS
-  name: Quantum Reports
+- id: JOURNALOFGRIDCOMPUTING
+  name: Journal of Grid Computing
   type: journal
-
-- id: ProceedingsIEEE/IFIPNetworkOperationsandManagementSymposiumNOMS
-  name: IEEE/IFIP Network Operations and Management Symposium (NOMS)
-  type: conference
-  proceedings: Proceedings of IEEE/IFIP Network Operations and Management Symposium (NOMS)
 
 - id: EconomicsofGridsCloudsSystemsandServices
   name: Economics of Grids, Clouds, Systems, and Services
   type: conference
+
+- id: QUANTUMREPORTS
+  name: Quantum Reports
+  type: journal
 
 - id: Proceedingsof2020IEEE10thInternationalConferenceonConsumerElectronicsICCEBerlin
   name: 2020 IEEE 10th International Conference on Consumer Electronics (ICCE-Berlin)
   type: conference
   proceedings: Proceedings of 2020 IEEE 10th International Conference on Consumer Electronics (ICCE-Berlin)
 
-- id: EconomicsofGridsCloudsSystemsandServices17thInternationalConferenceGECON2020
-  name: Economics of Grids, Clouds, Systems, and Services 17th International Conference, GECON 2020
+- id: Proceedingsofthe18thInternationalSymposiumonModelingandOptimizationinMobileAdHocandWirelessNetworksWiOpt2020
+  name: 18th International Symposium on Modeling and Optimization in Mobile, Ad Hoc and Wireless Networks (WiOpt 2020)
   type: conference
+  proceedings: Proceedings of 18th International Symposium on Modeling and Optimization in Mobile, Ad Hoc and Wireless Networks (WiOpt 2020)
 
-- id: Proceedingsof2021IEEEInternationalConferenceonCloudEngineeringIC2E
-  name: 2021 IEEE International Conference on Cloud Engineering (IC2E)
+- id: ProceedingsIEEE/IFIPNetworkOperationsandManagementSymposiumNOMS
+  name: IEEE/IFIP Network Operations and Management Symposium (NOMS)
   type: conference
-  proceedings: Proceedings of 2021 IEEE International Conference on Cloud Engineering (IC2E)
+  proceedings: Proceedings of IEEE/IFIP Network Operations and Management Symposium (NOMS)
 
 - id: ProceedingsIFIPNetworkingconference2021
   name: IFIP Networking Conference 2021
   type: conference
   proceedings: Proceedings of IFIP Networking Conference 2021
+
+- id: Proceedingsof2021IEEEInternationalConferenceonCloudEngineeringIC2E
+  name: 2021 IEEE International Conference on Cloud Engineering (IC2E)
+  type: conference
+  proceedings: Proceedings of 2021 IEEE International Conference on Cloud Engineering (IC2E)
 
 - id: IEEETRANSACTIONSONDEPENDABLEANDSECURECOMPUTING
   name: IEEE Transactions on Dependable and Secure Computing
@@ -175,4 +517,13 @@
 - id: COMPUTERCOMMUNICATIONS
   name: Computer Communications
   type: journal
+
+- id: FutureInternetSymposium2011
+  name: Future Internet Symposium 2011
+  type: conference
+
+- id: Proceedingsof10thEAIInternationalConferenceonTestbedsandResearchInfrastructuresfortheDevelopmentofNetworksCommunities
+  name: 10th Eai International Conference on Testbeds and Research Infrastructures for the Development of Networks & Communities
+  type: conference
+  proceedings: Proceedings of 10th Eai International Conference on Testbeds and Research Infrastructures for the Development of Networks & Communities
 

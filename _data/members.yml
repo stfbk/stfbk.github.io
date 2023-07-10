@@ -33,6 +33,22 @@ former:
       thesisId: MagedAbdelaty_P
 
     - personId: FrancescomariaFaticanti
+      thesisId: FrancescomariaFaticanti_P
+
+    - personId: FedericoPederzolli
+      thesisId: FedericoPederzolli_P 
+    
+    - personId: AntonioMarsico
+      thesisId: AntonioMarsico_P
+    
+    - personId: AntonioMassaro
+      thesisId: AntonioMassaro_P
+    
+    - personId: DamuDing
+      thesisId: DamuDing_P
+    
+    - personId: RobertoDoriguzziCorin
+      thesisId: RobertoDoriguzziCorin_P
 
   members:
     - personId: FrancescoDePellegrini
