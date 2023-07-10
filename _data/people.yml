@@ -54,6 +54,10 @@
   name: Alessandro
   surname: Colombo
 
+- id: AlessandroMerlo
+  name: Alessandro
+  surname: Merlo
+
 - id: AlessandroPegoraro
   name: Alessandro
   surname: Pegoraro
@@ -102,6 +106,10 @@
       institution: "Futuro & Conoscenza"
   email: a.bisegna@futuroeconoscenza.it
   usernameFBK: a.bisegna
+
+- id: AndreaBrandolini
+  name: Andrea
+  surname: Brandolini
 
 - id: AndreaFlamini
   name: Andrea
@@ -237,6 +245,10 @@
   name: Danny Roswin
   surname: Ollik
 
+- id: DavideModena
+  name: Davide
+  surname: Modena
+
 - id: DavidePiva
   name: Davide
   surname: Piva
@@ -311,6 +323,10 @@
   name: Fatih
   surname: Turkmen
 
+- id: FedericaMascia
+  name: Federica
+  surname: Mascia
+
 - id: FedericoCucino
   name: Federico
   surname: Cucino
@@ -318,6 +334,10 @@
 - id: FedericoSinigaglia
   name: Federico
   surname: Sinigaglia
+
+- id: FilippoBenedetti
+  name: Filippo
+  surname: Benedetti
 
 - id: FrancescoAlberti
   name: Francesco
@@ -377,6 +397,10 @@
 - id: GiovanniMagoga
   name: Giovanni
   surname: Magoga
+
+- id: GiovanniMarchi
+  name: Giovanni
+  surname: Marchi
 
 - id: GiovanniMariaAbbiati
   name: Giovanni Maria
@@ -467,6 +491,10 @@
 - id: LeonardoDeMoura
   name: Leonardo
   surname: de Moura
+
+- id: LeonardoVicentini
+  name: Leonardo
+  surname: Vicentini
 
 - id: LeonardoXompero
   name: Leonardo
@@ -581,6 +609,10 @@
   email: massimo.merro@univr.it
   image: https://www.di.univr.it/documenti//Persona/foto/foto450272.jpg
 
+- id: MatildeSalaorni
+  name: Matilde
+  surname: Salaorni
+
 - id: MatteoBitussi
   name: Matteo
   surname: Bitussi
@@ -603,6 +635,10 @@
   name: Matteo
   surname: Longato
 
+- id: MatteoPaoloFurlan
+  name: Matteo Paolo
+  surname: Furlan
+
 - id: MatteoRanzi
   name: Matteo
   surname: Ranzi
@@ -617,6 +653,14 @@
       place: Trento, Italy
   email: mrizzi@fbk.eu
   phone: "+390461312356"
+
+- id: MattiaAndreolli
+  name: Mattia
+  surname: Andreolli
+
+- id: MattiaConci
+  name: Mattia
+  surname: Conci
   
 - id: MauroConti
   name: Mauro
@@ -688,6 +732,10 @@
   name: Nicolas
   surname: Dolgin
 
+- id: NicolòMicheletti
+  name: Nicolò
+  surname: Micheletti
+
 - id: PallaviKaliyar
   name: Pallavi
   surname: Kaliyar
@@ -699,6 +747,10 @@
 - id: PaoloPrem
   name: Paolo
   surname: Prem
+
+- id: RayhanaTaoufik
+  name: Rayhana
+  surname: Taoufik
 
 - id: RiccardoDeMasellis
   name: Riccardo
@@ -927,6 +979,10 @@
 - id: WorachetUttha
   name: Worachet
   surname: Uttha
+
+- id: YuriTomasini
+  name: Yuri
+  surname: Tomasini
 
 - id: ZahraEbadiAnsaroudi
   name: Zahra
