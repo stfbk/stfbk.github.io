@@ -4,7 +4,8 @@ layout: page
 permalink: /people/former
 ---
 
-<!---
+{% include toc.md %}
+
 <h1>Former Heads of Unit</h1>
 {% assign details = "formerRole, currentRole, year, personalPage" | split: ", " %}
 {% include list-people.html source=site.data.members.former.head style="list" details=details sort="surname" %}
