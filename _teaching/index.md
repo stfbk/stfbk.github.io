@@ -22,7 +22,7 @@ permalink: /teaching/
     <tr>
       <td>Fog and Cloud Computing</td>
       <td>BSc, MSc</td>
-      <td>Prof. Domenico Siracusa</td>
+      <td>Domenico Siracusa</td>
       <td>Trento</td>
       <td>
         <a href="https://unitn.coursecatalogue.cineca.it/insegnamenti/2022/93765/2011/9999/10117?coorte=2022">2022-2023</a><br />
