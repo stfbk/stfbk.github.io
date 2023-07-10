@@ -1,10 +1,14 @@
 ---
-title: Robust and Secure Distributed Computing
+title: Robust and Secure<br>Distributed Computing
 subtitle: Research Unit in Fondazione Bruno Kessler
 layout: page
 heroImageLeft: /assets/images/logos/RiSING_symbol.png
 heroImageRight: /assets/images/logos/CS_white.png
 ---
+
+<span style="font-size: 32px; font-weight: bold">The website is under construction. Sections may be incomplete or missing. We're sorry for the inconvenience.</span>
+
+----
 
 # Who we are
 
