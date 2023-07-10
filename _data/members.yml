@@ -34,72 +34,72 @@ former:
 
     - personId: FrancescomariaFaticanti
       thesisId: FrancescomariaFaticanti_P
+    
+    - personId: DamuDing
+      thesisId: DamuDing_P
+
+    - personId: RobertoDoriguzziCorin
+      thesisId: RobertoDoriguzziCorin_P
+    
+    - personId: AntonioMassaro
+      thesisId: AntonioMassaro_P
 
     - personId: FedericoPederzolli
       thesisId: FedericoPederzolli_P 
     
     - personId: AntonioMarsico
       thesisId: AntonioMarsico_P
-    
-    - personId: AntonioMassaro
-      thesisId: AntonioMassaro_P
-    
-    - personId: DamuDing
-      thesisId: DamuDing_P
-    
-    - personId: RobertoDoriguzziCorin
-      thesisId: RobertoDoriguzziCorin_P
 
   members:
-    - personId: FrancescoDePellegrini
-      formerRole: Researcher
-      yearTo: 2020
-    
-    - personId: DamuDing
-      formerRole: Researcher
-      yearTo: 2021
-
-    - personId: FrancescomariaFaticanti
-      formerRole: Researcher
-      yearTo: 2021
-
-    - personId: RaihanaFerdous
-      formerRole: Researcher
-      yearTo: 2020
-
-    - personId: AndreaFregonese
-      formerRole: Junior Researcher
-      yearTo: 2022
-
     - personId: MatteoGerola
       formerRole: Developer
       yearTo: 2023
-
-    - personId: AntonioMassaro
-      formerRole: Researcher
-      yearTo: 2020
-
-    - personId: FedericoPederzolli
-      formerRole: Researcher
-      yearTo: 2021
-
-    - personId: DanielePizzolli
-      formerRole: Developer
-      yearTo: 2022
-
-    - personId: KewinRausch
-      formerRole: Developer
-      yearTo: 2021
-
-    - personId: MarcoSavi
-      formerRole: Researcher
-      yearTo: 2021
-
+    
     - personId: KindeGutemaTefera
       formerRole: Developer
       yearTo: 2022
-
+    
+    - personId: DanielePizzolli
+      formerRole: Developer
+      yearTo: 2022
+    
+    - personId: AndreaFregonese
+      formerRole: Junior Researcher
+      yearTo: 2022
+    
+    - personId: MarcoSavi
+      formerRole: Researcher
+      yearTo: 2021
+    
+    - personId: KewinRausch
+      formerRole: Developer
+      yearTo: 2021
+    
+    - personId: FedericoPederzolli
+      formerRole: Researcher
+      yearTo: 2021
+    
+    - personId: FrancescomariaFaticanti
+      formerRole: Researcher
+      yearTo: 2021
+    
+    - personId: DamuDing
+      formerRole: Researcher
+      yearTo: 2021
+    
     - personId: XiaohuWu
+      formerRole: Researcher
+      yearTo: 2020
+    
+    - personId: AntonioMassaro
+      formerRole: Researcher
+      yearTo: 2020
+    
+    - personId: RaihanaFerdous
+      formerRole: Researcher
+      yearTo: 2020
+    
+    - personId: FrancescoDePellegrini
       formerRole: Researcher
       yearTo: 2020
 
