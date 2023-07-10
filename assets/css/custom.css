@@ -21,6 +21,14 @@
   margin-right: 20px;
 }
 
+.hero .hero-body .container div {
+  width: 60%;
+}
+
+.hero .hero-body .container p {
+  font-size: 28px;
+}
+
 .section {
   min-height: 800px;
   padding: 2rem 1.5rem;
