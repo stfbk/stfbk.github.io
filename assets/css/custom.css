@@ -65,6 +65,10 @@
   font-size: 1rem;
 }
 
+.card.person {
+  padding-top: 1.3em;
+}
+
 .card.person:hover {
   box-shadow: 0 .5em 1em -.125em rgba(10,10,10,0.1),0 0px 0 1px rgba(10,10,10,0.02);
   -webkit-box-shadow: 0 .5em 1em -.125em rgba(10,10,10,0.1),0 0px 0 1px rgba(10,10,10,0.02);
@@ -77,10 +81,6 @@
 
 .card .card-image img.default {
   opacity: 0.3;
-}
-
-.card.person .card-image {
-  padding-top: 1.3em;
 }
 
 .card.enterprise .card-image,
