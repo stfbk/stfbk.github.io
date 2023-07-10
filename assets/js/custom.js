@@ -52,7 +52,7 @@ if ($("#toc").length > 0) {
 
         $(":header:not(.no-toc)").each(function(index) {
             if ($(this).attr("id") == undefined) {
-                var id = $(this).text().replace(" ", "-").toLowerCase();
+                var id = $(this).text().replace(/[^a-z0-9\s]/gi, '').replace(/[_\s]/g, '-').toLowerCase();
                 $(this).attr("id", id);
             }
             
