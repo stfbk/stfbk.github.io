@@ -90,6 +90,19 @@ current:
       institution: University of Trento
       yearFrom: 2023
       yearTo: 2023
+
+  junior:
+    - personId: FedericaMascia
+      topic: Awareness - percezione del rischio
+      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+      yearFrom: 2023
+      yearTo: 2023
+
+    - personId: DavideModena
+      topic: Awareness - percezione del rischio
+      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+      yearFrom: 2023
+      yearTo: 2023
       
 former:
   head:
@@ -376,3 +389,76 @@ former:
 
     - personId: EricaElia
       thesisId: EricaElia_M
+
+  junior:
+    - personId: YuriTomasini
+      topic: Cybersecurity 101
+      institution: Liceo Scientifico "Leonardo Da Vinci", Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: MatteoPaoloFurlan
+      topic: Cybersecurity 101
+      institution: Liceo Scientifico "Leonardo Da Vinci", Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: NicolòMicheletti
+      topic: Cybersecurity 101
+      institution: Liceo Scientifico "Leonardo Da Vinci", Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: AlessandroMerlo
+      topic: Cybersecurity 101
+      institution: Liceo Scientifico "Leonardo Da Vinci", Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: GiovanniMarchi
+      topic: Cybersecurity 101
+      institution: Liceo Scientifico "Leonardo Da Vinci", Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: RayhanaTaoufik
+      topic: Cybersecurity 101
+      institution: Liceo "Antonio Rosmini", Rovereto
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: LeonardoVicentini
+      topic: Cybersecurity 101
+      institution: Liceo Scientifico "Leonardo Da Vinci", Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: FilippoBenedetti
+      topic: Cybersecurity 101
+      institution: Liceo Scientifico "Leonardo Da Vinci", Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: AndreaBrandolini
+      topic: Cybersecurity 101
+      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+      yearFrom: 2022
+      yearTo: 2022
+
+    - personId: MattiaAndreolli
+      topic: Cybersecurity 101
+      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+      yearFrom: 2022
+      yearTo: 2022
+
+    - personId: MatildeSalaorni
+      topic: OSINT e l'assessment del rischio nei social media
+      institution: Liceo Steam International, Rovereto
+      yearFrom: 2023
+      yearTo: 2023
+
+    - personId: MattiaConci
+      topic: OSINT e l'assessment del rischio nei social media
+      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+      yearFrom: 2023
+      yearTo: 2023
