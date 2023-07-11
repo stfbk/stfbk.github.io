@@ -1,3 +1,9 @@
+.temp-alert {
+  text-align: center;
+  color: white;
+  padding: 7pt 5vh;
+}
+
 .hidden {
   display: none;
 }
@@ -26,7 +32,7 @@
 }
 
 .hero .hero-body .container p {
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .section {
@@ -438,7 +444,7 @@ ul.no-bullet {
 
 .parentFBK {
   background: #2f2f2f;
-  padding: 5px 0;
+  padding: 10pt 5pt;
 }
 
 .parentFBK img {
@@ -452,6 +458,10 @@ section.page-top {
 
 .navbar.is-primary {
   border-bottom: 2px solid #00599b;
+}
+
+a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active {
+  font-weight: bold;
 }
 
 @media screen and (max-width: 1023px) {
