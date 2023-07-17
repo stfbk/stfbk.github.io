@@ -1972,6 +1972,7 @@
     The large amount of personal data that is shared in the digital age has proportionally increased the risks of user privacy violations. The same privacy risks are reflected in OpenID Connect, which is one of the most widespread protocols used for identity management to access both private and public administration services. Since personal data is collected and shared via OpenID Connect, appropriate technologies to protect user privacy should be adopted as suggested by data protection guidelines and regulations (e.g., the General Data Protection Regulation). Unfortunately, it is difficult to make the privacy-enhancing technology suggestions in such documents actionable and available to IT professionals who are required to configure them within their OpenID Connect deployments. To overcome this problem, we present a practical approach to improving user privacy in OpenID Connect-based solutions by identifying a set of privacy-preserving features extracted from the available OpenID Connect specifications. We conduct a privacy compliance analysis on popular private and governmental OpenID Providers to determine how widely these privacy best practices are used in the wild. The findings indicate that different OpenID Providers grant varying levels of assurance and address different aspects of privacy, failing to provide full support for data protection principles. 
   destination: DBSEC2023
   year: 2023
+  doi: 10.1007/978-3-031-37586-6_13
   urlNews: /news/2023-05-25-paper-accepted-at-dbsec-2023/
 
 - id: ESORICS2023
@@ -2014,6 +2015,7 @@
     Verifiable credentials are a digital analogue of physical credentials. Their authenticity and integrity are protected by means of cryptographic techniques, and they can be presented to verifiers to prove claims about the holder of the credential itself. One way to preserve privacy during presentation consists in selectively disclosing the attributes in a credential. In this paper we present the most widespread cryptographic mechanisms used to enable selective disclosure of attributes, describing their structure and comparing them in terms of performance, size of the associated verifiable presentations, and the ability to produce predicate proofs and unlinkable presentations.
   destination: SECRYPT2023
   year: 2023
+  doi: 10.5220/0012084000003555
   urlNews: /news/2023-04-24-paper-accepted-at-secrypt/
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
