@@ -224,13 +224,15 @@ html {
   margin-left: 10px;
 }
 
-.tag.tag-attendances {
+.tag.tag-attendances,
+.tag.tag-specialized {
   background-color: #539edb;
   color: #000;
 }
 
-.tag.tag-attendances.is-light {
-  background-color: #6daee3;
+.tag.tag-attendances.is-light,
+.tag.tag-specialized.is-light {
+  background-color: #a8ceee;
   color: #000;
 }
 
@@ -244,22 +246,26 @@ html {
   color: #000;
 }
 
-.tag.tag-papers {
+.tag.tag-papers,
+.tag.tag-school {
   background-color: #eb5454;
   color: #000;
 }
 
-.tag.tag-papers.is-light {
+.tag.tag-papers.is-light,
+.tag.tag-school.is-light {
   background-color: #f5adad;
   color: #000;
 }
 
-.tag.tag-seminars {
+.tag.tag-seminars,
+.tag.tag-general {
   background-color: #6ad25b;
   color: #000;
 }
 
-.tag.tag-seminars.is-light {
+.tag.tag-seminars.is-light,
+.tag.tag-general.is-light {
   background-color: #ccefc7;
   color: #000;
 }
