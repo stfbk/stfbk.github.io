@@ -28,6 +28,7 @@ publications:
     - DBSEC2022
     - FPS2019
     - STM2019
+    - TDSC2022
 
 theses:
     - DamianoSartori_B

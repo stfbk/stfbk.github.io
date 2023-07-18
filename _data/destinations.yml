@@ -102,6 +102,12 @@
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979
   type: journal
 
+- id: TDSC
+  name: IEEE Transactions on Dependable and Secure Computing 
+  acronym: TDSC
+  url: https://www.computer.org/csdl/journals/tq
+  type: journal
+
 - id: TIFS
   name: IEEE Transactions on Information Forensics and Security
   acronym: TIFS
