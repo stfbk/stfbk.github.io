@@ -19,7 +19,7 @@
         {% endif %}
     {% endfor %}
 
-    {% assign projectsSorted = projectsFromId | sort: "title" %}
+    {% assign projectsSorted = projectsFromId | sort_natural: "title" %}
     {%- for project in projectsSorted -%}
         {% if style == "card" %}
             <div class="column is-3-desktop is-4-tablet project">
