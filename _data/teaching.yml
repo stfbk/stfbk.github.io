@@ -12,6 +12,91 @@
     - name: 2020/2021
       url: "https://www.esse3.unitn.it/Guide/PaginaADErogata.do?ad_er_id=2020*N0*N0*S1*48363*94110&ANNO_ACCADEMICO=2020&mostra_percorsi=S"   
 
+- id: CyberChallenge
+  name: CyberChallenge.IT
+  institution: University of Trento
+  lecturer:
+    - AndreaBisegna
+    - RobertoCarbone
+    - BiniamFissehaDemissie
+    - AlessandroTomasi
+  startYear: 2020
+  endYear: 2022
+  links:
+    - name: Homepage
+      url: "https://cyberchallenge.it/"
+
+- id: DigitalSecurity
+  name: Digital Security
+  level: High School
+  institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+  lecturer:
+    - SalvatoreManfredi
+    - UmbertoMorelli
+    - SilvioRanise
+    - MatteoRizzi
+  startYear: 2019
+  links:
+    - name: 2019/2020
+      url: "https://fbkjunior.fbk.eu/wp-content/uploads/2023/01/corso-cybersecurity.pdf"
+    - name: 2020/2021
+      url: "https://fbkjunior.fbk.eu/wp-content/uploads/2023/01/corso-cybersecurity.pdf"
+
+- id: IdentityAccessManagement
+  name: Identity Access Management
+  institution: ITS Meccatronico Veneto
+  lecturer:
+    - AndreaBisegna
+    - RobertoCarbone
+    - UmbertoMorelli
+    - GiadaSciarretta
+    - AlessandroTomasi
+  startYear: 2021
+  endYear: 2021
+  links:
+    - name: Course
+      page: "https://www.itsmeccatronico.it/industrial-cyber-security-specialist/"
+
+- id: Intro2CNS
+  name: Introduction to Computer and Network Security
+  level:
+    - BSc
+    - MSc
+  institution: University of Trento
+  lecturer:
+    - SilvioRanise
+    - SalvatoreManfredi
+  startYear: 2017
+  links:
+    - name: Before 2020
+      url: "https://sites.google.com/view/intro2cns"
+    - name: 2020/2021
+      url: "https://www.esse3.unitn.it/Guide/PaginaADErogata.do?ad_er_id=2020*N0*N0*S1*48950*93219&ANNO_ACCADEMICO=2020&mostra_percorsi=S"
+
+- id: LaboratorioProgrammazione
+  name: Laboratorio di Programmazione
+  level: BSc
+  institution: University of Trento
+  lecturer:
+    - SilvioRanise
+    - MarcoPernpruner
+  startYear: 2020
+  links:
+    - name: 2020/2021
+      url: "https://www.esse3.unitn.it/Guide/PaginaADErogata.do?ad_er_id=2020*N0*N0*S2*49423*94875&ANNO_ACCADEMICO=2020&mostra_percorsi=S"
+
+- id: Master_CCIP
+  name: Master Universitario di II livello in "Cybersecurity and Critical Infrastructure Protection"
+  institution: University of Genoa
+  lecturer:
+    - RobertoCarbone
+    - AlessandroTomasi
+  startYear: 2022
+  endYear: 2022
+  links:
+    - name: Homepage
+      url: "https://www.perform.unige.it/master/master-cybersecurity-iiied"      
+
 - id: PhD_IdM_CC
   name: "Cryptography and Codes: enrollment, authentication, authorization, and all that"
   level: PhD
@@ -44,31 +129,3 @@
       url: "PhDCourse2021_IdM"
     - name: 2021/2022
       url: "PhDCourse2022_IdM"
-
-- id: Intro2CNS
-  name: Introduction to Computer and Network Security
-  level:
-    - BSc
-    - MSc
-  institution: University of Trento
-  lecturer:
-    - SilvioRanise
-    - SalvatoreManfredi
-  startYear: 2017
-  links:
-    - name: Before 2020
-      url: "https://sites.google.com/view/intro2cns"
-    - name: 2020/2021
-      url: "https://www.esse3.unitn.it/Guide/PaginaADErogata.do?ad_er_id=2020*N0*N0*S1*48950*93219&ANNO_ACCADEMICO=2020&mostra_percorsi=S"
-
-- id: LaboratorioProgrammazione
-  name: Laboratorio di Programmazione
-  level: BSc
-  institution: University of Trento
-  lecturer:
-    - SilvioRanise
-    - MarcoPernpruner
-  startYear: 2020
-  links:
-    - name: 2020/2021
-      url: "https://www.esse3.unitn.it/Guide/PaginaADErogata.do?ad_er_id=2020*N0*N0*S2*49423*94875&ANNO_ACCADEMICO=2020&mostra_percorsi=S"
