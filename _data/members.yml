@@ -92,17 +92,6 @@ current:
       yearTo: 2023
 
   junior:
-    - personId: FedericaMascia
-      topic: Awareness - percezione del rischio
-      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
-      yearFrom: 2023
-      yearTo: 2023
-
-    - personId: DavideModena
-      topic: Awareness - percezione del rischio
-      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
-      yearFrom: 2023
-      yearTo: 2023
       
 former:
   head:
@@ -459,6 +448,18 @@ former:
 
     - personId: MattiaConci
       topic: OSINT e l'assessment del rischio nei social media
+      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+      yearFrom: 2023
+      yearTo: 2023
+      
+    - personId: FedericaMascia
+      topic: Awareness - percezione del rischio
+      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+      yearFrom: 2023
+      yearTo: 2023
+
+    - personId: DavideModena
+      topic: Awareness - percezione del rischio
       institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
       yearFrom: 2023
       yearTo: 2023
