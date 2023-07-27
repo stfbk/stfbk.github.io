@@ -65,6 +65,10 @@
   font-size: 1rem;
 }
 
+.card.person {
+  padding-top: 1.3em;
+}
+
 .card.person:hover {
   box-shadow: 0 .5em 1em -.125em rgba(10,10,10,0.1),0 0px 0 1px rgba(10,10,10,0.02);
   -webkit-box-shadow: 0 .5em 1em -.125em rgba(10,10,10,0.1),0 0px 0 1px rgba(10,10,10,0.02);
@@ -77,10 +81,6 @@
 
 .card .card-image img.default {
   opacity: 0.3;
-}
-
-.card.person .card-image {
-  padding-top: 1.3em;
 }
 
 .card.enterprise .card-image,
@@ -238,13 +238,15 @@ html {
   margin-left: 10px;
 }
 
-.tag.tag-attendances {
+.tag.tag-attendances,
+.tag.tag-specialized {
   background-color: #539edb;
   color: #000;
 }
 
-.tag.tag-attendances.is-light {
-  background-color: #6daee3;
+.tag.tag-attendances.is-light,
+.tag.tag-specialized.is-light {
+  background-color: #a8ceee;
   color: #000;
 }
 
@@ -258,22 +260,26 @@ html {
   color: #000;
 }
 
-.tag.tag-papers {
+.tag.tag-papers,
+.tag.tag-school {
   background-color: #eb5454;
   color: #000;
 }
 
-.tag.tag-papers.is-light {
+.tag.tag-papers.is-light,
+.tag.tag-school.is-light {
   background-color: #f5adad;
   color: #000;
 }
 
-.tag.tag-seminars {
+.tag.tag-seminars,
+.tag.tag-general {
   background-color: #6ad25b;
   color: #000;
 }
 
-.tag.tag-seminars.is-light {
+.tag.tag-seminars.is-light,
+.tag.tag-general.is-light {
   background-color: #ccefc7;
   color: #000;
 }
@@ -888,4 +894,9 @@ table.bordered tr td {
   border-collapse: collapse;
   border: 1px solid black;
   padding: 10px;
+}
+
+.teaching-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

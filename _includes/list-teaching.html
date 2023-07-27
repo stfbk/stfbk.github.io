@@ -1,0 +1,143 @@
+{% assign sort = include.sort %}
+{% if include.source %}
+    {% assign source = include.source %}
+{% endif %}
+{% if include.style %}
+    {% assign style = include.style %}
+{% else %}
+    {% assign style = "table" %}
+{% endif %}
+
+{% if source.size > 0 %}
+    {% if style == "table" %}
+        <table class="teaching">
+            <thead>
+                <tr>
+                    <th width="20%">Name</th>
+                    <th width="10%">Level</th>
+                    <th width="15%">Institution</th>
+                    <th width="20%">Involved People</th>
+                    <th width="15%">Period</th>
+                    <th width="10%">Links</th>
+                </tr>
+            </thead>
+            <tbody>
+    {% elsif style == "list" %}
+        <ul class="teaching">
+    {% endif %}
+
+    {% assign coursesFromId = "" | split: "" %}
+    {% for course in source %}
+        {% assign courseFromId = site.data.teaching | where: "id", course %}
+        {% assign courseFromIdLabel = site.data.teaching | where: "id", course.id %}
+        {% if courseFromId.size == 1 %}
+            {% assign coursesFromId = coursesFromId | concat: courseFromId %}
+        {% elsif courseFromIdLabel.size == 1 %}
+            {% assign coursesFromId = coursesFromId | concat: courseFromIdLabel %}
+        {% endif %}
+    {% endfor %}
+
+    {% if sort %}
+        {% if sort == "none" %}
+            {% assign coursesSorted = coursesFromId %}
+        {% else %}
+            {% assign coursesSorted = coursesFromId | sort_natural: sort %}
+        {% endif %}
+    {% else %}
+        {% assign coursesSorted = coursesFromId | sort_natural: "name" %}
+    {% endif %}
+
+    {%- for course in coursesSorted -%}
+        {% assign lecturers = "" | split: "" %}
+        {%- if course.lecturer -%}
+            {%- if course.lecturer | first -%}
+                {% for lecturer in course.lecturer %}
+                    {% assign lecturerFromId = site.data.people | where: "id", lecturer %}
+                    {% assign lecturerName = lecturerFromId[0]["name"] | append: " " | append: lecturerFromId[0]["surname"] %}
+                    {%- assign lecturers = lecturers | push: lecturerName -%}
+                {% endfor %}
+            {% else %}
+                {% assign lecturerFromId = site.data.people | where: "id", course.lecturer %}
+                {% assign lecturerName = lecturerFromId[0]["name"] | append: " " | append: lecturerFromId[0]["surname"] %}
+                {%- assign lecturers = lecturers | push: lecturerName -%}
+            {% endif %}
+        {%- endif -%}
+
+        {%- if lecturers.size > 0 -%}
+            {%- assign lecturersString = lecturers | join: ", " -%}
+        {%- else -%}
+            {%- assign lecturersString = nil -%}
+        {%- endif -%}
+
+        {% assign levelArray = "" | split: "" %}
+        {% assign levelString = nil %}
+        {%- if course.level -%}
+            {%- if course.level | first -%}
+                {% for level in course.level %}
+                    {% assign levelArray = levelArray | push: level %}
+                {% endfor %}
+            {% else %}
+                {% assign levelArray = levelArray | push: course.level %}
+            {% endif %}
+        {%- endif -%}
+        {%- if levelArray.size > 0 -%}
+            {%- assign levelString = levelArray | join: ", " -%}
+        {%- endif -%}
+
+        {% assign institutionArray = "" | split: "" %}
+        {% assign institutionString = nil %}
+        {%- if course.institution -%}
+            {%- if course.institution | first -%}
+                {% for institution in course.institution %}
+                    {% assign institutionArray = institutionArray | push: institution %}
+                {% endfor %}
+            {% else %}
+                {% assign institutionArray = institutionArray | push: course.institution %}
+            {% endif %}
+        {%- endif -%}
+        {%- if institutionArray.size > 0 -%}
+            {%- assign institutionString = institutionArray | join: ", " -%}
+        {%- endif -%}
+
+        {% assign yearString = nil %}
+        {%- if course.startYear and course.endYear -%}
+            {%- if course.startYear == course.endYear -%}
+                {% assign yearString = course.startYear %}
+            {%- else -%}
+                {% assign yearString = course.startYear | append: "-" | append: course.endYear %}
+            {%- endif -%}
+        {%- elsif course.startYear -%}
+            {% assign yearString = "From " | append: course.startYear %}
+        {%- endif -%}
+
+        {%- assign linksArray = "" | split: "" -%}
+        {%- assign linksString = nil -%}
+        {%- if course.links -%}
+            {%- for link in course.links -%}
+                {%- assign string = '<a href="' | append: link.url | append: '">' | append: link.name | append: '</a>' -%}
+                {%- assign linksArray = linksArray | push: string -%}
+            {%- endfor -%}
+        {%- endif -%}
+        {%- if linksArray.size > 0 -%}
+            {%- assign linksString = linksArray | join: ", " -%}
+        {%- endif -%}
+
+        {% if style == "table" %}
+            <tr>
+                <td>{{ course.name }}</td>
+                <td>{{ levelString }}</td>
+                <td>{{ institutionString }}</td>
+                <td>{{ lecturersString }}</td>
+                <td>{{ yearString }}</td>
+                <td>{{ linksString }}</td>
+            </tr>
+        {% endif %}
+    {% endfor %}
+
+    {% if style == "table" %}
+            </tbody>
+        </table>
+    {% elsif style == "list" %}
+        </ul>
+    {% endif %}
+{% endif %}

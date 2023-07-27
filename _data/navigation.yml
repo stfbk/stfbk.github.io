@@ -2,14 +2,10 @@
   link: /collaborations
 # - name: Events
 #   link: /events/
+# - name: Dissemination
+#  link: /dissemination/
 - name: News
   link: /news/
-- name: Projects
-  link: /projects/
-- name: Tools
-  link: /tools/
-- name: Teaching
-  link: /teaching/
 - name: People
   link: /people/
   dropdown:
@@ -19,5 +15,11 @@
       link: /people/
     - name: Former Members
       link: /people/former
+- name: Projects
+  link: /projects/
 - name: Publications
   link: /publications/
+- name: Teaching
+  link: /teaching/
+- name: Tools
+  link: /tools/

@@ -6,57 +6,46 @@ permalink: /teaching/
 
 # Courses
 
-## Bachelor's and Master's Courses
+{% assign courses_BSc = site.data.teaching | where_exp: "course", "course.level contains 'BSc'" | sort: "name" %}
+{% assign courses_MSc = site.data.teaching | where_exp: "course", "course.level contains 'MSc'" | sort: "name" %}
+{% assign courses_BSc_MSc = "" | split: "" %}
+{% for course in courses_BSc %}
+  {% unless courses_BSc_MSc contains course %}
+    {% assign courses_BSc_MSc = courses_BSc_MSc | push: course %}
+  {% endunless %}
+{% endfor %}
+{% for course in courses_MSc %}
+  {% unless courses_BSc_MSc contains course %}
+    {% assign courses_BSc_MSc = courses_BSc_MSc | push: course %}
+  {% endunless %}
+{% endfor %}
+{% if courses_BSc_MSc.size > 0 %}
+  <section class="teaching-section bsc-msc-courses">
+    <h2>Bachelor's and Master's Courses</h2>
+    {% include list-teaching.html source=courses_BSc_MSc style="table" %}
+  </section>
+{% endif %}
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Level</th>
-      <th>Involved People</th>
-      <th>University</th>
-      <th>Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Fog and Cloud Computing</td>
-      <td>BSc, MSc</td>
-      <td>Domenico Siracusa</td>
-      <td>Trento</td>
-      <td>
-        <a href="https://unitn.coursecatalogue.cineca.it/insegnamenti/2022/93765/2011/9999/10117?coorte=2022">2022-2023</a><br />
-        <a href="https://unitn.coursecatalogue.cineca.it/insegnamenti/2021/93765/2011/9999/10117?coorte=2021">2021-2022</a><br />
-        <a href="https://unitn.coursecatalogue.cineca.it/insegnamenti/2020/93765/2011/9999/10117?coorte=2020">2020-2021</a><br />
-      </td>    
-    </tr>
-  </tbody>
-</table>
+{% assign courses_PhD = site.data.teaching | where_exp: "course", "course.level contains 'PhD'" | sort: "name" %}
+{% if courses_PhD.size > 0 %}
+  <section class="teaching-section phd-courses">
+    <h2>PhD Courses</h2>
+    {% include list-teaching.html source=courses_PhD style="table" %}
+  </section>
+{% endif %}
 
+{% assign courses_highSchools = site.data.teaching | where_exp: "course", "course.level contains 'High School'" | sort: "name" %}
+{% if courses_highSchools.size > 0 %}
+  <section class="teaching-section high-school-courses">
+    <h2>High School Courses</h2>
+    {% include list-teaching.html source=courses_highSchools style="table" %}
+  </section>
+{% endif %}
 
-## PhD Courses
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Involved People</th>
-      <th>University</th>
-      <th>Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Network intrusion detection with Deep Learning</td>
-      <td>
-          Roberto Doriguzzi Corin 
-      </td>
-      <td>
-          Trento
-      </td>
-      <td>
-        <a href="https://iecs.unitn.it/node/1322">2022-2023</a><br />
-        <a href="https://iecs.unitn.it/node/1177">2021-2022</a><br />
-      </td>
-    </tr>
-  </tbody>
-</table>
+{% assign courses_other = site.data.teaching | where_exp: "course", "course.level == nil" | sort: "name" %}
+{% if courses_other.size > 0 %}
+  <section class="teaching-section other-courses">
+    <h2>Other Courses</h2>
+    {% include list-teaching.html source=courses_other style="table" %}
+  </section>
+{% endif %}

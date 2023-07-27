@@ -1,0 +1,29 @@
+- id: FogAndCloud
+  name: Fog and Cloud Computing
+  level: MSc
+  institution: University of Trento
+  lecturer:
+    - DomenicoSiracusa
+    - DanieleSantoro
+    - SilvioCretti
+  startYear: 2019
+  links:
+    - name: 2020/2021
+      url: "https://unitn.coursecatalogue.cineca.it/insegnamenti/2020/93765/2011/9999/10117?coorte=2020"
+    - name: 2021/2022
+      url: "https://unitn.coursecatalogue.cineca.it/insegnamenti/2021/93765/2011/9999/10117?coorte=2021"
+    - name: 2022/2023
+      url: "https://unitn.coursecatalogue.cineca.it/insegnamenti/2022/93765/2011/9999/10117?coorte=2022"
+
+- id: NetworkIntrusionDetection
+  name: Network Intrusion Detection with Deep Learning
+  level: PhD
+  institution: University of Trento
+  lecturer:
+    - RobertoDoriguzziCorin
+  startYear: 2021
+  links:
+    - name: 2021-2022
+      url: "https://iecs.unitn.it/node/1177"
+    - name: 2022-2023
+      url: "https://iecs.unitn.it/node/1322"
