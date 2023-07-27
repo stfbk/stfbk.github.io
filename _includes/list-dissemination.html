@@ -1,0 +1,169 @@
+{% assign sort = include.sort %}
+{% if include.source %}
+    {% assign source = include.source %}
+{% endif %}
+{% if include.style %}
+    {% assign style = include.style %}
+{% else %}
+    {% assign style = "table" %}
+{% endif %}
+
+{% if source.size > 0 %}
+    {% if style == "table" %}
+        <table class="dissemination">
+            <thead>
+                <tr>
+                    <th width="5%">Year</th>
+                    <th width="25%">Title</th>
+                    <th width="10%">Period</th>
+                    <th width="25%">Context</th>
+                    <th width="25%">Involved People</th>
+                    <th width="10%">Links</th>
+                </tr>
+            </thead>
+            <tbody>
+    {% elsif style == "list" %}
+        <ul class="dissemination">
+    {% endif %}
+
+    {% assign disseminationsFromId = "" | split: "" %}
+    {% for dissemination in source %}
+        {% assign disseminationFromId = site.data.dissemination | where: "id", dissemination %}
+        {% assign disseminationFromIdLabel = site.data.dissemination | where: "id", dissemination.id %}
+        {% if disseminationFromId.size == 1 %}
+            {% assign disseminationsFromId = disseminationsFromId | concat: disseminationFromId %}
+        {% elsif disseminationFromIdLabel.size == 1 %}
+            {% assign disseminationsFromId = disseminationsFromId | concat: disseminationFromIdLabel %}
+        {% endif %}
+    {% endfor %}
+
+    {% if sort %}
+        {% if sort == "none" %}
+            {% assign disseminationsSorted = disseminationsFromId %}
+        {% else %}
+            {% assign disseminationsSorted = disseminationsFromId | sort_natural: sort %}
+        {% endif %}
+    {% else %}
+        {% assign disseminationsSorted = disseminationsFromId | sort: "startDate" | reverse %}
+    {% endif %}
+
+    {%- for dissemination in disseminationsSorted -%}
+        {% assign participants = "" | split: "" %}
+        {%- if dissemination.participants -%}
+            {%- if dissemination.participants | first -%}
+                {% for participant in dissemination.participants %}
+                    {% assign participantFromId = site.data.people | where: "id", participant %}
+                    {% assign participantName = participantFromId[0]["name"] | append: " " | append: participantFromId[0]["surname"] %}
+                    {%- assign participants = participants | push: participantName -%}
+                {% endfor %}
+            {% else %}
+                {% assign participantFromId = site.data.people | where: "id", dissemination.participants %}
+                {% assign participantName = participantFromId[0]["name"] | append: " " | append: participantFromId[0]["surname"] %}
+                {%- assign participants = participants | push: participantName -%}
+            {% endif %}
+        {%- endif -%}
+
+        {%- if participants.size > 0 -%}
+            {%- assign participantsString = participants | join: ", " -%}
+        {%- else -%}
+            {%- assign participantsString = nil -%}
+        {%- endif -%}
+
+        {% assign dateString = nil %}
+        {% assign year = nil %}
+        {%- if dissemination.startDate -%}
+            {% assign startDate_year = dissemination.startDate | date: "%Y" %}
+            {% assign startDate_month = dissemination.startDate | date: "%-m" %}
+            {% assign startDate_day = dissemination.startDate | date: "%e" %}
+        {%- endif -%}
+
+        {%- if dissemination.endDate -%}
+            {% assign endDate_year = dissemination.endDate | date: "%Y" %}
+            {% assign endDate_month = dissemination.endDate | date: "%-m" %}
+            {% assign endDate_day = dissemination.endDate | date: "%e" %}
+        {%- endif -%}
+
+        {%- if dissemination.startDate and dissemination.endDate -%}
+            {% assign year = dissemination.startDate | date: "%Y" %}
+            {%- if dissemination.startDate == dissemination.endDate %}
+                {% assign dateString = dissemination.startDate | date: "%B %e, %Y" %}
+            {%- elsif startDate_day != endDate_day and startDate_month == endDate_month and startDate_year == endDate_year -%}
+                {%- capture dateString -%}
+                    {{ dissemination.startDate | date: "%B %e" }}-{{ dissemination.endDate | date: "%e, %Y" }}
+                {%- endcapture -%}
+            {%- elsif startDate_day != endDate_day and startDate_month != endDate_month and startDate_year == endDate_year -%}
+                {%- capture dateString -%}
+                    {{ dissemination.startDate | date: "%B %e" }}-{{ dissemination.endDate | date: "%B %e, %Y" }}
+                {%- endcapture -%}
+            {%- else -%}
+                {% assign yearEnd = dissemination.endDate | date: "%Y" %}
+                {% assign year = year | append: "-" | append: yearEnd %}
+                {%- capture dateString -%}
+                    {{ dissemination.startDate | date: "%B %e, %Y" }}-{{ dissemination.endDate | date: "%B %e, %Y" }}
+                {%- endcapture -%}
+            {%- endif -%}
+        {%- elsif dissemination.startDate %}
+            {% assign year = dissemination.startDate | date: "%Y" %}
+            {%- capture dateString -%}
+                From {{ dissemination.startDate | date: "%B %e, %Y" }}
+            {%- endcapture -%}
+        {%- elsif dissemination.endDate %}
+            {%- capture dateString -%}
+                Until {{ dissemination.endDate | date: "%B %e, %Y" }}
+            {%- endcapture -%}
+        {%- endif -%}
+
+        {%- assign eventString = nil -%}
+        {%- if dissemination.eventName -%}
+            {%- capture eventString -%}
+                {{ dissemination.eventName }}{%- if dissemination.eventAddon -%}, {{ dissemination.eventAddon }}{%- endif -%}
+            {%- endcapture -%}
+        {%- endif -%}
+
+        {%- assign linksArray = "" | split: "" -%}
+        {%- assign linksString = nil -%}
+        {%- if dissemination.links -%}
+            {%- for link in dissemination.links -%}
+                {%- assign string = '<a href="' | append: link.url | append: '">' | append: link.name | append: '</a>' -%}
+                {%- assign linksArray = linksArray | push: string -%}
+            {%- endfor -%}
+        {%- endif -%}
+        {%- if linksArray.size > 0 -%}
+            {%- assign linksString = linksArray | join: ", " -%}
+        {%- endif -%}
+
+        {% if style == "table" %}
+            <tr>
+                <td>{{ year }}</td>
+                <td>{{ dissemination.title }}</td>
+                <td>{{ dateString }}</td>
+                <td>{{ eventString }}</td>
+                <td>{{ participantsString }}</td>
+                <td>{{ linksString }}</td>
+            </tr>
+        {% elsif style == "list" %}
+            <li>
+                {% if dateString %}
+                    {{ dateString }}&nbsp;•
+                {% endif %}
+                <span class="tag tag-{{ dissemination.category | downcase }} is-light">{{ dissemination.category }}</span><br />
+                {{ participantsString }}<br />
+                <b>{{ dissemination.title }}</b>
+                {% if eventString %}
+                    <br />
+                    {{ eventString }}
+                {% endif %}
+                {% if linksString %}
+                    ({{ linksString }})
+                {% endif %}
+            </li>
+        {% endif %}
+    {% endfor %}
+
+    {% if style == "table" %}
+            </tbody>
+        </table>
+    {% elsif style == "list" %}
+        </ul>
+    {% endif %}
+{% endif %}
