@@ -27,3 +27,14 @@
       url: "https://iecs.unitn.it/node/1177"
     - name: 2022-2023
       url: "https://iecs.unitn.it/node/1322"
+
+- id: NetworkIntrusionMaster
+  name: Network Intrusion and Anomaly Detection with Machine Learning
+  level: MSc
+  institution: University of Trento
+  lecturer:
+    - RobertoDoriguzziCorin
+  startYear: 2023
+#  links:
+#    - name: 2023-2024
+#      url: ""
