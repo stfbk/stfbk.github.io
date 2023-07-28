@@ -40,9 +40,8 @@ However such a centralization has some limitations: in the last years, thanks to
 
 FogAtlas is an architectural framework and a software platform for orchestrating cloud-native applications and helping the operations in a multi-tier, highly distributed, heterogeneous and decentralized Cloud Computing environment like the one foreseen by the Fog Computing paradigm. The main features offered are:
 
-    Set-up, monitoring, operations and fleet management of a multi-tier, distributed Cloud infrastructure;
-
-    Zero-touch deployment and orchestration of containerized applications, resource allocation and workload placement;
+- Set-up, monitoring, operations and fleet management of a multi-tier, distributed Cloud infrastructure;
+- Zero-touch deployment and orchestration of containerized applications, resource allocation and workload placement;
 
 Therefore, the problems that FogAtlas aims to solve are mainly related with fleet management and workload orchestration in an environment where different tenants and/or applications compete for the same resources. Of course such a context adds many “degrees of freedom” with respect to similar problems in a centralized and homogeneous cluster of resources: resources and services belonging to distributed clusters are disparate, provide different capabilities and are widespread on different locations, connected to data centers (e.g. the Public Cloud) with a network that is not always reliable and/or able to guarantee requested performances. The process of scheduling the workload takes into account different parameters and embrace novel policies with respect to the ones currently used: for instance the location, the network characteristics, the computational profile and the kind/model of a given physical resource are taken into account in order to efficiently allocate resources and schedule the workload.
 
