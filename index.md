@@ -6,14 +6,37 @@ heroImageLeft: /assets/images/logos/RiSING_symbol.png
 heroImageRight: /assets/images/logos/CS_white.png
 ---
 
-# Who we are
+## Who we are
 
-The Robust and Secure Distributed Computing (RiSING) research unit aims to investigate and implement smart, autonomic and anti-fragile methods and platforms that leverage on management and orchestration of processing, storage and networking resources to enhance resiliency, dependability and security of distributed computing infrastructures covering the whole the cloud-to-things continuum.
+The Robust and Secure Distributed Computing (RiSING) research unit
+focuses on the investigation of methods and the design and
+implementation of platforms that guarantee efficiency, robustness and
+security in distributed computing environments.
+
+Our research on security on cloud and network infrastructure revolves
+around offering adaptive and zero-trust defense to cloud-native
+services, with special emphasis on striking the right balance between
+minimizing security risks and maintaining the perceived service quality
+for distributed applications. We have a long-standing experience on
+infrastructure monitoring and control, as well as on resource and
+service orchestration.
+
+The unit pursues its research and development activities in the
+following areas:
+
+- Threat and Anomaly Detection and Mitigation: monitoring network and
+  computing devices (through e.g. programmable data planes) to detect
+  attacks (using AI or statistical methods) and counteract them
+- Cyber Deception: algorithms and tools to lure attackers into decoys
+  to gain insights on their behavior
+- Service and Security Orchestration: automated networking and cloud
+  computing solutions to effectively manage business and security
+  applications
 
 The RiSING unit lies within the [Cybersecurity center](https://www.fbk.eu/it/cybersecurity/) in [Fondazione Bruno Kessler](https://www.fbk.eu) (FBK).
 
-# Research Areas
+## Research Areas
 {% include topics.md %}
 
-# In the Spotlight
-{% include spotlights.md %}
+<!--# In the Spotlight
+{% include spotlights.md %}-->
