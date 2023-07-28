@@ -1,8 +1,7 @@
 ---
 title: FogAtlas 
 subtitle: Driving Applications through the Fog
-logo: 
-    external: https://lh5.googleusercontent.com/4GD0dQTeM1X_mCWTuXxrmwQzt6_P4yyiajDXHDxKnYyhuNRa44FgLHMWaqhiwOhukxE7eq3519SK7CrxLh7S7LPlxQ2wczahP-od6OFoRedRd5fJ=w1280
+logo: FogAtlas.png 
 people: 
     - DomenicoSiracusa
     - SilvioCretti
