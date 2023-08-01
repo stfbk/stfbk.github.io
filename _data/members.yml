@@ -70,13 +70,6 @@ current:
       yearFrom: 2022
       yearTo: 2023
 
-    - personId: IonAndyDitu
-      type: B
-      topic: Trusted Execution Environments for Advanced Data Protection
-      institution: University of Trento
-      yearFrom: 2023
-      yearTo: 2023
-
     - personId: SaraSorrentino
       type: B
       topic: "Empowering the Public to Protect Themselves: Developing a Web-based Assessment Tool for Promoting Awareness at Dissemination Events"
@@ -378,6 +371,9 @@ former:
 
     - personId: EricaElia
       thesisId: EricaElia_M
+
+    - personId: IonAndyDitu
+      thesisId: IonAndyDitu_B
 
   junior:
     - personId: YuriTomasini
