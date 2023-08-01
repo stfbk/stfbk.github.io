@@ -14,14 +14,18 @@ seen_ppids = []
 removed_chars_ids = [".", "+", ":", "&", "-", "?", " ", ";", ",", "'", "`", "(", ")", "{", "}"]
 
 
-def remove_accents(input_str):
+def remove_accents(input_str: str):
     # Remove accents from a given string
     nfkd_form = unicodedata.normalize('NFKD', input_str)
     only_ascii = nfkd_form.encode('ASCII', 'ignore')
     return only_ascii.decode('ASCII').strip()
 
 
-def saner_journal_name(name):
+def sort_yamls(yamls: list[str]):
+     return sorted(yamls, key=lambda k: "".join(k.split("\n")[0].split(": ")[1:]))
+
+
+def saner_journal_name(name: str):
     # Gets a name like IEEE TRANSACTIONS ON NETWORK AND SERVICE MANAGEMENT
     # and turns it into IEEE Transactions on Network and Service Management
     uncapitalize = ["a of", "a on", "and", "by", "for", "in", "on", "to",
@@ -207,7 +211,7 @@ def parse_bibtex(bibtex):
         elif key == 'url':
             citation['url'] = value.strip()
 
-    return yamls
+    return sort_yamls(yamls)
 
 
 def main():
@@ -236,37 +240,47 @@ def main():
 
     registered_authors = os.popen("cat ../_data/people.yml | grep \"#--#--#--#--#--#\" -B 100000 | yq eval '.[] | [.name,.surname] | join(\"\")' | sed \"s/ //g\"").read().splitlines()
 
+    tbp = []
+    for k in global_authors:
+        if k in registered_authors:
+            continue
+        tbp.append(
+            "- id: " + k + "\n" +
+            "  name: " + global_authors[k][0].replace("-", " ") + "\n" +
+            "  surname: " + global_authors[k][1] + "\n")
+
+    tbp = sort_yamls(tbp)
     with open('tmp/people_generated.yml', 'w') as people:
-        for k in global_authors:
-            if k in registered_authors:
-                continue
-            print(
-                "- id: " + k + "\n" +
-                "  name: " + global_authors[k][0].replace("-", " ") + "\n"+
-                "  surname: " + global_authors[k][1] + "\n",
-                file=people)
+        for i in tbp:
+            print(i, file=people)
+
     # Parse conferences
+    tbp = []
+    for k in destinations.keys():
+        v = destinations[k]
+        name = v["name"]
+        __type = v["type"]
+        data = "- id: " + k + "\n" + \
+            "  name: " + name + "\n" + \
+            "  type: " + __type + "\n"
+
+        if v["url"] is not None and v["url"] != "":
+            data += "  url: " + v["url"] + "\n"
+
+        if __type == 'conference':
+            if v["acronym"] is not None and v["acronym"] != "":
+                data += "  acronym: " + v["acronym"] + "\n"
+            if v["proceedings"] is not None and v["proceedings"] != "":
+                data += "  proceedings: " + v["proceedings"] + "\n"
+            if v["location"] is not None and v["location"] != "":
+                data += "  location: " + v["location"] + "\n"
+            
+        tbp.append(data)
+    tbp = sort_yamls(tbp)
+
     with open('tmp/destinations_generated.yml', 'w') as destinationsf:
-        for k in destinations.keys():
-            v = destinations[k]
-            name = v["name"]
-            __type = v["type"]
-            data = "- id: " + k + "\n" + \
-                "  name: " + name + "\n" + \
-                "  type: " + __type + "\n"
-
-            if v["url"] is not None and v["url"] != "":
-                data += "  url: " + v["url"] + "\n"
-
-            if __type == 'conference':
-                if v["acronym"] is not None and v["acronym"] != "":
-                    data += "  acronym: " + v["acronym"] + "\n"
-                if v["proceedings"] is not None and v["proceedings"] != "":
-                    data += "  proceedings: " + v["proceedings"] + "\n"
-                if v["location"] is not None and v["location"] != "":
-                    data += "  location: " + v["location"] + "\n"
-
-            print(data, file=destinationsf)
+        for i in tbp:
+            print(i, file=destinationsf)
 
 
 if __name__ == '__main__':
