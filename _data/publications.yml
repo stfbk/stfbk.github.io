@@ -3,151 +3,65 @@
 # The following string is a separator used by the parser to trim away generated content
 # Please, please, please, keep this here!
 #--#--#--#--#--#
-- id: istherelightattheendsofthetunnel?wirelesssensornetworksforadaptivelightinginroadtunnels2011
-  id_iris: 24549,
-  title: "Is There Light at the Ends of the Tunnel? Wireless Sensor Networks for Adaptive Lighting in Road Tunnels"
+- id: aadsanoise-robustanomalydetectionframeworkforindustrialcontrolsystems2020
+  id_iris: 320084,
+  title: "AADS: A Noise-Robust Anomaly Detection Framework for Industrial Control Systems"
   authors:
-    - MatteoCeriotti
-    - MicheleCorra
-    - LeandroDOrazio
+    - MagedAbdelaty
     - RobertoDoriguzziCorin
-    - DanieleFacchin
-    - StefanGuna
-    - GianPaoloJesi
-    - RenatoLoCigno
-    - LucaMottola
-    - AmyL.Murphy
-    - MassimoPescalli
-    - GianPietroPicco
-    - DenisPregnolato
-    - CarloalbertoTorghele
-  destination: Proceedingsofthe10thIntConferenceonInformationProcessinginSensorNetworks
-  year: 2011
+    - DomenicoSiracusa
+  destination: Proceedingsof21stInternationalConferenceonInformationandCommunicationsSecurityICICS2019
+  year: 2020
+  doi: 10.1007/978-3-030-41579-2_4
 
 
-- id: airolabaframeworktowardeffectivevirtualisationofmulti-hopwirelessnetworks2011
-  id_iris: 313699,
-  title: "AiroLAB: A framework toward effective virtualisation of multi-hop wireless networks"
+- id: ablockchain-basedbrokerageplatformforfogcomputingresourcefederation2020
+  id_iris: 320524,
+  title: "A Blockchain-based Brokerage Platform for Fog Computing Resource Federation"
   authors:
-    - RobertoDoriguzziCorin
-    - R.Riggio
-    - D.Miorandi
+    - MarcoSavi
+    - DanieleSantoro
+    - KatarzynaTeresaDiMeo
+    - DanielePizzolli
+    - PincheiraMiguel
+    - RaffaeleGiaffreda
+    - SilvioCretti
+    - Seung-wooKum
+    - DomenicoSiracusa
+  destination: ProceedingsofConferenceonInnovationinCloudsInternetandNetworks
+  year: 2020
+  doi: 10.1109/ICIN48450.2020.9059337
+
+
+- id: acontrolplaneenablingautomatedandfullyadaptivenetworktrafficmonitoringwithebpf2022
+  id_iris: 333767,
+  title: "A Control Plane Enabling Automated and Fully Adaptive Network Traffic Monitoring with eBPF"
+  authors:
+    - SimoneMagnani
+    - FulvioRisso
+    - DomenicoSiracusa
+  destination: IEEEACCESS
+  year: 2022
+  doi: 10.1109/ACCESS.2022.3202644
+
+
+- id: acontrolplaneframeworkforfuturecognitiveheterogeneousopticalnetworks2012
+  id_iris: 313721,
+  title: "A control plane framework for future cognitive heterogeneous optical networks"
+  authors:
+    - DomenicoSiracusa
     - ElioSalvadori
-  destination: INTERNATIONALJOURNALOFCOMMUNICATIONNETWORKSANDDISTRIBUTEDSYSTEMS
-  year: 2011
-  doi: 10.1504/IJCNDS.2011.039537
-
-
-- id: demonstratinggeneralizedvirtualtopologiesinanopenflownetwork2011
-  id_iris: 313723,
-  title: "Demonstrating generalized virtual topologies in an openflow network"
-  authors:
-    - ElioSalvadori
-    - RobertoDoriguzziCorin
-    - MatteoGerola
-    - A.Broglio
-    - FrancescoDePellegrini
-  destination: ProceedingsACMSIGCOMM2011conference
-  year: 2011
-  doi: 10.1145/2018436.2018520
-
-
-- id: generalizingvirtualnetworktopologiesinopenflow-basednetworks2011
-  id_iris: 313691,
-  title: "Generalizing virtual network topologies in OpenFlow-based networks"
-  authors:
-    - ElioSalvadori
-    - RobertoDoriguzziCorin
-    - A.Broglio
-    - MatteoGerola
-  destination: ProceedingsIEEEGlobalTelecommunicationsConferenceGLOBECOM20112011
-  year: 2011
-  doi: 10.1109/GLOCOM.2011.6134525
-
-
-- id: airolableveragingonvirtualizationtointroducecontrolledexperimentationinoperationalmulti-hopwirelessnetworks2011
-  id_iris: 314004,
-  title: "AiroLAB: Leveraging on virtualization to introduce controlled experimentation in operational multi-hop wireless networks"
-  authors:
-    - RobertoDoriguzziCorin
-    - RobertoRiggio
-    - DanieleMiorandi
-    - ElioSalvadori
-  destination: Proceedingsofthe6thInternationalConferenceonTestbedsandResearchInfrastructuresfortheDevelopmentofNetworksandCommunitiesTRIDENTCOM2010
-  year: 2011
-  doi: 10.1007/978-3-642-17851-1_27
-
-
-- id: tinykeyalight-weightarchitectureforwirelesssensornetworkssecuringreal-worldapplications2011
-  id_iris: 313749,
-  title: "TinyKey: A light-weight architecture for wireless sensor networks securing real-world applications"
-  authors:
-    - RobertoDoriguzziCorin
-    - G.Russello
-    - ElioSalvadori
-  destination: ProceedingsEighthInternationalConferenceonWirelessOnDemandNetworkSystemsandServicesWONS2011
-  year: 2011
-  doi: 10.1109/WONS.2011.5720202
-
-
-- id: emulatingmulti-hopwirelessnetworksoveraplanetaryscaletestbed2011
-  id_iris: 314010,
-  title: "Emulating multi-hop wireless networks over a planetary scale testbed"
-  authors:
-    - ElioSalvadori
-    - RobertoDoriguzziCorin
-    - RobertoRiggio
-    - AttilioBroglio
-    - FabrizioGranelli
-    - AndyBavier
-  destination: Proceedingsofthe6thInternationalConferenceonTestbedsandResearchInfrastructuresfortheDevelopmentofNetworksandCommunities
-  year: 2011
-  doi: 10.1007/978-3-642-17851-1_53
-
-
-- id: vertigonetworkvirtualizationandbeyond2012
-  id_iris: 313693,
-  title: "VeRTIGO: Network virtualization and beyond"
-  authors:
-    - RobertoDoriguzziCorin
-    - MatteoGerola
-    - R.Riggio
-    - FrancescoDePellegrini
-    - ElioSalvadori
-  destination: ProceedingsEuropeanWorkshoponSoftwareDefinedNetworkingEWSDN2012
+    - A.Francescon
+    - AndreaZanardi
+    - M.Angelou
+    - D.Klonidis
+    - I.Tomkos
+    - D.Sanchez
+    - R.J.Duran
+    - DeMiguel
+  destination: Proceedings14thInternationalConferenceonTransparentOpticalNetworksICTON2012
   year: 2012
-  doi: 10.1109/EWSDN.2012.19
-
-
-- id: demonstratinginter-testbednetworkvirtualizationinofeliasdnexperimentalfacility2013
-  id_iris: 315083,
-  title: "Demonstrating inter-testbed network virtualization in OFELIA SDN experimental facility"
-  authors:
-    - MatteoGerola
-    - RobertoDoriguzziCorin
-    - R.Riggio
-    - FrancescoDePellegrini
-    - ElioSalvadori
-    - H.Woesner
-    - T.Rothe
-    - M.Sune
-    - L.Bergesio
-  destination: ProceedingsIEEEConferenceonComputerCommunicationsWorkshopsINFOCOMWKSHPS
-  year: 2013
-  doi: 10.1109/INFCOMW.2013.6970724
-
-
-- id: progressivevirtualtopologyembeddinginopenflownetworks2013
-  id_iris: 313729,
-  title: "Progressive virtual topology embedding in OpenFlow networks"
-  authors:
-    - R.Riggio
-    - ElioSalvadori
-    - MatteoGerola
-    - RobertoDoriguzziCorin
-    - FrancescoDePellegrini
-  destination: proceedingsIFIP/IEEEInternationalSymposiumonIntegratedNetworkManagementIM20132013
-  year: 2013
+  doi: 10.1109/ICTON.2012.6253766
 
 
 - id: adatapath-centricvirtualizationmechanismforopenflownetworks2014
@@ -162,402 +76,6 @@
   destination: ProceedingsThirdEuropeanWorkshoponSoftwareDefinedNetworksEWSDN2014
   year: 2014
   doi: 10.1109/EWSDN.2014.19
-
-
-- id: tinykey,apragmaticandenergyefficientsecuritylayerforwirelesssensornetworks2014
-  id_iris: 314448,
-  title: "TinyKey, a pragmatic and energy efficient security layer for wireless sensor networks"
-  authors:
-    - RobertoDoriguzziCorin
-    - GiovanniRussello
-    - ElioSalvadori
-  destination: SecurityforMultihopWirelessNetworks
-  year: 2014
-
-
-- id: designandimplementationofanopenflowhardwareabstractionlayer2014
-  id_iris: 314639,
-  title: "Design and Implementation of an OpenFlow Hardware Abstraction Layer"
-  authors:
-    - DamianParniewicz
-    - RobertoDoriguzziCorin
-    - LukaszOgrodowczyk
-    - MehdiRashidiFard
-    - JonMatias
-    - MatteoGerola
-    - VictorFuentes
-    - UmarToseef
-    - AdelZaalouk
-    - BartoszBelter
-    - EduardoJacob
-    - KostasPentikousis
-  abstract: >
-    OpenFlow is a leading standard for Software-Defined Networking (SDN) and has already played a significant role in reshaping network infrastructures. However, a wide range of existing provider domains is still not equipped with a framework that supports wider deployment of an OpenFlow-based control plane beyond Ethernet- dominated networks. We address this gap by introducing a Hardware Abstraction Layer (HAL) which can transform legacy network elements into OpenFlow capable devices. This paper details the functional architecture of HAL, discusses the key design aspects and explains how HAL can support a number of network device classes. In addition, this paper presents the implementation details of HAL for hardware platforms such as DOCSIS (Data over Cable Service Interface Specification) and DWDM (Dense Wave- length Division Multiplexing) which have so far received little attention by the OpenFlow research community despite their wide real-world deployment. Categories
-  destination: ProceedingsofSIGCOMMDCC
-  year: 2014
-  doi: 10.1145/2627566.2627577
-
-
-- id: demonstratingadistributedandversion-agnosticopenflowslicingmechanism2014
-  id_iris: 314000,
-  title: "Demonstrating a distributed and version-agnostic OpenFlow slicing mechanism"
-  authors:
-    - DanielDepaoli
-    - RobertoDoriguzziCorin
-    - MatteoGerola
-    - ElioSalvadori
-  destination: Proceedings20143rdEuropeanWorkshoponSoftwareDefinedNetworksEWSDN2014
-  year: 2014
-  doi: 10.1109/EWSDN.2014.21
-
-
-- id: leadingtheofeliafacilitybeyondopenflow1.0experimentations2014
-  id_iris: 313998,
-  title: "Leading the OFELIA facility beyond OpenFlow 1.0 experimentations"
-  authors:
-    - MicheleSantuari
-    - RobertoDoriguzziCorin
-    - MatteoGerola
-    - ElioSalvadori
-    - UmarToseef
-    - AdelZaalouk
-    - KrzysztofDombek
-    - DamianParniewicz
-    - AliHammad
-    - MehdiRashidi-Fard
-    - EduardoJacob
-    - JonMatias
-  destination: Proceedings20143rdEuropeanWorkshoponSoftwareDefinedNetworksEWSDN2014
-  year: 2014
-  doi: 10.1109/EWSDN.2014.20
-
-
-- id: hardwareabstractionlayerfornon-openflowcapabledevices2014
-  id_iris: 314902,
-  title: "Hardware Abstraction Layer for non-OpenFlow capable devices"
-  authors:
-    - Ogrodowczykukasz
-    - BartoszBelter
-    - ArturBinczewski
-    - KrzysztofDombek
-    - ArturJuszczyk
-    - IwoOlszewski
-    - DamianParniewicz
-    - RobertoDoriguzziCorin
-    - MatteoGerola
-    - ElioSalvadori
-    - KostasPentikousis
-    - UmarToseef
-    - WoesnerHagen
-    - MehdiRashidiFard
-    - JonMatias
-    - VictorFuentes
-    - MaiderHuarte
-    - EduardoJacob
-    - MarekMichalski
-    - RemigiuszRajewski
-  abstract: >
-    This paper describes a viable and experimentally-tested way forward for augmenting legacy network elements with software-defined networking control. Following and implementation-driven approach we have explored the possibilities for adding SDN-based interfaces to devices which are not compatible with OpenFlow. OpenFlow is arguably a leading control-place protocol for the upcoming generation of operator networks. Yet not all domains will be equipped from the very beginning with compatible supporting frameworks. To address this gap, we introduce the Hardware Abstraction Layer (HAL) for non-OpenFlow capable devices which tackles this problem. We discuss the advantages of the proposed approach and explain how a HAL-based architecture can support different classes of network devices.
-  destination: TERENANetworkingConference
-  year: 2014
-
-
-- id: netideremovingvendorlock-ininsdn2015
-  id_iris: 310352,
-  title: "NetIDE: removing vendor lock-in in SDN"
-  authors:
-    - RobertoDoriguzziCorin
-    - ElioSalvadori
-    - P.A.A.Gutierrez
-    - C.Stritzke
-    - A.Leckey
-    - K.Phemius
-    - E.Rojas
-  destination: Proceedings1stIEEEConferenceonNetworkSoftwarizationNetSoft2015
-  year: 2015
-  doi: 10.1109/NETSOFT.2015.7116170
-
-
-- id: anapproachtoexposingandsharingnetworkservicesinsoftware-definednetworking2015
-  id_iris: 310595,
-  title: "An Approach to Exposing and Sharing Network Services in Software-Defined Networking"
-  authors:
-    - RobertoDoriguzziCorin
-    - ElioSalvadori
-    - MatteoGerola
-    - MicheleSantuari
-  destination: ProceedingsACMSigcommSymposiumonSDNResearchSOSR
-  year: 2015
-
-
-- id: towardsanautomatedframeworktoinstantiatevirtualnetworksinopenflow-basedinfrastructures2016
-  id_iris: 309564,
-  title: "Towards an automated framework to instantiate virtual networks in OpenFlow-based infrastructures"
-  authors:
-    - RobertoDoriguzziCorin
-    - ElioSalvadori
-    - MatteoGerola
-  destination: INTERNATIONALJOURNALOFCOMMUNICATIONNETWORKSANDDISTRIBUTEDSYSTEMS
-  year: 2016
-  doi: 10.1504/IJCNDS.2016.080110
-
-
-- id: policy-basedrestorationinip/opticaltransportnetworks2016
-  id_iris: 311319,
-  title: "Policy-based Restoration in IP/Optical Transport Networks"
-  authors:
-    - MicheleSantuari
-    - T.Szyrkowiec
-    - M.Chamania
-    - RobertoDoriguzziCorin
-    - VictorLopez
-    - DomenicoSiracusa
-  destination: ProceedingsIEEENetSoftConferenceandWorkshopsNetSoft2016
-  year: 2016
-  doi: 10.1109/NETSOFT.2016.7502409
-
-
-- id: netideall-in-oneframeworkfornextgeneration,composedsdnapplications2016
-  id_iris: 310747,
-  title: "NetIDE: All-in-one framework for next generation, composed SDN applications"
-  authors:
-    - P.A.A.Gutierrez
-    - E.Rojas
-    - A.Schwabe
-    - C.Stritzke
-    - RobertoDoriguzziCorin
-    - A.Leckey
-    - G.Petralia
-    - AntonioMarsico
-    - K.Phemius
-    - S.Tamurejo
-  destination: ProceedingsIEEENetSoftConferenceandWorkshopsNetSoft2016
-  year: 2016
-  doi: 10.1109/NETSOFT.2016.7502408
-
-
-- id: empoweringnetworkoperatingsystemswithmemorymanagementtechniques2016
-  id_iris: 311376,
-  title: "Empowering Network Operating Systems with Memory Management Techniques"
-  authors:
-    - RobertoDoriguzziCorin
-    - DomenicoSiracusa
-    - ElioSalvadori
-    - A.Schwabe
-  destination: ProceedingsIEEE/IFIPNetworkOperationsandManagementSymposiumNOMS2016
-  year: 2016
-  doi: 10.1109/NOMS.2016.7502889
-
-
-- id: anon-disruptiveautomatedapproachtoupdatesdnapplicationsatruntime2016
-  id_iris: 311378,
-  title: "A Non-disruptive Automated Approach to Update SDN Applications at Runtime"
-  authors:
-    - AntonioMarsico
-    - RobertoDoriguzziCorin
-    - MatteoGerola
-    - DomenicoSiracusa
-    - A.Schwabe
-  destination: ProceedingsIEEE/IFIPNetworkOperationsandManagementSymposiumNOMS2016
-  year: 2016
-  doi: 10.1109/NOMS.2016.7502946
-
-
-- id: aneffectiveswappingmechanismtoovercomethememorylimitationofsdndevices2017
-  id_iris: 310536,
-  title: "An effective swapping mechanism to overcome the memory limitation of SDN devices"
-  authors:
-    - AntonioMarsico
-    - RobertoDoriguzziCorin
-    - DomenicoSiracusa
-  destination: ProceedingsIFIP/IEEESymposiumonIntegratedNetworkandServiceManagementIM2017
-  year: 2017
-  doi: 10.23919/INM.2017.7987286
-
-
-- id: overcomingthememorylimitsofnetworkdevicesinsdn-enableddatacenters2017
-  id_iris: 310538,
-  title: "Overcoming the memory limits of network devices in SDN-enabled data centers"
-  authors:
-    - AntonioMarsico
-    - RobertoDoriguzziCorin
-    - DomenicoSiracusa
-  destination: ProceedingsIFIP/IEEESymposiumonIntegratedNetworkandServiceManagementIM2017
-  year: 2017
-  doi: 10.23919/INM.2017.7987402
-
-
-- id: reusabilityofsoftware-definednetworkingapplicationsaruntime,multi-controllerapproach2017
-  id_iris: 311444,
-  title: "Reusability of Software-Defined Networking Applications: A Runtime, Multi-Controller Approach"
-  authors:
-    - RobertoDoriguzziCorin
-    - P.A.ArandaGutierrez
-    - E.Rojas
-    - H.Karl
-    - ElioSalvadori
-  destination: Proceedings12thInternationalConferenceonNetworkandServiceManagementCNSM2016
-  year: 2017
-  doi: 10.1109/CNSM.2016.7818419
-
-
-- id: application-centricprovisioningofvirtualsecuritynetworkfunctions2017
-  id_iris: 311471,
-  title: "Application-Centric Provisioning of Virtual Security Network Functions"
-  authors:
-    - RobertoDoriguzziCorin
-    - SandraScott-Hayward
-    - DomenicoSiracusa
-    - ElioSalvadori
-  destination: ProceedingsofIEEEInternationalWorkshoponSecurityinNFVSDNSN2017
-  year: 2017
-  doi: 10.1109/NFV-SDN.2017.8169861
-
-
-- id: arewereadytodrivesoftware-definednetworks?acomprehensivesurveyonmanagementtoolsandtechniques2018
-  id_iris: 313515,
-  title: "Are We Ready to Drive Software-Defined Networks? A Comprehensive Survey on Management Tools and Techniques"
-  authors:
-    - RojasElisa
-    - RobertoDoriguzziCorin
-    - TamurejoSergio
-    - BeatoAndres
-    - SchwabeArne
-    - PhemiusKevin
-    - GuerreroCarmen
-  destination: ACMCOMPUTINGSURVEYS
-  year: 2018
-  doi: 10.1145/3165290
-
-
-- id: enrichingintent-basedsdntoeasecustomerservicemanagementintransportnetworks2018
-  id_iris: 314815,
-  title: "Enriching Intent-based SDN to Ease Customer Service Management in Transport Networks"
-  authors:
-    - AntonioMarsico
-    - MohitChamania
-    - RobertoDoriguzziCorin
-    - ChrisMatrakidis
-    - DimitriosKlonidis
-    - PontusSkoldstrom
-    - AbdulGhafoor
-    - StephaneJunique
-    - VictorLopez
-    - DomenicoSiracusa
-  destination: ProceedingsofAdvancedPhotonics2018OsaTechnicalDigest
-  year: 2018
-  doi: 10.1364/NETWORKS.2018.NeW2F.2
-
-
-- id: introducingsmartnicsinserver-baseddataplaneprocessingtheddosmitigationusecase2019
-  id_iris: 319108,
-  title: "Introducing SmartNICs in Server-Based Data Plane Processing: The DDoS Mitigation Use Case"
-  authors:
-    - SebastianoMiano
-    - RobertoDoriguzziCorin
-    - FulvioRisso
-    - DomenicoSiracusa
-    - R.Sommese
-  abstract: >
-    n the recent years, the complexity of the network data plane and their requirements in terms of agility has increased significantly, with many network functions now implemented in software and executed directly in datacenter servers. To avoid bottlenecks and to keep up with the ever increasing network speeds, recent approaches propose to move the software packet processing in kernel space using technologies such as eBPF/XDP, or to offload (part of it) in specialized hardware, the so called SmartNICs. This paper aims at guiding the reader through the intricacies of the above mentioned technologies, leveraging SmartNICs to build a more efficient processing pipeline and providing concrete insights on their usage for a specific use case, namely, the mitigation of Distributed Denial of Service (DDoS) attacks. In particular, we enhance the mitigation capabilities of edge servers by transparently offloading a portion of DDoS mitigation rules in the SmartNIC, thus achieving a balanced combination of the XDP flexibility in operating traffic sampling and aggregation in the kernel, with the performance of hardware-based filtering. We evaluate the performance in different combinations of host and SmartNIC-based mitigation, showing that offloading part of the DDoS network function in the SmartNIC can indeed optimize the packet processing but only if combined with additional processing on the host kernel space.
-  destination: IEEEACCESS
-  year: 2019
-  doi: 10.1109/ACCESS.2019.2933491
-
-
-- id: dynamicandapplication-awareprovisioningofchainedvirtualsecuritynetworkfunctions2019
-  id_iris: 320124,
-  title: "Dynamic and Application-Aware Provisioning of Chained Virtual Security Network Functions"
-  authors:
-    - RobertoDoriguzziCorin
-    - SandraScott-Hayward
-    - DomenicoSiracusa
-    - MarcoSavi
-    - ElioSalvadori
-  abstract: >
-    A promising area of application for Network Function Virtualization (NFV) is in network security, where chains of Virtual Security Network Functions (VSNFs), i.e., security-specific virtual functions such as firewalls or Intrusion Prevention Systems, can be dynamically created and configured to inspect, filter or monitor the network traffic. However, the traffic handled by VSNFs could be sensitive to specific network requirements, such as minimum bandwidth or maximum end-to-end latency. Therefore, the decision on which VSNFs should apply for a given application, where to place them and how to connect them, should take such requirements into consideration. Otherwise, security services could affect the quality of service experienced by customers. In this paper we propose PESS (Progressive Embedding of Security Services), a solution to efficiently deploy chains of virtualised security functions based on the security requirements of individual applications and operators’ policies, while optimizing resource utilization. We provide the PESS mathematical model and heuristic solution. Simulation results show that, compared to state-of-the-art application-agnostic VSNF provisioning models, PESS reduces computational resource utilization by up to 50%, in different network scenarios. This result ultimately leads to a higher number of provisioned security services and to up to a threefold reduction in end-to-end latency of application traffic.
-  destination: IEEETRANSACTIONSONNETWORKANDSERVICEMANAGEMENT
-  year: 2019
-  doi: 10.1109/TNSM.2019.2941128
-
-
-- id: lucidapractical,lightweightdeeplearningsolutionforddosattackdetection2020
-  id_iris: 320986,
-  title: "LUCID: A Practical, Lightweight Deep Learning Solution for DDoS Attack Detection"
-  authors:
-    - RobertoDoriguzziCorin
-    - StuartMillar
-    - SandraScott-Hayward
-    - JesusMartinez-Del-Rincón
-    - DomenicoSiracusa
-  destination: IEEETRANSACTIONSONNETWORKANDSERVICEMANAGEMENT
-  year: 2020
-  doi: 10.1109/TNSM.2020.2971776
-
-
-- id: aadsanoise-robustanomalydetectionframeworkforindustrialcontrolsystems2020
-  id_iris: 320084,
-  title: "AADS: A Noise-Robust Anomaly Detection Framework for Industrial Control Systems"
-  authors:
-    - MagedAbdelaty
-    - RobertoDoriguzziCorin
-    - DomenicoSiracusa
-  destination: Proceedingsof21stInternationalConferenceonInformationandCommunicationsSecurityICICS2019
-  year: 2020
-  doi: 10.1007/978-3-030-41579-2_4
-
-
-- id: gadotgan-basedadversarialtrainingforrobustddosattackdetection2021
-  id_iris: 328747,
-  title: "GaDoT: GAN-based Adversarial Training for Robust DDoS Attack Detection"
-  authors:
-    - MagedAbdelaty
-    - SandraScott-Hayward
-    - RobertoDoriguzziCorin
-    - DomenicoSiracusa
-  destination: Proceedingsof2021IEEEConferenceonCommunicationsandNetworkSecurityCNS
-  year: 2021
-  doi: 10.1109/CNS53000.2021.9705040
-
-
-- id: apracticalandadaptiveapproachtopredictingindoorco22021
-  id_iris: 328986,
-  title: "A Practical and Adaptive Approach to Predicting Indoor CO2"
-  authors:
-    - GiacomoSegala
-    - RobertoDoriguzziCorin
-    - ClaudioPeroni
-    - TommasoGazzini
-    - DomenicoSiracusa
-  destination: APPLIEDSCIENCES
-  year: 2021
-  doi: 10.3390/app112210771
-
-
-- id: hybridsdnevolutionacomprehensivesurveyofthestate-of-the-art2021
-  id_iris: 325968,
-  title: "Hybrid SDN evolution: A comprehensive survey of the state-of-the-art"
-  authors:
-    - SajadKhorsandroo
-    - AdrianGallegoSanchez
-    - AliSamanTosun
-    - JoseManuelArcoRodriguez
-    - RobertoDoriguzziCorin
-  destination: COMPUTERNETWORKS
-  year: 2021
-  doi: 10.1016/j.comnet.2021.107981
-
-
-- id: daicsadeeplearningsolutionforanomalydetectioninindustrialcontrolsystems2022
-  id_iris: 326266,
-  title: "DAICS: A Deep Learning Solution for Anomaly Detection in Industrial Control Systems"
-  authors:
-    - MagedAbdelaty
-    - RobertoDoriguzziCorin
-    - DomenicoSiracusa
-  destination: IEEETRANSACTIONSONEMERGINGTOPICSINCOMPUTING
-  year: 2022
-  doi: 10.1109/TETC.2021.3073017
 
 
 - id: adigitaltwinforthe5gerathespidercyberrange2022
@@ -581,18 +99,359 @@
   doi: 10.1109/WoWMoM54355.2022.00088
 
 
-- id: towardsapplication-awareprovisioningofsecurityserviceswithkubernetes2022
-  id_iris: 333708,
-  title: "Towards Application-Aware Provisioning of Security Services with Kubernetes"
+- id: advantagesofacontentdeliverynetworkarchitecturebasedonwdmandcarrierethernetmulticasting2013
+  id_iris: 315225,
+  title: "Advantages of a Content Delivery Network Architecture Based on WDM and Carrier Ethernet Multicasting"
+  authors:
+    - G.Maier
+    - A.Pattavina
+    - DomenicoSiracusa
+    - A.Valenti
+    - F.Matera
+  destination: Fotonica2013
+  year: 2013
+
+
+- id: adynamicmulti-layerresourceallocationandoptimizationframeworkinapplication-centricnetworks2018
+  id_iris: 315105,
+  title: "A Dynamic Multi-Layer Resource Allocation and Optimization Framework in Application-Centric Networks"
+  authors:
+    - C.Rozic
+    - MarcoSavi
+    - ChrisMatrakidis
+    - D.Klonidis
+    - DomenicoSiracusa
+  destination: JOURNALOFLIGHTWAVETECHNOLOGY
+  year: 2018
+  doi: 10.1109/JLT.2018.2863564
+
+
+- id: aframeworkfordynamicmulti-layerresourceallocationinapplication-centricnetworking2017
+  id_iris: 310157,
+  title: "A Framework for Dynamic Multi-layer Resource Allocation in Application-Centric Networking"
+  authors:
+    - CirilRozic
+    - MarcoSavi
+    - ChrisMatrakidis
+    - DimitriosKlonidis
+    - DomenicoSiracusa
+    - IoannisTomkos
+  abstract: >
+    In an SDN-based network, connection requests are accommodated so that the network application requirements are met. We devise an approach where optical network resources can be allocated and released dynamically through an SDN orchestrator.
+  destination: Proceedingsof2017OpticalFiberCommunicationConferenceOFC2017
+  year: 2017
+  doi: 10.1364/OFC.2017.W3I.4
+
+
+- id: aframeworkforinterferencecontrolinsoftware-definedmobileradionetworks2015
+  id_iris: 310141,
+  title: "A Framework for Interference Control in Software-Defined Mobile Radio Networks"
+  authors:
+    - A.A.Gebremariam
+    - LeonardoGoratti
+    - RobertoRiggio
+    - DomenicoSiracusa
+    - TinkuMohamedRasheed
+    - F.Granelli
+  destination: Proceedingsof12thAnnualIEEEConsumerCommunicationsandNetworkingConferenceCCNC
+  year: 2015
+  doi: 10.1109/CCNC.2015.7158094
+
+
+- id: airolabaframeworktowardeffectivevirtualisationofmulti-hopwirelessnetworks2011
+  id_iris: 313699,
+  title: "AiroLAB: A framework toward effective virtualisation of multi-hop wireless networks"
   authors:
     - RobertoDoriguzziCorin
-    - SilvioCretti
-    - TizianaCatena
-    - SimoneMagnani
+    - R.Riggio
+    - D.Miorandi
+    - ElioSalvadori
+  destination: INTERNATIONALJOURNALOFCOMMUNICATIONNETWORKSANDDISTRIBUTEDSYSTEMS
+  year: 2011
+  doi: 10.1504/IJCNDS.2011.039537
+
+
+- id: airolableveragingonvirtualizationtointroducecontrolledexperimentationinoperationalmulti-hopwirelessnetworks2011
+  id_iris: 314004,
+  title: "AiroLAB: Leveraging on virtualization to introduce controlled experimentation in operational multi-hop wireless networks"
+  authors:
+    - RobertoDoriguzziCorin
+    - RobertoRiggio
+    - DanieleMiorandi
+    - ElioSalvadori
+  destination: Proceedingsofthe6thInternationalConferenceonTestbedsandResearchInfrastructuresfortheDevelopmentofNetworksandCommunitiesTRIDENTCOM2010
+  year: 2011
+  doi: 10.1007/978-3-642-17851-1_27
+
+
+- id: anapplication-awaremulti-layerserviceprovisioningalgorithmbasedonauxiliarygraphs2017
+  id_iris: 310159,
+  title: "An Application-Aware Multi-Layer Service Provisioning Algorithm based on Auxiliary Graphs"
+  authors:
+    - MarcoSavi
+    - FedericoPederzolli
     - DomenicoSiracusa
-  destination: 2022IEEE8thInternationalConferenceonNetworkSoftwarizationNetSoft
-  year: 2022
-  doi: 10.1109/NetSoft54395.2022.9844023
+  abstract: >
+    A novel application-aware multi-layer resource allocation algorithm is proposed. We demonstrate that it prevents the violation of application requirements (bandwidth, latency, availability, encryption), while keeping blocking probability lower than an existing algorithm.
+  destination: Proceedingsof2017OpticalFiberCommunicationConferenceOFC2017
+  year: 2017
+  doi: 10.1364/OFC.2017.W3I.2
+
+
+- id: anapplicationofkubernetesclusterfederationinfogcomputing2021
+  id_iris: 324366,
+  title: "An Application of Kubernetes Cluster Federation in Fog Computing"
+  authors:
+    - FrancescomariaFaticanti
+    - DanieleSantoro
+    - SilvioCretti
+    - DomenicoSiracusa
+  destination: Proceedingsof202124thConferenceonInnovationinCloudsInternetandNetworksandWorkshopsICIN
+  year: 2021
+  doi: 10.1109/ICIN51074.2021.9385548
+
+
+- id: anapproachtoexposingandsharingnetworkservicesinsoftware-definednetworking2015
+  id_iris: 310595,
+  title: "An Approach to Exposing and Sharing Network Services in Software-Defined Networking"
+  authors:
+    - RobertoDoriguzziCorin
+    - ElioSalvadori
+    - MatteoGerola
+    - MicheleSantuari
+  destination: ProceedingsACMSigcommSymposiumonSDNResearchSOSR
+  year: 2015
+
+
+- id: anautomatednegotiationframeworkforapplication-awaretransportnetworkservices2020
+  id_iris: 321746,
+  title: "An Automated Negotiation Framework for Application-Aware Transport Network Services"
+  authors:
+    - AntonioMarsico
+    - MarcoSavi
+    - DomenicoSiracusa
+    - ElioSalvadori
+  destination: OPTICALSWITCHINGANDNETWORKING
+  year: 2020
+  doi: 10.1016/j.osn.2020.100571
+
+
+- id: anautomatedservice-downgradenegotiationschemeforapplication-centricnetworks2018
+  id_iris: 313839,
+  title: "An Automated Service-downgrade Negotiation Scheme for Application-centric Networks"
+  authors:
+    - AntonioMarsico
+    - MarcoSavi
+    - DomenicoSiracusa
+    - ElioSalvadori
+  destination: ProceedingsOpticalFiberCommunicationConference2018
+  year: 2018
+  doi: 10.1364/OFC.2018.Th1D.3
+
+
+- id: aneffectiveswappingmechanismtoovercomethememorylimitationofsdndevices2017
+  id_iris: 310536,
+  title: "An effective swapping mechanism to overcome the memory limitation of SDN devices"
+  authors:
+    - AntonioMarsico
+    - RobertoDoriguzziCorin
+    - DomenicoSiracusa
+  destination: ProceedingsIFIP/IEEESymposiumonIntegratedNetworkandServiceManagementIM2017
+  year: 2017
+  doi: 10.23919/INM.2017.7987286
+
+
+- id: anincrementally-deployablep4-enabledarchitecturefornetwork-wideheavy-hitterdetection2020
+  id_iris: 320826,
+  title: "An Incrementally-deployable P4-enabled Architecture for Network-wide Heavy-hitter Detection"
+  authors:
+    - DamuDing
+    - MarcoSavi
+    - GianniAntichi
+    - DomenicoSiracusa
+  destination: IEEETRANSACTIONSONNETWORKANDSERVICEMANAGEMENT
+  year: 2020
+  doi: 10.1109/TNSM.2020.2968979
+
+
+- id: aninteractiveintent-basednegotiationschemeforapplication-centricnetworks2017
+  id_iris: 310573,
+  title: "An interactive intent-based negotiation scheme for application-centric networks"
+  authors:
+    - AntonioMarsico
+    - MicheleSantuari
+    - MarcoSavi
+    - DomenicoSiracusa
+    - AbdulGhafoor
+    - StephaneJunique
+    - PontusSkoldstrom
+  destination: ProceedingsIEEEConferenceonNetworkSoftwarizationNetSoft2017
+  year: 2017
+  doi: 10.1109/NETSOFT.2017.8004251
+
+
+- id: anon-disruptiveautomatedapproachtoupdatesdnapplicationsatruntime2016
+  id_iris: 311378,
+  title: "A Non-disruptive Automated Approach to Update SDN Applications at Runtime"
+  authors:
+    - AntonioMarsico
+    - RobertoDoriguzziCorin
+    - MatteoGerola
+    - DomenicoSiracusa
+    - A.Schwabe
+  destination: ProceedingsIEEE/IFIPNetworkOperationsandManagementSymposiumNOMS2016
+  year: 2016
+  doi: 10.1109/NOMS.2016.7502946
+
+
+- id: application-awareserviceprovisioningandrestorationinsdn-basedmulti-layertransportnetworks2018
+  id_iris: 314803,
+  title: "Application-aware Service Provisioning and Restoration in SDN-based Multi-layer Transport Networks"
+  authors:
+    - MarcoSavi
+    - DomenicoSiracusa
+  destination: OPTICALSWITCHINGANDNETWORKING
+  year: 2018
+  doi: 10.1016/j.osn.2018.06.005
+
+
+- id: application-centricdynamicmulti-layerresourceallocationinavailability-awaresdn-orchestratednetworks2017
+  id_iris: 310534,
+  title: "Application-Centric Dynamic Multi-layer Resource Allocation in Availability-aware SDN-Orchestrated Networks"
+  authors:
+    - CirilRozic
+    - MarcoSavi
+    - ChrisMatrakidis
+    - DimitriosKlonidis
+    - DomenicoSiracusa
+    - IoannisTomkos
+  destination: Proceedings2017EuropeanConferenceonOpticalCommunicationECOC2017
+  year: 2017
+
+
+- id: application-centricprovisioningofvirtualsecuritynetworkfunctions2017
+  id_iris: 311471,
+  title: "Application-Centric Provisioning of Virtual Security Network Functions"
+  authors:
+    - RobertoDoriguzziCorin
+    - SandraScott-Hayward
+    - DomenicoSiracusa
+    - ElioSalvadori
+  destination: ProceedingsofIEEEInternationalWorkshoponSecurityinNFVSDNSN2017
+  year: 2017
+  doi: 10.1109/NFV-SDN.2017.8169861
+
+
+- id: applicationawaremultilayercontrolandoptimizationofelasticwdmswitchedopticalnetworks2018
+  id_iris: 313841,
+  title: "Application aware multilayer control and optimization of elastic WDM switched optical networks"
+  authors:
+    - I.Tomkos
+    - C.Rozic
+    - MarcoSavi
+    - P.Skoldstrom
+    - VictorLopez
+    - M.Chamania
+    - DomenicoSiracusa
+    - ChrisMatrakidis
+    - D.Klonidis
+    - O.Gerstel
+  destination: ProceedingsOpticalFiberCommunicationConference2018
+  year: 2018
+  doi: 10.1364/OFC.2018.Th1D.4
+
+
+- id: apracticalandadaptiveapproachtopredictingindoorco22021
+  id_iris: 328986,
+  title: "A Practical and Adaptive Approach to Predicting Indoor CO2"
+  authors:
+    - GiacomoSegala
+    - RobertoDoriguzziCorin
+    - ClaudioPeroni
+    - TommasoGazzini
+    - DomenicoSiracusa
+  destination: APPLIEDSCIENCES
+  year: 2021
+  doi: 10.3390/app112210771
+
+
+- id: arewereadytodrivesoftware-definednetworks?acomprehensivesurveyonmanagementtoolsandtechniques2018
+  id_iris: 313515,
+  title: "Are We Ready to Drive Software-Defined Networks? A Comprehensive Survey on Management Tools and Techniques"
+  authors:
+    - RojasElisa
+    - RobertoDoriguzziCorin
+    - TamurejoSergio
+    - BeatoAndres
+    - SchwabeArne
+    - PhemiusKevin
+    - GuerreroCarmen
+  destination: ACMCOMPUTINGSURVEYS
+  year: 2018
+  doi: 10.1145/3165290
+
+
+- id: artificialintelligenceservicearchitectureforedgedevice2020
+  id_iris: 326726,
+  title: "Artificial Intelligence Service Architecture for Edge Device"
+  authors:
+    - Seung-wooKum
+    - YoungkeeKim
+    - DomenicoSiracusa
+    - JaewonMoon
+  destination: Proceedingsof2020IEEE10thInternationalConferenceonConsumerElectronicsICCEBerlin
+  year: 2020
+  doi: 10.1109/ICCE-Berlin50680.2020.9352184
+
+
+- id: automaticintent-basedsecureservicecreationthroughamultilayersdnnetworkorchestration2018
+  id_iris: 315349,
+  title: "Automatic intent-based secure service creation through a multilayer SDN network orchestration"
+  authors:
+    - ThomasSzyrkowiec
+    - MicheleSantuari
+    - MohitChamania
+    - DomenicoSiracusa
+    - AchimAutenrieth
+    - VictorLopez
+    - JooCho
+    - WolfgangKellerer
+  destination: JOURNALOFOPTICALCOMMUNICATIONSANDNETWORKING
+  year: 2018
+  doi: 10.1364/JOCN.10.000289
+
+
+- id: benefitsofmulti-layerapplication-awareresourceallocationandoptimization2017
+  id_iris: 310532,
+  title: "Benefits of Multi-Layer Application-Aware Resource Allocation and Optimization"
+  authors:
+    - MarcoSavi
+    - CirilRozic
+    - ChrisMatrakidis
+    - DimitriosKlonidis
+    - DomenicoSiracusa
+    - IoannisTomkos
+  destination: ProceedingsEuropeanConferenceonNetworksandCommunicationsEuCNC2017
+  year: 2017
+  doi: 10.1109/EuCNC.2017.7980661
+
+
+- id: classificationoffutureinternetinfrastructuresforexperimentation2011
+  id_iris: 315504,
+  title: "Classification of Future Internet infrastructures for experimentation"
+  authors:
+    - A.Cerezo
+    - P.Chas
+    - SilvioCretti
+    - AndreaMaestrini
+    - F.\'Alvarez
+    - ElioSalvadori
+    - J.Magen
+    - M.Boniface
+    - FedericoMicheleFacca
+    - F.Williams
+  destination: FutureInternetSymposium2011
+  year: 2011
 
 
 - id: cloud4iotaheterogeneous,distributedandautonomiccloudplatformfortheiot2016
@@ -611,334 +470,6 @@
   destination: ProceedingsIEEEInternationalConferenceonCloudComputingTechnologyandScienceCloudCom2016
   year: 2016
   doi: 10.1109/CloudCom.2016.0082
-
-
-- id: foggyaplatformforworkloadorchestrationinafogcomputingenvironment2017
-  id_iris: 312569,
-  title: "Foggy: A Platform for Workload Orchestration in a Fog Computing Environment"
-  authors:
-    - DanieleSantoro
-    - DanielZozin
-    - DanielePizzolli
-    - FrancescoDePellegrini
-    - SilvioCretti
-  destination: ProceedingsCloudCom2017IEEE9thInternationalconferenceoncloudcomputingtechnologyandscience
-  year: 2017
-  doi: 10.1109/CloudCom.2017.62
-
-
-- id: cuttingthroughputwiththeedgeapp-awareplacementinfogcomputing2019
-  id_iris: 318036,
-  title: "Cutting Throughput with the Edge: App-Aware Placement in Fog Computing"
-  authors:
-    - FrancescomariaFaticanti
-    - FrancescoDePellegrini
-    - DomenicoSiracusa
-    - DanieleSantoro
-    - SilvioCretti
-  destination: ProceedingsofIEEEEDGECOM2019
-  year: 2019
-  doi: 10.1109/CSCloud/EdgeCom.2019.00026
-
-
-- id: throughput-awarepartitioningandplacementofapplicationsinfogcomputing2020
-  id_iris: 323126,
-  title: "Throughput-aware Partitioning and Placement of Applications in Fog Computing"
-  authors:
-    - FrancescomariaFaticanti
-    - FrancescoDePellegrini
-    - DomenicoSiracusa
-    - DanieleSantoro
-    - SilvioCretti
-  destination: IEEETRANSACTIONSONNETWORKANDSERVICEMANAGEMENT
-  year: 2020
-  doi: 10.1109/TNSM.2020.3023011
-
-
-- id: ablockchain-basedbrokerageplatformforfogcomputingresourcefederation2020
-  id_iris: 320524,
-  title: "A Blockchain-based Brokerage Platform for Fog Computing Resource Federation"
-  authors:
-    - MarcoSavi
-    - DanieleSantoro
-    - KatarzynaTeresaDiMeo
-    - DanielePizzolli
-    - PincheiraMiguel
-    - RaffaeleGiaffreda
-    - SilvioCretti
-    - Seung-wooKum
-    - DomenicoSiracusa
-  destination: ProceedingsofConferenceonInnovationinCloudsInternetandNetworks
-  year: 2020
-  doi: 10.1109/ICIN48450.2020.9059337
-
-
-- id: fogorchestrationmeetsproactivecaching2021
-  id_iris: 324728,
-  title: "Fog Orchestration meets Proactive Caching"
-  authors:
-    - FrancescomariaFaticanti
-    - LorenzoMaggi
-    - FrancescoDePellegrini
-    - DanieleSantoro
-    - DomenicoSiracusa
-  destination: Proceedingsofthe6thIEEE/IFIPInternationalWorkshoponAnalyticsforNetworkandServiceManagementAnNet2021
-  year: 2021
-
-
-- id: anapplicationofkubernetesclusterfederationinfogcomputing2021
-  id_iris: 324366,
-  title: "An Application of Kubernetes Cluster Federation in Fog Computing"
-  authors:
-    - FrancescomariaFaticanti
-    - DanieleSantoro
-    - SilvioCretti
-    - DomenicoSiracusa
-  destination: Proceedingsof202124thConferenceonInnovationinCloudsInternetandNetworksandWorkshopsICIN
-  year: 2021
-  doi: 10.1109/ICIN51074.2021.9385548
-
-
-- id: ontheenergyconsumptionofip-over-wdmarchitectures2012
-  id_iris: 313948,
-  title: "On the energy consumption of IP-over-WDM architectures"
-  authors:
-    - FrancescoMusumeci
-    - DomenicoSiracusa
-    - GiuseppeRizzelli
-    - MassimoTornatore
-    - RiccardoFiandra
-    - AchillePattavina
-  destination: Proceedingsof2012IEEEInternationalConferenceonCommunicationsICC2012
-  year: 2012
-  doi: 10.1109/ICC.2012.6363778
-
-
-- id: niceradistributeddynamicshared-backuppath-allocationprocedurefortransmission-impairedwdmopticalnetworks2012
-  id_iris: 313946,
-  title: "NICER: A distributed dynamic shared-backup path-allocation procedure for transmission-impaired WDM optical networks"
-  authors:
-    - ElioSalvadori
-    - AndreaZanardi
-    - DomenicoSiracusa
-    - GabrieleGalimberti
-    - GiovanniMartinelli
-    - OriGerstel
-  destination: Proceedingsof20124thInternationalCongressonUltraModernTelecommunicationsandControlSystemsICUMT2012
-  year: 2012
-  doi: 10.1109/ICUMT.2012.6459756
-
-
-- id: nextgenerationflexibleandcognitiveheterogeneousopticalnetworkssupportingtheevolutiontothefutureinternet2012
-  id_iris: 313891,
-  title: "Next generation flexible and cognitive heterogeneous optical networks: Supporting the evolution to the future internet"
-  authors:
-    - IoannisTomkos
-    - MariannaAngelou
-    - RamonJ.DuranBarroso
-    - IgnaciodeMiguel
-    - RubenM.LorenzoToledo
-    - DomenicoSiracusa
-    - ElioSalvadori
-    - AndrzejTymecki
-    - YeYabin
-    - IdelfonsoTafurMonroy
-  destination: FIA2012TheFutureInternet
-  year: 2012
-  doi: 10.1007/978-3-642-30241-1_20
-
-
-- id: acontrolplaneframeworkforfuturecognitiveheterogeneousopticalnetworks2012
-  id_iris: 313721,
-  title: "A control plane framework for future cognitive heterogeneous optical networks"
-  authors:
-    - DomenicoSiracusa
-    - ElioSalvadori
-    - A.Francescon
-    - AndreaZanardi
-    - M.Angelou
-    - D.Klonidis
-    - I.Tomkos
-    - D.Sanchez
-    - R.J.Duran
-    - DeMiguel
-  destination: Proceedings14thInternationalConferenceonTransparentOpticalNetworksICTON2012
-  year: 2012
-  doi: 10.1109/ICTON.2012.6253766
-
-
-- id: cognitivedynamicopticalnetworks2013
-  id_iris: 313675,
-  title: "Cognitive dynamic optical networks"
-  authors:
-    - I.DeMiguel
-    - R.J.Duran
-    - T.Jimenez
-    - N.Fernandez
-    - J.C.Aguado
-    - R.M.Lorenzo
-    - A.Caballero
-    - I.T.Monroy
-    - Y.Ye
-    - A.Tymecki
-    - I.Tomkos
-    - M.Angelou
-    - D.Klonidis
-    - A.Francescon
-    - DomenicoSiracusa
-    - ElioSalvadori
-  destination: JOURNALOFOPTICALCOMMUNICATIONSANDNETWORKING
-  year: 2013
-  doi: 10.1364/JOCN.5.00A107
-
-
-- id: opticalcontrolplanebasedonananalyticalmodelofnon-lineartransmissioneffectsinaself-optimizednetwork2013
-  id_iris: 313956,
-  title: "Optical control plane based on an analytical model of non-linear transmission effects in a self-optimized network"
-  authors:
-    - R.Pastorelli
-    - S.Piciaccia
-    - G.Galimberti
-    - E.Self
-    - M.Brunella
-    - G.Calabretta
-    - F.Forghieri
-    - DomenicoSiracusa
-    - AndreaZanardi
-    - ElioSalvadori
-    - G.Bosco
-    - A.Carena
-    - V.Curri
-    - P.Poggiolini
-  destination: Proceedingsofthe39thEuropeanConferenceandExhibitiononOpticalCommunicationECOC2013
-  year: 2013
-  doi: 10.1049/cp.2013.1458
-
-
-- id: edge-to-edgevirtualizationandorchestrationinheterogeneoustransportnetworks2013
-  id_iris: 313964,
-  title: "Edge-to-edge virtualization and orchestration in heterogeneous transport networks"
-  authors:
-    - DomenicoSiracusa
-    - ElioSalvadori
-    - TinkuMohamedRasheed
-  destination: Proceedingsofthe2013IEEESDNforFutureNetworksandServicesSDN4FNS
-  year: 2013
-  doi: 10.1109/SDN4FNS.2013.6702537
-
-
-- id: distributedopticalcontrolplanefordynamiclightpathestablishmentintranslucentopticalnetworksbasedonreachabilitygraph2013
-  id_iris: 313701,
-  title: "Distributed optical control plane for dynamic lightpath establishment in translucent optical networks based on reachability graph"
-  authors:
-    - ElioSalvadori
-    - V.S.Chava
-    - AndreaZanardi
-    - DomenicoSiracusa
-    - G.Galimberti
-    - A.Tanzi
-    - G.Martinelli
-    - O.Gerstel
-  destination: OPTICALSWITCHINGANDNETWORKING
-  year: 2013
-  doi: 10.1016/j.osn.2012.07.006
-
-
-- id: minimizationoftheimpactofthetedinaccuracyprobleminpce-basednetworksbymeansofcognition2013
-  id_iris: 313958,
-  title: "Minimization of the impact of the TED inaccuracy problem in PCE-based networks by means of cognition"
-  authors:
-    - IgnacioRodriguez
-    - RamonJ.Duran
-    - DomenicoSiracusa
-    - IgnaciodeMiguel
-    - AntonioFrancescon
-    - JuanCarlosAguado
-    - ElioSalvadori
-    - RubenM.Lorenzo
-  destination: Proceedingsofthe39thEuropeanConferenceandExhibitiononOpticalCommunicationECOC2013
-  year: 2013
-  doi: 10.1049/cp.2013.1487
-
-
-- id: cognitivedynamicopticalnetworks2013
-  id_iris: 313950,
-  title: "Cognitive dynamic optical networks"
-  authors:
-    - I.DMiguel
-    - R.J.Duran
-    - R.M.Lorenzo
-    - A.Caballero
-    - I.T.Monroy
-    - Y.Ye
-    - A.Tymecki
-    - I.Tomkos
-    - M.Angelou
-    - D.Klonidis
-    - A.Francescon
-    - DomenicoSiracusa
-    - ElioSalvadori
-  destination: ProceedingsofOpticalFiberCommunicationConferenceOFC2013
-  year: 2013
-  doi: 10.1364/OFC.2013.OW1H.1
-
-
-- id: towardacontrolandmanagementsystemenablingcognitiveopticalnetworks2013
-  id_iris: 313966,
-  title: "Toward a control and management system enabling cognitive optical networks"
-  authors:
-    - DomenicoSiracusa
-    - AttilioBroglio
-    - AntonioFrancescon
-    - AndreaZanardi
-    - ElioSalvadori
-  destination: Proceedingsof201318thEuropeanConferenceonNetworkandOpticalCommunicationsNOC2013
-  year: 2013
-  doi: 10.1109/NOC-OCI.2013.6582895
-
-
-- id: advantagesofacontentdeliverynetworkarchitecturebasedonwdmandcarrierethernetmulticasting2013
-  id_iris: 315225,
-  title: "Advantages of a Content Delivery Network Architecture Based on WDM and Carrier Ethernet Multicasting"
-  authors:
-    - G.Maier
-    - A.Pattavina
-    - DomenicoSiracusa
-    - A.Valenti
-    - F.Matera
-  destination: Fotonica2013
-  year: 2013
-
-
-- id: hitlessnetworkre-optimizationtoreducespectrumfragmentationindistributedgmplsflexibleopticalnetworks2013
-  id_iris: 313962,
-  title: "Hitless network re-optimization to reduce spectrum fragmentation in distributed GMPLS flexible optical networks"
-  authors:
-    - DomenicoSiracusa
-    - AttilioBroglio
-    - AndreaZanardi
-    - ElioSalvadori
-    - GabrieleGalimberti
-    - DomenicoLaFauci
-  destination: Proceedingsofthe39thEuropeanConferenceandExhibitiononOpticalCommunicationECOC2013
-  year: 2013
-  doi: 10.1049/cp.2013.1655
-
-
-- id: performanceofring-resonatorbasedopticalbackplaneinhighcapacityrouters2013
-  id_iris: 315233,
-  title: "Performance of Ring-Resonator based Optical Backplane in High Capacity Routers"
-  authors:
-    - G.Rizzelli
-    - DomenicoSiracusa
-    - G.Maier
-    - M.Magarini
-    - A.Melloni
-  abstract: >
-    The use of architectures that implement optical switching without any need of optoelectronic conversion allows us to overcome the limits imposed by today\textquoterights electronic backplane, such as power consumption and dissipation, as well as power supply and footprint requirements. We propose a ring-resonator based optical backplanes for router line-card interconnections. In particular we investigate how the feasibility of the architecture is affected by the following parameters: number of line cards, switching-element round-trip losses, frequency drifting due to thermal variations and waveguide-crossing effects. Moreover, to quantify the signal distortions introduced by filtering operations, the noiseless eye diagrams for the different parameter conditions are shown in case of an on-off keying non-return-to-zero input signal at 10Gb/s.
-  destination: Proceedingsof201315thInternationalConferenceonTransparentOpticalNetworksICTON
-  year: 2013
-  doi: 10.1109/ICTON.2013.6603036
 
 
 - id: cognitive,heterogeneousandreconfigurableopticalnetworksthechronproject2014
@@ -972,93 +503,246 @@
   doi: 10.1109/JLT.2014.2318994
 
 
-- id: techniquesandbenefitsofenergy-awareload-distributioninmulti-domaintranslucentwavelengthswitchedopticalnetworks2014
-  id_iris: 309393,
-  title: "Techniques and Benefits of Energy-Aware Load-Distribution in Multi-domain Translucent Wavelength Switched Optical Networks"
+- id: cognitivedynamicopticalnetworks2013
+  id_iris: 313950,
+  title: "Cognitive dynamic optical networks"
   authors:
-    - A.Pages
-    - A.Buttaboni
-    - G.Maier
-    - DomenicoSiracusa
-    - J.Perello
-    - S.Spadaro
-  destination: JOURNALOFNETWORKANDSYSTEMSMANAGEMENT
-  year: 2014
-  doi: 10.1007/s10922-014-9304-x
-
-
-- id: opticalbackplanebasedonring-resonatorsscalabilityandperformanceanalysisfor10gb/sook-nrz2014
-  id_iris: 309369,
-  title: "Optical Backplane Based on Ring-Resonators: Scalability and Performance Analysis for 10 Gb/s OOK-NRZ"
-  authors:
-    - G.Rizzelli
-    - DomenicoSiracusa
-    - G.Maier
-    - G.Magarini
-    - A.Mehmood
-    - M.Melloni
-  destination: PHOTONICS
-  year: 2014
-  doi: 10.3390/photonics1020131
-
-
-- id: experimentalevaluationofvirtualtopologydesignandreconfigurationinopticalnetworksbymeansofcognition2014
-  id_iris: 313759,
-  title: "Experimental evaluation of virtual topology design and reconfiguration in optical networks by means of cognition"
-  authors:
-    - DomenicoSiracusa
+    - I.DMiguel
+    - R.J.Duran
+    - R.M.Lorenzo
+    - A.Caballero
+    - I.T.Monroy
+    - Y.Ye
+    - A.Tymecki
+    - I.Tomkos
+    - M.Angelou
+    - D.Klonidis
     - A.Francescon
-    - N.Fernandez
+    - DomenicoSiracusa
+    - ElioSalvadori
+  destination: ProceedingsofOpticalFiberCommunicationConferenceOFC2013
+  year: 2013
+  doi: 10.1364/OFC.2013.OW1H.1
+
+
+- id: cognitivedynamicopticalnetworks2013
+  id_iris: 313675,
+  title: "Cognitive dynamic optical networks"
+  authors:
     - I.DeMiguel
     - R.J.Duran
-    - J.C.Aguado
-    - ElioSalvadori
-  destination: OpticalFiberCommunicationsConferenceandExhibitionOFC2014
-  year: 2014
-
-
-- id: experimentalassessmentofacognitivemechanismtoreducetheimpactofoutdatedtedsinopticalnetworks2014
-  id_iris: 313970,
-  title: "Experimental assessment of a cognitive mechanism to reduce the impact of outdated TEDs in optical networks"
-  authors:
+    - T.Jimenez
     - N.Fernandez
-    - R.J.Duran
-    - DomenicoSiracusa
-    - A.Francescon
-    - I.deMiguel
-    - I.Rodriguez
     - J.C.Aguado
-    - ElioSalvadori
     - R.M.Lorenzo
-  destination: Proceedingsofthe201413thInternationalConferenceonOpticalCommunicationsandNetworksICOCN2014
-  year: 2014
-  doi: 10.1109/ICOCN.2014.6987070
+    - A.Caballero
+    - I.T.Monroy
+    - Y.Ye
+    - A.Tymecki
+    - I.Tomkos
+    - M.Angelou
+    - D.Klonidis
+    - A.Francescon
+    - DomenicoSiracusa
+    - ElioSalvadori
+  destination: JOURNALOFOPTICALCOMMUNICATIONSANDNETWORKING
+  year: 2013
+  doi: 10.1364/JOCN.5.00A107
 
 
-- id: thepriceofvirtualizationperformanceisolationinmulti-tenantsnetworks2014
-  id_iris: 313985,
-  title: "The price of virtualization: Performance isolation in multi-tenants networks"
+- id: cognitiveopticalnetworktestbedeuprojectchron2015
+  id_iris: 309501,
+  title: "Cognitive Optical Network Testbed: EU Project CHRON"
   authors:
+    - R.Borkowski
+    - R.J.Duran
+    - C.Kachris
+    - DomenicoSiracusa
+    - A.Caballero
+    - N.Fernandez
+    - D.Klonidis
+    - AntonioFrancescon
+    - T.Jimenez
+    - J.C.Aguado
+    - I.deMiguel
+    - ElioSalvadori
+    - I.Tomkos
+    - R.M.Lorenzo
+    - I.TafurMonroy
+  destination: JOURNALOFOPTICALCOMMUNICATIONSANDNETWORKING
+  year: 2015
+  doi: 10.1364/JOCN.7.00A344
+
+
+- id: community-basedplacementofregistriestospeedupapplicationdeploymentonedgecomputing2021
+  id_iris: 327546,
+  title: "Community-based placement of registries to speed up application deployment on Edge Computing"
+  authors:
+    - LuisAugustoDiasKnob
+    - FrancescomariaFaticanti
+    - TiagoFerreto
+    - DomenicoSiracusa
+  destination: Proceedingsof2021IEEEInternationalConferenceonCloudEngineeringIC2E
+  year: 2021
+  doi: 10.1109/IC2E52221.2021.00029
+
+
+- id: comparisonofspectralandspatialsuper-channelallocationschemesforsdmnetworks2016
+  id_iris: 309612,
+  title: "Comparison of Spectral and Spatial Super-channel Allocation Schemes for SDM Networks"
+  authors:
+    - P.S.Khodashenas
+    - JoseManuelRivas-Moscoso
+    - DomenicoSiracusa
+    - FedericoPederzolli
+    - BehnamShariati
+    - D.Klonidis
+    - ElioSalvadori
+    - I.Tomkos
+  destination: JOURNALOFLIGHTWAVETECHNOLOGY
+  year: 2016
+  doi: 10.1109/JLT.2016.2551299
+
+
+- id: congestioncontrolintherecursiveinternetworkingarchitecture(rina)2016
+  id_iris: 311362,
+  title: "Congestion Control in the Recursive InterNetworking Architecture (RINA)"
+  authors:
+    - P.Teymoori
+    - M.Welzl
+    - S.Gjessing
+    - E.Grasa
     - RobertoRiggio
+    - KewinRausch
+    - DomenicoSiracusa
+  destination: ProceedingsIEEEInternationalConferenceonCommunicationsICC2016
+  year: 2016
+  doi: 10.1109/ICC.2016.7510818
+
+
+- id: controlandorchestrationforfutureip/opticaltransportnetworks2015
+  id_iris: 313993,
+  title: "Control and orchestration for future IP/optical transport networks"
+  authors:
+    - DomenicoSiracusa
+  destination: ProceedingsofOSAPhotonicNetworksandDevices2015
+  year: 2015
+  doi: 10.1364/NETWORKS.2015.NeT3E.4
+
+
+- id: creatingasustainablefederationofcloud-basedinfrastructuresforthefutureinternet-thefiwareapproach2015
+  id_iris: 310108,
+  title: "Creating a Sustainable Federation of Cloud-Based Infrastructures for the Future Internet - The FIWARE Approach"
+  authors:
+    - YahyaAlHazmi
+    - AlexanderWillner
+    - BrianPickering
+    - AlaaAlloush
+    - ThomasMagedanz
+    - SilvioCretti
+  destination: Proceedingsof10thEAIInternationalConferenceonTestbedsandResearchInfrastructuresfortheDevelopmentofNetworksCommunities
+  year: 2015
+  doi: 10.4108/icst.tridentcom.2015.259747
+
+
+- id: cuttingthroughputwiththeedgeapp-awareplacementinfogcomputing2019
+  id_iris: 318036,
+  title: "Cutting Throughput with the Edge: App-Aware Placement in Fog Computing"
+  authors:
+    - FrancescomariaFaticanti
     - FrancescoDePellegrini
     - DomenicoSiracusa
-  destination: ProceedingsofIEEE/IFIPNetworkOperationsandManagementSymposiumManagementinaSoftwareDefinedWorldNOMS2014
-  year: 2014
-  doi: 10.1109/NOMS.2014.6838386
+    - DanieleSantoro
+    - SilvioCretti
+  destination: ProceedingsofIEEEEDGECOM2019
+  year: 2019
+  doi: 10.1109/CSCloud/EdgeCom.2019.00026
 
 
-- id: softwarized5gnetworksresiliencywithself-healing2014
-  id_iris: 313987,
-  title: "Softwarized 5G networks resiliency with self-healing"
+- id: daicsadeeplearningsolutionforanomalydetectioninindustrialcontrolsystems2022
+  id_iris: 326266,
+  title: "DAICS: A Deep Learning Solution for Anomaly Detection in Industrial Control Systems"
   authors:
-    - JoseSanchez
-    - ImenGridaBenYahia
-    - NoelCrespi
-    - TinkuMohamedRasheed
+    - MagedAbdelaty
+    - RobertoDoriguzziCorin
     - DomenicoSiracusa
-  destination: Proceedingsof20141stInternationalConferenceon5GforUbiquitousConnectivity5GU2014
+  destination: IEEETRANSACTIONSONEMERGINGTOPICSINCOMPUTING
+  year: 2022
+  doi: 10.1109/TETC.2021.3073017
+
+
+- id: demonstratingadistributedandversion-agnosticopenflowslicingmechanism2014
+  id_iris: 314000,
+  title: "Demonstrating a distributed and version-agnostic OpenFlow slicing mechanism"
+  authors:
+    - DanielDepaoli
+    - RobertoDoriguzziCorin
+    - MatteoGerola
+    - ElioSalvadori
+  destination: Proceedings20143rdEuropeanWorkshoponSoftwareDefinedNetworksEWSDN2014
   year: 2014
-  doi: 10.4108/icst.5gu.2014.258123
+  doi: 10.1109/EWSDN.2014.21
+
+
+- id: demonstratinggeneralizedvirtualtopologiesinanopenflownetwork2011
+  id_iris: 313723,
+  title: "Demonstrating generalized virtual topologies in an openflow network"
+  authors:
+    - ElioSalvadori
+    - RobertoDoriguzziCorin
+    - MatteoGerola
+    - A.Broglio
+    - FrancescoDePellegrini
+  destination: ProceedingsACMSIGCOMM2011conference
+  year: 2011
+  doi: 10.1145/2018436.2018520
+
+
+- id: demonstratinginter-testbednetworkvirtualizationinofeliasdnexperimentalfacility2013
+  id_iris: 315083,
+  title: "Demonstrating inter-testbed network virtualization in OFELIA SDN experimental facility"
+  authors:
+    - MatteoGerola
+    - RobertoDoriguzziCorin
+    - R.Riggio
+    - FrancescoDePellegrini
+    - ElioSalvadori
+    - H.Woesner
+    - T.Rothe
+    - M.Sune
+    - L.Bergesio
+  destination: ProceedingsIEEEConferenceonComputerCommunicationsWorkshopsINFOCOMWKSHPS
+  year: 2013
+  doi: 10.1109/INFCOMW.2013.6970724
+
+
+- id: demonstrationofahybridsdn/gmplscontrolplaneforopticalvirtualprivatenetworkswithrestorationcapabilities2016
+  id_iris: 310662,
+  title: "Demonstration of a Hybrid SDN/GMPLS Control Plane for Optical Virtual Private Networks with Restoration Capabilities"
+  authors:
+    - DomenicoSiracusa
+    - FedericoPederzolli
+    - MatteoGerola
+    - AndreaZanardi
+    - D.LaFauci
+    - G.Galimberti
+  destination: Proceedings42ndEuropeanConferenceonOpticalCommunicationECOC2016
+  year: 2016
+
+
+- id: demonstrationofanapplication-basedservicelifecycleorchestrationforthefutureinternet2018
+  id_iris: 314813,
+  title: "Demonstration of an Application-Based Service Lifecycle Orchestration for the Future Internet"
+  authors:
+    - ThomasSzyrkowiec
+    - MohitChamania
+    - Bogdan-MihaiAndrus
+    - AchimAutenrieth
+    - AntonioMarsico
+    - DomenicoSiracusa
+  destination: Proceedingsofthe44thEuropeanConferenceonOpticalCommunicationECOC2018
+  year: 2018
+  doi: 10.1109/ECOC.2018.8535132
 
 
 - id: demonstrationofproactiverestorationincognitiveheterogeneousreconfigurableopticalnetworks2014
@@ -1079,28 +763,283 @@
   doi: 10.1109/QSHINE.2014.6928672
 
 
-- id: spatial-spectralflexibleopticalnetworkingenablingswitchingsolutionsforasimplifiedandefficientsdmnetworkplatform2014
-  id_iris: 313989,
-  title: "Spatial-spectral flexible optical networking: enabling switching solutions for a simplified and efficient SDM network platform"
+- id: deploymentofapplicationmicroservicesinmulti-domainfederatedfogenvironments2020
+  id_iris: 321928,
+  title: "Deployment of Application Microservices in Multi-Domain Federated Fog Environments"
   authors:
-    - I.Tomkos
-    - P.Zakynthinos
-    - D.Klonidis
-    - DanM.Marom
-    - S.Sygletos
-    - AndrewD.Ellis
-    - ElioSalvadori
+    - FrancescomariaFaticanti
+    - MarcoSavi
+    - FrancescoDePellegrini
+    - PetarKochovski
+    - VladoStankovski
     - DomenicoSiracusa
-    - M.Angelou
-    - G.Papastergiou
-    - N.Psaila
-    - J.F.Ferran
-    - S.Ben-Ezra
-    - F.Jimenez
-    - J.P.Fernandez-Palacios
-  destination: ProcSPIE9009NextGenerationOpticalCommunicationComponentsSubSystemsandSystemsIII
+  destination: ProceedingsofIEEE2020InternationalConferenceonOmnilayerIntelligentSystemsCOINS
+  year: 2020
+  doi: 10.1109/COINS49042.2020.9191379
+
+
+- id: designandimplementationofanopenflowhardwareabstractionlayer2014
+  id_iris: 314639,
+  title: "Design and Implementation of an OpenFlow Hardware Abstraction Layer"
+  authors:
+    - DamianParniewicz
+    - RobertoDoriguzziCorin
+    - LukaszOgrodowczyk
+    - MehdiRashidiFard
+    - JonMatias
+    - MatteoGerola
+    - VictorFuentes
+    - UmarToseef
+    - AdelZaalouk
+    - BartoszBelter
+    - EduardoJacob
+    - KostasPentikousis
+  abstract: >
+    OpenFlow is a leading standard for Software-Defined Networking (SDN) and has already played a significant role in reshaping network infrastructures. However, a wide range of existing provider domains is still not equipped with a framework that supports wider deployment of an OpenFlow-based control plane beyond Ethernet- dominated networks. We address this gap by introducing a Hardware Abstraction Layer (HAL) which can transform legacy network elements into OpenFlow capable devices. This paper details the functional architecture of HAL, discusses the key design aspects and explains how HAL can support a number of network device classes. In addition, this paper presents the implementation details of HAL for hardware platforms such as DOCSIS (Data over Cable Service Interface Specification) and DWDM (Dense Wave- length Division Multiplexing) which have so far received little attention by the OpenFlow research community despite their wide real-world deployment. Categories
+  destination: ProceedingsofSIGCOMMDCC
   year: 2014
-  doi: 10.1117/12.2045323
+  doi: 10.1145/2627566.2627577
+
+
+- id: disaggregatingopticalnodesinamulti-layersdnorchestratorfortheintegrationofanin-operationplanningtool2018
+  id_iris: 312901,
+  title: "Disaggregating Optical Nodes in a Multi-Layer SDN Orchestrator for the Integration of an In-Operation Planning Tool"
+  authors:
+    - FedericoPederzolli
+    - MohitChamania
+    - MicheleSantuari
+    - ThomasSzyrkowiec
+    - ChrisMatrakidis
+    - CirilRozic
+    - DimitriosKlonidis
+    - VictorLopez
+    - DomenicoSiracusa
+  destination: ProceedingsTheOpticalNetworkingandCommunicationConferenceOFC2018
+  year: 2018
+
+
+- id: dismi-anintentinterfaceforapplication-centrictransportnetworkservices2017
+  id_iris: 310749,
+  title: "DISMI - an intent interface for application-centric transport network services"
+  authors:
+    - PontusSkoldstrom
+    - StephaneJunique
+    - AbdulGhafoor
+    - AntonioMarsico
+    - DomenicoSiracusa
+  destination: Proceedings19thInternationalConferenceonTransparentOpticalNetworksICTON2017ECCS
+  year: 2017
+
+
+- id: distributedcloudintelligenceimplementinganetsimano-compliantpredictivecloudburstingsolutionusingopenstackandkubernetes2020
+  id_iris: 322632,
+  title: "Distributed Cloud Intelligence: Implementing An ETSI MANO-Compliant Predictive Cloud Bursting Solution using Openstack and Kubernetes"
+  authors:
+    - FrancescomariaFaticanti
+    - JasonZormpas
+    - SergeyDrozdov
+    - KewinRausch
+    - OrlandoAvilaGarcia
+    - FragkiskosSardis
+    - SilvioCretti
+    - MohsenAmiribesheli
+    - DomenicoSiracusa
+  destination: EconomicsofGridsCloudsSystemsandServices17thInternationalConferenceGECON2020
+  year: 2020
+  doi: 10.1007/978-3-030-63058-4_8
+
+
+- id: distributedopticalcontrolplanefordynamiclightpathestablishmentintranslucentopticalnetworksbasedonreachabilitygraph2013
+  id_iris: 313701,
+  title: "Distributed optical control plane for dynamic lightpath establishment in translucent optical networks based on reachability graph"
+  authors:
+    - ElioSalvadori
+    - V.S.Chava
+    - AndreaZanardi
+    - DomenicoSiracusa
+    - G.Galimberti
+    - A.Tanzi
+    - G.Martinelli
+    - O.Gerstel
+  destination: OPTICALSWITCHINGANDNETWORKING
+  year: 2013
+  doi: 10.1016/j.osn.2012.07.006
+
+
+- id: dynamicandapplication-awareprovisioningofchainedvirtualsecuritynetworkfunctions2019
+  id_iris: 320124,
+  title: "Dynamic and Application-Aware Provisioning of Chained Virtual Security Network Functions"
+  authors:
+    - RobertoDoriguzziCorin
+    - SandraScott-Hayward
+    - DomenicoSiracusa
+    - MarcoSavi
+    - ElioSalvadori
+  abstract: >
+    A promising area of application for Network Function Virtualization (NFV) is in network security, where chains of Virtual Security Network Functions (VSNFs), i.e., security-specific virtual functions such as firewalls or Intrusion Prevention Systems, can be dynamically created and configured to inspect, filter or monitor the network traffic. However, the traffic handled by VSNFs could be sensitive to specific network requirements, such as minimum bandwidth or maximum end-to-end latency. Therefore, the decision on which VSNFs should apply for a given application, where to place them and how to connect them, should take such requirements into consideration. Otherwise, security services could affect the quality of service experienced by customers. In this paper we propose PESS (Progressive Embedding of Security Services), a solution to efficiently deploy chains of virtualised security functions based on the security requirements of individual applications and operators’ policies, while optimizing resource utilization. We provide the PESS mathematical model and heuristic solution. Simulation results show that, compared to state-of-the-art application-agnostic VSNF provisioning models, PESS reduces computational resource utilization by up to 50%, in different network scenarios. This result ultimately leads to a higher number of provisioned security services and to up to a threefold reduction in end-to-end latency of application traffic.
+  destination: IEEETRANSACTIONSONNETWORKANDSERVICEMANAGEMENT
+  year: 2019
+  doi: 10.1109/TNSM.2019.2941128
+
+
+- id: dynamicstrictfractionalfrequencyreuseforsoftware-defined5gnetworks2016
+  id_iris: 311364,
+  title: "Dynamic Strict Fractional Frequency Reuse for Software-Defined 5G Networks"
+  authors:
+    - A.A.Gebremariam
+    - T.Bao
+    - DomenicoSiracusa
+    - TinkuMohamedRasheed
+    - F.Granelli
+    - LeonardoGoratti
+  destination: ProceedingsIEEEInternationalConferenceonCommunicationsICC2016
+  year: 2016
+  doi: 10.1109/ICC.2016.7510890
+
+
+- id: edge-to-edgevirtualizationandorchestrationinheterogeneoustransportnetworks2013
+  id_iris: 313964,
+  title: "Edge-to-edge virtualization and orchestration in heterogeneous transport networks"
+  authors:
+    - DomenicoSiracusa
+    - ElioSalvadori
+    - TinkuMohamedRasheed
+  destination: Proceedingsofthe2013IEEESDNforFutureNetworksandServicesSDN4FNS
+  year: 2013
+  doi: 10.1109/SDN4FNS.2013.6702537
+
+
+- id: empoweringnetworkoperatingsystemswithmemorymanagementtechniques2016
+  id_iris: 311376,
+  title: "Empowering Network Operating Systems with Memory Management Techniques"
+  authors:
+    - RobertoDoriguzziCorin
+    - DomenicoSiracusa
+    - ElioSalvadori
+    - A.Schwabe
+  destination: ProceedingsIEEE/IFIPNetworkOperationsandManagementSymposiumNOMS2016
+  year: 2016
+  doi: 10.1109/NOMS.2016.7502889
+
+
+- id: emulatingmulti-hopwirelessnetworksoveraplanetaryscaletestbed2011
+  id_iris: 314010,
+  title: "Emulating multi-hop wireless networks over a planetary scale testbed"
+  authors:
+    - ElioSalvadori
+    - RobertoDoriguzziCorin
+    - RobertoRiggio
+    - AttilioBroglio
+    - FabrizioGranelli
+    - AndyBavier
+  destination: Proceedingsofthe6thInternationalConferenceonTestbedsandResearchInfrastructuresfortheDevelopmentofNetworksandCommunities
+  year: 2011
+  doi: 10.1007/978-3-642-17851-1_53
+
+
+- id: energysavingthroughtrafficprofilingandpredictioninself-optimizingopticalnetworks2014
+  id_iris: 313757,
+  title: "Energy saving through traffic profiling and prediction in self-optimizing optical networks"
+  authors:
+    - DomenicoSiracusa
+    - FedericoPederzolli
+    - RenatoLoCigno
+    - ElioSalvadori
+  destination: ProceedingsOpticalFiberCommunicationsConferenceandExhibitionOFC2014
+  year: 2014
+  doi: 10.1364/OFC.2014.W4H.1
+
+
+- id: energysavingthroughtrafficprofilinginself-optimizingopticalnetworks2017
+  id_iris: 309518,
+  title: "Energy Saving Through Traffic Profiling in Self-Optimizing Optical Networks"
+  authors:
+    - FedericoPederzolli
+    - DomenicoSiracusa
+    - ElioSalvadori
+    - RenatoLoCigno
+  destination: IEEESYSTEMSJOURNAL
+  year: 2017
+  doi: 10.1109/JSYST.2015.2476559
+
+
+- id: enhancingnetworkintrusiondetectionanonlinemethodologyforperformanceanalysis2023
+  id_iris: 339487,
+  title: "Enhancing Network Intrusion Detection: An Online Methodology for Performance Analysis"
+  authors:
+    - SimoneMagnani
+    - RobertoDoriguzziCorin
+    - DomenicoSiracusa
+  destination: Proceedingsof2023IEEE9thInternationalConferenceonNetworkSoftwarizationNetSoft
+  year: 2023
+  doi: 10.1109/NetSoft57336.2023.10175465
+
+
+- id: enrichingintent-basedsdntoeasecustomerservicemanagementintransportnetworks2018
+  id_iris: 314815,
+  title: "Enriching Intent-based SDN to Ease Customer Service Management in Transport Networks"
+  authors:
+    - AntonioMarsico
+    - MohitChamania
+    - RobertoDoriguzziCorin
+    - ChrisMatrakidis
+    - DimitriosKlonidis
+    - PontusSkoldstrom
+    - AbdulGhafoor
+    - StephaneJunique
+    - VictorLopez
+    - DomenicoSiracusa
+  destination: ProceedingsofAdvancedPhotonics2018OsaTechnicalDigest
+  year: 2018
+  doi: 10.1364/NETWORKS.2018.NeW2F.2
+
+
+- id: estimatinglogarithmicandexponentialfunctionstotracknetworktrafficentropyinp42020
+  id_iris: 320250,
+  title: "Estimating Logarithmic and Exponential Functions to Track Network Traffic Entropy in P4"
+  authors:
+    - DamuDing
+    - MarcoSavi
+    - DomenicoSiracusa
+  destination: ProceedingsIEEE/IFIPNetworkOperationsandManagementSymposiumNOMS
+  year: 2020
+  doi: 10.1109/NOMS47738.2020.9110257
+
+
+- id: experimentalassessmentofacognitivemechanismtoreducetheimpactofoutdatedtedsinopticalnetworks2014
+  id_iris: 313970,
+  title: "Experimental assessment of a cognitive mechanism to reduce the impact of outdated TEDs in optical networks"
+  authors:
+    - N.Fernandez
+    - R.J.Duran
+    - DomenicoSiracusa
+    - A.Francescon
+    - I.deMiguel
+    - I.Rodriguez
+    - J.C.Aguado
+    - ElioSalvadori
+    - R.M.Lorenzo
+  destination: Proceedingsofthe201413thInternationalConferenceonOpticalCommunicationsandNetworksICOCN2014
+  year: 2014
+  doi: 10.1109/ICOCN.2014.6987070
+
+
+- id: experimentalassessmentofacognitivemechanismtoreducetheimpactofoutdatedtedsinopticalnetworks2016
+  id_iris: 309568,
+  title: "Experimental assessment of a cognitive mechanism to reduce the impact of outdated TEDs in optical networks"
+  authors:
+    - R.J.Duran
+    - N.Fernandez
+    - DomenicoSiracusa
+    - AntonioFrancescon
+    - I.deMiguel
+    - I.Rodriguez
+    - J.C.Aguado
+    - ElioSalvadori
+    - R.M.Lorenzo
+  destination: PHOTONICNETWORKCOMMUNICATIONS
+  year: 2016
+  doi: 10.1007/s11107-015-0562-7
 
 
 - id: experimentaldemonstrationofacognitiveopticalnetworkforreductionofrestorationtime2014
@@ -1129,6 +1068,720 @@
   doi: 10.1364/OFC.2014.M2I.2
 
 
+- id: experimentalevaluationofvirtualtopologydesignandreconfigurationinopticalnetworksbymeansofcognition2014
+  id_iris: 313759,
+  title: "Experimental evaluation of virtual topology design and reconfiguration in optical networks by means of cognition"
+  authors:
+    - DomenicoSiracusa
+    - A.Francescon
+    - N.Fernandez
+    - I.DeMiguel
+    - R.J.Duran
+    - J.C.Aguado
+    - ElioSalvadori
+  destination: OpticalFiberCommunicationsConferenceandExhibitionOFC2014
+  year: 2014
+
+
+- id: experimentalevaluationofyamato,asdncontrolplaneforjointandfractional-jointswitchedsdmopticalnetworks2016
+  id_iris: 310664,
+  title: "Experimental Evaluation of YAMATO, a SDN Control Plane for Joint and Fractional-Joint Switched SDM Optical Networks"
+  authors:
+    - FedericoPederzolli
+    - MatteoGerola
+    - AndreaZanardi
+    - X.Forns
+    - J.Ferran
+    - DomenicoSiracusa
+  destination: Proceedings42ndEuropeanConferenceonOpticalCommunicationECOC2016
+  year: 2016
+
+
+- id: firstdemonstrationofanautomaticmultilayerintent-basedsecureservicecreationbyanopensourcesdnorchestrator2016
+  id_iris: 310666,
+  title: "First Demonstration of an Automatic Multilayer Intent-Based Secure Service Creation by an Open Source SDN Orchestrator"
+  authors:
+    - T.Szyrkowiec
+    - MicheleSantuari
+    - M.Chamania
+    - DomenicoSiracusa
+    - A.Autenrieth
+    - VictorLopez
+  destination: ECOC2016Proceedingsof42ndEuropeanConferenceonOpticalCommunication
+  year: 2016
+
+
+- id: firstwdm-sdmopticalnetworkwithspatialsub-grouproutingroadmnodessupportingspatiallanechanges2018
+  id_iris: 315055,
+  title: "First WDM-SDM Optical Network with Spatial Sub-Group Routing ROADM Nodes Supporting Spatial Lane Changes"
+  authors:
+    - S.Ben-Ezra
+    - MatteoGerola
+    - DomenicoSiracusa
+    - FedericoPederzolli
+    - DanM.Marom
+    - M.Blau
+    - J.Macdonald
+    - N.Psaila
+    - ChristianSánchezCosta
+    - AndrewD.Ellis
+    - X.Forns
+    - J.F.Ferran
+    - F.Jimenez
+    - N.Christodoulia
+    - BehnamShariati
+    - D.Klonidis
+    - I.Tomkos
+  destination: ProceedingsAdvancedPhotonics2018BGPPIPRNPNOMASensorsNetworksSPPComSOFOSATechnicalDigestonlineOpticalSocietyofAmerica2018
+  year: 2018
+  doi: 10.1364/NETWORKS.2018.NeTh1F.3
+
+
+- id: foggyaplatformforworkloadorchestrationinafogcomputingenvironment2017
+  id_iris: 312569,
+  title: "Foggy: A Platform for Workload Orchestration in a Fog Computing Environment"
+  authors:
+    - DanieleSantoro
+    - DanielZozin
+    - DanielePizzolli
+    - FrancescoDePellegrini
+    - SilvioCretti
+  destination: ProceedingsCloudCom2017IEEE9thInternationalconferenceoncloudcomputingtechnologyandscience
+  year: 2017
+  doi: 10.1109/CloudCom.2017.62
+
+
+- id: fogorchestrationmeetsproactivecaching2021
+  id_iris: 324728,
+  title: "Fog Orchestration meets Proactive Caching"
+  authors:
+    - FrancescomariaFaticanti
+    - LorenzoMaggi
+    - FrancescoDePellegrini
+    - DanieleSantoro
+    - DomenicoSiracusa
+  destination: Proceedingsofthe6thIEEE/IFIPInternationalWorkshoponAnalyticsforNetworkandServiceManagementAnNet2021
+  year: 2021
+
+
+- id: gadotgan-basedadversarialtrainingforrobustddosattackdetection2021
+  id_iris: 328747,
+  title: "GaDoT: GAN-based Adversarial Training for Robust DDoS Attack Detection"
+  authors:
+    - MagedAbdelaty
+    - SandraScott-Hayward
+    - RobertoDoriguzziCorin
+    - DomenicoSiracusa
+  destination: Proceedingsof2021IEEEConferenceonCommunicationsandNetworkSecurityCNS
+  year: 2021
+  doi: 10.1109/CNS53000.2021.9705040
+
+
+- id: gem-analyticscloud-to-edgeai-poweredenergymanagement2020
+  id_iris: 322630,
+  title: "GEM-Analytics: Cloud-to-Edge AI-Powered Energy Management"
+  authors:
+    - DanieleTovazzi
+    - FrancescomariaFaticanti
+    - DomenicoSiracusa
+    - ClaudioPeroni
+    - SilvioCretti
+    - TommasoGazzini
+  destination: EconomicsofGridsCloudsSystemsandServices
+  year: 2020
+
+
+- id: generalizingvirtualnetworktopologiesinopenflow-basednetworks2011
+  id_iris: 313691,
+  title: "Generalizing virtual network topologies in OpenFlow-based networks"
+  authors:
+    - ElioSalvadori
+    - RobertoDoriguzziCorin
+    - A.Broglio
+    - MatteoGerola
+  destination: ProceedingsIEEEGlobalTelecommunicationsConferenceGLOBECOM20112011
+  year: 2011
+  doi: 10.1109/GLOCOM.2011.6134525
+
+
+- id: guesteditorialphotonicnetworksanddevices2019
+  id_iris: 321128,
+  title: "Guest Editorial Photonic Networks and Devices"
+  authors:
+    - M.Furdek
+    - N.Fontaine
+    - W.Klaus
+    - N.Parsons
+    - DomenicoSiracusa
+  destination: JOURNALOFLIGHTWAVETECHNOLOGY
+  year: 2019
+  doi: 10.1109/JLT.2019.2924047
+
+
+- id: hardwareabstractionlayerfornon-openflowcapabledevices2014
+  id_iris: 314902,
+  title: "Hardware Abstraction Layer for non-OpenFlow capable devices"
+  authors:
+    - Ogrodowczykukasz
+    - BartoszBelter
+    - ArturBinczewski
+    - KrzysztofDombek
+    - ArturJuszczyk
+    - IwoOlszewski
+    - DamianParniewicz
+    - RobertoDoriguzziCorin
+    - MatteoGerola
+    - ElioSalvadori
+    - KostasPentikousis
+    - UmarToseef
+    - WoesnerHagen
+    - MehdiRashidiFard
+    - JonMatias
+    - VictorFuentes
+    - MaiderHuarte
+    - EduardoJacob
+    - MarekMichalski
+    - RemigiuszRajewski
+  abstract: >
+    This paper describes a viable and experimentally-tested way forward for augmenting legacy network elements with software-defined networking control. Following and implementation-driven approach we have explored the possibilities for adding SDN-based interfaces to devices which are not compatible with OpenFlow. OpenFlow is arguably a leading control-place protocol for the upcoming generation of operator networks. Yet not all domains will be equipped from the very beginning with compatible supporting frameworks. To address this gap, we introduce the Hardware Abstraction Layer (HAL) for non-OpenFlow capable devices which tackles this problem. We discuss the advantages of the proposed approach and explain how a HAL-based architecture can support different classes of network devices.
+  destination: TERENANetworkingConference
+  year: 2014
+
+
+- id: hitlessnetworkre-optimizationtoreducespectrumfragmentationindistributedgmplsflexibleopticalnetworks2013
+  id_iris: 313962,
+  title: "Hitless network re-optimization to reduce spectrum fragmentation in distributed GMPLS flexible optical networks"
+  authors:
+    - DomenicoSiracusa
+    - AttilioBroglio
+    - AndreaZanardi
+    - ElioSalvadori
+    - GabrieleGalimberti
+    - DomenicoLaFauci
+  destination: Proceedingsofthe39thEuropeanConferenceandExhibitiononOpticalCommunicationECOC2013
+  year: 2013
+  doi: 10.1049/cp.2013.1655
+
+
+- id: hybridsdnevolutionacomprehensivesurveyofthestate-of-the-art2021
+  id_iris: 325968,
+  title: "Hybrid SDN evolution: A comprehensive survey of the state-of-the-art"
+  authors:
+    - SajadKhorsandroo
+    - AdrianGallegoSanchez
+    - AliSamanTosun
+    - JoseManuelArcoRodriguez
+    - RobertoDoriguzziCorin
+  destination: COMPUTERNETWORKS
+  year: 2021
+  doi: 10.1016/j.comnet.2021.107981
+
+
+- id: impactoftrafficprofileontheperformanceofspatialsuperchannelswitchinginsdmnetworks2016
+  id_iris: 310668,
+  title: "Impact of Traffic Profile on the Performance of Spatial Superchannel Switching in SDM Networks"
+  authors:
+    - BehnamShariati
+    - D.Klonidis
+    - DomenicoSiracusa
+    - FedericoPederzolli
+    - JoseManuelRivas-Moscoso
+    - L.Velasco
+    - I.Tomkos
+  destination: ProceedingsofECOC201642ndEuropeanConferenceonOpticalCommunication
+  year: 2016
+
+
+- id: improvingperformanceofspatiallyjoint-switchedspacedivisionmultiplexingopticalnetworksviaspatialgroupsharing2017
+  id_iris: 310526,
+  title: "Improving performance of spatially joint- switched space division multiplexing optical networks via spatial group sharing"
+  authors:
+    - FedericoPederzolli
+    - DomenicoSiracusa
+    - BehnamShariati
+    - JoseManuelRivas-Moscoso
+    - ElioSalvadori
+    - I.Tomkos
+  destination: JOURNALOFOPTICALCOMMUNICATIONSANDNETWORKING
+  year: 2017
+  doi: 10.1364/JOCN.9.0000B1
+
+
+- id: in-networkvolumetricddosvictimidentificationusingprogrammablecommodityswitches2021
+  id_iris: 326250,
+  title: "In-Network Volumetric DDoS Victim Identification Using Programmable Commodity Switches"
+  authors:
+    - DamuDing
+    - MarcoSavi
+    - FedericoPederzolli
+    - MauroCampanella
+    - DomenicoSiracusa
+  destination: IEEETRANSACTIONSONNETWORKANDSERVICEMANAGEMENT
+  year: 2021
+  doi: 10.1109/TNSM.2021.3073597
+
+
+- id: incrementaldeploymentofprogrammableswitchesfornetwork-wideheavy-hitterdetection2019
+  id_iris: 317869,
+  title: "Incremental Deployment of Programmable Switches for Network-wide Heavy-hitter Detection"
+  authors:
+    - DamuDing
+    - MarcoSavi
+    - GianniAntichi
+    - DomenicoSiracusa
+  destination: ProceedingsIEEEConferenceonNetworkSoftwarizationNetSoft2019
+  year: 2019
+  doi: 10.1109/NETSOFT.2019.8806649
+
+
+- id: innovationsthrough5g-crosshaulapplications2016
+  id_iris: 310745,
+  title: "Innovations Through 5G-Crosshaul Applications"
+  authors:
+    - X.Li
+    - G.Landi
+    - J.NunezMartinez
+    - R.Casellas
+    - S.Gonzalez
+    - C.F.Chiasserini
+    - R.J.Sanchez
+    - DomenicoSiracusa
+    - LeonardoGoratti
+    - D.Jimenez
+    - M.ContrerasLuis
+  destination: ProceedingsEuropeanConferenceonNetworksandCommunicationsEuCNC2016
+  year: 2016
+  doi: 10.1109/EuCNC.2016.7561067
+
+
+- id: intent-basedin-flightserviceencryptioninmulti-layertransportnetworks2017
+  id_iris: 310344,
+  title: "Intent-based in-flight service encryption in multi-layer transport networks"
+  authors:
+    - MohitChamania
+    - ThomasSzyrkowiec
+    - MicheleSantuari
+    - DomenicoSiracusa
+    - AchimAutenrieth
+    - VictorLopez
+    - PontusSkoldstrom
+    - StephaneJunique
+  destination: ProceedingsOpticalFiberCommunicationsConferenceandExhibitionOFC2017
+  year: 2017
+
+
+- id: introducingsmartnicsinserver-baseddataplaneprocessingtheddosmitigationusecase2019
+  id_iris: 319108,
+  title: "Introducing SmartNICs in Server-Based Data Plane Processing: The DDoS Mitigation Use Case"
+  authors:
+    - SebastianoMiano
+    - RobertoDoriguzziCorin
+    - FulvioRisso
+    - DomenicoSiracusa
+    - R.Sommese
+  abstract: >
+    n the recent years, the complexity of the network data plane and their requirements in terms of agility has increased significantly, with many network functions now implemented in software and executed directly in datacenter servers. To avoid bottlenecks and to keep up with the ever increasing network speeds, recent approaches propose to move the software packet processing in kernel space using technologies such as eBPF/XDP, or to offload (part of it) in specialized hardware, the so called SmartNICs. This paper aims at guiding the reader through the intricacies of the above mentioned technologies, leveraging SmartNICs to build a more efficient processing pipeline and providing concrete insights on their usage for a specific use case, namely, the mitigation of Distributed Denial of Service (DDoS) attacks. In particular, we enhance the mitigation capabilities of edge servers by transparently offloading a portion of DDoS mitigation rules in the SmartNIC, thus achieving a balanced combination of the XDP flexibility in operating traffic sampling and aggregation in the kernel, with the performance of hardware-based filtering. We evaluate the performance in different combinations of host and SmartNIC-based mitigation, showing that offloading part of the DDoS network function in the SmartNIC can indeed optimize the packet processing but only if combined with additional processing on the host kernel space.
+  destination: IEEEACCESS
+  year: 2019
+  doi: 10.1109/ACCESS.2019.2933491
+
+
+- id: investflow-basedtrafficvolumeestimationindata-planeprogrammablenetworks2021
+  id_iris: 326474,
+  title: "INVEST: Flow-Based Traffic Volume Estimation in Data-Plane Programmable Networks"
+  authors:
+    - DamuDing
+    - MarcoSavi
+    - FedericoPederzolli
+    - DomenicoSiracusa
+  destination: ProceedingsIFIPNetworkingconference2021
+  year: 2021
+  doi: 10.23919/IFIPNetworking52078.2021.9472826
+
+
+- id: istherelightattheendsofthetunnel?wirelesssensornetworksforadaptivelightinginroadtunnels2011
+  id_iris: 24549,
+  title: "Is There Light at the Ends of the Tunnel? Wireless Sensor Networks for Adaptive Lighting in Road Tunnels"
+  authors:
+    - MatteoCeriotti
+    - MicheleCorra
+    - LeandroDOrazio
+    - RobertoDoriguzziCorin
+    - DanieleFacchin
+    - StefanGuna
+    - GianPaoloJesi
+    - RenatoLoCigno
+    - LucaMottola
+    - AmyL.Murphy
+    - MassimoPescalli
+    - GianPietroPicco
+    - DenisPregnolato
+    - CarloalbertoTorghele
+  destination: Proceedingsofthe10thIntConferenceonInformationProcessinginSensorNetworks
+  year: 2011
+
+
+- id: leadingtheofeliafacilitybeyondopenflow1.0experimentations2014
+  id_iris: 313998,
+  title: "Leading the OFELIA facility beyond OpenFlow 1.0 experimentations"
+  authors:
+    - MicheleSantuari
+    - RobertoDoriguzziCorin
+    - MatteoGerola
+    - ElioSalvadori
+    - UmarToseef
+    - AdelZaalouk
+    - KrzysztofDombek
+    - DamianParniewicz
+    - AliHammad
+    - MehdiRashidi-Fard
+    - EduardoJacob
+    - JonMatias
+  destination: Proceedings20143rdEuropeanWorkshoponSoftwareDefinedNetworksEWSDN2014
+  year: 2014
+  doi: 10.1109/EWSDN.2014.20
+
+
+- id: locality-awaredeploymentofapplicationmicroservicesformulti-domainfogcomputing2023
+  id_iris: 336467,
+  title: "Locality-aware deployment of application microservices for multi-domain fog computing"
+  authors:
+    - FrancescomariaFaticanti
+    - MarcoSavi
+    - FrancescoDePellegrini
+    - DomenicoSiracusa
+  destination: COMPUTERCOMMUNICATIONS
+  year: 2023
+  doi: 10.1016/j.comcom.2023.02.012
+
+
+- id: lucidapractical,lightweightdeeplearningsolutionforddosattackdetection2020
+  id_iris: 320986,
+  title: "LUCID: A Practical, Lightweight Deep Learning Solution for DDoS Attack Detection"
+  authors:
+    - RobertoDoriguzziCorin
+    - StuartMillar
+    - SandraScott-Hayward
+    - JesusMartinez-Del-Rincón
+    - DomenicoSiracusa
+  destination: IEEETRANSACTIONSONNETWORKANDSERVICEMANAGEMENT
+  year: 2020
+  doi: 10.1109/TNSM.2020.2971776
+
+
+- id: minimizationoftheimpactofthetedinaccuracyprobleminpce-basednetworksbymeansofcognition2013
+  id_iris: 313958,
+  title: "Minimization of the impact of the TED inaccuracy problem in PCE-based networks by means of cognition"
+  authors:
+    - IgnacioRodriguez
+    - RamonJ.Duran
+    - DomenicoSiracusa
+    - IgnaciodeMiguel
+    - AntonioFrancescon
+    - JuanCarlosAguado
+    - ElioSalvadori
+    - RubenM.Lorenzo
+  destination: Proceedingsofthe39thEuropeanConferenceandExhibitiononOpticalCommunicationECOC2013
+  year: 2013
+  doi: 10.1049/cp.2013.1487
+
+
+- id: multi-layerorchestrationforapplication-centricnetworking2015
+  id_iris: 310229,
+  title: "Multi-layer orchestration for application-centric networking"
+  authors:
+    - O.Gerstel
+    - VictorLopez
+    - DomenicoSiracusa
+  destination: proceedings2015InternationalConferenceonPhotonicsinSwitchingPS
+  year: 2015
+  doi: 10.1109/PS.2015.7329039
+
+
+- id: multi-layerresilienceschemesandtheircontrolplanesupport2017
+  id_iris: 313995,
+  title: "Multi-layer resilience schemes and their control plane support"
+  authors:
+    - VictorLopez
+    - JuanPedroFernandezPalacios
+    - ThomasSzyrkowiec
+    - MohitChamania
+    - DomenicoSiracusa
+  destination: Proceedingsof13thInternationalConferenceonDesignofReliableCommunicationNetworksDRCN2017
+  year: 2017
+
+
+- id: netideall-in-oneframeworkfornextgeneration,composedsdnapplications2016
+  id_iris: 310747,
+  title: "NetIDE: All-in-one framework for next generation, composed SDN applications"
+  authors:
+    - P.A.A.Gutierrez
+    - E.Rojas
+    - A.Schwabe
+    - C.Stritzke
+    - RobertoDoriguzziCorin
+    - A.Leckey
+    - G.Petralia
+    - AntonioMarsico
+    - K.Phemius
+    - S.Tamurejo
+  destination: ProceedingsIEEENetSoftConferenceandWorkshopsNetSoft2016
+  year: 2016
+  doi: 10.1109/NETSOFT.2016.7502408
+
+
+- id: netideremovingvendorlock-ininsdn2015
+  id_iris: 310352,
+  title: "NetIDE: removing vendor lock-in in SDN"
+  authors:
+    - RobertoDoriguzziCorin
+    - ElioSalvadori
+    - P.A.A.Gutierrez
+    - C.Stritzke
+    - A.Leckey
+    - K.Phemius
+    - E.Rojas
+  destination: Proceedings1stIEEEConferenceonNetworkSoftwarizationNetSoft2015
+  year: 2015
+  doi: 10.1109/NETSOFT.2015.7116170
+
+
+- id: nextgenerationflexibleandcognitiveheterogeneousopticalnetworkssupportingtheevolutiontothefutureinternet2012
+  id_iris: 313891,
+  title: "Next generation flexible and cognitive heterogeneous optical networks: Supporting the evolution to the future internet"
+  authors:
+    - IoannisTomkos
+    - MariannaAngelou
+    - RamonJ.DuranBarroso
+    - IgnaciodeMiguel
+    - RubenM.LorenzoToledo
+    - DomenicoSiracusa
+    - ElioSalvadori
+    - AndrzejTymecki
+    - YeYabin
+    - IdelfonsoTafurMonroy
+  destination: FIA2012TheFutureInternet
+  year: 2012
+  doi: 10.1007/978-3-642-30241-1_20
+
+
+- id: niceradistributeddynamicshared-backuppath-allocationprocedurefortransmission-impairedwdmopticalnetworks2012
+  id_iris: 313946,
+  title: "NICER: A distributed dynamic shared-backup path-allocation procedure for transmission-impaired WDM optical networks"
+  authors:
+    - ElioSalvadori
+    - AndreaZanardi
+    - DomenicoSiracusa
+    - GabrieleGalimberti
+    - GiovanniMartinelli
+    - OriGerstel
+  destination: Proceedingsof20124thInternationalCongressonUltraModernTelecommunicationsandControlSystemsICUMT2012
+  year: 2012
+  doi: 10.1109/ICUMT.2012.6459756
+
+
+- id: novelresourceandenergymanagementfor5gintegratedbackhaul/fronthaul(5g-crosshaul)2017
+  id_iris: 311558,
+  title: "Novel Resource and Energy Management for 5G integrated backhaul/fronthaul (5G-Crosshaul)"
+  authors:
+    - LiXi
+    - RaihanaFerdous
+    - CarlaFabianaChiasserini
+    - ClaudioEttoreCasetti
+    - FrancescaMoscatelli
+    - GiadaLandi
+    - RamonCasellas
+    - KeiSakaguchi
+    - ShahzoobBilalChundrigar
+    - RicardVilalta
+    - JosepMangues
+    - AndresGarciaSaavedra
+    - XavierCostaPerez
+    - LeonardoGoratti
+    - DomenicoSiracusa
+  destination: proceedingsIEEEInternationalConferenceonCommunicationsWorkshopsICCWorkshops2017
+  year: 2017
+  doi: 10.1109/ICCW.2017.7962753
+
+
+- id: onthebenefitsofmultilayeroptimizationandapplicationawareness2017
+  id_iris: 310540,
+  title: "On the Benefits of Multilayer Optimization and Application Awareness"
+  authors:
+    - VictorLopez
+    - DimitriosKlonidis
+    - DomenicoSiracusa
+    - CirilRozic
+    - IoannisTomkos
+    - JuanPedroFernandezPalacios
+  destination: JOURNALOFLIGHTWAVETECHNOLOGY
+  year: 2017
+  doi: 10.1109/JLT.2017.2674180
+
+
+- id: ontheenergyconsumptionofip-over-wdmarchitectures2012
+  id_iris: 313948,
+  title: "On the energy consumption of IP-over-WDM architectures"
+  authors:
+    - FrancescoMusumeci
+    - DomenicoSiracusa
+    - GiuseppeRizzelli
+    - MassimoTornatore
+    - RiccardoFiandra
+    - AchillePattavina
+  destination: Proceedingsof2012IEEEInternationalConferenceonCommunicationsICC2012
+  year: 2012
+  doi: 10.1109/ICC.2012.6363778
+
+
+- id: operatorusecasesthatbenefitfrommulti-layeroptimizationandapplicationawareness2016
+  id_iris: 310708,
+  title: "Operator use cases that benefit from multi-layer optimization and application awareness"
+  authors:
+    - VictorLopez
+    - DomenicoSiracusa
+    - D.Klonidis
+    - J.P.FernandezPalacios
+  destination: ProceedingsECOC201642ndEuropeanConferenceonOpticalCommunication
+  year: 2016
+
+
+- id: opticalbackplanebasedonring-resonatorsscalabilityandperformanceanalysisfor10gb/sook-nrz2014
+  id_iris: 309369,
+  title: "Optical Backplane Based on Ring-Resonators: Scalability and Performance Analysis for 10 Gb/s OOK-NRZ"
+  authors:
+    - G.Rizzelli
+    - DomenicoSiracusa
+    - G.Maier
+    - G.Magarini
+    - A.Mehmood
+    - M.Melloni
+  destination: PHOTONICS
+  year: 2014
+  doi: 10.3390/photonics1020131
+
+
+- id: opticalcontrolplanebasedonananalyticalmodelofnon-lineartransmissioneffectsinaself-optimizednetwork2013
+  id_iris: 313956,
+  title: "Optical control plane based on an analytical model of non-linear transmission effects in a self-optimized network"
+  authors:
+    - R.Pastorelli
+    - S.Piciaccia
+    - G.Galimberti
+    - E.Self
+    - M.Brunella
+    - G.Calabretta
+    - F.Forghieri
+    - DomenicoSiracusa
+    - AndreaZanardi
+    - ElioSalvadori
+    - G.Bosco
+    - A.Carena
+    - V.Curri
+    - P.Poggiolini
+  destination: Proceedingsofthe39thEuropeanConferenceandExhibitiononOpticalCommunicationECOC2013
+  year: 2013
+  doi: 10.1049/cp.2013.1458
+
+
+- id: optimalblindandadaptivefogorchestrationunderlocalprocessorsharing2020
+  id_iris: 321748,
+  title: "Optimal Blind and Adaptive Fog Orchestration under Local Processor Sharing"
+  authors:
+    - FrancescoDePellegrini
+    - FrancescomariaFaticanti
+    - MandarDatar
+    - EitanAltman
+    - DomenicoSiracusa
+  destination: Proceedingsofthe18thInternationalSymposiumonModelingandOptimizationinMobileAdHocandWirelessNetworksWiOpt2020
+  year: 2020
+
+
+- id: optimaldesignofpracticalquantumkeydistributionbackbonesforsecuringcoretransportnetworks2020
+  id_iris: 320892,
+  title: "Optimal Design of Practical Quantum Key Distribution Backbones for  Securing Core Transport Networks"
+  authors:
+    - FedericoPederzolli
+    - FrancescomariaFaticanti
+    - DomenicoSiracusa
+  destination: QUANTUMREPORTS
+  year: 2020
+  doi: 10.3390/quantum2010009
+
+
+- id: optimizationofsecurequantumkeydistributionbackbonesincoretransportnetworks2019
+  id_iris: 317867,
+  title: "Optimization of Secure Quantum Key Distribution Backbones in Core Transport Networks"
+  authors:
+    - FedericoPederzolli
+    - MarcoSavi
+    - DomenicoSiracusa
+    - ElioSalvadori
+  abstract: >
+    We present a Mixed Integer Linear Programming formulation to perform optimal placement of Quantum Key Distribution devices to protect active/planned traffic at minimal cost, thus securing active core transport networks.
+  destination: ProceedingsOpticalFiberCommunicationConferenceOFC2019OSAPublishing
+  year: 2019
+  doi: 10.1364/OFC.2019.Th1G.3
+
+
+- id: overcomingthememorylimitsofnetworkdevicesinsdn-enableddatacenters2017
+  id_iris: 310538,
+  title: "Overcoming the memory limits of network devices in SDN-enabled data centers"
+  authors:
+    - AntonioMarsico
+    - RobertoDoriguzziCorin
+    - DomenicoSiracusa
+  destination: ProceedingsIFIP/IEEESymposiumonIntegratedNetworkandServiceManagementIM2017
+  year: 2017
+  doi: 10.23919/INM.2017.7987402
+
+
+- id: path-basedfragmentationmetricandrsaalgorithmsforelasticopticalnetworks2019
+  id_iris: 317083,
+  title: "Path-based Fragmentation Metric and RSA Algorithms for Elastic Optical Networks"
+  authors:
+    - FedericoPederzolli
+    - DomenicoSiracusa
+    - AndreaZanardi
+    - GabrieleGalimberti
+    - DomenicoLaFauci
+    - GiovanniMartinelli
+  destination: JOURNALOFOPTICALCOMMUNICATIONSANDNETWORKING
+  year: 2019
+  doi: 10.1364/JOCN.11.000015
+
+
+- id: performanceofring-resonatorbasedopticalbackplaneinhighcapacityrouters2013
+  id_iris: 315233,
+  title: "Performance of Ring-Resonator based Optical Backplane in High Capacity Routers"
+  authors:
+    - G.Rizzelli
+    - DomenicoSiracusa
+    - G.Maier
+    - M.Magarini
+    - A.Melloni
+  abstract: >
+    The use of architectures that implement optical switching without any need of optoelectronic conversion allows us to overcome the limits imposed by today\textquoterights electronic backplane, such as power consumption and dissipation, as well as power supply and footprint requirements. We propose a ring-resonator based optical backplanes for router line-card interconnections. In particular we investigate how the feasibility of the architecture is affected by the following parameters: number of line cards, switching-element round-trip losses, frequency drifting due to thermal variations and waveguide-crossing effects. Moreover, to quantify the signal distortions introduced by filtering operations, the noiseless eye diagrams for the different parameter conditions are shown in case of an on-off keying non-return-to-zero input signal at 10Gb/s.
+  destination: Proceedingsof201315thInternationalConferenceonTransparentOpticalNetworksICTON
+  year: 2013
+  doi: 10.1109/ICTON.2013.6603036
+
+
+- id: policy-basedrestorationinip/opticaltransportnetworks2016
+  id_iris: 311319,
+  title: "Policy-based Restoration in IP/Optical Transport Networks"
+  authors:
+    - MicheleSantuari
+    - T.Szyrkowiec
+    - M.Chamania
+    - RobertoDoriguzziCorin
+    - VictorLopez
+    - DomenicoSiracusa
+  destination: ProceedingsIEEENetSoftConferenceandWorkshopsNetSoft2016
+  year: 2016
+  doi: 10.1109/NETSOFT.2016.7502409
+
+
 - id: proactiverestorationofslow-failuresinopticalnetworks2014
   id_iris: 313983,
   title: "Proactive restoration of slow-failures in optical networks"
@@ -1143,17 +1796,152 @@
   doi: 10.1109/ICTON.2014.6876450
 
 
-- id: energysavingthroughtrafficprofilingandpredictioninself-optimizingopticalnetworks2014
-  id_iris: 313757,
-  title: "Energy saving through traffic profiling and prediction in self-optimizing optical networks"
+- id: progressivevirtualtopologyembeddinginopenflownetworks2013
+  id_iris: 313729,
+  title: "Progressive virtual topology embedding in OpenFlow networks"
+  authors:
+    - R.Riggio
+    - ElioSalvadori
+    - MatteoGerola
+    - RobertoDoriguzziCorin
+    - FrancescoDePellegrini
+  destination: proceedingsIFIP/IEEEInternationalSymposiumonIntegratedNetworkManagementIM20132013
+  year: 2013
+
+
+- id: resourceallocationpoliciesinsdmopticalnetworks2015
+  id_iris: 310387,
+  title: "Resource Allocation Policies in SDM Optical Networks"
   authors:
     - DomenicoSiracusa
     - FedericoPederzolli
-    - RenatoLoCigno
     - ElioSalvadori
-  destination: ProceedingsOpticalFiberCommunicationsConferenceandExhibitionOFC2014
+    - D.Klonidis
+    - VictorLopez
+  destination: ProceedingsInternationalConferenceonOpticalNetworkDesignandModelingONDM2015
+  year: 2015
+  doi: 10.1109/ONDM.2015.7127293
+
+
+- id: reusabilityofsoftware-definednetworkingapplicationsaruntime,multi-controllerapproach2017
+  id_iris: 311444,
+  title: "Reusability of Software-Defined Networking Applications: A Runtime, Multi-Controller Approach"
+  authors:
+    - RobertoDoriguzziCorin
+    - P.A.ArandaGutierrez
+    - E.Rojas
+    - H.Karl
+    - ElioSalvadori
+  destination: Proceedings12thInternationalConferenceonNetworkandServiceManagementCNSM2016
+  year: 2017
+  doi: 10.1109/CNSM.2016.7818419
+
+
+- id: sdnapplication-centricorchestrationformulti-layertransportnetworks2016
+  id_iris: 310711,
+  title: "SDN application-centric orchestration for multi-layer transport networks"
+  authors:
+    - FedericoPederzolli
+    - DomenicoSiracusa
+    - SkoldstromPontus
+    - JuniqueStephane
+    - RozicCiril
+    - KlonidisDimitrios
+    - SzyrkowiecThomas
+    - ChamaniaMohit
+    - UcedaVictor
+    - LopezVictor
+    - ShikhmanterYona
+    - GerstelOri
+  destination: Proceedings18thInternationalConferenceonTransparentOpticalNetworksICTON2016
+  year: 2016
+  doi: 10.1109/ICTON.2016.7550670
+
+
+- id: smartcontractsforservice-levelagreementsinedge-to-cloudcomputing2020
+  id_iris: 323202,
+  title: "Smart Contracts for Service-Level Agreements in Edge-to-Cloud Computing"
+  authors:
+    - PetarKochovski
+    - VladoStankovski
+    - SandiGec
+    - FrancescomariaFaticanti
+    - MarcoSavi
+    - DomenicoSiracusa
+    - Seung-wooKum
+  destination: JOURNALOFGRIDCOMPUTING
+  year: 2020
+  doi: 10.1007/s10723-020-09534-y
+
+
+- id: softwarized5gnetworksresiliencywithself-healing2014
+  id_iris: 313987,
+  title: "Softwarized 5G networks resiliency with self-healing"
+  authors:
+    - JoseSanchez
+    - ImenGridaBenYahia
+    - NoelCrespi
+    - TinkuMohamedRasheed
+    - DomenicoSiracusa
+  destination: Proceedingsof20141stInternationalConferenceon5GforUbiquitousConnectivity5GU2014
   year: 2014
-  doi: 10.1364/OFC.2014.W4H.1
+  doi: 10.4108/icst.5gu.2014.258123
+
+
+- id: spatial-spectralflexibleopticalnetworkingenablingswitchingsolutionsforasimplifiedandefficientsdmnetworkplatform2014
+  id_iris: 313989,
+  title: "Spatial-spectral flexible optical networking: enabling switching solutions for a simplified and efficient SDM network platform"
+  authors:
+    - I.Tomkos
+    - P.Zakynthinos
+    - D.Klonidis
+    - DanM.Marom
+    - S.Sygletos
+    - AndrewD.Ellis
+    - ElioSalvadori
+    - DomenicoSiracusa
+    - M.Angelou
+    - G.Papastergiou
+    - N.Psaila
+    - J.F.Ferran
+    - S.Ben-Ezra
+    - F.Jimenez
+    - J.P.Fernandez-Palacios
+  destination: ProcSPIE9009NextGenerationOpticalCommunicationComponentsSubSystemsandSystemsIII
+  year: 2014
+  doi: 10.1117/12.2045323
+
+
+- id: spatialgroupsharingforsdmopticalnetworkswithjointswitching2016
+  id_iris: 311372,
+  title: "Spatial Group Sharing for SDM Optical Networks with Joint Switching"
+  authors:
+    - FedericoPederzolli
+    - DomenicoSiracusa
+    - J.M.Rivas
+    - BehnamShariati
+    - ElioSalvadori
+    - I.Tomkos
+  destination: ProceedingsInternationalConferenceonOpticalNetworkDesignandModelingONDM2016
+  year: 2016
+  doi: 10.1109/ONDM.2016.7494084
+
+
+- id: spectrally-spatiallyflexibleopticalnetworking2016
+  id_iris: 313991,
+  title: "Spectrally-spatially flexible optical networking"
+  authors:
+    - IoannisTomkos
+    - BehnamShariati
+    - NikolaosPanteleimonDiamantopoulos
+    - JoseManuelRivas-Moscoso
+    - DimitriosKlonidis
+    - AntoniaMastropaolo
+    - FedericoPederzolli
+    - DomenicoSiracusa
+  destination: ProceedingsofAsiaCommunicationsandPhotonicsConference2016
+  year: 2016
+  doi: 10.1364/ACPC.2016.AS2D.1
 
 
 - id: spectrallyandspatiallyflexibleopticalnetworkplanningandoperations2015
@@ -1175,61 +1963,6 @@
   doi: 10.1109/MCOM.2015.7045393
 
 
-- id: virtualtopologyreconfigurationinopticalnetworksbymeansofcognitionevaluationandexperimentalvalidation2015
-  id_iris: 309531,
-  title: "Virtual Topology Reconfiguration in Optical Networks by Means of Cognition: Evaluation and Experimental Validation"
-  authors:
-    - N.Fernandez
-    - R.J.Duran
-    - DomenicoSiracusa
-    - AntonioFrancescon
-    - I.DeMiguel
-    - ElioSalvadori
-    - J.C.Aguado
-    - R.M.Lorenzo
-  destination: JOURNALOFOPTICALCOMMUNICATIONSANDNETWORKING
-  year: 2015
-  doi: 10.1364/JOCN.7.00A162
-
-
-- id: cognitiveopticalnetworktestbedeuprojectchron2015
-  id_iris: 309501,
-  title: "Cognitive Optical Network Testbed: EU Project CHRON"
-  authors:
-    - R.Borkowski
-    - R.J.Duran
-    - C.Kachris
-    - DomenicoSiracusa
-    - A.Caballero
-    - N.Fernandez
-    - D.Klonidis
-    - AntonioFrancescon
-    - T.Jimenez
-    - J.C.Aguado
-    - I.deMiguel
-    - ElioSalvadori
-    - I.Tomkos
-    - R.M.Lorenzo
-    - I.TafurMonroy
-  destination: JOURNALOFOPTICALCOMMUNICATIONSANDNETWORKING
-  year: 2015
-  doi: 10.1364/JOCN.7.00A344
-
-
-- id: resourceallocationpoliciesinsdmopticalnetworks2015
-  id_iris: 310387,
-  title: "Resource Allocation Policies in SDM Optical Networks"
-  authors:
-    - DomenicoSiracusa
-    - FedericoPederzolli
-    - ElioSalvadori
-    - D.Klonidis
-    - VictorLopez
-  destination: ProceedingsInternationalConferenceonOpticalNetworkDesignandModelingONDM2015
-  year: 2015
-  doi: 10.1109/ONDM.2015.7127293
-
-
 - id: spectralvs.spatialsuper-channelallocationinsdmnetworksunderindependentandjointswitchingparadigms2015
   id_iris: 310419,
   title: "Spectral vs. Spatial Super-Channel Allocation in SDM Networks under Independent and Joint Switching Paradigms"
@@ -1244,6 +1977,46 @@
   destination: ProceedingsEuropeanConferenceonOpticalCommunicationECOC2015
   year: 2015
   doi: 10.1109/ECOC.2015.7341670
+
+
+- id: techniquesandbenefitsofenergy-awareload-distributioninmulti-domaintranslucentwavelengthswitchedopticalnetworks2014
+  id_iris: 309393,
+  title: "Techniques and Benefits of Energy-Aware Load-Distribution in Multi-domain Translucent Wavelength Switched Optical Networks"
+  authors:
+    - A.Pages
+    - A.Buttaboni
+    - G.Maier
+    - DomenicoSiracusa
+    - J.Perello
+    - S.Spadaro
+  destination: JOURNALOFNETWORKANDSYSTEMSMANAGEMENT
+  year: 2014
+  doi: 10.1007/s10922-014-9304-x
+
+
+- id: technologiesfortheimplementationofspectrally-spatiallyflexibleopticalnetworks(ss-fons)2018
+  id_iris: 315057,
+  title: "Technologies for the Implementation of Spectrally-Spatially Flexible Optical Networks (SS-FONs)"
+  authors:
+    - DanM.Marom
+    - M.Blau
+    - J.Macdonald
+    - N.Psaila
+    - ChristianSánchezCosta
+    - AndrewD.Ellis
+    - J.F.Ferran
+    - F.Jimenez
+    - G.Papastergiou
+    - S.Ben-Ezra
+    - MatteoGerola
+    - DomenicoSiracusa
+    - FedericoPederzolli
+    - BehnamShariati
+    - D.Klonidis
+    - I.Tomkos
+  destination: ProceedingsAdvancedPhotonics2018
+  year: 2018
+  doi: 10.1364/NETWORKS.2018.NeTh1F.6
 
 
 - id: theneedforacontrolorchestrationprotocolinresearchprojectsonopticalnetworking2015
@@ -1273,121 +2046,16 @@
   doi: 10.1109/EuCNC.2015.7194095
 
 
-- id: controlandorchestrationforfutureip/opticaltransportnetworks2015
-  id_iris: 313993,
-  title: "Control and orchestration for future IP/optical transport networks"
+- id: thepriceofvirtualizationperformanceisolationinmulti-tenantsnetworks2014
+  id_iris: 313985,
+  title: "The price of virtualization: Performance isolation in multi-tenants networks"
   authors:
-    - DomenicoSiracusa
-  destination: ProceedingsofOSAPhotonicNetworksandDevices2015
-  year: 2015
-  doi: 10.1364/NETWORKS.2015.NeT3E.4
-
-
-- id: multi-layerorchestrationforapplication-centricnetworking2015
-  id_iris: 310229,
-  title: "Multi-layer orchestration for application-centric networking"
-  authors:
-    - O.Gerstel
-    - VictorLopez
-    - DomenicoSiracusa
-  destination: proceedings2015InternationalConferenceonPhotonicsinSwitchingPS
-  year: 2015
-  doi: 10.1109/PS.2015.7329039
-
-
-- id: aframeworkforinterferencecontrolinsoftware-definedmobileradionetworks2015
-  id_iris: 310141,
-  title: "A Framework for Interference Control in Software-Defined Mobile Radio Networks"
-  authors:
-    - A.A.Gebremariam
-    - LeonardoGoratti
     - RobertoRiggio
+    - FrancescoDePellegrini
     - DomenicoSiracusa
-    - TinkuMohamedRasheed
-    - F.Granelli
-  destination: Proceedingsof12thAnnualIEEEConsumerCommunicationsandNetworkingConferenceCCNC
-  year: 2015
-  doi: 10.1109/CCNC.2015.7158094
-
-
-- id: experimentalassessmentofacognitivemechanismtoreducetheimpactofoutdatedtedsinopticalnetworks2016
-  id_iris: 309568,
-  title: "Experimental assessment of a cognitive mechanism to reduce the impact of outdated TEDs in optical networks"
-  authors:
-    - R.J.Duran
-    - N.Fernandez
-    - DomenicoSiracusa
-    - AntonioFrancescon
-    - I.deMiguel
-    - I.Rodriguez
-    - J.C.Aguado
-    - ElioSalvadori
-    - R.M.Lorenzo
-  destination: PHOTONICNETWORKCOMMUNICATIONS
-  year: 2016
-  doi: 10.1007/s11107-015-0562-7
-
-
-- id: dynamicstrictfractionalfrequencyreuseforsoftware-defined5gnetworks2016
-  id_iris: 311364,
-  title: "Dynamic Strict Fractional Frequency Reuse for Software-Defined 5G Networks"
-  authors:
-    - A.A.Gebremariam
-    - T.Bao
-    - DomenicoSiracusa
-    - TinkuMohamedRasheed
-    - F.Granelli
-    - LeonardoGoratti
-  destination: ProceedingsIEEEInternationalConferenceonCommunicationsICC2016
-  year: 2016
-  doi: 10.1109/ICC.2016.7510890
-
-
-- id: operatorusecasesthatbenefitfrommulti-layeroptimizationandapplicationawareness2016
-  id_iris: 310708,
-  title: "Operator use cases that benefit from multi-layer optimization and application awareness"
-  authors:
-    - VictorLopez
-    - DomenicoSiracusa
-    - D.Klonidis
-    - J.P.FernandezPalacios
-  destination: ProceedingsECOC201642ndEuropeanConferenceonOpticalCommunication
-  year: 2016
-
-
-- id: sdnapplication-centricorchestrationformulti-layertransportnetworks2016
-  id_iris: 310711,
-  title: "SDN application-centric orchestration for multi-layer transport networks"
-  authors:
-    - FedericoPederzolli
-    - DomenicoSiracusa
-    - SkoldstromPontus
-    - JuniqueStephane
-    - RozicCiril
-    - KlonidisDimitrios
-    - SzyrkowiecThomas
-    - ChamaniaMohit
-    - UcedaVictor
-    - LopezVictor
-    - ShikhmanterYona
-    - GerstelOri
-  destination: Proceedings18thInternationalConferenceonTransparentOpticalNetworksICTON2016
-  year: 2016
-  doi: 10.1109/ICTON.2016.7550670
-
-
-- id: firstdemonstrationofanautomaticmultilayerintent-basedsecureservicecreationbyanopensourcesdnorchestrator2016
-  id_iris: 310666,
-  title: "First Demonstration of an Automatic Multilayer Intent-Based Secure Service Creation by an Open Source SDN Orchestrator"
-  authors:
-    - T.Szyrkowiec
-    - MicheleSantuari
-    - M.Chamania
-    - DomenicoSiracusa
-    - A.Autenrieth
-    - VictorLopez
-  destination: ECOC2016Proceedingsof42ndEuropeanConferenceonOpticalCommunication
-  year: 2016
+  destination: ProceedingsofIEEE/IFIPNetworkOperationsandManagementSymposiumManagementinaSoftwareDefinedWorldNOMS2014
+  year: 2014
+  doi: 10.1109/NOMS.2014.6838386
 
 
 - id: theroleofsdninapplicationcentricipandopticalnetworks2016
@@ -1413,349 +2081,81 @@
   doi: 10.1109/EuCNC.2016.7561020
 
 
-- id: spectrally-spatiallyflexibleopticalnetworking2016
-  id_iris: 313991,
-  title: "Spectrally-spatially flexible optical networking"
+- id: throughput-awarepartitioningandplacementofapplicationsinfogcomputing2020
+  id_iris: 323126,
+  title: "Throughput-aware Partitioning and Placement of Applications in Fog Computing"
   authors:
-    - IoannisTomkos
-    - BehnamShariati
-    - NikolaosPanteleimonDiamantopoulos
-    - JoseManuelRivas-Moscoso
-    - DimitriosKlonidis
-    - AntoniaMastropaolo
-    - FedericoPederzolli
+    - FrancescomariaFaticanti
+    - FrancescoDePellegrini
     - DomenicoSiracusa
-  destination: ProceedingsofAsiaCommunicationsandPhotonicsConference2016
-  year: 2016
-  doi: 10.1364/ACPC.2016.AS2D.1
+    - DanieleSantoro
+    - SilvioCretti
+  destination: IEEETRANSACTIONSONNETWORKANDSERVICEMANAGEMENT
+  year: 2020
+  doi: 10.1109/TNSM.2020.3023011
 
 
-- id: demonstrationofahybridsdn/gmplscontrolplaneforopticalvirtualprivatenetworkswithrestorationcapabilities2016
-  id_iris: 310662,
-  title: "Demonstration of a Hybrid SDN/GMPLS Control Plane for Optical Virtual Private Networks with Restoration Capabilities"
+- id: tinykey,apragmaticandenergyefficientsecuritylayerforwirelesssensornetworks2014
+  id_iris: 314448,
+  title: "TinyKey, a pragmatic and energy efficient security layer for wireless sensor networks"
+  authors:
+    - RobertoDoriguzziCorin
+    - GiovanniRussello
+    - ElioSalvadori
+  destination: SecurityforMultihopWirelessNetworks
+  year: 2014
+
+
+- id: tinykeyalight-weightarchitectureforwirelesssensornetworkssecuringreal-worldapplications2011
+  id_iris: 313749,
+  title: "TinyKey: A light-weight architecture for wireless sensor networks securing real-world applications"
+  authors:
+    - RobertoDoriguzziCorin
+    - G.Russello
+    - ElioSalvadori
+  destination: ProceedingsEighthInternationalConferenceonWirelessOnDemandNetworkSystemsandServicesWONS2011
+  year: 2011
+  doi: 10.1109/WONS.2011.5720202
+
+
+- id: towardacontrolandmanagementsystemenablingcognitiveopticalnetworks2013
+  id_iris: 313966,
+  title: "Toward a control and management system enabling cognitive optical networks"
   authors:
     - DomenicoSiracusa
-    - FedericoPederzolli
-    - MatteoGerola
+    - AttilioBroglio
+    - AntonioFrancescon
     - AndreaZanardi
-    - D.LaFauci
-    - G.Galimberti
-  destination: Proceedings42ndEuropeanConferenceonOpticalCommunicationECOC2016
-  year: 2016
-
-
-- id: impactoftrafficprofileontheperformanceofspatialsuperchannelswitchinginsdmnetworks2016
-  id_iris: 310668,
-  title: "Impact of Traffic Profile on the Performance of Spatial Superchannel Switching in SDM Networks"
-  authors:
-    - BehnamShariati
-    - D.Klonidis
-    - DomenicoSiracusa
-    - FedericoPederzolli
-    - JoseManuelRivas-Moscoso
-    - L.Velasco
-    - I.Tomkos
-  destination: ProceedingsofECOC201642ndEuropeanConferenceonOpticalCommunication
-  year: 2016
-
-
-- id: spatialgroupsharingforsdmopticalnetworkswithjointswitching2016
-  id_iris: 311372,
-  title: "Spatial Group Sharing for SDM Optical Networks with Joint Switching"
-  authors:
-    - FedericoPederzolli
-    - DomenicoSiracusa
-    - J.M.Rivas
-    - BehnamShariati
     - ElioSalvadori
-    - I.Tomkos
-  destination: ProceedingsInternationalConferenceonOpticalNetworkDesignandModelingONDM2016
-  year: 2016
-  doi: 10.1109/ONDM.2016.7494084
+  destination: Proceedingsof201318thEuropeanConferenceonNetworkandOpticalCommunicationsNOC2013
+  year: 2013
+  doi: 10.1109/NOC-OCI.2013.6582895
 
 
-- id: innovationsthrough5g-crosshaulapplications2016
-  id_iris: 310745,
-  title: "Innovations Through 5G-Crosshaul Applications"
+- id: towardsanautomatedframeworktoinstantiatevirtualnetworksinopenflow-basedinfrastructures2016
+  id_iris: 309564,
+  title: "Towards an automated framework to instantiate virtual networks in OpenFlow-based infrastructures"
   authors:
-    - X.Li
-    - G.Landi
-    - J.NunezMartinez
-    - R.Casellas
-    - S.Gonzalez
-    - C.F.Chiasserini
-    - R.J.Sanchez
-    - DomenicoSiracusa
-    - LeonardoGoratti
-    - D.Jimenez
-    - M.ContrerasLuis
-  destination: ProceedingsEuropeanConferenceonNetworksandCommunicationsEuCNC2016
-  year: 2016
-  doi: 10.1109/EuCNC.2016.7561067
-
-
-- id: congestioncontrolintherecursiveinternetworkingarchitecture(rina)2016
-  id_iris: 311362,
-  title: "Congestion Control in the Recursive InterNetworking Architecture (RINA)"
-  authors:
-    - P.Teymoori
-    - M.Welzl
-    - S.Gjessing
-    - E.Grasa
-    - RobertoRiggio
-    - KewinRausch
-    - DomenicoSiracusa
-  destination: ProceedingsIEEEInternationalConferenceonCommunicationsICC2016
-  year: 2016
-  doi: 10.1109/ICC.2016.7510818
-
-
-- id: experimentalevaluationofyamato,asdncontrolplaneforjointandfractional-jointswitchedsdmopticalnetworks2016
-  id_iris: 310664,
-  title: "Experimental Evaluation of YAMATO, a SDN Control Plane for Joint and Fractional-Joint Switched SDM Optical Networks"
-  authors:
-    - FedericoPederzolli
+    - RobertoDoriguzziCorin
+    - ElioSalvadori
     - MatteoGerola
-    - AndreaZanardi
-    - X.Forns
-    - J.Ferran
-    - DomenicoSiracusa
-  destination: Proceedings42ndEuropeanConferenceonOpticalCommunicationECOC2016
+  destination: INTERNATIONALJOURNALOFCOMMUNICATIONNETWORKSANDDISTRIBUTEDSYSTEMS
   year: 2016
+  doi: 10.1504/IJCNDS.2016.080110
 
 
-- id: comparisonofspectralandspatialsuper-channelallocationschemesforsdmnetworks2016
-  id_iris: 309612,
-  title: "Comparison of Spectral and Spatial Super-channel Allocation Schemes for SDM Networks"
+- id: towardsapplication-awareprovisioningofsecurityserviceswithkubernetes2022
+  id_iris: 333708,
+  title: "Towards Application-Aware Provisioning of Security Services with Kubernetes"
   authors:
-    - P.S.Khodashenas
-    - JoseManuelRivas-Moscoso
+    - RobertoDoriguzziCorin
+    - SilvioCretti
+    - TizianaCatena
+    - SimoneMagnani
     - DomenicoSiracusa
-    - FedericoPederzolli
-    - BehnamShariati
-    - D.Klonidis
-    - ElioSalvadori
-    - I.Tomkos
-  destination: JOURNALOFLIGHTWAVETECHNOLOGY
-  year: 2016
-  doi: 10.1109/JLT.2016.2551299
-
-
-- id: intent-basedin-flightserviceencryptioninmulti-layertransportnetworks2017
-  id_iris: 310344,
-  title: "Intent-based in-flight service encryption in multi-layer transport networks"
-  authors:
-    - MohitChamania
-    - ThomasSzyrkowiec
-    - MicheleSantuari
-    - DomenicoSiracusa
-    - AchimAutenrieth
-    - VictorLopez
-    - PontusSkoldstrom
-    - StephaneJunique
-  destination: ProceedingsOpticalFiberCommunicationsConferenceandExhibitionOFC2017
-  year: 2017
-
-
-- id: aframeworkfordynamicmulti-layerresourceallocationinapplication-centricnetworking2017
-  id_iris: 310157,
-  title: "A Framework for Dynamic Multi-layer Resource Allocation in Application-Centric Networking"
-  authors:
-    - CirilRozic
-    - MarcoSavi
-    - ChrisMatrakidis
-    - DimitriosKlonidis
-    - DomenicoSiracusa
-    - IoannisTomkos
-  abstract: >
-    In an SDN-based network, connection requests are accommodated so that the network application requirements are met. We devise an approach where optical network resources can be allocated and released dynamically through an SDN orchestrator.
-  destination: Proceedingsof2017OpticalFiberCommunicationConferenceOFC2017
-  year: 2017
-  doi: 10.1364/OFC.2017.W3I.4
-
-
-- id: onthebenefitsofmultilayeroptimizationandapplicationawareness2017
-  id_iris: 310540,
-  title: "On the Benefits of Multilayer Optimization and Application Awareness"
-  authors:
-    - VictorLopez
-    - DimitriosKlonidis
-    - DomenicoSiracusa
-    - CirilRozic
-    - IoannisTomkos
-    - JuanPedroFernandezPalacios
-  destination: JOURNALOFLIGHTWAVETECHNOLOGY
-  year: 2017
-  doi: 10.1109/JLT.2017.2674180
-
-
-- id: novelresourceandenergymanagementfor5gintegratedbackhaul/fronthaul(5g-crosshaul)2017
-  id_iris: 311558,
-  title: "Novel Resource and Energy Management for 5G integrated backhaul/fronthaul (5G-Crosshaul)"
-  authors:
-    - LiXi
-    - RaihanaFerdous
-    - CarlaFabianaChiasserini
-    - ClaudioEttoreCasetti
-    - FrancescaMoscatelli
-    - GiadaLandi
-    - RamonCasellas
-    - KeiSakaguchi
-    - ShahzoobBilalChundrigar
-    - RicardVilalta
-    - JosepMangues
-    - AndresGarciaSaavedra
-    - XavierCostaPerez
-    - LeonardoGoratti
-    - DomenicoSiracusa
-  destination: proceedingsIEEEInternationalConferenceonCommunicationsWorkshopsICCWorkshops2017
-  year: 2017
-  doi: 10.1109/ICCW.2017.7962753
-
-
-- id: benefitsofmulti-layerapplication-awareresourceallocationandoptimization2017
-  id_iris: 310532,
-  title: "Benefits of Multi-Layer Application-Aware Resource Allocation and Optimization"
-  authors:
-    - MarcoSavi
-    - CirilRozic
-    - ChrisMatrakidis
-    - DimitriosKlonidis
-    - DomenicoSiracusa
-    - IoannisTomkos
-  destination: ProceedingsEuropeanConferenceonNetworksandCommunicationsEuCNC2017
-  year: 2017
-  doi: 10.1109/EuCNC.2017.7980661
-
-
-- id: yamatothefirstsdncontrolplaneforindependent,joint,andfractional-jointswitchedsdmopticalnetworks2017
-  id_iris: 310528,
-  title: "YAMATO: The First SDN Control Plane for Independent, Joint, and Fractional-Joint Switched SDM Optical Networks"
-  authors:
-    - FedericoPederzolli
-    - MatteoGerola
-    - AndreaZanardi
-    - X.Forns
-    - J.F.Ferran
-    - DomenicoSiracusa
-  destination: JOURNALOFLIGHTWAVETECHNOLOGY
-  year: 2017
-  doi: 10.1109/JLT.2017.2656382
-
-
-- id: multi-layerresilienceschemesandtheircontrolplanesupport2017
-  id_iris: 313995,
-  title: "Multi-layer resilience schemes and their control plane support"
-  authors:
-    - VictorLopez
-    - JuanPedroFernandezPalacios
-    - ThomasSzyrkowiec
-    - MohitChamania
-    - DomenicoSiracusa
-  destination: Proceedingsof13thInternationalConferenceonDesignofReliableCommunicationNetworksDRCN2017
-  year: 2017
-
-
-- id: anapplication-awaremulti-layerserviceprovisioningalgorithmbasedonauxiliarygraphs2017
-  id_iris: 310159,
-  title: "An Application-Aware Multi-Layer Service Provisioning Algorithm based on Auxiliary Graphs"
-  authors:
-    - MarcoSavi
-    - FedericoPederzolli
-    - DomenicoSiracusa
-  abstract: >
-    A novel application-aware multi-layer resource allocation algorithm is proposed. We demonstrate that it prevents the violation of application requirements (bandwidth, latency, availability, encryption), while keeping blocking probability lower than an existing algorithm.
-  destination: Proceedingsof2017OpticalFiberCommunicationConferenceOFC2017
-  year: 2017
-  doi: 10.1364/OFC.2017.W3I.2
-
-
-- id: improvingperformanceofspatiallyjoint-switchedspacedivisionmultiplexingopticalnetworksviaspatialgroupsharing2017
-  id_iris: 310526,
-  title: "Improving performance of spatially joint- switched space division multiplexing optical networks via spatial group sharing"
-  authors:
-    - FedericoPederzolli
-    - DomenicoSiracusa
-    - BehnamShariati
-    - JoseManuelRivas-Moscoso
-    - ElioSalvadori
-    - I.Tomkos
-  destination: JOURNALOFOPTICALCOMMUNICATIONSANDNETWORKING
-  year: 2017
-  doi: 10.1364/JOCN.9.0000B1
-
-
-- id: dismi-anintentinterfaceforapplication-centrictransportnetworkservices2017
-  id_iris: 310749,
-  title: "DISMI - an intent interface for application-centric transport network services"
-  authors:
-    - PontusSkoldstrom
-    - StephaneJunique
-    - AbdulGhafoor
-    - AntonioMarsico
-    - DomenicoSiracusa
-  destination: Proceedings19thInternationalConferenceonTransparentOpticalNetworksICTON2017ECCS
-  year: 2017
-
-
-- id: application-centricdynamicmulti-layerresourceallocationinavailability-awaresdn-orchestratednetworks2017
-  id_iris: 310534,
-  title: "Application-Centric Dynamic Multi-layer Resource Allocation in Availability-aware SDN-Orchestrated Networks"
-  authors:
-    - CirilRozic
-    - MarcoSavi
-    - ChrisMatrakidis
-    - DimitriosKlonidis
-    - DomenicoSiracusa
-    - IoannisTomkos
-  destination: Proceedings2017EuropeanConferenceonOpticalCommunicationECOC2017
-  year: 2017
-
-
-- id: aninteractiveintent-basednegotiationschemeforapplication-centricnetworks2017
-  id_iris: 310573,
-  title: "An interactive intent-based negotiation scheme for application-centric networks"
-  authors:
-    - AntonioMarsico
-    - MicheleSantuari
-    - MarcoSavi
-    - DomenicoSiracusa
-    - AbdulGhafoor
-    - StephaneJunique
-    - PontusSkoldstrom
-  destination: ProceedingsIEEEConferenceonNetworkSoftwarizationNetSoft2017
-  year: 2017
-  doi: 10.1109/NETSOFT.2017.8004251
-
-
-- id: energysavingthroughtrafficprofilinginself-optimizingopticalnetworks2017
-  id_iris: 309518,
-  title: "Energy Saving Through Traffic Profiling in Self-Optimizing Optical Networks"
-  authors:
-    - FedericoPederzolli
-    - DomenicoSiracusa
-    - ElioSalvadori
-    - RenatoLoCigno
-  destination: IEEESYSTEMSJOURNAL
-  year: 2017
-  doi: 10.1109/JSYST.2015.2476559
-
-
-- id: disaggregatingopticalnodesinamulti-layersdnorchestratorfortheintegrationofanin-operationplanningtool2018
-  id_iris: 312901,
-  title: "Disaggregating Optical Nodes in a Multi-Layer SDN Orchestrator for the Integration of an In-Operation Planning Tool"
-  authors:
-    - FedericoPederzolli
-    - MohitChamania
-    - MicheleSantuari
-    - ThomasSzyrkowiec
-    - ChrisMatrakidis
-    - CirilRozic
-    - DimitriosKlonidis
-    - VictorLopez
-    - DomenicoSiracusa
-  destination: ProceedingsTheOpticalNetworkingandCommunicationConferenceOFC2018
-  year: 2018
+  destination: 2022IEEE8thInternationalConferenceonNetworkSoftwarizationNetSoft
+  year: 2022
+  doi: 10.1109/NetSoft54395.2022.9844023
 
 
 - id: towardssecureopticalnetworksaframeworktoaidlocalizationofharmfulconnections2018
@@ -1771,382 +2171,6 @@
   doi: 10.1364/OFC.2018.Th2A.42
 
 
-- id: anautomatedservice-downgradenegotiationschemeforapplication-centricnetworks2018
-  id_iris: 313839,
-  title: "An Automated Service-downgrade Negotiation Scheme for Application-centric Networks"
-  authors:
-    - A.Marsico
-    - MarcoSavi
-    - DomenicoSiracusa
-    - ElioSalvadori
-  destination: ProceedingsOpticalFiberCommunicationConference2018
-  year: 2018
-  doi: 10.1364/OFC.2018.Th1D.3
-
-
-- id: applicationawaremultilayercontrolandoptimizationofelasticwdmswitchedopticalnetworks2018
-  id_iris: 313841,
-  title: "Application aware multilayer control and optimization of elastic WDM switched optical networks"
-  authors:
-    - I.Tomkos
-    - C.Rozic
-    - MarcoSavi
-    - P.Skoldstrom
-    - VictorLopez
-    - M.Chamania
-    - DomenicoSiracusa
-    - ChrisMatrakidis
-    - D.Klonidis
-    - O.Gerstel
-  destination: ProceedingsOpticalFiberCommunicationConference2018
-  year: 2018
-  doi: 10.1364/OFC.2018.Th1D.4
-
-
-- id: firstwdm-sdmopticalnetworkwithspatialsub-grouproutingroadmnodessupportingspatiallanechanges2018
-  id_iris: 315055,
-  title: "First WDM-SDM Optical Network with Spatial Sub-Group Routing ROADM Nodes Supporting Spatial Lane Changes"
-  authors:
-    - S.Ben-Ezra
-    - MatteoGerola
-    - DomenicoSiracusa
-    - FedericoPederzolli
-    - DanM.Marom
-    - M.Blau
-    - J.Macdonald
-    - N.Psaila
-    - ChristianSánchezCosta
-    - AndrewD.Ellis
-    - X.Forns
-    - J.F.Ferran
-    - F.Jimenez
-    - N.Christodoulia
-    - BehnamShariati
-    - D.Klonidis
-    - I.Tomkos
-  destination: ProceedingsAdvancedPhotonics2018BGPPIPRNPNOMASensorsNetworksSPPComSOFOSATechnicalDigestonlineOpticalSocietyofAmerica2018
-  year: 2018
-  doi: 10.1364/NETWORKS.2018.NeTh1F.3
-
-
-- id: technologiesfortheimplementationofspectrally-spatiallyflexibleopticalnetworks(ss-fons)2018
-  id_iris: 315057,
-  title: "Technologies for the Implementation of Spectrally-Spatially Flexible Optical Networks (SS-FONs)"
-  authors:
-    - DanM.Marom
-    - M.Blau
-    - J.Macdonald
-    - N.Psaila
-    - ChristianSánchezCosta
-    - AndrewD.Ellis
-    - J.F.Ferran
-    - F.Jimenez
-    - G.Papastergiou
-    - S.Ben-Ezra
-    - MatteoGerola
-    - DomenicoSiracusa
-    - FedericoPederzolli
-    - BehnamShariati
-    - D.Klonidis
-    - I.Tomkos
-  destination: ProceedingsAdvancedPhotonics2018
-  year: 2018
-  doi: 10.1364/NETWORKS.2018.NeTh1F.6
-
-
-- id: application-awareserviceprovisioningandrestorationinsdn-basedmulti-layertransportnetworks2018
-  id_iris: 314803,
-  title: "Application-aware Service Provisioning and Restoration in SDN-based Multi-layer Transport Networks"
-  authors:
-    - MarcoSavi
-    - DomenicoSiracusa
-  destination: OPTICALSWITCHINGANDNETWORKING
-  year: 2018
-  doi: 10.1016/j.osn.2018.06.005
-
-
-- id: demonstrationofanapplication-basedservicelifecycleorchestrationforthefutureinternet2018
-  id_iris: 314813,
-  title: "Demonstration of an Application-Based Service Lifecycle Orchestration for the Future Internet"
-  authors:
-    - ThomasSzyrkowiec
-    - MohitChamania
-    - Bogdan-MihaiAndrus
-    - AchimAutenrieth
-    - AntonioMarsico
-    - DomenicoSiracusa
-  destination: Proceedingsofthe44thEuropeanConferenceonOpticalCommunicationECOC2018
-  year: 2018
-  doi: 10.1109/ECOC.2018.8535132
-
-
-- id: adynamicmulti-layerresourceallocationandoptimizationframeworkinapplication-centricnetworks2018
-  id_iris: 315105,
-  title: "A Dynamic Multi-Layer Resource Allocation and Optimization Framework in Application-Centric Networks"
-  authors:
-    - C.Rozic
-    - MarcoSavi
-    - ChrisMatrakidis
-    - D.Klonidis
-    - DomenicoSiracusa
-  destination: JOURNALOFLIGHTWAVETECHNOLOGY
-  year: 2018
-  doi: 10.1109/JLT.2018.2863564
-
-
-- id: automaticintent-basedsecureservicecreationthroughamultilayersdnnetworkorchestration2018
-  id_iris: 315349,
-  title: "Automatic intent-based secure service creation through a multilayer SDN network orchestration"
-  authors:
-    - ThomasSzyrkowiec
-    - MicheleSantuari
-    - MohitChamania
-    - DomenicoSiracusa
-    - AchimAutenrieth
-    - VictorLopez
-    - JooCho
-    - WolfgangKellerer
-  destination: JOURNALOFOPTICALCOMMUNICATIONSANDNETWORKING
-  year: 2018
-  doi: 10.1364/JOCN.10.000289
-
-
-- id: optimizationofsecurequantumkeydistributionbackbonesincoretransportnetworks2019
-  id_iris: 317867,
-  title: "Optimization of Secure Quantum Key Distribution Backbones in Core Transport Networks"
-  authors:
-    - FedericoPederzolli
-    - MarcoSavi
-    - DomenicoSiracusa
-    - ElioSalvadori
-  abstract: >
-    We present a Mixed Integer Linear Programming formulation to perform optimal placement of Quantum Key Distribution devices to protect active/planned traffic at minimal cost, thus securing active core transport networks.
-  destination: ProceedingsOpticalFiberCommunicationConferenceOFC2019OSAPublishing
-  year: 2019
-  doi: 10.1364/OFC.2019.Th1G.3
-
-
-- id: path-basedfragmentationmetricandrsaalgorithmsforelasticopticalnetworks2019
-  id_iris: 317083,
-  title: "Path-based Fragmentation Metric and RSA Algorithms for Elastic Optical Networks"
-  authors:
-    - FedericoPederzolli
-    - DomenicoSiracusa
-    - AndreaZanardi
-    - GabrieleGalimberti
-    - DomenicoLaFauci
-    - GiovanniMartinelli
-  destination: JOURNALOFOPTICALCOMMUNICATIONSANDNETWORKING
-  year: 2019
-  doi: 10.1364/JOCN.11.000015
-
-
-- id: guesteditorialphotonicnetworksanddevices2019
-  id_iris: 321128,
-  title: "Guest Editorial Photonic Networks and Devices"
-  authors:
-    - M.Furdek
-    - N.Fontaine
-    - W.Klaus
-    - N.Parsons
-    - DomenicoSiracusa
-  destination: JOURNALOFLIGHTWAVETECHNOLOGY
-  year: 2019
-  doi: 10.1109/JLT.2019.2924047
-
-
-- id: incrementaldeploymentofprogrammableswitchesfornetwork-wideheavy-hitterdetection2019
-  id_iris: 317869,
-  title: "Incremental Deployment of Programmable Switches for Network-wide Heavy-hitter Detection"
-  authors:
-    - DamuDing
-    - MarcoSavi
-    - GianniAntichi
-    - DomenicoSiracusa
-  destination: ProceedingsIEEEConferenceonNetworkSoftwarizationNetSoft2019
-  year: 2019
-  doi: 10.1109/NETSOFT.2019.8806649
-
-
-- id: distributedcloudintelligenceimplementinganetsimano-compliantpredictivecloudburstingsolutionusingopenstackandkubernetes2020
-  id_iris: 322632,
-  title: "Distributed Cloud Intelligence: Implementing An ETSI MANO-Compliant Predictive Cloud Bursting Solution using Openstack and Kubernetes"
-  authors:
-    - FrancescomariaFaticanti
-    - JasonZormpas
-    - SergeyDrozdov
-    - KewinRausch
-    - OrlandoAvilaGarcia
-    - FragkiskosSardis
-    - SilvioCretti
-    - MohsenAmiribesheli
-    - DomenicoSiracusa
-  destination: EconomicsofGridsCloudsSystemsandServices17thInternationalConferenceGECON2020
-  year: 2020
-  doi: 10.1007/978-3-030-63058-4_8
-
-
-- id: deploymentofapplicationmicroservicesinmulti-domainfederatedfogenvironments2020
-  id_iris: 321928,
-  title: "Deployment of Application Microservices in Multi-Domain Federated Fog Environments"
-  authors:
-    - FrancescomariaFaticanti
-    - MarcoSavi
-    - FrancescoDePellegrini
-    - PetarKochovski
-    - VladoStankovski
-    - DomenicoSiracusa
-  destination: ProceedingsofIEEE2020InternationalConferenceonOmnilayerIntelligentSystemsCOINS
-  year: 2020
-  doi: 10.1109/COINS49042.2020.9191379
-
-
-- id: smartcontractsforservice-levelagreementsinedge-to-cloudcomputing2020
-  id_iris: 323202,
-  title: "Smart Contracts for Service-Level Agreements in Edge-to-Cloud Computing"
-  authors:
-    - PetarKochovski
-    - VladoStankovski
-    - SandiGec
-    - FrancescomariaFaticanti
-    - MarcoSavi
-    - DomenicoSiracusa
-    - Seung-wooKum
-  destination: JOURNALOFGRIDCOMPUTING
-  year: 2020
-  doi: 10.1007/s10723-020-09534-y
-
-
-- id: gem-analyticscloud-to-edgeai-poweredenergymanagement2020
-  id_iris: 322630,
-  title: "GEM-Analytics: Cloud-to-Edge AI-Powered Energy Management"
-  authors:
-    - DanieleTovazzi
-    - FrancescomariaFaticanti
-    - DomenicoSiracusa
-    - ClaudioPeroni
-    - SilvioCretti
-    - TommasoGazzini
-  destination: EconomicsofGridsCloudsSystemsandServices
-  year: 2020
-
-
-- id: optimaldesignofpracticalquantumkeydistributionbackbonesforsecuringcoretransportnetworks2020
-  id_iris: 320892,
-  title: "Optimal Design of Practical Quantum Key Distribution Backbones for  Securing Core Transport Networks"
-  authors:
-    - FedericoPederzolli
-    - FrancescomariaFaticanti
-    - DomenicoSiracusa
-  destination: QUANTUMREPORTS
-  year: 2020
-  doi: 10.3390/quantum2010009
-
-
-- id: artificialintelligenceservicearchitectureforedgedevice2020
-  id_iris: 326726,
-  title: "Artificial Intelligence Service Architecture for Edge Device"
-  authors:
-    - Seung-wooKum
-    - YoungkeeKim
-    - DomenicoSiracusa
-    - JaewonMoon
-  destination: Proceedingsof2020IEEE10thInternationalConferenceonConsumerElectronicsICCEBerlin
-  year: 2020
-  doi: 10.1109/ICCE-Berlin50680.2020.9352184
-
-
-- id: anautomatednegotiationframeworkforapplication-awaretransportnetworkservices2020
-  id_iris: 321746,
-  title: "An Automated Negotiation Framework for Application-Aware Transport Network Services"
-  authors:
-    - AntonioMarsico
-    - MarcoSavi
-    - DomenicoSiracusa
-    - ElioSalvadori
-  destination: OPTICALSWITCHINGANDNETWORKING
-  year: 2020
-  doi: 10.1016/j.osn.2020.100571
-
-
-- id: optimalblindandadaptivefogorchestrationunderlocalprocessorsharing2020
-  id_iris: 321748,
-  title: "Optimal Blind and Adaptive Fog Orchestration under Local Processor Sharing"
-  authors:
-    - FrancescoDePellegrini
-    - FrancescomariaFaticanti
-    - MandarDatar
-    - EitanAltman
-    - DomenicoSiracusa
-  destination: Proceedingsofthe18thInternationalSymposiumonModelingandOptimizationinMobileAdHocandWirelessNetworksWiOpt2020
-  year: 2020
-
-
-- id: anincrementally-deployablep4-enabledarchitecturefornetwork-wideheavy-hitterdetection2020
-  id_iris: 320826,
-  title: "An Incrementally-deployable P4-enabled Architecture for Network-wide Heavy-hitter Detection"
-  authors:
-    - DamuDing
-    - MarcoSavi
-    - GianniAntichi
-    - DomenicoSiracusa
-  destination: IEEETRANSACTIONSONNETWORKANDSERVICEMANAGEMENT
-  year: 2020
-  doi: 10.1109/TNSM.2020.2968979
-
-
-- id: estimatinglogarithmicandexponentialfunctionstotracknetworktrafficentropyinp42020
-  id_iris: 320250,
-  title: "Estimating Logarithmic and Exponential Functions to Track Network Traffic Entropy in P4"
-  authors:
-    - DamuDing
-    - MarcoSavi
-    - DomenicoSiracusa
-  destination: ProceedingsIEEE/IFIPNetworkOperationsandManagementSymposiumNOMS
-  year: 2020
-  doi: 10.1109/NOMS47738.2020.9110257
-
-
-- id: investflow-basedtrafficvolumeestimationindata-planeprogrammablenetworks2021
-  id_iris: 326474,
-  title: "INVEST: Flow-Based Traffic Volume Estimation in Data-Plane Programmable Networks"
-  authors:
-    - DamuDing
-    - MarcoSavi
-    - FedericoPederzolli
-    - DomenicoSiracusa
-  destination: ProceedingsIFIPNetworkingconference2021
-  year: 2021
-  doi: 10.23919/IFIPNetworking52078.2021.9472826
-
-
-- id: community-basedplacementofregistriestospeedupapplicationdeploymentonedgecomputing2021
-  id_iris: 327546,
-  title: "Community-based placement of registries to speed up application deployment on Edge Computing"
-  authors:
-    - LuisAugustoDiasKnob
-    - FrancescomariaFaticanti
-    - TiagoFerreto
-    - DomenicoSiracusa
-  destination: Proceedingsof2021IEEEInternationalConferenceonCloudEngineeringIC2E
-  year: 2021
-  doi: 10.1109/IC2E52221.2021.00029
-
-
-- id: in-networkvolumetricddosvictimidentificationusingprogrammablecommodityswitches2021
-  id_iris: 326250,
-  title: "In-Network Volumetric DDoS Victim Identification Using Programmable Commodity Switches"
-  authors:
-    - DamuDing
-    - MarcoSavi
-    - FedericoPederzolli
-    - MauroCampanella
-    - DomenicoSiracusa
-  destination: IEEETRANSACTIONSONNETWORKANDSERVICEMANAGEMENT
-  year: 2021
-  doi: 10.1109/TNSM.2021.3073597
-
-
 - id: trackingnormalizednetworktrafficentropytodetectddosattacksinp42022
   id_iris: 328390,
   title: "Tracking Normalized Network Traffic Entropy to Detect DDoS Attacks in P4"
@@ -2159,61 +2183,49 @@
   doi: 10.1109/TDSC.2021.3116345
 
 
-- id: acontrolplaneenablingautomatedandfullyadaptivenetworktrafficmonitoringwithebpf2022
-  id_iris: 333767,
-  title: "A Control Plane Enabling Automated and Fully Adaptive Network Traffic Monitoring with eBPF"
+- id: vertigonetworkvirtualizationandbeyond2012
+  id_iris: 313693,
+  title: "VeRTIGO: Network virtualization and beyond"
   authors:
-    - SimoneMagnani
-    - FulvioRisso
-    - DomenicoSiracusa
-  destination: IEEEACCESS
-  year: 2022
-  doi: 10.1109/ACCESS.2022.3202644
-
-
-- id: locality-awaredeploymentofapplicationmicroservicesformulti-domainfogcomputing2023
-  id_iris: 336467,
-  title: "Locality-aware deployment of application microservices for multi-domain fog computing"
-  authors:
-    - FrancescomariaFaticanti
-    - MarcoSavi
+    - RobertoDoriguzziCorin
+    - MatteoGerola
+    - R.Riggio
     - FrancescoDePellegrini
-    - DomenicoSiracusa
-  destination: COMPUTERCOMMUNICATIONS
-  year: 2023
-  doi: 10.1016/j.comcom.2023.02.012
-
-
-- id: classificationoffutureinternetinfrastructuresforexperimentation2011
-  id_iris: 315504,
-  title: "Classification of Future Internet infrastructures for experimentation"
-  authors:
-    - A.Cerezo
-    - P.Chas
-    - SilvioCretti
-    - AndreaMaestrini
-    - F.\'Alvarez
     - ElioSalvadori
-    - J.Magen
-    - M.Boniface
-    - FedericoMicheleFacca
-    - F.Williams
-  destination: FutureInternetSymposium2011
-  year: 2011
+  destination: ProceedingsEuropeanWorkshoponSoftwareDefinedNetworkingEWSDN2012
+  year: 2012
+  doi: 10.1109/EWSDN.2012.19
 
 
-- id: creatingasustainablefederationofcloud-basedinfrastructuresforthefutureinternet-thefiwareapproach2015
-  id_iris: 310108,
-  title: "Creating a Sustainable Federation of Cloud-Based Infrastructures for the Future Internet - The FIWARE Approach"
+- id: virtualtopologyreconfigurationinopticalnetworksbymeansofcognitionevaluationandexperimentalvalidation2015
+  id_iris: 309531,
+  title: "Virtual Topology Reconfiguration in Optical Networks by Means of Cognition: Evaluation and Experimental Validation"
   authors:
-    - YahyaAlHazmi
-    - AlexanderWillner
-    - BrianPickering
-    - AlaaAlloush
-    - ThomasMagedanz
-    - SilvioCretti
-  destination: Proceedingsof10thEAIInternationalConferenceonTestbedsandResearchInfrastructuresfortheDevelopmentofNetworksCommunities
+    - N.Fernandez
+    - R.J.Duran
+    - DomenicoSiracusa
+    - AntonioFrancescon
+    - I.DeMiguel
+    - ElioSalvadori
+    - J.C.Aguado
+    - R.M.Lorenzo
+  destination: JOURNALOFOPTICALCOMMUNICATIONSANDNETWORKING
   year: 2015
-  doi: 10.4108/icst.tridentcom.2015.259747
+  doi: 10.1364/JOCN.7.00A162
+
+
+- id: yamatothefirstsdncontrolplaneforindependent,joint,andfractional-jointswitchedsdmopticalnetworks2017
+  id_iris: 310528,
+  title: "YAMATO: The First SDN Control Plane for Independent, Joint, and Fractional-Joint Switched SDM Optical Networks"
+  authors:
+    - FedericoPederzolli
+    - MatteoGerola
+    - AndreaZanardi
+    - X.Forns
+    - J.F.Ferran
+    - DomenicoSiracusa
+  destination: JOURNALOFLIGHTWAVETECHNOLOGY
+  year: 2017
+  doi: 10.1109/JLT.2017.2656382
 
 
