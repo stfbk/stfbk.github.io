@@ -70,6 +70,13 @@ current:
       yearFrom: 2022
       yearTo: 2023
 
+    - personId: KaleemUllahKaleemUllah
+      type: M
+      topic: Countering rebroadcast attacks against remote identity proofing
+      institution: University of Trento
+      yearFrom: 2023
+      yearTo: 2023
+
     - personId: SaraSorrentino
       type: B
       topic: "Empowering the Public to Protect Themselves: Developing a Web-based Assessment Tool for Promoting Awareness at Dissemination Events"
