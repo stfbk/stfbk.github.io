@@ -13,3 +13,8 @@
   name: "FogAtlas: Driving Applications through the Fog"
   description: FogAtlas (evolution of the former Foggy platform) is a software framework aiming to manage a geographically distributed and decentralized Cloud Computing infrastructure that provides computational, storage and network services close to the data sources and the users, embracing the Fog Computing paradigm.
   urlDocumentation: /tools/FogAtlas
+
+- id: PESS
+  name: "PESS: Progressive Embedding of Security Services"
+  description: PESS is a heuristic algorithm for the provisioning of security services in softwarised networks, where network functions can be dynamically deployed on commodity hardware following the NFV paradigm, and the network is controlled using SDN technologies.
+  urlDocumentation: /tools/PESS
