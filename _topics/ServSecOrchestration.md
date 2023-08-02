@@ -2,7 +2,7 @@
 title: Service and security orchestration
 subtitle: 
 type: topic
-url: /topics/ServSecOrchestration
+topicUrl: /topics/ServSecOrchestration
 image: ServSecOrchestration.png
 order: 3
 
