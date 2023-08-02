@@ -6,10 +6,6 @@ people:
     - DomenicoSiracusa
     - SilvioCretti
     - DanieleSantoro
-    - FrancescomariaFaticanti
-    - MarcoSavi
-    - FrancescoDePellegrini
-    - DanielePizzolli
 peopleOrder: surname 
 publications: 
     - cloud4iotaheterogeneous,distributedandautonomiccloudplatformfortheiot2016
@@ -18,9 +14,8 @@ publications:
     - ablockchain-basedbrokerageplatformforfogcomputingresourcefederation2020
     - optimalblindandadaptivefogorchestrationunderlocalprocessorsharing2020
     - deploymentofapplicationmicroservicesinmulti-domainfederatedfogenvironments2020
-    - gem-analyticscloud-to-edgeai-poweredenergymanagement2020
-    - distributedcloudintelligenceimplementinganetsimano-compliantpredictivecloudburstingsolutionusingopenstackandkubernetes2020
     - anapplicationofkubernetesclusterfederationinfogcomputing2021
+    - locality-awaredeploymentofapplicationmicroservicesformulti-domainfogcomputing2023
 ---
 
 **FogAtlas** (evolution of the former Foggy platform) is a software framework aiming to manage a geographically distributed and decentralized Cloud Computing infrastructure that provides computational, storage and network services close to the data sources and the users, embracing the Fog Computing paradigm. FogAtlas is able to manage the so called Cloud-to-Thing Continuum offering service-aware workload placement and zero-touch deployment. It is an evolution of the well known paradigms of IaaS and PaaS adding the concept of “locality” to the traditional Cloud Computing model and easing the operations of a Fog Computing infrastructure.
