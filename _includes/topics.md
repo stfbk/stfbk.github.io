@@ -3,7 +3,7 @@
 <div class="columns is-multiline">
     {% for topic in sorted_topics %}
     <div class="column is-4-desktop is-6-tablet">
-        <a href="{{ topic.url | prepend: site.baseurl }}">
+        <a href="{{ topic.topicUrl | prepend: site.baseurl }}">
             <div class="card topic">
                 {% if topic.image %}
                 <div class="card-image">
