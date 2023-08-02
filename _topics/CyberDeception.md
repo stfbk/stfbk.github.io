@@ -2,7 +2,7 @@
 title: Cyber Deception
 subtitle: 
 type: topic
-url: /topics/CyberDeception
+topicUrl: /topics/CyberDeception
 image: CyberDeception.jpg
 order: 2
 
