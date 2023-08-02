@@ -36,7 +36,9 @@ following areas:
 The RiSING unit lies within the [Cybersecurity center](https://www.fbk.eu/it/cybersecurity/) in [Fondazione Bruno Kessler](https://www.fbk.eu) (FBK).
 
 ## Research Areas
+
 {% include topics.md %}
 
-<!--# In the Spotlight
-{% include spotlights.md %}-->
+## In the Spotlight
+
+{% include spotlights.md %}
