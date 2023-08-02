@@ -2,7 +2,7 @@
 title: Threat and Anomaly Detection and Mitigation
 subtitle: 
 type: topic
-url: /topics/ThreatDetection
+topicUrl: /topics/ThreatDetection
 image: ThreatDetection.png
 order: 1
 
