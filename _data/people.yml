@@ -418,12 +418,6 @@
 - id: GiuseppeAlessioSciumè
   name: Giuseppe Alessio
   surname: Sciumè
-  affiliations:
-    - role: Junior Researcher
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: gsciume@fbk.eu
 
 - id: GiuseppeDeMarco
   name: Giuseppe

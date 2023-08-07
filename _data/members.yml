@@ -14,7 +14,6 @@ current:
     - EleonoraMarchesini
     - ElhamArshad
     - MuhammadImran
-    - GiuseppeAlessioSciumè
     - MajidMollaeefar
     - UmbertoMorelli
 
@@ -157,6 +156,11 @@ former:
       yearTo: 2022
 
     - personId: GiacomoZanolli
+      formerRole: Junior Researcher
+      yearFrom: 2022
+      yearTo: 2023
+
+    - personId: GiuseppeAlessioSciumè
       formerRole: Junior Researcher
       yearFrom: 2022
       yearTo: 2023
