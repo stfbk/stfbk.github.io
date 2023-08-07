@@ -238,7 +238,7 @@
                         {% if personImage != "" %}
                             <div class="card-image">
                                 <figure class="image">
-                                    <img src="{{ personImage }}" alt="{{ person.surname }} {{ person.name }}" />
+                                    <img src="{{ personImage }}" alt="{{ person.name }} {{ person.surname }}" onError="setDefaultUserPicture(this)" />
                                 </figure>
                             </div>
                         {% endif %}
