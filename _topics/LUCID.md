@@ -3,7 +3,7 @@ title: LUCID
 subtitle: 
 type: spotlight 
 topicUrl: /tools/LUCID
-image: LUCID.png
+image: LUCID.jpg
 order: 4
 
 ---
