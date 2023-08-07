@@ -1,0 +1,277 @@
+- id: JointKonica
+  title: Konica Minolta Joint Laboratory
+  internalUrl: /projects/JointKonica
+  startDate: 2022-01-31
+  endDate: 2023-05-31
+  funding: Konica Minolta
+  partners:
+    - KonicaMinolta
+  goals: >
+      Scientific collaboration through a joint laboratory between FBK and KONICA MINOLTA dedicated to con- ducting research and innovation activities in the field of cybersecurity, with a particular focus on the topic of cyber deception as a defensive technique to counter cyber attacks.
+
+- id: SERICS
+  title: SERICS
+  titleAddon: SecCo (Secure Containers) project
+  internalUrl: /projects/SERICS
+  startDate: 2023-01-01
+  funding: MUR National Recovery and Resilience Plan (PNRR)
+  goals: >
+      The project aims at supporting the secure development and deployment of containerized applications on distributed and heterogeneous architectures. This will be achieved by extending and integrating existing security assessment methodologies (e.g., SAST, DAST, and Code review) into the DevOps CI/CD pipeline. FBK’s role in the project is to investigate runtime monitoring and anomaly detection of non-compliant containers when the microservice application is executed in production.
+      
+- id: FLUIDOS
+  title: FLUIDOS
+  titleAddon: Flexible, scaLable and secUre decentralIzeD Operating System
+  internalUrl: /projects/FLUIDOS
+  logo: FLUIDOS.png
+  startDate: 2022-09-01
+  cordisNo: 101070473
+  funding: EU Horizon Research & Innovation Program
+  partners:
+    - name: MARTEL Innovate
+      url: https://martel-innovate.com/
+      description: coordinator
+    - name: Universidad de Murcia
+      url: https://www.um.es/
+    - name: Ricerca sul Sistema Energetico - RSE
+      url: https://www.rse-web.it/
+    - Robotnik
+    - PoliTO
+    - name: European Digital SME Alliance
+      url: http://www.pinsme.eu/
+    - IBM
+    - Telefonica
+    - name: TOPIX - Torino and Piemonte Internet eXchange
+      url: https://www.top-ix.org/en
+    - name: Borderstep Institut
+      url: https://www.borderstep.de/
+    - name: Hellenic Mediterranean University
+      url: https://hmu.gr/
+    - name: STMicroelectronics
+      url: https://www.st.com/
+    - name: Technische Universität Berlin
+      url: https://www.tu-berlin.de/
+    - name: Cysec
+      url: https://cysec.com/ 
+    - name: Terraview
+      url: https://terraview.co/
+
+    # - name: TUB - Technische Universität Berlin
+  goals: >
+      FLUIDOS (Flexible, scaLable, secUre, and decentralIseD Operating System) aims to leverage the enormous, unused processing capacity at the edge, scattered across heterogeneous edge devices that struggle to integrate with each other and to coherently form a seamless computing continuum. FBK is leader of the ”Seamless, zero-trust security and privacy” work package and its research is focused on anomaly detection, security orchestration and cyber deception.
+
+- id: GEANT
+  title: GÉANT GN4 Phase 3
+  internalUrl: /projects/GEANT
+  startDate: 2019-01-01
+  endDate: 2022-12-31
+  cordisNo: 856726
+  funding: EU H2020 Research & Innovation Program
+  partners:
+    - GARR
+  goals: >
+      The GÉANT Project has grown during its iterations (GN1, GN2, GN3, GN3plus, GN4-1 and GN4-2) to incorpo- rate not just the award-winning 500Gbps pan-European network, but also a catalogue of advanced, user- focused services, and a successful programme of innovation that is pushing the boundaries of networking technology to deliver real impact to over 50 million users. FBK is a third party of the GARR consortium; its contribution is focused on the study of advanced programmable data planes for network monitoring and anomaly detection.
+
+- id: CS4EU
+  title: CyberSec4Europe
+  internalUrl: /projects/CS4EU
+  startDate: 2019-02-01
+  endDate: 2022-07-31
+  cordisNo: 830929
+  funding: EU H2020 Research & Innovation Program
+  partners: For a complete list of the partners please view the CORDIS page of project.
+  goals: >
+      CyberSec4Europe's main objective is to pilot the consolidation and future projection of the cybersecurity capabilities required to secure and maintain European democracy and the integrity of the Digital Single Market. CyberSec4Europe has translated this broad objective into measurable, concrete steps: three policy objectives, three technical objectives and two innovation objectives. In CyberSec4Europe FBK is a third party of the University of Trento, delivering a contribution on network anomaly detection and intrusion detection.
+
+
+- id: SPIDER
+  title: SPIDER
+  titleAddon: A cyberSecurity Platform for vIrtualiseD 5G cybEr Range services
+  internalUrl: /projects/SPIDER
+  logo: SPIDER.png
+  startDate: 2019-02-01
+  endDate: 2022-07-31
+  cordisNo: 833685
+  partners: For a complete list of the partners please view the CORDIS page of project.
+  funding: EU H2020 EU Research & Innovation program under Grant Agreement No 833685.
+  goals: >
+      The vision of SPIDER is to deliver a next-generation, extensive, and replicable cyber range platform for the telecommunications domain and its fifth generation (5G), offering cybersecurity emulation, training and investment decision support. Towards this vision, it features integrated tools for cyber testing including advanced emulation tools, novel training methods based on active learning as well as econometric models based on real-time emulation of modern cyber-attacks. SPIDER supports both self-paced and team-based exercising and acts as a serious gaming repository for multiple stakeholders to share training material and maximise efficiency in delivering complex cyber exercises. The proposed cyber range model will be vali- dated in five highly realistic pilot use case scenarios.
+
+- id: GEMRetail
+  title: GEM-Retail
+  internalUrl: /projects/GEMRetail
+  startDate: 2021-04-01
+  endDate: 2022-01-31
+  partners:
+    - Energenius
+  goals: >
+      The GEM-Retail project aims at developing an end-to-end solution for energy and comfort management in retail shops. The solution, called GEM-Retail, will leverage edge computing, Internet of Things and AI technologies.
+
+- id: CQVERTIS
+  title: CQ VERTIS - 4U
+  titleAddon: FogAtlas, driving applications through the fog
+  internalUrl: /projects/CQVERTIS
+  funding: Venture Factory
+  logo: FogAtlas.png
+  startDate: 2019-09-01
+  endDate: 2021-12-31
+  goals: >
+      This goal of the project is to carry out a Proof of Concept of the FogAtlas platform developed by FBK and to evaluate potential business opportunities.
+
+- id: TOSHI
+  title: TOSHI
+  titleAddon: Total System Shield
+  internalUrl: /projects/TOSHI
+  startDate: 2020-01-01
+  endDate: 2020-12-31
+  funding: EIT Digital
+  partners:
+    - Telefonica
+    - name: Innovalia
+  goals: >
+      TOSHI provides a high-performance automated and adaptive defensive shield against cyber-attacks to networked systems. It offers real-time host protection also in case of successful attacks, assisting the operator with critical situations that current threat inspection solutions fail to address. FBK contribution is focused on DDoS anomaly detection by means of deep learning techniques.
+
+- id: SR-GLOBO
+  title: SR-GLOBO
+  internalUrl: /projects/SR-GLOBO
+  startDate: 2019-09-01
+  endDate: 2020-12-31
+  funding: Cisco Systems Inc., by means of University Research Program (URP) funding
+  partners:
+    - Cisco
+  goals: >
+      The goal of SR-GLOBO project is to design and evaluate traffic engineering algorithms that optimize bandwidth utilization in response to congestion in large telecom provider networks, leveraging segment routing. The objectives are to (1) prove that the knowledge of local counters can be sufficient to design effective traffic engineering algorithms,(2) propose a novel optimization algorithm that, based on such knowledge, achieves decongestion leveraging its global understanding of the network status, (3) analyze the performance of the proposed algorithm and previously developed ones in challenging scenarios where scalability and timeliness are important constraints.
+
+- id: RAML
+  title: RAML
+  titleAddon: Raman Amplification via Machine Learning
+  internalUrl: /projects/RAML
+  startDate: 2020-01-01
+  endDate: 2020-07-31
+  funding: Cisco Systems Inc.
+  partners:
+    - Cisco
+  goals: >
+      Raman amplification is a promising technology to increase the capacity of existing fiber plants, by supporting the direct optical amplification of spectrum bands outside the usual C band. In this project, FBK develops and engineers Machine Learning (ML) techniques to tune Raman amplifiers, for both the C and L bands.
+
+- id: LightEdge
+  title: LightEdge
+  titleAddon: Application-Oriented Orchestration for Distributed Systems
+  internalUrl: /projects/LightEdge
+  startDate: 2019-11-01
+  endDate: 2020-02-28
+  funding: Konica Minolta
+  partners:
+    - KonicaMinolta
+  goals: >
+      The principal aim of LightEdge is to address the specific needs of applications in the management of a cloud-edge environment. In particular, the project will explore the potential benefits of monitoring and exposing non-conventional and application-specific resources and parameters to define innovative workload orchestration strategies.
+
+- id: EFLY
+  title: E-FLY
+  titleAddon: Edge-enabled Flying Inspector
+  internalUrl: /projects/EFLY
+  startDate: 2019-01-10
+  endDate: 2020-12-31
+  funding: EIT Digital
+  partners:
+    - Atos
+    - name: Ferrovial
+    - name: AeroTools-UAV
+  goals: >
+      E-FLY is an EIT Digital funded project that exploits the benefits of distributed UAV Data AI processing across UAV, Edge and Cloud, and provides a framework for UAV-based inspection of Critical Infrastructures such as gas pipelines, roads, rail, and electric lines. The platform will be validated over inspection pilots on Ferrovial pipeline infrastructures.
+
+- id: EnergIA
+  title: EnergIA!
+  internalUrl: /projects/EnergIA
+  startDate: 2018-12-01
+  endDate: 2020-03-01
+  partners:
+    - Energenius
+  goals: > 
+      EnergIA! combines artificial intelligence, edge/fog computing and decentralised technologies to automatically gather data from energy sensors and devices installed in the building and provide automated and customer-specific energy management solutions.
+
+- id: OLearn
+  title: OLearn
+  titleAddon: Introducing Machine Learning Techniques to Empower the Control and Management of Optical Networks
+  internalUrl: /projects/OLearn
+  startDate: 2018-09-01
+  funding: Cisco Systems Inc., by means of University Research Program (URP) funding
+  partners:
+    - Cisco
+  goals: >
+      OLearn is a project that aims to explore the potential of applying Machine Learning (ML) techniques to improve the control and management of backbone optical networks. OLearn investigates which scenarios in optical networking are suitable for self-optimization and automation via specific ML techniques, and propose solutions that will be validated via proof-of-concept demonstrations.
+
+- id: DECENTER
+  title: DECENTER
+  titleAddon: Decentralised technologies for orchestrated Cloud-to-Edge intelligence
+  internalUrl: /projects/DECENTER
+  logo: DECENTER.png
+  startDate: 2018-07-01
+  endDate: 2021-06-31
+  cordisNo: 815141
+  funding: EU-KOREA, H2020
+  partners:
+    - Atos
+    - Robotnik
+    - name: Univerza v Ljubljani
+      url: http://www.uni-lj.si/
+    - name: KentYou
+      url: http://www.kentyou.com/
+    - name: LGU+
+    - name: Daliworks
+    - name: Gluesys
+  goals: >
+      DECENTER is a H2020 EU-KOREA research and innovation project aiming to deliver a robust Fog Computing Platform, covering the whole Cloud-to-Things continuum, that will provide application-aware orchestration and provisioning of resources, driven by methods of Artificial Intelligence. The underlying infrastructure will span across borders into a federation, and will utilize Blockchain and Smart Contracts to reach secure processing, automated operation and timely delivery of responses.
+
+- id: DIGIFLOW
+  title: DIGIFLOW
+  titleAddon: Digitizing Industrial Workflow, Monitoring and Optimization
+  internalUrl: /projects/DIGIFLOW
+  logo: DIGIFLOW.png
+  startDate: 2018-01-01
+  endDate: 2019-12-31
+  funding: EIT Digital
+  partners:
+    - name: Santer Reply
+    - name: ThinkINside srl
+  goals: >
+      Digiflow is an EIT Digital funded project that aims at tracking the movement of assets and workforce in the shop floor so as to digitize and monitor in real-time industrial workflows’ progress. In this context, a Fog Computing Platform (Foggy) will be transferred to a real industrial context for collecting and elaborating the data close to the user and the data source.
+      
+- id: BeeHive
+  title: BeeHive
+  titleAddon: Clustered Traffic Engineering in large ISP Networks
+  internalUrl: /projects/BeeHive
+  startDate: 2016-09-01
+  funding: Cisco Systems Inc., by means of University Research Program (URP) funding
+  partners:
+    - Cisco
+  goals: >
+      The goal of BEEHIVE is to empower the optimization of large Internet Service Provider (ISP) networks, especially in the cases in which the operator requires the reactivity and the resiliency of distributed control solutions, while achieving a level of performance comparable to centralized control designs.
+
+- id: LBO
+  title: LBO
+  titleAddon: Local Bandwith Optimization
+  internalUrl: /projects/LBO
+  # tagline:                        # Tagline, describes the project in projects' list
+  startDate: 2018-01-01
+  # endDate:                        # End date in YYYY-MM-DD format (optional)
+  # leader:
+  #  - DomenicoSiracusa
+  #  - AndreaZanardi
+  # referenceFBK:                   # Name of the reference in FBK (optional)
+  # duration:                       # Duration of the project (optional)
+  funding: Cisco Systems Inc., by means of University Research Program (URP) funding
+  # website:                        # Website of the project (optional)
+  # cordisNo:                       # Number of the project within the CORDIS website (optional)
+  # logo:                           # Name of the logo in /assets (optional)
+  partners:
+    - Cisco
+  goals: >
+      The goal of the Local Bandwidth Optimization (LBO) project is to study the benefits of decentralized methods for the optimization of bandwidth in large Internet Service Provider (ISP) networks. To this account, this project builds up on previous theoretical studies to formalize and evaluate decentralized solutions for bandwidth optimization based on purely distributed or clustered approaches and leveraging the Segment Routing concept with the aim of (i) providing scalability in terms of fast and frequent re-optimization, (ii) avoiding a single point of failure, and (iii) ensuring feasibility when the network is oblivious of the full/partial traffic demands.
+  # role:                           # Role of the Unit in the project (optional)
+  # images:                         # Attached images to show at the end of the page (optional)
+      # Repeat the following structure to add more images
+  #    - title:                    # Title of the image
+  #      source:                   # Path to the image
+  # publications:                   # Publications related to the project (optional)
+      # For each publication, add details on _data/publications.yml
+      # Then, add here a new line with a dash (-) followed by the assigned "id"
