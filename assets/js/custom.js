@@ -9,6 +9,11 @@ $('a').each(function() {
     }
 });
 
+function setDefaultUserPicture(picture) {
+    picture.src = "/assets/images/no-user.jpg";
+    return true;
+}
+
 function iframe16vs9() {
     var iframes = $("iframe");
 
