@@ -1,5 +1,6 @@
 _site/
 __old
+_etc/tmp
 *.bib
 *_generated.yml
 *.bak
