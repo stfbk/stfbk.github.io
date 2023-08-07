@@ -1,0 +1,4 @@
+---
+collaboration: KonicaMinolta
+title: KonicaMinolta
+---

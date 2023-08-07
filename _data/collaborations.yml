@@ -1,7 +1,94 @@
 - id: Cisco
   name: Cisco Systems Inc. 
   startYear: 2006
-  description: Path selection, resource allocation and optical validation in fiber-based networks (development)
+  description: World leader in networking solutions
   internalUrl: /collaborations/Cisco
   officialUrl: https://www.cisco.com/
-  logo: Cisco.png
+
+- id: GARR
+  name: Consortium GARR
+  startYear: 2016
+  endYear: 2022
+  description: Gruppo per l'Armonizzazione della Rete della Ricerca
+  internalUrl: /collaborations/GARR
+  officialUrl: https://www.garr.it/
+
+- id: KonicaMinolta
+  name: Konica Minolta Inc.
+  startYear: 2019
+  endYear: 2023
+  description: World leader in printing and HMI solutions
+  internalUrl: /collaborations/KonicaMinolta
+  officialUrl: https://www.konicaminolta.com/
+
+- id: IBM
+  name: IBM Research Lab Europe
+  startYear: 2022
+  description: Multinational technology and consulting corporation
+  internalUrl: /collaborations/IBM
+  officialUrl: https://research.ibm.com/labs/ireland
+
+- id: Telefonica
+  name: Telefónica
+  startYear: 2010
+  description: Telecommunication services provider
+  internalUrl: /collaborations/Telefonica
+  officialUrl: https://www.telefonica.com/
+
+- id: Energenius
+  name: Energenius
+  startYear: 2018
+  description: Start-up focused on energy optimization solutions
+  internalUrl: /collaborations/Energenius
+  officialUrl: https://www.energenius.it/
+
+- id: PoliTO
+  name: Politecnico di Torino
+  startYear: 2018
+  description: An engineering public university based in Turin, Italy
+  internalUrl: /collaborations/PoliTO
+  officialUrl: https://www.polito.it/
+
+- id: QUEENS
+  name: Queen's University Belfast
+  startYear: 2018
+  description: Research-intensive public university located in Belfast, Northern Ireland
+  internalUrl: /collaborations/QUEENS
+  officialUrl: https://www.qub.ac.uk/
+
+- id: UniGE
+  name: Università di Genova
+  startYear: 2018
+  description: University located in Genoa, Italy
+  internalUrl: /collaborations/UNIGE
+  officialUrl: https://www.unige.it/
+
+- id: Robotnik
+  name: Robotnik
+  startYear: 2018
+  description: Leaders in robotics and mobile manipulation
+  internalUrl: /collaborations/ROBOTNIK
+  officialUrl: https://www.robotnik.eu/
+
+- id: UniTN
+  name: Università di Trento
+  startYear: 2014
+  description: University located in Trento, Italy
+  internalUrl: /collaborations/UniTN
+  officialUrl: https://www.unitn.it/
+
+- id: Atos 
+  name: Atos SE
+  startYear: 2014
+  endYear: 2020
+  description: Multinational information technology service and consulting company
+  internalUrl: /collaborations/Atos
+  officialUrl: https://atos.net/
+
+- id: KETI
+  name: Korea Electronics Technology Institute
+  startYear: 2018
+  endYear: 2021
+  description: South Korean government-funded research institute specialized in information technology
+  internalUrl: /collaborations/KETI
+  officialUrl: https://www.keti.re.kr/eng/main/main.php
