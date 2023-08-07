@@ -1,5 +1,6 @@
 ---
-title: Cisco Networks
+collaboration: Cisco
+title: Cisco Systems Inc.
 
 publications:
    - niceradistributeddynamicshared-backuppath-allocationprocedurefortransmission-impairedwdmopticalnetworks2012
@@ -9,8 +10,6 @@ publications:
    - distributedopticalcontrolplanefordynamiclightpathestablishmentintranslucentopticalnetworksbasedonreachabilitygraph2013
    - hitlessnetworkre-optimizationtoreducespectrumfragmentationindistributedgmplsflexibleopticalnetworks2013
    - demonstrationofahybridsdn/gmplscontrolplaneforopticalvirtualprivatenetworkswithrestorationcapabilities2016
-   - experimentalevaluationofyamato,asdncontrolplaneforjointandfractional-jointswitchedsdmopticalnetworks2016
-   - yamatothefirstsdncontrolplaneforindependent,joint,andfractional-jointswitchedsdmopticalnetworks2017
    - path-basedfragmentationmetricandrsaalgorithmsforelasticopticalnetworks2019
 
 ---
