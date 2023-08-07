@@ -90,8 +90,8 @@ layout: default
             {% endif %}
 
             <!-- PROJECTS -->
-            {% assign currentProjects = site.projects | where_exp: "project", "project.people contains page.person" | sort: "name" | where_exp: "project", "project.endDate == nil" %}
-            {% assign formerProjects = site.projects | where_exp: "project", "project.people contains page.person" | sort: "name" | where_exp: "project", "project.endDate != nil" %}
+            {% assign currentProjects = site.data.projects | where_exp: "project", "project.people contains page.person" | sort: "name" | where_exp: "project", "project.endDate == nil" %}
+            {% assign formerProjects = site.data.projects | where_exp: "project", "project.people contains page.person" | sort: "name" | where_exp: "project", "project.endDate != nil" %}
             {% if currentProjects.size > 0 or formerProjects.size > 0 %}
                 <section class="contains-projects">
                     <h1>Projects</h1>

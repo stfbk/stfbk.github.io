@@ -2,62 +2,97 @@
 layout: page
 ---
 
+{% assign projectFromId = site.data.projects | where: "id", page.project %}
+{% if projectFromId.size == 1 %}
+    {% assign project = projectFromId | first %}
+{% else %}
+    {% assign project = nil %}
+{% endif %}
+
 <div class="columns project is-multiline">
     <div class="column overview is-12">
-        {% if page.logo %}
-            <img class="logo pull-right" src="/assets/areas/projects/{{ page.logo }}" />
+        {% if content.size > 1 %}
+            {% if project.logo %}
+                <img class="logo pull-right" src="/assets/areas/projects/{{ project.logo }}" />
+            {% endif %}
+            <h1 id="title-overview">Overview</h1>
+            {{ content }}
+        {% else %}
+            {% if project.logo %}
+                <img class="logo" src="/assets/areas/projects/{{ project.logo }}" />
+            {% endif %}
         {% endif %}
-        <h1 id="title-overview">Overview</h1>
-        {{ content }}
     </div>
 
-    {% if page.leader or page.referenceFBK or page.startDate or page.duration or page.funding or page.website %}
+    {% if project.leader or project.referenceFBK or project.startDate or project.duration or project.funding or project.website %}
         <div class="column details is-12">
             <h1 id="title-details">Details</h1>
             <ul class="no-bullet">
-                {% if page.leader %}<li><b>Activity leader</b>: {{ page.leader }}.</li>{% endif %}
+                {% if project.leader %}
+                    {% assign leaders = project.leader %}
+                    {% if leaders.size == 1 %}
+                        <li><b>Activity leader</b>:
+                    {% else %}
+                        <li><b>Activity leaders</b>:
+                    {% endif %}
+                    {% assign details = "personalPage, institution" | split: ", " %}
+                    {% include list-people.html source=leaders style="list" details=details sort="name" %}
+                    </li>
+                {% endif %}
 
-                {% if page.referenceFBK %}<li><b>Reference in FBK</b>: {{ page.referenceFBK }}.</li>{% endif %}
+                {% if project.referenceFBK %}<li><b>Reference in FBK</b>: {{ project.referenceFBK }}</li>{% endif %}
 
-                {% if page.startDate %}<li><b>Date</b>: from {{ page.startDate | date: "%d/%m/%Y" }}{% if page.endDate %} to {{ page.endDate | date: "%d/%m/%Y" }}{% endif %}.</li>{% endif %}
+                {% if project.startDate %}<li><b>Date</b>: from {{ project.startDate | date: "%d/%m/%Y" }}{% if project.endDate %} to {{ project.endDate | date: "%d/%m/%Y" }}{% endif %}</li>{% endif %}
 
-                {% if page.duration %}<li><b>Duration</b>: {{ page.duration }}.</li>{% endif %}
+                {% if project.duration %}<li><b>Duration</b>: {{ project.duration }}</li>{% endif %}
 
-                {% if page.funding %}<li><b>Funding</b>: {{ page.funding }}.</li>{% endif %}
+                {% if project.funding %}<li><b>Funding</b>: {{ project.funding }}</li>{% endif %}
 
-                {% if page.website or page.cordisNo %}
-                    <li><b>Website{% if page.website and page.cordisNo %}s{% endif %}</b>: {% if page.website %}<a href="{{ page.website }}">Official website</a>{% if page.cordisNo%}, {% endif %}{% endif %}{% if page.cordisNo%}<a href="https://cordis.europa.eu/project/id/{{ page.cordisNo }}/">CORDIS website</a>{% endif %}.</li>
+                {% if project.website or project.cordisNo %}
+                    <li><b>Website{% if project.website and project.cordisNo %}s{% endif %}</b>: {% if project.website %}<a href="{{ project.website }}">Official website</a>{% if project.cordisNo%}, {% endif %}{% endif %}{% if project.cordisNo%}<a href="https://cordis.europa.eu/project/id/{{ project.cordisNo }}/">CORDIS website</a>{% endif %}.</li>
                 {% endif %}
             </ul>
         </div>
     {% endif %}
 
-    {% if page.goals %}
+    {% if project.goals %}
         <div class="column goals is-12">
             <h1 id="title-goals">Goals</h1>
-            <p>{{ page.goals }}</p>
+            <p>{{ project.goals }}</p>
         </div>
     {% endif %}
 
-    {% if page.role %}
+    {% if project.role %}
         <div class="column role is-12">
             <h1 id="title-unitrole">Unit role</h1>
-            <p>{{ page.role }}</p>
+            <p>{{ project.role }}</p>
         </div>
     {% endif %}
 
-    {% if page.partners %}
+    {% if project.partners %}
         <div class="column partners is-12">
             <h1 id="title-partners">Partners</h1>
-            {% if page.partners.first %}
+            {% if project.partners.first %}
                 <ul>
-                    {% for partner in page.partners %}
-                    <li>{% if partner.link %}<a href="{{ partner.link }}">{{ partner.name }}</a>{% else %}{{ partner.name }}{% endif %}{% if partner.detail %} ({{ partner.detail }}){% endif %}</li>
+                    {% for partner in project.partners %}
+                        {% if partner.name %}
+                            <li>{% if partner.url %}<a href="{{ partner.url }}">{{ partner.name }}</a>{% else %}{{ partner.name }}{% endif %}{% if partner.description %} ({{ partner.description }}){% endif %}</li>
+                        {% else %}
+                            {% assign partnerFromCollab = site.data.collaborations | where: "id", partner | first %}
+                            {% if partnerFromCollab.internalUrl %}
+                                {% assign url = partnerFromCollab.internalUrl %}
+                            {% else %}
+                                {% assign url = partnerFromCollab.officialUrl %}
+                            {% endif %}
+                            <li><a href="{{ url }}">{{ partnerFromCollab.name }}</a> {% if partnerFromCollab.description %}({{ partnerFromCollab.description }}){% endif %}</li>
+                        {% endif %}
                     {% endfor %}
                 </ul>
             {% else %}
-                <p>{{ page.partners }}</p>
+                <p>{{ project.partners }}</p>
             {% endif %}
         </div>
     {% endif %}
 </div>
+
+{% assign page = project %}
