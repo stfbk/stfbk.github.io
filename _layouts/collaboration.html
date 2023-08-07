@@ -2,12 +2,39 @@
 layout: page
 ---
 
+{% assign collaborationFromId = site.data.collaborations | where: "id", page.collaboration | first %}
+
 <div class="columns collaboration is-multiline">
     <div class="column overview is-12">
         {% if page.logo %}
             <img class="logo pull-right" src="/assets/areas/collaborations/{{ page.logo }}" />
+        {% elsif collaborationFromId.logo %}
+            <img class="logo pull-right" src="/assets/areas/collaborations/{{ collaborationFromId.logo }}" />
         {% endif %}
-
-        {{ content }}
+        {% if content.size > 1 %}
+            <h1 id="title-overview">Overview</h1>
+            {{ content }}
+        {% endif %}
     </div>
+
+    {% if collaborationFromId.startYear or collaborationFromId.endYear or collaborationFromId.officialUrl %}
+    <div class="column details is-12">
+        <h1 id="title-details">Details</h1>
+        <ul class="no-bullet">
+            {% if collaborationFromId.startYear %}<li><b>Year started</b>: {{ collaborationFromId.startYear }}.</li>{% endif %}
+
+            {% if collaborationFromId.endYear %}<li><b>Year ended</b>: {{ collaborationFromId.endYear }}.</li>{% endif %}
+
+            {% if collaborationFromId.officialUrl %}<li><b>Website</b>: <a href="{{ collaborationFromId.officialUrl }}">{{ collaborationFromId.officialUrl }}</a></li>{% endif %}
+        </ul>
+    </div>
+{% endif %}
+
+    {% assign connectedProjects = site.data.projects | where_exp: "project", "project.partners contains page.collaboration" %}
+    {% if connectedProjects.size > 0 %}
+    <div class="column is-12">
+        <h1 id="related-projects" class="related in-toc">Main Projects</h1>
+        {% include list-projects.html source=connectedProjects style="list" %}
+    </div>
+    {% endif %}
 </div>

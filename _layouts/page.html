@@ -2,6 +2,18 @@
 layout: default
 ---
 
+{% if page.inherit %}
+    {% if page.project %}
+        {% assign projectFromId = site.data.projects | where: "id", page.project %}
+            {% if projectFromId.size == 1 %}
+                {% assign project = projectFromId | first %}
+            {% else %}
+                {% assign project = nil %}
+            {% endif %}
+            {% assign page = project | default: page %}
+    {% endif %}
+{% endif %}
+
 <div class="content">
     <div class="columns is-multiline">
         <div class="column is-12">
@@ -17,42 +29,42 @@ layout: default
 
         {% if page.tools.size > 0 %}
             <div class="column is-12">
-                <h1 id="related-tools" class="related in-toc">Related Tools</h1>
+                <h1 id="related-tools" class="related in-toc">Selected Tools</h1>
                 {% include list-tools.html source=page.tools %}
             </div>
         {% endif %}
 
         {% if page.events.size > 0 %}
             <div class="column is-12">
-                <h1 id="related-events" class="related in-toc">Related Events</h1>
+                <h1 id="related-events" class="related in-toc">Selected Events</h1>
                 {% include list-events.html source=page.events %}
             </div>
         {% endif %}
 
         {% if page.projects.size > 0 %}
             <div class="column is-12">
-                <h1 id="related-projects" class="related in-toc">Related Project</h1>
+                <h1 id="related-projects" class="related in-toc">Selected Projects</h1>
                 {% include list-projects.html source=page.projects style="list" %}
             </div>
         {% endif %}
 
         {% if page.collaborations.size > 0 %}
             <div class="column is-12">
-                <h1 id="related-collaborations" class="related in-toc">Related Collaborations</h1>
+                <h1 id="related-collaborations" class="related in-toc">Selected Collaborations</h1>
                 {% include list-collaborations.html source=page.collaborations style="list" %}
             </div>
         {% endif %}
 
         {% if page.publications.size > 0 %}
             <div class="column is-12">
-                <h1 id="related-publications" class="related in-toc">Related Publications</h1>
+                <h1 id="related-publications" class="related in-toc">Selected Publications</h1>
                 {% include list-publications.html source=page.publications %}
             </div>
         {% endif %}
 
         {% if page.theses.size > 0 %}
             <div class="column is-12">
-                <h1 id="related-theses" class="related in-toc">Related Theses</h1>
+                <h1 id="related-theses" class="related in-toc">Selected Theses</h1>
                 {% include list-theses.html source=page.theses %}
             </div>
         {% endif %}

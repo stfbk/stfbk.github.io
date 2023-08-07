@@ -10,8 +10,8 @@
 
     {% assign projectsFromId = "" | split: "" %}
     {% for project in source %}
-        {% assign projectFromId = site.projects | where: "title", project %}
-        {% assign projectFromIdLabel = site.projects | where: "title", project.title %}
+        {% assign projectFromId = site.data.projects | where: "title", project %}
+        {% assign projectFromIdLabel = site.data.projects | where: "title", project.title %}
         {% if projectFromId.size == 1 %}
             {% assign projectsFromId = projectsFromId | concat: projectFromId %}
         {% elsif projectFromIdLabel.size == 1 %}
@@ -23,12 +23,19 @@
     {%- for project in projectsSorted -%}
         {% if style == "card" %}
             <div class="column is-3-desktop is-4-tablet project">
-                <a href="{% if project.customURL %}{{ project.customURL | prepend: '/projects/' | prepend: site.url }}{% else %}{{ project.title | replace: ' ', '_' | prepend: '/projects/' | prepend: site.url }}{% endif %}">
+                <a href="{% if project.internalUrl %}{{ project.internalUrl | prepend: site.url }}{% else %}{{ project.title | replace: ' ', '_' | prepend: '/projects/' | prepend: site.url }}{% endif %}">
                     <div class="card project">
                         <div class="card-image">
                             <figure class="image">
                                 {% if project.logo %}
                                     <img src="{{ site.baseurl }}/assets/areas/projects/{{ project.logo }}" alt="{{ project.title }}" />
+                                {% elsif project.partners %} 
+                                    {% if project.partners.first.name or project.partners.first == "" or project.partners.first == nil or project.partners.first.logo == "" or project.partners.first.logo == nil %}  
+                                        <img class="default" alt="{{ project.title }}" />
+                                    {% else %}
+                                        {% assign projectPartner = site.data.collaborations | where: "id", project.partners.first | first %}
+                                        <img src="{{ site.baseurl }}/assets/areas/collaborations/{{ projectPartner.logo }}" alt="{{ project.title }}" />
+                                    {% endif %}
                                 {% else %}
                                     <img class="default" alt="{{ project.title }}" />
                                 {% endif %}
@@ -43,7 +50,7 @@
             </div>
         {% elsif style == "list" %}
             <li class="item project">
-                <a href="{% if project.customURL %}{{ project.customURL | prepend: '/projects/' | prepend: site.url }}{% else %}{{ project.title | replace: ' ', '_' | prepend: '/projects/' | prepend: site.url }}{% endif %}"><b>{{ project.title }}</b></a>{% if project.titleAddon %} ({{ project.titleAddon }}){% endif %}
+                <a href="{% if project.internalUrl %}{{ project.internalUrl | prepend: site.url }}{% else %}{{ project.title | replace: ' ', '_' | prepend: '/projects/' | prepend: site.url }}{% endif %}"><b>{{ project.title }}</b></a>{% if project.titleAddon %} ({{ project.titleAddon }}){% endif %}
             </li>
         {% endif %}
     {% endfor %}
