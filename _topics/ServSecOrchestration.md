@@ -3,18 +3,13 @@ title: Service and security orchestration
 subtitle: 
 type: topic
 topicUrl: /topics/ServSecOrchestration
-image: ServSecOrchestration.png
+image: ServSecOrchestration.jpg
 order: 3
 
-# tools:
-#     - LUCID
-#     - FLAD
-# 
-# publications: 
-#     - lucidapractical,lightweightdeeplearningsolutionforddosattackdetection2020
-
-# theses:
-    # - MatteoRizzi_B
+publications: 
+  - throughput-awarepartitioningandplacementofapplicationsinfogcomputing2020
+  - dynamicandapplication-awareprovisioningofchainedvirtualsecuritynetworkfunctions2019
+  - locality-awaredeploymentofapplicationmicroservicesformulti-domainfogcomputing2023
 ---
 
 Service orchestration, in a broader context, refers to the coordination

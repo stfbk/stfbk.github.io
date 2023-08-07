@@ -3,7 +3,7 @@ title: Threat and Anomaly Detection and Mitigation
 subtitle: 
 type: topic
 topicUrl: /topics/ThreatDetection
-image: ThreatDetection.png
+image: ThreatDetection.jpg
 order: 1
 
 tools:
@@ -12,9 +12,9 @@ tools:
  
 publications: 
     - lucidapractical,lightweightdeeplearningsolutionforddosattackdetection2020
+    - daicsadeeplearningsolutionforanomalydetectioninindustrialcontrolsystems2022
+    - trackingnormalizednetworktrafficentropytodetectddosattacksinp42022
 
-# theses:
-    # - MatteoRizzi_B
 ---
 
 Threat and anomaly detection play crucial roles in safeguarding systems
