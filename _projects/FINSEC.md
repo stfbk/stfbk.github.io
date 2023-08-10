@@ -3,7 +3,8 @@ id: FINSEC
 title: FINSEC
 titleAddon: Integrated Framework for Predictive and Collaborative Security of Financial Infrastructures
 
-startDate: "2020-05-01"
+startDate: "2018-05-01"
+endDate: "2021-04-30"  #date to be checked
 
 leader:                         # Activity leader (optional)
 referenceFBK:                   # Name of the reference in FBK (optional)

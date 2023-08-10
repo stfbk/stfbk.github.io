@@ -3,7 +3,8 @@ id: SPARTA
 title: SPARTA
 titleAddon: Re-imagining the way cybersecurity research, innovation, and training are performed in Europe
 
-startDate: # "2020-05-01"
+startDate: # "2020-05-01" #date to be checked
+endDate: "2022-12-30" #date to be checked
 
 leader:                         # Activity leader (optional)
 referenceFBK:                   # Name of the reference in FBK (optional)
