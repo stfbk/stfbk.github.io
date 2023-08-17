@@ -1,18 +1,11 @@
 ---
-title:                          # Name of the project
-titleAddon:                     # Title addon (appears in parenthesis after the name in projects' list, optional)
-tagline:                        # Tagline, describes the project in projects' list
-
-startDate:                      # Start date in YYYY-MM-DD format (optional)
-endDate:                        # End date in YYYY-MM-DD format (optional)
-
+project:                             # ID of the project in /data/projects.yml
 leader:                         # Activity leader (optional)
 referenceFBK:                   # Name of the reference in FBK (optional)
 duration:                       # Duration of the project (optional)
 funding:                        # Funding of the project (optional)
-website:                        # Website of the project (optional)
+website:                        # Official website of the project (optional)
 cordisNo:                       # Number of the project within the CORDIS website (optional)
-logo:                           # Name of the logo in /assets (optional)
 
 goals: >
     Write here the goals (only plaintext, also multiline, optional)
