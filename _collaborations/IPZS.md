@@ -1,5 +1,5 @@
 ---
-title: Poligrafico e Zecca dello Stato Italiano (IPZS)
+collaboration: IPZS
 
 publications:
     - POST2018

@@ -1,5 +1,5 @@
 ---
-title: Cassa Centrale Banca
+collaboration: CassaCentraleBanca
 
 ---
 
