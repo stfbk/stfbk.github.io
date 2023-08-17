@@ -2,12 +2,34 @@
 layout: page
 ---
 
+{% assign collaborationFromId = site.data.collaborations | where: "id", page.collaboration %}
+{% if collaborationFromId.size == 1 %}
+    {% assign collaboration = collaborationFromId | first %}
+{% else %}
+    {% assign collaboration = nil %}
+{% endif %}
+
+<span id="set-title">{{ collaboration.name }}{% if collaboration.acronym %} ({{ collaboration.acronym }}){% endif %}</span>
+
 <div class="columns collaboration is-multiline">
     <div class="column overview is-12">
-        {% if page.logo %}
-            <img class="logo pull-right" src="/assets/areas/collaborations/{{ page.logo }}" />
+        {% if collaboration.logo %}
+            <img class="logo pull-right" src="/assets/areas/collaborations/{{ collaboration.logo }}" />
         {% endif %}
-
-        {{ content }}
+        {% if content.size > 1 %}
+            <h1 id="title-overview">Overview</h1>
+            {{ content }}
+        {% endif %}
     </div>
+
+    {% if collaboration.startYear or collaboration.endYear or collaboration.officialUrl %}
+        <div class="column details is-12">
+            <h1 id="title-details">Details</h1>
+            <ul class="no-bullet">
+                {% if collaboration.startYear or collaboration.endYear %}<li><b>Period</b>:{% if collaboration.startYear %} from {{ collaboration.startYear }}{% endif %}{% if collaboration.endYear %} until {{ collaboration.endYear }}{% endif %}.</li>{% endif %}
+
+                {% if collaboration.officialUrl %}<li><b>Website</b>: <a href="{{ collaborationFromId.officialUrl }}">{{ collaboration.officialUrl }}</a></li>{% endif %}
+            </ul>
+        </div>
+    {% endif %}
 </div>
