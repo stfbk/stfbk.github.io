@@ -2,16 +2,30 @@
 layout: page
 ---
 
+{% assign projectFromId = site.data.projects | where: "id", page.project %}
+{% if projectFromId.size == 1 %}
+    {% assign project = projectFromId | first %}
+{% else %}
+    {% assign project = nil %}
+{% endif %}
+
+<span id="set-title">{{ project.title }}</span>
+{% if project.titleAddon %}
+    <span id="set-subtitle">{{ project.titleAddon }}</span>
+{% endif %}
+
 <div class="columns project is-multiline">
     <div class="column overview is-12">
-        {% if page.logo %}
-            <img class="logo pull-right" src="/assets/areas/projects/{{ page.logo }}" />
+        {% if project.logo %}
+            <img class="logo pull-right" src="/assets/areas/projects/{{ project.logo }}" />
         {% endif %}
-        <h1 id="title-overview">Overview</h1>
-        {{ content }}
+        {% if content.size > 1 %}
+            <h1 id="title-overview">Overview</h1>
+            {{ content }}
+        {% endif %}
     </div>
 
-    {% if page.leader or page.referenceFBK or page.startDate or page.duration or page.funding or page.website %}
+    {% if page.leader or page.referenceFBK or project.startDate or page.duration or page.funding or page.website %}
         <div class="column details is-12">
             <h1 id="title-details">Details</h1>
             <ul class="no-bullet">
@@ -19,7 +33,7 @@ layout: page
 
                 {% if page.referenceFBK %}<li><b>Reference in FBK</b>: {{ page.referenceFBK }}.</li>{% endif %}
 
-                {% if page.startDate %}<li><b>Date</b>: from {{ page.startDate | date: "%d/%m/%Y" }}{% if page.endDate %} to {{ page.endDate | date: "%d/%m/%Y" }}{% endif %}.</li>{% endif %}
+                {% if project.startDate or project.endDate %}<li><b>Period</b>:{% if project.startDate %} from {{ project.startDate | date: "%d/%m/%Y" }}{% endif %}{% if project.endDate %} until {{ project.endDate | date: "%d/%m/%Y" }}{% endif %}.</li>{% endif %}
 
                 {% if page.duration %}<li><b>Duration</b>: {{ page.duration }}.</li>{% endif %}
 

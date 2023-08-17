@@ -90,8 +90,23 @@ layout: default
             {% endif %}
 
             <!-- PROJECTS -->
-            {% assign currentProjects = site.projects | where_exp: "project", "project.people contains page.person" | sort: "name" | where_exp: "project", "project.endDate == nil" %}
-            {% assign formerProjects = site.projects | where_exp: "project", "project.people contains page.person" | sort: "name" | where_exp: "project", "project.endDate != nil" %}
+            {% assign todayDate = 'now' | date: '%Y-%m-%d' %}
+            {% assign currentProjects = "" | split: "" %}
+            {% assign formerProjects = "" | split: "" %}
+            {% assign projectsWithPerson = site.projects | where_exp: "project", "project.people contains page.person" %}
+
+            {% for project in projectsWithPerson %}
+                {% assign projectFromId = site.data.projects | where: "id", project.project %}
+                {% if projectFromId.size == 1 %}
+                    {% assign consideredProject = projectFromId | first %}
+                    {% if consideredProject.endDate == nil or consideredProject.endDate >= todayDate %}
+                        {% assign currentProjects = currentProjects | push: consideredProject %}
+                    {% else %}
+                        {% assign formerProjects = formerProjects | push: consideredProject %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+
             {% if currentProjects.size > 0 or formerProjects.size > 0 %}
                 <section class="contains-projects">
                     <h1>Projects</h1>
@@ -100,7 +115,8 @@ layout: default
                         <div class="column is-12">
                             {% include list-projects.html source=currentProjects sort="title" style="card" %}
                         </div>
-                    {% else %}
+                    {% endif %}
+                    {% if formerProjects.size > 0 %}
                         <h4>Former</h4>
                         <div class="column is-12">
                             {% include list-projects.html source=formerProjects sort="title" style="card" %}
