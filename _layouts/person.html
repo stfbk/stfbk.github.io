@@ -135,7 +135,7 @@ layout: default
                     {% for startDate in disseminationByStartDate %}
                         {% assign startDateYear = startDate.name | date: "%Y" %}
                         {% if consideredYear != startDateYear %}
-                            <h4>{{ startDateYear }}</small></h4>
+                            <h4>{{ startDateYear }}</h4>
                         {% endif %}
                         {% include list-dissemination.html source=startDate.items sort="title" style="list" %}
                         {% assign consideredYear = startDateYear %}

@@ -52,7 +52,8 @@
   font-size: 1rem;
 }
 
-.card.person {
+.card.person,
+.card.project {
   padding-top: 1.3em;
 }
 
