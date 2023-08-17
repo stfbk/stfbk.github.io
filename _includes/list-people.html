@@ -24,7 +24,11 @@
     {% if sort %}
         {% assign people = peopleFromId | sort_natural: sort %}
     {% else %}
-        {% assign people = peopleFromId %}
+        {% if sort == "none" %}
+            {% assign people = peopleFromId %}
+        {% else %}
+            {% assign people = peopleFromId | sort_natural: surname %}
+        {% endif %}
     {% endif %}
     
     {% for person in people %}
