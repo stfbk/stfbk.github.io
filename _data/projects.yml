@@ -1,0 +1,186 @@
+- id: AI@TN
+  title: AI@TN
+  titleAddon: Intelligenza artificiale a Trento
+  startDate: "2022-01-01"
+  endDate: "2023-12-31"
+  url: https://magazine.fbk.eu/it/news/nasce-il-progetto-ai-tn-intelligenza-artificiale-a-trento/
+
+- id: F&C_authnCIE
+  title: F&C CIE
+  titleAddon: Autenticazione con CIE
+  startDate: "2021-04-01"
+  endDate: "2022-03-31"
+  logo: logo_FuturoConoscenza.png
+  url: /projects/FC_authnCIE
+
+- id: F&C_eID
+  title: F&C eID
+  titleAddon: Scenari Innovativi di Identità Digitale 
+  logo: logo_FuturoConoscenza.png
+  url: /projects/FC_eID
+
+- id: F&C_eVoting
+  title: F&C eVoting
+  endDate: "2023-06-30"
+  logo: logo_FuturoConoscenza.png
+  url: /projects/FC_evoting
+
+- id: F&C_fisica
+  title: F&C fisica
+  titleAddon: Scenari Innovativi di Identità Fisica
+  logo: logo_FuturoConoscenza.png
+  url: /projects/FC_fisica
+
+- id: FIDES2015
+  title: FIDES 2015
+  titleAddon: Federated Identity Management System
+  startDate: "2015-01-01"
+  endDate: "2015-12-31"
+  logo: logo_FIDES.png
+  url: /projects/FIDES_2015
+
+- id: FIDES2016
+  title: FIDES 2016
+  titleAddon: Federated Identity Management System
+  startDate: "2016-01-01"
+  endDate: "2016-12-31"
+  logo: logo_FIDES.png
+  url: /projects/FIDES_2016
+
+- id: FINSEC
+  title: FINSEC
+  titleAddon: Integrated Framework for Predictive and Collaborative Security of Financial Infrastructures
+  startDate: "2018-05-01"
+  endDate: "2021-04-30"
+  logo: logo_FINSEC.png
+  url: /projects/FINSEC
+
+- id: IDeARe
+  title: IDeARe
+  titleAddon: Identità Digitali ed Azioni Reali
+  url: /projects/IDeARe
+
+- id: JuLIA
+  title: JuLIA
+  titleAddon: Justice, fundamentaL rIghts and Artificial intelligence
+  logo: logo_JuLIA.svg
+  url: https://www.julia-project.eu/
+  # url: /projects/JuLIA
+
+- id: MERIT
+  title: MERIT
+  titleAddon: Master of Science in Smart, Secure and Interconnected Systems
+  startDate: "2022-10-01"
+  logo: logo_MERIT.png
+  url: /projects/MERIT
+
+- id: METAfora
+  title: METAfora
+  titleAddon: Metodologie e tecnologie di rappresentazione per il metaverso
+  url: /projects/METAfora
+
+- id: NATO_ABAC
+  title: NATO High Assurance ABAC Guard
+  startDate: "2012-08-01"
+  endDate: "2014-12-31"
+  url: /projects/NATO_High_Assurance_ABAC_Guard
+
+- id: POTENTIAL
+  title: POTENTIAL
+  titleAddon: PilOTs for EuropeaN digiTal Identity wALlet
+  logo: logo_POTENTIAL.png
+  url: https://www.digital-identity-wallet.eu/
+  # url: /projects/POTENTIAL
+
+- id: PROTECTOR
+  title: PROTECTOR
+  titleAddon: PROTECTing places of wORship
+  startDate: "2021-04-01"
+  endDate: "2023-03-31"
+  logo: logo_PROTECTOR.png
+  url: /projects/PROTECTOR
+
+- id: SecAC
+  title: SecAC
+  titleAddon: Security Analysis of Complex Access Control Policies
+  startDate: "2012-10-01"
+  endDate: "2014-09-30"
+  url: /projects/SecAC
+
+- id: SeCco
+  title: SeCco
+  titleAddon: Securing Containers
+  logo: logo_SERICS.png
+  url: /projects/SeCco
+
+- id: SECENTIS
+  title: SECENTIS
+  startDate: "2013-04-01"
+  endDate: "2017-03-31"
+  logo: logo_SECENTIS.png
+  url: /projects/SECENTIS
+
+- id: SecSES
+  title: SecSES
+  titleAddon: Secure Energy Systems
+  startDate: "2013-01-01"
+  endDate: "2013-12-31"
+  logo: logo_EIT_Labs.jpeg
+  url: /projects/SecSES
+
+- id: SESSec-EU
+  title: SESSec-EU
+  startDate: "2012-01-01"
+  endDate: "2012-12-31"
+  logo: logo_EIT_Labs.jpeg
+  url: /projects/SESSec-EU
+
+- id: SIAM
+  title: SIAM
+  titleAddon: Automated Security Analysis of Identity and Access Management Systems
+  startDate: "2010-04-01"
+  endDate: "2013-08-01"
+  url: /projects/SIAM
+
+- id: SPARTA
+  title: SPARTA
+  titleAddon: Re-imagining the way cybersecurity research, innovation, and training are performed in Europe
+  startDate: # "2020-05-01" #date to be checked
+  endDate: "2022-12-30" #date to be checked
+  logo: logo_SPARTA.png
+  url: /projects/SPARTA
+
+- id: STAnD
+  title: STAnD
+  titleAddon: Security Tools for App Development
+  startDate: "2018-01-01"
+  endDate: "2018-12-31"
+  logo: logo_STAnD.png
+  url: /projects/STAnD
+
+- id: StealthGoCloud
+  title: Stealth Go! Cloud
+  startDate: "2021-11-01"
+  endDate: "2023-04-30"
+  url: /projects/StealthGoCloud
+
+- id: STIATE
+  title: STIATE
+  titleAddon: Security Threat Identification and Testing
+  startDate: "2014-01-01"
+  endDate: "2014-12-31"
+  logo: logo_EIT_Labs.jpeg
+  url: /projects/STIATE
+
+- id: STRIDE
+  title: STRIDE
+  titleAddon: Secure and TRaceable Identities in Distributed Environments 
+  logo: logo_SERICS.png
+  url: /projects/STRIDE
+
+- id: TreC
+  title: TreC
+  startDate: "2010-11-01"
+  endDate: "2011-11-30"
+  logo: logo_TreC.jpg
+  url: /projects/TreC

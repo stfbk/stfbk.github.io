@@ -1,18 +1,11 @@
 ---
-title: SIAM
-titleAddon: Automated Security Analysis of Identity and Access Management Systems
-
-startDate: "2010-04-01"
-endDate: "2013-08-01"
-
+project: SIAM
 funding: Provincia Autonoma di Trento
 
 people:
     - RobertoCarbone
     - SilvioRanise
     - AlessandroArmando
-
-peopleOrder: surname
 
 ---
 

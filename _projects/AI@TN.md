@@ -1,11 +1,7 @@
 ---
-id: AI_TN
-title: AI@TN
-titleAddon: 
+project: AI@TN
 
-startDate: #"2020-05-01"
-
-
+funding: "Provincia Autonoma di Trento"
 
 ---
 Under construction

@@ -1,15 +1,10 @@
 ---
-title: STAnD
-titleAddon: Security Tools for App Development
-tagline: the outcome of EIT Digital's API Assistant Innovation Activity 2018.
+project: STAnD
 leader: Silvio Ranise (FBK)
 goals: >
     The outcome of EIT Digital's API Assistant Innovation Activity is STAnD. The Security Tools for App Development - STAnD - is a new plug-in that helps application programming interface (API) developers make their APIs secure. It does this by providing a managed security service capable of identifying potential vulnerabilities, together with a catalogue of code hardening techniques that help reduce their exploitation. While tools already exist to secure APIs, none has so far been available for ensuring their secure usage in application creation. 
 
 funding: EIT Digital innovation and entrepreneurial education organisation under Internal Agreement Grant 2018 (ID project 18163)
-startDate: "2018-01-01"
-endDate: "2018-12-31"
-logo: logo_STAnD.png
 
 partners:
     - name: Fondazione Bruno Kessler (FBK)
@@ -34,7 +29,6 @@ people:
     - RobertoTiella
     - SilvioRanise
 
-peopleOrder: surname
 ---
 
 STAnD (Security Tools for App Development) is the outcome of EIT Digital's [API Assistant Innovation Activity 2018](https://www.eitdigital.eu/innovation-entrepreneurship/digital-infrastructure/).

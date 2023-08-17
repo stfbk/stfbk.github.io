@@ -1,6 +1,5 @@
 ---
-title: SECENTIS
-tagline: an Initial Training Network (ITN) / European Industrial Doctorate (EID) project established in collaboration with Sap France. The aim is to give 5 scientists (Early Stage Researcher) an optimal training and technical assistance to carry out their doctoral research on Security and Trust of Next Generation Enterprise Information Systems.
+project: SECENTIS
 goals: >
     The SECENTIS Project will provide an innovative training program at the Doctoral level to educate a new generation of security experts capable to tackle the scientific and technical challenges raised by the combination of new technologies (e.g., cloud computing, mobile applications, and the Software-as-a-Service paradigm) and to manage the impact of these changes in industry.
 
@@ -8,9 +7,6 @@ funding: Initial Training Networks (ITN) - Marie Curie Actions
 duration: 4 years
 role: Coordinator
 website: http://www.secentis.eu/
-startDate: "2013-04-01"
-endDate: "2017-03-31"
-logo: logo_SECENTIS.png
 
 partners:
     - name: SAP Next Business and Technology (Security & Trust applied research department in Sophia-Antipolis)
@@ -33,7 +29,6 @@ people:
     - AvinashSudhodanan
     - NadiaMetoui
 
-peopleOrder: surname
 ---
 
 SECENTIS is an Initial Training Network (ITN) / European Industrial Doctorate (EID) project established in collaboration with Sap France.
