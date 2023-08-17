@@ -93,6 +93,13 @@ if ($("#toc").length > 0) {
     }
 }
 
+if ($("#set-title").length == 1) {
+    var title = $("#set-title").text();
+    var siteTitle = $("#site-title").text();
+    $(".hero-body .title:first").text(title);
+    $(document).prop("title", title + " - " + siteTitle);
+}
+
 if ($("#set-subtitle").length == 1) {
     var subtitle = $("#set-subtitle").text();
     $(".hero-body .subtitle:first").text(subtitle);
