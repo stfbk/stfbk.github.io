@@ -91,6 +91,17 @@ current:
       yearTo: 2023
 
   junior:
+    - personId: AndreaBrandolini
+      topic: Cybersecurity 101
+      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+      yearFrom: 2022
+      yearTo: 2023
+
+    - personId: MattiaAndreolli
+      topic: Cybersecurity 101
+      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+      yearFrom: 2022
+      yearTo: 2023
       
 former:
   head:
@@ -434,18 +445,6 @@ former:
       institution: Liceo Scientifico "Leonardo Da Vinci", Trento
       yearFrom: 2021
       yearTo: 2021
-
-    - personId: AndreaBrandolini
-      topic: Cybersecurity 101
-      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
-      yearFrom: 2022
-      yearTo: 2022
-
-    - personId: MattiaAndreolli
-      topic: Cybersecurity 101
-      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
-      yearFrom: 2022
-      yearTo: 2022
 
     - personId: MatildeSalaorni
       topic: OSINT e l'assessment del rischio nei social media
