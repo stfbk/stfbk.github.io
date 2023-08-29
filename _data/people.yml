@@ -104,8 +104,7 @@
   affiliations:
     - role: Employee
       institution: "Futuro & Conoscenza"
-  email: a.bisegna@futuroeconoscenza.it
-  usernameFBK: a.bisegna
+  email: a.bisegna@fbk.eu
 
 - id: AndreaBrandolini
   name: Andrea
@@ -182,8 +181,7 @@
   affiliations:
     - role: Employee
       institution: "Futuro & Conoscenza"
-  email: c.pasquini@futuroeconoscenza.it
-  usernameFBK: c.pasquini
+  email: c.pasquini@fbk.eu
 
 - id: CesareTinelli
   name: Cesare
@@ -484,8 +482,7 @@
       unit: Center for Cybersecurity
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-  email: l.cristiano@futuroeconoscenza.it
-  usernameFBK: l.cristiano
+  email: l.cristiano@fbk.eu
   
 - id: LeonardoDeMoura
   name: Leonardo
@@ -952,8 +949,7 @@
       unit: Security & Trust
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-  email: u.morelli@futuroeconoscenza.it
-  usernameFBK: umorelli
+  email: umorelli@fbk.eu
 
 - id: ValentinaOdorizzi
   name: Valentina
