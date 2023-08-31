@@ -354,6 +354,17 @@
     - name: Session
       url: https://www.kuppingercole.com/sessions/5325/2
 
+- id: Steam2023
+  title: "Cybersecurity: l'esperienza di due giovani professionisti"
+  participants:
+    - MatteoRizzi
+    - GiadaSciarretta
+  eventName: Liceo Steam International, Rovereto
+  startDate: "2023-04-14"
+  endDate: "2023-04-14"
+  category: School
+  subcategory: High School
+
 - id: TDI2023
   title: "Cross-Domain Sharing of User Claims: A Design Proposal for OpenID Connect Attribute Authorities"
   participants:
