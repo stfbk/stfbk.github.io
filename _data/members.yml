@@ -7,8 +7,8 @@ current:
     - AndreaZanardi
     - ClaudioFacchinetti
     - DanieleSantoro
-    - FrancescoTomasselli
     - GiacomoSegala
+    - GiancarloVallazza
     - LorenzoGalvagni
     - LuisAugustoDiasKnob
     - MarcoZambianco
@@ -49,6 +49,8 @@ former:
     
     - personId: AntonioMarsico
       thesisId: AntonioMarsico_P
+
+    - personId: FrancescoTomasselli
 
   members:
     - personId: MatteoGerola

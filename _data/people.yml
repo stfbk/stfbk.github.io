@@ -56,16 +56,6 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   
-- id: FrancescoTomasselli
-  name: Francesco
-  surname: Tomasselli
-  email: ftomasselli@fbk.eu
-  affiliations:
-    - role: PhD Student
-      unit: Robust and Secure Distributed Computing
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  
 - id: GiacomoSegala
   name: Giacomo
   surname: Segala
@@ -185,6 +175,16 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
 
+- id: GiancarloVallazza
+  name: Giancarlo
+  surname: Vallazza
+  email: gvallazza@fbk.eu
+  affiliations:
+    - role: Developer
+      unit: Robust and Secure Distributed Computing
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+
 # Interns
 
 - id: MarcoZani 
@@ -193,6 +193,10 @@
   usernameFBK: mzani
   
 # Former
+- id: FrancescoTomasselli
+  name: Francesco
+  surname: Tomasselli
+
 - id: StefanoDiSanto
   name: Stefano
   surname: Di Santo
