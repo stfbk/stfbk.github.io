@@ -50,8 +50,6 @@ former:
     - personId: AntonioMarsico
       thesisId: AntonioMarsico_P
 
-    - personId: FrancescoTomasselli
-
   members:
     - personId: MatteoGerola
       formerRole: Developer
