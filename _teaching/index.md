@@ -49,3 +49,6 @@ permalink: /teaching/
     {% include list-teaching.html source=courses_other style="table" %}
   </section>
 {% endif %}
+
+# Internship Projects
+- [Projects for Academic Year 2023-2024](/teaching/projects/2023-2024)
