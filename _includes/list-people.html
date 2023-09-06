@@ -221,13 +221,12 @@
                     {% if details contains "picture" %}
                         {% assign staticImageName = person.id | append: ".jpg" %}
                         {% assign staticImageNameNoAccents = staticImageName | replace: 'à', 'a' | replace: 'è', 'e'  | replace: 'ì', 'i'  | replace: 'ò', 'o'  | replace: 'ù', 'u' %}
-                        {% assign staticImageURL = "/assets/areas/people/" | append: staticImageNameNoAccents %}
-                        {% assign staticImage = site.static_files | where_exp: "file", "file.path == staticImageURL" %}
+                        {% assign staticImage = site.static_files | where_exp: "file", "file.name == staticImageNameNoAccents" %}
 
                         {% if person.image %}
                             {% assign personImage = person.image %}
                         {% elsif staticImage.size == 1 %}
-                            {% assign personImage = staticImageURL %}
+                            {% assign personImage = staticImage[0].path %}
                         {% elsif person.usernameFBK %}
                             {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ person.usernameFBK }}?w=200{% endcapture %}
                         {% elsif person.email %}
