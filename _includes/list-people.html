@@ -58,7 +58,7 @@
         {% for thesisId in thesesId %}
             {% assign thesis = site.data.theses | where: "id", thesisId %}
 
-            {% if thesis.size > 0 %}
+            {% if thesis.size == 1 %}
                 {% assign thesis = thesis[0] %}
                 {% assign authorThesesArray = authorThesesArray | push: thesis %}
 
