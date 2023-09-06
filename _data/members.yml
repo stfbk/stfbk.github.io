@@ -1,6 +1,5 @@
 current:
   head:
-    - SilvioRanise
     - RobertoCarbone
 
   members:
@@ -19,7 +18,6 @@ current:
 
   collaborators:
     - AndreaBisegna
-    - LauraCristiano
     - CeciliaPasquini
       
   students:
