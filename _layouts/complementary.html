@@ -5,12 +5,12 @@ layout: page
 {% if page.paper %}
 	{% assign object = "paper" %}
 	{% assign publicationFromId = site.data.publications | where: "id", page.paper %}
-	{% if publicationFromId.size == 1 %}{% assign paper = publicationFromId[0] %}{% endif %}
+	{% if publicationFromId.size > 0 %}{% assign paper = publicationFromId[0] %}{% endif %}
 	{% assign authors = paper.authors %}
 {% elsif page.thesis %}
 	{% assign object = "thesis" %}
 	{% assign publicationFromId = site.data.theses | where: "id", page.thesis %}
-	{% if publicationFromId.size == 1 %}{% assign paper = publicationFromId[0] %}{% endif %}
+	{% if publicationFromId.size > 0 %}{% assign paper = publicationFromId[0] %}{% endif %}
 	{% assign authors = paper.author %}
 {% endif %}
 
@@ -37,7 +37,7 @@ layout: page
 
 {% if paper.destination %}
 	{% assign destinationFromId = site.data.destinations | where: "id", paper.destination %}
-	{% if destinationFromId.size == 1 %}{% assign destination = destinationFromId[0] %}{% endif %}
+	{% if destinationFromId.size > 0 %}{% assign destination = destinationFromId[0] %}{% endif %}
 {% endif %}
 
 <div class="columns is-multiline">

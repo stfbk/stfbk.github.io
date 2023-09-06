@@ -30,10 +30,10 @@
     {% for dissemination in source %}
         {% assign disseminationFromId = site.data.dissemination | where: "id", dissemination %}
         {% assign disseminationFromIdLabel = site.data.dissemination | where: "id", dissemination.id %}
-        {% if disseminationFromId.size == 1 %}
-            {% assign disseminationsFromId = disseminationsFromId | concat: disseminationFromId %}
-        {% elsif disseminationFromIdLabel.size == 1 %}
-            {% assign disseminationsFromId = disseminationsFromId | concat: disseminationFromIdLabel %}
+        {% if disseminationFromId.size > 0 %}
+            {% assign disseminationsFromId = disseminationsFromId | push: disseminationFromId[0] %}
+        {% elsif disseminationFromIdLabel.size > 0  %}
+            {% assign disseminationsFromId = disseminationsFromId | push: disseminationFromIdLabel[0] %}
         {% endif %}
     {% endfor %}
 

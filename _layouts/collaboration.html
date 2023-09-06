@@ -3,8 +3,8 @@ layout: page
 ---
 
 {% assign collaborationFromId = site.data.collaborations | where: "id", page.collaboration %}
-{% if collaborationFromId.size == 1 %}
-    {% assign collaboration = collaborationFromId | first %}
+{% if collaborationFromId.size > 0 %}
+    {% assign collaboration = collaborationFromId[0] %}
 {% else %}
     {% assign collaboration = nil %}
 {% endif %}

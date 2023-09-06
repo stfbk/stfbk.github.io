@@ -9,10 +9,10 @@
     {% for publication in source %}
         {% assign publicationFromId = site.data.publications | where: "id", publication %}
         {% assign publicationFromIdLabel = site.data.publications | where: "id", publication.id %}
-        {% if publicationFromId.size == 1 %}
-            {% assign publicationsFromId = publicationsFromId | concat: publicationFromId %}
-        {% elsif publicationFromIdLabel.size == 1 %}
-            {% assign publicationsFromId = publicationsFromId | concat: publicationFromIdLabel %}
+        {% if publicationFromId.size > 0 %}
+            {% assign publicationsFromId = publicationsFromId | push: publicationFromId[0] %}
+        {% elsif publicationFromIdLabel.size > 0 %}
+            {% assign publicationsFromId = publicationsFromId | push: publicationFromIdLabel[0] %}
         {% endif %}
     {% endfor %}
 
@@ -50,7 +50,7 @@
 
         {%- if publication.destination -%}
             {%- assign destinationFromId = site.data.destinations | where: "id", publication.destination -%}
-            {%- if destinationFromId.size == 1 -%}
+            {%- if destinationFromId.size > 0 -%}
                 {% assign destination = destinationFromId[0] -%}
             {%- else -%}
                 {% assign destination = "" -%}

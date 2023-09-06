@@ -14,10 +14,10 @@
     {% for person in source %}
         {% assign personFromId = site.data.people | where: "id", person %}
         {% assign personFromIdLabel = site.data.people | where: "id", person.personId %}
-        {% if personFromId.size == 1 %}
-            {% assign peopleFromId = peopleFromId | concat: personFromId %}
-        {% elsif personFromIdLabel.size == 1 %}
-            {% assign peopleFromId = peopleFromId | concat: personFromIdLabel %}
+        {% if personFromId.size > 0 %}
+            {% assign peopleFromId = peopleFromId | push: personFromId[0] %}
+        {% elsif personFromIdLabel.size > 0 %}
+            {% assign peopleFromId = peopleFromId | push: personFromIdLabel[0] %}
         {% endif %}
     {% endfor %}
 
@@ -58,8 +58,8 @@
         {% for thesisId in thesesId %}
             {% assign thesis = site.data.theses | where: "id", thesisId %}
 
-            {% if thesis.size == 1 %}
-                {% assign thesis = thesis | first %}
+            {% if thesis.size > 0 %}
+                {% assign thesis = thesis[0] %}
                 {% assign authorThesesArray = authorThesesArray | push: thesis %}
 
                 {% assign supervisors = "" | split: "" %}

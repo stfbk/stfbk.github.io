@@ -7,10 +7,10 @@
     {% for event in source %}
         {% assign eventFromId = site.data.events | where: "id", event %}
         {% assign eventFromIdLabel = site.data.events | where: "id", event.id %}
-        {% if eventFromId.size == 1 %}
-            {% assign eventsFromId = eventsFromId | concat: eventFromId %}
-        {% elsif eventFromIdLabel.size == 1 %}
-            {% assign eventsFromId = eventsFromId | concat: eventFromIdLabel %}
+        {% if eventFromId.size > 0  %}
+            {% assign eventsFromId = eventsFromId | push: eventFromId[0] %}
+        {% elsif eventFromIdLabel.size > 0  %}
+            {% assign eventsFromId = eventsFromId | push: eventFromIdLabel[0] %}
         {% endif %}
     {% endfor %}
     {% assign eventsSorted = eventsFromId | sort: "startDate" | reverse %}
