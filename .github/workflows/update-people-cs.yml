@@ -1,0 +1,27 @@
+name: update-people-cs
+
+on:
+  push:
+    paths:
+      - '_data/people.yml'
+
+jobs:
+  copy-file:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Push to CS repository
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.CS_SYNC_TOKEN }}
+      with:
+        source_file: '_data/people.yml'
+        destination_repo: 'csfbk/csfbk.github.io'
+        destination_folder: '_data/people'
+        rename: '1_people_st.yml'
+        user_name: 'csfbk'
+        user_email: 'cs@fbk.eu'
+
+    - run: echo "Operation completed."
