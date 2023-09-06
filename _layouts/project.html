@@ -3,8 +3,8 @@ layout: page
 ---
 
 {% assign projectFromId = site.data.projects | where: "id", page.project %}
-{% if projectFromId.size == 1 %}
-    {% assign project = projectFromId | first %}
+{% if projectFromId.size > 0 %}
+    {% assign project = projectFromId[0] %}
 {% else %}
     {% assign project = nil %}
 {% endif %}

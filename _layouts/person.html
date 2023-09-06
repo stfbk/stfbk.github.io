@@ -3,8 +3,8 @@ layout: default
 ---
 
 {% assign personFromId = site.data.people | where: "id", page.person %}
-{% if personFromId.size == 1 %}
-    {% assign person = personFromId | first %}
+{% if personFromId.size > 0 %}
+    {% assign person = personFromId[0] %}
 {% else %}
     {% assign person = nil %}
 {% endif %}
@@ -96,8 +96,8 @@ layout: default
 
             {% for project in projectsWithPerson %}
                 {% assign projectFromId = site.data.projects | where: "id", project.project %}
-                {% if projectFromId.size == 1 %}
-                    {% assign consideredProject = projectFromId | first %}
+                {% if projectFromId.size > 0 %}
+                    {% assign consideredProject = projectFromId[0] %}
                     {% if consideredProject.endDate == nil or consideredProject.endDate >= todayDate %}
                         {% assign currentProjects = currentProjects | push: consideredProject %}
                     {% else %}

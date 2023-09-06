@@ -8,17 +8,17 @@
         {% for publication in source %}
             {% assign publicationFromId = site.data.theses | where: "id", publication %}
             {% assign publicationFromIdLabel = site.data.theses | where: "id", publication.id %}
-            {% if publicationFromId.size == 1 %}
-                {% assign publicationsFromId = publicationsFromId | concat: publicationFromId %}
-            {% elsif publicationFromIdLabel.size == 1 %}
-                {% assign publicationsFromId = publicationsFromId | concat: publicationFromIdLabel %}
+            {% if publicationFromId.size > 0 %}
+                {% assign publicationsFromId = publicationsFromId | push: publicationFromId[0] %}
+            {% elsif publicationFromIdLabel.size > 0 %}
+                {% assign publicationsFromId = publicationsFromId | push: publicationFromIdLabel[0] %}
             {% endif %}
         {% endfor %}
         {% assign publicationsSorted = publicationsFromId | sort: "year" | reverse %}
         {%- for publication in publicationsSorted -%}
             {%- if publication.author -%}
                 {%- assign author = site.data.people | where: "id", publication.author -%}
-                {%- if author.size == 1 -%}
+                {%- if author.size > 0 -%}
                     {% assign author = author[0] -%}
                 {%- else -%}
                     {% assign author = nil -%}
