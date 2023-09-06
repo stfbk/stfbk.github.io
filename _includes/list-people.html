@@ -249,7 +249,7 @@
                     <div class="card-content">
                         {% if person.name and person.surname %}<p class="title is-spaced is-5">{{ person.name }} {{ person.surname }}</p>{% endif %}
                         {% if role and details contains "role" %}<p class="subtitle role is-4">{{ role }}</p>{% endif %}
-                        {% if type %}<p class="subtitle role is-4">{{ type }}</p>{% endif %}
+                        {% if type %}<p class="subtitle type is-4">{{ type }}</p>{% endif %}
                         {% if details contains "unit" or details contains "institution" or details contains "place" %}
                             {% for affiliation in person.affiliations %}
                                 <div class="affiliation{% if person.affiliations.size > 1 %} more{% endif %}">
