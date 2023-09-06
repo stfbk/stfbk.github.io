@@ -14,7 +14,6 @@ current:
     - MarcoZambianco
     - MatteoFranzil
     - MatteoManfrin
-    - PietroDeMatteis
     - RobertoDoriguzziCorin
     - SilvioCretti
     - SimoneMagnani
@@ -26,6 +25,9 @@ current:
       institution: University of Trento
       yearFrom: 2023
       yearTo: 2023
+
+  collaborators:
+    - PietroDeMatteis
 
 former:
   phdStudents:
@@ -102,6 +104,10 @@ former:
     - personId: FrancescoDePellegrini
       formerRole: Researcher
       yearTo: 2020
+
+    - personId: PietroDeMatteis
+      formerRole: Developer
+      yearTo: 2023
 
   students:
     - personId: StefanoDiSanto
