@@ -18,8 +18,8 @@ show_sidebar: false
                             {% for publication in post.papers %}
                                 {% assign publicationFromId = site.data.publications | where: "id", publication %}
                                 {% assign publicationFromIdSize = publicationFromId | size %}
-                                {% if publicationFromIdSize == 1 %}
-                                    {% assign publicationsFromId = publicationsFromId | concat: publicationFromId %}
+                                {% if publicationFromIdSize > 0 %}
+                                    {% assign publicationsFromId = publicationsFromId | push: publicationFromId[0] %}
                                 {% endif %}
                             {% endfor %}
                             {% assign publicationsSorted = publicationsFromId | sort: "title" %}
@@ -27,7 +27,7 @@ show_sidebar: false
                     
                         {% if publicationsSorted[0].destination %}
                             {% assign destinationFromId = site.data.destinations | where: "id", publicationsSorted[0].destination %}
-                            {% if destinationFromId.size == 1 %}
+                            {% if destinationFromId.size > 0 %}
                                 {% assign destination = destinationFromId[0] %}
                             {% endif %}
                         {% endif %}

@@ -8,10 +8,10 @@
     {% for tool in source %}
         {% assign toolFromId = site.data.tools | where: "id", tool %}
         {% assign toolFromIdLabel = site.data.tools | where: "id", tool.id %}
-        {% if toolFromId.size == 1 %}
-            {% assign toolsFromId = toolsFromId | concat: toolFromId %}
-        {% elsif toolFromIdLabel.size == 1 %}
-            {% assign toolsFromId = toolsFromId | concat: toolFromIdLabel %}
+        {% if toolFromId.size > 0 %}
+            {% assign toolsFromId = toolsFromId | push: toolFromId[0] %}
+        {% elsif toolFromIdLabel.size > 0 %}
+            {% assign toolsFromId = toolsFromId | push: toolFromIdLabel[0] %}
         {% endif %}
     {% endfor %}
 

@@ -12,10 +12,10 @@
     {% for project in source %}
         {% assign projectFromId = site.data.projects | where: "id", project %}
         {% assign projectFromIdLabel = site.data.projects | where: "id", project.id %}
-        {% if projectFromId.size == 1 %}
-            {% assign projectsFromId = projectsFromId | concat: projectFromId %}
-        {% elsif projectFromIdLabel.size == 1 %}
-            {% assign projectsFromId = projectsFromId | concat: projectFromIdLabel %}
+        {% if projectFromId.size > 0 %}
+            {% assign projectsFromId = projectsFromId | push: projectFromId[0] %}
+        {% elsif projectFromIdLabel.size > 0 %}
+            {% assign projectsFromId = projectsFromId | push: projectFromIdLabel[0] %}
         {% endif %}
     {% endfor %}
 
