@@ -122,13 +122,8 @@
 - id: PietroDeMatteis
   name: Pietro
   surname: De Matteis
-  email: pdematteis@fbk.eu
-  phone:  "+390461312465"
-  affiliations:
-    - role: Developer
-      unit: Robust and Secure Distributed Computing
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
+  # affiliations:
+  #  - TBD
   
 - id: RobertoDoriguzziCorin
   name: Roberto
