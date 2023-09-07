@@ -51,4 +51,5 @@ permalink: /teaching/
 {% endif %}
 
 # Internship Projects
-- [Projects for Academic Year 2023-2024](/teaching/projects/2023-2024)
+
+Please visit the [internship projects page](https://csfbk.github.io/internships) on the Centre for Cybersecurity website to see the available internship projects.
