@@ -29,7 +29,7 @@
   iris_id: rp03832
   affiliations:
     - role: Head of Unit
-      unit: Center for Cybersecurity 
+      unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   
@@ -122,8 +122,10 @@
 - id: PietroDeMatteis
   name: Pietro
   surname: De Matteis
-  # affiliations:
-  #  - TBD
+  affiliations:
+    - role: Developer
+      institution: DEDAGroup
+      place: Trento, Italy
   
 - id: RobertoDoriguzziCorin
   name: Roberto
