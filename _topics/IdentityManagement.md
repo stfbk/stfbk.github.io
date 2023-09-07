@@ -29,6 +29,7 @@ publications:
     - FPS2019
     - STM2019
     - TDSC2022
+    - ARES2023
 
 theses:
     - DamianoSartori_B
