@@ -1933,6 +1933,7 @@
     An Attribute Authority is an entity responsible for establishing, maintaining, and sharing a subject’s qualified attributes, such as titles and qualifications. In the OpenID Connect digital identity ecosystem, this entity is distinct from Identity Providers that manage only the basic identity profile information. A relevant scenario is as follows: the User first logs in to an online service using his/her identity managed by an Identity Provider. Then, the online service asks the Attribute Authority for the additional User’s attributes (e.g., entitlements) before granting access to its resources. In some high-sensitive cases, an Attribute Authority needs proof of the User’s authentication before releasing the User’s attributes to the online service. The challenge of this scenario involving usability, security, and privacy requirements lies in finding the right mechanism to share (the minimum and necessary set of) claims of the User who is currently authenticated with the online service across multiple domains without requiring his or her re-authentication. In this paper, we present the design of two solutions based on OpenID Connect to share User claims across domains. We provide security and privacy analysis for the two solutions and a brief comparison between them. 
   destination: ARES2023
   year: 2023
+  doi: 10.1145/3600160.3600183
   urlNews: /news/2023-05-15-paper-accepted-at-ares/
   
 - id: COSE2023
