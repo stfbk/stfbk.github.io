@@ -1,4 +1,3 @@
 ---
 collaboration: IBM
-title: IBM
 ---
