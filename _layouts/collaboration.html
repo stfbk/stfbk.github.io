@@ -32,4 +32,12 @@ layout: page
             </ul>
         </div>
     {% endif %}
+
+    {% assign connectedProjects = site.data.projects | where_exp: "project", "project.partners contains page.collaboration" %}
+        {% if connectedProjects.size > 0 %}
+        <div class="column is-12">
+            <h1 id="related-projects" class="related in-toc">Main Projects</h1>
+            {% include list-projects.html source=connectedProjects style="list" %}
+        </div>
+        {% endif %}
 </div>

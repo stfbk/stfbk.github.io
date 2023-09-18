@@ -16,12 +16,16 @@ layout: page
 
 <div class="columns project is-multiline">
     <div class="column overview is-12">
-        {% if project.logo %}
-            <img class="logo pull-right" src="/assets/areas/projects/{{ project.logo }}" />
-        {% endif %}
         {% if content.size > 1 %}
+            {% if project.logo %}
+                <img class="logo pull-right" src="/assets/areas/projects/{{ project.logo }}" />
+            {% endif %}
             <h1 id="title-overview">Overview</h1>
             {{ content }}
+        {% else %}
+            {% if project.logo %}
+                <img class="logo" src="/assets/areas/projects/{{ project.logo }}" />
+            {% endif %}
         {% endif %}
     </div>
 
@@ -41,32 +45,32 @@ layout: page
                     </li>
                 {% endif %}
 
-                {% if project.referenceFBK %}<li><b>Reference in FBK</b>: {{ project.referenceFBK }}</li>{% endif %}
+                {% if page.referenceFBK %}<li><b>Reference in FBK</b>: {{ page.referenceFBK }}.</li>{% endif %}
 
                 {% if project.startDate or project.endDate %}<li><b>Period</b>:{% if project.startDate %} from {{ project.startDate | date: "%d/%m/%Y" }}{% endif %}{% if project.endDate %} until {{ project.endDate | date: "%d/%m/%Y" }}{% endif %}.</li>{% endif %}
 
-                {% if project.duration %}<li><b>Duration</b>: {{ project.duration }}</li>{% endif %}
+                {% if page.duration %}<li><b>Duration</b>: {{ page.duration }}.</li>{% endif %}
 
-                {% if project.funding %}<li><b>Funding</b>: {{ project.funding }}</li>{% endif %}
+                {% if page.funding %}<li><b>Funding</b>: {{ page.funding }}.</li>{% endif %}
 
-                {% if project.website or project.cordisNo %}
-                    <li><b>Website{% if project.website and project.cordisNo %}s{% endif %}</b>: {% if project.website %}<a href="{{ project.website }}">Official website</a>{% if project.cordisNo%}, {% endif %}{% endif %}{% if project.cordisNo%}<a href="https://cordis.europa.eu/project/id/{{ project.cordisNo }}/">CORDIS website</a>{% endif %}.</li>
+                {% if page.website or page.cordisNo %}
+                    <li><b>Website{% if page.website and page.cordisNo %}s{% endif %}</b>: {% if page.website %}<a href="{{ page.website }}">Official website</a>{% if page.cordisNo%}, {% endif %}{% endif %}{% if page.cordisNo%}<a href="https://cordis.europa.eu/project/id/{{ page.cordisNo }}/">CORDIS website</a>{% endif %}.</li>
                 {% endif %}
             </ul>
         </div>
     {% endif %}
 
-    {% if project.goals %}
+    {% if page.goals %}
         <div class="column goals is-12">
             <h1 id="title-goals">Goals</h1>
-            <p>{{ project.goals }}</p>
+            <p>{{ page.goals }}</p>
         </div>
     {% endif %}
 
-    {% if project.role %}
+    {% if page.role %}
         <div class="column role is-12">
             <h1 id="title-unitrole">Unit role</h1>
-            <p>{{ project.role }}</p>
+            <p>{{ page.role }}</p>
         </div>
     {% endif %}
 
@@ -95,5 +99,3 @@ layout: page
         </div>
     {% endif %}
 </div>
-
-{% assign page = project %}
