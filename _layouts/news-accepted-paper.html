@@ -6,8 +6,8 @@ layout: news
   {% assign publicationsFromId = "" | split: "" %}
   {% for publication in page.papers %}
       {% assign publicationFromId = site.data.publications | where: "id", publication %}
-      {% if publicationFromId.size == 1 %}
-          {% assign publicationsFromId = publicationsFromId | concat: publicationFromId %}
+      {% if publicationFromId.size > 0 %}
+          {% assign publicationsFromId = publicationsFromId | push: publicationFromId[0] %}
       {% endif %}
   {% endfor %}
   {% assign publicationsSorted = publicationsFromId | sort: "title" %}
@@ -15,7 +15,7 @@ layout: news
 
 {% if publicationsSorted[0].destination %}
   {% assign destinationFromId = site.data.destinations | where: "id", publicationsSorted[0].destination %}
-  {% if destinationFromId.size == 1 %}
+  {% if destinationFromId.size > 0 %}
     {% assign destination = destinationFromId[0] %}
   {% endif %}
 {% endif %}

@@ -1,4 +1,3 @@
 ---
 collaboration: Robotnik
-title: Robotnik
 ---

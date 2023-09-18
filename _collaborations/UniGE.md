@@ -1,4 +1,3 @@
 ---
 collaboration: UniGE
-title: UniGE
 ---
