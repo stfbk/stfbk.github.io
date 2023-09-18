@@ -125,21 +125,23 @@ layout: default
             {% endif %}
 
             <!-- DISSEMINATION -->
-            {% assign disseminationByStartDate = site.data.dissemination | where_exp: "dissemination", "dissemination.participants contains page.person" | group_by: "startDate" | sort: "name" | reverse %}         
-            {% if disseminationByStartDate.size > 0 %}
-                <section class="contains-dissemination">
-                    <h1>Dissemination</h1>
-                    {% assign consideredYear = nil %}
-                    
-                    {% for startDate in disseminationByStartDate %}
-                        {% assign startDateYear = startDate.name | date: "%Y" %}
-                        {% if consideredYear != startDateYear %}
-                            <h4>{{ startDateYear }}</h4>
-                        {% endif %}
-                        {% include list-dissemination.html source=startDate.items sort="title" style="list" %}
-                        {% assign consideredYear = startDateYear %}
-                    {% endfor %}
-                </section>
+            {% if site.data.dissemination.size > 0 %}
+                {% assign disseminationByStartDate = site.data.dissemination | where_exp: "dissemination", "dissemination.participants contains page.person" | group_by: "startDate" | sort: "name" | reverse %}         
+                {% if disseminationByStartDate.size > 0 %}
+                    <section class="contains-dissemination">
+                        <h1>Dissemination</h1>
+                        {% assign consideredYear = nil %}
+                        
+                        {% for startDate in disseminationByStartDate %}
+                            {% assign startDateYear = startDate.name | date: "%Y" %}
+                            {% if consideredYear != startDateYear %}
+                                <h4>{{ startDateYear }}</h4>
+                            {% endif %}
+                            {% include list-dissemination.html source=startDate.items sort="title" style="list" %}
+                            {% assign consideredYear = startDateYear %}
+                        {% endfor %}
+                    </section>
+                {% endif %}
             {% endif %}
 
             <!-- SUPERVISED THESES -->
