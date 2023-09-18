@@ -1,4 +1,3 @@
 ---
 collaboration: UniTN
-title: UniTN
 ---

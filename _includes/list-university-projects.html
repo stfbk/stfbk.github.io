@@ -17,6 +17,12 @@
                 {%- else -%}
                     <h1 id="{{ call.id }}" class="in-toc">List of Projects</h1>
                 {%- endif -%}
+                {%- if call.applicationForm -%}
+                    <p style="margin-bottom: 5px;"><b>Application Form:</b> <a href="{{ call.applicationForm }}">{{ call.applicationForm }}</a></p>
+                {%- endif -%}
+                {%- if call.applicationDeadline -%}
+                    <p style="margin-bottom: 5px;"><b>Deadline for Applications:</b> {{ call.applicationDeadline | date: "%A %e %B %Y - %H:%M" }}</p>
+                {%- endif -%}
                 {%- if call.text -%}
                     <div class="university-projects-call-text">
                         <p>{{ call.text }}</p>

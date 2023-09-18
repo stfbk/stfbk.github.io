@@ -1,4 +1,3 @@
 ---
 collaboration: GARR
-title: GARR
 ---

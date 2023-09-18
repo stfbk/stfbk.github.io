@@ -1,4 +1,3 @@
 ---
 collaboration: PoliTO
-title: PoliTO
 ---

@@ -1,4 +1,3 @@
 ---
 collaboration: QUEENS
-title: QUEENS
 ---

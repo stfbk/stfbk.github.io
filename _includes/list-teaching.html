@@ -30,10 +30,10 @@
     {% for course in source %}
         {% assign courseFromId = site.data.teaching | where: "id", course %}
         {% assign courseFromIdLabel = site.data.teaching | where: "id", course.id %}
-        {% if courseFromId.size == 1 %}
-            {% assign coursesFromId = coursesFromId | concat: courseFromId %}
-        {% elsif courseFromIdLabel.size == 1 %}
-            {% assign coursesFromId = coursesFromId | concat: courseFromIdLabel %}
+        {% if courseFromId.size > 0 %}
+            {% assign coursesFromId = coursesFromId | push: courseFromId[0] %}
+        {% elsif courseFromIdLabel.size > 0 %}
+            {% assign coursesFromId = coursesFromId | push: courseFromIdLabel[0] %}
         {% endif %}
     {% endfor %}
 

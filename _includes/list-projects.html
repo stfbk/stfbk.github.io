@@ -10,12 +10,12 @@
 
     {% assign projectsFromId = "" | split: "" %}
     {% for project in source %}
-        {% assign projectFromId = site.data.projects | where: "title", project %}
-        {% assign projectFromIdLabel = site.data.projects | where: "title", project.title %}
-        {% if projectFromId.size == 1 %}
-            {% assign projectsFromId = projectsFromId | concat: projectFromId %}
-        {% elsif projectFromIdLabel.size == 1 %}
-            {% assign projectsFromId = projectsFromId | concat: projectFromIdLabel %}
+        {% assign projectFromId = site.data.projects | where: "id", project %}
+        {% assign projectFromIdLabel = site.data.projects | where: "id", project.id %}
+        {% if projectFromId.size > 0 %}
+            {% assign projectsFromId = projectsFromId | push: projectFromId[0] %}
+        {% elsif projectFromIdLabel.size > 0 %}
+            {% assign projectsFromId = projectsFromId | push: projectFromIdLabel[0] %}
         {% endif %}
     {% endfor %}
 
@@ -23,7 +23,7 @@
     {%- for project in projectsSorted -%}
         {% if style == "card" %}
             <div class="column is-3-desktop is-4-tablet project">
-                <a href="{% if project.internalUrl %}{{ project.internalUrl | prepend: site.baseurl }}{% else %}{{ project.title | replace: ' ', '_' | prepend: '/projects/' | prepend: site.baseurl }}{% endif %}">
+                <a href="{% if project.url %}{{ project.url }}{% endif %}">
                     <div class="card project">
                         <div class="card-image">
                             <figure class="image">
@@ -50,7 +50,7 @@
             </div>
         {% elsif style == "list" %}
             <li class="item project">
-                <a href="{% if project.internalUrl %}{{ project.internalUrl | prepend: site.baseurl }}{% else %}{{ project.title | replace: ' ', '_' | prepend: '/projects/' | prepend: site.baseurl }}{% endif %}"><b>{{ project.title }}</b></a>{% if project.titleAddon %} ({{ project.titleAddon }}){% endif %}
+                <a href="{% if project.url %}{{ project.url }}{% endif %}"><b>{{ project.title }}</b></a>{% if project.titleAddon %} ({{ project.titleAddon }}){% endif %}
             </li>
         {% endif %}
     {% endfor %}

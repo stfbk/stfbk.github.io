@@ -9,6 +9,11 @@ $('a').each(function() {
     }
 });
 
+function setDefaultUserPicture(picture) {
+    picture.src = "/assets/images/no-user.jpg";
+    return true;
+}
+
 function iframe16vs9() {
     var iframes = $("iframe");
 
@@ -86,6 +91,13 @@ if ($("#toc").length > 0) {
     if ($("#markdown-toc li").length == 0) {
         $("#toc nav").remove();
     }
+}
+
+if ($("#set-title").length == 1) {
+    var title = $("#set-title").text();
+    var siteTitle = $("#site-title").text();
+    $(".hero-body .title:first").text(title);
+    $(document).prop("title", title + " - " + siteTitle);
 }
 
 if ($("#set-subtitle").length == 1) {

@@ -3,21 +3,20 @@ layout: default
 ---
 
 {% assign personFromId = site.data.people | where: "id", page.person %}
-{% if personFromId.size == 1 %}
-    {% assign person = personFromId | first %}
+{% if personFromId.size > 0 %}
+    {% assign person = personFromId[0] %}
 {% else %}
     {% assign person = nil %}
 {% endif %}
 
 {% assign staticImageName = page.person | append: ".jpg" %}
 {% assign staticImageNameNoAccents = staticImageName | replace: 'à', 'a' | replace: 'è', 'e'  | replace: 'ì', 'i'  | replace: 'ò', 'o'  | replace: 'ù', 'u' %}
-{% assign staticImageURL = "/assets/areas/people/" | append: staticImageNameNoAccents %}
-{% assign staticImage = site.static_files | where_exp: "file", "file.path == staticImageURL" %}
+{% assign staticImage = site.static_files | where_exp: "file", "file.name == staticImageNameNoAccents" %}
 
 {% if person.image %}
     {% assign personImage = person.image %}
 {% elsif staticImage.size == 1 %}
-    {% assign personImage = staticImageURL %}
+    {% assign personImage = staticImage[0].path %}
 {% elsif person.usernameFBK %}
     {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ person.usernameFBK }}?w=300{% endcapture %}
 {% elsif person.email %}
@@ -90,8 +89,23 @@ layout: default
             {% endif %}
 
             <!-- PROJECTS -->
-            {% assign currentProjects = site.data.projects | where_exp: "project", "project.people contains page.person" | sort: "name" | where_exp: "project", "project.endDate == nil" %}
-            {% assign formerProjects = site.data.projects | where_exp: "project", "project.people contains page.person" | sort: "name" | where_exp: "project", "project.endDate != nil" %}
+            {% assign todayDate = 'now' | date: '%Y-%m-%d' %}
+            {% assign currentProjects = "" | split: "" %}
+            {% assign formerProjects = "" | split: "" %}
+            {% assign projectsWithPerson = site.projects | where_exp: "project", "project.people contains page.person" %}
+
+            {% for project in projectsWithPerson %}
+                {% assign projectFromId = site.data.projects | where: "id", project.project %}
+                {% if projectFromId.size > 0 %}
+                    {% assign consideredProject = projectFromId[0] %}
+                    {% if consideredProject.endDate == nil or consideredProject.endDate >= todayDate %}
+                        {% assign currentProjects = currentProjects | push: consideredProject %}
+                    {% else %}
+                        {% assign formerProjects = formerProjects | push: consideredProject %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+
             {% if currentProjects.size > 0 or formerProjects.size > 0 %}
                 <section class="contains-projects">
                     <h1>Projects</h1>
@@ -100,13 +114,34 @@ layout: default
                         <div class="column is-12">
                             {% include list-projects.html source=currentProjects sort="title" style="card" %}
                         </div>
-                    {% else %}
+                    {% endif %}
+                    {% if formerProjects.size > 0 %}
                         <h4>Former</h4>
                         <div class="column is-12">
                             {% include list-projects.html source=formerProjects sort="title" style="card" %}
                         </div>
                     {% endif %}
                 </section>
+            {% endif %}
+
+            <!-- DISSEMINATION -->
+            {% if site.data.dissemination.size > 0 %}
+                {% assign disseminationByStartDate = site.data.dissemination | where_exp: "dissemination", "dissemination.participants contains page.person" | group_by: "startDate" | sort: "name" | reverse %}         
+                {% if disseminationByStartDate.size > 0 %}
+                    <section class="contains-dissemination">
+                        <h1>Dissemination</h1>
+                        {% assign consideredYear = nil %}
+                        
+                        {% for startDate in disseminationByStartDate %}
+                            {% assign startDateYear = startDate.name | date: "%Y" %}
+                            {% if consideredYear != startDateYear %}
+                                <h4>{{ startDateYear }}</h4>
+                            {% endif %}
+                            {% include list-dissemination.html source=startDate.items sort="title" style="list" %}
+                            {% assign consideredYear = startDateYear %}
+                        {% endfor %}
+                    </section>
+                {% endif %}
             {% endif %}
 
             <!-- SUPERVISED THESES -->

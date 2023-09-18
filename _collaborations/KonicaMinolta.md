@@ -1,4 +1,3 @@
 ---
 collaboration: KonicaMinolta
-title: KonicaMinolta
 ---

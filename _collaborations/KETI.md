@@ -1,4 +1,3 @@
 ---
 collaboration: KETI
-title: KETI
 ---

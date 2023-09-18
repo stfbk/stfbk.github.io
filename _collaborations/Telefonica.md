@@ -1,4 +1,3 @@
 ---
 collaboration: Telefonica
-title: Telefonica
 ---

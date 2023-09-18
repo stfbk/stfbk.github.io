@@ -1,4 +1,3 @@
 ---
 collaboration: Atos
-title: Atos
 ---
