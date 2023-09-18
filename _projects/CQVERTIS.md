@@ -1,5 +1,5 @@
 ---
 project: CQVERTIS 
-title: CQ VERTIS - 4U - FogAtlas, driving applications through the fog
-inherit: true
+goals: >
+    This goal of the project is to carry out a Proof of Concept of the FogAtlas platform developed by FBK and to evaluate potential business opportunities.
 ---

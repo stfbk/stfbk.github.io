@@ -1,6 +1,5 @@
 ---
 collaboration: Cisco
-title: Cisco Systems Inc.
 
 publications:
    - niceradistributeddynamicshared-backuppath-allocationprocedurefortransmission-impairedwdmopticalnetworks2012
