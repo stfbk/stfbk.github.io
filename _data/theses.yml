@@ -708,6 +708,17 @@
   doi: 10.15167/mollaeefar-majid_phd2022-11-21
 
 ## 2023
+- id: AlessandroBiasi_B
+  title: "Syntax and Semantics of a Declarative Language for Security Testing of Browser-based Security Protocols"
+  type: B
+  author: AlessandroBiasi
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
+  year: 2023
+  institution: University of Trento
+
 - id: EricaElia_M
   title: "A Key Recovery Protocol based on Threshold Secret Sharing for Cryptographic Access Control in the Cloud: The CryptoAC use case"
   type: M
@@ -727,6 +738,39 @@
   co-supervisor:
     - RobertoCarbone
     - StefanoBerlato
+  year: 2023
+  institution: University of Trento
+
+- id: LuigiDellEva_B
+  title: "Chatting is Healthy: How Better Cybersecurity Hygiene can be Obtained by Integrating Chatbots with Pentesting Tools"
+  type: B
+  author: LuigiDellEva
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
+  year: 2023
+  institution: University of Trento
+
+- id: RiccardoGermenia_B
+  title: "A Module to Evaluate the Security Compliance of TLS Deployments: Design and Implementation of a Mechanized Methodology"
+  type: B
+  author: RiccardoGermenia
+  supervisor: SilvioRanise
+  co-supervisor:
+    - SalvatoreManfredi
+    - MatteoRizzi
+  year: 2023
+  institution: University of Trento
+
+- id: RobertaPeracchio_M
+  title: "Exploring Digital Travel Credentials: A Comparative Study of Existing Solutions and Image Quality Assessment for Face Recognition"
+  type: M
+  author: RobertaPeracchio
+  supervisor: SilvioRanise
+  co-supervisor:
+    - TahirAhmad
+    - CeciliaPasquini
   year: 2023
   institution: University of Trento
 
@@ -756,3 +800,14 @@
   cycle: XXXV
   institution: University of Genoa
   urlComplementary: /complementary/UNIGE2023_MANFREDI
+
+- id: SaraSorrentino_B
+  title: "Use of Gamification for Effective Cybersecurity Awareness Programs: Study and Design of a Novel Framework"
+  type: B
+  author: SaraSorrentino
+  supervisor: SilvioRanise
+  co-supervisor:
+    - SalvatoreManfredi
+    - MatteoRizzi
+  year: 2023
+  institution: University of Trento

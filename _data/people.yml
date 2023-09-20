@@ -71,6 +71,7 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: altomasi@fbk.eu
+  phone: "+390461314506"
 
 - id: AlessioColetta
   name: Alessio
@@ -613,7 +614,7 @@
   name: Matteo
   surname: Bitussi
   affiliations:
-    - role: Junior Researcher
+    - role: Research Assistant
       unit: Security & Trust
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -643,7 +644,7 @@
   name: Matteo
   surname: Rizzi
   affiliations:
-    - role: Junior Researcher
+    - role: Research Assistant
       unit: Security & Trust
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -769,6 +770,16 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: rlongo@fbk.eu
+
+- id: RiccardoLussana
+  name: Riccardo
+  surname: Lussana
+  affiliations:
+    - role: Research Assistant
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: rlussana@fbk.eu
 
 - id: RiccardoTraverso
   name: Riccardo
@@ -950,6 +961,7 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: umorelli@fbk.eu
+  phone: "+390461312377"
 
 - id: ValentinaOdorizzi
   name: Valentina

@@ -15,6 +15,7 @@ current:
     - MuhammadImran
     - MajidMollaeefar
     - UmbertoMorelli
+    - RiccardoLussana
 
   collaborators:
     - AndreaBisegna
@@ -26,35 +27,7 @@ current:
       topic: Privacy Issues in OIDC implementations in the Wild
       institution: University of Trento
       yearFrom: 2022
-      yearTo: 2022
-
-    - personId: AlessandroBiasi
-      type: B
-      topic: Attack patterns for Identity Management protocols
-      institution: University of Trento
-      yearFrom: 2022
-      yearTo: 2023
-
-    - personId: LuigiDellEva
-      type: B
-      topic: Attack patterns for Identity Management protocols
-      institution: University of Trento
-      yearFrom: 2022
-      yearTo: 2023
-
-    - personId: RobertaPeracchio
-      type: M
-      topic: "Dematerialization of documents: A Digital Travel Credential Case Study"
-      institution: University of Trento
-      yearFrom: 2023
-      yearTo: 2023
-
-    - personId: RiccardoGermenia
-      type: B
-      topic: Enhancing TLSAssistant analysis capabilities
-      institution: University of Trento
-      yearFrom: 2023
-      yearTo: 2023
+      yearTo: 2022      
 
     - personId: MarioScuro
       type: M
@@ -70,13 +43,6 @@ current:
       yearFrom: 2023
       yearTo: 2023
 
-    - personId: SaraSorrentino
-      type: B
-      topic: "Empowering the Public to Protect Themselves: Developing a Web-based Assessment Tool for Promoting Awareness at Dissemination Events"
-      institution: University of Trento
-      yearFrom: 2023
-      yearTo: 2023
-
     - personId: RiccardoZiglio
       type: M
       topic: Video manipulation vs liveness detection
@@ -84,18 +50,7 @@ current:
       yearFrom: 2023
       yearTo: 2023
 
-  junior:
-    - personId: AndreaBrandolini
-      topic: Cybersecurity 101
-      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
-      yearFrom: 2022
-      yearTo: 2023
-
-    - personId: MattiaAndreolli
-      topic: Cybersecurity 101
-      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
-      yearFrom: 2022
-      yearTo: 2023
+  junior:    
       
 former:
   head:
@@ -391,6 +346,21 @@ former:
     - personId: IonAndyDitu
       thesisId: IonAndyDitu_B
 
+    - personId: AlessandroBiasi
+      thesisId: AlessandroBiasi_B
+
+    - personId: LuigiDellEva
+      thesisId: LuigiDellEva_B
+
+    - personId: RobertaPeracchio
+      thesisId: RobertaPeracchio_M
+
+    - personId: RiccardoGermenia
+      thesisId: RiccardoGermenia_B
+
+    - personId: SaraSorrentino
+      thesisId: SaraSorrentino_B
+
   junior:
     - personId: YuriTomasini
       topic: Cybersecurity 101
@@ -462,4 +432,16 @@ former:
       topic: Awareness - percezione del rischio
       institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
       yearFrom: 2023
+      yearTo: 2023
+
+    - personId: AndreaBrandolini
+      topic: Cybersecurity 101
+      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+      yearFrom: 2022
+      yearTo: 2023
+
+    - personId: MattiaAndreolli
+      topic: Cybersecurity 101
+      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+      yearFrom: 2022
       yearTo: 2023
