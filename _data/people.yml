@@ -124,8 +124,9 @@
   surname: De Matteis
   affiliations:
     - role: Developer
-      institution: DEDAGroup
+      institution: Deda Group
       place: Trento, Italy
+  email: pietro.dematteis@dedagroup.it
   
 - id: RobertoDoriguzziCorin
   name: Roberto
