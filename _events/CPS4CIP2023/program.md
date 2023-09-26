@@ -4,6 +4,10 @@ subtitle: Program
 menubar: CPS4CIP2023
 ---
 
+<blockquote>
+  The preprints of the accepted papers will be available <b><a href="https://drive.google.com/drive/folders/1K-aKNVNkDscVl23SZ_3zPJNKGEW_zRxN">here</a></b> for the duration of the workshop.
+</blockquote>
+
 # Program
 ## Thursday, 28th September 2023
 
