@@ -1966,17 +1966,6 @@
   doi: 10.1007/978-3-031-37586-6_13
   urlNews: /news/2023-05-25-paper-accepted-at-dbsec-2023/
 
-- id: ESORICS2023
-  title: "Spotting Keyser Söze: An Automatable Approach to Evaluate Enrollment Processes"
-  authors:
-    - MarcoPernpruner
-    - GiadaSciarretta
-    - SilvioRanise
-  abstract: >
-    Enrollment processes represent the entry point to the identity management lifecycle: applicants provide a service with information and evidence to be properly identified, finally obtaining a credential that can be used for authentication from that moment on. Given the recent worldwide events, remote enrollment processes have been widely adopted to allow for identification from home. While this evolution contributes to increasing the level of usability, it yields many security concerns, considering that a violation of an enrollment process can lead to impersonation attacks and identity thefts. In this context, we present and formalize an approach to evaluate enrollment processes and provide comprehensive information on their security, risk and compliance. The evaluation can be finely tuned by providing details on the context (e.g., a set of security controls to consider), in order to obtain more realistic data and enable what-if analyses. By providing the formal bases of the approach, we aim at reducing implementation barriers and fostering a seamless adoption in automated tools.
-  destination: ESORICS2023
-  year: 2023
-
 - id: POLSIM2023
   #id_iris: 323366
   title: "A Simulation Framework for the Experimental Evaluation of Access Control Enforcement Mechanisms based on Business Processes"
