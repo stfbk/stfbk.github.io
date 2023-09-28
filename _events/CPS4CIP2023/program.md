@@ -94,8 +94,8 @@ Chair: Habtamu Abie
 - [SECANT - SECurity And privacy protectioN in Internet of Things devices](https://secant-project.eu/)<br />
   Christiana Kyperounta (8bellsresearch.com)
 
-- [IRIS - artificial Intelligence threat Reporting and Incident response System](https://www.iris-h2020.eu/)<br />
-  Maria Tsirigoti (ICCS)
+- [HERON - Improved Robotic Platform to perform Maintenance and Upgrading Roadworks](https://www.heron-h2020.eu/)<br />
+  Ilias Gkotsis (Satways Ltd)
 
 - [eFORT - Establishment of a FramewORk for Transforming current EPES into a more resilient, reliable and secure system all over its value chain](https://efort-project.eu/)<br />
   Alfonso Bernad Montenegro (FCIRCE)
