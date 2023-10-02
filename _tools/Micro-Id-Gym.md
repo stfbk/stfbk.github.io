@@ -25,10 +25,11 @@ theses:
     - FrancescoDefilippo_B
     - LucaBazzanella_B
     - WendyBarreto_B
-    - LeonidasVasileiadis_M
     - MatteoBitussi_B
     - SofiaZanrosso_B
     - MicheleZucchelli_B
+    - AlessandroBiasi_B
+    - LuigiDellEva_B
 
 ---
 
@@ -67,8 +68,10 @@ The Micro-Id-Gym Frontend contains tools used to support user pentesting activit
 Bachelor's and master's students from the University of Trento, involved in internships and theses in FBK:
 - Wendy Barreto
 - Luca Bazzanella
+- Alessandro Biasi
 - Matteo Bitussi
 - Francesco Defilippo
+- Luigi Dell'Eva
 - Stefano Facchini
 - Claudio Grisenti
 - Ivan Martini

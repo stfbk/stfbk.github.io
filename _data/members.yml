@@ -16,6 +16,7 @@ current:
     - MajidMollaeefar
     - UmbertoMorelli
     - RiccardoLussana
+    - RiccardoGermenia
 
   collaborators:
     - AndreaBisegna
@@ -49,6 +50,13 @@ current:
       institution: University of Trento
       yearFrom: 2023
       yearTo: 2023
+
+    - personId: FedericoGraziola
+      type: M
+      topic: Evaluation of Security Protocol Verification Tools
+      institution: University of Verona
+      yearFrom: 2023
+      yearTo: 2024
 
   junior:    
       

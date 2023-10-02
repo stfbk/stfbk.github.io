@@ -330,6 +330,10 @@
   name: Federico
   surname: Cucino
 
+- id: FedericoGraziola
+  name: Federico
+  surname: Graziola
+
 - id: FedericoSinigaglia
   name: Federico
   surname: Sinigaglia
@@ -756,6 +760,12 @@
 - id: RiccardoGermenia
   name: Riccardo
   surname: Germenia
+  affiliations:
+    - role: Research Assistant
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: rgermenia@fbk.eu
 
 - id: RiccardoLazzaretti
   name: Riccardo
