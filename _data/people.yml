@@ -181,6 +181,16 @@
       unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
+  
+- id: MarceloDarioRodasBritez
+  name: Marcelo Darío
+  surname: Rodas Britez
+  email: mrodasbritez@fbk.eu
+  affiliations:
+    - role: Researcher
+      unit: Robust and Secure Distributed Computing
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
 
 # Interns
 
