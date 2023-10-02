@@ -296,7 +296,7 @@
                             {% if details contains "personalPage" %}
                                 {% assign personFullName = person.name | append: " " | append: person.surname %}
                                 {% assign personURL = personFullName | replace: " ", "-" | downcase %}
-                                {% assign personalURLNoAccents = personURL | replace: 'à', 'a' | replace: 'è', 'e'  | replace: 'ì', 'i'  | replace: 'ò', 'o'  | replace: 'ù', 'u' %}
+                                {% assign personalURLNoAccents = personURL | replace: 'à', 'a' | replace: 'è', 'e'  | replace: 'ì', 'i'  | replace: 'ò', 'o'  | replace: 'ù', 'u' | replace: 'í', 'i' | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'ó', 'o' | replace: 'ú', 'u' | replace: 'â', 'a' %}
                                 {% assign personFullURL = "/people/" | append: personalURLNoAccents %}
                                 {% assign personFullPath = "_people/" | append: personalURLNoAccents | append: ".md" %}
                                 {% assign personPage = site.people | where_exp: "page", "page.path == personFullPath" %}
