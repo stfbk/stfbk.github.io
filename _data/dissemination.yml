@@ -379,4 +379,18 @@
     - name: Program
       url: https://st.fbk.eu/events/TDI2023/program
 
+- id: NDR2023
+  title: Siamo al sicuro? Mettiamoci alla prova! Un viaggio nel mondo della sicurezza informatica
+  participants:
+    - SalvatoreManfredi
+    - GiadaSciarretta
+    - MatteoRizzi
+  eventName: Notte della Ricerca 2023
+  startDate: "2023-09-29"
+  endDate: "2023-09-29"
+  category: General
+  links:
+    - name: Event
+      url: https://nottedellaricerca.tn.it
+
 # PLEASE KEEP CHRONOLOGICAL ORDER BY START DATE WITHIN YEARS
