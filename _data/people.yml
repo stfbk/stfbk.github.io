@@ -180,8 +180,10 @@
   name: Cecilia
   surname: Pasquini
   affiliations:
-    - role: Employee
-      institution: "Futuro & Conoscenza"
+    - role: Researcher
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
   email: c.pasquini@fbk.eu
 
 - id: CesareTinelli
