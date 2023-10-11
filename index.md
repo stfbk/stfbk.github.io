@@ -33,7 +33,7 @@ following areas:
   computing solutions to effectively manage business and security
   applications
 
-The RiSING unit lies within the [Cybersecurity center](https://www.fbk.eu/it/cybersecurity/) in [Fondazione Bruno Kessler](https://www.fbk.eu) (FBK).
+The RiSING unit lies within the [Cybersecurity center](https://cs.fbk.eu/) in [Fondazione Bruno Kessler](https://www.fbk.eu) (FBK).
 
 ## Research Areas
 
