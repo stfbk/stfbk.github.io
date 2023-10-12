@@ -751,7 +751,7 @@ section.page-top {
 /* Twitter */
 .single-fbkperson .additional-info-wrapper ul.people-links-list li.contains-Twitter:before {
   font-family: "Font Awesome 5 Brands";
-  content: "\f099";
+  content: "\e61b";
 }
 
 /* URL */
