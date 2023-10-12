@@ -54,3 +54,4 @@ permalink: /teaching/
 - [Projects for Academic Year 2020-2021](/teaching/projects/2020-2021)
 - [Projects for Academic Year 2021-2022](/teaching/projects/2021-2022)
 - [Projects for Academic Year 2022-2023](/teaching/projects/2022-2023)
+- From September 2023, internship projects are listed on the website of the [Center for Cybersecurity](https://cs.fbk.eu/internships/)
