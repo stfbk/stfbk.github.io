@@ -14,8 +14,8 @@ links:
 ---
 Majid Mollaeefar is a researcher at the Center for Cybersecurity.
 
-He holds a Ph.D. from the University of Genova, Italy. His expertise spans risk management, data protection, and in-depth understanding of compliance regulations. 
+He holds a Ph.D. from the University of Genova, Italy. His expertise spans risk management, data protection, and an in-depth understanding of compliance regulations. 
 
-Currently, he works on an European project called JuLIA with aim of raising the awareness of Judges in using AI application in their judicial use cases. 
+Currently, he works on a European project called JuLIA with aim of raising the awareness of Judges in using AI applications in their judicial use cases. 
 
 His research interests include Security and Privacy Risk Assessment, Threat Modelling, Security and Privacy Requirements, Privacy Preserving, Privacy Impact Assessment, and GDPR Compliance.
