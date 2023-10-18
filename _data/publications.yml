@@ -1937,6 +1937,7 @@
   urlNews: /news/2023-05-15-paper-accepted-at-ares/
   
 - id: COSE2023
+  id_iris: 337867
   title: "Identifying and Quantifying Trade-offs in Multi-Stakeholder Risk Evaluation with Applications to the Data Protection Impact Assessment of the GDPR"
   authors:
     - MajidMollaeefar
