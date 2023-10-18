@@ -1934,7 +1934,7 @@
   destination: ARES2023
   year: 2023
   doi: 10.1145/3600160.3600183
-  urlNews: /news/2023-05-15-paper-accepted-at-ares/
+  urlNews: /news/2023/05/15/paper-accepted-at-ares-2023/
   
 - id: COSE2023
   id_iris: 337867
@@ -1965,7 +1965,7 @@
   destination: DBSEC2023
   year: 2023
   doi: 10.1007/978-3-031-37586-6_13
-  urlNews: /news/2023-05-25-paper-accepted-at-dbsec-2023/
+  urlNews: /news/2023/05/25/paper-accepted-at-dbsec-2023/
 
 - id: POLSIM2023
   #id_iris: 323366
@@ -1997,7 +1997,7 @@
   destination: SECRYPT2023
   year: 2023
   doi: 10.5220/0012084000003555
-  urlNews: /news/2023-04-24-paper-accepted-at-secrypt/
+  urlNews: /news/2023/04/24/paper-accepted-at-secrypt-2023/
 
 - id: TDSC2022
   title: "An Automated Multi-Layered Methodology to Assist the Secure and Risk-Aware Design of Multi-Factor Authentication Protocols"
