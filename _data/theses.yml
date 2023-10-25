@@ -730,6 +730,18 @@
   year: 2023
   institution: University of Trento
 
+- id: GianlucaSassetti_M
+  title: "Privacy Guidelines and Compliance Analysis for OpenID Connect Deployments"
+  type: M
+  author: GianlucaSassetti
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AmirSharif
+    - GiadaSciarretta
+    - RobertoCarbone
+  year: 2023
+  institution: University of Trento
+
 - id: IonAndyDitu_B
   title: "Leveraging Trusted Execution Environment for Efficient Revocation and Security in Cryptographic Access Control"
   type: B

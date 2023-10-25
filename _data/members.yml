@@ -23,13 +23,6 @@ current:
     - AndreaBisegna
       
   students:
-    - personId: GianlucaSassetti
-      type: M
-      topic: Privacy Issues in OIDC implementations in the Wild
-      institution: University of Trento
-      yearFrom: 2022
-      yearTo: 2022      
-
     - personId: MarioScuro
       type: M
       topic: Privacy enhancing technologies for digital identity
@@ -368,6 +361,9 @@ former:
 
     - personId: SaraSorrentino
       thesisId: SaraSorrentino_B
+
+    - personId: GianlucaSassetti
+      thesisId: GianlucaSassetti_M
 
   junior:
     - personId: YuriTomasini
