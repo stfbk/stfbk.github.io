@@ -1949,6 +1949,7 @@
     In this work, we propose a quantitative and (semi-)automated approach to solve this problem based on the well-known notion of Pareto optimality.  For validation, we show how a prototype tool based on our approach can assist in the Data Protection Impact Assessment mandated by the General Data Protection Regulation on a simplified–but realistic–use case scenario.  We also evaluate the scalability of the approach by conducting an experimental evaluation with the prototype with encouraging results.
   destination: COSE
   year: 2023
+  doi: 10.1016/j.cose.2023.103206
   urlNews: /news/2023/03/28/paper-accepted-at-cose/
   
 - id: DBSEC2023
@@ -1966,6 +1967,20 @@
   year: 2023
   doi: 10.1007/978-3-031-37586-6_13
   urlNews: /news/2023/05/25/paper-accepted-at-dbsec-2023/
+
+- id: DBSEC2023_WalletTrends
+  id_iris: 339507
+  title: "Control is Nothing Without Trust a First Look into Digital Identity Wallet Trends"
+  authors:
+    - ZahraEbadiAnsaroudi
+    - RobertoCarbone
+    - GiadaSciarretta
+    - SilvioRanise
+  abstract: >
+    In recent years, user-centric digital identity wallets have become increasingly available, aiming to give individuals direct control over their personal data. The EU proposal in the context of the recently revised eIDAS and its EU digital identity wallet reflects the high ambitions in this field at the EU level. However, to the best of our knowledge, no research review on the core technologies used to implement various features of these wallet solutions has been proposed so far. Our work addresses this issue providing a systematic analysis of a selection of available digital identity wallets on the market in terms of the technologies used to establish trust and controlled sharing. Building on this overview and help providers (including companies and European Member States) in charge of developing secure and trustworthy wallet-based infrastructures, we propose a classification of wallet solutions along two main dimensions (namely trust establishment and controlled credential sharing) with the goal of assisting designers to make informed design decisions and guarantee security, privacy, and trustworthiness.
+  destination: DBSEC2023
+  year: 2023
+  doi: 10.1007/978-3-031-37586-6_7
 
 - id: POLSIM2023
   #id_iris: 323366
@@ -2000,6 +2015,7 @@
   urlNews: /news/2023/04/24/paper-accepted-at-secrypt-2023/
 
 - id: TDSC2022
+  id_iris: 342587
   title: "An Automated Multi-Layered Methodology to Assist the Secure and Risk-Aware Design of Multi-Factor Authentication Protocols"
   authors:
     - MarcoPernpruner
@@ -2011,6 +2027,7 @@
   destination: TDSC
   year: 2023
   doi: 10.1109/TDSC.2023.3296210
+  urlComplementary: /complementary/TDSC2022
   urlNews: /news/2023/07/17/paper-accepted-at-tdsc/
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
