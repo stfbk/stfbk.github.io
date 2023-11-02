@@ -389,6 +389,16 @@
 - id: GianlucaSassetti
   name: Gianluca
   surname: Sassetti
+  affiliations:
+    - role: PhD Student
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+    - role: PhD Student
+      unit: DIBRIS
+      institution: University of Genoa
+      place: Genoa, Italy
+  email: gsassetti@fbk.eu
 
 - id: GianPaoloRossi
   name: Gian Paolo
