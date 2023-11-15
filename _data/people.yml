@@ -104,7 +104,7 @@
   email: mfranzil@fbk.eu
   phone: "+390461314046"
   affiliations:
-    - role: Junior Researcher
+    - role: Researcher
       unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -199,7 +199,14 @@
   name: Marco
   surname: Zani
   usernameFBK: mzani
-  
+  email: mzani@fbk.eu
+
+- id: GiovanniFoletto
+  name: Giovanni
+  surname: Foletto
+  usernameFBK: gfoletto
+  email: gfoletto@fbk.eu
+
 # Former
 - id: FrancescoTomasselli
   name: Francesco

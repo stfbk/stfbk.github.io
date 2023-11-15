@@ -26,6 +26,11 @@ current:
       institution: University of Trento
       yearFrom: 2023
       yearTo: 2023
+    - personId: GiovanniFoletto
+      type: B
+      institution: University of Trento
+      yearFrom: 2023
+      yearTo: 2024
 
   collaborators:
     - PietroDeMatteis
