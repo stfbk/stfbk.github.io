@@ -504,28 +504,6 @@
 
 
 - id: cognitivedynamicopticalnetworks2013
-  id_iris: 313950,
-  title: "Cognitive dynamic optical networks"
-  authors:
-    - I.DMiguel
-    - R.J.Duran
-    - R.M.Lorenzo
-    - A.Caballero
-    - I.T.Monroy
-    - Y.Ye
-    - A.Tymecki
-    - I.Tomkos
-    - M.Angelou
-    - D.Klonidis
-    - A.Francescon
-    - DomenicoSiracusa
-    - ElioSalvadori
-  destination: ProceedingsofOpticalFiberCommunicationConferenceOFC2013
-  year: 2013
-  doi: 10.1364/OFC.2013.OW1H.1
-
-
-- id: cognitivedynamicopticalnetworks2013
   id_iris: 313675,
   title: "Cognitive dynamic optical networks"
   authors:
@@ -548,6 +526,28 @@
   destination: JOURNALOFOPTICALCOMMUNICATIONSANDNETWORKING
   year: 2013
   doi: 10.1364/JOCN.5.00A107
+
+
+- id: cognitivedynamicopticalnetworks2013
+  id_iris: 313950,
+  title: "Cognitive dynamic optical networks"
+  authors:
+    - I.DMiguel
+    - R.J.Duran
+    - R.M.Lorenzo
+    - A.Caballero
+    - I.T.Monroy
+    - Y.Ye
+    - A.Tymecki
+    - I.Tomkos
+    - M.Angelou
+    - D.Klonidis
+    - A.Francescon
+    - DomenicoSiracusa
+    - ElioSalvadori
+  destination: ProceedingsofOpticalFiberCommunicationConferenceOFC2013
+  year: 2013
+  doi: 10.1364/OFC.2013.OW1H.1
 
 
 - id: cognitiveopticalnetworktestbedeuprojectchron2015
@@ -907,6 +907,20 @@
   destination: Proceedingsofthe2013IEEESDNforFutureNetworksandServicesSDN4FNS
   year: 2013
   doi: 10.1109/SDN4FNS.2013.6702537
+
+
+- id: eecoanai-basedalgorithmforenergy-efficientcomfortoptimisation2023
+  id_iris: 342627,
+  title: "EECO: An AI-Based Algorithm for Energy-Efficient Comfort Optimisation"
+  authors:
+    - GiacomoSegala
+    - RobertoDoriguzziCorin
+    - ClaudioPeroni
+    - MatteoGerola
+    - DomenicoSiracusa
+  destination: ENERGIES
+  year: 2023
+  doi: 10.3390/en16217334
 
 
 - id: empoweringnetworkoperatingsystemswithmemorymanagementtechniques2016

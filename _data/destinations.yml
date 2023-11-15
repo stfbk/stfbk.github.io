@@ -26,6 +26,10 @@
   name: Ecoc 2016 Proceedings of 42nd European Conference on Optical Communication
   type: conference
 
+- id: ENERGIES
+  name: Energies
+  type: journal
+
 - id: EconomicsofGridsCloudsSystemsandServices
   name: Economics of Grids, Clouds, Systems, and Services
   type: conference
