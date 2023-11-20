@@ -1,3 +1,16 @@
+- id: AdvancedProgrammingOfCryptographicMethods
+  name: Advanced Programming of Cryptographic Methods
+  level: MSc
+  institution: University of Trento
+  lecturer:
+    - SilvioRanise
+    - RiccardoLongo
+    - MarcoPernpruner
+  startYear: 2023
+  links:
+    - name: 2023/2024
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2023/92173/2009/10005/10170
+
 - id: AppliedCryptography
   name: Applied Cryptography
   level: BSc
@@ -6,11 +19,16 @@
     - SilvioRanise
     - RiccardoLongo
   startYear: 2019
+  endYear: 2023
   links:
     - name: 2019/2020
-      url: "https://www.esse3.unitn.it/Guide/PaginaADErogata.do?ad_er_id=2019*N0*N0*S1*46806*94110&ANNO_ACCADEMICO=2019&mostra_percorsi=S"
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2019/94110/2009/10005/10170
     - name: 2020/2021
-      url: "https://www.esse3.unitn.it/Guide/PaginaADErogata.do?ad_er_id=2020*N0*N0*S1*48363*94110&ANNO_ACCADEMICO=2020&mostra_percorsi=S"   
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2020/94110/2009/10005/10170
+    - name: 2021/2022
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2021/94110/2009/10005/10170
+    - name: 2022/2023
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2022/94110/2009/10005/10170
 
 - id: CyberChallenge
   name: CyberChallenge.IT
@@ -71,7 +89,13 @@
     - name: Before 2020
       url: "https://sites.google.com/view/intro2cns"
     - name: 2020/2021
-      url: "https://www.esse3.unitn.it/Guide/PaginaADErogata.do?ad_er_id=2020*N0*N0*S1*48950*93219&ANNO_ACCADEMICO=2020&mostra_percorsi=S"
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2020/93219/2008/9999/10114
+    - name: 2021/2022
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2021/93219/2011/10000/10117
+    - name: 2022/2023
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2022/93219/2008/10003/10114
+    - name: 2023/2024
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2023/93219/2008/9999/10114
 
 - id: LaboratorioProgrammazione
   name: Laboratorio di Programmazione
@@ -83,7 +107,13 @@
   startYear: 2020
   links:
     - name: 2020/2021
-      url: "https://www.esse3.unitn.it/Guide/PaginaADErogata.do?ad_er_id=2020*N0*N0*S2*49423*94875&ANNO_ACCADEMICO=2020&mostra_percorsi=S"
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2020/94875/2008/10002/10115
+    - name: 2021/2022
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2021/94875/2008/10002/10115
+    - name: 2022/2023
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2022/94875/2008/9999/10115
+    - name: 2023/2024
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2023/94875/2008/9999/10115
 
 - id: Master_CCIP
   name: Master Universitario di II livello in "Cybersecurity and Critical Infrastructure Protection"
@@ -129,3 +159,16 @@
       url: "PhDCourse2021_IdM"
     - name: 2021/2022
       url: "PhDCourse2022_IdM"
+
+- id: ScienceTechnologyAndGlobalAffairs
+  name: Science, Technology and Global Affairs
+  level: MSc
+  institution: University of Trento
+  lecturer:
+    - SilvioRanise
+  startYear: 2022
+  links:
+    - name: 2022/2023
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2022/93688/2011/9999/10177
+    - name: 2023/2024
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2023/93688/2011/9999/10177
