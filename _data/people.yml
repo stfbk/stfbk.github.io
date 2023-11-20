@@ -671,6 +671,11 @@
   name: Mattia
   surname: Andreolli
 
+- id: MattiaBressan
+  name: Mattia
+  surname: Bressan
+  usernameFBK: mbressan
+
 - id: MattiaConci
   name: Mattia
   surname: Conci
@@ -911,6 +916,11 @@
 - id: SilvioGhilardi
   name: Silvio
   surname: Ghilardi
+
+- id: SimoneAvancini
+  name: Simone
+  surname: Avancini
+  usernameFBK: savancini
 
 - id: SofiaPuttin
   name: Sofia

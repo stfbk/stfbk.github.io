@@ -52,6 +52,20 @@ current:
       yearFrom: 2023
       yearTo: 2024
 
+    - personId: SimoneAvancini
+      type: B
+      topic: Threat Modeling for Digital Identity Wallet 
+      institution: University of Trento
+      yearFrom: 2023
+      yearTo: 2024
+
+    - personId: MattiaBressan
+      type: B
+      topic: Adversarial Attacks in AI and their Consequences
+      institution: University of Trento
+      yearFrom: 2023
+      yearTo: 2024
+
   junior:    
       
 former:
