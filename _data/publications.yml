@@ -504,6 +504,28 @@
 
 
 - id: cognitivedynamicopticalnetworks2013
+  id_iris: 313950,
+  title: "Cognitive dynamic optical networks"
+  authors:
+    - I.DMiguel
+    - R.J.Duran
+    - R.M.Lorenzo
+    - A.Caballero
+    - I.T.Monroy
+    - Y.Ye
+    - A.Tymecki
+    - I.Tomkos
+    - M.Angelou
+    - D.Klonidis
+    - A.Francescon
+    - DomenicoSiracusa
+    - ElioSalvadori
+  destination: ProceedingsofOpticalFiberCommunicationConferenceOFC2013
+  year: 2013
+  doi: 10.1364/OFC.2013.OW1H.1
+
+
+- id: cognitivedynamicopticalnetworks2013
   id_iris: 313675,
   title: "Cognitive dynamic optical networks"
   authors:
@@ -526,28 +548,6 @@
   destination: JOURNALOFOPTICALCOMMUNICATIONSANDNETWORKING
   year: 2013
   doi: 10.1364/JOCN.5.00A107
-
-
-- id: cognitivedynamicopticalnetworks2013
-  id_iris: 313950,
-  title: "Cognitive dynamic optical networks"
-  authors:
-    - I.DMiguel
-    - R.J.Duran
-    - R.M.Lorenzo
-    - A.Caballero
-    - I.T.Monroy
-    - Y.Ye
-    - A.Tymecki
-    - I.Tomkos
-    - M.Angelou
-    - D.Klonidis
-    - A.Francescon
-    - DomenicoSiracusa
-    - ElioSalvadori
-  destination: ProceedingsofOpticalFiberCommunicationConferenceOFC2013
-  year: 2013
-  doi: 10.1364/OFC.2013.OW1H.1
 
 
 - id: cognitiveopticalnetworktestbedeuprojectchron2015
@@ -1149,6 +1149,17 @@
   destination: ProceedingsAdvancedPhotonics2018BGPPIPRNPNOMASensorsNetworksSPPComSOFOSATechnicalDigestonlineOpticalSocietyofAmerica2018
   year: 2018
   doi: 10.1364/NETWORKS.2018.NeTh1F.3
+
+
+- id: fladadaptivefederatedlearningforddosattackdetection2023
+  id_iris: 343267,
+  title: "FLAD: Adaptive Federated Learning for DDoS Attack Detection"
+  authors:
+    - RobertoDoriguzziCorin
+    - DomenicoSiracusa
+  destination: COMPUTERSSECURITY
+  year: 2023
+  doi: 10.1016/j.cose.2023.103597
 
 
 - id: foggyaplatformforworkloadorchestrationinafogcomputingenvironment2017
