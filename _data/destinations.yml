@@ -22,6 +22,10 @@
   name: Computer Networks
   type: journal
 
+- id: COMPUTERSSECURITY
+  name: Computers & Security
+  type: journal
+
 - id: ECOC2016Proceedingsof42ndEuropeanConferenceonOpticalCommunication
   name: Ecoc 2016 Proceedings of 42nd European Conference on Optical Communication
   type: conference
