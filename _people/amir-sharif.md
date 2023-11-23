@@ -24,9 +24,16 @@ links:
     value: A_sharif90
 ---
 
-Amir Sharif is a researcher in the Security & Trust Research Unit of the Cybersecurity Center of Fondazione Bruno Kessler. He received his Ph.D. in Secure and Reliable Systems from Università Degli Studi di Genova in 2021. He is currently involved in the Security & Trust Research Unit at FBK, in the context of a joint laboratory between FBK and the Italian Government Printing Office and Mint (Poligrafico e Zecca dello Stato Italiano, responsible for producing Italian eID cards), whose primary goal is to conduct research and innovation activities in digital identity solutions.
+Amir Sharif is a researcher in the Security & Trust Research Unit of the Cybersecurity Center at Fondazione Bruno Kessler. He earned his Ph.D. in Secure and Reliable Systems from Università Degli Studi di Genova in 2021, specializing in computer science and systems engineering.
 
+With over 5 years of experience in the field of identity management and data security, Amir is deeply engaged in pioneering research. He is currently a member of the Italian delegation in the eIDAS Expert Group, contributing to the development of the European Digital Identity Architecture and Reference Framework.
 
-He is working on different projects related to identity and access management that involves the design, and security analysis of access delegation and single sign-on protocols (e.g., OAuth 2.0 and OpenID Connect). Recently, he starts to work on the topic of decentralized identity solutions and more specifcally explore the various topics in the context of European Digital Identity Wallet (e.g., PID issuance).
+His accomplishments include receiving the prestigious OpenID Foundation Kim Cameron Award in 2023, as well as securing the Best Paper Award at the “17th International Workshop on Frontiers in Availability, Reliability, and Security.” Notably, Amir's expertise has been acknowledged by industry leaders, including Cisco, for identifying a Webex authentication security flaw, and by the OpenID Foundation for highlighting specification violations in “Sign in with Apple”.
+
+Amir's academic contributions extend to publishing 15 peer-reviewed papers in the field of identity management and data security, a selection of them showcased in the Publications section. He has also shared his expertise at 7 international events on identity management, listed in the Seminars section.
+
+His research currently focuses on identity and access management, exploring decentralized identity solutions within the context of the European Digital Identity Wallet, specifically investigating PID issuance. His expertise encompasses a solid understanding of federated identity and access management standards such as OAuth, OpenID Connect, and SAML. Amir is well-versed in OAuth and OpenID Connect profiles (iGov, FAPI, Identity Assurance), as well as relevant regulatory frameworks like eIDAS, PSD2, and NIS2. 
 
 His research interests include identity management solution design and security analysis, decentralized identity, and data hiding techniques.
+
+
