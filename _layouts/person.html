@@ -3,21 +3,20 @@ layout: default
 ---
 
 {% assign personFromId = site.data.people | where: "id", page.person %}
-{% if personFromId.size == 1 %}
-    {% assign person = personFromId | first %}
+{% if personFromId.size > 0 %}
+    {% assign person = personFromId[0] %}
 {% else %}
     {% assign person = nil %}
 {% endif %}
 
 {% assign staticImageName = page.person | append: ".jpg" %}
 {% assign staticImageNameNoAccents = staticImageName | replace: 'à', 'a' | replace: 'è', 'e'  | replace: 'ì', 'i'  | replace: 'ò', 'o'  | replace: 'ù', 'u' %}
-{% assign staticImageURL = "/assets/areas/people/" | append: staticImageNameNoAccents %}
-{% assign staticImage = site.static_files | where_exp: "file", "file.path == staticImageURL" %}
+{% assign staticImage = site.static_files | where_exp: "file", "file.name == staticImageNameNoAccents" %}
 
 {% if person.image %}
     {% assign personImage = person.image %}
 {% elsif staticImage.size == 1 %}
-    {% assign personImage = staticImageURL %}
+    {% assign personImage = staticImage[0].path %}
 {% elsif person.usernameFBK %}
     {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ person.usernameFBK }}?w=300{% endcapture %}
 {% elsif person.email %}
@@ -68,17 +67,98 @@ layout: default
 
             <div id="toc"></div>
 
-            <section class="contains-publications">
-                {% assign publicationsByYear = site.data.publications | where_exp: "publication", "publication.authors contains page.person" | where_exp: "publication", "publication.id_iris != nil" | group_by: "year" | sort: "name" | reverse %}
-              
-                {% if publicationsByYear.size > 0 %}
+            <!-- PUBLICATIONS -->
+            {% assign publicationsByYear = site.data.publications | where_exp: "publication", "publication.authors contains page.person" | where_exp: "publication", "publication.id_iris != nil" | group_by: "year" | sort: "name" | reverse %}
+            {% if publicationsByYear.size > 0 %}
+                <section class="contains-publications">
                     <h1>Publications</h1>
                     {% for year in publicationsByYear %}
-                        <h4>{{ year.name }} <small>({{ year.items.size }})</small></h4>
+                        <h4>{{ year.name }}</h4>
                         {% include list-publications.html source=year.items sort="title" %}
                     {% endfor %}
+                </section>
+            {% endif %}
+
+            <!-- THESES -->
+            {% assign theses = site.data.theses | where_exp: "thesis", "thesis.author == page.person" | sort: "year" | reverse %}
+            {% if theses.size > 0 %}
+                <section class="contains-theses">
+                    <h1>Theses</h1>
+                    {% include list-theses.html source=theses %}
+                </section>
+            {% endif %}
+
+            <!-- PROJECTS -->
+            {% assign todayDate = 'now' | date: '%Y-%m-%d' %}
+            {% assign currentProjects = "" | split: "" %}
+            {% assign formerProjects = "" | split: "" %}
+            {% assign projectsWithPerson = site.projects | where_exp: "project", "project.people contains page.person" %}
+
+            {% for project in projectsWithPerson %}
+                {% assign projectFromId = site.data.projects | where: "id", project.project %}
+                {% if projectFromId.size > 0 %}
+                    {% assign consideredProject = projectFromId[0] %}
+                    {% if consideredProject.endDate == nil or consideredProject.endDate >= todayDate %}
+                        {% assign currentProjects = currentProjects | push: consideredProject %}
+                    {% else %}
+                        {% assign formerProjects = formerProjects | push: consideredProject %}
+                    {% endif %}
                 {% endif %}
-            </section>
+            {% endfor %}
+
+            {% if currentProjects.size > 0 or formerProjects.size > 0 %}
+                <section class="contains-projects">
+                    <h1>Projects</h1>
+                    {% if currentProjects.size > 0 %}
+                        <h4>Current</h4>
+                        <div class="column is-12">
+                            {% include list-projects.html source=currentProjects sort="title" style="card" %}
+                        </div>
+                    {% endif %}
+                    {% if formerProjects.size > 0 %}
+                        <h4>Former</h4>
+                        <div class="column is-12">
+                            {% include list-projects.html source=formerProjects sort="title" style="card" %}
+                        </div>
+                    {% endif %}
+                </section>
+            {% endif %}
+
+            <!-- DISSEMINATION -->
+            {% assign disseminationByStartDate = site.data.dissemination | where_exp: "dissemination", "dissemination.participants contains page.person" | group_by: "startDate" | sort: "name" | reverse %}         
+            {% if disseminationByStartDate.size > 0 %}
+                <section class="contains-dissemination">
+                    <h1>Dissemination</h1>
+                    {% assign consideredYear = nil %}
+                    
+                    {% for startDate in disseminationByStartDate %}
+                        {% assign startDateYear = startDate.name | date: "%Y" %}
+                        {% if consideredYear != startDateYear %}
+                            <h4>{{ startDateYear }}</h4>
+                        {% endif %}
+                        {% include list-dissemination.html source=startDate.items sort="title" style="list" %}
+                        {% assign consideredYear = startDateYear %}
+                    {% endfor %}
+                </section>
+            {% endif %}
+
+            <!-- SUPERVISED THESES -->
+            {% assign handledThesesByYear = "" | split: "," %}
+            {% for thesis in site.data.theses %}
+                {% if thesis.supervisor contains page.person or thesis.co-supervisor contains page.person %}
+                    {% assign handledThesesByYear = handledThesesByYear | push: thesis %}
+                {% endif %}
+            {% endfor %}
+            {% assign handledThesesByYear = handledThesesByYear | group_by: "year" | sort: "name" | reverse %}
+            {% if handledThesesByYear.size > 0 %}
+                <section class="contains-supervised-theses">
+                    <h1>Supervised Theses</h1>
+                    {% for year in handledThesesByYear %}
+                        <h4>{{ year.name }}</h4>
+                        {% include list-theses.html source=year.items sort="title" %}
+                    {% endfor %}
+                </section>
+            {% endif %}
         </div>
 
         <div class="column is-4-tablet is-3-desktop">
@@ -144,7 +224,7 @@ layout: default
                                     {% assign linkName = "ResearchGate" %}
                                     {% assign linkURL = "https://www.researchgate.net/profile/" | append: link.value %}
                                 {% when "Twitter" %}
-                                    {% assign linkName = "Twitter" %}
+                                    {% assign linkName = "X" %}
                                     {% assign linkURL = "https://twitter.com/" | append: link.value %}
                                 {% when "Website" %}
                                     {% assign linkName = "Website" %}

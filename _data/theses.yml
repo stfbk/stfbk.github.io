@@ -708,6 +708,17 @@
   doi: 10.15167/mollaeefar-majid_phd2022-11-21
 
 ## 2023
+- id: AlessandroBiasi_B
+  title: "Syntax and Semantics of a Declarative Language for Security Testing of Browser-based Security Protocols"
+  type: B
+  author: AlessandroBiasi
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
+  year: 2023
+  institution: University of Trento
+
 - id: EricaElia_M
   title: "A Key Recovery Protocol based on Threshold Secret Sharing for Cryptographic Access Control in the Cloud: The CryptoAC use case"
   type: M
@@ -719,12 +730,69 @@
   year: 2023
   institution: University of Trento
 
+- id: GianlucaSassetti_M
+  title: "Privacy Guidelines and Compliance Analysis for OpenID Connect Deployments"
+  type: M
+  author: GianlucaSassetti
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AmirSharif
+    - GiadaSciarretta
+    - RobertoCarbone
+  year: 2023
+  institution: University of Trento
+
+- id: IonAndyDitu_B
+  title: "Leveraging Trusted Execution Environment for Efficient Revocation and Security in Cryptographic Access Control"
+  type: B
+  author: IonAndyDitu
+  supervisor: SilvioRanise
+  co-supervisor:
+    - RobertoCarbone
+    - StefanoBerlato
+  year: 2023
+  institution: University of Trento
+
+- id: LuigiDellEva_B
+  title: "Chatting is Healthy: How Better Cybersecurity Hygiene can be Obtained by Integrating Chatbots with Pentesting Tools"
+  type: B
+  author: LuigiDellEva
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
+    - EleonoraMarchesini
+  year: 2023
+  institution: University of Trento
+
+- id: RiccardoGermenia_B
+  title: "A Module to Evaluate the Security Compliance of TLS Deployments: Design and Implementation of a Mechanized Methodology"
+  type: B
+  author: RiccardoGermenia
+  supervisor: SilvioRanise
+  co-supervisor:
+    - SalvatoreManfredi
+    - MatteoRizzi
+  year: 2023
+  institution: University of Trento
+
+- id: RobertaPeracchio_M
+  title: "Exploring Digital Travel Credentials: A Comparative Study of Existing Solutions and Image Quality Assessment for Face Recognition"
+  type: M
+  author: RobertaPeracchio
+  supervisor: SilvioRanise
+  co-supervisor:
+    - TahirAhmad
+    - CeciliaPasquini
+  year: 2023
+  institution: University of Trento
+
 - id: SalvatoreManfredi_P
   title: "Automated Assistance for Actionable Security: Security and Compliance of TLS Configurations"
   type: P
   author: SalvatoreManfredi
   abstract: >
-    Since its first version was published in 1999 as an RFC, Transport Layer Security (TLS) has rapidly become the de facto standard for providing confidentiality and integrity to communications exchanged in an unsecure environment. Despite the fact that the protocol has undergone a number of structural and logical revisions over the past 23 years, its implementations still contain a significant flaw. In essence, the lack of a default secure configuration reduces the usability of TLS because system administrators, who are responsible for its configuration, must begin with an insecure configuration, study the state of the art in terms of technologies and new vulnerabilities, and understand how to secure their deployment.
+    Since its first version was published in 1999 as an RFC, Transport Layer Security (TLS) has rapidly become the de facto standard for providing confidentiality and integrity to communications exchanged in an insecure environment. Despite the fact that the protocol has undergone a number of structural and logical revisions over the past 23 years, its implementations still contain a significant flaw. In essence, the lack of a default secure configuration reduces the usability of TLS because system administrators, who are responsible for its configuration, must study the state of the art in terms of technologies and new vulnerabilities, and understand how to secure their deployment.
 
     While TLS cipher suites and extensions have evolved over the past decade, increasing the protocol's overall security, supporting software has been slow to drop support for insecure ciphers, broken hash algorithms, and outdated protocol versions. All components that system administrators and app developers may accidentally make available on their systems.
     In addition to managing the webserver itself, administrators must also manage cross-cutting elements such as certificate management, the TLS library, and the system on which these applications are installed.
@@ -733,7 +801,7 @@
     To assist system administrators and app developers with the crucial task of configurating their deployments, we contribute with:
     <ul>
     <li>a study of the state-of-the-art in terms of TLS analyzers capable of inspecting webservers' configuration, performing vulnerability detection and compliance analysis, with a focus on their features, limitations and application domains;</li>
-    <li>the design and development of TLSAssistant, a modular and extendable framework that can assist system administrators and app developers in correctly configuring TLS deployments. The strengths of the tool include its ability to generate actionable reports, containing accurate, concise information and code fragments that can be copied and pasted into the webserver configuration in order to mitigate the detected vulnerabilities;</li>
+    <li>the design and development of TLSAssistant, a modular and extendable open source framework that can assist system administrators and app developers in correctly configuring TLS deployments. The strengths of the tool include its ability to generate actionable reports, containing accurate, concise information and code fragments that can be copied and pasted into the webserver configuration in order to mitigate the detected vulnerabilities;</li>
     <li>the development of a methodology that can assist users in assessing the compliance of their systems against a single or multiple agency-issued security guidelines;</li>
     <li>the application of TLSAssistant in a variety of corporate scenarios and projects, describing its impact and the lessons learned from its deployment.</li>
     </ul>
@@ -745,3 +813,14 @@
   cycle: XXXV
   institution: University of Genoa
   urlComplementary: /complementary/UNIGE2023_MANFREDI
+
+- id: SaraSorrentino_B
+  title: "Use of Gamification for Effective Cybersecurity Awareness Programs: Study and Design of a Novel Framework"
+  type: B
+  author: SaraSorrentino
+  supervisor: SilvioRanise
+  co-supervisor:
+    - SalvatoreManfredi
+    - MatteoRizzi
+  year: 2023
+  institution: University of Trento

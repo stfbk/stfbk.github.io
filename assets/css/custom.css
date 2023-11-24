@@ -2,6 +2,7 @@
   display: none;
 }
 
+#site-title,
 #set-title,
 #set-subtitle {
   display: none;
@@ -51,10 +52,19 @@
   font-size: 1rem;
 }
 
+.card.person,
+.card.project {
+  padding-top: 1.3em;
+}
+
 .card.person:hover {
   box-shadow: 0 .5em 1em -.125em rgba(10,10,10,0.1),0 0px 0 1px rgba(10,10,10,0.02);
   -webkit-box-shadow: 0 .5em 1em -.125em rgba(10,10,10,0.1),0 0px 0 1px rgba(10,10,10,0.02);
   -moz-box-shadow: 0 .5em 1em -.125em rgba(10,10,10,0.1),0 0px 0 1px rgba(10,10,10,0.02);
+}
+
+.card.person .role {
+  font-style: italic;
 }
 
 .card:not(.topic):not(.spotlight) .title {
@@ -63,10 +73,6 @@
 
 .card .card-image img.default {
   opacity: 0.3;
-}
-
-.card.person .card-image {
-  padding-top: 1.3em;
 }
 
 .card.enterprise .card-image,
@@ -191,6 +197,7 @@ html {
   max-width: 100%;
 }
 
+.text-center,
 .text-centered {
   text-align: center;
 }
@@ -200,11 +207,11 @@ html {
 }
 
 .content h2 {
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 .content h3 {
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 /* TOC new */
@@ -223,13 +230,15 @@ html {
   margin-left: 10px;
 }
 
-.tag.tag-attendances {
+.tag.tag-attendances,
+.tag.tag-specialized {
   background-color: #539edb;
   color: #000;
 }
 
-.tag.tag-attendances.is-light {
-  background-color: #6daee3;
+.tag.tag-attendances.is-light,
+.tag.tag-specialized.is-light {
+  background-color: #a8ceee;
   color: #000;
 }
 
@@ -243,22 +252,26 @@ html {
   color: #000;
 }
 
-.tag.tag-papers {
+.tag.tag-papers,
+.tag.tag-school {
   background-color: #eb5454;
   color: #000;
 }
 
-.tag.tag-papers.is-light {
+.tag.tag-papers.is-light,
+.tag.tag-school.is-light {
   background-color: #f5adad;
   color: #000;
 }
 
-.tag.tag-seminars {
+.tag.tag-seminars,
+.tag.tag-general {
   background-color: #6ad25b;
   color: #000;
 }
 
-.tag.tag-seminars.is-light {
+.tag.tag-seminars.is-light,
+.tag.tag-general.is-light {
   background-color: #ccefc7;
   color: #000;
 }
@@ -738,7 +751,7 @@ section.page-top {
 /* Twitter */
 .single-fbkperson .additional-info-wrapper ul.people-links-list li.contains-Twitter:before {
   font-family: "Font Awesome 5 Brands";
-  content: "\f099";
+  content: "\e61b";
 }
 
 /* URL */
@@ -776,4 +789,102 @@ section.page-top {
     flex-direction: column-reverse;
     display: flex;
   }
+}
+
+/* EVENT PROGRAMS */
+table.program + table.program {
+  margin-top: 20px;
+}
+
+table.program tr td:first-child,
+table.program tr td:only-child {
+  width: 80%;
+}
+
+table.program tr td:last-child:not(:only-child) {
+  width: 20%;
+  text-align: center;
+}
+
+table.program tr.day td {
+  background-color: #FFCCC9;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+table.program tr.session td {
+  background-color: #CBCEFB;
+  text-align: center;
+  font-size: medium;
+}
+
+table.program tr.session .chair {
+  margin-top: 3px;
+  font-size: smaller;
+  font-style: italic;
+}
+
+table.program tr.session .chair::before {
+  content: "Session Chair: ";
+}
+
+table.program tr.institutional td {
+  background-color: #f7f7d0;
+}
+
+table.program tr.recreational td {
+  background-color: #def5ce;
+}
+
+table.program tr.session p,
+table.program td.keynote p,
+table.program td.paper p,
+table.program td.demo p,
+table.program td.poster p,
+table.program td.award p,
+table.program td.talk p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+table.program td.award p.name {
+  font-weight: bold;
+}
+
+table.program td p.title {
+  font-size: medium;
+  font-weight: normal;
+}
+
+table.program .session td p.title {
+  font-weight: bold;
+}
+
+table.program td p.speakers,
+table.program td p.authors,
+table.program td p.links {
+  font-size: smaller;
+}
+
+table.program td p.links a.link ~ a.link::before {
+  content: " • ";
+}
+
+table.program td p.type {
+  font-size: smaller;
+  font-weight: bold;
+}
+/* END EVENT PROGRAMS */
+
+.bordered,
+table.bordered tr td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.teaching-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

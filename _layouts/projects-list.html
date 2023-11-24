@@ -9,8 +9,11 @@ show_sidebar: false
     </div>
 
     <div class="column is-12">
-        {% assign currentProjects = site.projects | where_exp: "project", "project.endDate == nil" %}
-        {% assign formerProjects = site.projects | where_exp: "project", "project.endDate != nil" %}
+        {% assign todayDate = 'now' | date: '%Y-%m-%d' %}
+        {% assign currentProjectsWithoutEnd = site.data.projects | where_exp: "project", "project.endDate == nil" %}
+        {% assign currentProjectsWithEnd = site.data.projects | where_exp: "project", "project.endDate >= todayDate" %}
+        {% assign currentProjects = currentProjectsWithoutEnd | concat: currentProjectsWithEnd %}
+        {% assign formerProjects = site.data.projects | where_exp: "project", "project.endDate < todayDate" %}
 
         <h1>Current Projects</h1>
         {% include list-projects.html source=currentProjects style="card" %}

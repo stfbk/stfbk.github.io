@@ -55,9 +55,11 @@ ECSCI Running projects:
 - [AI4CYBER](https://ai4cyber.eu/)
 - [ATLANTIS](https://www.atlantis-horizon.eu/)
 - [CyberSEAS](https://cyberseas.eu/)
+- [DYNABIC](https://dynabic.eu/)
 - [eFORT](https://efort-project.eu/)
 - [EU-HYBNET](https://euhybnet.eu/)
 - [FeatureCloud](https://featurecloud.eu/)
+- [IRIS](https://www.iris-h2020.eu/)
 - [PRAETORIAN](https://praetorian-h2020.eu/)
 - [PRECINCT](https://www.precinct.info/en/)
 - [SUNRISE](https://sunrise-europe.eu/)
@@ -87,6 +89,7 @@ ECSCI ended projects supported by coordinators:
 Horizon Europe project based on ECSCI:
 - [EU-CIP (European Knowledge Hub and Policy Testbed for Critical Infrastructure Protection)](https://www.eucip.eu)
 
-And two national projects:
+And three national projects:
 - [NORCICS (Norwegian Center for Cybersecurity in Critical Sectors) project](https://www.ntnu.edu/norcics) funded by the Research Council of Norway under the Center for Research-based Innovation (SFI)
 - [RESTABILISE4.0 (Restabilise and Energy: Specialization of Enabling Technologies for Balancing Energy Infrastructures and Systems) project](http://www.restabilise4-0.it/) Confunded by START4.0 - Competence Center for security and optimization of strategic infrastructures
+- [CybAlliance (International Alliance for Strengthening Cybersecurity and Privacy in Healthcare)](https://nr.no/en/projects/kompetanseheving-for-okt-digital-sikkerhet-i-helsevesenet/) project funded by the [Research Council of Norway](https://www.forskningsradet.no/en/) under the [INTPART International Partnerships for Excellent Education, Research and Innovation](https://www.forskningsradet.no/en/call-for-proposals/2022/intpart-international-partnerships/) program

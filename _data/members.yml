@@ -1,6 +1,5 @@
 current:
   head:
-    - SilvioRanise
     - RobertoCarbone
 
   members:
@@ -14,53 +13,17 @@ current:
     - EleonoraMarchesini
     - ElhamArshad
     - MuhammadImran
-    - GiuseppeAlessioSciumè
+    - MajidMollaeefar
+    - UmbertoMorelli
+    - RiccardoLussana
+    - RiccardoGermenia
+    - CeciliaPasquini
+    - GianlucaSassetti
 
   collaborators:
     - AndreaBisegna
-    - LauraCristiano
-    - UmbertoMorelli
-    - CeciliaPasquini
-    - AlessandroTomasi
-    - StefanoBerlato
-    - GiacomoZanolli
-    - ZahraEbadiAnsaroudi
       
   students:
-    - personId: GianlucaSassetti
-      type: M
-      topic: Privacy Issues in OIDC implementations in the Wild
-      institution: University of Trento
-      yearFrom: 2022
-      yearTo: 2022
-
-    - personId: AlessandroBiasi
-      type: B
-      topic: Attack patterns for Identity Management protocols
-      institution: University of Trento
-      yearFrom: 2022
-      yearTo: 2023
-
-    - personId: LuigiDellEva
-      type: B
-      topic: Attack patterns for Identity Management protocols
-      institution: University of Trento
-      yearFrom: 2022
-      yearTo: 2023
-
-    - personId: RobertaPeracchio
-      type: M
-      topic: "Dematerialization of documents: A Digital Travel Credential Case Study"
-      institution: University of Trento
-      yearFrom: 2023
-      yearTo: 2023
-
-    - personId: RiccardoGermenia
-      type: B
-      topic: Enhancing TLSAssistant analysis capabilities
-      institution: University of Trento
-      yearFrom: 2023
-      yearTo: 2023
     - personId: MarioScuro
       type: M
       topic: Privacy enhancing technologies for digital identity
@@ -68,12 +31,42 @@ current:
       yearFrom: 2022
       yearTo: 2023
 
-    - personId: IonAndyDitu
-      type: B
-      topic: Trusted Execution Environments for Advanced Data Protection
+    - personId: KaleemUllahKaleemUllah
+      type: M
+      topic: Countering rebroadcast attacks against remote identity proofing
       institution: University of Trento
       yearFrom: 2023
       yearTo: 2023
+
+    - personId: RiccardoZiglio
+      type: M
+      topic: Video manipulation vs liveness detection
+      institution: University of Trento
+      yearFrom: 2023
+      yearTo: 2023
+
+    - personId: FedericoGraziola
+      type: M
+      topic: Evaluation of Security Protocol Verification Tools
+      institution: University of Verona
+      yearFrom: 2023
+      yearTo: 2024
+
+    - personId: SimoneAvancini
+      type: B
+      topic: Threat Modeling for Digital Identity Wallet 
+      institution: University of Trento
+      yearFrom: 2023
+      yearTo: 2024
+
+    - personId: MattiaBressan
+      type: B
+      topic: Adversarial Attacks in AI and their Consequences
+      institution: University of Trento
+      yearFrom: 2023
+      yearTo: 2024
+
+  junior:    
       
 former:
   head:
@@ -137,6 +130,16 @@ former:
       formerRole: Researcher
       yearFrom: 2019
       yearTo: 2022
+
+    - personId: GiacomoZanolli
+      formerRole: Junior Researcher
+      yearFrom: 2022
+      yearTo: 2023
+
+    - personId: GiuseppeAlessioSciumè
+      formerRole: Junior Researcher
+      yearFrom: 2022
+      yearTo: 2023
 
   phdStudents:
     - personId: FedericoSinigaglia
@@ -355,3 +358,109 @@ former:
 
     - personId: EricaElia
       thesisId: EricaElia_M
+
+    - personId: IonAndyDitu
+      thesisId: IonAndyDitu_B
+
+    - personId: AlessandroBiasi
+      thesisId: AlessandroBiasi_B
+
+    - personId: LuigiDellEva
+      thesisId: LuigiDellEva_B
+
+    - personId: RobertaPeracchio
+      thesisId: RobertaPeracchio_M
+
+    - personId: RiccardoGermenia
+      thesisId: RiccardoGermenia_B
+
+    - personId: SaraSorrentino
+      thesisId: SaraSorrentino_B
+
+    - personId: GianlucaSassetti
+      thesisId: GianlucaSassetti_M
+
+  junior:
+    - personId: YuriTomasini
+      topic: Cybersecurity 101
+      institution: Liceo Scientifico "Leonardo Da Vinci", Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: MatteoPaoloFurlan
+      topic: Cybersecurity 101
+      institution: Liceo Scientifico "Leonardo Da Vinci", Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: NicolòMicheletti
+      topic: Cybersecurity 101
+      institution: Liceo Scientifico "Leonardo Da Vinci", Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: AlessandroMerlo
+      topic: Cybersecurity 101
+      institution: Liceo Scientifico "Leonardo Da Vinci", Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: GiovanniMarchi
+      topic: Cybersecurity 101
+      institution: Liceo Scientifico "Leonardo Da Vinci", Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: RayhanaTaoufik
+      topic: Cybersecurity 101
+      institution: Liceo "Antonio Rosmini", Rovereto
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: LeonardoVicentini
+      topic: Cybersecurity 101
+      institution: Liceo Scientifico "Leonardo Da Vinci", Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: FilippoBenedetti
+      topic: Cybersecurity 101
+      institution: Liceo Scientifico "Leonardo Da Vinci", Trento
+      yearFrom: 2021
+      yearTo: 2021
+
+    - personId: MatildeSalaorni
+      topic: OSINT e l'assessment del rischio nei social media
+      institution: Liceo Steam International, Rovereto
+      yearFrom: 2023
+      yearTo: 2023
+
+    - personId: MattiaConci
+      topic: OSINT e l'assessment del rischio nei social media
+      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+      yearFrom: 2023
+      yearTo: 2023
+      
+    - personId: FedericaMascia
+      topic: Awareness - percezione del rischio
+      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+      yearFrom: 2023
+      yearTo: 2023
+
+    - personId: DavideModena
+      topic: Awareness - percezione del rischio
+      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+      yearFrom: 2023
+      yearTo: 2023
+
+    - personId: AndreaBrandolini
+      topic: Cybersecurity 101
+      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+      yearFrom: 2022
+      yearTo: 2023
+
+    - personId: MattiaAndreolli
+      topic: Cybersecurity 101
+      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+      yearFrom: 2022
+      yearTo: 2023

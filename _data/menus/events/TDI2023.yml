@@ -2,7 +2,15 @@
   items:
     - name: Home
       link: /events/TDI2023/
-    - name: Submission
-      link: submission
+    - name: Accepted Papers
+      link: accepted-papers
     - name: Committees
       link: committees
+    - name: Program
+      link: program
+    - name: Registration
+      link: registration
+    - name: Submission
+      link: submission
+    - name: Venue
+      link: venue

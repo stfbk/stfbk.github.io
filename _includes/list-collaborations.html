@@ -12,10 +12,10 @@
     {% for collaboration in source %}
         {% assign collaborationFromId = site.data.collaborations | where: "id", collaboration %}
         {% assign collaborationFromIdLabel = site.data.collaborations | where: "id", collaboration.id %}
-        {% if collaborationFromId.size == 1 %}
-            {% assign collaborationsFromId = collaborationsFromId | concat: collaborationFromId %}
-        {% elsif collaborationFromIdLabel.size == 1 %}
-            {% assign collaborationsFromId = collaborationsFromId | concat: collaborationFromIdLabel %}
+        {% if collaborationFromId.size > 0 %}
+            {% assign collaborationsFromId = collaborationsFromId | push: collaborationFromId[0] %}
+        {% elsif collaborationFromIdLabel.size > 0 %}
+            {% assign collaborationsFromId = collaborationsFromId | push: collaborationFromIdLabel[0] %}
         {% endif %}
     {% endfor %}
     {% assign collaborationsSorted = collaborationsFromId | sort: "name" %}

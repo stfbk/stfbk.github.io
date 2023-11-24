@@ -28,6 +28,8 @@ publications:
     - DBSEC2022
     - FPS2019
     - STM2019
+    - TDSC2022
+    - ARES2023
 
 theses:
     - DamianoSartori_B
@@ -63,6 +65,7 @@ theses:
     - AvinashSudhodanan_P
     - NadiaMetoui_P
     - NicolaCasagrande_B
+    - MatteoBitussi_B
 
 ---
 

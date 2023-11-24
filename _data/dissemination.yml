@@ -1,0 +1,396 @@
+# PLEASE KEEP CHRONOLOGICAL ORDER BY START DATE WITHIN YEARS
+#
+# Available categories: TBD
+# Available target: TBD
+
+## 2018
+- id: EuregioBlockchainConference_2018
+  title: "Blockchain research activities"
+  participants:
+    - AlessandroTomasi
+  eventName: Euregio Blockchain Conference
+  startDate: "2018-05-03"
+  endDate: "2018-05-03"
+  category: General
+  links:
+    - name: Event
+      url: https://www.fbk.eu/en/event/euregio-blockchain-conference/
+
+- id: Blockchain_DLT_Healthcare_2018
+  title: "Blockchain and distributed ledger technologies: Risks and opportunities for healthcare"
+  participants:
+    - UmbertoMorelli
+  eventName: Webvalley
+  startDate: "2018-06-27"
+  endDate: "2018-06-27"
+  category: School
+
+## 2019
+- id: ProM2019
+  title: "Pro[M] Camp 2019"
+  participants:
+    - MatteoLeonelli
+    - SalvatoreManfredi
+    - UmbertoMorelli
+    - GiadaSciarretta
+    - SilvioRanise
+  eventName: Pro[M] Camp 2019
+  startDate: "2019-02-18"
+  endDate: "2019-02-22"
+  category: School
+  links:
+    - name: Event
+      url: https://fbkjunior.fbk.eu/prom-camp-2019/
+
+- id: Blockchain_DLT_Healthcare_2019
+  title: "Blockchain and distributed ledger technologies: Risks and opportunities for healthcare"
+  participants:
+    - UmbertoMorelli
+  eventName: LawTech IT seminars
+  startDate: "2019-03-21"
+  endDate: "2019-03-21"
+  category: Specialized
+
+- id: OSW2019
+  title: "An Approach for Secure Code Generation of Single Sign-On and Access Delegation Solutions for Mobile Native Apps"
+  participants:
+    - RobertoCarbone
+    - SilvioRanise
+    - GiadaSciarretta
+    - AmirSharif
+  eventName: OAuth Security Workshop (OSW) 2019
+  startDate: "2019-03-22"
+  endDate: "2019-03-22"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://osw2019.sec.uni-stuttgart.de/
+    - name: Program
+      url: https://osw2019.sec.uni-stuttgart.de/agenda/
+
+- id: NDR2019
+  title: Ti senti al sicuro? Sicurezza online, identità digitale e uso della carta d'identità elettronica
+  participants:
+    - SalvatoreManfredi
+    - UmbertoMorelli
+    - AlessandroTomasi
+  eventName: Notte dei Ricercatori 2019
+  startDate: "2019-09-27"
+  endDate: "2019-09-27"
+  category: General
+  links:
+    - name: Event
+      url: https://event.unitn.it/nottedeiricercatori2019/
+    - name: Program
+      url: https://event.unitn.it/nottedeiricercatori2019/0689_19_NotteDeiRicercatori_programma.pdf
+
+- id: ISACA2019
+  title: Come comunicano gli oggetti smart? Lo fanno in maniera sicura?
+  participants:
+    - UmbertoMorelli
+  eventName: ISACA 2019
+  startDate: "2019-10-05"
+  endDate: "2019-10-05"
+  category: General
+
+## 2020
+- id: CSSF2020
+  title: Cyber Security & Servizi Finanziari
+  participants:
+    - MarcoPernpruner
+    - GiadaSciarretta
+    - SilvioRanise
+  abstract: >
+    Il seminario descrive alcune delle problematiche relative alla sicurezza e alla conformità rispetto a recenti normative Europee (come la PSD2, relativa ai pagamenti) che riguardano l'uso di servizi finanziari digitali come l'uso dell'on-line banking o di applicazioni mobili. In particolare, si discuteranno alcuni dei problemi relativi all'autenticazione e all'autorizzazione e ai motivi per cui le banche stanno sostituendo le chiavette per generare OTP con applicazioni su mobile.
+  eventName: FBK Academy
+  startDate: "2020-05-05"
+  endDate: "2020-05-05"
+  category: General
+  links:
+    - name: News and video
+      url: https://st.fbk.eu/news/2020/05/05/webinar-cyber-security-servizi-finanziari/
+
+- id: PSD2_SCA_FINSEC_2020
+  title: "Strong Customer Authentication for the PSD2: security issues and possible mitigations to share with end users"
+  participants:
+    - MarcoPernpruner
+  abstract: >
+    This webinar deals with authentication and authorization protocols in the financial scenario from a security perspective. First, we focus on the Payment Services Directive 2 (PSD2) and its consequences on accessing payment accounts online or initiating electronic payment transactions. For this, we give an overview of the pros and cons underlying the Strong Customer Authentication (SCA) processes introduced by this directive and then analyze real protocols before and after the adoption of the PSD2 to highlight the benefits in terms of security (if any). Finally, we provide financial institutions with a list of best practices and security suggestions to share with their end users, to make them aware of common attacks such as phishing and malware.
+  eventName: Digital Finance Academy for Security (FINSEC)
+  startDate: "2020-09-28"
+  endDate: "2020-09-28"
+  category: Specialized
+  links:
+    - name: Slides and video
+      url: https://finsecurity.eu/digital-finance-academy-for-security/Strong-Customer-Authentication-for-the-PSD2/
+
+## 2021
+- id: PSD2_SecurityRisk_FINSEC_2021
+  title: Automated Security and Risk Analysis of Strong Customer Authentication Solutions for the PSD2
+  participants:
+    - MarcoPernpruner
+  eventName: Recent Security Advances in the Finance Sector (FinTech, FINSEC and SOTER)
+  startDate: "2021-01-14"
+  endDate: "2021-01-14"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://www.finsec-project.eu/finance-sector-security-workshop
+
+- id: Sec4dev_2021
+  title: Security Issues in OAuth/OIDC-based app Implementations
+  participants:
+    - AmirSharif
+  eventName: Sec4dev Conference and Bootcamp 2021
+  startDate: "2021-02-24"
+  endDate: "2021-02-24"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://sec4dev.io/2021/
+    - name: Program
+      url: https://sec4dev.io/2021/schedule
+    - name: Video
+      url: https://youtu.be/cZ1eWyLrrdw
+
+- id: PSD2_SCA_DedaGroup_2021
+  title: Scenari, approcci, esperienze di strong authentication pre e post direttiva PSD2
+  participants:
+    - AndreaBisegna
+    - RobertoCarbone
+    - MarcoPernpruner
+    - SilvioRanise
+  eventName: Tech Talk (DedaGroup)
+  startDate: "2021-03-11"
+  endDate: "2021-03-11"
+  category: Specialized
+
+- id: IdentitàDigitale_PMI_2021
+  title: "Identità digitale: identificazione e autenticazione"
+  participants:
+    - MarcoPernpruner
+    - GiadaSciarretta
+    - AlessandroTomasi
+  abstract: >
+    Lo sviluppo di servizi online offre indiscutibili vantaggi, specialmente alla luce delle limitazioni agli spostamenti nell’attuale situazione sanitaria globale; tuttavia, sono forti le preoccupazioni legate ai rischi dovuti alla sicurezza di tali piattaforme. Durante l’incontro vedremo alcune delle tecniche emergenti nella gestione dell’identità digitale.
+  eventName: "PMI Academy, Accademia d'Impresa"
+  startDate: "2021-05-05"
+  endDate: "2021-05-05"
+  category: General
+  links:
+    - name: Event
+      url: https://pmi.accademiadimpresa.it/project/digitalpmi/
+    - name: Video
+      url: https://youtu.be/I7xtr1XmfLc
+
+- id: eDocuments_Identiverse_2021
+  title: How can eID Cards Improve the Security and Usability of Authentication Protocols? From the Design to the Security and Risk Analysis
+  participants:
+    - MarcoPernpruner
+  abstract: >
+    When dealing with sensitive online services such as Public Administration, eHealth or eBanking, a proper and secure authentication is strictly required more than ever. However, the design of an authentication infrastructure must find a proper balance between the degree of security it attests and the level of usability it offers to the users: protocols requiring many complex steps may discourage users from accessing a service. Among all the authenticators that are currently spreading (especially in the European Union), eID cards are quite promising in this regard: they are issued by Governments after a careful check of the person’s identity, and are usually equipped with contactless chips featuring NFC and cryptographic capabilities enabling these documents to take part in sophisticated yet usable authentication solutions. Based on our experience with Italian eID cards in a joint project with the Italian Government Printing Office and Mint (Poligrafico e Zecca dello Stato Italiano), we will investigate how these can be used within authentication flows to enhance the overall security while keeping an adequate level of usability for different use case scenarios such as accessing Public Administration services and private enterprise services. We will also detail the methodology that we have developed to analyze the security and risks of such protocols, finally providing some examples of both basic and more complex attacks detected by the different levels of our analysis.
+  eventName: Identiverse 2021
+  startDate: "2021-06-23"
+  endDate: "2021-06-23"
+  category: Specialized
+  links:
+    - name: Video
+      url: https://drive.google.com/file/d/1I6D980wNTrsBWkrzZWNQ4lW41aZmIhtE/view
+
+- id: NDR2021
+  title: Siamo al sicuro? Mettiamoci alla prova! Avvicinamento alla sicurezza informatica
+  participants:
+    - SalvatoreManfredi
+    - UmbertoMorelli
+    - GiadaSciarretta
+    - AlessandroTomasi
+  eventName: Notte dei Ricercatori 2021
+  startDate: "2021-09-24"
+  endDate: "2021-09-24"
+  category: General
+  links:
+    - name: Event
+      url: https://www.provincia.tn.it/News/Eventi/SHARPER-NIGHT-2021-Notte-Europea-dei-Ricercatori
+
+- id: TLSA_OWASP_2021
+  title: TLSAssistant - a comprehensive tool for identifying and mitigating TLS vulnerabilities
+  participants:
+    - SalvatoreManfredi
+  eventName: OWASP Italy Meetup 2021
+  startDate: "2021-09-30"
+  endDate: "2021-09-30"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://owasp.org/www-chapter-italy/events/owasp-meetup-210930
+
+- id: TLSA_SecuritySummit_2021
+  title: TLSAssistant - uno strumento per identificare e mitigare le vulnerabilità di TLS
+  participants:
+    - SalvatoreManfredi
+  eventName: Security Summit Streaming Edition 2021
+  startDate: "2021-11-11"
+  endDate: "2021-11-11"
+  category: Specialized
+  links:
+    - name: Details
+      url: https://securitysummit.it/eventi/streaming-edition-novembre-2021/sessioni/seminario-owasp-italy
+    - name: Slides
+      url: https://contents.astreanetwork.net/1.0/pdf/56281398/documents.pdf
+
+## 2022
+- id: IdentitàDigitale_DIH_2022
+  title: Identità digitale
+  participants:
+    - MarcoPernpruner
+  abstract: >
+    L'identità digitale è fortemente presente nelle nostre vite quotidiane, grazie a tecnologie sempre più avanzate che permettono di effettuare svariate operazioni. Non siamo più circondati solamente da computer e cellulari, ma anche da frigoriferi intelligenti, sistemi di domotica e altri dispositivi più o meno sensibili che necessitano di essere adeguatamente protetti. Cosa succederebbe infatti se un malintenzionato riuscisse a sbloccare una serratura elettronica senza disporre delle autorizzazioni per farlo? O se si potesse prendere il controllo di una macchina industriale senza le necessarie credenziali? Naturalmente le conseguenze sarebbero disastrose… In questo intervento entreremo nel mondo dell’identità digitale, illustrandone il ciclo di vita e dettagliando i tre principali processi: identificazione, autenticazione e autorizzazione. Oltre a fornire alcuni esempi di protocolli che fanno uso di tecnologie innovative (come i documenti d’identità elettronici), mostreremo alcune metodologie per l’analisi di sicurezza e del rischio di tali protocolli, al fine di evidenziare e discutere possibili problematiche di sicurezza.
+  eventName: Cybersecurity Act (Digital Innovation Hub Vicenza)
+  startDate: "2022-01-27"
+  endDate: "2022-01-27"
+  category: General
+  links:
+    - name: Event
+      url: https://www.confartigianatovicenza.it/cybersecurity-act/
+    - name: Video
+      url: https://www.youtube.com/watch?v=2RUxjeTDHdU
+
+- id: GiornataMondialeSicurezzaRete_2022
+  title: Giornata mondiale per la Sicurezza in Rete
+  participants:
+    - SalvatoreManfredi
+    - GiadaSciarretta
+  eventName: Istituto Comprensivo Civezzano, Trento
+  startDate: "2022-02-21"
+  endDate: "2022-02-25"
+  category: School
+  subcategory: Middle School
+
+- id: OSW2022_Mistakes
+  title: Top OAuth/OpenID Connect Mistakes Found in Production Mobile Apps
+  participants:
+    - JosephHeenan
+    - AmirSharif
+  eventName: OAuth Security Workshop (OSW) 2022
+  startDate: "2022-05-04"
+  endDate: "2022-05-04"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://oauth.secworkshop.events/osw2022
+
+- id: OSW2022_Claims
+  title: "Cross-Domain Sharing of User Claims: A Proposal for OIDC"
+  participants:
+    - RobertoCarbone
+    - GiuseppeDeMarco
+    - FrancescoAntonioMarino
+    - SilvioRanise
+    - GiadaSciarretta
+    - AmirSharif
+  eventName: OAuth Security Workshop (OSW) 2022
+  startDate: "2022-05-05"
+  endDate: "2022-05-05"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://oauth.secworkshop.events/osw2022
+
+- id: Identiverse2022_Claims
+  title: "Top OAuth/OpenID Connect Mistakes Found in Production Mobile Apps"
+  participants:
+    - JosephHeenan
+    - AmirSharif
+  eventName: Identiverse 2022
+  startDate: "2022-06-23"
+  endDate: "2022-06-23"
+  category: Specialized
+  links:
+    - name: Video
+      url: https://youtu.be/St1DnYPgE70
+
+## 2023
+- id: AvvicinamentoSicurezzaInformatica_2023
+  title: Avvicinamento alla sicurezza informatica
+  participants:
+    - SalvatoreManfredi
+    - GiadaSciarretta
+  eventName: Istituto Comprensivo Civezzano, Trento
+  startDate: "2023-02-16"
+  endDate: "2023-02-17"
+  category: School
+
+- id: FCC2023_Enemy
+  title: Know Your Enemy
+  participants:
+    - MatteoRizzi
+  eventName: Workshop for the "Fog and Cloud Computing" Master Course at UniTN
+  startDate: "2023-03-26"
+  endDate: "2023-03-26"
+  category: Specialized
+
+- id: FCC2023_Identity
+  title: "Identity and ABAC in AWS and Azure"
+  participants:
+    - UmbertoMorelli
+  eventName: Workshop for the "Fog and Cloud Computing" Master Course at UniTN
+  startDate: "2023-03-26"
+  endDate: "2023-03-26"
+  category: Specialized
+
+- id: EIC2023
+  title: Past, Present, and Future of the Italian Digital Identity Ecosystem
+  participants:
+    - FrancescoAntonioMarino
+    - GiadaSciarretta
+    - AmirSharif
+  eventName: European Identity and Cloud (EIC) Conference 2023
+  startDate: "2023-05-11"
+  endDate: "2023-05-11"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://www.kuppingercole.com/events/eic2023
+    - name: Session
+      url: https://www.kuppingercole.com/sessions/5325/2
+
+- id: Steam2023
+  title: "Cybersecurity: l'esperienza di due giovani professionisti"
+  participants:
+    - MatteoRizzi
+    - GiadaSciarretta
+  eventName: Liceo Steam International, Rovereto
+  startDate: "2023-04-14"
+  endDate: "2023-04-14"
+  category: School
+  subcategory: High School
+
+- id: TDI2023
+  title: "Cross-Domain Sharing of User Claims: A Design Proposal for OpenID Connect Attribute Authorities"
+  participants:
+    - AmirSharif
+  eventName: 1st International Workshop on Trends in Digital Identity 2023
+  startDate: "2023-06-06"
+  endDate: "2023-06-06"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://st.fbk.eu/events/TDI2023/
+    - name: Program
+      url: https://st.fbk.eu/events/TDI2023/program
+
+- id: NDR2023
+  title: Siamo al sicuro? Mettiamoci alla prova! Un viaggio nel mondo della sicurezza informatica
+  participants:
+    - SalvatoreManfredi
+    - MatteoRizzi
+    - GiadaSciarretta
+  eventName: Notte della Ricerca 2023
+  startDate: "2023-09-29"
+  endDate: "2023-09-29"
+  category: General
+  links:
+    - name: Event
+      url: https://nottedellaricerca.tn.it
+
+# PLEASE KEEP CHRONOLOGICAL ORDER BY START DATE WITHIN YEARS

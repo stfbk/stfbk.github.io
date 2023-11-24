@@ -1,0 +1,174 @@
+- id: AdvancedProgrammingOfCryptographicMethods
+  name: Advanced Programming of Cryptographic Methods
+  level: MSc
+  institution: University of Trento
+  lecturer:
+    - SilvioRanise
+    - RiccardoLongo
+    - MarcoPernpruner
+  startYear: 2023
+  links:
+    - name: 2023/2024
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2023/92173/2009/10005/10170
+
+- id: AppliedCryptography
+  name: Applied Cryptography
+  level: BSc
+  institution: University of Trento
+  lecturer:
+    - SilvioRanise
+    - RiccardoLongo
+  startYear: 2019
+  endYear: 2023
+  links:
+    - name: 2019/2020
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2019/94110/2009/10005/10170
+    - name: 2020/2021
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2020/94110/2009/10005/10170
+    - name: 2021/2022
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2021/94110/2009/10005/10170
+    - name: 2022/2023
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2022/94110/2009/10005/10170
+
+- id: CyberChallenge
+  name: CyberChallenge.IT
+  institution: University of Trento
+  lecturer:
+    - AndreaBisegna
+    - RobertoCarbone
+    - BiniamFissehaDemissie
+    - AlessandroTomasi
+  startYear: 2020
+  endYear: 2022
+  links:
+    - name: Homepage
+      url: "https://cyberchallenge.it/"
+
+- id: DigitalSecurity
+  name: Digital Security
+  level: High School
+  institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+  lecturer:
+    - SalvatoreManfredi
+    - UmbertoMorelli
+    - SilvioRanise
+    - MatteoRizzi
+  startYear: 2019
+  links:
+    - name: 2019/2020
+      url: "https://fbkjunior.fbk.eu/wp-content/uploads/2023/01/corso-cybersecurity.pdf"
+    - name: 2020/2021
+      url: "https://fbkjunior.fbk.eu/wp-content/uploads/2023/01/corso-cybersecurity.pdf"
+
+- id: IdentityAccessManagement
+  name: Identity Access Management
+  institution: ITS Meccatronico Veneto
+  lecturer:
+    - AndreaBisegna
+    - RobertoCarbone
+    - UmbertoMorelli
+    - GiadaSciarretta
+    - AlessandroTomasi
+  startYear: 2021
+  endYear: 2021
+  links:
+    - name: Course
+      page: "https://www.itsmeccatronico.it/industrial-cyber-security-specialist/"
+
+- id: Intro2CNS
+  name: Introduction to Computer and Network Security
+  level:
+    - BSc
+    - MSc
+  institution: University of Trento
+  lecturer:
+    - SilvioRanise
+    - SalvatoreManfredi
+  startYear: 2017
+  links:
+    - name: Before 2020
+      url: "https://sites.google.com/view/intro2cns"
+    - name: 2020/2021
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2020/93219/2008/9999/10114
+    - name: 2021/2022
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2021/93219/2011/10000/10117
+    - name: 2022/2023
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2022/93219/2008/10003/10114
+    - name: 2023/2024
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2023/93219/2008/9999/10114
+
+- id: LaboratorioProgrammazione
+  name: Laboratorio di Programmazione
+  level: BSc
+  institution: University of Trento
+  lecturer:
+    - SilvioRanise
+    - MarcoPernpruner
+  startYear: 2020
+  links:
+    - name: 2020/2021
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2020/94875/2008/10002/10115
+    - name: 2021/2022
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2021/94875/2008/10002/10115
+    - name: 2022/2023
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2022/94875/2008/9999/10115
+    - name: 2023/2024
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2023/94875/2008/9999/10115
+
+- id: Master_CCIP
+  name: Master Universitario di II livello in "Cybersecurity and Critical Infrastructure Protection"
+  institution: University of Genoa
+  lecturer:
+    - RobertoCarbone
+    - AlessandroTomasi
+  startYear: 2022
+  endYear: 2022
+  links:
+    - name: Homepage
+      url: "https://www.perform.unige.it/master/master-cybersecurity-iiied"      
+
+- id: PhD_IdM_CC
+  name: "Cryptography and Codes: enrollment, authentication, authorization, and all that"
+  level: PhD
+  institution:
+    - University of Genoa
+    - University of Trento
+  lecturer:
+    - RobertoCarbone
+    - SilvioRanise
+    - GiadaSciarretta
+  startYear: 2023
+  links:
+    - name: 2022/2023
+      url: "PhDCourse2023_IdM"
+
+- id: PhD_IdM_DI
+  name: "Digital identity: enrollment, authentication, and all that"
+  level: PhD
+  institution:
+    - University of Genoa
+    - University of Trento
+  lecturer:
+    - RobertoCarbone
+    - SilvioRanise
+    - GiadaSciarretta
+  startYear: 2020
+  endYear: 2022
+  links:
+    - name: 2020/2021
+      url: "PhDCourse2021_IdM"
+    - name: 2021/2022
+      url: "PhDCourse2022_IdM"
+
+- id: ScienceTechnologyAndGlobalAffairs
+  name: Science, Technology and Global Affairs
+  level: MSc
+  institution: University of Trento
+  lecturer:
+    - SilvioRanise
+  startYear: 2022
+  links:
+    - name: 2022/2023
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2022/93688/2011/9999/10177
+    - name: 2023/2024
+      url: https://unitn.coursecatalogue.cineca.it/insegnamenti/2023/93688/2011/9999/10177

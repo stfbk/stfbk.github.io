@@ -1,15 +1,9 @@
 ---
-id: FIDES2015
-title: FIDES 2015
-titleAddon: Federated Identity Management System
-tagline: "an activity in the context of the EIT ICT Labs activities 2015 (Innovation Area: Privacy, Security and Trust)."
+project: FIDES2015
 leader: Rocco Mammoliti (Poste Italiane)
 goals: >
     Deploy a working pilot of an open, federated, identity infrastructure service provider, deliver the implementation guidelines and define the relevant business model.
 
-logo: logo_FIDES.png
-startDate: "2015-01-01"
-endDate: "2015-12-31"
 funding: ICT EIT Labs
 
 partners:
@@ -38,15 +32,13 @@ partners:
     - name: Eurodocs
       link: http://www.eurodocs.net/
 
-
 people:
     - FedericoSinigaglia
     - GiadaSciarretta
     - RobertoCarbone
     - AlessioColetta
     - AlessandroArmando
-
-peopleOrder: surname
+    
 ---
 
 FIDES is an activity in the context of the EIT ICT Labs activities 2015 (Innovation Area: Privacy, Security and Trust).

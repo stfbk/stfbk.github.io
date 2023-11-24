@@ -1918,18 +1918,26 @@
   doi: 10.1145/3532105.3535042
   urlNews: /news/2022/04/25/demo-accepted-at-sacmat-2022/
 
-- id: TDSC2022
-  title: "A Multi-Layered Methodology to Assist the Secure and Risk-Aware Design of Authentication Protocols: Application to Passwordless Solutions based on eID Cards"
+## 2023
+- id: ARES2023
+  id_iris: 338827
+  title: "Cross-Domain Sharing of User Claims: A Design Proposal for OpenID Connect Attribute Authorities"
   authors:
-    - MarcoPernpruner
-    - RobertoCarbone
+    - AmirSharif
+    - FrancescoAntonioMarino
     - GiadaSciarretta
+    - GiuseppeDeMarco
+    - RobertoCarbone
     - SilvioRanise
   abstract: >
-    Authentication protocols represent the entry point to online services, so they must be sturdily designed in order to allow only authorized users to access the underlying data. However, designing authentication protocols is a complex process: security designers should carefully select the technologies to involve and integrate them properly in order to prevent potential vulnerabilities. In addition, these choices are usually restricted by further factors, such as the requirements associated with the scenario, the regulatory framework, the dimensions to balance (e.g., security vs. usability), and the standards to rely on. We come to the rescue by presenting an automated multi-layered methodology we have developed to assist security designers in this phase: by repeatedly evaluating their protocols, they can select the security mitigations to consider until they reach the desired security level, thus enabling a security-by-design approach. For concreteness, we also show how we have applied our methodology to a real use case scenario in the context of a collaboration with the Italian Government Printing Office and Mint.
-
-## 2023
+    An Attribute Authority is an entity responsible for establishing, maintaining, and sharing a subject’s qualified attributes, such as titles and qualifications. In the OpenID Connect digital identity ecosystem, this entity is distinct from Identity Providers that manage only the basic identity profile information. A relevant scenario is as follows: the User first logs in to an online service using his/her identity managed by an Identity Provider. Then, the online service asks the Attribute Authority for the additional User’s attributes (e.g., entitlements) before granting access to its resources. In some high-sensitive cases, an Attribute Authority needs proof of the User’s authentication before releasing the User’s attributes to the online service. The challenge of this scenario involving usability, security, and privacy requirements lies in finding the right mechanism to share (the minimum and necessary set of) claims of the User who is currently authenticated with the online service across multiple domains without requiring his or her re-authentication. In this paper, we present the design of two solutions based on OpenID Connect to share User claims across domains. We provide security and privacy analysis for the two solutions and a brief comparison between them. 
+  destination: ARES2023
+  year: 2023
+  doi: 10.1145/3600160.3600183
+  urlNews: /news/2023/05/15/paper-accepted-at-ares-2023/
+  
 - id: COSE2023
+  id_iris: 337867
   title: "Identifying and Quantifying Trade-offs in Multi-Stakeholder Risk Evaluation with Applications to the Data Protection Impact Assessment of the GDPR"
   authors:
     - MajidMollaeefar
@@ -1941,7 +1949,38 @@
     In this work, we propose a quantitative and (semi-)automated approach to solve this problem based on the well-known notion of Pareto optimality.  For validation, we show how a prototype tool based on our approach can assist in the Data Protection Impact Assessment mandated by the General Data Protection Regulation on a simplified–but realistic–use case scenario.  We also evaluate the scalability of the approach by conducting an experimental evaluation with the prototype with encouraging results.
   destination: COSE
   year: 2023
+  doi: 10.1016/j.cose.2023.103206
   urlNews: /news/2023/03/28/paper-accepted-at-cose/
+  
+- id: DBSEC2023
+  id_iris: 339007
+  title: "Assurance, Consent and Access Control for Privacy-Aware OIDC Deployments"
+  authors:
+    - GianlucaSassetti
+    - AmirSharif
+    - GiadaSciarretta
+    - RobertoCarbone
+    - SilvioRanise
+  abstract: >
+    The large amount of personal data that is shared in the digital age has proportionally increased the risks of user privacy violations. The same privacy risks are reflected in OpenID Connect, which is one of the most widespread protocols used for identity management to access both private and public administration services. Since personal data is collected and shared via OpenID Connect, appropriate technologies to protect user privacy should be adopted as suggested by data protection guidelines and regulations (e.g., the General Data Protection Regulation). Unfortunately, it is difficult to make the privacy-enhancing technology suggestions in such documents actionable and available to IT professionals who are required to configure them within their OpenID Connect deployments. To overcome this problem, we present a practical approach to improving user privacy in OpenID Connect-based solutions by identifying a set of privacy-preserving features extracted from the available OpenID Connect specifications. We conduct a privacy compliance analysis on popular private and governmental OpenID Providers to determine how widely these privacy best practices are used in the wild. The findings indicate that different OpenID Providers grant varying levels of assurance and address different aspects of privacy, failing to provide full support for data protection principles. 
+  destination: DBSEC2023
+  year: 2023
+  doi: 10.1007/978-3-031-37586-6_13
+  urlNews: /news/2023/05/25/paper-accepted-at-dbsec-2023/
+
+- id: DBSEC2023_WalletTrends
+  id_iris: 339507
+  title: "Control is Nothing Without Trust a First Look into Digital Identity Wallet Trends"
+  authors:
+    - ZahraEbadiAnsaroudi
+    - RobertoCarbone
+    - GiadaSciarretta
+    - SilvioRanise
+  abstract: >
+    In recent years, user-centric digital identity wallets have become increasingly available, aiming to give individuals direct control over their personal data. The EU proposal in the context of the recently revised eIDAS and its EU digital identity wallet reflects the high ambitions in this field at the EU level. However, to the best of our knowledge, no research review on the core technologies used to implement various features of these wallet solutions has been proposed so far. Our work addresses this issue providing a systematic analysis of a selection of available digital identity wallets on the market in terms of the technologies used to establish trust and controlled sharing. Building on this overview and help providers (including companies and European Member States) in charge of developing secure and trustworthy wallet-based infrastructures, we propose a classification of wallet solutions along two main dimensions (namely trust establishment and controlled credential sharing) with the goal of assisting designers to make informed design decisions and guarantee security, privacy, and trustworthiness.
+  destination: DBSEC2023
+  year: 2023
+  doi: 10.1007/978-3-031-37586-6_7
 
 - id: POLSIM2023
   #id_iris: 323366
@@ -1957,5 +1996,38 @@
   #doi: 10.1145/3320269.3384767
   urlComplementary: /complementary/POLSIM2023
   #urlNews: /news/2020/02/15/paper-accepted-at-asiaccs-2020/
+
+- id: SECRYPT2023
+  id_iris: 338307
+  title: "A First Appraisal of Cryptographic Mechanisms for the Selective Disclosure of Verifiable Credentials"
+  authors:
+    - AndreaFlamini
+    - SilvioRanise
+    - GiadaSciarretta
+    - MarioScuro
+    - AmirSharif
+    - AlessandroTomasi 
+  abstract: >
+    Verifiable credentials are a digital analogue of physical credentials. Their authenticity and integrity are protected by means of cryptographic techniques, and they can be presented to verifiers to prove claims about the holder of the credential itself. One way to preserve privacy during presentation consists in selectively disclosing the attributes in a credential. In this paper we present the most widespread cryptographic mechanisms used to enable selective disclosure of attributes, describing their structure and comparing them in terms of performance, size of the associated verifiable presentations, and the ability to produce predicate proofs and unlinkable presentations.
+  destination: SECRYPT2023
+  year: 2023
+  doi: 10.5220/0012084000003555
+  urlNews: /news/2023/04/24/paper-accepted-at-secrypt-2023/
+
+- id: TDSC2022
+  id_iris: 342587
+  title: "An Automated Multi-Layered Methodology to Assist the Secure and Risk-Aware Design of Multi-Factor Authentication Protocols"
+  authors:
+    - MarcoPernpruner
+    - RobertoCarbone
+    - GiadaSciarretta
+    - SilvioRanise
+  abstract: >
+    Authentication protocols represent the entry point to online services, so they must be sturdily designed in order to allow only authorized users to access the underlying data. However, designing authentication protocols is a complex process: security designers should carefully select the technologies to involve and integrate them properly in order to prevent potential vulnerabilities. In addition, these choices are usually restricted by further factors, such as the requirements associated with the scenario, the regulatory framework, the dimensions to balance (e.g., security vs. usability), and the standards to rely on. We come to the rescue by presenting an automated multi-layered methodology we have developed to assist security designers in this phase: by repeatedly evaluating their protocols, they can select the security mitigations to consider until they reach the desired security level, thus enabling a security-by-design approach. For concreteness, we also show how we have applied our methodology to a real use case scenario in the context of a collaboration with the Italian Government Printing Office and Mint.
+  destination: TDSC
+  year: 2023
+  doi: 10.1109/TDSC.2023.3296210
+  urlComplementary: /complementary/TDSC2022
+  urlNews: /news/2023/07/17/paper-accepted-at-tdsc/
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS

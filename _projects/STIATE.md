@@ -1,16 +1,11 @@
 ---
-title: STIATE
-titleAddon: Security Threat Identification and Testing
-tagline: "an activity in the context of the EIT ICT Labs activities 2014 (Innovation Area: Privacy, Security and Trust)."
+project: STIATE
 leader: Alessandro Armando (FBK)
 goals: >
     Today there is little availability of methods and tools for designing and assessing interaction patterns for high security and critical systems. Any large enterprise with strong security need or services to provide to a vast number of people will be keen to utilize STIATE toolkit and methodology as the risk mitigation effects will largely outweigh the cost of the solution. The go to market strategy relies on the presence in the consortium of a system integrator and consultancy with presence across Europe. The solution will be delivered within Reply as part of the consultancy commercial offering, with a dedicated team that will initially deliver across EU. This approach leverages a consolidated practice and will allow exploitation of target markets. The outputs of the activity will strengthen the ICT security industry in Europe - by automating threat analysis and security testing - and will significantly add to the competitive advantage of the products and services of the industrial partners (SAP and Reply). The activity will also allow the involved research institutions (FBK and DFKI) to identify new scientific challenges and opportunities and will thus ultimately strengthen their knowledge and technical skills in this key area.
 
 website: http://www.eitictlabs.eu/innovation-entrepreneurship/privacy-security-trust/security-threat-identification-and-testing-stiate/
 
-startDate: "2014-01-01"
-endDate: "2014-12-31"
-logo: logo_EIT_Labs.jpeg
 funding: EIT ICT Labs
 
 partners:
@@ -32,7 +27,6 @@ images:
     - title: Partners structure
       source: /projects/assets/STIATE_partners.jpg
 
-peopleOrder: surname
 ---
 
 STIATE is an activity in the context of the EIT ICT Labs activities 2014 (Innovation Area: [Privacy, Security and Trust](http://www.eitictlabs.eu/innovation-areas/privacy-security-trust-in-information-society/)).

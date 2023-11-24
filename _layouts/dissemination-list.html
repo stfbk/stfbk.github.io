@@ -1,0 +1,19 @@
+---
+layout: page
+---
+
+<div class="columns is-multiline">
+    <div class="column is-12">
+        {{ content }}
+    </div>
+
+    <div class="column is-12">
+        {% assign disseminationByCategory = site.data.dissemination | group_by: "category" | sort: "name" %}
+
+        {% for category in disseminationByCategory %}
+            {% assign categoryID = category.name | replace: " ", "-" | downcase %}
+            <h1 id="{{ categoryID }}">{{ category.name }}</h1>
+            {% include list-dissemination.html source=category.items style="table" %}
+        {% endfor %}
+    </div>
+</div>

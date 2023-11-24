@@ -102,6 +102,12 @@
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979
   type: journal
 
+- id: TDSC
+  name: IEEE Transactions on Dependable and Secure Computing 
+  acronym: TDSC
+  url: https://www.computer.org/csdl/journals/tq
+  type: journal
+
 - id: TIFS
   name: IEEE Transactions on Information Forensics and Security
   acronym: TIFS
@@ -1000,5 +1006,52 @@
   location: Virtual Event
   startDate: "2022-06-08"
   endDate: "2022-06-10"
+
+## 2023
+- id: ARES2023
+  name: 18th International Conference on Availability, Reliability and Security
+  acronym: ARES 2023
+  url: https://www.ares-conference.eu
+  type: conference
+  location: Benevento, Italy
+  startDate: "2023-08-29"
+  endDate: "2023-09-01"
+  
+- id: DBSEC2023
+  name: 37th Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
+  proceedings: Proceedings of the 37th Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
+  acronym: DBSec 2023
+  url: http://www.dbsec2023.unimol.it
+  type: conference
+  location: Sophia Antipolis, France
+  startDate: "2022-07-19"
+  endDate: "2022-07-21"
+
+- id: ESORICS2023
+  name: European Symposium on Research in Computer Security
+  acronym: ESORICS 2023
+  url: https://esorics2023.org/
+  type: conference
+  location: The Hague, The Netherlands 
+  startDate: "2023-09-25"
+  endDate: "2023-09-29"
+
+- id: EVOTEID2023
+  name: International Joint Conference on Electronic Voting
+  acronym: E-Vote-ID 2023
+  url: https://e-vote-id.org
+  type: conference
+  location: Luxembourg City, Luxembourg 
+  startDate: "2023-10-03"
+  endDate: "2023-10-06"
+  
+- id: SECRYPT2023
+  name: 20th International Conference on Security and Cryptography
+  acronym: SECRYPT 2023
+  url: http://www.secrypt.org/?y=2023
+  type: conference
+  location: Rome, Italy
+  startDate: "2023-07-10"
+  endDate: "2023-07-12"
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)

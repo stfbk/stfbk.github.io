@@ -72,9 +72,3 @@
   description: A fully-featured tool that combines state-of-the-art TLS analyzers with a report system that suggests appropriate mitigations and shows the full set of viable attacks.
   urlCode: https://github.com/stfbk/tlsassistant
   urlDocumentation: /tools/TLSAssistant
-
-- id: PolicySimulator
-  name: PolicySimulator
-  description: A Simulation Framework for the Experimental Evaluation of Access Control Enforcement Mechanisms based on Business Processes.
-  urlCode: https://github.com/stfbk/PolicySimulator
-  urlDocumentation: /tools/PolicySimulator

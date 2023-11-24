@@ -1,13 +1,6 @@
 ---
-title: SESSec-EU
-titleAddon: Networked Smart Energy Systems Security in Europe
-tagline:                        # Tagline, describes the project in projects' list
-
-startDate: "2012-01-01"
-endDate: "2012-12-31"
-
+project: SESSec-EU
 funding: EIT ICT Labs
-logo: logo_EIT_Labs.jpeg
 
 goals: >
     In the first step, EU-wide development of technological and standardisation background will be exploited and results will be made available in reports. Also, data and infrastructure security threats will be identified. The results of step one will serve as an input for the configuration, and adaption of testbeds, simulations and software platforms of partners, participating in the SESec-EU network.

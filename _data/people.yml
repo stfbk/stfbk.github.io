@@ -39,11 +39,12 @@
       institution: University of Genoa
       place: Genoa, Italy
   email: alessandro.armando@unige.it
-  image: https://csec.it/pics/alessandro-armando-2020.jpg
+  image: https://rubrica.unige.it/static/foto/VUZDXlxu.jpg?1688135377.3747
 
 - id: AlessandroBiasi
   name: Alessandro
   surname: Biasi
+  usernameFBK: abiasi
 
 - id: AlessandroCarioni
   name: Alessandro
@@ -52,6 +53,10 @@
 - id: AlessandroColombo
   name: Alessandro
   surname: Colombo
+
+- id: AlessandroMerlo
+  name: Alessandro
+  surname: Merlo
 
 - id: AlessandroPegoraro
   name: Alessandro
@@ -66,6 +71,7 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: altomasi@fbk.eu
+  phone: "+390461314506"
 
 - id: AlessioColetta
   name: Alessio
@@ -99,8 +105,15 @@
   affiliations:
     - role: Employee
       institution: "Futuro & Conoscenza"
-  email: a.bisegna@futuroeconoscenza.it
-  usernameFBK: a.bisegna
+  email: a.bisegna@fbk.eu
+
+- id: AndreaBrandolini
+  name: Andrea
+  surname: Brandolini
+
+- id: AndreaFlamini
+  name: Andrea
+  surname: Flamini
 
 - id: AndreaPalmieri
   name: Andrea
@@ -167,10 +180,11 @@
   name: Cecilia
   surname: Pasquini
   affiliations:
-    - role: Employee
-      institution: "Futuro & Conoscenza"
-  email: c.pasquini@futuroeconoscenza.it
-  usernameFBK: c.pasquini
+    - role: Researcher
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: c.pasquini@fbk.eu
 
 - id: CesareTinelli
   name: Cesare
@@ -183,6 +197,10 @@
 - id: ChiaraGhidini
   name: Chiara
   surname: Ghidini
+
+- id: ChiaraSpadafora
+  name: Chiara
+  surname: Spadafora
 
 - id: ChristopheRingeissen
   name: Christophe
@@ -227,6 +245,10 @@
 - id: DannyRoswinOllik
   name: Danny Roswin
   surname: Ollik
+
+- id: DavideModena
+  name: Davide
+  surname: Modena
 
 - id: DavidePiva
   name: Davide
@@ -302,13 +324,25 @@
   name: Fatih
   surname: Turkmen
 
+- id: FedericaMascia
+  name: Federica
+  surname: Mascia
+
 - id: FedericoCucino
   name: Federico
   surname: Cucino
 
+- id: FedericoGraziola
+  name: Federico
+  surname: Graziola
+
 - id: FedericoSinigaglia
   name: Federico
   surname: Sinigaglia
+
+- id: FilippoBenedetti
+  name: Filippo
+  surname: Benedetti
 
 - id: FrancescoAlberti
   name: Francesco
@@ -331,12 +365,6 @@
 - id: GiacomoZanolli
   name: Giacomo
   surname: Zanolli
-  affiliations:
-    - role: Junior Researcher
-      unit: AppLiEd cryptograPHy
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: gzanolli@fbk.eu
 
 - id: GiadaSciarretta
   name: Giada
@@ -361,6 +389,16 @@
 - id: GianlucaSassetti
   name: Gianluca
   surname: Sassetti
+  affiliations:
+    - role: PhD Student
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+    - role: PhD Student
+      unit: DIBRIS
+      institution: University of Genoa
+      place: Genoa, Italy
+  email: gsassetti@fbk.eu
 
 - id: GianPaoloRossi
   name: Gian Paolo
@@ -374,6 +412,10 @@
 - id: GiovanniMagoga
   name: Giovanni
   surname: Magoga
+
+- id: GiovanniMarchi
+  name: Giovanni
+  surname: Marchi
 
 - id: GiovanniMariaAbbiati
   name: Giovanni Maria
@@ -391,17 +433,10 @@
 - id: GiuseppeAlessioSciumè
   name: Giuseppe Alessio
   surname: Sciumè
-  affiliations:
-    - role: Junior Researcher
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: gsciume@fbk.eu
 
 - id: GiuseppeDeMarco
   name: Giuseppe
   surname: De Marco
-  email: giuseppe.demarco@teamdigitale.governo.it
 
 - id: GiuseppeFarandaCordella
   name: Giuseppe Faranda
@@ -447,6 +482,11 @@
   surname: Heenan
   email: joseph@authlete.com
 
+- id: KaleemUllahKaleemUllah
+  name: Kaleem Ullah
+  surname: Kaleem Ullah
+  usernameFBK: kkaleemullah
+
 - id: KonradWrona
   name: Konrad
   surname: Wrona
@@ -455,14 +495,19 @@
   name: Laura
   surname: Cristiano
   affiliations:
-    - role: Employee
-      institution: "Futuro & Conoscenza"
-  email: l.cristiano@futuroeconoscenza.it
-  usernameFBK: l.cristiano
+    - role: Researcher
+      unit: Center for Cybersecurity
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: l.cristiano@fbk.eu
   
 - id: LeonardoDeMoura
   name: Leonardo
   surname: de Moura
+
+- id: LeonardoVicentini
+  name: Leonardo
+  surname: Vicentini
 
 - id: LeonardoXompero
   name: Leonardo
@@ -517,6 +562,12 @@
 - id: MajidMollaeefar
   name: Majid
   surname: Mollaeefar
+  email: mmollaeefar@fbk.eu
+  affiliations:
+    - role: Researcher
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
 
 - id: MarcoCentenaro
   name: Marco
@@ -571,11 +622,15 @@
   email: massimo.merro@univr.it
   image: https://www.di.univr.it/documenti//Persona/foto/foto450272.jpg
 
+- id: MatildeSalaorni
+  name: Matilde
+  surname: Salaorni
+
 - id: MatteoBitussi
   name: Matteo
   surname: Bitussi
   affiliations:
-    - role: Junior Researcher
+    - role: Research Assistant
       unit: Security & Trust
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -593,6 +648,10 @@
   name: Matteo
   surname: Longato
 
+- id: MatteoPaoloFurlan
+  name: Matteo Paolo
+  surname: Furlan
+
 - id: MatteoRanzi
   name: Matteo
   surname: Ranzi
@@ -601,12 +660,25 @@
   name: Matteo
   surname: Rizzi
   affiliations:
-    - role: Junior Researcher
+    - role: Research Assistant
       unit: Security & Trust
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: mrizzi@fbk.eu
   phone: "+390461312356"
+
+- id: MattiaAndreolli
+  name: Mattia
+  surname: Andreolli
+
+- id: MattiaBressan
+  name: Mattia
+  surname: Bressan
+  usernameFBK: mbressan
+
+- id: MattiaConci
+  name: Mattia
+  surname: Conci
   
 - id: MauroConti
   name: Mauro
@@ -678,6 +750,10 @@
   name: Nicolas
   surname: Dolgin
 
+- id: NicolòMicheletti
+  name: Nicolò
+  surname: Micheletti
+
 - id: PallaviKaliyar
   name: Pallavi
   surname: Kaliyar
@@ -690,6 +766,10 @@
   name: Paolo
   surname: Prem
 
+- id: RayhanaTaoufik
+  name: Rayhana
+  surname: Taoufik
+
 - id: RiccardoDeMasellis
   name: Riccardo
   surname: De Masellis
@@ -697,21 +777,52 @@
 - id: RiccardoGermenia
   name: Riccardo
   surname: Germenia
+  affiliations:
+    - role: Research Assistant
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: rgermenia@fbk.eu
 
 - id: RiccardoLazzaretti
   name: Riccardo
   surname: Lazzaretti
 
+- id: RiccardoLongo
+  name: Riccardo
+  surname: Longo
+  affiliations:
+    - role: Researcher
+      unit: AppLiEd cryptograPHy
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: rlongo@fbk.eu
+
+- id: RiccardoLussana
+  name: Riccardo
+  surname: Lussana
+  affiliations:
+    - role: Research Assistant
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: rlussana@fbk.eu
+
 - id: RiccardoTraverso
   name: Riccardo
   surname: Traverso
+
+- id: RiccardoZiglio
+  name: Riccardo
+  surname: Ziglio
+  usernameFBK: rziglio
 
 - id: RobertaPeracchio
   name: Roberta
   surname: Peracchio
 
-- id: RobertaBruttomesso
-  name: Roberta
+- id: RobertoBruttomesso
+  name: Roberto
   surname: Bruttomesso
 
 - id: RobertoCarbone
@@ -762,6 +873,11 @@
   name: Sander
   surname: Oudkerk
 
+- id: SaraSorrentino
+  name: Sara
+  surname: Sorrentino
+  usernameFBK: ssorrentino
+
 - id: SaverioTuretta
   name: Saverio
   surname: Turetta
@@ -800,6 +916,11 @@
 - id: SilvioGhilardi
   name: Silvio
   surname: Ghilardi
+
+- id: SimoneAvancini
+  name: Simone
+  surname: Avancini
+  usernameFBK: savancini
 
 - id: SofiaPuttin
   name: Sofia
@@ -867,10 +988,12 @@
   name: Umberto
   surname: Morelli
   affiliations:
-    - role: Employee
-      institution: "Futuro & Conoscenza"
-  email: u.morelli@futuroeconoscenza.it
-  usernameFBK: umorelli
+    - role: Technologist
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: umorelli@fbk.eu
+  phone: "+390461312377"
 
 - id: ValentinaOdorizzi
   name: Valentina
@@ -895,6 +1018,10 @@
 - id: WorachetUttha
   name: Worachet
   surname: Uttha
+
+- id: YuriTomasini
+  name: Yuri
+  surname: Tomasini
 
 - id: ZahraEbadiAnsaroudi
   name: Zahra

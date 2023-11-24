@@ -9,6 +9,11 @@ $('a').each(function() {
     }
 });
 
+function setDefaultUserPicture(picture) {
+    picture.src = "/assets/images/no-user.jpg";
+    return true;
+}
+
 function iframe16vs9() {
     var iframes = $("iframe");
 
@@ -42,7 +47,7 @@ if ($("#toc").length > 0) {
         </nav> \
     ');
 
-    $("nav .contents .menu").append('<ul id="markdown-toc"></ul>');
+    $("#toc nav .contents .menu").append('<ul id="markdown-toc"></ul>');
 
     if ($(":header:not(.no-toc)").length > 0) {
         var prevH1List = null;
@@ -52,7 +57,7 @@ if ($("#toc").length > 0) {
 
         $(":header:not(.no-toc)").each(function(index) {
             if ($(this).attr("id") == undefined) {
-                var id = $(this).text().replace(" ", "-").toLowerCase();
+                var id = $(this).text().replace(/[^a-z0-9\s]/gi, '').replace(/[_\s]/g, '-').toLowerCase();
                 $(this).attr("id", id);
             }
             
@@ -84,8 +89,15 @@ if ($("#toc").length > 0) {
     }
 
     if ($("#markdown-toc li").length == 0) {
-        $("nav").remove();
+        $("#toc nav").remove();
     }
+}
+
+if ($("#set-title").length == 1) {
+    var title = $("#set-title").text();
+    var siteTitle = $("#site-title").text();
+    $(".hero-body .title:first").text(title);
+    $(document).prop("title", title + " - " + siteTitle);
 }
 
 if ($("#set-subtitle").length == 1) {

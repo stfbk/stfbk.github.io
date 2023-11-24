@@ -1,6 +1,5 @@
 ---
-title: CherryChain
-logo: CherryChain.png
+collaboration: CherryChain
 
 publications:
     - DETIPS2020

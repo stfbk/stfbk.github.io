@@ -1,13 +1,7 @@
 ---
-title: SecSES
-titleAddon: Secure Energy Systems
-tagline:                        # Tagline, describes the project in projects' list
-
-startDate: "2013-01-01"
-endDate: "2013-12-31"
+project: SecSES
 funding: EIT ICT Labs
 
-logo: logo_EIT_Labs.jpeg
 role: >
     Our contribution is the formal modeling and the mechanical analysis of security protocols and policies used in the complex scenario of the Secure Smart Home Energy Gateway for Smart Buildings.
 
@@ -20,8 +14,6 @@ partners: >
 people:
     - RobertoCarbone
     - AlessandroArmando
-
-peopleOrder: surname            # How to order the involved people (must be one of the fields belonging to the "people" structure)
 
 publications:
     - SmartGridSec14
