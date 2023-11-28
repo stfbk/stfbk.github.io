@@ -1680,7 +1680,7 @@
     - NicolaZannone
   abstract: >
     In recent years, the design of effective authorization mechanisms for IoT and, in particular, for smart home applications has gained increasing attention from researchers and practitioners. However, very little attention is given to the performance evaluation of those authorization mechanisms. To fill this gap, this paper presents a thorough experimental evaluation of cloud- and edge-based access control mechanisms for smart home applications. We discuss the main architectural choices, namely (a) where the access control logic is deployed (in the cloud or the edge) and (b) how the attributes needed for policy evaluation are provided to the policy evaluation point and identify possible deployment models for cloud- and edge-based access control mechanisms. To study the impact of these choices on the performance of smart homes, we realized the identified deployment models within the IoT platforms offered by Amazon Web Services (AWS), namely AWS IoT and Greengrass, and empirically evaluate them using a smart lock system. Based on our experimental evaluation, we provide recommendations to both researchers and practitioners.
-  destination: IJIS2021
+  destination: IJIS
   year: 2021
   doi: 10.1007/s10207-021-00558-3
   
