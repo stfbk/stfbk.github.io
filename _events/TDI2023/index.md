@@ -3,6 +3,21 @@ title: 1st International Workshop on Trends in Digital Identity (TDI 2023)
 menubar: TDI2023
 permalink: /events/TDI2023/
 image: /assets/areas/events/TDI2023/picture.jpg
+
+images:
+  - source: /assets/areas/events/TDI2023/pictures/GroupPicture.jpg
+  - source: /assets/areas/events/TDI2023/pictures/Workshop_1.jpg
+  - source: /assets/areas/events/TDI2023/pictures/Workshop_2.jpg
+  - source: /assets/areas/events/TDI2023/pictures/Workshop_3.jpg
+  - source: /assets/areas/events/TDI2023/pictures/Workshop_4.jpg
+  - source: /assets/areas/events/TDI2023/pictures/Workshop_5.jpg
+  - source: /assets/areas/events/TDI2023/pictures/Workshop_6.jpg
+  - source: /assets/areas/events/TDI2023/pictures/Workshop_7.jpg
+  - source: /assets/areas/events/TDI2023/pictures/Workshop_8.jpg
+  - source: /assets/areas/events/TDI2023/pictures/Workshop_9.jpg
+  - source: /assets/areas/events/TDI2023/pictures/Workshop_10.jpg
+  - source: /assets/areas/events/TDI2023/pictures/Workshop_11.jpg
+
 ---
 
 <img class="image-centered" src="/assets/areas/events/TDI2023/picture.jpg" />
@@ -12,6 +27,7 @@ image: /assets/areas/events/TDI2023/picture.jpg
 </blockquote>
 
 # Recent News
+- **01/12/2023**: Some pictures of the conference have been published (see bottom of this page).
 - **12/06/2023**: The [papers and slides](program) are now available.
 - **25/05/2023**: The [tentative program](program) have been published.
 - **13/04/2023**: The [registration details](registration) have been published.
