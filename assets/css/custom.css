@@ -111,9 +111,15 @@
 }
 
 .card.person .card-image img {
-  border-radius: 15px;
-  width: auto;
-  max-height: 96px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .card.person .card-image img {
+    margin-top: 30px;
+    width: 66%;
+  }
 }
 
 .card.person .card-content {
