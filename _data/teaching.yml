@@ -29,6 +29,8 @@
       url: "https://iecs.unitn.it/node/1177"
     - name: 2022-2023
       url: "https://iecs.unitn.it/node/1322"
+    - name: 2023-2024
+      url: "https://iecs.unitn.it/node/1370"
 
 - id: NetworkIntrusionMaster
   name: Network Intrusion and Anomaly Detection with Machine Learning
