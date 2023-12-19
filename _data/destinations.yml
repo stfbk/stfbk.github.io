@@ -1027,6 +1027,11 @@
   startDate: "2022-07-19"
   endDate: "2022-07-21"
 
+- id: ECML/PKDD2023_PP
+  name: ECML/PKDD 2023 Post-Workshops and Tutorials Proceedings
+  url: https://2023.ecmlpkdd.org/
+  type: post-proceedings
+
 - id: ESORICS2023
   name: European Symposium on Research in Computer Security
   acronym: ESORICS 2023
