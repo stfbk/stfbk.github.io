@@ -393,4 +393,22 @@
     - name: Event
       url: https://nottedellaricerca.tn.it
 
+## 2024
+- id: OpenIDSummitTokyo2024
+  title: "Waiting for the EUDI Wallet: Securing the transition from SAML 2.0 to OpenID Connect"
+  participants:
+    - AmirSharif
+    - GiadaSciarretta
+    - RobertoCarbone
+    - SilvioRanise
+    - FrancescoAntonioMarino
+    - GiuseppeDeMarco
+  eventName: OpenID Summit Tokyo 2024
+  startDate: "2024-01-19"
+  endDate: "2024-01-19"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://www.openid.or.jp/summit/2024/en/
+
 # PLEASE KEEP CHRONOLOGICAL ORDER BY START DATE WITHIN YEARS
