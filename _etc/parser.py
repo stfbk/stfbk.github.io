@@ -3,15 +3,24 @@
 import re
 import unicodedata
 import os
+import hashlib
 import json
 
 destinations = {}
 global_authors = {}
 with open("known_names.json") as f:
     known_names = json.load(f)
-seen_ppids = []
+
+seen_iris_ids = []
+seen_generated_ids = []
 
 removed_chars_ids = [".", "+", ":", "&", "-", "?", " ", ";", ",", "'", "`", "(", ")", "{", "}"]
+
+
+def generate_publication_id(data: dict):
+    # citation['title'].replace(' ', '').replace(":", "").lower() + str(citation['year'])
+    return "iris_" + str(data['year']) + "_" + \
+            hashlib.md5(f"{data['title'].strip()}:::::{data['year']}:::::{data['title'].strip()}".encode('utf-8')).hexdigest()[:20]
 
 
 def remove_accents(input_str: str):
@@ -61,28 +70,36 @@ def generate_yaml(citation):
         print("Skipping empty citation")
         return
 
-    if citation['id_full'] in seen_ppids:
-        print("Skipping " + citation['id_full'] + " already seen")
+    if citation['id_full'] in seen_iris_ids:
+        # print("Skipping " + citation['id_full'] + " already seen")
         return
 
-    ppid = citation['title'].replace(' ', '').replace(":", "").lower() + str(citation['year'])
+    generated_id = generate_publication_id(citation)
+    if generated_id in seen_generated_ids:
+        print("There is a hash collision. (hash: " + generated_id + ")")
+        return
+    seen_generated_ids.append(generated_id)
 
     if "conference" in citation and "journal" in citation:
         raise RuntimeError("You cannot have both conference and journal")
     elif "conference" in citation:
-        cid = filter(lambda x: x not in removed_chars_ids, citation['conference'])
-        cid = "".join(cid)
-        cid = remove_accents(cid).replace(' ', '').strip()
-        __name = saner_journal_name(citation['conference'])
-        __type = "conference"
+        key = 'conference'
     elif "journal" in citation:
-        cid = filter(lambda x: x not in removed_chars_ids, citation['journal'])
-        cid = "".join(cid)
-        cid = remove_accents(cid).replace(' ', '').strip()
-        __name = saner_journal_name(citation['journal'])
-        __type = "journal"
+        key = 'journal'
     else:
         raise RuntimeError("You should have either conference or journal")
+
+    cid = filter(lambda x: x not in removed_chars_ids, citation[key])
+    cid = "".join(cid)
+    cid = remove_accents(cid).replace(' ', '')\
+        .strip().lower()\
+        .replace('\\', '').replace('/', '').replace('.', '').replace('abstract', '')\
+        .replace('proceedingsofthe', '')\
+        .replace('proceedingsof', '').replace('proceedings', '')\
+        .replace('  ', ' ')
+    
+    __name = saner_journal_name(citation[key])
+    __type = key
 
     __name = __name.strip().replace("  ", " ")
     if __name.endswith(";"):
@@ -121,7 +138,7 @@ def generate_yaml(citation):
             destinations[cid]['location'] = ""
 
     yaml_output = []
-    yaml_output.append('- id: ' + ppid)
+    yaml_output.append('- id: ' + generated_id)
     yaml_output.append('  id_iris: ' + citation['id_iris'])
     yaml_output.append('  title: "' + citation['title'] + '"')
     yaml_output.append('  authors:')
@@ -135,7 +152,7 @@ def generate_yaml(citation):
     if "doi" in citation:
         yaml_output.append('  doi: ' + citation['doi'])
 
-    seen_ppids.append(citation['id_full'])
+    seen_iris_ids.append(citation['id_full'])
 
     return '\n'.join(yaml_output)
 
@@ -233,6 +250,7 @@ def main():
         data += "\n"
 
     yamls = parse_bibtex(data)
+    yamls.reverse()
     with open('tmp/publications_generated.yml', 'w') as publications:
         for _, y in enumerate(yamls):
             print(y, file=publications)
