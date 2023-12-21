@@ -6,7 +6,7 @@ people:
     - DomenicoSiracusa
 peopleOrder: surname 
 publications: 
-    - dynamicandapplication-awareprovisioningofchainedvirtualsecuritynetworkfunctions2019
+    - iris_2019_15c807a7a056b53b574b 
 ---
 
 **PESS** is a heuristic algorithm for the provisioning of security services in softwarised networks, where network functions can be dynamically deployed on commodity hardware following the NFV paradigm, and the network is controlled using SDN technologies. In this context, the security services are defined as sequences (chains) of Virtual Security Network Functions (VSNFs), i.e. as software functions (e.g., Snort, Suricata, OpenDPI, etc.), which are provisioned in the network infrastructure according to the specific Quality of Service (QoS) needs of user applications and the security policies defined by the Telecom Service Provider (TSP). TSP's security policies (given as an input to PESS) include: the kind of VSNFs (e.g., firewall, Intrusion Prevention System (IPS), etc.) that should be deployed for a specific class of applications, their order (e.g., firewall first, then an IPS, etc.), and more (e.g., a parental control should be installed close to the user's premises).

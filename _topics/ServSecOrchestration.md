@@ -7,9 +7,9 @@ image: ServSecOrchestration.jpg
 order: 3
 
 publications: 
-  - throughput-awarepartitioningandplacementofapplicationsinfogcomputing2020
-  - dynamicandapplication-awareprovisioningofchainedvirtualsecuritynetworkfunctions2019
-  - locality-awaredeploymentofapplicationmicroservicesformulti-domainfogcomputing2023
+  - iris_2020_c6aac42fc3d4319086c0
+  - iris_2019_15c807a7a056b53b574b
+  - iris_2023_523750bb7bc227657849
 ---
 
 Service orchestration, in a broader context, refers to the coordination

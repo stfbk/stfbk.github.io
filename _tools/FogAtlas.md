@@ -8,14 +8,14 @@ people:
     - DanieleSantoro
 peopleOrder: surname 
 publications: 
-    - cloud4iotaheterogeneous,distributedandautonomiccloudplatformfortheiot2016
-    - foggyaplatformforworkloadorchestrationinafogcomputingenvironment2017
-    - cuttingthroughputwiththeedgeapp-awareplacementinfogcomputing2019
-    - ablockchain-basedbrokerageplatformforfogcomputingresourcefederation2020
-    - optimalblindandadaptivefogorchestrationunderlocalprocessorsharing2020
-    - deploymentofapplicationmicroservicesinmulti-domainfederatedfogenvironments2020
-    - anapplicationofkubernetesclusterfederationinfogcomputing2021
-    - locality-awaredeploymentofapplicationmicroservicesformulti-domainfogcomputing2023
+    - iris_2016_9c31837ca4a1eb41fd27
+    - iris_2017_6e9396c6d784be51421f
+    - iris_2019_0a0df99e700c3fc5098c
+    - iris_2020_e35f0125955c3669dbc7
+    - iris_2020_aabe06aeadaee18fb8c2
+    - iris_2020_d9c820beaa1dc999edab
+    - iris_2021_0f4cb9db93857ba53cbc
+    - iris_2023_523750bb7bc227657849
 ---
 
 **FogAtlas** (evolution of the former Foggy platform) is a software framework aiming to manage a geographically distributed and decentralized Cloud Computing infrastructure that provides computational, storage and network services close to the data sources and the users, embracing the Fog Computing paradigm. FogAtlas is able to manage the so called Cloud-to-Thing Continuum offering service-aware workload placement and zero-touch deployment. It is an evolution of the well known paradigms of IaaS and PaaS adding the concept of “locality” to the traditional Cloud Computing model and easing the operations of a Fog Computing infrastructure.

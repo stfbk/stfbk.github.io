@@ -11,9 +11,9 @@ tools:
     - FLAD
  
 publications: 
-    - lucidapractical,lightweightdeeplearningsolutionforddosattackdetection2020
-    - daicsadeeplearningsolutionforanomalydetectioninindustrialcontrolsystems2022
-    - trackingnormalizednetworktrafficentropytodetectddosattacksinp42022
+    - iris_2020_8ef400e14399f6ec4e8b
+    - iris_2022_6464af7ee17fbedf7637
+    - iris_2022_98c84dcb0af11d8cfe9b
 
 ---
 

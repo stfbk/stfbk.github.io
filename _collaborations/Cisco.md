@@ -2,14 +2,14 @@
 collaboration: Cisco
 
 publications:
-   - niceradistributeddynamicshared-backuppath-allocationprocedurefortransmission-impairedwdmopticalnetworks2012
-   - acontrolplaneframeworkforfuturecognitiveheterogeneousopticalnetworks2012
-   - opticalcontrolplanebasedonananalyticalmodelofnon-lineartransmissioneffectsinaself-optimizednetwork2013
-   - towardacontrolandmanagementsystemenablingcognitiveopticalnetworks2013
-   - distributedopticalcontrolplanefordynamiclightpathestablishmentintranslucentopticalnetworksbasedonreachabilitygraph2013
-   - hitlessnetworkre-optimizationtoreducespectrumfragmentationindistributedgmplsflexibleopticalnetworks2013
-   - demonstrationofahybridsdn/gmplscontrolplaneforopticalvirtualprivatenetworkswithrestorationcapabilities2016
-   - path-basedfragmentationmetricandrsaalgorithmsforelasticopticalnetworks2019
+   - iris_2012_6e6d8f0d066d4b59d745
+   - iris_2012_82204926f72e9bdd4655
+   - iris_2013_01a34cfd543e78327a46
+   - iris_2013_1d5c4d4fd3f134e46117
+   - iris_2013_1e9234782f3a732bae8d
+   - iris_2013_c17b2e61ee65ba7c9fef
+   - iris_2018_baa993c2753707d923cf
+   - iris_2019_1f9c4737fac6901e4720
 
 ---
 

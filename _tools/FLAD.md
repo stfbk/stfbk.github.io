@@ -5,8 +5,8 @@ people:
     - RobertoDoriguzziCorin
     - DomenicoSiracusa
 peopleOrder: surname 
-# publications: 
-#    - ?
+publications: 
+   - iris_2024_d45205ca2a42377728aa
 ---
 
 FLAD (a Federated Learning approach to DDoS Attack Detection) is an adaptive Federated Learning (FL) approach for training feed-forward neural networks, that implements a mechanism to monitor the classification accuracy of the global model on the clients’ validations sets, without requiring any exchange of data. Thanks to this mechanism, FLAD can estimate the performance of the aggregated model and dynamically tune the FL process by assigning more computation to those clients whose attacks profiles are harder to learn.
