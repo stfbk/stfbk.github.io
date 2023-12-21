@@ -22,10 +22,10 @@ permalink: /people/unit
     <area alt="Andrea Zanardi" title="Andrea Zanardi" href="https://rising.fbk.eu/people/andrea-zanardi" coords="955,175,962,240,1018,256,1030,219,1055,189" shape="poly">
     <area alt="Claudio Facchinetti" title="Claudio Facchinetti" href="https://rising.fbk.eu/people/claudio-facchinetti" coords="1119,220,1103,287,1072,343,1075,448,1059,698,1206,740,1202,458,1225,422,1216,319,1167,298,1161,213" shape="poly">
     <area alt="Giacomo Segala" title="Giacomo Segala" href="https://rising.fbk.eu/people/giacomo-segala" coords="1174,202,1182,291,1218,308,1252,274,1230,191" shape="poly">
-    <area alt="Pietro de Matteis" title="Pietro de Matteis" href="https://rising.fbk.eu/people/pietro-de-matteis" coords="1243,222,1269,304,1220,321,1235,438,1209,485,1229,738,1366,728,1345,489,1379,451,1345,314,1314,271,1307,227" shape="poly">
-    <area alt="Francesco Tomasselli" title="Francesco Tomasselli" href="https://rising.fbk.eu/people/francesco-tomasselli" coords="1312,202,1327,274,1375,365,1400,295,1382,205" shape="poly">
     <area alt="Matteo Manfrin" title="Matteo Manfrin" href="https://rising.fbk.eu/people/matteo-manfrin" coords="1393,226,1413,314,1383,397,1387,473,1365,521,1379,738,1496,745,1527,654,1478,478,1507,411,1498,291,1469,213" shape="poly">
 </map>
+
+Missing in the picture: <a href="https://rising.fbk.eu/people/marcelo-dario-rodas-britez">Marcelo Dario Rodas Britez</a> and <a href="https://rising.fbk.eu/people/giancarlo-vallazza">Giancarlo Vallazza</a>. 
 
 <script src="/assets/js/resizer.js" type="text/javascript"></script>
 <script>
