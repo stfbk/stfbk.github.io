@@ -12,8 +12,8 @@ links:
     value: https://matteo.franzil.com/
 ---
 
-Matteo Franzil received his MSc and BSc in Computer Science from the University of Trento, Italy, and he is a Junior Researcher in Fondazione Bruno Kessler, Italy.
+Matteo Franzil received his MSc and BSc in Computer Science from the University of Trento, Italy. Currently, he is a Researcher in Fondazione Bruno Kessler, Italy.
 
 His research interests include network management, monitoring, and observability; virtualization and containerization; network security.
 
-In the free time, he enjoys hiking, running, and photography. He is a basketball table official at the national level.
+He has four years of experience in University teaching, tutoring and assisting students in various courses. He is also skilled in the configuration and maintenance of IT and cloud infrastructures. In the free time, he enjoys hiking, running, and photography; he is a basketball table official and trainer at the national level.
