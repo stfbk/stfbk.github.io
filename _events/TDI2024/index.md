@@ -7,6 +7,10 @@ image: /assets/areas/events/TDI2024/tdi2024.jpg
 
 <img class="image-centered" src="/assets/areas/events/TDI2024/tdi2024.jpg" />
 
+<blockquote>
+<p>Co-located with the 9th OAuth Security Workshop (<a href="https://oauth.secworkshop.events/osw2024">OSW 2024</a>).</p>
+</blockquote>
+
 # Recent News
 - **03/01/2024**: The website is online.
 
