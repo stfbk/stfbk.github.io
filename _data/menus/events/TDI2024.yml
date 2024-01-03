@@ -1,0 +1,6 @@
+- label: Menu
+  items:
+    - name: Home
+      link: /events/TDI2024/
+    - name: Previous Edition (2023)
+      link: /events/TDI2023/

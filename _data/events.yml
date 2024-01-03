@@ -115,3 +115,20 @@
   endDate: "2023-09-29"
   description: CPS4CIP 2023 is the fourth workshop dedicated to cyber-physical security for protecting critical infrastructures that support finance, energy, health, air transport, communication, gas, and water.
   url: /events/CPS4CIP2023
+
+# 2024
+- id: TDI2024
+  name: 2nd International Workshop on Trends in Digital Identity
+  acronym: TDI 2024
+  startDate: "2024-04-09"
+  endDate: "2024-04-09"
+  description:
+  url: /events/TDI2024
+
+- id: OSW2024
+  name: OAuth Security Workshop 2024
+  acronym: OSW2024
+  startDate: "2024-04-10"
+  endDate: "2024-04-12"
+  description: The OAuth Security Workshop (OSW) aims to improve the security of OAuth, OpenID Connect, and related Internet protocols by facilitating a direct exchange among academic researchers, standardization group members, and industry experts.
+  url: https://oauth.secworkshop.events/osw2024
