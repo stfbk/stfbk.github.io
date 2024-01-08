@@ -4,6 +4,8 @@ logo: /assets/images/logos/ST_symbol.png
 remote_theme: chrisrhymes/bulma-clean-theme
 markdown: kramdown
 repository: stfbk/stfbk.github.io
+url: "https://st.fbk.eu"
+baseurl: ""
 
 plugins:
   - jekyll-redirect-from
