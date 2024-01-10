@@ -8,6 +8,7 @@ url: "https://rising.fbk.eu"
 baseurl: ""
 
 plugins:
+  - jekyll-sitemap
   - jekyll-redirect-from
 
 collections:

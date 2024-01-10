@@ -273,6 +273,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-redirect-from
+  jekyll-sitemap
   rexml (~> 3.2)
   webrick (~> 1.8)
 
