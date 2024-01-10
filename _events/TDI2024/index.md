@@ -33,13 +33,13 @@ We encourage submissions on a range of topics, including but not limited to:
 - Mobile and Strong Authentication
 - Passwordless Authentication (including passkeys)
 - Privacy-Enhancing Technologies for Identity Management
-- Securing Identities for the Financial and Governmental Services
+- Securing Identities for Financial, Governmental and Health Services
 - Session Management for Seamless and Continuous Authentication
 - Trust Frameworks for Identity Management Solutions
+- Video-based Identity Proofing (e.g., automated face comparison, impersonation attacks, document analysis)
 - Zero Trust Architectures
 
-We look forward to receiving your submissions and engaging in fruitful and lively discussions on the latest trends and developments in identity management for critical infrastructures and services.
+We look forward to receiving your submissions and engaging in fruitful and lively discussions on the latest trends and developments in identity management.
 
-<blockquote>
-  <p>More information on submissions will be available soon!</p>
-</blockquote>
+# Important Dates
+{% include_relative includes/important-dates.md %}

@@ -2,5 +2,11 @@
   items:
     - name: Home
       link: /events/TDI2024/
+    - name: Committees
+      link: committees
+    - name: Submission
+      link: submission
+    - name: Venue
+      link: venue
     - name: Previous Edition (2023)
       link: /events/TDI2023/
