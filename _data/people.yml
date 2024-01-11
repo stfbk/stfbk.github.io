@@ -103,8 +103,10 @@
   name: Andrea
   surname: Bisegna
   affiliations:
-    - role: Employee
-      institution: "Futuro & Conoscenza"
+    - role: Technologist
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
   email: a.bisegna@fbk.eu
 
 - id: AndreaBrandolini
