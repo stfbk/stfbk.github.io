@@ -132,3 +132,11 @@
   endDate: "2024-04-12"
   description: The OAuth Security Workshop (OSW) aims to improve the security of OAuth, OpenID Connect, and related Internet protocols by facilitating a direct exchange among academic researchers, standardization group members, and industry experts.
   url: https://oauth.secworkshop.events/osw2024
+
+- id: EDId2024
+  name: International Workshop on Emerging Digital Identities
+  acronym: EDId 2024
+  startDate: "2024-07-30"
+  endDate: "2024-08-02"
+  description:
+  url: https://www.ares-conference.eu/workshops/edid/
