@@ -17,6 +17,11 @@
   name: Adrien
   surname: Beaugendre
 
+- id: AgnieszkaKowalska
+  name: Agnieszka
+  surname: Kowalska
+  usernameFBK: akowalska
+
 - id: AlbertoCalvi
   name: Alberto
   surname: Calvi
@@ -768,6 +773,11 @@
 - id: PaoloPrem
   name: Paolo
   surname: Prem
+
+- id: PierGuidoSeno
+  name: Pier Guido
+  surname: Seno
+  usernameFBK: pseno
 
 - id: RayhanaTaoufik
   name: Rayhana
