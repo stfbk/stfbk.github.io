@@ -1,1 +1,1 @@
-Sitemap: https://rising.fbk.eu/sitemap.html
+Sitemap: https://rising.fbk.eu/sitemap.xml
