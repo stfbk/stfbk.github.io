@@ -8,7 +8,7 @@ links:
   - name: Website	
     value: https://riklus.github.io
 ---
-Riccardo Lussana is a Vulnerability Assesment assistant at the Center for Cybersecurity.
+Riccardo Lussana is a Vulnerability Assessment assistant at the Center for Cybersecurity.
 
 He is a bachelor student at the University of Trento. He started working at FBK in 2023.
 
