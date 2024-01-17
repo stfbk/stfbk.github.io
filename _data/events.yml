@@ -140,3 +140,11 @@
   endDate: "2024-08-02"
   description:
   url: https://www.ares-conference.eu/workshops/edid/
+
+- id: CPS4CIP2024
+  name: 5th International Workshop on Cyber-Physical Security for Critical Infrastructures Protection
+  acronym: CPS4CIP 2024
+  startDate: "2024-09-16"
+  endDate: "2024-09-20"
+  description: CPS4CIP 2024 is the fifth workshop dedicated to cyber-physical security for protecting critical infrastructures that support finance, energy, health, air transport, communication, gas, and water.
+  url: /events/CPS4CIP2024
