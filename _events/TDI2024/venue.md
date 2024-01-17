@@ -1,6 +1,6 @@
 ---
 title: 2nd International Workshop on Trends in Digital Identity (TDI 2024)
-subtitle: Submission
+subtitle: Venue
 menubar: TDI2024
 ---
 

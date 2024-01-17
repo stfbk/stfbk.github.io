@@ -893,6 +893,15 @@ table.program td p.type {
   font-size: smaller;
   font-weight: bold;
 }
+
+table.program td p.location {
+  font-size: smaller;
+  font-style: italic;
+}
+
+table.program td p.location::before {
+  content: "Location: ";
+}
 /* END EVENT PROGRAMS */
 
 .bordered,
