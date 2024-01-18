@@ -61,7 +61,9 @@ ECSCI Running projects:
 - [HARPOCRATES](https://harpocrates-project.eu/)
 - [HERON](https://www.heron-h2020.eu/)
 - [IRIS](https://www.iris-h2020.eu/)
+- [LAZARUS](https://lazarus-he.eu/)
 - [R2D2](https://r2d2project.eu/)
+- [ResilMesh](https://www.resilmesh.eu/)
 - [SECANT](https://secant-project.eu/)
 - [SUNRISE](https://sunrise-europe.eu/)
 

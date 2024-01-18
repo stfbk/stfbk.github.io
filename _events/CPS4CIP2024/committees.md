@@ -15,7 +15,7 @@ menubar: CPS4CIP2024
 - **Rita Ugarelli**, SINTEF, Norway
 - **Isabel Praça**, GECAD/ISEP, Portugal
 
-# Program Committee (tentative)
+# Program Committee
 - **Dieter Gollmann**, Hamburg University of Technology, Germany
 - **Sokratis Katsikas**, Norwegian University of Science and Technology, Norway
 - **Fabio Martinelli**, IIT-CNR, Italy
@@ -58,15 +58,20 @@ menubar: CPS4CIP2024
 - **Ilias Gkotsis**, Satways Ltd, Greece
 - **Simon Hacks**, KTH Royal Institute of Technology, Sweden
 - **Andreas Kubis**, PSI Software AG, Germany
+- **Audun Jøsang**, University of Oslo, Norway
 - **Ariadni Michalitsi - Psarrou**, National Technical University of Athens, Greece
 - **Anna Georgiadou**, National Technical University of Athens, Greece
 - **Angelos Liapis**, Κonnekt-able, Ireland
 - **Joaquin Garcia-Alfaro**, IMT (Institut Mines-Telecom), France
 - **Päivi Mattila**, Laurea University of Applied Sciences, Finland
-- **Frederic Guyomard**, EDF, France
 - **Israel Pérez Llopis**, Polytechnic University of Valencia, Spain
 - **Sandra König**, AIT Austrian Institute of Technology, Austria
 - **Stefan Schauer**, AIT Austrian Institute of Technology, Austria
 - **Basel Katt**, Norwegian University of Science and Technology, Norway
+- **Aida Omerovic**, SINTEF, Norway
 - **Sotiris Ioannidis**, Technical University of Crete, Greece
 - **Manos Athanatos**, Foundation for Research and Technology Hellas, Crete
+- **Vasileios Mavroeidis**, University of Oslo, Norway
+- **Rafael Palacios Hielscher**, ICAI- Universidad Pontificia Comillas, Spain
+- **Luca Caviglione**, IMATI-CNR, Italy
+- **Marco Zuppelli**, IMATI-CNR, Italy 
