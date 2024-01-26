@@ -15,7 +15,7 @@ echo "$people" | while read -r i; do
         continue
     fi
     echo "$name $surname $iris_id"
-    rm "tmp/$iris_id.bib"
+    rm -f "tmp/$iris_id.bib"
     for yr in $(seq 2011 2023); do
         curl "https://cris.fbk.eu/browse?filter_value_display=${surname}%2C+${name}&type=author&offset=0&authority=${iris_id}&sort_by=2&order=ASC&rpp=1000&starts_with=${yr}&format=bibtex&submit_export_metadata=submit" >> tmp/$iris_id.bib 2>/dev/null
     done
