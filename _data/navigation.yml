@@ -1,11 +1,5 @@
 - name: Collaborations
   link: /collaborations
-# - name: Events
-#   link: /events/
-# - name: Dissemination
-#  link: /dissemination/
-- name: News
-  link: /news/
 - name: People
   link: /people/
   dropdown:

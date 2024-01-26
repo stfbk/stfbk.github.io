@@ -18,10 +18,6 @@ Table of Contents:
   - [Events](#events)
     - [Add a new event](#add-a-new-event)
     - [List an external event](#list-an-external-event)
-  - [News](#news)
-    - [Add general news](#add-general-news)
-    - [Add accepted papers news](#add-accepted-papers-news)
-    - [Add seminar news](#add-seminar-news)
   - [Projects](#projects)
     - [Add a new page](#add-a-new-page-1)
   - [Tools](#tools)
@@ -41,7 +37,6 @@ The website is structured as follow:
 |-- _events/                => Events
 |-- _includes/              => Files to be commonly included (header, footer)
 |-- _layouts/               => Custom layouts for pages
-|-- _news/                  => News
 |-- _projects/              => Projects
 |-- _tools/                 => Tools
 |-- _topics/                => Topics (to appear in homepage)
@@ -255,30 +250,6 @@ To list an external event, you should just edit the file [`_data/events.yml`](_d
   description:          # Description of the event (optional)
   url:                  # URL to the event page (also external)
 ```
-
-## News
-### Add general news
-To create news, just add a new file in the `_news` folder with the following name: `[yyyy]-[mm]-[dd]-[title-of-the-news-with-dashes].md`, where `yyyy`, `mm` and `dd` refer to the date of the news. The content of the file should respect the [template](_news/_template-general.md).
-
-URL of the new page: `https://risingfbk.github.io/news/[yyyy]/[mm]/[dd]/[title-of-the-news-with-dashes]`.
-
-The news will be automatically listed on the website (inside the [News](https://risingfbk.github.io/news) page).
-
-### Add accepted papers news
-To create news about accepted papers, you first need to create the publication (and, maybe, destination) entry as explained [here](#add-related-publications).
-
-Then, just add a new file in the `_news` folder with the following name: `[yyyy]-[mm]-[dd]-paper-accepted-at-[conference-or-journal-acronym].md`, where `yyyy`, `mm` and `dd` refer to the date of the news. The content of the file should respect the [template](_news/_template-accepted-paper.md).
-
-URL of the new page: `https://risingfbk.github.io/news/[yyyy]/[mm]/[dd]/paper-accepted-at-[conference-or-journal-acronym]`.
-
-The news will be automatically listed on the website (inside the [News](https://risingfbk.github.io/news) page) with the `papers` tag.
-
-### Add seminar news
-To create news about seminars, just add a new file in the `_news` folder with the following name: `[yyyy]-[mm]-[dd]-[custom-title-with-dashes].md` (it must contain the word "seminar", e.g., `rising-seminar-by-domenico-siracusa`), where `yyyy`, `mm` and `dd` refer to the date of the news. The content of the file should respect the [template](_news/_template-seminar.md).
-
-URL of the new page: `https://risingfbk.github.io/news/[yyyy]/[mm]/[dd]/[custom-title-with-dashes]`.
-
-The news will be automatically listed on the website (inside the [News](https://risingfbk.github.io/news) page) with the `seminars` tag.
 
 ## Projects
 ### Add a new page
