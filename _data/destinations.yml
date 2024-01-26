@@ -453,11 +453,6 @@
   type: conference
   proceedings: Proceedings of Optical Fiber Communication Conference, 2018
 
-- id: opticalfibercommunicationconferenceofc2013
-  name: Optical Fiber Communication Conference, Ofc 2013
-  type: conference
-  proceedings: Proceedings of Optical Fiber Communication Conference, Ofc 2013
-
 - id: opticalfibercommunicationconferenceofc2019osapublishing
   name: Optical Fiber Communication Conference (OFC) 2019, OSAPUBLISHING
   type: conference
@@ -466,6 +461,7 @@
 - id: opticalfibercommunicationsconferenceandexhibitionofc2014
   name: Optical Fiber Communications Conference and Exhibition (OFC), 2014
   type: conference
+  proceedings: Proceedings of Optical Fiber Communications Conference and Exhibition (OFC), 2014
 
 - id: opticalfibercommunicationsconferenceandexhibitionofc2017
   name: Optical Fiber Communications Conference and Exhibition (OFC), 2017

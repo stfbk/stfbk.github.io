@@ -502,7 +502,7 @@
   surname: Andres
 
 - id: BehnamShariati
-  name:  Behnam
+  name: Behnam
   surname: Shariati
 
 - id: Bogdan-MihaiAndrus
@@ -682,7 +682,7 @@
   surname: Altman
 
 - id: ElioSalvadori
-  name: Elio
+  name:  Elio
   surname: Salvadori
 
 - id: F.Cugini
@@ -1002,8 +1002,8 @@
   surname: Rodríguez
 
 - id: JoseManuelRivas-Moscoso
-  name:  Jose
-  surname: Manuel Rivas-Moscoso
+  name: Jose Manuel
+  surname: Rivas-Moscoso
 
 - id: JoseSanchez
   name:  José
@@ -1092,6 +1092,10 @@
 - id: LucaCapra
   name:  Luca
   surname: Capra
+
+- id: LucaMendozzi
+  name:  Luca
+  surname: Mendozzi
 
 - id: LucaMottola
   name:  Luca
