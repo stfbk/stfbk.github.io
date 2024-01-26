@@ -50,6 +50,13 @@ layout: default
             </div>
         {% endif %}
 
+        {% if page.disseminations.size > 0 %}
+            <div class="column is-12">
+                <h1 id="related-disseminations" class="related in-toc">Related Disseminations</h1>
+                {% include list-dissemination.html source=page.disseminations style="list" %}
+            </div>
+        {% endif %}
+
         {% if page.theses.size > 0 %}
             <div class="column is-12">
                 <h1 id="related-theses" class="related in-toc">Related Theses</h1>
