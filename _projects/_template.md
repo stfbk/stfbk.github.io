@@ -1,4 +1,6 @@
 ---
+# If you need to modify start date, end date and/or logo, you need to edit the `/data/projects.yml` file
+
 project:                        # ID of the project in /data/projects.yml (DO NOT edit if already there)
 leader:                         # Name of the activity leader (optional)
 referenceFBK:                   # Name of the reference in FBK (optional)
