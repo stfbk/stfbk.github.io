@@ -16,6 +16,8 @@
 - id: F&C_eID
   title: F&C eID
   titleAddon: Scenari Innovativi di Identità Digitale 
+  startDate: "2022-04-01"
+  endDate: "2023-12-31"
   logo: logo_FuturoConoscenza.png
   url: /projects/FC_eID
 
@@ -23,11 +25,13 @@
   title: F&C eVoting
   endDate: "2023-06-30"
   logo: logo_FuturoConoscenza.png
-  url: /projects/FC_evoting
+  url: /projects/FC_eVoting
 
 - id: F&C_fisica
   title: F&C fisica
   titleAddon: Scenari Innovativi di Identità Fisica
+  startDate: "2022-04-01"
+  endDate: "2023-12-31"
   logo: logo_FuturoConoscenza.png
   url: /projects/FC_fisica
 
@@ -58,6 +62,7 @@
 - id: IDeARe
   title: IDeARe
   titleAddon: Identità Digitali ed Azioni Reali
+  endDate: "2023-12-31"
   url: /projects/IDeARe
 
 - id: JuLIA
@@ -89,8 +94,8 @@
   title: POTENTIAL
   titleAddon: PilOTs for EuropeaN digiTal Identity wALlet
   logo: logo_POTENTIAL.png
-  url: https://www.digital-identity-wallet.eu/
-  # url: /projects/POTENTIAL
+ # url: https://www.digital-identity-wallet.eu/
+  url: /projects/POTENTIAL
 
 - id: PROTECTOR
   title: PROTECTOR
