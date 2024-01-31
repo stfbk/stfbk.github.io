@@ -1,9 +1,8 @@
 ---
 project: FINSEC
 
-duration: from 01/05/2018 until 30/04/2021
 funding: European Union's Horizon 2020 research and innovation programme, [H2020-CIP-2016-2017](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search;callCode=H2020-CIP-2016-2017) grant agreement No 786727.
-website: [https://www.finsec-project.eu/](https://www.finsec-project.eu/)
+website: https://www.finsec-project.eu/
 cordisNo: 786727
 goals: >
     To develop, demonstrate, and bring to market an integrated, intelligent, collaborative, and predictive approach to the security of critical infrastructures in the financial sector.
