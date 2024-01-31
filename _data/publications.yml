@@ -1838,7 +1838,20 @@
   year: 2022
   doi: 10.1007/978-3-031-10684-2_14
   urlComplementary: /complementary/DBSEC2022
-
+  
+- id: EVOTEID2022
+  title: "Adaptation of an i-voting scheme to Italian Elections for Citizens Abroad"
+  authors:
+    - RiccardoLongo
+    - UmbertoMorelli
+    - ChiaraSpadafora
+    - AlessandroTomasi
+  abstract: >
+    We adapt the Araújo-Traoré protocol to Italian elections, with emphasis on anti-coercion measures. In this short paper we focus on a new method for managing anti-coercion credentials for each voter.
+  destination: EVOTEID2022
+  year: 2022
+  doi: 10.15157/diss/027
+  
 - id: FARES2022_EIDAS
   id_iris: 333210
   title: "SoK: A Survey on Technological Trends for (pre)Notified eIDAS Electronic Identity Schemes"
@@ -1996,6 +2009,28 @@
   year: 2023
   urlNews: /news/2023/11/20/paper-accepted-at-ecml-pkdd-post-workshop-proceedings/
 
+- id: EVOTEID2023
+  year: 2023
+  title: "Coercion-resistant i-voting with short PIN and OAuth 2.0"
+  authors:
+    - MatteoBitussi
+    - RiccardoLongo
+    - FrancescoAntonioMarino
+    - UmbertoMorelli
+    - AmirSharif
+    - ChiaraSpadafora
+    - AlessandroTomasi
+  abstract: >
+    This paper presents an architecture for an OAuth 2.0-based i-voting solution using a mobile native client in a variant of the Araújo-Traoré protocol. We follow a systematic approach by identifying relevant OAuth 2.0 specifications and best practices. Having defined our framework, we identify threats applicable to our proposed methodology and detail how our design mitigates them to provide a safer i-voting process.
+  destination: EVOTEID2023
+  #doi: 10.
+  tags:                     
+    - ThresholdCryptography
+    - ZKP
+    - SMPC
+    - PrivacyEnhancingCryptography
+    - DecentralizationOfTrust
+    
 - id: POLSIM2023
   #id_iris: 323366
   title: "A Simulation Framework for the Experimental Evaluation of Access Control Enforcement Mechanisms based on Business Processes"

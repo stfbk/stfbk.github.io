@@ -988,6 +988,15 @@
   startDate: "2022-07-18"
   endDate: "2022-07-20"
 
+- id: EVOTEID2022
+  name: International Joint Conference on Electronic Voting
+  acronym: E-Vote-ID 2022
+  url: https://e-vote-id.org/e-vote-id-2022/
+  type: conference
+  location: Bregenz, Austria 
+  startDate: "2022-10-04"
+  endDate: "2022-10-07"
+  
 - id: FARES2022
   name: 17th International Workshop on Frontiers in Availability, Reliability and Security
   acronym: FARES2022
@@ -1044,7 +1053,7 @@
 - id: EVOTEID2023
   name: International Joint Conference on Electronic Voting
   acronym: E-Vote-ID 2023
-  url: https://e-vote-id.org
+  url: https://e-vote-id.org/e-vote-id-2023/
   type: conference
   location: Luxembourg City, Luxembourg 
   startDate: "2023-10-03"
