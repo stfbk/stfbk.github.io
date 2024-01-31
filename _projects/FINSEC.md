@@ -1,7 +1,7 @@
 ---
 project: FINSEC
 
-funding: European Union's Horizon 2020 research and innovation programme, <a href="[https://www.html.it/](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search;callCode=H2020-CIP-2016-2017)">H2020-CIP-2016-2017</a> grant agreement No 786727.
+funding: European Union's Horizon 2020 research and innovation programme, <a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search;callCode=H2020-CIP-2016-2017">H2020-CIP-2016-2017</a> grant agreement No 786727.
 website: https://www.finsec-project.eu/
 cordisNo: 786727
 goals: >
