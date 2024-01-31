@@ -4,12 +4,22 @@ subtitle: Committees
 menubar: TDI2024
 ---
 
-# Organizing Committee
-- **Roberto Carbone** (Fondazione Bruno Kessler, Italy)
-- **Marco Pernpruner** (Fondazione Bruno Kessler and University of Genoa, Italy)
-- **Silvio Ranise** (Fondazione Bruno Kessler and University of Trento, Italy)
-- **Giada Sciarretta** (Fondazione Bruno Kessler, Italy)
-- **Amir Sharif** (Fondazione Bruno Kessler, Italy)
+# Program Chairs
+- **Giada Sciarretta** (Fondazione Bruno Kessler)
+- **Marco Pernpruner** (Fondazione Bruno Kessler and University of Genoa)
 
 # Program Committee
-*Under definition*
+- **Francesco Buccafurri** (University of Reggio Calabria)
+- **Daniel Fett** (Authlete)
+- **Ralf Küsters** (University of Stuttgart)
+- **Cecilia Pasquini** (Fondazione Bruno Kessler)
+- **Amir Sharif** (Fondazione Bruno Kessler)
+- **Luca Viganò** (King's College London)
+- **Nicola Zannone** (Eindhoven University of Technology)
+
+# Organizing Committee
+- **Roberto Carbone** (Fondazione Bruno Kessler)
+- **Marco Pernpruner** (Fondazione Bruno Kessler and University of Genoa)
+- **Silvio Ranise** (Fondazione Bruno Kessler and University of Trento)
+- **Giada Sciarretta** (Fondazione Bruno Kessler)
+- **Amir Sharif** (Fondazione Bruno Kessler)
