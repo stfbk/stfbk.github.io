@@ -17,6 +17,7 @@ publications:
     - ETACS2021
     - CODASPY2022_TLSA2
     - SACMAT2022_TLSA2
+    - SalvatoreManfredi_P
 
 ---
 
