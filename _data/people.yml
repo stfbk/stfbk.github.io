@@ -829,7 +829,12 @@
 - id: RiccardoZiglio
   name: Riccardo
   surname: Ziglio
-  usernameFBK: rziglio
+  affiliations:
+    - role: Research Assistant
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: rziglio@fbk.eu
 
 - id: RobertaPeracchio
   name: Roberta

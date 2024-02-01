@@ -20,6 +20,7 @@ current:
     - CeciliaPasquini
     - GianlucaSassetti
     - AndreaBisegna
+    - RiccardoZiglio
 
   collaborators:
       
@@ -34,13 +35,6 @@ current:
     - personId: KaleemUllahKaleemUllah
       type: M
       topic: Countering rebroadcast attacks against remote identity proofing
-      institution: University of Trento
-      yearFrom: 2023
-      yearTo: 2023
-
-    - personId: RiccardoZiglio
-      type: M
-      topic: Video manipulation vs liveness detection
       institution: University of Trento
       yearFrom: 2023
       yearTo: 2023
