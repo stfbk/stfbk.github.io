@@ -719,6 +719,19 @@
   year: 2023
   institution: University of Trento
 
+- id: AndreaBisegna_P
+  title: "Automated Security Testing for Identity Management of Large-scale Digital Infrastructures"
+  type: P
+  author: AndreaBisegna
+  supervisor:
+    - SilvioRanise
+  co-supervisor:
+    - RobertoCarbone
+  year: 2023
+  cycle: XXXV
+  institution: University of Genoa
+  doi: 10.15167/bisegna-andrea_phd2023-05-26
+
 - id: EricaElia_M
   title: "A Key Recovery Protocol based on Threshold Secret Sharing for Cryptographic Access Control in the Cloud: The CryptoAC use case"
   type: M

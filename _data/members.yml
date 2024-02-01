@@ -197,6 +197,9 @@ former:
 
     - personId: SalvatoreManfredi
       thesisId: SalvatoreManfredi_P
+
+    - personId: AndreaBisegna
+      thesisId: AndreaBisegna_P
   
   students:
     - personId: MarcoPernpruner
