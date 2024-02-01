@@ -112,6 +112,11 @@ defaults:
       layout: person
 
   - scope:
+      path: "_people/archive/*-*"
+    values:
+      layout: person
+
+  - scope:
       type: projects
     values:
       layout: project

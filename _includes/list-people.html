@@ -293,14 +293,25 @@
                                 </a>
                             {% endif %}
 
+                            {% assign personFullURL = nil %}
                             {% if details contains "personalPage" %}
                                 {% assign personFullName = person.name | append: " " | append: person.surname %}
                                 {% assign personURL = personFullName | replace: " ", "-" | downcase %}
                                 {% assign personalURLNoAccents = personURL | replace: 'à', 'a' | replace: 'è', 'e'  | replace: 'ì', 'i'  | replace: 'ò', 'o'  | replace: 'ù', 'u' %}
-                                {% assign personFullURL = "/people/" | append: personalURLNoAccents %}
+                                
                                 {% assign personFullPath = "_people/" | append: personalURLNoAccents | append: ".md" %}
                                 {% assign personPage = site.people | where_exp: "page", "page.path == personFullPath" %}
+                                
                                 {% if personPage.size == 1 %}
+                                    {% assign personFullURL = "/people/" | append: personURL %}
+                                {% else %}
+                                    {% assign personFullPathArchive = "_people/archive/" | append: personalURLNoAccents | append: ".md" %}
+                                    {% assign personPageArchive = site.people | where_exp: "page", "page.path == personFullPathArchive" %}
+                                    {% if personPageArchive.size == 1 %}
+                                        {% assign personFullURL = "/people/archive/" | append: personalURLNoAccents %}
+                                    {% endif %}
+                                {% endif %}
+                                {% if personFullURL %}
                                     <a href="{{ site.baseurl }}{{ personFullURL }}">
                                         <span class="fa-stack" style="vertical-align: top;">
                                             <i class="fas fa-circle fa-stack-2x"></i>
@@ -361,10 +372,19 @@
                 {% if details contains "personalPage" %}
                     {% assign personFullName = person.name | append: " " | append: person.surname %}
                     {% assign personURL = personFullName | replace: " ", "-" | downcase %}
-                    {% assign personFullPath = "_people/" | append: personURL | append: ".md" %}
+                    {% assign personalURLNoAccents = personURL | replace: 'à', 'a' | replace: 'è', 'e'  | replace: 'ì', 'i'  | replace: 'ò', 'o'  | replace: 'ù', 'u' %}
+                    
+                    {% assign personFullPath = "_people/" | append: personalURLNoAccents | append: ".md" %}
                     {% assign personPage = site.people | where_exp: "page", "page.path == personFullPath" %}
+                    
                     {% if personPage.size == 1 %}
                         {% assign personFullURL = "/people/" | append: personURL %}
+                    {% else %}
+                        {% assign personFullPathArchive = "_people/archive/" | append: personalURLNoAccents | append: ".md" %}
+                        {% assign personPageArchive = site.people | where_exp: "page", "page.path == personFullPathArchive" %}
+                        {% if personPageArchive.size == 1 %}
+                            {% assign personFullURL = "/people/archive/" | append: personalURLNoAccents %}
+                        {% endif %}
                     {% endif %}
                 {% endif %}
                 <li>
