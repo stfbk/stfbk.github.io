@@ -4,7 +4,7 @@ person: AndreaBisegna
 links:  
      
   - name: GoogleScholar         
-    value: gIvyqnsAAAAJ&hl=en&oi=ao 
+    value: gIvyqnsAAAAJ
         
   - name: ORCID         
     value: 0000-0002-8055-5262
