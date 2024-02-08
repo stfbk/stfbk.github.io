@@ -2,11 +2,11 @@
 person: MatteoRizzi
 links:
   - name: CV
-    value: matteo.rizzi.xyz
+    value: https://matteo.rizzi.xyz
   - name: GitHub
     value: matteounitn
   - name: Website
-    value: rizzi.network
+    value: https://rizzi.network
   - name: LinkedIn     
     value: matteounitn
   - name: ORCID     
