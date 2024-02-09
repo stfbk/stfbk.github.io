@@ -8,6 +8,7 @@ people:
     - SilvioRanise
     - GiadaSciarretta
     - MatteoRizzi
+    - RiccardoGermenia
 
 publications:
     - DBSec2019_TLSA
