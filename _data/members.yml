@@ -73,6 +73,13 @@ current:
       institution: University of Trento
       yearFrom: 2024
       yearTo: 2024
+  
+    - personId: MarcoFrassoni
+      type: M
+      topic: Design of e-Prescription Solutions in the EUDI Wallet Ecosystem 
+      institution: University of Trento
+      yearFrom: 2024
+      yearTo: 2024
 
   junior:    
       
