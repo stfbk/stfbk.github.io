@@ -28,6 +28,21 @@
   doi: 10.1016/j.comnet.2023.110162
 
 
+- id: iris_2023_a9ffb49276e1e183e5c8
+  id_iris: 344247.3,
+  title: "Pruning Federated Learning Models for Anomaly Detection in Resource-Constrained Environments"
+  authors:
+    - SimoneMagnani
+    - StefanoBraghin
+    - AmbrishRawat
+    - RobertoDoriguzziCorin
+    - MarkPurcell
+    - DomenicoSiracusa
+  destination: 2023ieeeinternationalconferenceonbigdatabigdata
+  year: 2023
+  doi: 10.1109/BigData59044.2023.10386446
+
+
 - id: iris_2023_90bbd9226b5448cf6ab9
   id_iris: 342627,
   title: "EECO: An AI-Based Algorithm for Energy-Efficient Comfort Optimisation"

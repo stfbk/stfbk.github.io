@@ -156,6 +156,10 @@
   type: conference
   proceedings: Proceedings of 2023 IEEE 9th International Conference on Network Softwarization (NetSoft)
 
+- id: 2023ieeeinternationalconferenceonbigdatabigdata
+  name: 2023 IEEE International Conference on Big Data (BigData)
+  type: conference
+
 - id: 21stinternationalconferenceoninformationandcommunicationssecurityicics2019
   name: 21st International Conference on Information and Communications Security (ICICS 2019)
   type: conference

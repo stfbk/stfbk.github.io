@@ -435,6 +435,10 @@
   name:  Ali Saman
   surname: Tosun
 
+- id: AmbrishRawat
+  name:  Ambrish
+  surname: Rawat
+
 - id: AmyL.Murphy
   name:  Amy L.
   surname: Murphy
@@ -684,7 +688,7 @@
   surname: Altman
 
 - id: ElioSalvadori
-  name:  Elio
+  name: Elio
   surname: Salvadori
 
 - id: F.Cugini
@@ -1179,6 +1183,10 @@
   name:  Marianna
   surname: Angelou
 
+- id: MarkPurcell
+  name:  Mark
+  surname: Purcell
+
 - id: MartenssonJonas
   name:  Mårtensson
   surname: Jonas
@@ -1514,6 +1522,10 @@
 - id: StefanGuna
   name:  Stefan
   surname: Gună
+
+- id: StefanoBraghin
+  name:  Stefano
+  surname: Braghin
 
 - id: StephaneJunique
   name:  Stéphane
