@@ -1,1 +1,2 @@
 Sitemap: https://rising.fbk.eu/sitemap.xml
+Allow: /
