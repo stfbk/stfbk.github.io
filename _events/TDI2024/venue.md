@@ -50,13 +50,13 @@ From Roma Fiumicino (FCO), the location can be reached:
 <h3>Accommodation</h3>
 <p>The venue is affiliated with the following accommodation choices (hotels and guest houses). To enjoy the benefits of this affiliation, remember to mention Auditorium Antonianum when making your reservation.</p>
 <ul>
-  <li><a href="https://www.romehotelatlantico.it/" target="_blank">Bettoja Hotel Atlantico</a></li>
-  <li><a href="https://www.romehoteldazeglio.it/" target="_blank">Bettoja Hotel Massimo d'Azeglio</a></li>
-  <li><a href="https://www.romehotelmediterraneo.it/" target="_blank">Bettoja Hotel Mediterraneo</a></li>
-  <li><a href="https://colosshouse.bedsandhotels.com/" target="_blank">Colosshouse Guest House</a></li>
-  <li><a href="https://www.hilton.com/it/hotels/fcomodi-doubletree-rome-monti/" target="_blank">DoubleTree by Hilton Rome Monti</a></li>
-  <li><a href="https://all.accor.com/hotel/2909/index.it.shtml" target="_blank">Hotel Mercure Roma Centro Colosseo</a></li>
-  <li><a href="https://www.miltonroma.com/" target="_blank">Hotel Milton Roma</a></li>
-  <li><a href="https://hotelsaintjohn.it/" target="_blank">Hotel Saint John</a></li>
+  <li><a href="https://www.romehotelatlantico.it/en" target="_blank">Bettoja Hotel Atlantico</a></li>
+  <li><a href="https://www.romehoteldazeglio.it/en" target="_blank">Bettoja Hotel Massimo d'Azeglio</a></li>
+  <li><a href="https://www.romehotelmediterraneo.it/en" target="_blank">Bettoja Hotel Mediterraneo</a></li>
+  <li><a href="https://colosshouse.bedsandhotels.com/?lang=en" target="_blank">Colosshouse Guest House</a></li>
+  <li><a href="https://www.hilton.com/en/hotels/fcomodi-doubletree-rome-monti/" target="_blank">DoubleTree by Hilton Rome Monti</a></li>
+  <li><a href="https://all.accor.com/hotel/2909/index.en.shtml" target="_blank">Hotel Mercure Roma Centro Colosseo</a></li>
+  <li><a href="https://www.miltonroma.com/en/" target="_blank">Hotel Milton Roma</a></li>
+  <li><a href="https://hotelsaintjohn.it/en/" target="_blank">Hotel Saint John</a></li>
   <li><a href="https://www.guesthouseroma.it/it/camere" target="_blank">Relais Merulana Guest House</a></li>
 </ul>
