@@ -1,3 +1,3 @@
-- **Paper Submission**:         February 23, 2024 (11:59 pm AoE)
+- **Paper Submission**:         <s>February 23, 2024</s> <b>March 1, 2024</b> (11:59 pm AoE, extended)
 - **Notification to Authors**:  March 11, 2024
 - **Camera Ready**:             March 29, 2024

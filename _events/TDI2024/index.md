@@ -12,6 +12,7 @@ image: /assets/areas/events/TDI2024/tdi2024.jpg
 </blockquote>
 
 # Recent News
+- **22/02/2024**: The paper submission deadline has been extended to **March 1, 2024**.
 - **22/02/2024**: Registrations are open.
 - **03/01/2024**: The website is online.
 
