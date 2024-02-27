@@ -838,3 +838,19 @@
     - MatteoRizzi
   year: 2023
   institution: University of Trento
+
+# 2024
+- id: MarcoPernpruner_P
+  title: "Integrating Security by Design and Automated Security Analysis for Digital Identity Management"
+  type: P
+  author: MarcoPernpruner
+  abstract: >
+    In the last few years, our society underwent an unprecedented wave of digital transformation, which required a shift from traditional to digital identity models. Although this transition brings many advantages from a usability perspective, it also introduces significant security challenges, particularly concerning the core processes of enrollment and authentication. Designing secure protocols for these processes is inherently complex, as it involves heterogeneous considerations that must be balanced: providing a suitable level of security; keeping protocols as usable as possible; complying with mandatory requirements connected with the scenario. In light of these complexities, security architects must be able to assess the security and risk levels associated with their protocols, to identify the most suitable configuration in a quick and reliable way.<br />
+    In this thesis, we address these needs by providing strategies to foster the secure and risk-aware design of identity management protocols. In particular, we introduce a multi-layered methodology for the evaluation of the security and risk associated with identity management protocols. As the methodology can enable a secure by design approach, we demonstrate its integration within the context of national collaborations, particularly in the development of cutting-edge enrollment and authentication protocols. Beyond discussing the security and risk results for the proposed protocols, we emphasize the fundamental role of security mitigations in achieving an optimal trade-off between security and usability. Finally, we contextualise our methodology in a comprehensive, automatable approach to evaluate identity management protocols and provide detailed information on their security, risk and compliance posture through a structured report in output, which enables auditability. The approach also allows for what-if analyses, consisting in repeatedly changing the set of security controls to consider and evaluate their effects on the protocol; this way, it is possible to find the best configuration depending on the requirements. To align with international bodies, the structure of the approach takes inspiration from a report recently published by the European Union Agency for Cybersecurity.
+  supervisor:
+    - SilvioRanise
+  co-supervisor:
+    - GiadaSciarretta
+  year: 2024
+  cycle: XXXVI
+  institution: University of Genoa
