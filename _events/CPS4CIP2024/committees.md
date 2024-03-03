@@ -55,7 +55,7 @@ menubar: CPS4CIP2024
 - **Miguel Mira da Silva**, INOV, Portugal
 - **Sandeep Pirbhulal**, Norwegian Computing Center, Norway
 - **Ilias Gialampoukidis**, Information Technologies Institute (ITI), Greece
-- **Ilias Gkotsis**, Satways Ltd, Greece
+- **Ilias Gkotsis**, Inlecom Innovation, Greece
 - **Simon Hacks**, KTH Royal Institute of Technology, Sweden
 - **Andreas Kubis**, PSI Software AG, Germany
 - **Audun Jøsang**, University of Oslo, Norway
@@ -74,4 +74,9 @@ menubar: CPS4CIP2024
 - **Vasileios Mavroeidis**, University of Oslo, Norway
 - **Rafael Palacios Hielscher**, ICAI- Universidad Pontificia Comillas, Spain
 - **Luca Caviglione**, IMATI-CNR, Italy
-- **Marco Zuppelli**, IMATI-CNR, Italy 
+- **Marco Zuppelli**, IMATI-CNR, Italy
+- **Karin Bernsmed**, SINTEF, Norway
+- **Martin Gilje Jaatun**, SINTEF, Norway
+- **Stella Parisi**, Information Technologies Institute, Greece
+- **Dimitrios Kavallieros**, Information Technologies Institute, Greece
+- **Konstantinos Ioannidis**, Information Technologies Institute, Greece
