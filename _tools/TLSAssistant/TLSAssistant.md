@@ -61,11 +61,11 @@ We have different type of modules
 * **Core Module**: the modules' router. It parses the specified configuration, runs each module, gathers the output and redirects it to the output module.
 * **Output Module**: formats the output properly by according to the mitigation standard and the provided information.
 
-## How To Contribute (TODO)
+## How To Contribute
 In order to contribute to the project, allowing the Core module to automatically detect and integrate the new changes, the developer must follow the provided standards:
-- [Modules Design](Standard_TLSAssistant_Modules)
-- [Actionable Mitigations Formatting](Standard_Mitigations)
-- [Configuration Files Structuring](Config_Requirements_TLSA) 
+- [Modules Design](https://github.com/stfbk/tlsassistant/wiki/Standard_TLSAssistant_Modules)
+- [Actionable Mitigations Formatting](https://github.com/stfbk/tlsassistant/wiki/Standard_Mitigations)
+- [Configuration Files Structuring](https://github.com/stfbk/tlsassistant/wiki/Config_Requirements_TLSA) 
 - [Compliance Analysis](https://github.com/stfbk/TLS_Compliance_Dataset/wiki/)
 
 ## List of modules
