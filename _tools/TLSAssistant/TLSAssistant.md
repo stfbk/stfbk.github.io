@@ -66,7 +66,7 @@ In order to contribute to the project, allowing the Core module to automatically
 - [Modules Design](Standard_TLSAssistant_Modules)
 - [Actionable Mitigations Formatting](Standard_Mitigations)
 - [Configuration Files Structuring](Config_Requirements_TLSA) 
-- [Compliance Analysis][WikiCompliance]
+- [Compliance Analysis](https://github.com/stfbk/TLS_Compliance_Dataset/wiki/)
 
 ## List of modules
 
