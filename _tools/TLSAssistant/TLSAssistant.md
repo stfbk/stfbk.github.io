@@ -38,9 +38,9 @@ The tool has been developed within [Digimat](https://ict.fbk.eu/partnerships/co-
 
 <img class="image-centered" src="/assets/areas/tools/TLSAssistant/current_architecture.png" alt="current_architecture" />
 
-**TLSAssistant v2** is an evolution of the previous monolithic version: [TLSAssistant v1.x](https://github.com/stfbk/tlsassistant/tree/v1.x)
+**TLSAssistant v3** is the latest release of our state-of-the-art analyzer able to help system administrators and Android app developers in correctly configuring their TLS deployments. This version expands the software's capabilities by adding a new analysis module able to assess the compliance level of TLS deployments, comparing them to national agencies-issued guidelines. The new update also comes with an improved output module, which is now able to generate structured PDF reports.
 
-It currently integrates four tools:
+It currently integrates five tools:
 
 * Android analysis
   * [mallodroid](https://github.com/stfbk/mallodroid)
@@ -48,10 +48,11 @@ It currently integrates four tools:
 * Server analysis
   * [testssl.sh](https://github.com/drwetter/testssl.sh)
   * [tlsfuzzer](https://github.com/tomato42/tlsfuzzer)
+  * [TLS-Scanner](https://github.com/tls-attacker/TLS-Scanner)
 
 To have a deeper understanding of the architecture, we must first grasp how it is organized. 
 
-TLSAssistant makes advantage of the idea of a "Module," which is a collection of objects and classes that are joined in the same file by context (e.g., the type of vulnerability analyzed). Each module adheres to [standards](#standards) that must be followed in order to develop a compliant module. 
+TLSAssistant makes advantage of the idea of a "Module," which is a collection of objects and classes that are joined in the same file by context (e.g., the type of vulnerability analyzed). Each module adheres to [standards](#how-to-contribute) that must be followed in order to develop a compliant module. 
 
 We have different type of modules
 
@@ -60,11 +61,12 @@ We have different type of modules
 * **Core Module**: the modules' router. It parses the specified configuration, runs each module, gathers the output and redirects it to the output module.
 * **Output Module**: formats the output properly by according to the mitigation standard and the provided information.
 
-## Defined standards
-
-- [Modules](Standard_TLSAssistant_Modules)
-- [Mitigations](Standard_Mitigations)
-- [Configurations](Config_Requirements_TLSA) 
+## How To Contribute
+In order to contribute to the project, allowing the Core module to automatically detect and integrate the new changes, the developer must follow the provided standards:
+- [Modules Design](https://github.com/stfbk/tlsassistant/wiki/Modules-Design)
+- [Actionable Mitigations Formatting](https://github.com/stfbk/tlsassistant/wiki/Actionable-Mitigations-Formatting)
+- [Configuration Files Structuring](https://github.com/stfbk/tlsassistant/wiki/Configuration-Files-Structuring) 
+- [Compliance Analysis](https://github.com/stfbk/TLS_Compliance_Dataset/wiki/)
 
 ## List of modules
 
@@ -72,18 +74,20 @@ We have different type of modules
 
 #### Wrapper Modules
 
-| Module name | Wraps                                                        |
-| ----------- | ------------------------------------------------------------ |
-| testssl.sh  | testssl.sh subprocess call                                   |
+| Module name | Wraps                                                                                                                |
+| ----------- | -------------------------------------------------------------------------------------------------------------------- |
+| testssl.sh  | testssl.sh subprocess call                                                                                           |
 | HSTS HTTPS  | API Call to check HSTS SET, Preloading and HTTPS Enforcement. Can be used to obtain information about the webserver. |
-| tlsfuzzer   | tlsfuzzer script selection and call, following parameters and parsing output. |
-| Certificate | Subdomain enumeration by crt.sh API call. Useful for `*.mysite.tld` |
+| tlsfuzzer   | tlsfuzzer script selection and call, following parameters and parsing output.                                        |
+| Certificate | Subdomain enumeration by crt.sh API call. Useful for `*.mysite.tld`                                                  |
+| TLS-Scanner | TLS-Scanner subprocess call                                                                                          |
 
 #### Analysis Modules
 
 | Module Name              | Wrapper Used |
 | ------------------------ | ------------ |
 | 3SHAKE                   | testssl.sh   |
+| ALPACA                   | TLS-Scanner  |
 | BEAST                    | testssl.sh   |
 | BREACH                   | testssl.sh   |
 | CCS Injection            | testssl.sh   |
@@ -100,7 +104,9 @@ We have different type of modules
 | Mitzvah                  | testssl.sh   |
 | NOMORE                   | testssl.sh   |
 | Perfect Forward Secrecy  | testssl.sh   |
-| Poodle                   | testssl.sh   |
+| SSLPoodle                | testssl.sh   |
+| TLSPoodle                | TLS-Scanner  |
+| RACCOON                  | TLS-Scanner  |
 | Renegotiation            | testssl.sh   |
 | ROBOT                    | testssl.sh   |
 | SLOTH                    | tlsfuzzer    |
@@ -140,17 +146,24 @@ We have different type of modules
 | Parse Input Configuration | Core   |
 | Report                    | Output |
 
+### Compliance Modules
+| Module Name   | Type       | Wrapper Used |
+| ------------- | ---------- | ------------ |
+| compare_one   | Comparison | testssl.sh   |
+| compare_many  | Comparison | testssl.sh   |
+| generate_one  | Generation | -            |
+| generate_many | Generation | -            |
 
 
 ## Flow
 
 In this architecture, we have two different flow:
 
-* **Flow of the end-user:**
+* **Flow of the developer:**
 
   To add a new Analysis module (see left of Architecture Figure), the developer must follow the provided standard. As a result, the new functionality will be detected and implemented by the Core module. In addition to providing the code for implementing the tests for identifying a vulnerability, if a mitigation is known, the developer should define it by producing a JSON file in accordance with the mitigation standards.
 
-* **Flow of the developer:**
+* **Flow of the end-user:**
 
   The end-user decides which modules to utilize in the analysis in Step 1 (see right of Architecture Figure) by supplying a configuration file or a command line list. Each configuration file is a context-specific collection of modules that conducts a certain kind of analysis (e.g., checking for vulnerabilities related to weak TLS ciphers). Step 2: The Core loads the configuration (if supplied) and the modules (from the list or configuration), ensuring that they are relevant to the kind of analysis requested. 
 
@@ -162,6 +175,23 @@ Here a quick overview of the various types of analysis that may be requested:
 2. **Single APK**: Each Android-related module, such as Unsecure TrustManager, performs the analysis (Step 3b) on the given APK.
 3. **Multiple Hosts**: On each of the domains supplied in an input list, we execute a Single Host analysis. Each result is concatenated and delivered as a single output to the Output module. The list can also be generated by subdomain enumeration.
 4. **TLS Configuration and Fixes**: If a configuration file is given, a WhiteBox analysis is conducted by loading the TLS configuration into memory and checking all accessible modules (Step 3b). Otherwise, if a configuration file and a valid hostname are given, a single host analysis is conducted, and the corrections are then merged into the provided TLS configuration. This is referred to as a Hybrid study since we run a BlackBox analysis on the hostname and then apply the changes to the configuration file.
+
+## Compliance Analysis
+
+TLSAssistant is able to perform an automated compliance analysis against five agency-issued technical guidelines:
+- **AgID** [ver.2020-01](https://cert-agid.gov.it/wp-content/uploads/2020/11/AgID-RACCSECTLS-01.pdf)
+- **ANSSI** [v1.2](https://cyber.gouv.fr/sites/default/files/2017/07/anssi-guide-recommandations_de_securite_relatives_a_tls-v1.2.pdf)
+- **BSI** [TR-02102-2](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG02102/BSI-TR-02102-2.html) and [TR-03116-4](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03116/BSI-TR-03116-4.html)
+- **Mozilla** [v5.7](https://wiki.mozilla.org/Security/Server_Side_TLS)
+- **NIST** [SP 800-52 Rev. 2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r2.pdf) (and related)
+### Comparison Modules
+The `compare_one` and `compare_many` modules are used to assess the compliance level of an existing webserver (both deployed and not) against one or multiple guidelines. Its output consists of an actionable report that combines a description of the potential lack of compliance along with an explanation on how improve the security posture of the analyzed server and a set of actionable hints to guide the user in the process of making the webserver compliant.
+### Generation Modules
+The `generate_one` and `generate_many` modules are used to generate from scratch configuration files that are compliant with one or more guidelines. Its output consists of a configuration file (for Apache or nginx webservers) that can be directly used to deploy a compliant webserver out-of-the-box.  
+### Custom Guidelines
+The modules can be customized to take into consideration specific requirements of the user, such as structured custom guidelines or single requirements for selected configurable elements.
+### Warning
+The compliance module can recieve both a configuration file and a hostname/ip as input. If a configuration file is provided the analysis will not check the Certificates since they depend on external files.
 
 ## Caching system
 
