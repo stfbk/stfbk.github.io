@@ -20,7 +20,6 @@ publications:
     - SACMAT2022_TLSA2
 
 theses:
-    - SalvatoreManfredi_P
     - MatteoRizzi_B
     - SalvatoreManfredi_M
     - SalvatoreManfredi_P
