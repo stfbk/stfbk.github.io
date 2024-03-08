@@ -63,9 +63,9 @@ We have different type of modules
 
 ## How To Contribute
 In order to contribute to the project, allowing the Core module to automatically detect and integrate the new changes, the developer must follow the provided standards:
-- [Modules Design](https://github.com/stfbk/tlsassistant/wiki/Standard_TLSAssistant_Modules)
-- [Actionable Mitigations Formatting](https://github.com/stfbk/tlsassistant/wiki/Standard_Mitigations)
-- [Configuration Files Structuring](https://github.com/stfbk/tlsassistant/wiki/Config_Requirements_TLSA) 
+- [Modules Design](https://github.com/stfbk/tlsassistant/wiki/Modules-Design)
+- [Actionable Mitigations Formatting](https://github.com/stfbk/tlsassistant/wiki/Actionable-Mitigations-Formatting)
+- [Configuration Files Structuring](https://github.com/stfbk/tlsassistant/wiki/Configuration-Files-Structuring) 
 - [Compliance Analysis](https://github.com/stfbk/TLS_Compliance_Dataset/wiki/)
 
 ## List of modules
