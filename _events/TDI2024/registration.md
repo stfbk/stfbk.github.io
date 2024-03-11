@@ -31,6 +31,8 @@ menubar: TDI2024
   <b><a href="https://www.eventbrite.it/e/tdi-2024-and-osw-2024-registration-830107191957" target="_blank">https://www.eventbrite.it/e/tdi-2024-and-osw-2024-registration-830107191957</a></b>
 </div>
 
+<p>Participants who need a visa support letter should refer to FBK's [specific policy](https://www.fbk.eu/wp-content/uploads/2018/10/160415-visa-procedure-def_3.pdf).</p>
+
 <div class="bordered" style="margin-top: 30px;">
   <h4>Privacy Notice</h4>
   <p>Pursuant to art. 13 of EU Regulation No. 2016/679 - General Data Protection Regulation, we inform you that your personal data will be processed by ACM (Data Controller) and by FBK (Data Processor) for the organization and management of the event by individuals authorized and properly trained to perform such tasks, by using proper measures to ensure confidentiality and avoid access by non-authorized third parties and in contexts that do not compromise the personal dignity and the decorum of the person concerned, ensuring the necessary precautions to guarantee the protection in the use.</p>
