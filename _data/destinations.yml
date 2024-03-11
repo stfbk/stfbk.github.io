@@ -132,6 +132,12 @@
   url: https://tops.acm.org/
   type: journal
 
+- id: TOSEM
+  name: ACM Transactions on Software Engineering and Methodology
+  acronym: TOSEM
+  url: https://dl.acm.org/journal/tosem
+  type: journal
+
 - id: VTMagazine
   name: IEEE Vehicular Technology Magazine
   url: https://vtmagazine.ieee.org/

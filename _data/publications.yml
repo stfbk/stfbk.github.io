@@ -2079,4 +2079,18 @@
   urlComplementary: /complementary/TDSC2022
   urlNews: /news/2023/07/17/paper-accepted-at-tdsc/
 
+## 2024
+- id: TOSEM2024
+  id_iris: 344227
+  title: "Mitigating Debugger-based Attacks to Java Applications with Self-Debugging"
+  authors:
+    - StefanoBerlato
+    - DavidePizzolotto
+    - MarianoCeccato
+  abstract: >
+    Java bytecode is a quite high-level language and, as such, it is fairly easy to analyze and decompile with malicious intents, e.g., to tamper with code and skip license checks. Code obfuscation was a first attempt to mitigate malicious reverse engineering based on static analysis. However, obfuscated code can still be dynamically analyzed with standard debuggers to perform step-wise execution and to inspect (or change) memory content at important execution points, e.g., to alter the verdict of license validity checks. Although some approaches have been proposed to mitigate debugger-based attacks, they are only applicable to binary compiled code and none address the challenge of protecting Java bytecode. In this paper, we propose a novel approach to protect Java bytecode from malicious debugging. Our approach is based on automated program transformation to manipulate Java bytecode and split it into two binary processes that debug each other (i.e., a self-debugging solution). In fact, when the debugging interface is already engaged, an additional malicious debugger cannot attach. To be resilient against typical attacks, our approach adopts a series of technical solutions, e.g., an encoded channel is shared by the two processes to avoid leaking information, an authentication protocol is established to avoid Man-in-the-Middle attacks and the computation is spread between the two processes to prevent the attacker to replace or terminate either of them. We test our solution on 18 real-world Java applications, showing that our approach can effectively block the most common debugging tasks (either with the Java debugger or the GNU debugger) while preserving the functional correctness of the protected programs. While the final decision on when to activate this protection is still up to the developers, the observed performance overhead was acceptable for common desktop application domains.
+  destination: TOSEM
+  year: 2024
+  doi: 10.1145/3631971
+
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
