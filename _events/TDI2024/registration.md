@@ -31,7 +31,7 @@ menubar: TDI2024
   <b><a href="https://www.eventbrite.it/e/tdi-2024-and-osw-2024-registration-830107191957" target="_blank">https://www.eventbrite.it/e/tdi-2024-and-osw-2024-registration-830107191957</a></b>
 </div>
 
-<p>Participants who need a visa support letter should refer to FBK's [specific policy](https://www.fbk.eu/wp-content/uploads/2018/10/160415-visa-procedure-def_3.pdf).</p>
+<p style="margin-top: 30px;">Participants who need a visa support letter should refer to FBK's <a href="https://www.fbk.eu/wp-content/uploads/2018/10/160415-visa-procedure-def_3.pdf">specific policy</a>.</p>
 
 <div class="bordered" style="margin-top: 30px;">
   <h4>Privacy Notice</h4>

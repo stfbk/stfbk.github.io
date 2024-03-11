@@ -50,7 +50,7 @@
 
 # 2018
 - id: OSW2018
-  name: OAuth Security Workshop 2018
+  name: 3rd OAuth Security Workshop
   acronym: OSW2018
   startDate: "2018-03-14"
   endDate: "2018-03-16"
@@ -126,7 +126,7 @@
   url: /events/TDI2024
 
 - id: OSW2024
-  name: OAuth Security Workshop 2024
+  name: 9th OAuth Security Workshop
   acronym: OSW2024
   startDate: "2024-04-10"
   endDate: "2024-04-12"
