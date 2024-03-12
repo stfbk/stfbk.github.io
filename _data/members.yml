@@ -25,11 +25,16 @@ current:
       type: B
       institution: University of Trento
       yearFrom: 2023
-      yearTo: 2023
+      yearTo: 2024
     - personId: GiovanniFoletto
       type: B
       institution: University of Trento
       yearFrom: 2023
+      yearTo: 2024
+    - personId: LorysMutti
+      type: B
+      institution: University of Trento
+      yearFrom: 2024
       yearTo: 2024
 
   collaborators:
@@ -59,6 +64,10 @@ former:
       thesisId: AntonioMarsico_P
 
   members:
+    - personId: PietroDeMatteis
+      formerRole: Developer
+      yearTo: 2023
+
     - personId: MatteoGerola
       formerRole: Developer
       yearTo: 2023
@@ -110,10 +119,6 @@ former:
     - personId: FrancescoDePellegrini
       formerRole: Researcher
       yearTo: 2020
-
-    - personId: PietroDeMatteis
-      formerRole: Developer
-      yearTo: 2023
 
   students:
     - personId: StefanoDiSanto

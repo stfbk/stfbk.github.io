@@ -209,6 +209,12 @@
   usernameFBK: gfoletto
   email: gfoletto@fbk.eu
 
+- id: LorysMutti
+  name: Lorys
+  surname: Mutti
+  usernameFBK: lmutti
+  email: lmutti@fbk.eu
+
 # Former
 - id: FrancescoTomasselli
   name: Francesco
