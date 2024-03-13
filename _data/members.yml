@@ -53,13 +53,6 @@ current:
       yearFrom: 2023
       yearTo: 2024
 
-    - personId: MattiaBressan
-      type: B
-      topic: Adversarial Attacks in AI and their Consequences
-      institution: University of Trento
-      yearFrom: 2023
-      yearTo: 2024
-
     - personId: PierGuidoSeno
       type: B
       topic: Automatic Security Testing Tool for Identity Management Protocols
@@ -397,6 +390,9 @@ former:
 
     - personId: GianlucaSassetti
       thesisId: GianlucaSassetti_M
+
+    - personId: MattiaBressan
+      thesisId: MattiaBressan_B
 
   junior:
     - personId: YuriTomasini

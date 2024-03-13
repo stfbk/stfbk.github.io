@@ -854,3 +854,13 @@
   year: 2024
   cycle: XXXVI
   institution: University of Genoa
+
+- id: MattiaBressan_B
+  title: Towards Risk Assessment of Adversarial Machine Learning
+  type: B
+  author: MattiaBressan
+  supervisor: SilvioRanise
+  co-supervisor:
+    - MajidMollaeefar
+  year: 2024
+  institution: University of Trento
