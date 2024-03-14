@@ -110,8 +110,8 @@ menubar: TDI2024
   </tr>
   <tr>
     <td class="paper">
-      <p class="title">TBD</p>
-      <p class="authors">TBD</p>
+      <p class="title">Trust and Assurance in R&E Identity Federations</p>
+      <p class="authors">Davide Vaghetti (GARR)</p>
     </td>
     <td>13:30-13:50</td>
   </tr>
