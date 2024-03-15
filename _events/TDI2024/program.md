@@ -83,7 +83,7 @@ menubar: TDI2024
   <tr>
     <td class="talk">
       <p class="title">Qualified Trust Service Providers as main Pillars of the EU Digital Economy</p>
-      <p class="speakers">Andras Barsi</p>
+      <p class="speakers">Andras Barsi (Aruba PEC S.p.A.)</p>
     </td>
     <td>11:30-11:50</td>
   </tr>
