@@ -10,7 +10,7 @@ menubar: TDI2024
 
 # Program Committee
 - **Francesco Buccafurri** (University of Reggio Calabria)
-- **Daniel Fett** (Authlete)
+- **Daniel Fett** (Authlete, Inc.)
 - **Ralf Küsters** (University of Stuttgart)
 - **Cecilia Pasquini** (Fondazione Bruno Kessler)
 - **Amir Sharif** (Fondazione Bruno Kessler)

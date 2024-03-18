@@ -953,6 +953,11 @@
 - id: SimoneBrunello
   name: Simone
   surname: Brunello
+  affiliations:
+    - role: Research Assistant
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
   email: sbrunello@fbk.eu
 
 - id: SofiaPuttin
