@@ -90,7 +90,7 @@ menubar: TDI2024
   <tr>
     <td class="talk">
       <p class="title">Wallet-like Proof Of Possession on SAML 2.0 - 🍭</p>
-      <p class="speakers">Pietro Stroia (PagoPA)</p>
+      <p class="speakers">Francesco Grauso, Pietro Stroia (PagoPA)</p>
     </td>
     <td>11:50-12:10</td>
   </tr>
