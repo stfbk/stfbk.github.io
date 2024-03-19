@@ -89,8 +89,8 @@ menubar: TDI2024
   </tr>
   <tr>
     <td class="talk">
-      <p class="title">TBD</p>
-      <p class="speakers">TBD</p>
+      <p class="title">Wallet-like Proof Of Possession on SAML 2.0 - 🍭</p>
+      <p class="speakers">Pietro Stroia (PagoPA)</p>
     </td>
     <td>11:50-12:10</td>
   </tr>
@@ -195,7 +195,7 @@ menubar: TDI2024
   <tr>
     <td class="talk">
       <p class="title">eIDAS2: now that is final, how do we deal with it?</p>
-      <p class="speakers">Paolo Campegiani (Namirial SpA), other panelists (TBD)</p>
+      <p class="speakers">Paolo Campegiani (Namirial SpA), Daniel Fett (Authlete, Inc.), other panelists (TBD)</p>
     </td>
     <td>17:00-17:50</td>
   </tr>
