@@ -195,7 +195,7 @@ menubar: TDI2024
   <tr>
     <td class="talk">
       <p class="title">eIDAS2: now that is final, how do we deal with it?</p>
-      <p class="speakers">Paolo Campegiani (Namirial SpA), Daniel Fett (Authlete, Inc.), other panelists (TBD)</p>
+      <p class="speakers">Paolo Campegiani (Namirial SpA), Paolo De Rosa (European Commission), Daniel Fett (Authlete, Inc.)</p>
     </td>
     <td>17:00-17:50</td>
   </tr>
