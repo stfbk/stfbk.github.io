@@ -46,3 +46,91 @@ We look forward to receiving your submissions and engaging in fruitful and livel
 
 # Important Dates
 {% include_relative includes/important-dates.md %}
+
+<div class="columns mt-4">
+  <div class="column is-12-desktop is-12-tablet">
+    <h1>Sponsors (shared with OSW 2024)</h1>
+
+    <div class="columns mt-2 is-multiline">
+      <div class="column is-3-desktop is-4-tablet">
+        <a href="https://www.authlete.com/">
+          <div class="card sponsor">
+            <div class="card-image">
+              <figure class="image">
+                <img src="/assets/areas/events/TDI2024/sponsors/logo_authlete.png" width="200px" />
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-4">Authlete Inc.</p>
+              <p class="subtitle is-4 addon"><small>Main Sponsor</small></p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="column is-3-desktop is-4-tablet">
+        <a href="https://aws.amazon.com/">
+          <div class="card sponsor">
+            <div class="card-image">
+              <figure class="image">
+                <img src="/assets/areas/events/TDI2024/sponsors/logo_aws.png" width="200px" />
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-4">Amazon Web Services</p>
+              <p class="subtitle is-4 addon"><small>Gold Sponsor</small></p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="column is-3-desktop is-4-tablet">
+        <a href="https://duendesoftware.com/">
+          <div class="card sponsor">
+            <div class="card-image">
+              <figure class="image">
+                <img src="/assets/areas/events/TDI2024/sponsors/logo_duende.jpeg" width="200px" />
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-4">Duende Software</p>
+              <p class="subtitle is-4 addon"><small>Gold Sponsor</small></p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="column is-3-desktop is-4-tablet">
+        <a href="https://openid.net/">
+          <div class="card sponsor">
+            <div class="card-image">
+              <figure class="image">
+                <img src="/assets/areas/events/TDI2024/sponsors/logo_oidf.png" width="200px" />
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-4">OpenID Foundation</p>
+              <p class="subtitle is-4 addon"><small>Silver Sponsor</small></p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="column is-3-desktop is-4-tablet">
+        <a href="https://udelt.no/">
+          <div class="card sponsor">
+            <div class="card-image">
+              <figure class="image">
+                <img src="/assets/areas/events/TDI2024/sponsors/logo_udelt.png" width="200px" />
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-4">Udelt AS</p>
+              <p class="subtitle is-4 addon"><small>Bronze Sponsor</small></p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
