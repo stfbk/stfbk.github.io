@@ -411,4 +411,26 @@
     - name: Event
       url: https://www.openid.or.jp/summit/2024/en/
 
+- id: Enaip2024
+  title: "Consapevolezza e Sicurezza Informatica"
+  participants:
+    - SalvatoreManfredi
+    - GiadaSciarretta
+  eventName: ENAIP Trentino, Trento
+  startDate: "2024-03-15"
+  endDate: "2024-03-15"
+  category: School
+  subcategory: High School
+
+- id: Galilei2024
+  title: "Identità digitale"
+  participants:
+    - SalvatoreManfredi
+    - GiadaSciarretta
+  eventName: Liceo Scientifico "Galileo Galilei", Trento
+  startDate: "2024-03-21"
+  endDate: "2024-03-21"
+  category: School
+  subcategory: High School
+
 # PLEASE KEEP CHRONOLOGICAL ORDER BY START DATE WITHIN YEARS
