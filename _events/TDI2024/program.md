@@ -40,8 +40,8 @@ menubar: TDI2024
   </tr>
   <tr>
     <td class="talk">
-      <p class="title">Bridging Legal Requirements and Technical Solutions</p>
-      <p class="speakers">Giuseppe De Marco (Independent), Francesco Antonio Marino (Poligrafico e Zecca dello Stato, IPZS)</p>
+      <p class="title">Bridging Legal Requirements and Technical Solutions for the EUDI Wallet</p>
+      <p class="speakers">Giuseppe De Marco (Dipartimento per la Trasformazione Digitale, DTD), Francesco Antonio Marino (Poligrafico e Zecca dello Stato, IPZS)</p>
     </td>
     <td>9:20-9:40</td>
   </tr>
