@@ -29,7 +29,7 @@
 
 
 - id: iris_2023_a9ffb49276e1e183e5c8
-  id_iris: 344247.3,
+  id_iris: 344247,
   title: "Pruning Federated Learning Models for Anomaly Detection in Resource-Constrained Environments"
   authors:
     - SimoneMagnani

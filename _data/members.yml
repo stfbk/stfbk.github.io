@@ -36,6 +36,16 @@ current:
       institution: University of Trento
       yearFrom: 2024
       yearTo: 2024
+    - personId: CarloSorrentino
+      type: B
+      institution: University of Trento
+      yearFrom: 2024
+      yearTo: 2024
+    - personId: SilvanusBordignon
+      type: Intern
+      institution: University of Trento
+      yearFrom: 2024
+      yearTo: 2024
 
   collaborators:
     - PietroDeMatteis

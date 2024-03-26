@@ -215,6 +215,18 @@
   usernameFBK: lmutti
   email: lmutti@fbk.eu
 
+- id: CarloSorrentino
+  name: Carlo
+  surname: Sorrentino
+  usernameFBK: csorrentino
+  email: csorrentino@fbk.eu
+
+- id: SilvanusBordignon
+  name: Silvanus
+  surname: Bordignon
+  usernameFBK: sbordignon
+  email: sbordignon@fbk.eu
+
 # Former
 - id: FrancescoTomasselli
   name: Francesco
@@ -694,7 +706,7 @@
   surname: Altman
 
 - id: ElioSalvadori
-  name: Elio
+  name:  Elio
   surname: Salvadori
 
 - id: F.Cugini
