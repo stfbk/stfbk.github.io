@@ -1,6 +1,5 @@
 ---
 person: RiccardoZiglio
-
 links:
 - name: GitHub
   value: RickyZi
