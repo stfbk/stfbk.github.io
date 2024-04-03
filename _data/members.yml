@@ -42,7 +42,12 @@ current:
       yearFrom: 2024
       yearTo: 2024
     - personId: SilvanusBordignon
-      type: Intern
+      type: B 
+      institution: University of Trento
+      yearFrom: 2024
+      yearTo: 2024
+    - personId: MatteoBregola
+      type: B
       institution: University of Trento
       yearFrom: 2024
       yearTo: 2024

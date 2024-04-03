@@ -227,6 +227,12 @@
   usernameFBK: sbordignon
   email: sbordignon@fbk.eu
 
+- id: MatteoBregola
+  name: Matteo
+  surname: Bregola
+  usernameFBK: mbregola
+  email: mbregola@fbk.eu
+
 # Former
 - id: FrancescoTomasselli
   name: Francesco
