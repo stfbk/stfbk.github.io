@@ -17,6 +17,13 @@ menubar: TDI2024
     </td>
   </tr>
 
+  <tr class="logistical">
+    <td class="talk">
+      <p class="title">Registration</p>
+    </td>
+    <td>8:15-8:45</td>
+  </tr>
+
   <tr class="institutional">
     <td class="talk">
       <p class="title">Introductory Remarks</p>
