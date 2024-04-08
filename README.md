@@ -1,4 +1,4 @@
-This document provides instructions about the [RiSING website](https://risingfbk.github.io).
+This document provides instructions about the [RiSING website](https://rising.fbk.eu).
 
 Table of Contents:
 - [Structure of the website](#structure-of-the-website)
@@ -205,7 +205,7 @@ To create a new page for a complementary material, just add a new file `[Confere
 
 Guidelines on attachments can be found [above](#use-of-attachments).
 
-URL of the new page: `https://risingfbk.github.io/complementary/[ConferenceAcronym][Year]`.
+URL of the new page: `https://rising.fbk.eu/complementary/[ConferenceAcronym][Year]`.
 
 The page will **not** be listed on the website (unless explicitly linked to the related publication), but the link can be used in papers or other publications.
 
@@ -237,7 +237,7 @@ Finally, to list the event, you should edit the file [`_data/events.yml`](_data/
   url:                  # URL to the event page (also external)
 ```
 
-After this operation, the tool will be listed on the website (inside the [Events](https://risingfbk.github.io/events) page).
+After this operation, the tool will be listed on the website (inside the [Events](https://rising.fbk.eu/events) page).
 
 ### List an external event
 To list an external event, you should just edit the file [`_data/events.yml`](_data/events.yml) and append the following structure:
@@ -257,9 +257,9 @@ To create a new page for a project, just add a new file `[ProjectName].md` to th
 
 Guidelines on attachments can be found [above](#use-of-attachments).
 
-URL of the new page: `https://risingfbk.github.io/projects/[ProjectName]`.
+URL of the new page: `https://rising.fbk.eu/projects/[ProjectName]`.
 
-The project will be automatically listed on the website (inside the [Projects](https://risingfbk.github.io/projects) page).
+The project will be automatically listed on the website (inside the [Projects](https://rising.fbk.eu/projects) page).
 
 ## Tools
 ### Add a new page
@@ -267,7 +267,7 @@ To create a new page for a tool, just add a new file `[ToolName].md` to the [`_t
 
 Guidelines on attachments can be found [above](#use-of-attachments).
 
-URL of the new page: `https://risingfbk.github.io/tools/[ToolName]`.
+URL of the new page: `https://rising.fbk.eu/tools/[ToolName]`.
 
 The tool must then be listed by editing the page [`_data/tools.yml`](_data/tools.yml) and appending the following structure:
 ```yaml
@@ -280,7 +280,7 @@ The tool must then be listed by editing the page [`_data/tools.yml`](_data/tools
 
 In this case, the `urlDocumentation` field would be the URL of the page (see above).
 
-After this operation, the tool will be listed on the website (inside the [Tools](https://risingfbk.github.io/tools) page).
+After this operation, the tool will be listed on the website (inside the [Tools](https://rising.fbk.eu/tools) page).
 
 ### List an external tool
 To list a tool whose documentation is not in the new website, just edit the page [`_data/tools.md`](_data/tools.md) and appending the following structure:
