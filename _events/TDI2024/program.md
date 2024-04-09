@@ -196,7 +196,7 @@ menubar: TDI2024
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 5: Round Table</p>
-      <!--<p class="chair">Silvio Ranise</p>-->
+      <p class="chair">Silvio Ranise</p>
     </td>
   </tr>
   <tr>
