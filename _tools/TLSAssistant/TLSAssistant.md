@@ -154,6 +154,7 @@ In order to contribute to the project, allowing the Core module to automatically
 | Report                    | Output |
 
 ### Compliance Modules
+
 | Module Name   | Type       | Wrapper Used |
 | ------------- | ---------- | ------------ |
 | compare_one   | Comparison | testssl.sh   |
