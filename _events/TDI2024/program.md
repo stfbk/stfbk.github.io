@@ -112,7 +112,7 @@ menubar: TDI2024
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 3: Research and Innovation</p>
-      <!--<p class="chair">TBD</p>-->
+      <p class="chair">Marco Pernpruner</p>
     </td>
   </tr>
   <tr>
@@ -161,7 +161,7 @@ menubar: TDI2024
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 4: Specification and Standards</p>
-      <!--<p class="chair">TBD</p>-->
+      <p class="chair">Paul Bastian</p>
     </td>
   </tr>
   <tr>
@@ -196,7 +196,7 @@ menubar: TDI2024
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 5: Round Table</p>
-      <!--<p class="chair">TBD</p>-->
+      <!--<p class="chair">Silvio Ranise</p>-->
     </td>
   </tr>
   <tr>
