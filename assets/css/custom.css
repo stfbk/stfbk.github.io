@@ -858,6 +858,10 @@ table.program tr.recreational td {
   background-color: #def5ce;
 }
 
+table.program tr.logistical td {
+  background-color: #ceecf5;
+}
+
 table.program tr.session p,
 table.program td.keynote p,
 table.program td.paper p,

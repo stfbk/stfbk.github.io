@@ -35,7 +35,7 @@ menubar: TDI2024
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 1: Government and Public Administration</p>
-      <!--<p class="chair">TBD</p>-->
+      <p class="chair">Silvio Ranise</p>
     </td>
   </tr>
   <tr>
@@ -70,7 +70,7 @@ menubar: TDI2024
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 2: Industry</p>
-      <!--<p class="chair">TBD</p>-->
+      <p class="chair">Paolo Campegiani</p>
     </td>
   </tr>
   <tr>
@@ -131,7 +131,7 @@ menubar: TDI2024
   </tr>
   <tr>
     <td class="paper">
-      <p class="title">Enhancing Wallet Interoperability and Federation within user-centric authentication for healthcare</p>
+      <p class="title">Improve Wallet Interoperability and Federation in Blockchain-Based User-Centric Authentication for Healthcare</p>
       <p class="authors">Biagio Boi, Franco Cirillo, Marco De Santis, Christian Esposito (University of Salerno)</p>
     </td>
     <td>14:10-14:30</td>
