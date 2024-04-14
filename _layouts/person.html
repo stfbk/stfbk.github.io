@@ -161,6 +161,24 @@ layout: default
                     {% endfor %}
                 </section>
             {% endif %}
+
+            <!-- TEACHINGS -->
+            {% assign handledTeachingsByYear = "" | split: "," %}
+            {% for teaching in site.data.teaching %}
+                {% if teaching.lecturer contains page.person %}
+                    {% assign handledTeachingsByYear = handledTeachingsByYear | push: teaching %}
+                {% endif %}
+            {% endfor %}
+            {% assign handledTeachingsByYear = handledTeachingsByYear | group_by: "startYear" | sort: "name" | reverse %}
+            {% if handledTeachingsByYear.size > 0 %}
+                <section class="contains-teachings">
+                    <h1>Teaching Duties</h1>
+                    {% for year in handledTeachingsByYear %}
+                        <h4>{{ year.name }}</h4>
+                        {% include list-teaching.html source=year.items sort="name" style="list" %}
+                    {% endfor %}
+                </section>
+            {% endif %}
         </div>
 
         <div class="column is-4-tablet is-3-desktop">
