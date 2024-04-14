@@ -16,7 +16,7 @@
                     <th width="20%">Name</th>
                     <th width="10%">Level</th>
                     <th width="15%">Institution</th>
-                    <th width="20%">Involved People</th>
+                    <th width="20%">Lecturers</th>
                     <th width="15%">Period</th>
                     <th width="10%">Links</th>
                 </tr>
@@ -131,6 +131,31 @@
                 <td>{{ yearString }}</td>
                 <td>{{ linksString }}</td>
             </tr>
+        {% elsif style == "list" %}
+            <li>
+                <strong>{{ course.name }}</strong>
+                <br>
+                {% if levelString %}
+                    <strong>Level:</strong> {{ levelString }}
+                    <br>
+                {% endif %}
+                {% if institutionString %}
+                    <strong>Institution:</strong> {{ institutionString }}
+                    <br>
+                {% endif %}
+                {% if lecturersString %}
+                    <strong>Lecturers:</strong> {{ lecturersString }}
+                    <br>
+                {% endif %}
+                {% if yearString %}
+                    <strong>Period:</strong> {{ yearString }}
+                    <br>
+                {% endif %}
+                {% if linksString %}
+                    <strong>Links:</strong> {{ linksString }}
+                    <br>
+                {% endif %}
+            </li>
         {% endif %}
     {% endfor %}
 
