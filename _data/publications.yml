@@ -2021,14 +2021,11 @@
 
 
 - id: iris_2013_046ab87dae9e1692c668
-  id_iris: 313675,
+  id_iris: 313950,
   title: "Cognitive dynamic optical networks"
   authors:
-    - I.DeMiguel
+    - I.DMiguel
     - R.J.Duran
-    - T.Jimenez
-    - N.Fernandez
-    - J.C.Aguado
     - R.M.Lorenzo
     - A.Caballero
     - I.T.Monroy
@@ -2040,9 +2037,9 @@
     - A.Francescon
     - DomenicoSiracusa
     - ElioSalvadori
-  destination: journalofopticalcommunicationsandnetworking
+  destination: opticalfibercommunicationconferenceofc2013
   year: 2013
-  doi: 10.1364/JOCN.5.00A107
+  doi: 10.1364/OFC.2013.OW1H.1
 
 
 - id: iris_2013_01a34cfd543e78327a46
