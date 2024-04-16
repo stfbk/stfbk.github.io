@@ -14,7 +14,7 @@ layout: page
         {% assign yearn = year.name | plus:0 %}
             {% if yearn >= 2018 %}
                 <h1>{{ year.name }} <small>({{ year.items.size }})</small></h1>
-                {% include list-publications.html source=year.items sort="title" %}
+                {% include list-publications.html source=year.items sort="id_iris" reverse="true" %}
             {% endif %}
         {% endfor %}
     </div>
@@ -26,7 +26,7 @@ layout: page
             {% assign yearn = year.name | plus:0 %}
             {% if yearn < 2018 %}
                 <h2>{{ year.name }} <small>({{ year.items.size }})</small></h2>
-                {% include list-publications.html source=year.items sort="title" %}
+                {% include list-publications.html source=year.items sort="id_iris" reverse="true" %}
             {% endif %}
         {% endfor %}
     </div>
