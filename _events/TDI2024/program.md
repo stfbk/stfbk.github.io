@@ -28,6 +28,9 @@ menubar: TDI2024
     <td class="talk">
       <p class="title">Introductory Remarks</p>
       <p class="speakers">Giada Sciarretta (Fondazione Bruno Kessler), Marco Pernpruner (Fondazione Bruno Kessler and University of Genoa)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2024/slides/0_1_IntroductoryRemarks.pdf">Slides</a>
+      </p>
     </td>
     <td>8:45-9:00</td>
   </tr>
@@ -42,6 +45,9 @@ menubar: TDI2024
     <td class="talk">
       <p class="title">Demystifying the European Digital Identity Wallet: A Clear Insight</p>
       <p class="speakers">Paolo De Rosa (European Commission)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2024/slides/1_1_DeRosaPaolo.pdf">Slides</a>
+      </p>
     </td>
     <td>9:00-9:20</td>
   </tr>
@@ -49,6 +55,9 @@ menubar: TDI2024
     <td class="talk">
       <p class="title">Bridging Legal Requirements and Technical Solutions for the EUDI Wallet</p>
       <p class="speakers">Giuseppe De Marco (Dipartimento per la Trasformazione Digitale, DTD), Francesco Antonio Marino (Poligrafico e Zecca dello Stato, IPZS)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2024/slides/1_2_DeMarcoGiuseppe_MarinoFrancescoAntonio.pdf">Slides</a>
+      </p>
     </td>
     <td>9:20-9:40</td>
   </tr>
@@ -56,6 +65,9 @@ menubar: TDI2024
     <td class="talk">
       <p class="title">User Binding and Wallet Attestations in the context of eIDAS 2</p>
       <p class="speakers">Paul Bastian (Bundesdruckerei GmbH)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2024/slides/1_3_BastianPaul.pdf">Slides</a>
+      </p>
     </td>
     <td>9:40-10:00</td>
   </tr>
@@ -77,6 +89,9 @@ menubar: TDI2024
     <td class="talk">
       <p class="title">Healthy relationships: finding the right balance between trust and control when sharing confidential information through APIs on a national level</p>
       <p class="speakers">Steinar Noem (Udelt AS)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2024/slides/2_1_NoemSteinar.pdf">Slides</a>
+      </p>
     </td>
     <td>10:50-11:10</td>
   </tr>
@@ -84,6 +99,9 @@ menubar: TDI2024
     <td class="talk">
       <p class="title">GAIN Activity Report: Exploring Technical Feasibility for Inter-Ecosystem Interoperability</p>
       <p class="speakers">Takahiko Kawasaki (Authlete, Inc.)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2024/slides/2_2_KawasakiTakahiko.pdf">Slides</a>
+      </p>
     </td>
     <td>11:10-11:30</td>
   </tr>
@@ -91,6 +109,9 @@ menubar: TDI2024
     <td class="talk">
       <p class="title">Qualified Trust Service Providers as main Pillars of the EU Digital Economy</p>
       <p class="speakers">Andras Barsi (Aruba PEC S.p.A.)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2024/slides/2_3_BarsiAndras.pdf">Slides</a>
+      </p>
     </td>
     <td>11:30-11:50</td>
   </tr>
@@ -119,6 +140,9 @@ menubar: TDI2024
     <td class="paper">
       <p class="title">Trust and Assurance in R&E Identity Federations</p>
       <p class="authors">Davide Vaghetti (GARR)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2024/slides/3_1_VaghettiDavide.pdf">Slides</a>
+      </p>
     </td>
     <td>13:30-13:50</td>
   </tr>
@@ -133,6 +157,9 @@ menubar: TDI2024
     <td class="paper">
       <p class="title">Improve Wallet Interoperability and Federation in Blockchain-Based User-Centric Authentication for Healthcare</p>
       <p class="authors">Biagio Boi, Franco Cirillo, Marco De Santis, Christian Esposito (University of Salerno)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2024/slides/3_3_DeSantisMarco.pdf">Slides</a>
+      </p>
     </td>
     <td>14:10-14:30</td>
   </tr>
@@ -140,6 +167,9 @@ menubar: TDI2024
     <td class="paper">
       <p class="title">Aggregating Digital Identities through Bridging: An Integration of Open Authentication Protocols for Web3 Identifiers</p>
       <p class="authors">Ben Biedermann (University of Malta and acurraent UG), Joshua Ellul (University of Malta), Matthew Scerri (WIDE Consortium), Victoria Kozlova (acurraent UG)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2024/slides/3_4_BiedermannBen.pdf">Slides</a>
+      </p>
     </td>
     <td>14:30-14:45</td>
   </tr>
@@ -147,6 +177,9 @@ menubar: TDI2024
     <td class="paper">
       <p class="title">Revocable Anonymous Credentials from Attribute-Based Encryption</p>
       <p class="authors">Giovanni Bartolomeo (CNIT)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2024/slides/3_5_BartolomeoGiovanni.pdf">Slides</a>
+      </p>
     </td>
     <td>14:45-15:00</td>
   </tr>
@@ -168,6 +201,9 @@ menubar: TDI2024
     <td class="talk">
       <p class="title">Securing the Foundations of Verifiable Credential Ecosystems</p>
       <p class="speakers">Daniel Fett (Authlete, Inc.)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2024/slides/4_1_FettDaniel.pdf">Slides</a>
+      </p>
     </td>
     <td>15:40-16:00</td>
   </tr>
@@ -175,6 +211,9 @@ menubar: TDI2024
     <td class="talk">
       <p class="title">Crossing the Chasm: Trusted and Seamless Digital Identity Wallets Going Mainstream</p>
       <p class="speakers">Kristina Yasuda (SPRIND - Bundesagentur für Sprunginnovationen)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2024/slides/4_2_YasudaKristina.pdf">Slides</a>
+      </p>
     </td>
     <td>16:00-16:20</td>
   </tr>
@@ -182,6 +221,9 @@ menubar: TDI2024
     <td class="talk">
       <p class="title">The role of standards in Open Source Software Development</p>
       <p class="speakers">Torsten Lodderstedt (OpenWallet Foundation)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2024/slides/4_3_LodderstedtTorsten.pdf">Slides</a>
+      </p>
     </td>
     <td>16:20-16:40</td>
   </tr>
@@ -189,6 +231,9 @@ menubar: TDI2024
     <td class="talk">
       <p class="title">TLS 2.0 Adopting the OpenID Federation 1.0 Trust Chain: a New Paradigm for Internet Security</p>
       <p class="speakers">Vladimir Dzhuvinov (Connect2id)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2024/slides/4_4_DzhuvinovVladimir.pdf">Slides</a>
+      </p>
     </td>
     <td>16:40-17:00</td>
   </tr>
@@ -203,6 +248,9 @@ menubar: TDI2024
     <td class="talk">
       <p class="title">eIDAS2: now that is final, how do we deal with it?</p>
       <p class="speakers">Paolo Campegiani (Namirial SpA), Paolo De Rosa (European Commission), Daniel Fett (Authlete, Inc.)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2024/slides/5_1_RoundTable.pdf">Slides</a>
+      </p>
     </td>
     <td>17:00-17:50</td>
   </tr>

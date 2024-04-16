@@ -12,6 +12,7 @@ image: /assets/areas/events/TDI2024/tdi2024.jpg
 </blockquote>
 
 # Recent News
+- **16/04/2024**: The [slides](program) are now available.
 - **12/03/2024**: The [tentative program](program) has been published.
 - **22/02/2024**: The paper submission deadline has been extended to **March 1, 2024**.
 - **22/02/2024**: Registrations are open.
