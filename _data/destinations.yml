@@ -166,6 +166,16 @@
   type: conference
   proceedings: Proceedings of 21st International Conference on Information and Communications Security (ICICS 2019)
 
+- id: 27thconferenceoninnovationincloudsinternetandnetworks
+  name: 27th Conference on Innovation in Clouds, Internet and Networks
+  type: conference
+  proceedings: Proceedings of 27th Conference on Innovation in Clouds, Internet and Networks
+
+- id: 27thconferenceoninnovationincloudsinternetandnetworksandworkshopsicin
+  name: 27th Conference on Innovation in Clouds, Internet and Networks and Workshops (ICIN)
+  type: conference
+  proceedings: Proceedings of 27th Conference on Innovation in Clouds, Internet and Networks and Workshops (ICIN)
+
 - id: 39theuropeanconferenceandexhibitiononopticalcommunicationecoc2013
   name: 39th European Conference and Exhibition on Optical Communication, Ecoc 2013
   type: conference

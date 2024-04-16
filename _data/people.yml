@@ -712,7 +712,7 @@
   surname: Altman
 
 - id: ElioSalvadori
-  name: Elio
+  name:  Elio
   surname: Salvadori
 
 - id: F.Cugini
@@ -1539,6 +1539,10 @@
   name:  Shikhmanter
   surname: Yona
 
+- id: SilvioRanise
+  name:  Silvio
+  surname: Ranise
+
 - id: SkoldstromPontus
   name:  Sköldström
   surname: Pontus
@@ -1546,6 +1550,10 @@
 - id: StefanGuna
   name:  Stefan
   surname: Gună
+
+- id: StefanoBerlato
+  name:  Stefano
+  surname: Berlato
 
 - id: StefanoBraghin
   name:  Stefano

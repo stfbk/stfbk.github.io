@@ -28,6 +28,43 @@
   doi: 10.1016/j.comnet.2023.110162
 
 
+- id: iris_2024_b25f97d99a675a7c9ab0
+  id_iris: 346928,
+  title: "Cost Minimization in Multi-cloud Systems with Runtime Microservice Re-orchestration"
+  authors:
+    - MarcoZambianco
+    - SilvioCretti
+    - DomenicoSiracusa
+  destination: 27thconferenceoninnovationincloudsinternetandnetworks
+  year: 2024
+  doi: 10.1109/icin60470.2024.10494463
+
+
+- id: iris_2024_9e30598f582ce8e2cbc9
+  id_iris: 346387,
+  title: "Multi-Objective Microservice Orchestration: Balancing Security and Performance in CCAM"
+  authors:
+    - StefanoBerlato
+    - SilvioCretti
+    - DomenicoSiracusa
+    - SilvioRanise
+  destination: 27thconferenceoninnovationincloudsinternetandnetworksandworkshopsicin
+  year: 2024
+  doi: 10.1109/ICIN60470.2024.10494482
+
+
+- id: iris_2024_0b35deebf1b8e0fd2257
+  id_iris: 346927,
+  title: "Demonstrating Runtime Microservice Rescheduling in Hybrid Clouds for Cost Minimization"
+  authors:
+    - SilvioCretti
+    - MarcoZambianco
+    - DomenicoSiracusa
+  destination: 27thconferenceoninnovationincloudsinternetandnetworks
+  year: 2024
+  doi: 10.1109/icin60470.2024.10494495
+
+
 - id: iris_2023_a9ffb49276e1e183e5c8
   id_iris: 344247,
   title: "Pruning Federated Learning Models for Anomaly Detection in Resource-Constrained Environments"
