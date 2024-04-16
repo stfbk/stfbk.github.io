@@ -22,17 +22,11 @@ current:
     - AndreaBisegna
     - RiccardoZiglio
     - SimoneBrunello
+    - LauraPiva
 
   collaborators:
       
   students:
-    - personId: MarioScuro
-      type: M
-      topic: Privacy enhancing technologies for digital identity
-      institution: University of Trento
-      yearFrom: 2022
-      yearTo: 2023
-
     - personId: KaleemUllahKaleemUllah
       type: M
       topic: Countering rebroadcast attacks against remote identity proofing
@@ -71,6 +65,41 @@ current:
     - personId: MarcoFrassoni
       type: M
       topic: Design of e-Prescription Solutions in the EUDI Wallet Ecosystem 
+      institution: University of Trento
+      yearFrom: 2024
+      yearTo: 2024
+
+    - personId: AlessandroFontana
+      type: B
+      topic: Automated Vulnerability Detection for Mobile TLS Deployments
+      institution: University of Trento
+      yearFrom: 2024
+      yearTo: 2024
+
+    - personId: GiuseppeAlessioSciumè
+      type: M
+      topic: 
+      institution: University of Trento
+      yearFrom: 2024
+      yearTo: 2024
+
+    - personId: FilippoDeGrandi
+      type: B
+      topic: BAS tools - Implementation of an attack pattern to mimic a threat actor
+      institution: University of Trento
+      yearFrom: 2024
+      yearTo: 2024
+
+    - personId: StefanoCamposilvan
+      type: B
+      topic: Exploring Trustworthy AI
+      institution: University of Trento
+      yearFrom: 2024
+      yearTo: 2024
+
+    - personId: RobertoSavi
+      type: B
+      topic: Automatic Security Testing Tool for Identity Management Protocols
       institution: University of Trento
       yearFrom: 2024
       yearTo: 2024
@@ -394,6 +423,12 @@ former:
 
     - personId: MattiaBressan
       thesisId: MattiaBressan_B
+
+    - personId: MarioScuro
+      thesisId: MarioScuro_M
+
+    - personId: RiccardoZiglio
+      thesisId: RiccardoZiglio_M
 
   junior:
     - personId: YuriTomasini

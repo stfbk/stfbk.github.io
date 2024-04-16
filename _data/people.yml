@@ -59,6 +59,11 @@
   name: Alessandro
   surname: Colombo
 
+- id: AlessandroFontana
+  name: Alessandro
+  surname: Fontana
+  usernameFBK: afontana
+
 - id: AlessandroMerlo
   name: Alessandro
   surname: Merlo
@@ -357,6 +362,11 @@
   name: Filippo
   surname: Benedetti
 
+- id: FilippoDeGrandi
+  name: Filippo
+  surname: De Grandi
+  usernameFBK: fdegrandi
+
 - id: FrancescoAlberti
   name: Francesco
   surname: Alberti
@@ -446,6 +456,7 @@
 - id: GiuseppeAlessioSciumè
   name: Giuseppe Alessio
   surname: Sciumè
+  usernameFBK: gsciume
 
 - id: GiuseppeDeMarco
   name: Giuseppe
@@ -517,6 +528,16 @@
 - id: LeonardoDeMoura
   name: Leonardo
   surname: de Moura
+
+- id: LauraPiva
+  name: Laura
+  surname: Piva
+  affiliations:
+    - role: Visiting PhD Student
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: lpiva@fbk.eu
 
 - id: LeonardoVicentini
   name: Leonardo
@@ -869,6 +890,11 @@
   surname: Riggio
   email: rriggio@fbk.eu
 
+- id: RobertoSavi
+  name: Roberto
+  surname: Savi
+  usernameFBK: rsavi
+
 - id: RobertoTiella
   name: Roberto
   surname: Tiella
@@ -989,6 +1015,11 @@
       institution: University of Genoa
       place: Genoa, Italy
   email: sberlato@fbk.eu
+
+- id: StefanoCamposilvan
+  name: Stefano
+  surname: Camposilvan
+  usernameFBK: scamposilvan
 
 - id: StefanoDaRoit
   name: Stefano

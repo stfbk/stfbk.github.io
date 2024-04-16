@@ -855,6 +855,16 @@
   cycle: XXXVI
   institution: University of Genoa
 
+- id: MarioScuro_M
+  title: A Performance Analysis of the BBS Protocol
+  type: M
+  author: MarioScuro
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AlessandroTomasi
+  year: 2024
+  institution: University of Trento
+
 - id: MattiaBressan_B
   title: Towards Risk Assessment of Adversarial Machine Learning
   type: B
@@ -862,5 +872,15 @@
   supervisor: SilvioRanise
   co-supervisor:
     - MajidMollaeefar
+  year: 2024
+  institution: University of Trento
+
+- id: RiccardoZiglio_M
+  title: "Challenge-Based Liveness Detection vs Video Manipulation: Analysis of Face Swaps Attacks in Remote Identity Proofing Scenarios"
+  type: M
+  author: RiccardoZiglio
+  supervisor: SilvioRanise
+  co-supervisor:
+    - CeciliaPasquini
   year: 2024
   institution: University of Trento
