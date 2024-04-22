@@ -1959,7 +1959,7 @@
     Cybersecurity risk management consists of several steps including the selection of appropriate controls to minimize risks.  
     This is a difficult task that requires to search through all possible subsets of a set of available controls and identify those that minimize the risks of all stakeholders.
     Since stakeholders may have different perceptions of the risks (especially when considering the impact of threats), conflicting goals may arise that require to find the best possible trade-offs among the various needs.
-    In this work, we propose a quantitative and (semi-)automated approach to solve this problem based on the well-known notion of Pareto optimality.  For validation, we show how a prototype tool based on our approach can assist in the Data Protection Impact Assessment mandated by the General Data Protection Regulation on a simplified–but realistic–use case scenario.  We also evaluate the scalability of the approach by conducting an experimental evaluation with the prototype with encouraging results.
+    In this work, we propose a quantitative and (semi-)automated approach to solve this problem based on the well-known notion of Pareto optimality.  For validation, we show how a prototype tool based on our approach can assist in the Data Protection Impact Assessment mandated by the General Data Protection Regulation on a simplified-but realistic-use case scenario.  We also evaluate the scalability of the approach by conducting an experimental evaluation with the prototype with encouraging results.
   destination: COSE
   year: 2023
   doi: 10.1016/j.cose.2023.103206
@@ -2080,6 +2080,25 @@
   urlNews: /news/2023/07/17/paper-accepted-at-tdsc/
 
 ## 2024
+- id: SECRYPT2024
+  title: "Automating Compliance for Improving TLS Security Postures: An Assessment of Public Administration Endpoints"
+  authors:
+    - RiccardoGermenia
+    - SalvatoreManfredi
+    - MatteoRizzi
+    - GiadaSciarretta
+    - AlessandroTomasi
+    - SilvioRanise
+  abstract: >
+    System administrators tasked with configuring TLS servers must make numerous decisions - e.g., selecting the appropriate ciphers, signature algorithms, and TLS extensions - and it may not be obvious, even to security experts, which decisions may expose to attacks. To address this issue, raise awareness, and establish a security threshold, numerous cybersecurity agencies around the world issue technical guidelines for the use and configuration of TLS. 
+    In this paper we carry out an assessment of the TLS security posture of European and US based endpoints in relation to their respective national cybersecurity guidelines. Our results show that compliance levels are insufficient, as only a fraction of these recommendations are successfully implemented. We attempt to identify potential causes by presenting a series of observations that may underlie the lack of compliance.
+    The analysis is conducted by employing a TLS analyzer we developed to automate the compliance analysis and the application of the suggested changes, assisting system administrators during this important yet complex task.
+    Our tool and the dataset containing the machine-readable requirements for automating conformity assessment are publicly available, thus making the process auditable and the assets extensible.
+  destination: SECRYPT2024
+  year: 2024
+  urlComplementary: /complementary/SECRYPT2024
+  urlNews: /news/2024/04/22/paper-accepted-at-secrypt-2024/
+
 - id: TOSEM2024
   id_iris: 344227
   title: "Mitigating Debugger-based Attacks to Java Applications with Self-Debugging"

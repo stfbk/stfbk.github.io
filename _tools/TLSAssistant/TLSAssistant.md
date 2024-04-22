@@ -18,6 +18,7 @@ publications:
     - ETACS2021
     - CODASPY2022_TLSA2
     - SACMAT2022_TLSA2
+    - SECRYPT2024
 
 theses:
     - MatteoRizzi_B
