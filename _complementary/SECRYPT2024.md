@@ -12,6 +12,8 @@ people:
     - AlessandroTomasi
     - SilvioRanise
 
+peopleOrder: surname
+
 ---
 
 **Dataset**:
