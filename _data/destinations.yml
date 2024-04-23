@@ -171,10 +171,10 @@
   type: conference
   proceedings: Proceedings of 27th Conference on Innovation in Clouds, Internet and Networks
 
-- id: 27thconferenceoninnovationincloudsinternetandnetworksandworkshopsicin
-  name: 27th Conference on Innovation in Clouds, Internet and Networks and Workshops (ICIN)
+- id: 27thconferenceoninnovationincloudsinternetandnetworksicin
+  name: 27th Conference on Innovation in Clouds, Internet and Networks (ICIN)
   type: conference
-  proceedings: Proceedings of 27th Conference on Innovation in Clouds, Internet and Networks and Workshops (ICIN)
+  proceedings: Proceedings of 27th Conference on Innovation in Clouds, Internet and Networks (ICIN)
 
 - id: 39theuropeanconferenceandexhibitiononopticalcommunicationecoc2013
   name: 39th European Conference and Exhibition on Optical Communication, Ecoc 2013
