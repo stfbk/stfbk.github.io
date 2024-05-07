@@ -1,7 +1,7 @@
 title: Security & Trust
 tagline: Research Unit in Fondazione Bruno Kessler (FBK)
 logo: /assets/images/logos/ST_symbol.png
-remote_theme: chrisrhymes/bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme@v0.13.3
 markdown: kramdown
 repository: stfbk/stfbk.github.io
 url: "https://st.fbk.eu"
