@@ -224,6 +224,9 @@ former:
 
     - personId: AndreaBisegna
       thesisId: AndreaBisegna_P
+
+    - personId: MarcoPernpruner
+      thesisId: MarcoPernpruner_P
   
   students:
     - personId: MarcoPernpruner

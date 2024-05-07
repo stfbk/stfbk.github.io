@@ -618,14 +618,10 @@
   name: Marco
   surname: Pernpruner
   affiliations:
-    - role: PhD Student
+    - role: Researcher
       unit: Security & Trust
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-    - role: PhD Student
-      unit: DIBRIS
-      institution: University of Genoa
-      place: Genoa, Italy
   email: mpernpruner@fbk.eu
   phone: "+390461314337"
 
