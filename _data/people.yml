@@ -233,6 +233,12 @@
   usernameFBK: mbregola
   email: mbregola@fbk.eu
 
+- id: SamueleBouveret
+  name: Samuele
+  surname: Bouveret
+  usernameFBK: mbouveret
+  email: mbouveret@fbk.eu
+
 # Former
 - id: FrancescoTomasselli
   name: Francesco
