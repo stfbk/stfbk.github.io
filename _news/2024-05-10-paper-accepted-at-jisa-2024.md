@@ -10,8 +10,6 @@ people:
     - AmirSharif
     - AlessandroTomasi
     - SilvioRanise
-tools:
-    - mIDAssistant
 
 projects:
     - FC_eID

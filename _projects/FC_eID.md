@@ -9,6 +9,7 @@ publications:
     - CODASPY2022_TLSA2
     - FARES2022_EIDAS
     - MDPI2022
+    - JISA2024
 
 tools:
     - Micro-Id-Gym
