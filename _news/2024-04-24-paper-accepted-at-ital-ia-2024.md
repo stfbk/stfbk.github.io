@@ -8,4 +8,7 @@ people:
     - EleonoraMarchesini
     - RobertoCarbone
     - SilvioRanise
+
+projects:
+    - JuLIA
 ---

@@ -2092,6 +2092,24 @@
   destination: Ital-IA2024
   year: 2024
   urlNews: /news/2024/04/24/paper-accepted-at-ital-ia-2024/
+ 
+- id: JISA2024
+  title: On Cryptographic Mechanisms for the Selective Disclosure of Verifiable Credentials
+  authors:
+    - AndreaFlamini
+    - GiadaSciarretta
+    - MarioScuro
+    - AmirSharif
+    - AlessandroTomasi
+    - SilvioRanise
+  abstract: >
+    Verifiable credentials are a digital analogue of physical credentials. Their authenticity and integrity are protected by means of cryptographic techniques, and they can be presented to verifiers to reveal attributes or even predicates about the attributes included in the credential.
+    One way to preserve privacy during presentation consists in selectively disclosing the attributes in a credential. In this paper we present the most widespread cryptographic mechanisms used to enable selective disclosure of attributes identifying two categories: the ones based on hiding commitments - e.g., mdl ISO/IEC 18013-5 - and the ones based on non-interactive zero-knowledge proofs - e.g., BBS signatures. We also include a description of the cryptographic primitives used to design such cryptographic mechanisms.
+    We describe the design of the cryptographic mechanisms and compare them by performing an analysis on their standard maturity in terms of standardization, cryptographic agility and quantum safety, then we compare the features that they support with main focus on the unlinkability of presentations, the ability to create predicate proofs and support for threshold credential issuance.
+    Finally we perform an experimental evaluation based on the Rust open source implementations that we have considered most relevant. In particular we evaluate the size of credentials and presentations built using different cryptographic mechanisms and the time needed to generate and verify them. We also highlight some trade-offs that must be considered in the instantiation of the cryptographic mechanisms.
+  destination: JISA
+  year: 2024
+  urlNews: /news/2024/05/10/paper-accepted-at-jisa/
 
 - id: SECRYPT2024
   title: "Automating Compliance for Improving TLS Security Postures: An Assessment of Public Administration Endpoints"
