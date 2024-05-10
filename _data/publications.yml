@@ -2080,6 +2080,19 @@
   urlNews: /news/2023/07/17/paper-accepted-at-tdsc/
 
 ## 2024
+- id: Ital-IA2024
+  title: "A Risk-based Approach to Trustworthy AI Systems for Judicial Procedures"
+  authors:
+    - MajidMollaeefar
+    - EleonoraMarchesini
+    - RobertoCarbone
+    - SilvioRanise
+  abstract: >
+    In the rapidly evolving landscape of Artificial Intelligence (AI), ensuring the trustworthiness of AI tools deployed in sensitive use cases, such as judicial or healthcare processes, is paramount. The management of AI risks in judicial systems necessitates a holistic approach that includes various elements, such as technical, ethical considerations, and legal responsibilities. This approach should not only involve the application of risk management frameworks and regulations but also focus on the education and training of legal professionals. For this, we propose a risk-based approach designed to evaluate and mitigate potential risks associated with AI applications in judicial settings. Our approach is a semi-automated process that integrates both user (i.e., judge) feedback and technical insights to assess the AI tool’s alignment with Trustworthy AI principles.
+  destination: Ital-IA2024
+  year: 2024
+  urlNews: /news/2024/04/24/paper-accepted-at-ital-ia-2024/
+
 - id: SECRYPT2024
   title: "Automating Compliance for Improving TLS Security Postures: An Assessment of Public Administration Endpoints"
   authors:
