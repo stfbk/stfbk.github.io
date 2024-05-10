@@ -5,6 +5,7 @@ website: https://serics.eu/en/services/spoke-5-crittografia-sicurezza-sistemi-di
 
 publications:
     - SECRYPT2023
+    - JISA2024
 
 ---
 In the scope of the Italian Partnership - Partenariato Esteso "Security and Rights in CyberSpace" (SeRiCS), FBK is participating in the "Spoke 5: Cryptography and Distributed Systems Security" project "Secure and TRaceable Identities in Distributed Environments (STRIDE)".
