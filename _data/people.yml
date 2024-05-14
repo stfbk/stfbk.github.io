@@ -665,12 +665,7 @@
 - id: MatteoBitussi
   name: Matteo
   surname: Bitussi
-  affiliations:
-    - role: Research Assistant
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: mbitussi@fbk.eu
+  usernameFBK: mbitussi
 
 - id: MatteoGrasso
   name: Matteo
