@@ -538,7 +538,7 @@
   surname: Andres
 
 - id: BehnamShariati
-  name: Behnam
+  name:  Behnam
   surname: Shariati
 
 - id: Bogdan-MihaiAndrus
@@ -1038,8 +1038,8 @@
   surname: Rodríguez
 
 - id: JoseManuelRivas-Moscoso
-  name: Jose Manuel
-  surname: Rivas-Moscoso
+  name:  Jose
+  surname: Manuel Rivas-Moscoso
 
 - id: JoseSanchez
   name:  José

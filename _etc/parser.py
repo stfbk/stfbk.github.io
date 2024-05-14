@@ -20,7 +20,7 @@ removed_chars_ids = [".", "+", ":", "&", "-", "?", " ", ";", ",", "'", "`", "(",
 def generate_publication_id(data: dict):
     # citation['title'].replace(' ', '').replace(":", "").lower() + str(citation['year'])
     return "iris_" + str(data['year']) + "_" + \
-            hashlib.md5(f"{data['title'].strip()}:::::{data['year']}:::::{data['title'].strip()}".encode('utf-8')).hexdigest()[:20]
+            hashlib.md5(f"{data['title'].strip()}:::::{data['year']}:::::{data['doi'].strip() if 'doi' in data else data['title']}".encode('utf-8')).hexdigest()[:20]
 
 
 def remove_accents(input_str: str):
@@ -76,8 +76,15 @@ def generate_yaml(citation):
 
     generated_id = generate_publication_id(citation)
     if generated_id in seen_generated_ids:
-        print("There is a hash collision. (hash: " + generated_id + ")")
+        # # Try re-hashing with a different title
+        # print("Possible hash collision. (hash: " + generated_id + "); citation: " + citation['title'])
+        # citation['title'] = citation['title'] + citation['id_full']
+        # generated_id = generate_publication_id(citation)
+        # if generated_id in seen_generated_ids:
+        print("There is a hash collision. (hash: " + generated_id + "); citation: " + citation['title'])
         return
+        # else:
+        #    citation['title'] = citation['title'][:-len(citation['id_full'])]
     seen_generated_ids.append(generated_id)
 
     if "conference" in citation and "journal" in citation:
