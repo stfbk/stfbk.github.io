@@ -93,6 +93,7 @@
   name: Marco
   surname: Zambianco
   email: mzambianco@fbk.eu
+  iris_id: rp24978
   affiliations:
     - role: Researcher
       unit: Robust and Secure Distributed Computing
