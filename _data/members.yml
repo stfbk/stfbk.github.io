@@ -9,7 +9,6 @@ current:
     - MarcoPernpruner
     - SalvatoreManfredi
     - MatteoRizzi
-    - MatteoBitussi
     - EleonoraMarchesini
     - ElhamArshad
     - MuhammadImran
@@ -178,6 +177,11 @@ former:
       formerRole: Junior Researcher
       yearFrom: 2022
       yearTo: 2023
+
+    - personId: MatteoBitussi
+      formerRole: Research Assistant
+      yearFrom: 2022
+      yearTo: 2024
 
   phdStudents:
     - personId: FedericoSinigaglia
