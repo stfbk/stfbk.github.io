@@ -148,6 +148,7 @@
   titleAddon: Introducing Machine Learning Techniques to Empower the Control and Management of Optical Networks
   url: /projects/OLearn
   startDate: "2018-09-01"
+  endDate: "2023-12-31"
   partners:
     - Cisco
 
@@ -185,14 +186,22 @@
   titleAddon: Clustered Traffic Engineering in large ISP Networks
   url: /projects/BeeHive
   startDate: "2016-09-01"
+  endDate: "2021-12-31"
   partners:
     - Cisco
 
 - id: LBO
   title: LBO
-  titleAddon: Local Bandwith Optimization
+  titleAddon: Local Bandwidth Optimization
   url: /projects/LBO
   startDate: "2018-01-01"
+  endDate: "2023-12-31"
   partners:
     - Cisco
-  # endDate: "                       # End date in YYYY-MM-DD format (optional)"
+  
+- id: FLEXINDUSTRIES
+  title: FLEXINDUSTRIES
+  titleAddon: Digitally-enabled FLEXible Industries for reliable energy grids under high penetration of Variable Renewable Energy Sources
+  url: /projects/FLEXINDUSTRIES
+  startDate: "2022-06-01"
+  partners: For a complete list of the partners please view the CORDIS page of project.
