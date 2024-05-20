@@ -2094,6 +2094,7 @@
   urlNews: /news/2024/04/24/paper-accepted-at-ital-ia-2024/
  
 - id: JISA2024
+  id_iris: 347387
   title: On Cryptographic Mechanisms for the Selective Disclosure of Verifiable Credentials
   authors:
     - AndreaFlamini
@@ -2109,6 +2110,7 @@
     Finally we perform an experimental evaluation based on the Rust open source implementations that we have considered most relevant. In particular we evaluate the size of credentials and presentations built using different cryptographic mechanisms and the time needed to generate and verify them. We also highlight some trade-offs that must be considered in the instantiation of the cryptographic mechanisms.
   destination: JISA
   year: 2024
+  doi: 10.1016/j.jisa.2024.103789
   urlNews: /news/2024/05/10/paper-accepted-at-jisa/
 
 - id: SECRYPT2024

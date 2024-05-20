@@ -433,4 +433,13 @@
   category: School
   subcategory: High School
 
+- id: FormalTechniques2024
+  title: The Role of Formal Methods in Digital Identity Management
+  participants:
+    - MarcoPernpruner
+  eventName: Workshop for the Master Course "Formal Techniques for Cryptographic Protocol Analysis" at UniTN
+  startDate: "2024-05-16"
+  endDate: "2024-05-16"
+  category: Specialized
+
 # PLEASE KEEP CHRONOLOGICAL ORDER BY START DATE WITHIN YEARS
