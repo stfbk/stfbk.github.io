@@ -854,6 +854,8 @@
   year: 2024
   cycle: XXXVI
   institution: University of Genoa
+  urlComplementary: /complementary/UniGe2024_Pernpruner
+  doi: 10.15167/pernpruner-marco_phd2024-05-06
 
 - id: MarioScuro_M
   title: A Performance Analysis of the BBS Protocol

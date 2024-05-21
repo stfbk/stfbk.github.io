@@ -66,6 +66,7 @@ theses:
     - NadiaMetoui_P
     - NicolaCasagrande_B
     - MatteoBitussi_B
+    - MarcoPernpruner_P
 
 ---
 
