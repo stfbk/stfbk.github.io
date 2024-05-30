@@ -418,6 +418,10 @@
   name: IEEE Transactions on Network and Service Management
   type: journal
 
+- id: ieeetransactionsonservicescomputing
+  name: IEEE Transactions on Services Computing
+  type: journal
+
 - id: ifipieeeinternationalsymposiumonintegratednetworkmanagementim20132013
   name: Ifip/ieee International Symposium on Integrated Network Management (IM 2013), 2013
   type: conference
@@ -481,7 +485,6 @@
 - id: opticalfibercommunicationsconferenceandexhibitionofc2014
   name: Optical Fiber Communications Conference and Exhibition (OFC), 2014
   type: conference
-  proceedings: Proceedings of Optical Fiber Communications Conference and Exhibition (OFC), 2014
 
 - id: opticalfibercommunicationsconferenceandexhibitionofc2017
   name: Optical Fiber Communications Conference and Exhibition (OFC), 2017

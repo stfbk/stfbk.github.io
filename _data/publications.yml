@@ -65,6 +65,19 @@
   doi: 10.1016/j.cose.2023.103597
 
 
+- id: iris_2024_5803b4d065e39e763bc9
+  id_iris: 347587,
+  title: "Resource-aware Cyber Deception for Microservice-based Applications"
+  authors:
+    - MarcoZambianco
+    - ClaudioFacchinetti
+    - RobertoDoriguzziCorin
+    - DomenicoSiracusa
+  destination: ieeetransactionsonservicescomputing
+  year: 2024
+  doi: 10.1109/tsc.2024.3395919
+
+
 - id: iris_2023_d10c4cdad8055829690b
   id_iris: 336467,
   title: "Locality-aware deployment of application microservices for multi-domain fog computing"
