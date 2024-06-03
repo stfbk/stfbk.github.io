@@ -442,4 +442,17 @@
   endDate: "2024-05-16"
   category: Specialized
 
+- id: EIC2024
+  title: "The eIDAS 2.0 Era: Exploring the Security Landscape of Digital Identity Wallets"
+  participants:
+    - AmirSharif
+    - GiadaSciarretta
+  eventName: European Identity and Cloud Conference (EIC)
+  startDate: "2024-06-04"
+  endDate: "2024-06-07"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://www.kuppingercole.com/events/eic2024/
+
 # PLEASE KEEP CHRONOLOGICAL ORDER BY START DATE WITHIN YEARS
