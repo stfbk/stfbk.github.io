@@ -1,5 +1,6 @@
 ---
 title: Talk at the European Identity and Cloud Conference
+tags: [seminars]
 papers:
     - EIC2024
 
