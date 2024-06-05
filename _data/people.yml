@@ -66,6 +66,16 @@
       unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
+
+- id: HenriqueBeckerBrum
+  name: Henrique
+  surname: Becker Brum
+  email: hbeckerbrum@fbk.eu
+  affiliations:
+    - role: Junior Researcher
+      unit: Robust and Secure Distributed Computing
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
   
 - id: LorenzoGalvagni
   name: Lorenzo
