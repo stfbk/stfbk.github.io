@@ -1,3 +1,3 @@
-- **Submission deadline**:      03.06.2024
-- **Notification to authors**:  03.07.2024
-- **Camera-ready versions**:    20.07.2024
+- **Submission deadline**:      ~03.06.2024~ 19.06.2024
+- **Notification to authors**:  ~03.07.2024~ 15.07.2024
+- **Camera-ready versions**:    ~20.07.2024~ 16.08.2024
