@@ -7,9 +7,9 @@ image: ServSecOrchestration.jpg
 order: 3
 
 publications: 
-  - iris_2020_c6aac42fc3d4319086c0
-  - iris_2019_15c807a7a056b53b574b
-  - iris_2023_523750bb7bc227657849
+  - iris_2020_d64aa6e851f906e73853
+  - iris_2019_3ea4c72f4dcb4e5933ff
+  - iris_2023_d10c4cdad8055829690b
 ---
 
 Service orchestration, in a broader context, refers to the coordination

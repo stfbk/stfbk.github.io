@@ -6,9 +6,9 @@ people:
     - DomenicoSiracusa
 peopleOrder: surname 
 publications: 
-    - iris_2020_8ef400e14399f6ec4e8b
-    - iris_2023_17155060f5cdff94fd95
-    - iris_2021_98b63c1443be149c33ca
+    - iris_2020_3de554176570db423bcd
+    - iris_2023_218be0b36d780a2d0eaf
+    - iris_2021_d41062774c467ff7c845
 ---
 
 **LUCID** (Lightweight, Usable CNN in DDoS Detection) is a lightweight Deep Learning-based DDoS detection framework suitable for online resource-constrained environments, which leverages Convolutional Neural Networks (CNNs) to learn the behaviour of DDoS and benign traffic flows with both low processing overhead and attack detection time. LUCID includes a dataset-agnostic pre-processing mechanism that produces traffic observations consistent with those collected in existing online systems, where the detection algorithms must cope with segments of traffic flows collected over pre-defined time windows.
