@@ -2046,6 +2046,20 @@
   urlComplementary: /complementary/POLSIM2023
   #urlNews: /news/2020/02/15/paper-accepted-at-asiaccs-2020/
 
+- id: RACS2023
+  id_iris: 344627
+  title: "SecCo: Automated Services to Secure Containers in the DevOps Paradigm"
+  authors:
+    - LucaVerderame
+    - LucaCaviglione
+    - RobertoCarbone
+    - AlessioMerlo
+  abstract: >
+    Containers are core building blocks for creating applications based on the microservice paradigm. However, assessing their security is complex, especially when deployed in distributed and heterogeneous scenarios. Moreover, developers and IT operators should only focus on integration and delivery processes without dealing with tasks to guarantee securing requirements. To overcome such issues, in this paper, we introduce the ideas at the basis of Project SecCo (Securing Containers), i.e., an architecture for extending and improving current security assessment methodologies into the continuous integration and continuous delivery DevOps pipeline. To this end, SecCo proposes a framework able to orchestrate new automatic security services to prevent and reduce security vulnerabilities in the design, implementation, and deployment phases, and to identify and mitigate, at runtime, attempts to exploit them. The paper also showcases the main research challenges to be addressed for pursuing the vision of SecCo.
+  destination: RACS2023
+  year: 2023
+  doi: 10.1145/3599957.3606222
+
 - id: SECRYPT2023
   id_iris: 338307
   title: "A First Appraisal of Cryptographic Mechanisms for the Selective Disclosure of Verifiable Credentials"

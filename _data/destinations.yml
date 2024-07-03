@@ -1064,6 +1064,15 @@
   location: Luxembourg City, Luxembourg 
   startDate: "2023-10-03"
   endDate: "2023-10-06"
+
+- id: RACS2023
+  name: 2023 International Conference on Research in Adaptive and Convergent Systems
+  acronym: RACS 2023
+  url: https://www.sigapp.org/RACS/RACS2023/
+  type: conference
+  location: Gdansk, Poland
+  startDate: "2023-08-06"
+  endDate: "2023-08-10"
   
 - id: SECRYPT2023
   name: 20th International Conference on Security and Cryptography

@@ -564,6 +564,10 @@
   name: Luca
   surname: Bazzanella
 
+- id: LucaCaviglione
+  name: Luca
+  surname: Caviglione
+
 - id: LucaCompagna
   name: Luca
   surname: Compagna
@@ -571,6 +575,10 @@
 - id: LucaMorgese
   name: Luca
   surname: Morgese
+  
+- id: LucaVerderame
+  name: Luca
+  surname: Verderame
 
 - id: LucaViganò
   name: Luca
