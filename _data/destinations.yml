@@ -1084,6 +1084,15 @@
   endDate: "2023-07-12"
 
 ## 2024
+- id: EUROSP2024
+  name: 9th IEEE European Symposium on Security and Privacy
+  acronym: EUROS&P 2024
+  url: https://eurosp2024.ieee-security.org/
+  type: conference
+  location: Vienna, Austria
+  startDate: "2024-07-08"
+  endDate: "2024-07-12"
+
 - id: Ital-IA2024
   name: 4th CINI National Conference on Artificial Intelligence
   acronym: Ital-IA 2024

@@ -1,9 +1,11 @@
 ---
-project: SeCco
+project: SecCo
 funding: The project SERICS (PE00000014) is funded under the MUR National Recovery and Resilience Plan funded by the European Union --- NextGenerationEU
 website: https://serics.eu/en/services/spoke-4-sicurezza-sistemi-operativi-virtualizzazione/
 
 publications:
+  - ARES2023
+  - DBSEC2023
   - RACS2023
 
 ---

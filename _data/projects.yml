@@ -120,11 +120,11 @@
   endDate: "2014-09-30"
   url: /projects/SecAC
 
-- id: SeCco
-  title: SeCco
+- id: SecCo
+  title: SecCo
   titleAddon: Securing Containers
   logo: logo_SERICS.png
-  url: /projects/SeCco
+  url: /projects/SecCo
 
 - id: SECENTIS
   title: SECENTIS

@@ -2010,6 +2010,7 @@
   urlNews: /news/2023/11/20/paper-accepted-at-ecml-pkdd-post-workshop-proceedings/
 
 - id: EVOTEID2023
+  id_iris: 346347
   year: 2023
   title: "Coercion-resistant i-voting with short PIN and OAuth 2.0"
   authors:
@@ -2094,6 +2095,19 @@
   urlNews: /news/2023/07/17/paper-accepted-at-tdsc/
 
 ## 2024
+- id: EUROSP2024
+  title: "CSRF-ing the SSO waves: security testing of SSO-based account linking process"
+  authors:
+    - AndreaBisegna
+    - MatteoBitussi
+    - RobertoCarbone
+    - LucaCompagna
+    - SilvioRanise
+    - AvinashSudhodanan
+  abstract:
+  destination: EUROSP2024
+  year: 2024
+
 - id: Ital-IA2024
   title: "A Risk-based Approach to Trustworthy AI Systems for Judicial Procedures"
   authors:
