@@ -2089,7 +2089,8 @@
   abstract: >
     Authentication protocols represent the entry point to online services, so they must be sturdily designed in order to allow only authorized users to access the underlying data. However, designing authentication protocols is a complex process: security designers should carefully select the technologies to involve and integrate them properly in order to prevent potential vulnerabilities. In addition, these choices are usually restricted by further factors, such as the requirements associated with the scenario, the regulatory framework, the dimensions to balance (e.g., security vs. usability), and the standards to rely on. We come to the rescue by presenting an automated multi-layered methodology we have developed to assist security designers in this phase: by repeatedly evaluating their protocols, they can select the security mitigations to consider until they reach the desired security level, thus enabling a security-by-design approach. For concreteness, we also show how we have applied our methodology to a real use case scenario in the context of a collaboration with the Italian Government Printing Office and Mint.
   destination: TDSC
-  year: 2023
+  destinationAddon: Volume 21, Issue 4, July/August 2024, Pages 1935-1950
+  year: 2024
   doi: 10.1109/TDSC.2023.3296210
   urlComplementary: /complementary/TDSC2022
   urlNews: /news/2023/07/17/paper-accepted-at-tdsc/
