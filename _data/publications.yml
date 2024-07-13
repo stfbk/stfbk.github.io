@@ -2158,6 +2158,7 @@
     Our tool and the dataset containing the machine-readable requirements for automating conformity assessment are publicly available, thus making the process auditable and the assets extensible.
   destination: SECRYPT2024
   year: 2024
+  doi: 10.5220/0012764700003767
   urlComplementary: /complementary/SECRYPT2024
   urlNews: /news/2024/04/22/paper-accepted-at-secrypt-2024/
 
