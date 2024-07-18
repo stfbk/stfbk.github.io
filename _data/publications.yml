@@ -2143,6 +2143,7 @@
   urlNews: /news/2024/05/10/paper-accepted-at-jisa/
 
 - id: SECRYPT2024
+  id_iris: 348308
   title: "Automating Compliance for Improving TLS Security Postures: An Assessment of Public Administration Endpoints"
   authors:
     - RiccardoGermenia
