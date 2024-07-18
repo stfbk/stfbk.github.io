@@ -428,6 +428,16 @@
   name: Gian Paolo
   surname: Rossi
 
+- id: GiovanniCorti
+  name: Giovanni
+  surname: Corti
+  affiliations:
+    - role: Research Assistant
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: gcorti@fbk.eu
+
 - id: GiovanniFerronato
   name: Giovanni
   surname: Ferronato
@@ -564,6 +574,10 @@
   name: Luca
   surname: Bazzanella
 
+- id: LucaCaviglione
+  name: Luca
+  surname: Caviglione
+
 - id: LucaCompagna
   name: Luca
   surname: Compagna
@@ -571,6 +585,10 @@
 - id: LucaMorgese
   name: Luca
   surname: Morgese
+  
+- id: LucaVerderame
+  name: Luca
+  surname: Verderame
 
 - id: LucaViganò
   name: Luca

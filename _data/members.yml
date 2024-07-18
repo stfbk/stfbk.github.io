@@ -22,17 +22,11 @@ current:
     - RiccardoZiglio
     - SimoneBrunello
     - LauraPiva
+    - GiovanniCorti
 
   collaborators:
       
   students:
-    - personId: KaleemUllahKaleemUllah
-      type: M
-      topic: Countering rebroadcast attacks against remote identity proofing
-      institution: University of Trento
-      yearFrom: 2023
-      yearTo: 2023
-
     - personId: FedericoGraziola
       type: M
       topic: Evaluation of Security Protocol Verification Tools
@@ -40,30 +34,9 @@ current:
       yearFrom: 2023
       yearTo: 2024
 
-    - personId: SimoneAvancini
-      type: B
-      topic: Threat Modeling for Digital Identity Wallet 
-      institution: University of Trento
-      yearFrom: 2023
-      yearTo: 2024
-
-    - personId: PierGuidoSeno
-      type: B
-      topic: Automatic Security Testing Tool for Identity Management Protocols
-      institution: University of Trento
-      yearFrom: 2024
-      yearTo: 2024
-
     - personId: AgnieszkaKowalska
       type: B
       topic: Automatic Security Testing Tool for Identity Management Protocols
-      institution: University of Trento
-      yearFrom: 2024
-      yearTo: 2024
-  
-    - personId: MarcoFrassoni
-      type: M
-      topic: Design of e-Prescription Solutions in the EUDI Wallet Ecosystem 
       institution: University of Trento
       yearFrom: 2024
       yearTo: 2024
@@ -436,6 +409,18 @@ former:
 
     - personId: RiccardoZiglio
       thesisId: RiccardoZiglio_M
+
+    - personId: KaleemUllahKaleemUllah
+      thesisId: KaleemUllahKaleemUllah_M
+
+    - personId: SimoneAvancini
+      thesisId: SimoneAvancini_B
+
+    - personId: PierGuidoSeno
+      thesisId: PierGuidoSeno_B
+
+    - personId: MarcoFrassoni
+      thesisId: MarcoFrassoni_M
 
   junior:
     - personId: YuriTomasini

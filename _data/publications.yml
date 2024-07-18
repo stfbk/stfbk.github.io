@@ -2010,6 +2010,7 @@
   urlNews: /news/2023/11/20/paper-accepted-at-ecml-pkdd-post-workshop-proceedings/
 
 - id: EVOTEID2023
+  id_iris: 346347
   year: 2023
   title: "Coercion-resistant i-voting with short PIN and OAuth 2.0"
   authors:
@@ -2046,6 +2047,20 @@
   urlComplementary: /complementary/POLSIM2023
   #urlNews: /news/2020/02/15/paper-accepted-at-asiaccs-2020/
 
+- id: RACS2023
+  id_iris: 344627
+  title: "SecCo: Automated Services to Secure Containers in the DevOps Paradigm"
+  authors:
+    - LucaVerderame
+    - LucaCaviglione
+    - RobertoCarbone
+    - AlessioMerlo
+  abstract: >
+    Containers are core building blocks for creating applications based on the microservice paradigm. However, assessing their security is complex, especially when deployed in distributed and heterogeneous scenarios. Moreover, developers and IT operators should only focus on integration and delivery processes without dealing with tasks to guarantee securing requirements. To overcome such issues, in this paper, we introduce the ideas at the basis of Project SecCo (Securing Containers), i.e., an architecture for extending and improving current security assessment methodologies into the continuous integration and continuous delivery DevOps pipeline. To this end, SecCo proposes a framework able to orchestrate new automatic security services to prevent and reduce security vulnerabilities in the design, implementation, and deployment phases, and to identify and mitigate, at runtime, attempts to exploit them. The paper also showcases the main research challenges to be addressed for pursuing the vision of SecCo.
+  destination: RACS2023
+  year: 2023
+  doi: 10.1145/3599957.3606222
+
 - id: SECRYPT2023
   id_iris: 338307
   title: "A First Appraisal of Cryptographic Mechanisms for the Selective Disclosure of Verifiable Credentials"
@@ -2074,12 +2089,26 @@
   abstract: >
     Authentication protocols represent the entry point to online services, so they must be sturdily designed in order to allow only authorized users to access the underlying data. However, designing authentication protocols is a complex process: security designers should carefully select the technologies to involve and integrate them properly in order to prevent potential vulnerabilities. In addition, these choices are usually restricted by further factors, such as the requirements associated with the scenario, the regulatory framework, the dimensions to balance (e.g., security vs. usability), and the standards to rely on. We come to the rescue by presenting an automated multi-layered methodology we have developed to assist security designers in this phase: by repeatedly evaluating their protocols, they can select the security mitigations to consider until they reach the desired security level, thus enabling a security-by-design approach. For concreteness, we also show how we have applied our methodology to a real use case scenario in the context of a collaboration with the Italian Government Printing Office and Mint.
   destination: TDSC
-  year: 2023
+  destinationAddon: Volume 21, Issue 4, July/August 2024, Pages 1935-1950
+  year: 2024
   doi: 10.1109/TDSC.2023.3296210
   urlComplementary: /complementary/TDSC2022
   urlNews: /news/2023/07/17/paper-accepted-at-tdsc/
 
 ## 2024
+- id: EUROSP2024
+  title: "CSRF-ing the SSO waves: security testing of SSO-based account linking process"
+  authors:
+    - AndreaBisegna
+    - MatteoBitussi
+    - RobertoCarbone
+    - LucaCompagna
+    - SilvioRanise
+    - AvinashSudhodanan
+  abstract:
+  destination: EUROSP2024
+  year: 2024
+
 - id: Ital-IA2024
   title: "A Risk-based Approach to Trustworthy AI Systems for Judicial Procedures"
   authors:
@@ -2094,6 +2123,7 @@
   urlNews: /news/2024/04/24/paper-accepted-at-ital-ia-2024/
  
 - id: JISA2024
+  id_iris: 347387
   title: On Cryptographic Mechanisms for the Selective Disclosure of Verifiable Credentials
   authors:
     - AndreaFlamini
@@ -2109,9 +2139,11 @@
     Finally we perform an experimental evaluation based on the Rust open source implementations that we have considered most relevant. In particular we evaluate the size of credentials and presentations built using different cryptographic mechanisms and the time needed to generate and verify them. We also highlight some trade-offs that must be considered in the instantiation of the cryptographic mechanisms.
   destination: JISA
   year: 2024
+  doi: 10.1016/j.jisa.2024.103789
   urlNews: /news/2024/05/10/paper-accepted-at-jisa/
 
 - id: SECRYPT2024
+  id_iris: 348308
   title: "Automating Compliance for Improving TLS Security Postures: An Assessment of Public Administration Endpoints"
   authors:
     - RiccardoGermenia
@@ -2127,6 +2159,7 @@
     Our tool and the dataset containing the machine-readable requirements for automating conformity assessment are publicly available, thus making the process auditable and the assets extensible.
   destination: SECRYPT2024
   year: 2024
+  doi: 10.5220/0012764700003767
   urlComplementary: /complementary/SECRYPT2024
   urlNews: /news/2024/04/22/paper-accepted-at-secrypt-2024/
 

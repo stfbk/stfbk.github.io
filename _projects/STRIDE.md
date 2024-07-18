@@ -4,8 +4,14 @@ funding: The project SERICS (PE00000014) is funded under the MUR National Recove
 website: https://serics.eu/en/services/spoke-5-crittografia-sicurezza-sistemi-distribuiti/
 
 publications:
+    - ARES2023
+    - DBSEC2023
+    - DBSEC2023_WalletTrends
+    - EVOTEID2023
     - SECRYPT2023
     - JISA2024
+    - EUROSP2024
+    - SECRYPT2024
 
 ---
 In the scope of the Italian Partnership - Partenariato Esteso "Security and Rights in CyberSpace" (SeRiCS), FBK is participating in the "Spoke 5: Cryptography and Distributed Systems Security" project "Secure and TRaceable Identities in Distributed Environments (STRIDE)".

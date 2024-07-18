@@ -840,6 +840,26 @@
   institution: University of Trento
 
 # 2024
+- id: KaleemUllahKaleemUllah_M
+  title: "Countering Rebroadcast Attacks Against Remote Identity Proofing"
+  type: M
+  author: KaleemUllahKaleemUllah
+  supervisor: SilvioRanise
+  co-supervisor:
+    - CeciliaPasquini
+  year: 2024
+  institution: University of Trento
+
+- id: MarcoFrassoni_M
+  title: "European Digital Identity Wallet and ePrescriptions: finding the right balance between security, privacy and legal aspects"
+  type: M
+  author: MarcoFrassoni
+  supervisor: SilvioRanise
+  co-supervisor:
+    - GiadaSciarretta
+  year: 2024
+  institution: University of Trento
+
 - id: MarcoPernpruner_P
   title: "Integrating Security by Design and Automated Security Analysis for Digital Identity Management"
   type: P
@@ -854,6 +874,8 @@
   year: 2024
   cycle: XXXVI
   institution: University of Genoa
+  urlComplementary: /complementary/UniGe2024_Pernpruner
+  doi: 10.15167/pernpruner-marco_phd2024-05-06
 
 - id: MarioScuro_M
   title: A Performance Analysis of the BBS Protocol
@@ -882,5 +904,28 @@
   supervisor: SilvioRanise
   co-supervisor:
     - CeciliaPasquini
+  year: 2024
+  institution: University of Trento
+
+- id: PierGuidoSeno_B
+  title: "From Local to Remote: Enhancing MIG-T Pentesting Tool with SaaS for Securing Digital Identity"
+  type: B
+  author: PierGuidoSeno
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
+    - LauraCristiano
+  year: 2024
+  institution: University of Trento
+
+- id: SimoneAvancini_B
+  title: A First Appraisal of Threat Modeling for EU Digital Identity Wallets
+  type: B
+  author: SimoneAvancini
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AmirSharif
+    - GiadaSciarretta
   year: 2024
   institution: University of Trento
