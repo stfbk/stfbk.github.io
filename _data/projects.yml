@@ -3,7 +3,8 @@
   titleAddon: Intelligenza artificiale a Trento
   startDate: "2022-01-01"
   endDate: "2023-12-31"
-  url: https://magazine.fbk.eu/it/news/nasce-il-progetto-ai-tn-intelligenza-artificiale-a-trento/
+  # url: https://magazine.fbk.eu/it/news/nasce-il-progetto-ai-tn-intelligenza-artificiale-a-trento/
+  url: /projects/AITN
 
 - id: DCoT
   title: DCoT
@@ -77,8 +78,8 @@
   title: JuLIA
   titleAddon: Justice, fundamentaL rIghts and Artificial intelligence
   logo: logo_JuLIA.svg
-  url: https://www.julia-project.eu/
-  # url: /projects/JuLIA
+  # url: https://www.julia-project.eu/
+  url: /projects/JuLIA
 
 - id: MERIT
   title: MERIT
