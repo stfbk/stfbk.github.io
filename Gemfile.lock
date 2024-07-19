@@ -221,17 +221,15 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
-    mini_portile2 (2.8.5)
+    mini_portile2 (2.8.6)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.18.0)
     multipart-post (2.1.1)
-    nokogiri (1.16.2)
+    nokogiri (1.16.5)
       mini_portile2 (~> 2.8.2)
-      racc (~> 1.4)
-    nokogiri (1.16.2-x64-mingw-ucrt)
       racc (~> 1.4)
     octokit (4.22.0)
       faraday (>= 0.9)
@@ -243,7 +241,8 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    rexml (3.2.5)
+    rexml (3.3.2)
+      strscan
     rouge (3.13.0)
     ruby-enum (0.7.2)
       i18n
@@ -258,6 +257,7 @@ GEM
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
+    strscan (3.1.0)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
@@ -277,7 +277,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-redirect-from
-  rexml (~> 3.2)
+  rexml (~> 3.3)
   webrick (~> 1.8)
 
 BUNDLED WITH
