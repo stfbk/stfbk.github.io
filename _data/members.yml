@@ -27,13 +27,6 @@ current:
   collaborators:
       
   students:
-    - personId: FedericoGraziola
-      type: M
-      topic: Evaluation of Security Protocol Verification Tools
-      institution: University of Verona
-      yearFrom: 2023
-      yearTo: 2024
-
     - personId: AgnieszkaKowalska
       type: B
       topic: Automatic Security Testing Tool for Identity Management Protocols
@@ -418,6 +411,9 @@ former:
 
     - personId: PierGuidoSeno
       thesisId: PierGuidoSeno_B
+
+    - personId: FedericoGraziola
+      thesisId: FedericoGraziola_M
 
     - personId: MarcoFrassoni
       thesisId: MarcoFrassoni_M

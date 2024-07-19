@@ -840,6 +840,17 @@
   institution: University of Trento
 
 # 2024
+- id: FedericoGraziola_M
+  title: "Potenzialità e sfide nell'analisi formale di protocolli per l'identità digitale con Tamarin"
+  type: M
+  author: FedericoGraziola
+  supervisor: MarianoCeccato
+  co-supervisor:
+    - MarcoPernpruner
+    - GiadaSciarretta
+  year: 2024
+  institution: University of Verona
+
 - id: KaleemUllahKaleemUllah_M
   title: "Countering Rebroadcast Attacks Against Remote Identity Proofing"
   type: M
