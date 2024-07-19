@@ -484,6 +484,10 @@
   name:  Amy L.
   surname: Murphy
 
+- id: AndreaColli-Vignarelli
+  name:  Andrea
+  surname: Colli-Vignarelli
+
 - id: AndreaMaestrini
   name:  Andrea
   surname: Maestrini
@@ -524,6 +528,10 @@
   name:  Antonio
   surname: Pastor
 
+- id: AntonioSkarmeta
+  name:  Antonio
+  surname: Skarmeta
+
 - id: ArturBinczewski
   name:  Artur
   surname: Binczewski
@@ -549,7 +557,7 @@
   surname: Andres
 
 - id: BehnamShariati
-  name:  Behnam
+  name: Behnam
   surname: Shariati
 
 - id: Bogdan-MihaiAndrus
@@ -720,6 +728,10 @@
   name:  E.
   surname: Self
 
+- id: EduardMarin
+  name:  Eduard
+  surname: Marin
+
 - id: EduardoJacob
   name:  Eduardo
   surname: Jacob
@@ -731,6 +743,10 @@
 - id: ElioSalvadori
   name:  Elio
   surname: Salvadori
+
+- id: ElisaAlbanese
+  name:  Elisa
+  surname: Albanese
 
 - id: F.Cugini
   name:  F.
@@ -791,6 +807,10 @@
 - id: FrancescaMoscatelli
   name:  Francesca
   surname: Moscatelli
+
+- id: FrancescoCappa
+  name:  Francesco
+  surname: Cappa
 
 - id: FrancescoMusumeci
   name:  Francesco
@@ -1020,6 +1040,10 @@
   name:  J.
   surname: Perello
 
+- id: JacopoMarino
+  name:  Jacopo
+  surname: Marino
+
 - id: JaewonMoon
   name:  Jaewon
   surname: Moon
@@ -1049,8 +1073,8 @@
   surname: Rodríguez
 
 - id: JoseManuelRivas-Moscoso
-  name:  Jose
-  surname: Manuel Rivas-Moscoso
+  name: Jose Manuel
+  surname: Rivas-Moscoso
 
 - id: JoseSanchez
   name:  José
@@ -1128,6 +1152,10 @@
   name:  Li
   surname: Xi
 
+- id: LiubovNedoshivina
+  name:  Liubov
+  surname: Nedoshivina
+
 - id: LopezVictor
   name:  Lopez
   surname: Victor
@@ -1135,6 +1163,10 @@
 - id: LorenzoMaggi
   name:  Lorenzo
   surname: Maggi
+
+- id: LorenzoMoro
+  name:  Lorenzo
+  surname: Moro
 
 - id: LucaCapra
   name:  Luca
@@ -1147,6 +1179,10 @@
 - id: LucaMottola
   name:  Luca
   surname: Mottola
+
+- id: LucaZuanazzi
+  name:  Luca
+  surname: Zuanazzi
 
 - id: LukaszOgrodowczyk
   name:  Lukasz
@@ -1299,6 +1335,10 @@
 - id: N.Yoshikane
   name:  N.
   surname: Yoshikane
+
+- id: NasirAsadov
+  name:  Nasir
+  surname: Asadov
 
 - id: NikolaosPanteleimonDiamantopoulos
   name: Nikolaos Panteleimon
@@ -1544,6 +1584,10 @@
   name:  Sergey
   surname: Drozdov
 
+- id: SeshuTirupathi
+  name:  Seshu
+  surname: Tirupathi
+
 - id: Seung-wooKum
   name:  Seung woo
   surname: Kum
@@ -1575,6 +1619,10 @@
 - id: StefanoBraghin
   name:  Stefano
   surname: Braghin
+
+- id: StefanoGalantino
+  name:  Stefano
+  surname: Galantino
 
 - id: StephaneJunique
   name:  Stéphane
@@ -1715,4 +1763,8 @@
 - id: YoungkeeKim
   name:  Youngkee
   surname: Kim
+
+- id: YousefMajidAmjad
+  name:  Yousef
+  surname: Majid Amjad
 

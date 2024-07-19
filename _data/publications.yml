@@ -3,6 +3,30 @@
 # The following string is a separator used by the parser to trim away generated content
 # Please, please, please, keep this here!
 #--#--#--#--#--#
+- id: iris_2024_ff4828f58bbb2ab83751
+  id_iris: 349547,
+  title: "Building the Cloud Continuum with REAR"
+  authors:
+    - StefanoGalantino
+    - ElisaAlbanese
+    - NasirAsadov
+    - StefanoBraghin
+    - FrancescoCappa
+    - AndreaColli-Vignarelli
+    - YousefMajidAmjad
+    - EduardMarin
+    - JacopoMarino
+    - LorenzoMoro
+    - LiubovNedoshivina
+    - FulvioRisso
+    - DomenicoSiracusa
+    - AntonioSkarmeta
+    - LucaZuanazzi
+  destination: 2024ieee10thinternationalconferenceonnetworksoftwarizationnetsoft
+  year: 2024
+  doi: 10.1109/NetSoft60951.2024.10588885
+
+
 - id: iris_2024_fee49bf2be68feb1ebf4
   id_iris: 343667,
   title: "Introducing packet-level analysis in programmable data planes to advance Network Intrusion Detection"
@@ -29,6 +53,18 @@
   doi: 10.1109/icin60470.2024.10494463
 
 
+- id: iris_2024_f4bf3cb401d619ca09ed
+  id_iris: 349507,
+  title: "Resource-Efficient Federated Learning for Network Intrusion Detection"
+  authors:
+    - RobertoDoriguzziCorin
+    - SilvioCretti
+    - DomenicoSiracusa
+  destination: ieee10thinternationalconferenceonnetworksoftwarizationnetsoft
+  year: 2024
+  doi: 10.1109/netsoft60951.2024.10588938
+
+
 - id: iris_2024_d625eb2a46d509cdfcf4
   id_iris: 346387,
   title: "Multi-Objective Microservice Orchestration: Balancing Security and Performance in CCAM"
@@ -40,6 +76,21 @@
   destination: 27thconferenceoninnovationincloudsinternetandnetworksicin
   year: 2024
   doi: 10.1109/ICIN60470.2024.10494482
+
+
+- id: iris_2024_a5fed453871f7bf4554c
+  id_iris: 349508,
+  title: "Online Learning and Model Pruning Against Concept Drifts in Edge Devices"
+  authors:
+    - SimoneMagnani
+    - SeshuTirupathi
+    - RobertoDoriguzziCorin
+    - LiubovNedoshivina
+    - StefanoBraghin
+    - DomenicoSiracusa
+  destination: ieee10thinternationalconferenceonnetworksoftwarizationnetsoft
+  year: 2024
+  doi: 10.1109/netsoft60951.2024.10588946
 
 
 - id: iris_2024_7fb906c6bb213d7d6ba9

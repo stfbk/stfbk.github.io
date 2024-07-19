@@ -161,6 +161,11 @@
   type: conference
   proceedings: Proceedings of 2023 IEEE International Conference on Big Data (BigData)
 
+- id: 2024ieee10thinternationalconferenceonnetworksoftwarizationnetsoft
+  name: 2024 IEEE 10th International Conference on Network Softwarization (NetSoft)
+  type: conference
+  proceedings: Proceedings of 2024 IEEE 10th International Conference on Network Softwarization (NetSoft)
+
 - id: 21stinternationalconferenceoninformationandcommunicationssecurityicics2019
   name: 21st International Conference on Information and Communications Security (ICICS 2019)
   type: conference
@@ -267,8 +272,9 @@
   proceedings: Proceedings of Conference on Innovation in Clouds, Internet and Networks
 
 - id: ecoc201642ndeuropeanconferenceonopticalcommunication
-  name: Ecoc 2016 Proceedings of 42nd European Conference on Optical Communication
+  name: Ecoc 2016; 42nd European Conference on Optical Communication
   type: conference
+  proceedings: Proceedings of Ecoc 2016; 42nd European Conference on Optical Communication
 
 - id: economicsofgridscloudssystemsandservices
   name: Economics of Grids, Clouds, Systems, and Services
@@ -323,6 +329,11 @@
 - id: futureinternetsymposium2011
   name: Future Internet Symposium 2011
   type: conference
+
+- id: ieee10thinternationalconferenceonnetworksoftwarizationnetsoft
+  name: IEEE 10th International Conference on Network Softwarization (NetSoft)
+  type: conference
+  proceedings: Proceedings of IEEE 10th International Conference on Network Softwarization (NetSoft)
 
 - id: ieee2020internationalconferenceonomnilayerintelligentsystemscoins
   name: IEEE 2020 International Conference on Omni-layer Intelligent Systems (COINS)
