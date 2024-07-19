@@ -243,7 +243,7 @@ layout: default
                                 {% when "ResearchGate" %}
                                     {% assign linkName = "ResearchGate" %}
                                     {% assign linkURL = "https://www.researchgate.net/profile/" | append: link.value %}
-                                {% when "Twitter" %}
+                                {% when "Twitter" or "X" %}
                                     {% assign linkName = "X" %}
                                     {% assign linkURL = "https://twitter.com/" | append: link.value %}
                                 {% when "Website" %}
