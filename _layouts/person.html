@@ -202,7 +202,7 @@ layout: default
                                     {% assign linkURL = link.value %}
                                 {% when "dblp" %}
                                     {% assign linkName = "dblp" %}
-                                    {% assign linkURL = "https://dblp.uni-trier.de/pid/" | append: link.value | append: ".html" %}
+                                    {% assign linkURL = "https://dblp.org/pid/" | append: link.value | append: ".html" %}
                                 {% when "IEEE" %}
                                     {% assign linkName = "IEEE" %}
                                     {% assign linkURL = "https://ieeexplore.ieee.org/author/" | append: link.value %}
