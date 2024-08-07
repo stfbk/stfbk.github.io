@@ -1,3 +1,14 @@
+- id: MatteoRizzi_M
+  author: MatteoRizzi
+  type: M
+  title: (Tentative) Investigating the Impact of eBPF on System Performance
+  institution: University of Trento
+  year: 2024
+  supervisor: DomenicoSiracusa
+  co-supervisor:
+    - LuisAugustoDiasKnob
+    - MatteoFranzil
+
 - id: MarcellNagymathe_M
   author: MarcellNagymathe
   type: M
