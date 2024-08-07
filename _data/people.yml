@@ -206,6 +206,34 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
 
+# Related
+
+- id: SilvioRanise
+  name: Silvio
+  surname: Ranise
+  affiliations:
+    - role: Director of Center
+      unit: Center for Cybersecurity
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+    - role: Full Professor
+      unit: Department of Mathematics
+      institution: University of Trento
+      place: Trento, Italy
+  email: ranise@fbk.eu
+  phone: "+390461314192"
+
+- id: MatteoRizzi
+  name: Matteo
+  surname: Rizzi
+  affiliations:
+    - role: Security Specialist Officer
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: mrizzi@fbk.eu
+  phone: "+390461312356"
+
 # Interns
 
 - id: MarcoZani 
@@ -1604,10 +1632,6 @@
 - id: ShikhmanterYona
   name:  Shikhmanter
   surname: Yona
-
-- id: SilvioRanise
-  name:  Silvio
-  surname: Ranise
 
 - id: SkoldstromPontus
   name:  Sköldström
