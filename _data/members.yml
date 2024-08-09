@@ -52,11 +52,6 @@ current:
       institution: University of Trento
       yearFrom: 2024
       yearTo: 2024
-    - personId: SamueleBouveret
-      type: B
-      institution: University of Trento
-      yearFrom: 2024
-      yearTo: 2024
 
   collaborators:
     - PietroDeMatteis
@@ -142,6 +137,12 @@ former:
       yearTo: 2020
 
   students:
+    - personId: SamueleBouveret
+      type: B
+      institution: University of Trento
+      yearFrom: 2024
+      yearTo: 2024
+
     - personId: StefanoDiSanto
       thesisId: StefanoDiSanto_M
 
