@@ -31,6 +31,7 @@ publications:
     - TDSC2022
     - ARES2023
     - RACS2023
+    - EUROSP2024
 
 theses:
     - DamianoSartori_B

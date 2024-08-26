@@ -13,6 +13,7 @@ publications:
     - SecAssAPIFinancial_book_2020
     - DETIPS2020
     - ETAA2021_MIG
+    - EUROSP2024
 
 theses:
     - GiulioPellizzari_B
