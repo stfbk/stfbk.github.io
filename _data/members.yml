@@ -69,6 +69,17 @@ current:
       yearTo: 2024
 
   junior:    
+    - personId: DanielFranchini
+      topic: Virtualization of TLS vulnerabilities
+      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+      yearFrom: 2024
+      yearTo: 2024
+      
+    - personId: EmilianoRizzonelli
+      topic: Virtualization of TLS vulnerabilities
+      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+      yearFrom: 2024
+      yearTo: 2024
       
 former:
   head:
@@ -258,7 +269,7 @@ former:
 
     - personId: SofiaPuttin
       type: M
-      topic: 5G-BSA-ID cryptoband – Analisi giuridica alla luce delle disposizioni in materia di trattamento dei dati e tutela della privacy
+      topic: 5G-BSA-ID cryptoband - Analisi giuridica alla luce delle disposizioni in materia di trattamento dei dati e tutela della privacy
       institution: University of Trento
       yearFrom: 2020
       yearTo: 2020

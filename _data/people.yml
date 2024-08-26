@@ -256,6 +256,10 @@
   name: Daniele
   surname: Del Sale
 
+- id: DanielFranchini
+  name: Daniel
+  surname: Franchini
+
 - id: DannyRoswinOllik
   name: Danny Roswin
   surname: Ollik
@@ -312,6 +316,10 @@
       institution: Runtastic
       place: Linz, Austria
   image: https://emavgl.github.io/images/avatar.jpg
+
+- id: EmilianoRizzonelli
+  name: Emiliano
+  surname: Rizzonelli
 
 - id: EnricoCambiaso
   name: Enrico
