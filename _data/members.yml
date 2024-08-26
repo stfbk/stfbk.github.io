@@ -21,7 +21,6 @@ current:
     - AndreaBisegna
     - RiccardoZiglio
     - SimoneBrunello
-    - LauraPiva
     - GiovanniCorti
 
   collaborators:
@@ -147,6 +146,11 @@ former:
     - personId: MatteoBitussi
       formerRole: Research Assistant
       yearFrom: 2022
+      yearTo: 2024
+
+    - personId: LauraPiva
+      formerRole: Visiting PhD Student
+      yearFrom: 2024
       yearTo: 2024
 
   phdStudents:

@@ -543,12 +543,6 @@
 - id: LauraPiva
   name: Laura
   surname: Piva
-  affiliations:
-    - role: Visiting PhD Student
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: lpiva@fbk.eu
 
 - id: LeonardoVicentini
   name: Leonardo
