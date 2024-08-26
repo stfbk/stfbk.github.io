@@ -1,5 +1,5 @@
-- name: Collaborations
-  link: /collaborations
+#- name: Collaborations
+ # link: /collaborations
 - name: Dissemination
   link: /dissemination/
 - name: Events

@@ -91,6 +91,7 @@
 - id: METAfora
   title: METAfora
   titleAddon: Metodologie e tecnologie di rappresentazione per il metaverso
+  logo: logo_METAfora.jpg
   url: /projects/METAfora
 
 - id: NATO_ABAC
@@ -98,6 +99,12 @@
   startDate: "2012-08-01"
   endDate: "2014-12-31"
   url: /projects/NATO_High_Assurance_ABAC_Guard
+
+- id: Notarify
+  title: Notatify
+  startDate: "2024-05-10"
+  endDate: "2024-10-31"
+  url: /projects/Notarify
 
 - id: POTENTIAL
   title: POTENTIAL
