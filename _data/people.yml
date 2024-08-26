@@ -121,6 +121,11 @@
   email: a.bisegna@fbk.eu
   phone: "+390461314575"
 
+- id: AndreaBissoli
+  name: Andrea
+  surname: Bissoli
+  usernameFBK: abissoli
+
 - id: AndreaBrandolini
   name: Andrea
   surname: Brandolini
@@ -788,6 +793,11 @@
 - id: NatashaSharygina
   name: Natasha
   surname: Sharygina
+
+- id: NiccolòLechthaler
+  name: Niccolò
+  surname: Lechthaler
+  usernameFBK: nnlechthaler
 
 - id: NicolaCasagrande
   name: Nicola

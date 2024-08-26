@@ -68,6 +68,20 @@ current:
       yearFrom: 2024
       yearTo: 2024
 
+    - personId: AndreaBissoli
+      type: B
+      topic: Enhancing Privacy Threat Modeling with Large Language Models
+      institution: University of Trento
+      yearFrom: 2024
+      yearTo: 2024
+
+    - personId: NiccolòLechthaler
+      type: B
+      topic: Micro-Id Gym
+      institution: University of Trento
+      yearFrom: 2024
+      yearTo: 2024
+
   junior:    
     - personId: DanielFranchini
       topic: Virtualization of TLS vulnerabilities
