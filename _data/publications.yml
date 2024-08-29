@@ -78,6 +78,21 @@
   doi: 10.1109/ICIN60470.2024.10494482
 
 
+- id: iris_2024_c56690dc40cba80c3529
+  id_iris: 350627,
+  title: "Work-in-Progress: A Sidecar Proxy for Usable and Performance-Adaptable End-to-End Protection of Communications in Cloud Native Applications"
+  authors:
+    - StefanoBerlato
+    - MatteoRizzi
+    - MatteoFranzil
+    - SilvioCretti
+    - PietroDeMatteis
+    - RobertoCarbone
+  destination: 2024ieeeeuropeansymposiumonsecurityandprivacyworkshopseurospw
+  year: 2024
+  doi: 10.1109/eurospw61312.2024.00086
+
+
 - id: iris_2024_a5fed453871f7bf4554c
   id_iris: 349508,
   title: "Online Learning and Model Pruning Against Concept Drifts in Edge Devices"

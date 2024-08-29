@@ -166,6 +166,10 @@
   type: conference
   proceedings: Proceedings of 2024 IEEE 10th International Conference on Network Softwarization (NetSoft)
 
+- id: 2024ieeeeuropeansymposiumonsecurityandprivacyworkshopseurospw
+  name: 2024 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)
+  type: conference
+
 - id: 21stinternationalconferenceoninformationandcommunicationssecurityicics2019
   name: 21st International Conference on Information and Communications Security (ICICS 2019)
   type: conference
@@ -272,9 +276,9 @@
   proceedings: Proceedings of Conference on Innovation in Clouds, Internet and Networks
 
 - id: ecoc201642ndeuropeanconferenceonopticalcommunication
-  name: Ecoc 2016; 42nd European Conference on Optical Communication
+  name: Ecoc 2016, 42nd European Conference on Optical Communication
   type: conference
-  proceedings: Proceedings of Ecoc 2016; 42nd European Conference on Optical Communication
+  proceedings: Proceedings of Ecoc 2016, 42nd European Conference on Optical Communication
 
 - id: economicsofgridscloudssystemsandservices
   name: Economics of Grids, Clouds, Systems, and Services
@@ -496,6 +500,7 @@
 - id: opticalfibercommunicationsconferenceandexhibitionofc2014
   name: Optical Fiber Communications Conference and Exhibition (OFC), 2014
   type: conference
+  proceedings: Proceedings of Optical Fiber Communications Conference and Exhibition (OFC), 2014
 
 - id: opticalfibercommunicationsconferenceandexhibitionofc2017
   name: Optical Fiber Communications Conference and Exhibition (OFC), 2017
