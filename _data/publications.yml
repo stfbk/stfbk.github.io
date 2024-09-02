@@ -1996,7 +1996,6 @@
   doi: 10.1007/978-3-031-37586-6_7
 
 - id: ECML/PKDD2023_W
-  id_iris: 323366
   title: Towards a Fine-Grained Threat Model for Video-Based Remote Identity Proofing
   authors:
     - CeciliaPasquini
@@ -2111,6 +2110,21 @@
   year: 2024
   doi: 10.1109/EuroSP60621.2024.00016
   urlComplementary: https://st.fbk.eu/complementary/EuroSP2024
+
+- id: iMETA2024
+  title: "Beyond Screens: Investigating Identity Proofing for the Metaverse Through Cross-Device Flows"
+  authors:
+    - MarcoPernpruner
+    - CeciliaPasquini
+    - GiadaSciarretta
+    - SilvioRanise
+  abstract: >
+    The paper addresses the design of identity proofing flows based on the validation of authoritative identity evidence (such as electronic passports or identity documents) for metaverse-based applications. This problem arises in business use cases where users can perform sensitive or legally binding operations with their Virtual Reality (VR) headsets.<br />
+    To this end, a cross-device flow is proposed where users first interact with their mobile device to get securely identified by presenting a valid identity evidence, and successively wear the headset to set their access credentials by presenting a suitably designed identity transfer code. According to best practices for cross-device flows, the proposed approach incorporates a number of both known and newly introduced  security measures, which are thoroughly discussed in relation to possible impersonation attacks against the cross-device transfer phase.
+  destination: iMETA2024
+  year: 2024
+  doi: 
+  urlNews: /news/2024/09/02/paper-accepted-at-imeta-2024/
 
 - id: Ital-IA2024
   title: "A Risk-based Approach to Trustworthy AI Systems for Judicial Procedures"

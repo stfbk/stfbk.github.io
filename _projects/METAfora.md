@@ -1,6 +1,9 @@
 ---
 project: METAfora
 
+publications:
+  - iMETA2024
+
 ---
 METAfora wants to implement new and innovative models of digital identity management and use cases, at the intersection between the progress of European top-down regulations on the subject and the dynamics of the evolving technological framework of the metaverse.
 
