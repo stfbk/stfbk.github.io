@@ -21,18 +21,6 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   
-- id: DomenicoSiracusa
-  name: Domenico
-  surname: Siracusa
-  email: dsiracusa@fbk.eu
-  phone: "+390461312435"
-  iris_id: rp03832
-  affiliations:
-    - role: Head of Unit
-      unit: Robust and Secure Distributed Computing
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  
 - id: ClaudioFacchinetti
   name: Claudio
   surname: Facchinetti
@@ -207,12 +195,22 @@
       place: Trento, Italy
 
 # Related
+- id: DomenicoSiracusa
+  name: Domenico
+  surname: Siracusa
+  email: domenico.siracusa@unitn.it
+  iris_id: rp03832
+  affiliations:
+    - role: Associate Professor
+      unit: Department of Information Engineering and Computer Science
+      institution: University of Trento
+      place: Trento, Italy
 
 - id: SilvioRanise
   name: Silvio
   surname: Ranise
   affiliations:
-    - role: Director of Center
+    - role: Director of Center, Interim Head of Unit
       unit: Center for Cybersecurity
       institution: Fondazione Bruno Kessler
       place: Trento, Italy

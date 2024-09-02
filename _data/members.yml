@@ -1,6 +1,6 @@
 current:
   head:
-    - DomenicoSiracusa
+    - SilvioRanise
 
   members:
     - ArslanRafi
@@ -55,8 +55,12 @@ current:
 
   collaborators:
     - PietroDeMatteis
+    - DomenicoSiracusa
 
 former:
+  head:
+    - DomenicoSiracusa
+
   phdStudents:
     - personId: MagedAbdelaty
       thesisId: MagedAbdelaty_P
