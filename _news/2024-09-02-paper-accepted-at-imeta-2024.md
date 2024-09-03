@@ -11,5 +11,6 @@ people:
 
 projects:
     - METAfora
+    - STRIDE
 
 ---
