@@ -1084,6 +1084,15 @@
   endDate: "2023-07-12"
 
 ## 2024
+- id: AEIT2024
+  name: 2024 AEIT International Annual Conference
+  acronym: AEIT 2024
+  url: https://convegni.aeit.it/misw7/struttura/pagedin.php?web=aeit2024
+  type: conference
+  location: Trento, Italy
+  startDate: "2024-09-25"
+  endDate: "2024-09-27"
+
 - id: EUROSP2024
   name: 9th IEEE European Symposium on Security and Privacy
   acronym: EUROS&P 2024

@@ -221,6 +221,10 @@
   name: Chiara
   surname: Spadafora
 
+- id: ChristianMari
+  name: Christian
+  surname: Mari
+
 - id: ChristopheRingeissen
   name: Christophe
   surname: Ringeissen
@@ -380,6 +384,10 @@
   name: Filippo
   surname: De Grandi
   usernameFBK: fdegrandi
+
+- id: FrancescaGiuliano
+  name: Francesca
+  surname: Giuliano
 
 - id: FrancescoAlberti
   name: Francesco
@@ -676,6 +684,10 @@
 - id: MartinaVecellioReane
   name: Martina
   surname: Vecellio Reane
+
+- id: MassimilianoZanchiello
+  name: Massimiliano
+  surname: Zanchiello
 
 - id: MassimoMerro
   name: Massimo
@@ -974,6 +986,14 @@
   name: Sergio Manuel
   surname: Nóbrega Gonçalves
 
+- id: SilvioGhilardi
+  name: Silvio
+  surname: Ghilardi
+
+- id: SilviaRicciuti
+  name: Silvia
+  surname: Ricciuti
+
 - id: SilvioRanise
   name: Silvio
   surname: Ranise
@@ -989,9 +1009,9 @@
   email: ranise@fbk.eu
   phone: "+390461314192"
 
-- id: SilvioGhilardi
-  name: Silvio
-  surname: Ghilardi
+- id: SimonaStoklin
+  name: Simona
+  surname: Stoklin
 
 - id: SimoneAvancini
   name: Simone
