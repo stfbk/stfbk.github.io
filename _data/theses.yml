@@ -1,7 +1,7 @@
 - id: MatteoRizzi_M
   author: MatteoRizzi
   type: M
-  title: (Tentative) Investigating the Impact of eBPF on System Performance
+  title: "Monitoring the monitor: analysis of eBPF's behavior in virtualised environments"
   institution: University of Trento
   year: 2024
   supervisor: DomenicoSiracusa
