@@ -4,7 +4,7 @@ links:
   - name: ACM
     value: 99659851237
   - name: CV
-    value: https://drive.google.com/file/d/1iImjihQrSKbnERjA7nSIHudbfiDjvLi5/view
+    value: https://drive.google.com/file/d/1OvYnVGcy0Sm7tiBhtPfqIzYYZZWVhRXX
   - name: dblp
     value: 244/0589
   - name: GitHub
