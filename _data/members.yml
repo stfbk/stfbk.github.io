@@ -55,17 +55,6 @@ current:
       yearTo: 2024
 
   junior:    
-    - personId: DanielFranchini
-      topic: Virtualization of TLS vulnerabilities
-      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
-      yearFrom: 2024
-      yearTo: 2024
-      
-    - personId: EmilianoRizzonelli
-      topic: Virtualization of TLS vulnerabilities
-      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
-      yearFrom: 2024
-      yearTo: 2024
       
 former:
   head:
@@ -518,3 +507,15 @@ former:
       institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
       yearFrom: 2022
       yearTo: 2023
+      
+    - personId: DanielFranchini
+      topic: Virtualization of TLS vulnerabilities
+      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+      yearFrom: 2024
+      yearTo: 2024
+      
+    - personId: EmilianoRizzonelli
+      topic: Virtualization of TLS vulnerabilities
+      institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+      yearFrom: 2024
+      yearTo: 2024

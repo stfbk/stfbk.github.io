@@ -4,7 +4,7 @@ links:
   - name: ACM
     value: 99659851237
   - name: CV
-    value: https://drive.google.com/file/d/1iImjihQrSKbnERjA7nSIHudbfiDjvLi5/view
+    value: https://drive.google.com/file/d/1OvYnVGcy0Sm7tiBhtPfqIzYYZZWVhRXX
   - name: dblp
     value: 244/0589
   - name: GitHub
@@ -22,8 +22,7 @@ links:
 ---
 Salvatore Manfredi is a researcher at the Center for Cybersecurity.
 
-He earned his Bachelor's degree in Computer Science from the University of Catania in 2016 and his Master's degree in 2019 from the University of Trento. He received his Ph.D. in Secure and Reliable Systems from the University of Genoa in 2023.
+He earned his Ph.D. in Secure and Reliable Systems from the University of Genoa in 2023, focusing on the automated assistance of TLS configurations.
+In the last few years, he has worked on the security analysis of the authentication scheme for the Italian eID (CIE 3.0), the Horizon 2020-funded FINSEC project, and the definition of learning outcomes for the MERIT Master of Research. He recently joined Universitat Politècnica de Catalunya as an adjunct professor. 
 
-In recent years, he has worked on the security analysis of the authentication scheme for the Italian electronic identity card (CIE 3.0) and on the Horizon 2020-funded FINSEC project. Recently, he joined the team working on MERIT, an EU project that aims to create a dynamic educational ecosystem for the training of digital specialists.
-
-His research interests include network security, awareness training, and risk management of TLS configurations.
+His research interests include network security, awareness training, and risk management of TLS configurations. He also holds dissemination events for middle, high school and the general public.
