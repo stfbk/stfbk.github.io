@@ -33,37 +33,9 @@ current:
       yearFrom: 2024
       yearTo: 2024
 
-    - personId: AlessandroFontana
-      type: B
-      topic: Automated Vulnerability Detection for Mobile TLS Deployments
-      institution: University of Trento
-      yearFrom: 2024
-      yearTo: 2024
-
     - personId: GiuseppeAlessioSciumè
       type: M
       topic: 
-      institution: University of Trento
-      yearFrom: 2024
-      yearTo: 2024
-
-    - personId: FilippoDeGrandi
-      type: B
-      topic: BAS tools - Implementation of an attack pattern to mimic a threat actor
-      institution: University of Trento
-      yearFrom: 2024
-      yearTo: 2024
-
-    - personId: StefanoCamposilvan
-      type: B
-      topic: Exploring Trustworthy AI
-      institution: University of Trento
-      yearFrom: 2024
-      yearTo: 2024
-
-    - personId: RobertoSavi
-      type: B
-      topic: Automatic Security Testing Tool for Identity Management Protocols
       institution: University of Trento
       yearFrom: 2024
       yearTo: 2024
@@ -446,6 +418,21 @@ former:
 
     - personId: MarcoFrassoni
       thesisId: MarcoFrassoni_M
+
+    - personId: StefanoCamposilvan
+      thesisId: StefanoCamposilvan_B
+
+    - personId: AlessandroFontana
+      thesisId: AlessandroFontana_B
+
+    - personId: MatteoBregola
+      thesisId: MatteoBregola_B
+
+    - personId: FilippoDeGrandi
+      thesisId: FilippoDeGrandi_B
+
+    - personId: RobertoSavi
+      thesisId: RobertoSavi_B
 
   junior:
     - personId: YuriTomasini

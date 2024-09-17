@@ -285,6 +285,11 @@
   name: Davide
   surname: Pizzolotto
 
+- id: DomenicoSiracusa
+  name: Domenico
+  surname: Siracusa
+  usernameFBK: dsiracusa
+
 - id: DucKhahnTran
   name: Duc-Khahn
   surname: Tran
@@ -704,6 +709,10 @@
   surname: Bitussi
   usernameFBK: mbitussi
 
+- id: MatteoBregola
+  name: Matteo
+  surname: Bregola
+
 - id: MatteoGrasso
   name: Matteo
   surname: Grasso
@@ -843,6 +852,11 @@
   name: Pier Guido
   surname: Seno
   usernameFBK: pseno
+
+- id: PietroDeMatteis
+  name: Pietro 
+  surname: De Matteis
+  usernameFBK: pdematteis
 
 - id: RayhanaTaoufik
   name: Rayhana

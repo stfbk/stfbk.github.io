@@ -840,6 +840,17 @@
   institution: University of Trento
 
 # 2024
+- id: AlessandroFontana_B
+  title: Rilevamento Automatico di Vulnerabilità TLS su iOS e Android
+  type: B
+  author: AlessandroFontana
+  supervisor: SilvioRanise
+  co-supervisor:
+    - SalvatoreManfredi
+    - MatteoRizzi
+  year: 2024
+  institution: University of Trento
+
 - id: FedericoGraziola_M
   title: "Potenzialità e sfide nell'analisi formale di protocolli per l'identità digitale con Tamarin"
   type: M
@@ -850,6 +861,18 @@
     - GiadaSciarretta
   year: 2024
   institution: University of Verona
+
+- id: FilippoDeGrandi_B
+  title: BAS Tools - Implementation of an Attack Pattern to Mimic a Threat Actor
+  type: B
+  author: FilippoDeGrandi
+  supervisor: DomenicoSiracusa
+  co-supervisor:
+    - MatteoRizzi
+    - SalvatoreManfredi
+    - PietroDeMatteis
+  year: 2024
+  institution: University of Trento
 
 - id: KaleemUllahKaleemUllah_M
   title: "Countering Rebroadcast Attacks Against Remote Identity Proofing"
@@ -898,6 +921,18 @@
   year: 2024
   institution: University of Trento
 
+- id: MatteoBregola_B
+  title: Comprehensive Analysis of Breach and Attack Simulation Tools - A Theoretical and Framework-Driven Assessment of Their Capabilities, Advantages, and Limitations
+  type: B
+  author: MatteoBregola
+  supervisor: SilvioRanise
+  co-supervisor:
+    - MatteoRizzi
+    - SalvatoreManfredi
+    - PietroDeMatteis
+  year: 2024
+  institution: University of Trento
+
 - id: MattiaBressan_B
   title: Towards Risk Assessment of Adversarial Machine Learning
   type: B
@@ -905,16 +940,6 @@
   supervisor: SilvioRanise
   co-supervisor:
     - MajidMollaeefar
-  year: 2024
-  institution: University of Trento
-
-- id: RiccardoZiglio_M
-  title: "Challenge-Based Liveness Detection vs Video Manipulation: Analysis of Face Swaps Attacks in Remote Identity Proofing Scenarios"
-  type: M
-  author: RiccardoZiglio
-  supervisor: SilvioRanise
-  co-supervisor:
-    - CeciliaPasquini
   year: 2024
   institution: University of Trento
 
@@ -930,6 +955,29 @@
   year: 2024
   institution: University of Trento
 
+- id: RiccardoZiglio_M
+  title: "Challenge-Based Liveness Detection vs Video Manipulation: Analysis of Face Swaps Attacks in Remote Identity Proofing Scenarios"
+  type: M
+  author: RiccardoZiglio
+  supervisor: SilvioRanise
+  co-supervisor:
+    - CeciliaPasquini
+  year: 2024
+  institution: University of Trento
+
+- id: RobertoSavi_B
+  title: "Integrating Pentesting Tools for Identity Management Protocols into DevSecOps: The MIG-T Use Case"
+  type: B
+  author: RobertoSavi
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
+    - LauraCristiano
+    - PietroDeMatteis
+  year: 2024
+  institution: University of Trento
+
 - id: SimoneAvancini_B
   title: A First Appraisal of Threat Modeling for EU Digital Identity Wallets
   type: B
@@ -938,5 +986,15 @@
   co-supervisor:
     - AmirSharif
     - GiadaSciarretta
+  year: 2024
+  institution: University of Trento
+
+- id: StefanoCamposilvan_B
+  title: Estimating the Likelihood of Successful Adversarial Examples Transferability
+  type: B
+  author: StefanoCamposilvan
+  supervisor: SilvioRanise
+  co-supervisor:
+    - MajidMollaeefar
   year: 2024
   institution: University of Trento

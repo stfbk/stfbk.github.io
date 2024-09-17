@@ -31,6 +31,9 @@ theses:
     - MicheleZucchelli_B
     - AlessandroBiasi_B
     - LuigiDellEva_B
+    - GiuseppeAlessioSciumè_B
+    - PierGuidoSeno_B
+    - RobertoSavi_B
 
 ---
 
