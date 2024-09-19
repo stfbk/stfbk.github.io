@@ -27,6 +27,7 @@ theses:
     - IvanValentini_B
     - FedericoCucino_B
     - RiccardoGermenia_B
+    - AlessandroFontana_B
 
 ---
 

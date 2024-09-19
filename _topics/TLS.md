@@ -25,6 +25,7 @@ theses:
     - IvanValentini_B
     - FedericoCucino_B
     - RiccardoGermenia_B
+    - AlessandroFontana_B
 ---
 
 Transport Layer Security (TLS) is a suite of cryptographic protocols designed to provide confidentiality, integrity and authentication to the parties communicating via an unsecure channel. 
