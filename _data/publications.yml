@@ -2111,8 +2111,8 @@
   year: 2024
   #doi: 
 
-
 - id: EUROSP2024
+  id_iris: 351187
   title: "CSRFing the SSO Waves: Security Testing of SSO-Based Account Linking Process"
   authors:
     - AndreaBisegna
