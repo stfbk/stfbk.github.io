@@ -14,6 +14,7 @@ publications:
     - DETIPS2020
     - ETAA2021_MIG
     - EUROSP2024
+    - IEEE_SP2024
 
 theses:
     - GiulioPellizzari_B

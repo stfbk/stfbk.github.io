@@ -22,6 +22,11 @@
   url: https://www.sciencedirect.com/journal/information-and-computation
   type: journal
 
+- id: IEEE_SP
+  name: IEEE Security & Privacy
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8013
+  type: journal
+
 - id: IJFCS
   name: International Journal of Foundations of Computer Science
   url: https://www.worldscientific.com/worldscinet/ijfcs
