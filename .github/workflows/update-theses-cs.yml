@@ -24,4 +24,21 @@ jobs:
         user_name: 'csfbk'
         user_email: 'cs@fbk.eu'
 
+    - name: Re-checkout on failure
+      if: ${{ failure() }}
+      uses: actions/checkout@v2
+
+    - name: Re-push on failure
+      if: ${{ failure() }}
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.CS_SYNC_TOKEN }}
+      with:
+        source_file: '_data/theses.yml'
+        destination_repo: 'csfbk/csfbk.github.io'
+        destination_folder: '_data/theses'
+        rename: 'theses_st.yml'
+        user_name: 'csfbk'
+        user_email: 'cs@fbk.eu'
+
     - run: echo "Operation completed."
