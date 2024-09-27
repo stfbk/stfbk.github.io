@@ -139,6 +139,15 @@ former:
       yearFrom: 2024
       yearTo: 2024
 
+    - personId: AlessandroTomasi
+      formerRole: Researcher
+      yearTo: 2023
+
+    - personId: ZahraEbadiAnsaroudi
+      formerRole: Researcher
+      yearFrom: 2021
+      yearTo: 2023
+
   phdStudents:
     - personId: FedericoSinigaglia
       thesisId: FedericoSinigaglia_P
@@ -187,6 +196,9 @@ former:
 
     - personId: MarcoPernpruner
       thesisId: MarcoPernpruner_P
+
+    - personId: StefanoBerlato
+      thesisId: StefanoBerlato_P
   
   students:
     - personId: MarcoPernpruner
