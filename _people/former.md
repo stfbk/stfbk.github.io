@@ -14,7 +14,7 @@ permalink: /people/former
 
 {%- if site.data.members.former.members.size > 0 -%}
   <h1>Former Members</h1>
-  {% assign details = "formerRole, currentRole, year, personalPage" | split: ", " %}
+  {% assign details = "formerRole, year, personalPage" | split: ", " %}
   {% include list-people.html source=site.data.members.former.members style="list" details=details sort="name" %}
 {%- endif -%}
 
