@@ -17,8 +17,8 @@
   doi: 10.1007/978-3-642-15763-9_36
 
 - id: HVC2010
-  id_iris: 21635
-  title: Automated Symbolic Analysis of ARBAC Policies
+  id_iris: 270624
+  title: The SMT-LIB Initiative and the Rise of SMT
   authors:
     - ClarkBarrett
     - LeonardoDeMoura
@@ -1996,6 +1996,7 @@
   doi: 10.1007/978-3-031-37586-6_7
 
 - id: ECML/PKDD2023_W
+  #id_iris: 
   title: Towards a Fine-Grained Threat Model for Video-Based Remote Identity Proofing
   authors:
     - CeciliaPasquini
@@ -2004,8 +2005,10 @@
     - SilvioRanise
   abstract: >
     The attack landscape against video-based face verification is rapidly evolving, thus leading to increased opportunities of impersonation and identity theft within remote identity proofing processes. To support reliable security and risk analyses, we provide an extended threat model composed of threats and security controls for the face acquisition phase. Special emphasis is devoted to recent advancements in video synthesis and physical rendering, as well as diversified approaches for liveness detection.
-  destination: ECML/PKDD2023_PP
-  year: 2023
+  destination: ECML/PKDD2023_WP
+  destinationAddon: International Workshops of ECML PKDD 2023, Revised Selected Papers, Part II
+  year: 2024
+  #doi: 
   urlNews: /news/2023/11/20/paper-accepted-at-ecml-pkdd-post-workshop-proceedings/
 
 - id: EVOTEID2023
@@ -2023,28 +2026,13 @@
   abstract: >
     This paper presents an architecture for an OAuth 2.0-based i-voting solution using a mobile native client in a variant of the Araújo-Traoré protocol. We follow a systematic approach by identifying relevant OAuth 2.0 specifications and best practices. Having defined our framework, we identify threats applicable to our proposed methodology and detail how our design mitigates them to provide a safer i-voting process.
   destination: EVOTEID2023
-  #doi: 10.
+  #doi: 
   tags:                     
     - ThresholdCryptography
     - ZKP
     - SMPC
     - PrivacyEnhancingCryptography
     - DecentralizationOfTrust
-    
-- id: POLSIM2023
-  #id_iris: 323366
-  title: "A Simulation Framework for the Experimental Evaluation of Access Control Enforcement Mechanisms based on Business Processes"
-  authors:
-    - StefanoBerlato
-    - RobertoCarbone
-    - SilvioRanise
-  abstract: >
-    While the security analysis of Access Control (AC) policies has received a lot of attention, the same cannot be said for their enforcement. As systems become more distributed (e.g., centralized services may become a bottleneck) and legal compliance constraints stricter (e.g., the problem of honest but curious Cloud providers in the light of privacy regulations), the fine-tuning of AC enforcement mechanisms is likely to become more and more important. This is especially true in scenarios where the quality of service may suffer from computationally heavy security mechanisms and low latency is a prominent requirement. As a first step towards a principled approach to fine-tune AC enforcement, this paper introduces a methodology providing the means to measure the performance of AC enforcement mechanisms through the simulation of realistic deployment scenarios. To do so, we base our methodology on Business Process Model and Notation (BPMN) workflows—that provide for an appropriate abstraction of the sequence of requests toward AC enforcement mechanisms performed by applications—to derive lists of AC operations (e.g., access a resource, revoke a permission) and execute them to evaluate and compare the performance of different mechanisms. Finally, we implement our methodology and apply it to three case studies representative of both traditional centralized AC—i.e., the Open Policy Agent (OPA) and the eXtensible Access Control Markup Language (XACML)—and decentralized Cryptographic Access Control (CAC)—i.e., CryptoAC—.
-  destination: POLSIM2023
-  year: 2023
-  #doi: 10.1145/3320269.3384767
-  urlComplementary: /complementary/POLSIM2023
-  #urlNews: /news/2020/02/15/paper-accepted-at-asiaccs-2020/
 
 - id: RACS2023
   id_iris: 344627
@@ -2144,6 +2132,7 @@
   urlNews: /news/2024/09/26/paper-accepted-at-ieee-sp/
 
 - id: iMETA2024
+  #id_iris: 
   title: "Beyond Screens: Investigating Identity Proofing for the Metaverse Through Cross-Device Flows"
   authors:
     - MarcoPernpruner
@@ -2151,11 +2140,11 @@
     - GiadaSciarretta
     - SilvioRanise
   abstract: >
-    The paper addresses the design of identity proofing flows based on the validation of authoritative identity evidence (such as electronic passports or identity documents) for metaverse-based applications. This problem arises in business use cases where users can perform sensitive or legally binding operations with their Virtual Reality (VR) headsets.<br />
-    To this end, a cross-device flow is proposed where users first interact with their mobile device to get securely identified by presenting a valid identity evidence, and successively wear the headset to set their access credentials by presenting a suitably designed identity transfer code. According to best practices for cross-device flows, the proposed approach incorporates a number of both known and newly introduced  security measures, which are thoroughly discussed in relation to possible impersonation attacks against the cross-device transfer phase.
+    This paper presents a secure identity proofing flow for metaverse-based applications, enabling the validation of authoritative identity evidence (such as electronic passports and identity cards) to support sensitive or legally binding operations performed through virtual reality (VR) headsets. These use cases, common in business environments, require users' credentials to be strongly linked to verified real-world identities, ensuring compliance with regulatory standards.<br />
+    The solution involves a cross-device flow where users first verify their identity on a mobile device by presenting valid identity evidence. This verified identity is then transferred to the VR headset, where users can register and activate credentials for future authentication. Beyond providing key security considerations and defining a taxonomy of possible attacks, we discuss how our design choices enhance the security of the flow.
   destination: iMETA2024
   year: 2024
-  doi: 
+  #doi: 
   urlNews: /news/2024/09/02/paper-accepted-at-imeta-2024/
 
 - id: Ital-IA2024
@@ -2169,6 +2158,7 @@
     In the rapidly evolving landscape of Artificial Intelligence (AI), ensuring the trustworthiness of AI tools deployed in sensitive use cases, such as judicial or healthcare processes, is paramount. The management of AI risks in judicial systems necessitates a holistic approach that includes various elements, such as technical, ethical considerations, and legal responsibilities. This approach should not only involve the application of risk management frameworks and regulations but also focus on the education and training of legal professionals. For this, we propose a risk-based approach designed to evaluate and mitigate potential risks associated with AI applications in judicial settings. Our approach is a semi-automated process that integrates both user (i.e., judge) feedback and technical insights to assess the AI tool’s alignment with Trustworthy AI principles.
   destination: Ital-IA2024
   year: 2024
+  url: https://ceur-ws.org/Vol-3762/469.pdf
   urlNews: /news/2024/04/24/paper-accepted-at-ital-ia-2024/
  
 - id: JISA2024

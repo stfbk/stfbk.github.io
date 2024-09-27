@@ -1,0 +1,163 @@
+name: update-cs-website
+
+env:
+  API_TOKEN_GITHUB: ${{ secrets.CS_SYNC_TOKEN }}
+  DESTINATION_REPO: 'csfbk/csfbk.github.io'
+  USER_NAME: 'csfbk'
+  USER_EMAIL: 'cs@fbk.eu'
+  UNIT_ACRONYM: 'st'
+
+on:
+  push:
+    paths:
+      - '_data/destinations.yml'
+      - '_data/members.yml'
+      - '_data/people.yml'
+      - '_data/publications.yml'
+      - '_data/theses.yml'
+      - 'assets/areas/people/**'
+
+jobs:
+  check-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      destinations: ${{ steps.changes.outputs.destinations }}
+      members: ${{ steps.changes.outputs.members }}
+      people: ${{ steps.changes.outputs.people }}
+      people-pictures: ${{ steps.changes.outputs.people-pictures }}
+      publications: ${{ steps.changes.outputs.publications }}
+      theses: ${{ steps.changes.outputs.theses }}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - uses: dorny/paths-filter@v3
+      id: changes
+      with:
+        filters: |
+          destinations:
+            - '_data/destinations.yml'
+          members:
+            - '_data/members.yml'
+          people:
+            - '_data/people.yml'
+          people-pictures:
+            - 'assets/areas/people/**'
+          publications:
+            - '_data/publications.yml'
+          theses:
+            - '_data/theses.yml'
+          
+  update-destinations:
+    runs-on: ubuntu-latest
+    needs: check-changes
+    if: ${{ needs.check-changes.outputs.destinations == 'true' }}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Push destinations to CS repository
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      with:
+        source_file: '_data/destinations.yml'
+        destination_repo: ${{ env.DESTINATION_REPO }}
+        destination_folder: '_data/destinations'
+        rename: 'destinations_${{ env.UNIT_ACRONYM }}.yml'
+        user_name: ${{ env.USER_NAME }}
+        user_email: ${{ env.USER_EMAIL }}
+
+    - run: echo "Operation completed."
+
+  update-members:
+    runs-on: ubuntu-latest
+    needs: update-destinations
+    if: ${{ needs.check-changes.outputs.members == 'true' && always()}}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Push data to CS repository
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      with:
+        source_file: '_data/members.yml'
+        destination_repo: ${{ env.DESTINATION_REPO }}
+        destination_folder: '_data/members'
+        rename: 'members_${{ env.UNIT_ACRONYM }}.yml'
+        user_name: ${{ env.USER_NAME }}
+        user_email: ${{ env.USER_EMAIL }}
+
+  update-people:
+    runs-on: ubuntu-latest
+    needs: update-members
+    if: ${{ needs.check-changes.outputs.people == 'true' && always()}}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Push data to CS repository
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      with:
+        source_file: '_data/people.yml'
+        destination_repo: ${{ env.DESTINATION_REPO }}
+        destination_folder: '_data/people'
+        rename: '1_people_${{ env.UNIT_ACRONYM }}.yml'
+        user_name: ${{ env.USER_NAME }}
+        user_email: ${{ env.USER_EMAIL }}
+
+    - run: echo "Operation completed."
+
+  update-people-pictures:
+    runs-on: ubuntu-latest
+    needs: update-people
+    if: ${{ needs.check-changes.outputs.people-pictures == 'true' && always()}}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Push data to CS repository
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      with:
+        source_file: 'assets/areas/people/'
+        destination_repo: ${{ env.DESTINATION_REPO }}
+        destination_folder: 'assets/areas/people/${{ env.UNIT_ACRONYM }}'
+        user_name: ${{ env.USER_NAME }}
+        user_email: ${{ env.USER_EMAIL }}
+        use_rsync: true
+
+    - run: echo "Operation completed."
+
+  update-publications:
+    runs-on: ubuntu-latest
+    needs: update-people-pictures
+    if: ${{ needs.check-changes.outputs.publications == 'true' && always()}}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Push data to CS repository
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      with:
+        source_file: '_data/publications.yml'
+        destination_repo: ${{ env.DESTINATION_REPO }}
+        destination_folder: '_data/publications'
+        rename: 'publications_${{ env.UNIT_ACRONYM }}.yml'
+        user_name: ${{ env.USER_NAME }}
+        user_email: ${{ env.USER_EMAIL }}
+
+  update-theses:
+    runs-on: ubuntu-latest
+    needs: update-publications
+    if: ${{ needs.check-changes.outputs.theses == 'true' && always()}}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Push data to CS repository
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      with:
+        source_file: '_data/theses.yml'
+        destination_repo: ${{ env.DESTINATION_REPO }}
+        destination_folder: '_data/theses'
+        rename: 'theses_${{ env.UNIT_ACRONYM }}.yml'
+        user_name: ${{ env.USER_NAME }}
+        user_email: ${{ env.USER_EMAIL }}

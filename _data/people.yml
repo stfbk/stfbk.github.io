@@ -29,11 +29,6 @@
 - id: AlbertoSiena
   name: Alberto
   surname: Siena
-  affiliations:
-    - role: Innovation Manager
-      institution: Securics
-      place: Trento, Italy
-  image: https://sites.google.com/site/albertosiena/_/rsrc/1263330308767/config/app/images/as.jpg
 
 - id: AlessandroArmando
   name: Alessandro
@@ -44,7 +39,7 @@
       institution: University of Genoa
       place: Genoa, Italy
   email: alessandro.armando@unige.it
-  image: https://rubrica.unige.it/static/foto/VUZDXlxu.jpg?1688135377.3747
+  image: https://rubrica.unige.it/static/foto/VUZDXlxu.jpg
 
 - id: AlessandroBiasi
   name: Alessandro
@@ -75,11 +70,6 @@
 - id: AlessandroTomasi
   name: Alessandro
   surname: Tomasi
-  affiliations:
-    - role: Head of Unit
-      unit: AppLiEd cryptograPHy
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
   email: altomasi@fbk.eu
   phone: "+390461314506"
   image: https://aleph.fbk.eu/assets/areas/people/AlessandroTomasi.jpg
@@ -153,10 +143,6 @@
 - id: AnnibalePanichella
   name: Annibale
   surname: Panichella
-  affiliations:
-    - role: Assistant Professor
-      institution: Delft University of Technology
-      place: Delft, The Netherlands
 
 - id: AntoninoSabetta
   name: Antonino
@@ -173,10 +159,6 @@
 - id: BiniamFissehaDemissie
   name: Biniam Fisseha
   surname: Demissie
-  affiliations:
-    - role: Senior Security Researcher
-      institution: Technology Innovation Institute
-      place: Abu Dhabi, United Arab Emirates
 
 - id: BrunoCrispo
   name: Bruno
@@ -193,7 +175,6 @@
 - id: CarlottaTagliaro
   name: Carlotta
   surname: Tagliaro
-  image: https://media-exp1.licdn.com/dms/image/C4E03AQEPRt71VVgABw/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=mmnzNewMBhrMwqgAbd0ne8RA6kTdqBtvnn8YCCpbkq4
 
 - id: CeciliaPasquini
   name: Cecilia
@@ -325,10 +306,6 @@
 - id: EmanueleViglianisi
   name: Emanuele
   surname: Viglianisi
-  affiliations:
-    - role: Data Engineer
-      institution: Runtastic
-      place: Linz, Austria
   image: https://emavgl.github.io/images/avatar.jpg
 
 - id: EmilianoRizzonelli
@@ -467,7 +444,6 @@
 - id: GiovanniFerronato
   name: Giovanni
   surname: Ferronato
-  image: https://media-exp1.licdn.com/dms/image/C5603AQEcwxof36633Q/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=h5fI2ngKcl-4rahGVBf4cRWY9ZzhGnKSDqRsz5fwo6s
 
 - id: GiovanniMagoga
   name: Giovanni
@@ -480,10 +456,6 @@
 - id: GiovanniMariaAbbiati
   name: Giovanni Maria
   surname: Abbiati
-  affiliations:
-    - role: Research Fellow
-      institution: University of Milan
-      place: Milan, Italy
   email: giovanni.abbiati@unimi.it
 
 - id: GiulioPellizzari
@@ -528,7 +500,6 @@
   name: Ivan
   surname: Vaccari
   email: ivan.vaccari@ieiit.cnr.it 
-  image: https://www.cnr.it/peoplepublic/peoplepublic/index/profileimage/login/ivanvaccari
 
 - id: IvanValentini
   name: Ivan
@@ -555,11 +526,6 @@
 - id: LauraCristiano
   name: Laura
   surname: Cristiano
-  affiliations:
-    - role: Researcher
-      unit: Center for Cybersecurity
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
   email: l.cristiano@fbk.eu
   
 - id: LeonardoDeMoura
@@ -666,11 +632,6 @@
 - id: MarianoCeccato
   name: Mariano
   surname: Ceccato
-  affiliations:
-    - role: Assistant Professor
-      unit: Department of Computer Science
-      institution: University of Verona
-      place: Verona, Italy
   email: mariano.ceccato@univr.it
   image: https://www.di.univr.it/documenti/Persona/foto/foto347921.jpg
 
@@ -698,7 +659,6 @@
   name: Massimo
   surname: Merro
   email: massimo.merro@univr.it
-  image: https://www.di.univr.it/documenti//Persona/foto/foto450272.jpg
 
 - id: MatildeSalaorni
   name: Matilde
@@ -883,11 +843,6 @@
 - id: RiccardoLongo
   name: Riccardo
   surname: Longo
-  affiliations:
-    - role: Researcher
-      unit: AppLiEd cryptograPHy
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
   email: rlongo@fbk.eu
 
 - id: RiccardoLussana
@@ -991,10 +946,6 @@
 - id: SergiiKushch
   name: Sergii
   surname: Kushch
-  affiliations:
-    - role: Senior Research Fellow
-      institution: University of Limerick
-      place: Limerick, Ireland
 
 - id: SergioManuelNobregaGoncalves
   name: Sergio Manuel
@@ -1061,15 +1012,6 @@
 - id: StefanoBerlato
   name: Stefano
   surname: Berlato
-  affiliations:
-    - role: PhD Student
-      unit: AppLiEd cryptograPHy
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-    - role: PhD Student
-      unit: DIBRIS
-      institution: University of Genoa
-      place: Genoa, Italy
   email: sberlato@fbk.eu
 
 - id: StefanoCamposilvan
@@ -1102,11 +1044,6 @@
 - id: TuanAnhTruong
   name: Tuan Anh
   surname: Truong
-  affiliations:
-    - role: Lecturer
-      unit: Faculty of Computer Science and Engineering
-      institution: HCMC University of Technology
-      place: Vietnam
   email: anhtt@cse.hcmut.edu.vn
 
 - id: UmbertoMorelli
@@ -1151,11 +1088,6 @@
 - id: ZahraEbadiAnsaroudi
   name: Zahra
   surname: Ebadi Ansaroudi
-  affiliations:
-    - role: Researcher
-      unit: AppLiEd cryptograPHy
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
   email: zebadiansaroudi@fbk.eu
 
 # Please keep alphabetical order
