@@ -248,22 +248,23 @@
                     {% endif %}
                     <div class="card-content">
                         {% if person.name and person.surname %}<p class="title is-spaced is-5">{{ person.name }} {{ person.surname }}</p>{% endif %}
-                        {% if role and details contains "role" %}<p class="subtitle role is-4">{{ role }}</p>{% endif %}
                         {% if type %}<p class="subtitle type is-4">{{ type }}</p>{% endif %}
                         {% if details contains "unit" or details contains "institution" or details contains "place" %}
                             {% for affiliation in person.affiliations %}
                                 <div class="affiliation{% if person.affiliations.size > 1 %} more{% endif %}">
+                                    {% if affiliation.role and details contains "role" %}<p class="subtitle affiliation role is-4">{{ affiliation.role }}</p>{% endif %}
                                     {% if affiliation.unit and details contains "unit" %}<p class="subtitle affiliation unit is-4">{{ affiliation.unit }}</p>{% endif %}
                                     {% if affiliation.institution and details contains "institution" %}<p class="subtitle affiliation institution is-4">{{ affiliation.institution }}</p>{% endif %}
                                     {% if affiliation.place and details contains "place" %}<p class="subtitle affiliation place is-4">{{ affiliation.place }}</p>{% endif %}
                                 </div>
                             {% endfor %}
-                        {% elsif details contains "internalUnit" %}
+                        {% elsif details contains "internalRole" or details contains "internalUnit" %}
                             {% for affiliation in person.affiliations %}
                                 {% if affiliation.institution == "Fondazione Bruno Kessler" %}
                                     {% if affiliation.unit == "Security & Trust" or affiliation.unit == "Center for Cybersecurity" %}
                                         <div class="affiliation">
-                                            <p class="subtitle affiliation unit is-4">{{ affiliation.unit }}</p>
+                                            {% if details contains "internalRole" %}<p class="subtitle affiliation role is-4">{{ affiliation.role }}</p>{% endif %}
+                                            {% if details contains "internalUnit" %}<p class="subtitle affiliation unit is-4">{{ affiliation.unit }}</p>{% endif %}
                                         </div>
                                     {% endif %}
                                 {% endif %}
@@ -271,7 +272,6 @@
                         {% endif %}
                         {% if institution %}<p class="subtitle institution is-4">{{ institution }}</p>{% endif %}
                         {% if formerRole %}<p class="subtitle former-role is-4">{{ formerRole }}</p>{% endif %}
-                        {% if currentRole and details contains "currentRole" %}<p class="subtitle current-role is-4">{{ currentRole }}</p>{% endif %}
                         {% if additionalInfo.topic and details contains "topic" %}<p class="subtitle topic is-4">{{ additionalInfo.topic }}</p>{% endif %}
                         {% if thesis.title and details contains "thesis" %}<p class="subtitle thesis is-4">Thesis: {{ thesis.title }}</p>{% endif %}
                         <div class="links">

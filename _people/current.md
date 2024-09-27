@@ -5,11 +5,11 @@ permalink: /people/
 ---
 
 <h1>Heads</h1>
-{% assign details = "picture, role, email, phone, personalPage, website" | split: ", " %}
+{% assign details = "picture, internalRole, email, phone, personalPage, website" | split: ", " %}
 {% include list-people.html source=site.data.members.current.head style="card" details=details %}
 
 <h1>Members</h1>
-{% assign details = "picture, role, email, phone, personalPage, website" | split: ", " %}
+{% assign details = "picture, internalRole, email, phone, personalPage, website" | split: ", " %}
 {% include list-people.html source=site.data.members.current.members style="card" details=details sort="name" %}
 
 {%- if site.data.members.current.collaborators.size > 0 -%}
