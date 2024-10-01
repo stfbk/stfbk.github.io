@@ -455,4 +455,15 @@
     - name: Event
       url: https://www.kuppingercole.com/sessions/5561/2
 
+- id: WiredNextFest2024
+  title: "La cultura della cybersecurity"
+  participants:
+    - GiadaSciarretta
+  eventName: Wired Next Fest 2024 Trentino
+  startDate: "2024-09-27"
+  endDate: "2024-09-27"
+  category: General
+  links:
+    - name: Event
+      url: https://eventi.wired.it/nextfest24-trentino/home 
 # PLEASE KEEP CHRONOLOGICAL ORDER BY START DATE WITHIN YEARS
