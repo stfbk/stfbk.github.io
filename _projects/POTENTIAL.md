@@ -1,6 +1,10 @@
 ---
 project: POTENTIAL
 website: https://www.digital-identity-wallet.eu/
+
+publications:
+  - CRiSIS2024
+
 ---
 POTENTIAL (*PilOTs for EuropeaN digiTal Identity wALlet*) develops pilots for testing the Digital Identity Wallet in Europe. The large scale pilot ambition is to provide people with a way to simplify online procedures like opening a bank account, renting a car or signing documents remotely. 
 

@@ -2099,6 +2099,24 @@
   year: 2024
   #doi: 
 
+- id: CRiSIS2024
+  #id_iris: 348308
+  title: "Protecting Digital Identity Wallet: A Threat Model in the Age of eIDAS 2.0"
+  authors:
+    - AmirSharif
+    - ZahraEbadiAnsaroudi
+    - GiadaSciarretta
+    - DanielaPöhn
+    - MajidMollaeefar
+    - WolfgangHommel
+    - SilvioRanise
+  abstract: >
+    The revised eIDAS regulation (eIDAS 2.0) advocates a shift from federated identity management systems (such as SAML and OpenID Connect) to user-centric identity-based systems. It defines the European Digital Identity Wallet as a key component. The main goal is to enhance privacy by empowering citizens to selectively disclose personal data in a controlled way. To facilitate the implementation of an interoperable Wallet solution, the EU Commission published a reference architecture and identified a high-level set of requirements. However, comprehensive security and privacy guidelines to ensure a secure and privacy-preserving solution are still missing. To address this gap, we provide threat modeling explicitly designed for the Digital Identity Wallet context. This allows for identifying potential threats and a set of effective controls to secure the implementations.
+  destination: CRiSIS2024
+  year: 2024
+  #doi:
+  urlNews: /news/2024/10/09/paper-accepted-at-crisis-2024/
+
 - id: EUROSP2024
   id_iris: 351187
   title: "CSRFing the SSO Waves: Security Testing of SSO-Based Account Linking Process"

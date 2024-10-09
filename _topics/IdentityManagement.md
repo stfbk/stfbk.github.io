@@ -34,6 +34,7 @@ publications:
     - EUROSP2024
     - iMETA2024
     - IEEE_SP2024
+    - CRiSIS2024
 
 theses:
     - DamianoSartori_B

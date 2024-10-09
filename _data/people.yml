@@ -242,6 +242,10 @@
   name: Daniel Ricardo
   surname: dos Santos
 
+- id: DanielaPöhn
+  name: Daniela
+  surname: Pöhn
+
 - id: DanieleDelSale
   name: Daniele
   surname: Del Sale
@@ -1076,6 +1080,10 @@
 - id: WendyBarreto
   name: Wendy
   surname: Barreto
+
+- id: WolfgangHommel
+  name: Wolfgang
+  surname: Hommel
 
 - id: WorachetUttha
   name: Worachet
