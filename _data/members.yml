@@ -3,11 +3,9 @@ current:
     - SilvioRanise
 
   members:
-    - ArslanRafi
     - AndreaZanardi
     - ClaudioFacchinetti
     - DanieleSantoro
-    - GiacomoSegala
     - GiancarloVallazza
     - HenriqueBeckerBrum
     - LorenzoGalvagni
@@ -18,7 +16,6 @@ current:
     - MatteoManfrin
     - RobertoDoriguzziCorin
     - SilvioCretti
-    - SimoneMagnani
     - ValentinoArmani
 
   students:
@@ -62,6 +59,14 @@ former:
     - DomenicoSiracusa
 
   phdStudents:
+    - personId: ArslanRafi
+
+    - personId: SimoneMagnani
+      thesisId: SimoneMagnani_P
+
+    - personId: GiacomoSegala
+      thesisId: GiacomoSegala_P
+
     - personId: MagedAbdelaty
       thesisId: MagedAbdelaty_P
 

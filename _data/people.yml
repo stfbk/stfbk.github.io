@@ -124,16 +124,14 @@
   name: Pietro
   surname: De Matteis
   affiliations:
-    - role: CLEANSE Lab Coordinator
-      unit: Robust and Secure Distributed Computing
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-    - formerRole: Developer
-      unit: Robust and Secure Distributed Computing
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
+    # order is important do not invert roles
     - role: Developer
       institution: Deda Group
+      place: Trento, Italy
+    - formerRole: Developer
+      role: CLEANSE Lab Coordinator
+      unit: Robust and Secure Distributed Computing
+      institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: pietro.dematteis@dedagroup.it
   
@@ -209,17 +207,15 @@
   email: domenico.siracusa@unitn.it
   iris_id: rp03832
   affiliations:
-    - formerRole: Head of the Research Unit
-      unit: Robust and Secure Distributed Computing
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-    - role: Affiliated Fellow
-      unit: Robust and Secure Distributed Computing
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
+    # order is important do not invert roles
     - role: Associate Professor
       unit: Department of Information Engineering and Computer Science
       institution: University of Trento
+      place: Trento, Italy
+    - formerRole: Head of the Research Unit
+      role: Affiliated Fellow
+      unit: Robust and Secure Distributed Computing
+      institution: Fondazione Bruno Kessler
       place: Trento, Italy
 
 - id: SilvioRanise

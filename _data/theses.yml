@@ -1,3 +1,27 @@
+- id: GiacomoSegala_P
+  author: GiacomoSegala
+  type: P
+  title: "Data-Driven Energy-Efficiency and Comfort Optimisation in Indoor Environments"
+  institution: University of Trento
+  year: 2024
+  supervisor: DomenicoSiracusa
+  co-supervisor: RobertoDoriguzziCorin
+  cycle: XXXVI
+  # https://hdl.handle.net/11572/430734
+
+- id: SimoneMagnani_P
+  author: SimoneMagnani
+  type: P
+  title: "Reducing Intrusion Detection’s Impact through Adaptive and Knowledge-Preserving Strategies"
+  institution: University of Genoa
+  year: 2024
+  supervisor: DomenicoSiracusa
+  co-supervisor: 
+    - RobertoDoriguzziCorin
+    - LucaOneto
+    - AlessandroArmando
+  cycle: XXXVI
+
 - id: MatteoRizzi_M
   author: MatteoRizzi
   type: M
