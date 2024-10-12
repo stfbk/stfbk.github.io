@@ -383,6 +383,12 @@ li.abstract, li.bio {
   margin-bottom: 10px;
 }
 
+.affiliation.more + .affiliation.more {
+  border-top: 2px solid #f5f5f5;
+  margin: 1rem 0 0;
+  padding: 1rem 0 0;
+}
+
 ul.publications li,
 ul.dissemination li,
 ul.events li,
