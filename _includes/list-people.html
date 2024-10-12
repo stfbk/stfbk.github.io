@@ -223,7 +223,7 @@
         {% assign personPage = site.people | where_exp: "page", "page.path == personFullPath" %}
 
         {% if style == "card" %}
-            <div class="column is-3-desktop is-4-tablet">
+            <div class="column is-one-fifth-desktop is-4-tablet">
                 <div class="card person">
                     {% if details contains "picture" %}
                         {% assign staticImageName = person.id | append: ".jpg" %}
@@ -235,10 +235,10 @@
                         {% elsif staticImage.size == 1 %}
                             {% assign personImage = staticImage[0].path %}
                         {% elsif person.usernameFBK %}
-                            {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ person.usernameFBK }}?w=200{% endcapture %}
+                            {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ person.usernameFBK }}?w=500{% endcapture %}
                         {% elsif person.email %}
                             {% if splitEmail[1] == "fbk.eu" %}
-                                {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ splitEmail[0] }}?w=200{% endcapture %}
+                                {% capture personImage %}https://my.fbk.eu/fbk-api/v2/picture/{{ splitEmail[0] }}?w=500{% endcapture %}
                             {% else %}
                                 {% capture personImage %}/assets/images/no-user.jpg{% endcapture %}
                             {% endif %}
@@ -248,7 +248,7 @@
                         {% if personImage != "" %}
                             <div class="card-image">
                                 <figure class="image">
-                                    <a href="{{ site.baseurl }}{{ personFullURL }}"><img src="{{ personImage }}" alt="{{ person.name }} {{ person.surname }}" onError="setDefaultUserPicture(this)" /></a>
+                                    <img src="{{ personImage }}" alt="{{ person.name }} {{ person.surname }}" onError="setDefaultUserPicture(this)" />
                                 </figure>
                             </div>
                         {% endif %}
@@ -259,23 +259,26 @@
                         {% if type %}<p class="subtitle type is-4">{{ type }}</p>{% endif %}
                         {% if details contains "unit" or details contains "institution" or details contains "place" %}
                             {% for affiliation in person.affiliations %}
+                                {% if affiliation.role %} 
                                 <div class="affiliation{% if person.affiliations.size > 1 %} more{% endif %}">
                                     {% if (affiliation.unit == "Robust and Secure Distributed Computing" or affiliation.unit == "Center for Cybersecurity") and affiliation.institution == "Fondazione Bruno Kessler" and affiliation.role %}
                                         <p class="subtitle role is-4">{{ affiliation.role }}</p>
-                                        <hr />
                                     {% else %}
+                                        {% if affiliation.role and details contains "role" %}<p class="subtitle affiliation role is-4">{{ affiliation.role }}</p>{% endif %}
                                         {% if affiliation.unit and details contains "unit" %}<p class="subtitle affiliation unit is-4">{{ affiliation.unit }}</p>{% endif %}
                                         {% if affiliation.institution and details contains "institution" %}<p class="subtitle affiliation institution is-4">{{ affiliation.institution }}</p>{% endif %}
                                         {% if affiliation.place and details contains "place" %}<p class="subtitle affiliation place is-4">{{ affiliation.place }}</p>{% endif %}
                                     {% endif %}
                                 </div>
+                                {% endif %}
                             {% endfor %}
-                        {% elsif details contains "internalUnit" %}
+                        {% elsif details contains "internalRole" or details contains "internalUnit" %}
                             {% for affiliation in person.affiliations %}
                                 {% if affiliation.institution == "Fondazione Bruno Kessler" %}
                                     {% if affiliation.unit == "Robust and Secure Distributed Computing" or affiliation.unit == "Center for Cybersecurity" %}
                                         <div class="affiliation">
-                                            <p class="subtitle affiliation unit is-4">{{ affiliation.unit }}</p>
+                                            {% if details contains "internalRole" %}<p class="subtitle affiliation role is-4">{{ affiliation.role }}</p>{% endif %}
+                                            {% if details contains "internalUnit" %}<p class="subtitle affiliation unit is-4">{{ affiliation.unit }}</p>{% endif %}
                                         </div>
                                     {% endif %}
                                 {% endif %}
@@ -283,21 +286,9 @@
                         {% endif %}
                         {% if institution %}<p class="subtitle institution is-4">{{ institution }}</p>{% endif %}
                         {% if formerRole %}<p class="subtitle former-role is-4">{{ formerRole }}</p>{% endif %}
-                        {% if currentRole and details contains "currentRole" %}<p class="subtitle current-role is-4">{{ currentRole }}</p>{% endif %}
                         {% if additionalInfo.topic and details contains "topic" %}<p class="subtitle topic is-4">{{ additionalInfo.topic }}</p>{% endif %}
                         {% if thesis.title and details contains "thesis" %}<p class="subtitle thesis is-4">Thesis: {{ thesis.title }}</p>{% endif %}
                         <div class="links">
-                            {% if details contains "personalPage" %}
-                                {% if personPage.size == 1 %}
-                                    <a href="{{ site.baseurl }}{{ personFullURL }}">
-                                        <span class="fa-stack" style="vertical-align: top;">
-                                            <i class="fas fa-circle fa-stack-2x"></i>
-                                            <i class="fas fa-id-card fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                    </a>
-                                {% endif %}
-                            {% endif %}
-
                             {% if person.email and details contains "email" %}
                                 <a href="mailto:{{ person.email }}">
                                     <span class="fa-stack" style="vertical-align: top;">
@@ -314,6 +305,34 @@
                                         <i class="fas fa-phone fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
+                            {% endif %}
+
+                            {% assign personFullURL = nil %}
+                            {% if details contains "personalPage" %}
+                                {% assign personFullName = person.name | append: " " | append: person.surname %}
+                                {% assign personURL = personFullName | replace: " ", "-" | downcase %}
+                                {% assign personalURLNoAccents = personURL | replace: 'à', 'a' | replace: 'è', 'e'  | replace: 'ì', 'i'  | replace: 'ò', 'o'  | replace: 'ù', 'u' %}
+                                
+                                {% assign personFullPath = "_people/" | append: personalURLNoAccents | append: ".md" %}
+                                {% assign personPage = site.people | where_exp: "page", "page.path == personFullPath" %}
+                                
+                                {% if personPage.size == 1 %}
+                                    {% assign personFullURL = "/people/" | append: personURL %}
+                                {% else %}
+                                    {% assign personFullPathArchive = "_people/archive/" | append: personalURLNoAccents | append: ".md" %}
+                                    {% assign personPageArchive = site.people | where_exp: "page", "page.path == personFullPathArchive" %}
+                                    {% if personPageArchive.size == 1 %}
+                                        {% assign personFullURL = "/people/archive/" | append: personalURLNoAccents %}
+                                    {% endif %}
+                                {% endif %}
+                                {% if personFullURL %}
+                                    <a href="{{ site.baseurl }}{{ personFullURL }}">
+                                        <span class="fa-stack" style="vertical-align: top;">
+                                            <i class="fas fa-circle fa-stack-2x"></i>
+                                            <i class="fas fa-id-card fa-stack-1x fa-inverse"></i>
+                                        </span>
+                                    </a>
+                                {% endif %}
                             {% endif %}
 
                             {% if details contains "website" %}
@@ -367,10 +386,19 @@
                 {% if details contains "personalPage" %}
                     {% assign personFullName = person.name | append: " " | append: person.surname %}
                     {% assign personURL = personFullName | replace: " ", "-" | downcase %}
-                    {% assign personFullPath = "_people/" | append: personURL | append: ".md" %}
+                    {% assign personalURLNoAccents = personURL | replace: 'à', 'a' | replace: 'è', 'e'  | replace: 'ì', 'i'  | replace: 'ò', 'o'  | replace: 'ù', 'u' %}
+                    
+                    {% assign personFullPath = "_people/" | append: personalURLNoAccents | append: ".md" %}
                     {% assign personPage = site.people | where_exp: "page", "page.path == personFullPath" %}
+                    
                     {% if personPage.size == 1 %}
                         {% assign personFullURL = "/people/" | append: personURL %}
+                    {% else %}
+                        {% assign personFullPathArchive = "_people/archive/" | append: personalURLNoAccents | append: ".md" %}
+                        {% assign personPageArchive = site.people | where_exp: "page", "page.path == personFullPathArchive" %}
+                        {% if personPageArchive.size == 1 %}
+                            {% assign personFullURL = "/people/archive/" | append: personalURLNoAccents %}
+                        {% endif %}
                     {% endif %}
                 {% endif %}
                 <li>
