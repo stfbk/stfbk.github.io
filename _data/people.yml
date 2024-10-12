@@ -234,13 +234,13 @@
 - id: MatteoRizzi
   name: Matteo
   surname: Rizzi
-  affiliations:
-    - role: Security Specialist Officer
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: mrizzi@fbk.eu
-  phone: "+390461312356"
+#  affiliations:
+#    - role: Security Specialist Officer
+#      unit: Security & Trust
+#      institution: Fondazione Bruno Kessler
+#      place: Trento, Italy
+#  email: mrizzi@fbk.eu
+#  phone: "+390461312356"
 
 # Interns
 
