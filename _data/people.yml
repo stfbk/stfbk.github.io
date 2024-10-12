@@ -396,6 +396,14 @@
 
 # Etc
 
+- id: LucaOneto
+  name: Luca
+  surname: Oneto
+
+- id: AlessandroArmando
+  name: Alessandro
+  surname: Armando
+
 - id: FrancoCallegati
   name: Franco
   surname: Callegati
