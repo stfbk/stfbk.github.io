@@ -125,7 +125,10 @@
   surname: De Matteis
   affiliations:
     - role: CLEANSE Lab Coordinator
-      formerRole: Developer
+      unit: Robust and Secure Distributed Computing
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+    - formerRole: Developer
       unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -207,7 +210,10 @@
   iris_id: rp03832
   affiliations:
     - formerRole: Head of the Research Unit
-      role: Affiliated Fellow
+      unit: Robust and Secure Distributed Computing
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+    - role: Affiliated Fellow
       unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
