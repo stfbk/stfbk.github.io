@@ -248,7 +248,11 @@
                         {% if personImage != "" %}
                             <div class="card-image">
                                 <figure class="image">
-                                    <img src="{{ personImage }}" alt="{{ person.name }} {{ person.surname }}" onError="setDefaultUserPicture(this)" />
+                                    {% if details contains "personalPage" %}
+                                       <a href="{{ site.baseurl }}{{ personFullURL }}"><img src="{{ personImage }}" alt="{{ person.name }} {{ person.surname }}" onError="setDefaultUserPicture(this)" /></a>
+                                    {% else %}
+                                        <img src="{{ personImage }}" alt="{{ person.name }} {{ person.surname }}" onError="setDefaultUserPicture(this)" />
+                                    {% endif %}
                                 </figure>
                             </div>
                         {% endif %}
