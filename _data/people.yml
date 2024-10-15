@@ -244,6 +244,10 @@
 #  email: mrizzi@fbk.eu
 #  phone: "+390461312356"
 
+- id: SalvatoreManfredi
+  name: Salvatore
+  surname: Manfredi
+
 # Interns
 
 - id: MarcoZani 
@@ -287,6 +291,12 @@
   surname: Bouveret
   usernameFBK: mbouveret
   email: mbouveret@fbk.eu
+
+- id: DennisOrlando
+  name: Dennis
+  surname: Orlando
+  usernameFBK: dorlando
+  email: dorlando@fbk.eu
 
 # Former
 
