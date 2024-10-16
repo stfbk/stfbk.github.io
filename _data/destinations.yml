@@ -169,6 +169,7 @@
 - id: 2024ieeeeuropeansymposiumonsecurityandprivacyworkshopseurospw
   name: 2024 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)
   type: conference
+  proceedings: Proceedings of 2024 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)
 
 - id: 21stinternationalconferenceoninformationandcommunicationssecurityicics2019
   name: 21st International Conference on Information and Communications Security (ICICS 2019)
@@ -276,9 +277,8 @@
   proceedings: Proceedings of Conference on Innovation in Clouds, Internet and Networks
 
 - id: ecoc201642ndeuropeanconferenceonopticalcommunication
-  name: Ecoc 2016, 42nd European Conference on Optical Communication
+  name: Ecoc 2016 Proceedings of 42nd European Conference on Optical Communication
   type: conference
-  proceedings: Proceedings of Ecoc 2016, 42nd European Conference on Optical Communication
 
 - id: economicsofgridscloudssystemsandservices
   name: Economics of Grids, Clouds, Systems, and Services
