@@ -3,6 +3,9 @@ title: 2nd International Workshop on Trends in Digital Identity (TDI 2024)
 menubar: TDI2024
 permalink: /events/TDI2024/
 image: /assets/areas/events/TDI2024/tdi2024.jpg
+
+images:
+  - source: /assets/areas/events/TDI2024/pictures/GroupPicture.jpg
 ---
 
 <img class="image-centered" src="/assets/areas/events/TDI2024/tdi2024.jpg" />
