@@ -1,0 +1,14 @@
+- label: Menu
+  items:
+    - name: Home
+      link: /events/TDI2025/
+    - name: Call for Papers
+      link: call-for-papers
+    - name: Committees
+      link: committees
+    - name: Previous Editions
+      items:
+        - name: 1st Edition (2023)
+          link: /events/TDI2023/
+        - name: 2nd Edition (2024)
+          link: /events/TDI2024/

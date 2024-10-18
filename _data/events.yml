@@ -97,7 +97,7 @@
   acronym: TDI 2023
   startDate: "2023-06-06"
   endDate: "2023-06-06"
-  description:
+  description: The workshop seeks to bring together representatives from academia, research institutions, industry, public administrations, and standardization bodies to discuss the evolving landscape of digital identity management. TDI 2023 is co-located with the 28th ACM Symposium on Access Control Models and Technologies (SACMAT 2023).
   url: /events/TDI2023
 
 - id: SACMAT2023
@@ -122,7 +122,7 @@
   acronym: TDI 2024
   startDate: "2024-04-09"
   endDate: "2024-04-09"
-  description:
+  description: The workshop seeks to bring together representatives from academia, research institutions, industry, public administrations, and standardization bodies to discuss the evolving landscape of digital identity management. TDI 2024 is co-located with the 9th OAuth Security Workshop (OSW 2024).
   url: /events/TDI2024
 
 - id: OSW2024
@@ -148,3 +148,12 @@
   endDate: "2024-09-19"
   description: CPS4CIP 2024 is the fifth workshop dedicated to cyber-physical security for protecting critical infrastructures that support finance, energy, health, air transport, communication, gas, and water.
   url: /events/CPS4CIP2024
+
+# 2025
+- id: TDI2025
+  name: 3rd International Workshop on Trends in Digital Identity
+  acronym: TDI 2025
+  startDate: "2025-02-03"
+  endDate: "2025-02-03"
+  description: The workshop seeks to bring together representatives from academia, research institutions, industry, public administrations, and standardization bodies to discuss the evolving landscape of digital identity management. TDI 2025 is co-located with the Joint National Conference on Cybersecurity (ITASEC & SERICS 2025).
+  url: /events/TDI2025
