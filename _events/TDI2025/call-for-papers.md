@@ -36,7 +36,7 @@ We welcome two types of submissions:
 
 Authors must indicate during submission if they wish their paper to be considered for inclusion in the post-proceedings volume.
 
-Submissions must be in English and provided in PDF format, using the CEURART template (1-column format). You can find the LaTeX and Word versions of the template [here](https://drive.google.com/file/d/1-BWHL9t4wvbZw_ThdFzMEltFYxlcpBqp/view), and an Overleaf version is also available (the link will be added soon).
+Submissions must be in English and provided in PDF format, following the CEURART template (1-column layout). Various versions of the template are available for download: [DOCX](https://ceur-ws.org/Vol-XXX/CEUR-Template-1col.docx), [ODT](https://ceur-ws.org/Vol-XXX/CEUR-Template-1col.odt), and [LaTeX](https://drive.google.com/file/d/1-BWHL9t4wvbZw_ThdFzMEltFYxlcpBqp/view). An [Overleaf version](https://www.overleaf.com/latex/templates/template-for-submissions-to-ceur-workshop-proceedings-ceur-ws-dot-org/hpvjjzhjxzjk) is also available for online use. For LaTeX users, the primary file to edit is `sample-1col.tex`. We encourage users familiar with LaTeX to take advantage of the LaTeX template (either locally or through Overleaf).
 
 Submissions will be classified based on their length as follows:
 - **Short papers**: 5-9 pages, including references and appendices.
