@@ -14,11 +14,24 @@ current:
     - MarcoZambianco
     - MatteoFranzil
     - MatteoManfrin
+    - MichaelKevinNtakoKoungni
     - RobertoDoriguzziCorin
     - SilvioCretti
     - ValentinoArmani
 
   students:
+    - personId: PetrSabel
+      type: B
+      institution: University of Trento
+      yearFrom: 2024
+    - personId: AlessiaPivotto
+      type: B
+      institution: University of Trento
+      yearFrom: 2024
+    - personId: FrancescoMarchetto
+      type: B
+      institution: University of Trento
+      yearFrom: 2024
     - personId: MarcoZani 
       type: B
       institution: University of Trento

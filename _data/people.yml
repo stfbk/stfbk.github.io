@@ -26,6 +26,7 @@
   surname: Facchinetti
   email: cfacchinetti@fbk.eu
   phone: "+390461314940"
+  iris_id: rp26313
   affiliations:
     - role: Researcher
       unit: Robust and Secure Distributed Computing
@@ -49,7 +50,7 @@
   surname: Becker Brum
   email: hbeckerbrum@fbk.eu
   affiliations:
-    - role: Junior Researcher
+    - role: PhD Student
       unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -94,7 +95,7 @@
   phone: "+390461314046"
   iris_id: rp24846
   affiliations:
-    - role: Researcher
+    - role: PhD Student
       unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -105,6 +106,16 @@
   email: mmanfrin@fbk.eu
   affiliations:
     - role: Developer
+      unit: Robust and Secure Distributed Computing
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+
+- id: MichaelKevinNtakoKoungni
+  name: Michael Kevin
+  surname: Ntako Koungni
+  email: mntakokoungni@fbk.eu
+  affiliations:
+    - role: PhD Student
       unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -183,7 +194,7 @@
   name: Domenico
   surname: Siracusa
   email: domenico.siracusa@unitn.it
-  #  iris_id: rp03832
+  iris_id: rp03832
   affiliations:
     # order is important do not invert roles
     - role: Associate Professor
@@ -227,6 +238,24 @@
   surname: Manfredi
 
 # Interns
+
+- id: FrancescoMarchetto
+  name: Francesco
+  surname: Marchetto
+  email: fmarchetto@fbk.eu
+  usernameFBK: fmarchetto
+
+- id: AlessiaPivotto
+  name: Alessia
+  surname: Pivotto
+  email: apivotto@fbk.eu
+  usernameFBK: apivotto
+
+- id: PetrSabel
+  name: Petr
+  surname: Sabel
+  email: psabel@fbk.eu
+  usernameFBK: psabel
 
 - id: MarcoZani 
   name: Marco
@@ -280,7 +309,7 @@
 - id: GiacomoSegala
   name: Giacomo
   surname: Segala
-  # iris_id: rp19776
+  iris_id: rp19776
   # affiliations:
   #   - role: PhD Student
   #     unit: Robust and Secure Distributed Computing
@@ -290,8 +319,8 @@
 - id: SimoneMagnani
   name: Simone
   surname: Magnani
+  iris_id: rp19839
   # email: smagnani@fbk.eu
-  # iris_id: rp19839
   # affiliations:
   #   - role: PhD Student
   #     unit: Robust and Secure Distributed Computing
