@@ -74,6 +74,22 @@
   endDate: "2023-12-31"
   url: /projects/IDeARe
 
+- id: IPZS_JointLab_Wallet
+  title: Joint Lab with IPZS
+  titleAddon: Evoluzione ID CIE con OpenID Connect e Mobile Identity
+  startDate: "2024-03-21"
+  endDate: "2024-06-14"
+  logo: IPZS.png
+  url: /projects/IPZS_JointLab_Wallet
+
+- id: IPZS_JointLab_iVoting_eID
+  title: Joint Lab with IPZS
+  titleAddon: Internet Voting - Evoluzione ID sulla CIE
+  startDate: "2024-03-21"
+  endDate: "2026-03-20"
+  logo: IPZS.png
+  url: /projects/IPZS_JointLab_iVoting_eID
+
 - id: JuLIA
   title: JuLIA
   titleAddon: Justice, fundamentaL rIghts and Artificial intelligence
