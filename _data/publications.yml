@@ -2084,7 +2084,7 @@
 
 ## 2024
 - id: AEIT2024
-  #id_iris: 
+  id_iris: 352567
   title: "Emerging security and legal challenges within renewable energy communities: key prevention and defence strategies"
   authors:
     - SilviaRicciuti
@@ -2097,7 +2097,7 @@
     In the context of decarbonizing the energy system, the European Union has promoted a package of eight different directives known as the Clean Energy Package. Among them, Directive 2018/2001/EU, also known as RED II, has proposed a new legal framework for the development of renewable energy sources (RES) and, more importantly, for increasing citizen participation in the energy transition through two new tools: collective self-consumption systems (CSC) and renewable energy communities (REC). The realization, management, and optimization of these new realities of widespread energy production and consumption require the use of ICT technologies, without which the integrated production, distribution, and efficient use of renewable energy would not be possible. However, the massive use of ICT technologies essential for the operation of such systems brings with it the risk of threats from malicious actors, whose objectives may include undermining the stability, operation, and reliability of the community itself. This paper aims, in the first chapter, to explain the concept of REC and, in the second chapter, to outline the cybersecurity aspects of REC. The third chapter outlines the legal frameworks and privacy issues connected to the community itself. At the end, it will provide an overview of the existing attack surfaces in the energy community and possible mitigations through prevention and defense strategies. 
   destination: AEIT2024
   year: 2024
-  #doi: 
+  doi: 10.23919/AEIT63317.2024.10736786
 
 - id: CRiSIS2024
   #id_iris:
