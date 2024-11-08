@@ -867,10 +867,14 @@
   name: Riccardo
   surname: Ziglio
   affiliations:
-    - role: Research Assistant
+    - role: PhD Student
       unit: Security & Trust
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
+    - role: PhD Student
+      unit: DIBRIS
+      institution: University of Genoa
+      place: Genoa, Italy
   email: rziglio@fbk.eu
 
 - id: RobertaPeracchio
