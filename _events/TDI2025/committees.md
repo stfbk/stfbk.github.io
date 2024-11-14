@@ -22,7 +22,7 @@ menubar: TDI2025
 - **Daniela Pöhn** (Universität der Bundeswehr München)
 - **Guido Schmitz** (Lancaster University Leipzig)
 - **Rachelle Sellung** (Fraunhofer IAO)
-* **Diego Sempreboni** (Pleo Technologies)
+- **Diego Sempreboni** (Pleo Technologies)
 - **Amir Sharif** (Fondazione Bruno Kessler)
 - **Luca Viganò** (King's College London)
 - **Nicola Zannone** (Eindhoven University of Technology)
