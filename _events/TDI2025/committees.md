@@ -12,7 +12,20 @@ menubar: TDI2025
 - **Giada Sciarretta** (Fondazione Bruno Kessler)
 
 # Program Committee
-*Under definition*
+- **Francesco Buccafurri** (University of Reggio Calabria)
+- **Markus Dürmuth** (Leibniz University Hannover)
+- **Riccardo Focardi** (Ca' Foscari University of Venice)
+- **Ralf Küsters** (University of Stuttgart)
+- **Flaminia Luccio** (Ca' Foscari University of Venice)
+- **Marino Miculan** (University of Udine)
+- **Federica Maria Francesca Paci** (University of Verona)
+- **Daniela Pöhn** (Universität der Bundeswehr München)
+- **Guido Schmitz** (Lancaster University Leipzig)
+- **Rachelle Sellung** (Fraunhofer IAO)
+* **Diego Sempreboni** (Pleo Technologies)
+- **Amir Sharif** (Fondazione Bruno Kessler)
+- **Luca Viganò** (King's College London)
+- **Nicola Zannone** (Eindhoven University of Technology)
 
 # Organizing Committee
 - **Roberto Carbone** (Fondazione Bruno Kessler)
