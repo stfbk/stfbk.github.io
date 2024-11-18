@@ -2152,7 +2152,7 @@
   urlComplementary: https://st.fbk.eu/complementary/EuroSP2024
 
 - id: IEEE_SP2024
-  #id_iris:
+  id_iris: 352727
   title: "Enhancing Security Testing for Identity Management Implementations: Introducing Micro-Id-Gym Language and Micro-Id-Gym Testing Tool"
   authors:
     - AndreaBisegna
@@ -2163,7 +2163,7 @@
     We introduce MIG-L, a declarative language for the specification of security tests, and MIG-T, a testing tool, for identity management solutions based on SAML and OAuth/OpenID Connect. We verify compliance with best current practices and detect known vulnerabilities.
   destination: IEEE_SP
   year: 2024
-  #doi:
+  doi: 10.1109/MSEC.2024.3450277
   urlNews: /news/2024/09/26/paper-accepted-at-ieee-sp/
 
 - id: iMETA2024
