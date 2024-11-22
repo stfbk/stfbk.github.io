@@ -171,6 +171,10 @@
   type: conference
   proceedings: Proceedings of 2024 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)
 
+- id: 2024ieeesymposiumoncomputersandcommunicationsiscc
+  name: 2024 IEEE Symposium on Computers and Communications (ISCC)
+  type: conference
+
 - id: 21stinternationalconferenceoninformationandcommunicationssecurityicics2019
   name: 21st International Conference on Information and Communications Security (ICICS 2019)
   type: conference

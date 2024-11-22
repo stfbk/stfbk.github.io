@@ -144,6 +144,19 @@
   doi: 10.1109/tsc.2024.3395919
 
 
+- id: iris_2024_500017909dd069a2b010
+  id_iris: 352667,
+  title: "Demo: Cloud-native Cyber Deception with Decepto"
+  authors:
+    - DanieleSantoro
+    - MarcoZambianco
+    - ClaudioFacchinetti
+    - DomenicoSiracusa
+  destination: 2024ieeesymposiumoncomputersandcommunicationsiscc
+  year: 2024
+  doi: 10.1109/iscc61673.2024.10733585
+
+
 - id: iris_2023_d10c4cdad8055829690b
   id_iris: 336467,
   title: "Locality-aware deployment of application microservices for multi-domain fog computing"
