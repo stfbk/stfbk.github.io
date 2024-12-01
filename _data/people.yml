@@ -65,7 +65,18 @@
       unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-  
+
+- id: LorysMutti
+  name: Lorys
+  surname: Mutti
+  usernameFBK: lmutti
+  email: lmutti@fbk.eu
+  affiliations:
+    - role: Junior Developer
+      unit: Robust and Secure Distributed Computing
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+
 - id: LuisAugustoDiasKnob
   name: Luis Augusto
   surname: Dias Knob
@@ -268,12 +279,6 @@
   surname: Foletto
   usernameFBK: gfoletto
   email: gfoletto@fbk.eu
-
-- id: LorysMutti
-  name: Lorys
-  surname: Mutti
-  usernameFBK: lmutti
-  email: lmutti@fbk.eu
 
 - id: CarloSorrentino
   name: Carlo

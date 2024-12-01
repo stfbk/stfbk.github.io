@@ -9,6 +9,7 @@ current:
     - GiancarloVallazza
     - HenriqueBeckerBrum
     - LorenzoGalvagni
+    - LorysMutti
     - LuisAugustoDiasKnob
     - MarceloDarioRodasBritez
     - MarcoZambianco
@@ -42,18 +43,8 @@ current:
       institution: University of Trento
       yearFrom: 2023
       yearTo: 2024
-    - personId: LorysMutti
-      type: B
-      institution: University of Trento
-      yearFrom: 2024
-      yearTo: 2024
     - personId: CarloSorrentino
       type: B
-      institution: University of Trento
-      yearFrom: 2024
-      yearTo: 2024
-    - personId: SilvanusBordignon
-      type: B 
       institution: University of Trento
       yearFrom: 2024
       yearTo: 2024
@@ -160,7 +151,19 @@ former:
       formerRole: Researcher
       yearTo: 2020
 
-  students:
+  students:    
+    - personId: LorysMutti
+      type: B
+      institution: University of Trento
+      yearFrom: 2024
+      yearTo: 2024
+
+    - personId: SilvanusBordignon
+      type: B 
+      institution: University of Trento
+      yearFrom: 2024
+      yearTo: 2024
+
     - personId: MatteoBregola
       thesisId: MatteoBregola_B
       
