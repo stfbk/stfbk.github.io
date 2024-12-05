@@ -455,6 +455,20 @@
     - name: Event
       url: https://www.kuppingercole.com/sessions/5561/2
 
+- id: WIFS2024
+  title: "European Digital Identity Wallet: Opportunities and Security Challenges"
+  participants:
+    - AmirSharif
+    - GiadaSciarretta
+    - AlessandroTomasi
+  eventName: 16th IEEE International Workshop on Information Forensics And Security (WIFS 2024)
+  startDate: "2024-12-02"
+  endDate: "2024-12-02"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://wifs2024.uniroma3.it
+
 - id: WiredNextFest2024
   title: "La cultura della cybersecurity"
   participants:
@@ -465,5 +479,5 @@
   category: General
   links:
     - name: Event
-      url: https://eventi.wired.it/nextfest24-trentino/home 
+      url: https://eventi.wired.it/nextfest24-trentino/home
 # PLEASE KEEP CHRONOLOGICAL ORDER BY START DATE WITHIN YEARS
