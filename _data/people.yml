@@ -852,12 +852,7 @@
 - id: RiccardoLussana
   name: Riccardo
   surname: Lussana
-  affiliations:
-    - role: Research Assistant
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: rlussana@fbk.eu
+  usernameFBK: rlussana
 
 - id: RiccardoTraverso
   name: Riccardo

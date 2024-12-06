@@ -3,25 +3,24 @@ current:
     - RobertoCarbone
 
   members:
-    - GiadaSciarretta
-    - TahirAhmad
     - AmirSharif
-    - MarcoPernpruner
-    - SalvatoreManfredi
-    - MatteoRizzi
+    - AndreaBisegna
+    - CeciliaPasquini
     - EleonoraMarchesini
     - ElhamArshad
-    - MuhammadImran
-    - MajidMollaeefar
-    - UmbertoMorelli
-    - RiccardoLussana
-    - RiccardoGermenia
-    - CeciliaPasquini
+    - GiadaSciarretta
     - GianlucaSassetti
-    - AndreaBisegna
-    - RiccardoZiglio
-    - SimoneBrunello
     - GiovanniCorti
+    - MajidMollaeefar
+    - MarcoPernpruner
+    - MatteoRizzi
+    - MuhammadImran
+    - RiccardoGermenia
+    - RiccardoZiglio
+    - SalvatoreManfredi
+    - SimoneBrunello
+    - TahirAhmad
+    - UmbertoMorelli
 
   collaborators:
       
@@ -147,6 +146,11 @@ former:
       formerRole: Researcher
       yearFrom: 2021
       yearTo: 2023
+
+    - personId: RiccardoLussana
+      formerRole: Research Assistant
+      yearFrom: 2023
+      yearTo: 2024
 
   phdStudents:
     - personId: FedericoSinigaglia
