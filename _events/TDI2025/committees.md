@@ -5,7 +5,7 @@ menubar: TDI2025
 ---
 
 # General Chair
-- **Silvio Ranise** (Fondazione Bruno Kessler)
+- **Silvio Ranise** (Fondazione Bruno Kessler and University of Trento)
 
 # Program Co-Chairs
 - **Marco Pernpruner** (Fondazione Bruno Kessler)
