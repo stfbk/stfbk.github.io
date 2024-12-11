@@ -12,6 +12,7 @@ image: /assets/areas/events/TDI2025/tdi2025.jpg
 </blockquote>
 
 # Recent News
+- **07/12/2024**: The paper submission deadline has been extended to **December 12, 2024**.
 - **14/11/2024**: The [Program Committee](committees) has been published.
 - **18/10/2024**: The website is online.
 
