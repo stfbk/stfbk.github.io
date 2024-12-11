@@ -268,37 +268,11 @@
   email: psabel@fbk.eu
   usernameFBK: psabel
 
-- id: MarcoZani 
-  name: Marco
-  surname: Zani
-  usernameFBK: mzani
-  email: mzani@fbk.eu
-
-- id: GiovanniFoletto
-  name: Giovanni
-  surname: Foletto
-  usernameFBK: gfoletto
-  email: gfoletto@fbk.eu
-
-- id: CarloSorrentino
-  name: Carlo
-  surname: Sorrentino
-  usernameFBK: csorrentino
-  email: csorrentino@fbk.eu
-
-- id: SilvanusBordignon
-  name: Silvanus
-  surname: Bordignon
-  usernameFBK: sbordignon
-  email: sbordignon@fbk.eu
-
-- id: MatteoBregola
-  name: Matteo
-  surname: Bregola
-
-- id: SamueleBouveret
-  name: Samuele
-  surname: Bouveret
+- id: EnricoCarnelos
+  name: Enrico
+  surname: Carnelos
+  usernameFBK: ecarnelos
+  email: ecarnelos@fbk.eu
 
 - id: DennisOrlando
   name: Dennis
@@ -306,9 +280,6 @@
   usernameFBK: dorlando
   email: dorlando@fbk.eu
 
-- id: IrinaVoloshina
-  name: Irina
-  surname: Voloshina
 
 # Former
 - id: GiacomoSegala
@@ -332,6 +303,34 @@
   #     institution: Fondazione Bruno Kessler
   #     place: Trento, Italy
   
+- id: MatteoBregola
+  name: Matteo
+  surname: Bregola
+
+- id: SamueleBouveret
+  name: Samuele
+  surname: Bouveret
+
+- id: IrinaVoloshina
+  name: Irina
+  surname: Voloshina
+
+- id: MarcoZani 
+  name: Marco
+  surname: Zani
+
+- id: GiovanniFoletto
+  name: Giovanni
+  surname: Foletto
+
+- id: CarloSorrentino
+  name: Carlo
+  surname: Sorrentino
+
+- id: SilvanusBordignon
+  name: Silvanus
+  surname: Bordignon
+
 - id: MarcellNagymathe
   name: Marcell
   surname: Nagymáthé
@@ -650,7 +649,7 @@
   surname: Andres
 
 - id: BehnamShariati
-  name:  Behnam
+  name: Behnam
   surname: Shariati
 
 - id: Bogdan-MihaiAndrus
@@ -1031,7 +1030,7 @@
 
 - id: I.Rodriguez
   name:  I.
-  surname: Rodríguez
+  surname: Rodriguez
 
 - id: I.T.Monroy
   name:  I. T.
@@ -1166,8 +1165,8 @@
   surname: Rodríguez
 
 - id: JoseManuelRivas-Moscoso
-  name:  Jose
-  surname: Manuel Rivas-Moscoso
+  name: Jose Manuel
+  surname: Rivas-Moscoso
 
 - id: JoseSanchez
   name:  José
@@ -1182,8 +1181,8 @@
   surname: Carlos Aguado
 
 - id: JuanPedroFernandezPalacios
-  name:  Juan Pedro
-  surname: Fernandez Palacios
+  name:  Juan
+  surname: Pedro Fernandez Palacios
 
 - id: JuniqueStephane
   name:  Junique

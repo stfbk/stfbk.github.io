@@ -21,6 +21,10 @@ current:
     - ValentinoArmani
 
   students:
+    - personId: EnricoCarnelos
+      type: M
+      institution: University of Trento
+      yearFrom: 2024
     - personId: PetrSabel
       type: B
       institution: University of Trento
@@ -33,6 +37,11 @@ current:
       type: B
       institution: University of Trento
       yearFrom: 2024
+    - personId: DennisOrlando
+      type: B
+      institution: University of Trento
+      yearFrom: 2024
+      yearTo: 2024
     - personId: MarcoZani 
       type: B
       institution: University of Trento
@@ -44,11 +53,6 @@ current:
       yearFrom: 2023
       yearTo: 2024
     - personId: CarloSorrentino
-      type: B
-      institution: University of Trento
-      yearFrom: 2024
-      yearTo: 2024
-    - personId: DennisOrlando
       type: B
       institution: University of Trento
       yearFrom: 2024
