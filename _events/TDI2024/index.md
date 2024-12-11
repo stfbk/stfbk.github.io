@@ -15,6 +15,7 @@ images:
 </blockquote>
 
 # Recent News
+- **10/12/2024**: The [proceedings](https://ceur-ws.org/Vol-3863/) have been published.
 - **16/04/2024**: The [slides](program) are now available.
 - **12/03/2024**: The [tentative program](program) has been published.
 - **22/02/2024**: The paper submission deadline has been extended to **March 1, 2024**.
