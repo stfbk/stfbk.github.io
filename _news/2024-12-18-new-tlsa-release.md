@@ -1,5 +1,6 @@
 ---
 title: TLSAssistant v3.1 released!
+customExcerpt: "The release introduces a fresh set of analysis modules to detect vulnerabilities in both Android and iOS mobile apps."
 tag: [release]
 ---
 
@@ -8,4 +9,4 @@ This release introduces a fresh set of analysis modules to detect vulnerabilitie
 
 To get more information about the framework, the list of related publications or the involved people, you can head to the [companion page](https://st.fbk.eu/tools/TLSAssistant/).
 
-For support and inquiries, you can contact: tlsa-cs@fbk.eu
+For support and inquiries, you can contact: [tlsa-cs@fbk.eu](mailto:tlsa-cs@fbk.eu)
