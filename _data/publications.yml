@@ -2168,7 +2168,7 @@
   urlNews: /news/2024/09/26/paper-accepted-at-ieee-sp/
 
 - id: iMETA2024
-  #id_iris: 
+  id_iris: 353567
   title: "Beyond Screens: Investigating Identity Proofing for the Metaverse Through Cross-Device Flows"
   authors:
     - MarcoPernpruner
@@ -2180,7 +2180,7 @@
     The solution involves a cross-device flow where users first verify their identity on a mobile device by presenting valid identity evidence. This verified identity is then transferred to the VR headset, where users can register and activate credentials for future authentication. Beyond providing key security considerations and defining a taxonomy of possible attacks, we discuss how our design choices enhance the security of the flow.
   destination: iMETA2024
   year: 2024
-  #doi: 
+  doi: 10.1109/iMETA62882.2024.10808135
   urlNews: /news/2024/09/02/paper-accepted-at-imeta-2024/
 
 - id: Ital-IA2024
