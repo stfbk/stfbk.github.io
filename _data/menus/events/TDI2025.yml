@@ -6,6 +6,10 @@
       link: call-for-papers
     - name: Committees
       link: committees
+    - name: Registration
+      link: registration
+    - name: Venue
+      link: venue
     - name: Previous Editions
       items:
         - name: 1st Edition (2023)
