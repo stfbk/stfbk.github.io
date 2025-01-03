@@ -1,5 +1,4 @@
 {% assign sort = include.sort %}
-{% assign reverse = include.reverse %}
 {% if include.source %}
     {% assign source = include.source %}
 {% endif %}
@@ -20,8 +19,6 @@
     {% if sort %}
         {% if sort == "none" %}
             {% assign publicationsSorted = publicationsFromId %}
-        {% elsif reverse %}
-            {% assign publicationsSorted = publicationsFromId | sort_natural: sort | reverse %}
         {% else %}
             {% assign publicationsSorted = publicationsFromId | sort_natural: sort %}
         {% endif %}
@@ -88,6 +85,7 @@
             {{ authorsString }}<br />
             <b>{{ publication.title }}</b><br />
             {{ destinationString }}{{ linksString }}
+            {% if publication.awards %}<br />Awards: {{ publication.awards }}{% endif %}
         </li>
     {% endfor %}
 </ul>
