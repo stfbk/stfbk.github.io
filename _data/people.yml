@@ -124,6 +124,16 @@
   name: Andrea
   surname: Flamini
 
+- id: AndreaMoro
+  name: Andrea
+  surname: Moro
+  affiliations:
+    - role: Researcher
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: anmoro@fbk.eu
+
 - id: AndreaPalmieri
   name: Andrea
   surname: Palmieri
