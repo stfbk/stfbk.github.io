@@ -1996,7 +1996,7 @@
   doi: 10.1007/978-3-031-37586-6_7
 
 - id: ECML/PKDD2023_W
-  #id_iris: 
+  id_iris: 353747
   title: Towards a Fine-Grained Threat Model for Video-Based Remote Identity Proofing
   authors:
     - CeciliaPasquini
@@ -2005,10 +2005,10 @@
     - SilvioRanise
   abstract: >
     The attack landscape against video-based face verification is rapidly evolving, thus leading to increased opportunities of impersonation and identity theft within remote identity proofing processes. To support reliable security and risk analyses, we provide an extended threat model composed of threats and security controls for the face acquisition phase. Special emphasis is devoted to recent advancements in video synthesis and physical rendering, as well as diversified approaches for liveness detection.
-  destination: ECML/PKDD2023_WP
-  destinationAddon: International Workshops of ECML PKDD 2023, Revised Selected Papers, Part II
-  year: 2024
-  #doi: 
+  destination: MLPPKDD
+  destinationAddon: Communications in Computer and Information Science, volume 2134
+  year: 2025
+  doi: 10.1007/978-3-031-74627-7_45
   urlNews: /news/2023/11/20/paper-accepted-at-ecml-pkdd-post-workshop-proceedings/
 
 - id: EVOTEID2023

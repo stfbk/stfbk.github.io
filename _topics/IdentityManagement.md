@@ -35,6 +35,7 @@ publications:
     - iMETA2024
     - IEEE_SP2024
     - CRiSIS2024
+    - ECML/PKDD2023_W
 
 theses:
     - DamianoSartori_B

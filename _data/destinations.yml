@@ -155,6 +155,10 @@
   type: website
 
 # BOOKS
+- id: MLPPKDD
+  name: Machine Learning and Principles and Practice of Knowledge Discovery in Databases
+  type: book
+
 - id: SecAssAPIFinancial_book_2020
   name: "Cyber-Physical Threat Intelligence for Critical Infrastructures Security: A Guide to Integrated Cyber-Physical Protection of Modern Critical Infrastructures"
   url: https://nowpublishers.com/article/BookDetails/9781680836868
@@ -1046,11 +1050,6 @@
   location: Sophia Antipolis, France
   startDate: "2022-07-19"
   endDate: "2022-07-21"
-
-- id: ECML/PKDD2023_WP
-  name: Machine Learning and Principles and Practice of Knowledge Discovery in Databases
-  url: https://2023.ecmlpkdd.org/
-  type: post-proceedings
 
 - id: ESORICS2023
   name: European Symposium on Research in Computer Security
