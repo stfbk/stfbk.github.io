@@ -1,0 +1,8 @@
+- label: Menu
+  items:
+    - name: Home
+      link: /events/SeRIM2025/
+    - name: Call for Papers
+      link: call-for-papers
+    - name: Committees
+      link: committees
