@@ -1133,6 +1133,16 @@
   startDate: "2024-05-29"
   endDate: "2024-05-30"
 
+- id: OSVS2024
+  name: 1st Workshop on Operating Systems and Virtualization Security
+  proceedings: 2024 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)
+  acronym: OSVS 2024
+  url: https://osvs.pages.dev/
+  type: workshop 
+  location: Vienna, Austria
+  startDate: "2024-07-12"
+  endDate: "2024-07-12"
+
 - id: SECRYPT2024
   name: 21th International Conference on Security and Cryptography
   acronym: SECRYPT 2024

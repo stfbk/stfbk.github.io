@@ -687,6 +687,10 @@
   name: Matteo
   surname: Bregola
 
+- id: MatteoFranzil
+  name: Matteo
+  surname: Franzil
+
 - id: MatteoGrasso
   name: Matteo
   surname: Grasso
@@ -963,6 +967,10 @@
 - id: SergioManuelNobregaGoncalves
   name: Sergio Manuel
   surname: Nóbrega Gonçalves
+
+- id: SilvioCretti
+  name: Silvio
+  surname: Cretti
 
 - id: SilvioGhilardi
   name: Silvio

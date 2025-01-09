@@ -2218,6 +2218,22 @@
   doi: 10.1016/j.jisa.2024.103789
   urlNews: /news/2024/05/10/paper-accepted-at-jisa/
 
+- id: OSVS2024
+  id_iris: 350627
+  title: "Work-in-Progress: A Sidecar Proxy for Usable and Performance-Adaptable End-to-End Protection of Communications in Cloud Native Applications"
+  authors:
+    - StefanoBerlato
+    - MatteoRizzi
+    - MatteoFranzil
+    - SilvioCretti
+    - PietroDeMatteis
+    - RobertoCarbone
+  abstract: >
+    The characteristics of cloud native applications — like the inherent decentralization, the intricate threat model, and the presence of highly dynamic and interconnected microservices — bring forth a number of challenges to the security of the (often sensitive) data exchanged in cloud native applications. Besides, data security is not absolute, and its achievement must be mindful of relevant performance and usability aspects (e.g., minimal overhead, transparency, automation, interoperability with external services). In this work-in-progress paper, we discuss the use of Cryptographic Access Control (CAC) in sidecar proxies as a means to guarantee End-to-End (E2E) protection — in terms of confidentiality and integrity — for communications in cloud native applications, as well as usability and adaptable performance.
+  destination: OSVS2024
+  year: 2024
+  doi: 10.1109/EuroSPW61312.2024.00086
+
 - id: SECRYPT2024
   id_iris: 348308
   title: "Automating Compliance for Improving TLS Security Postures: An Assessment of Public Administration Endpoints"
