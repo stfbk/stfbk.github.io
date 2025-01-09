@@ -177,6 +177,9 @@ former:
       yearFrom: 2024
       yearTo: 2024
 
+    - personId: SimoneVigasio
+      thesisId: SimoneVigasio_B
+
     - personId: StefanoDiSanto
       thesisId: StefanoDiSanto_M
 

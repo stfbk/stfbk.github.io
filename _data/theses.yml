@@ -1,3 +1,13 @@
+- id: SimoneVigasio_B
+  author: SimoneVigasio
+  type: B
+  institution: University of Trento
+  year: 2024
+  title: "Evaluation of an AI Approach for Static Code Analysis Based on the VULBERTA Model"
+  supervisor: DomenicoSiracusa
+  co-supervisor:
+  - PietroDeMatteis
+
 - id: IrinaVoloshina_M
   author: IrinaVoloshina
   type: M
