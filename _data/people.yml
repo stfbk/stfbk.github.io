@@ -110,16 +110,6 @@
       unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-  
-- id: MatteoManfrin
-  name: Matteo
-  surname: Manfrin
-  email: mmanfrin@fbk.eu
-  affiliations:
-    - role: Developer
-      unit: Robust and Secure Distributed Computing
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
 
 - id: MichaelKevinNtakoKoungni
   name: Michael Kevin
@@ -286,6 +276,10 @@
 
 
 # Former
+- id: MatteoManfrin
+  name: Matteo
+  surname: Manfrin
+
 - id: GiacomoSegala
   name: Giacomo
   surname: Segala

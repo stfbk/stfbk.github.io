@@ -98,7 +98,7 @@ former:
       thesisId: AntonioMarsico_P
 
   members:
-    - personId: MatteoManfrin
+    - personId: MatteoManfrin 
       formerRole: Developer
       yearTo: 2024
        
