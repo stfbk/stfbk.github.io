@@ -14,7 +14,6 @@ current:
     - MarceloDarioRodasBritez
     - MarcoZambianco
     - MatteoFranzil
-    - MatteoManfrin
     - MichaelKevinNtakoKoungni
     - RobertoDoriguzziCorin
     - SilvioCretti
@@ -99,6 +98,10 @@ former:
       thesisId: AntonioMarsico_P
 
   members:
+    - personId: MatteoManfrin
+      formerRole: Developer
+      yearTo: 2024
+       
     - personId: PietroDeMatteis
       formerRole: Developer
       yearTo: 2023
