@@ -28,5 +28,10 @@ Submissions must be made through the [EasyChair conference management system](ht
 
 Please note that at least one author of each accepted paper must register for the workshop and present the paper in person.
 
+# Policy on Generative Artificial Intelligence
+Authors are required to comply with the [IEEE Submission Policies](https://conferences.ieeeauthorcenter.ieee.org/author-ethics/guidelines-and-policies/submission-policies/), with particular emphasis on the "Guidelines for Artificial Intelligence (AI)-Generated Text". These guidelines outline strict requirements for the responsible and transparent use of AI in the creation and preparation of submissions.
+
+To uphold the highest standards of integrity and confidentiality, the use of generative AI for paper reviews is expressly prohibited.
+
 # Important Dates
 {% include_relative includes/important-dates.md %}
