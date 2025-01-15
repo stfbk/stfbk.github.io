@@ -12,6 +12,7 @@ image: /assets/areas/events/TDI2025/tdi2025.jpg
 </blockquote>
 
 # Recent News
+- **15/01/2025**: The [tentative program](program) has been published.
 - **02/01/2025**: The [registration](registration) and [venue](venue) information has been published.
 - **07/12/2024**: The paper submission deadline has been extended to **December 12, 2024**.
 - **14/11/2024**: The [Program Committee](committees) has been published.
