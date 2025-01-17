@@ -13,7 +13,7 @@ menubar: TDI2025
   <tr class="day">
     <td colspan="2">
       Monday, February 3, 2025
-      <!--<p class="location"></p>-->
+      <p class="location">Room E</p>
     </td>
   </tr>
 

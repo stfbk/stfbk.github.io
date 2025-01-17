@@ -6,6 +6,7 @@ menubar: TDI2025
 
 The workshop will be held at:
 <ul style="list-style: none;">
+  <li><b>Room E</b></li>
   <li><b>Plesso Belmeloro</b></li>
   <li><b>Alma Mater Studiorum, University of Bologna</b></li>
   <li>Via Beniamino Andreatta 8, 40126 Bologna (Italy)</li>

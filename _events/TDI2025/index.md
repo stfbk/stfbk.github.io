@@ -12,6 +12,7 @@ image: /assets/areas/events/TDI2025/tdi2025.jpg
 </blockquote>
 
 # Recent News
+- **16/01/2025**: The workshop will be held in **Room E**.
 - **15/01/2025**: The [tentative program](program) has been published.
 - **02/01/2025**: The [registration](registration) and [venue](venue) information has been published.
 - **07/12/2024**: The paper submission deadline has been extended to **December 12, 2024**.
@@ -30,3 +31,10 @@ Further details on the call for papers are available in the [dedicated page](cal
 
 # Important Dates
 {% include_relative includes/important-dates.md %}
+
+# Acknowledgements
+This workshop is organized as part of the [SERICS project](https://serics.eu/) (PE00000014), under the MUR National Recovery and Resilience Plan, funded by the European Union through NextGenerationEU. Specifically, it is aligned with the objectives of the STRIDE (Secure and Traceable Identities in Distributed Environments) project within [Spoke 5](https://serics.eu/services/spoke-5-crittografia-sicurezza-sistemi-distribuiti/).
+
+<a href="https://serics.eu/">
+  <img class="image-centered" width="400px" src="/assets/images/logos/SERICS.png" />
+</a>
