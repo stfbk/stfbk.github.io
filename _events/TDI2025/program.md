@@ -103,7 +103,7 @@ menubar: TDI2025
   </tr>
   <tr>
     <td class="talk">
-      <p class="title">Digital Identity Wallets: A Journey That Might Still Have Fun</p>
+      <p class="title">Digital Identity Wallets Development Roadmap with IT-Wallet</p>
       <p class="speakers">Giuseppe De Marco (Dipartimento per la Trasformazione Digitale, DTD)</p>
     </td>
     <td>15:10-15:30</td>
