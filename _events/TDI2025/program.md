@@ -27,7 +27,7 @@ menubar: TDI2025
   <tr class="institutional">
     <td class="talk">
       <p class="title">Introductory Remarks</p>
-      <p class="speakers">Silvio Ranise (General Chair), Marco Pernpruner, Giada Sciarretta (Program Co-Chairs)</p>
+      <p class="speakers">Marco Pernpruner, Giada Sciarretta (Program Co-Chairs)</p>
     </td>
     <td>11:00-11:15</td>
   </tr>
@@ -160,8 +160,9 @@ menubar: TDI2025
   </tr>
 
   <tr class="institutional">
-    <td>
-      Closing Remarks
+    <td class="talk">
+      <p class="title">Closing Remarks</p>
+      <p class="speakers">Silvio Ranise (General Chair)</p>
     </td>
     <td>18:15-18:30</td>
   </tr>
