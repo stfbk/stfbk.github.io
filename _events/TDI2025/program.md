@@ -35,7 +35,7 @@ menubar: TDI2025
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 1: Industry</p>
-      <!--<p class="chair"></p>-->
+      <p class="chair">Amir Sharif</p>
     </td>
   </tr>
   <tr>
@@ -84,7 +84,7 @@ menubar: TDI2025
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 2: Government and Public Administration</p>
-      <!--<p class="chair"></p>-->
+      <p class="chair">Giada Sciarretta</p>
     </td>
   </tr>
   <tr>
@@ -112,7 +112,7 @@ menubar: TDI2025
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 3: Academic Research</p>
-      <!--<p class="chair"></p>-->
+      <p class="chair">Marco Pernpruner</p>
     </td>
   </tr>
   <tr>
@@ -148,7 +148,7 @@ menubar: TDI2025
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 4: Round Table</p>
-      <!--<p class="chair"></p>-->
+      <p class="chair">Silvio Ranise</p>
     </td>
   </tr>
   <tr>
