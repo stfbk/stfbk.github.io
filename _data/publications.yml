@@ -2083,6 +2083,21 @@
   urlNews: /news/2023/07/17/paper-accepted-at-tdsc/
 
 ## 2024
+- id: AIEE2024
+  id_iris: 354729
+  title: "Emerging Security and Economic Challenge Within Renewable Energy Communities: Cost Comparative Analysis Against Cybersecurity Issues in the Evolving RECs Scenario"
+  authors:
+    - ChristianMari
+    - SilviaRicciuti
+    - SalvatoreManfredi
+    - SimonaStoklin
+    - MassimilianoZanchiello
+    - FrancescaGiuliano
+  abstract: >
+    In the context of the decarbonization of the energy system, the European Union promoted Directive 2018/2001/EU, also known as RED II, proposed a new legal framework for the development of renewable energy sources (RES) and, above all, to increase citizen participation in the energy transition through two new tools: collective self-consumption systems (CSC) and renewable energy communities (REC). The implementation of an energy community in Italy must pursue environmental, social but also economic goals, although not purely financial. To do this, the Italian State has provided a financial contribution with the aim of incentivizing the installation of renewable energy production plants capable of producing and sharing the energy produced inside the same primary sub-station.This economic and governmental measure is part of a broader project that includes a series of implementation packages for the installation of renewable sources within the framework of a European energy transition project with the aim of reducing dependence on fossil fuels.
+  destination: AIEE2024
+  year: 2024
+
 - id: AEIT2024
   id_iris: 352567
   title: "Emerging security and legal challenges within renewable energy communities: key prevention and defence strategies"

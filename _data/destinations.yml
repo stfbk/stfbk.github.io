@@ -1088,6 +1088,15 @@
   endDate: "2023-07-12"
 
 ## 2024
+- id: AIEE2024
+  name: 8th AIEE Energy Symposium Current and Future Challenges to Energy Security
+  acronym: AIEE 2024
+  url: https://www.aieesymposium.eu/program-2024/
+  type: conference
+  location: Padua, Italy
+  startDate: "2024-11-28"
+  endDate: "2024-11-30"
+
 - id: AEIT2024
   name: 2024 AEIT International Annual Conference
   acronym: AEIT 2024
