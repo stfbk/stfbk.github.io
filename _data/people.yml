@@ -1,11 +1,11 @@
 # Please keep alphabetical order
 
-- id: ArslanRafi
-  name: Arslan
-  surname: Rafi
-  email: arafi@fbk.eu
+- id: AndreaDipace
+  name: Andrea
+  surname: Dipace
+  email: adipace@fbk.eu
   affiliations:
-    - role: PhD Student
+    - role: Junior Researcher
       unit: Robust and Secure Distributed Computing
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -276,6 +276,10 @@
 
 
 # Former
+- id: ArslanRafi
+  name: Arslan
+  surname: Rafi
+
 - id: MatteoManfrin
   name: Matteo
   surname: Manfrin
