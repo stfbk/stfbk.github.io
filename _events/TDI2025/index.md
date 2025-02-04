@@ -12,6 +12,7 @@ image: /assets/areas/events/TDI2025/tdi2025.jpg
 </blockquote>
 
 # Recent News
+- **04/02/2025**: [Speakers' slides](program) are now available.
 - **16/01/2025**: The workshop will be held in **Room E**.
 - **15/01/2025**: The [tentative program](program) has been published.
 - **02/01/2025**: The [registration](registration) and [venue](venue) information has been published.

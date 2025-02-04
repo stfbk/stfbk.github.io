@@ -28,6 +28,9 @@ menubar: TDI2025
     <td class="talk">
       <p class="title">Introductory Remarks</p>
       <p class="speakers">Marco Pernpruner, Giada Sciarretta (Program Co-Chairs)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2025/slides/0_1_IntroductoryRemarks.pdf">Slides</a>
+      </p>
     </td>
     <td>11:00-11:15</td>
   </tr>
@@ -42,6 +45,9 @@ menubar: TDI2025
     <td class="talk">
       <p class="title">A Model Theoretic Approach to Digital Identity</p>
       <p class="speakers">Luca Boldrin (InfoCert S.p.A. and University of Padua)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2025/slides/1_1_Boldrin.pdf">Slides</a>
+      </p>
     </td>
     <td>11:15-11:35</td>
   </tr>
@@ -49,6 +55,9 @@ menubar: TDI2025
     <td class="talk">
       <p class="title">Federated Identity in Research</p>
       <p class="speakers">Marina Adomeit (SUNET)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2025/slides/1_2_Adomeit.pdf">Slides</a>
+      </p>
     </td>
     <td>11:35-11:55</td>
   </tr>
@@ -56,6 +65,9 @@ menubar: TDI2025
     <td class="talk">
       <p class="title">Electronic Attestation of Attributes Extended Validation Services</p>
       <p class="speakers">Luigi Castaldo, Gianmario Cortese, Simone Izzo, Fabrizio Balsamo (Namirial S.p.A.)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2025/slides/1_3_Castaldo.pdf">Slides</a>
+      </p>
     </td>
     <td>11:55-12:15</td>
   </tr>
@@ -63,6 +75,9 @@ menubar: TDI2025
     <td class="talk">
       <p class="title">Profiles for Achieving Interoperability in the EUDI Wallet Ecosystem</p>
       <p class="speakers">Andreea Prian (iDAKTO)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2025/slides/1_4_Prian.pdf">Slides</a>
+      </p>
     </td>
     <td>12:15-12:35</td>
   </tr>
@@ -70,6 +85,9 @@ menubar: TDI2025
     <td class="talk">
       <p class="title">ZTAuth*: Revolutionizing AuthN and AuthZ with Autonomous-Disconnected Challenges</p>
       <p class="speakers">Nicola Gallo, Antonio Radesca (Nitro Agility Srl)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2025/slides/1_5_Gallo_Radesca.pdf">Slides</a>
+      </p>
     </td>
     <td>12:35-12:55</td>
   </tr>
@@ -91,6 +109,9 @@ menubar: TDI2025
     <td class="talk">
       <p class="title">Unlocking Trust: Bridging OpenID Federation and EUDIW Trust Framework</p>
       <p class="speakers">Francesco Antonio Marino, Pasquale Cerqua (Istituto Poligrafico e Zecca dello Stato, IPZS)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2025/slides/2_1_Marino_Cerqua.pdf">Slides</a>
+      </p>
     </td>
     <td>14:30-14:50</td>
   </tr>
@@ -105,6 +126,9 @@ menubar: TDI2025
     <td class="talk">
       <p class="title">Digital Identity Wallets Development Roadmap with IT-Wallet</p>
       <p class="speakers">Giuseppe De Marco (Dipartimento per la Trasformazione Digitale, DTD)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2025/slides/2_3_DeMarco.pdf">Slides</a>
+      </p>
     </td>
     <td>15:10-15:30</td>
   </tr>
@@ -119,6 +143,9 @@ menubar: TDI2025
     <td class="paper">
       <p class="title">On Delegation of Verifiable Presentations</p>
       <p class="authors">Andrea Flamini (University of Trento and Politecnico di Torino), Andrea Gangemi, Enrico Guglielmino (Politecnico di Torino), Vincenzo Orabona (Eustema S.p.A)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2025/slides/3_1_Guglielmino.pdf">Slides</a>
+      </p>
     </td>
     <td>15:30-15:50</td>
   </tr>
@@ -126,14 +153,19 @@ menubar: TDI2025
     <td class="paper">
       <p class="title">did:self – A Registry-Less DID Method</p>
       <p class="authors">Nikos Fotiou (ExcID), Vasilios A. Siris (Athens University of Economics and Business), George C. Polyzos (The Chinese University of Hong Kong)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2025/slides/3_2_Fotiou.pdf">Slides</a>
+      </p>
     </td>
     <td>15:50-16:05</td>
   </tr>
-
   <tr>
     <td class="paper">
       <p class="title">Performance Evaluation of Self-Sovereign Identity</p>
       <p class="authors">Emin Adem Buran, Christian Prehofer, Srivatsav Chenna (Technical University of Munich and DENSO AUTOMOTIVE Deutschland GmbH)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/TDI2025/slides/3_3_Prehofer.pdf">Slides</a>
+      </p>
     </td>
     <td>16:05-16:20</td>
   </tr>
