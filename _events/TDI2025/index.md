@@ -10,49 +10,49 @@ images:
   - title: Marco Pernpruner
     source: /assets/areas/events/TDI2025/pictures/Introduction_Pernpruner.jpg
   - title: Luca Boldrin
-    source: /assets/areas/events/TDI2025/pictures/Speaker_Boldrin.jpg
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Boldrin.JPG
   - title: Marina Adomeit
-    source: /assets/areas/events/TDI2025/pictures/Speaker_Adomeit.jpg
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Adomeit.JPG
   - title: Luigi Castaldo
-    source: /assets/areas/events/TDI2025/pictures/Speaker_Castaldo.jpg
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Castaldo.JPG
   - title: Andreea Prian
-    source: /assets/areas/events/TDI2025/pictures/Speaker_Prian.jpg
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Prian.JPG
   - title: Nicola Gallo
-    source: /assets/areas/events/TDI2025/pictures/Speaker_Gallo.jpg
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Gallo.JPG
   - title: Antonio Radesca
-    source: /assets/areas/events/TDI2025/pictures/Speaker_Radesca.jpg
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Radesca.JPG
   - title: Pasquale Cerqua
-    source: /assets/areas/events/TDI2025/pictures/Speaker_Cerqua.jpg
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Cerqua.JPG
   - title: Francesco Antonio Marino
-    source: /assets/areas/events/TDI2025/pictures/Speaker_Marino.jpg
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Marino.JPG
   - title: Francesco Grauso
-    source: /assets/areas/events/TDI2025/pictures/Speaker_Grauso.jpg
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Grauso.JPG
   - title: Enrico Guglielmino
-    source: /assets/areas/events/TDI2025/pictures/Speaker_Guglielmino.jpg
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Guglielmino.JPG
   - title: Nikos Fotiou
-    source: /assets/areas/events/TDI2025/pictures/Speaker_Fotiou.jpg
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Fotiou.JPG
   - title: Christian Prehofer
-    source: /assets/areas/events/TDI2025/pictures/Speaker_Prehofer.jpg
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Prehofer.JPG
   - title: Silvio Ranise
-    source: /assets/areas/events/TDI2025/pictures/RoundTable_Ranise.jpg
+    source: /assets/areas/events/TDI2025/pictures/RoundTable_Ranise.JPG
   - title: Panelists of the Round Table
-    source: /assets/areas/events/TDI2025/pictures/RoundTable_Panelists.jpg
+    source: /assets/areas/events/TDI2025/pictures/RoundTable_Panelists.JPG
   - title: Rosalia Galeano
-    source: /assets/areas/events/TDI2025/pictures/RoundTable_Galeano.jpg
+    source: /assets/areas/events/TDI2025/pictures/RoundTable_Galeano.JPG
   - title: Francesco Buccafurri
-    source: /assets/areas/events/TDI2025/pictures/RoundTable_Buccafurri.jpg
+    source: /assets/areas/events/TDI2025/pictures/RoundTable_Buccafurri.JPG
   - title: Andrea De Maria
-    source: /assets/areas/events/TDI2025/pictures/RoundTable_DeMaria.jpg
+    source: /assets/areas/events/TDI2025/pictures/RoundTable_DeMaria.JPG
   - title: Audience
-    source: /assets/areas/events/TDI2025/pictures/Audience_1.jpg
+    source: /assets/areas/events/TDI2025/pictures/Audience_1.JPG
   - title: Audience
-    source: /assets/areas/events/TDI2025/pictures/Audience_2.jpg
+    source: /assets/areas/events/TDI2025/pictures/Audience_2.JPG
   - title: Audience
-    source: /assets/areas/events/TDI2025/pictures/Audience_3.jpg
+    source: /assets/areas/events/TDI2025/pictures/Audience_3.JPG
   - title: Audience
-    source: /assets/areas/events/TDI2025/pictures/Audience_4.jpg
+    source: /assets/areas/events/TDI2025/pictures/Audience_4.JPG
   - title: Audience
-    source: /assets/areas/events/TDI2025/pictures/Audience_5.jpg
+    source: /assets/areas/events/TDI2025/pictures/Audience_5.JPG
   - title: Program Co-Chairs
     source: /assets/areas/events/TDI2025/pictures/ProgramChairs.jpg
 
