@@ -3,6 +3,59 @@ title: 3rd International Workshop on Trends in Digital Identity (TDI 2025)
 menubar: TDI2025
 permalink: /events/TDI2025/
 image: /assets/areas/events/TDI2025/tdi2025.jpg
+
+images:
+  - title: Giada Sciarretta
+    source: /assets/areas/events/TDI2025/pictures/Introduction_Sciarretta.jpg
+  - title: Marco Pernpruner
+    source: /assets/areas/events/TDI2025/pictures/Introduction_Pernpruner.jpg
+  - title: Luca Boldrin
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Boldrin.jpg
+  - title: Marina Adomeit
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Adomeit.jpg
+  - title: Luigi Castaldo
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Castaldo.jpg
+  - title: Andreea Prian
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Prian.jpg
+  - title: Nicola Gallo
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Gallo.jpg
+  - title: Antonio Radesca
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Radesca.jpg
+  - title: Pasquale Cerqua
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Cerqua.jpg
+  - title: Francesco Antonio Marino
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Marino.jpg
+  - title: Francesco Grauso
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Grauso.jpg
+  - title: Enrico Guglielmino
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Guglielmino.jpg
+  - title: Nikos Fotiou
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Fotiou.jpg
+  - title: Christian Prehofer
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Prehofer.jpg
+  - title: Silvio Ranise
+    source: /assets/areas/events/TDI2025/pictures/RoundTable_Ranise.jpg
+  - title: Panelists of the Round Table
+    source: /assets/areas/events/TDI2025/pictures/RoundTable_Panelists.jpg
+  - title: Rosalia Galeano
+    source: /assets/areas/events/TDI2025/pictures/RoundTable_Galeano.jpg
+  - title: Francesco Buccafurri
+    source: /assets/areas/events/TDI2025/pictures/RoundTable_Buccafurri.jpg
+  - title: Andrea De Maria
+    source: /assets/areas/events/TDI2025/pictures/RoundTable_DeMaria.jpg
+  - title: Audience
+    source: /assets/areas/events/TDI2025/pictures/Audience_1.jpg
+  - title: Audience
+    source: /assets/areas/events/TDI2025/pictures/Audience_2.jpg
+  - title: Audience
+    source: /assets/areas/events/TDI2025/pictures/Audience_3.jpg
+  - title: Audience
+    source: /assets/areas/events/TDI2025/pictures/Audience_4.jpg
+  - title: Audience
+    source: /assets/areas/events/TDI2025/pictures/Audience_5.jpg
+  - title: Program Co-Chairs
+    source: /assets/areas/events/TDI2025/pictures/ProgramChairs.jpg
+
 ---
 
 <img class="image-centered" src="/assets/areas/events/TDI2025/tdi2025.jpg" />
