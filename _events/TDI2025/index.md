@@ -10,7 +10,7 @@ images:
   - title: Marco Pernpruner
     source: /assets/areas/events/TDI2025/pictures/Introduction_Pernpruner.jpg
   - title: Luca Boldrin
-    source: /assets/areas/events/TDI2025/pictures/Speaker_Boldrin.JPG
+    source: /assets/areas/events/TDI2025/pictures/Speaker_Boldrin.jpg
   - title: Marina Adomeit
     source: /assets/areas/events/TDI2025/pictures/Speaker_Adomeit.JPG
   - title: Luigi Castaldo
