@@ -53,6 +53,8 @@ images:
     source: /assets/areas/events/TDI2025/pictures/Audience_4.JPG
   - title: Audience
     source: /assets/areas/events/TDI2025/pictures/Audience_5.JPG
+  - title: Group Picture
+    source: /assets/areas/events/TDI2025/pictures/GroupPicture.jpg
   - title: Program Co-Chairs
     source: /assets/areas/events/TDI2025/pictures/ProgramChairs.jpg
 
