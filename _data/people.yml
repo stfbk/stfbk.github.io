@@ -190,6 +190,16 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
 
+- id: LorenzoFasol
+  name: Lorenzo
+  surname: Fasol
+  email: lfasol@fbk.eu
+  affiliations:
+    - role: Junior Developer
+      unit: Robust and Secure Distributed Computing
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+
 # Related
 - id: DomenicoSiracusa
   name: Domenico
@@ -274,6 +284,9 @@
   name: Simone
   surname: Vigasio
 
+- id: LucaPedercini
+  name: Luca
+  surname: Pedercini
 
 # Former
 - id: ArslanRafi
