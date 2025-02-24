@@ -174,6 +174,7 @@
 - id: 2024ieeesymposiumoncomputersandcommunicationsiscc
   name: 2024 IEEE Symposium on Computers and Communications (ISCC)
   type: conference
+  proceedings: Proceedings of 2024 IEEE Symposium on Computers and Communications (ISCC)
 
 - id: 21stinternationalconferenceoninformationandcommunicationssecurityicics2019
   name: 21st International Conference on Information and Communications Security (ICICS 2019)
@@ -196,9 +197,9 @@
   proceedings: Proceedings of 39th European Conference and Exhibition on Optical Communication, Ecoc 2013
 
 - id: 42ndeuropeanconferenceonopticalcommunicationecoc2016
-  name: 42nd European Conference on Optical Communication Ecoc 2016
+  name: 42nd European Conference on Optical Communication, Ecoc 2016
   type: conference
-  proceedings: Proceedings of 42nd European Conference on Optical Communication Ecoc 2016
+  proceedings: Proceedings of 42nd European Conference on Optical Communication, Ecoc 2016
 
 - id: 44theuropeanconferenceonopticalcommunicationecoc2018
   name: 44th European Conference on Optical Communication (ECOC 2018)
@@ -281,8 +282,9 @@
   proceedings: Proceedings of Conference on Innovation in Clouds, Internet and Networks
 
 - id: ecoc201642ndeuropeanconferenceonopticalcommunication
-  name: Ecoc 2016 Proceedings of 42nd European Conference on Optical Communication
+  name: Ecoc 2016; 42nd European Conference on Optical Communication
   type: conference
+  proceedings: Proceedings of Ecoc 2016; 42nd European Conference on Optical Communication
 
 - id: economicsofgridscloudssystemsandservices
   name: Economics of Grids, Clouds, Systems, and Services
@@ -504,7 +506,6 @@
 - id: opticalfibercommunicationsconferenceandexhibitionofc2014
   name: Optical Fiber Communications Conference and Exhibition (OFC), 2014
   type: conference
-  proceedings: Proceedings of Optical Fiber Communications Conference and Exhibition (OFC), 2014
 
 - id: opticalfibercommunicationsconferenceandexhibitionofc2017
   name: Optical Fiber Communications Conference and Exhibition (OFC), 2017

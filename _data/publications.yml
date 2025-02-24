@@ -3,6 +3,18 @@
 # The following string is a separator used by the parser to trim away generated content
 # Please, please, please, keep this here!
 #--#--#--#--#--#
+- id: iris_2025_220419fbe6e1d3d85d0d
+  id_iris: 355207,
+  title: "A Proactive Decoy Selection Scheme for Cyber Deception using MITRE ATT&CK"
+  authors:
+    - MarcoZambianco
+    - ClaudioFacchinetti
+    - DomenicoSiracusa
+  destination: computerssecurity
+  year: 2025
+  doi: 10.1016/j.cose.2024.104144
+
+
 - id: iris_2024_ff4828f58bbb2ab83751
   id_iris: 349547,
   title: "Building the Cloud Continuum with REAR"
