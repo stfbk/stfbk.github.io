@@ -2283,4 +2283,19 @@
   year: 2024
   doi: 10.1145/3631971
 
+## 2025
+- id: JINS2025
+  id_iris: 354507
+  title: "Navigating secure storage requirements for EUDI Wallets: a review paper"
+  authors:
+    - ZahraEbadiAnsaroudi
+    - GiadaSciarretta
+    - AndreaDeMaria
+    - SilvioRanise
+  abstract: >
+    The European Digital Identity Wallet (EUDI Wallet) plays a pivotal role in shaping digital identity across the EU, necessitating a secure storage solution compliant with eIDAS2 regulation. In this study, we frst analyze mobile secure storage solutions for the EUDI Wallet, identifying any gaps between current oferings and the EUDI Wallet’s requirements. Our analysis indicates a signifcant shortfall in the availability of mobile native solutions, with only approximately 10.5% of mobile phones in the Italian market currently adhering to the stringent requirements mandated by eIDAS2. Consequently, we explore and evaluate alternative design solutions in terms of their feasibility and integration potential.
+  destination: JINS
+  year: 2025
+  doi: 10.1186/s13635-025-00187-6
+
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS

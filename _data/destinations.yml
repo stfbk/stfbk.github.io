@@ -49,6 +49,12 @@
   url: https://www.iospress.nl/journal/journal-of-computer-security/
   type: journal
 
+- id: JINS
+  name: EURASIP Journal on Information Security
+  acronym: JINS
+  url: https://jis-eurasipjournals.springeropen.com/
+  type: journal
+
 - id: JSC
   name: Journal of Symbolic Computation
   url: https://www.sciencedirect.com/journal/journal-of-symbolic-computation

@@ -36,6 +36,7 @@ publications:
     - IEEE_SP2024
     - CRiSIS2024
     - ECML/PKDD2023_W
+    - JINS2025
 
 theses:
     - DamianoSartori_B
