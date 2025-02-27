@@ -17,4 +17,12 @@ menubar: SeRIM2025
 - **Marco Pernpruner** (Fondazione Bruno Kessler)
 
 # Program Committee
-*To be announced.*
+- **Roberto Carbone** (Fondazione Bruno Kessler)
+- **Letterio Galletta** (IMT School for Advanced Studies Lucca)
+- **Marino Miculan** (University of Udine)
+- **Simone Onofri** (W3C)
+- **Federica Maria Francesca Paci** (University of Verona)
+- **Marco Patrignani** (University of Trento)
+- **Pieter Philippaerts** (KU Leuven)
+- **Avinash Sudhodanan** (Independent Researcher)
+- **Luca Viganò** (King's College London)
