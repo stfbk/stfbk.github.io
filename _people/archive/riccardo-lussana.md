@@ -1,5 +1,6 @@
 ---
 person: RiccardoLussana
+redirect_from: /people/riccardo-lussana
 links:
   - name: GitHub
     value: riklus

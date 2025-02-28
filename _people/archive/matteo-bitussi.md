@@ -1,5 +1,6 @@
 ---
 person: MatteoBitussi
+redirect_from: /people/matteo-bitussi
 links:
   - name: GitHub
     value: mattebit
