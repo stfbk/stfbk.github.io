@@ -58,6 +58,12 @@ layout: default
     <span id="set-subtitle">{{ roleST }}</span>
     <div class="columns is-multiline reverse-columns">
         <div class="column is-8-tablet is-9-desktop">
+            {% if page.url contains 'archive' %}
+                <div class="notification is-warning">
+                    <strong>Notice:</strong> This personal page has been archived as the individual is no longer affiliated with the Security & Trust research unit. It remains available for reference purposes only.
+                </div>
+            {% endif %}
+
             {% assign strippedContent = content | strip %}
             {% if strippedContent.size > 0 %}
                 <section class="contains-bio">
