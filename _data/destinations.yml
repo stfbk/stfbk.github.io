@@ -1164,7 +1164,17 @@
   url: https://secrypt.scitevents.org/?y=2024
   type: conference
   location: Dijon, France
-  startDate: "2024-07-8"
+  startDate: "2024-07-08"
   endDate: "2024-07-10"
+
+## 2025
+- id: IWBF2025
+  name: 13th International Workshop on Biometrics and Forensics
+  acronym: IWBF 2025
+  url: https://www.unibw.de/iwbf2025
+  type: workshop
+  location: Munich, Germany
+  startDate: "2025-04-24"
+  endDate: "2025-04-25"
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)
