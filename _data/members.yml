@@ -8,7 +8,6 @@ current:
     - AndreaMoro
     - CeciliaPasquini
     - EleonoraMarchesini
-    - ElhamArshad
     - GiadaSciarretta
     - GianlucaSassetti
     - GiovanniCorti
@@ -152,6 +151,11 @@ former:
       formerRole: Research Assistant
       yearFrom: 2023
       yearTo: 2024
+
+    - personId: ElhamArshad
+      formerRole: Researcher
+      yearFrom: 2023
+      yearTo: 2025
 
   phdStudents:
     - personId: FedericoSinigaglia

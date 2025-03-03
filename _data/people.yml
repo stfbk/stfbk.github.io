@@ -314,12 +314,7 @@
 - id: ElhamArshad
   name: Elham
   surname: Arshad
-  affiliations:
-    - role: Researcher
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: earshad@fbk.eu
+  usernameFBK: earshad
 
 - id: EmanueleViglianisi
   name: Emanuele
