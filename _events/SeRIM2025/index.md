@@ -21,3 +21,7 @@ This workshop aims at exploring security and risk assessment in identity managem
 
 # Important Dates
 {% include_relative includes/important-dates.md %}
+
+<a href="https://serics.eu/">
+  <img class="image-centered" width="400px" src="/assets/images/logos/SERICS.png" />
+</a>
