@@ -53,6 +53,13 @@ current:
       yearFrom: 2024
       yearTo: 2024
 
+    - personId: FilippoGrilli
+      type: M
+      topic: Security Analysis of Identity Managament Protocols
+      institution: University of Trento
+      yearFrom: 2025
+      yearTo: 2025
+
   junior:    
       
 former:
