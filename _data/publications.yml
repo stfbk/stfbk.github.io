@@ -2313,4 +2313,19 @@
   #doi:
   urlNews: /news/2025/02/28/paper-accepted-at-iwbf-2025/
 
+- id: IWPE2025
+  #id_iris:
+  title: "PILLAR: LINDDUN Privacy Threat Modeling using LLMs"
+  authors:
+    - MajidMollaeefar
+    - AndreaBissoli
+    - DimitriVanLanduyt
+    - SilvioRanise
+  abstract: >
+    The rapid evolution of Large Language Models (LLMs) has unlocked new possibilities for applying artificial intelligence across a wide range of fields, including privacy engineering. As modern applications increasingly handle sensitive user data, safeguarding privacy has become more critical than ever. To ensure robust data protection, poten- tial threats must be identified and addressed early in the development process. Privacy threat modeling frameworks like LINDDUN offer structured approaches for uncovering these risks, yet they often require significant manual effort, expert knowledge, and detailed system information—making the process time-intensive and reliant on thorough analysis. To address these challenges, we introduce PILLAR (Pri- vacy risk Identification with LINDDUN and LLM Anal- ysis Report), a new tool that implements and automates the LINDDUN framework through LLM integration to streamline and enhance privacy threat modeling. PILLAR automates key parts of the LINDDUN process, such as generating DFDs from unstructured textual inputs (e.g. system descriptions), eliciting privacy threats, and risk-based threat prioritization. By leveraging the capabilities of LLMs, PILLAR can take natural language descriptions of systems and transform them into comprehensive threat models with limited input from users. Furthermore, PILLAR is capable of simulating multi-agent collaboration, allowing different LLM instances to play different contributor roles in a virtual threat modeling workshop. Rather than merely reducing the workload on analysts, PILLAR shifts their involvement from repetitive, tedious tasks to more meaningful and impactful interventions—such as refining the scope of analysis or completing critical components like the DFD. This allows experts to focus on the aspects that truly matter for a robust threat modeling process while enhancing both efficiency and accuracy.
+  destination: IWPE2025
+  year: 2025
+  #doi:
+  urlNews: /news/2025/04/07/paper-accepted-at-iwpe-2025/
+
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
