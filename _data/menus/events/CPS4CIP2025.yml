@@ -1,0 +1,8 @@
+- label: Menu
+  items:
+    - name: Home
+      link: /events/CPS4CIP2025/
+    - name: Committees
+      link: committees
+    - name: Submission
+      link: submission

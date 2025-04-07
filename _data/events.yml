@@ -173,3 +173,11 @@
   endDate: "2025-08-14"
   description: The workshop navigates various security, privacy, and legal compliance issues, addressing technical issues like security and interoperability and legal and regulatory considerations like data protection and privacy.
   url: https://2025.ares-conference.eu/program/edid/
+
+- id: CPS4CIP2025
+  name: 6th International Workshop on Cyber-Physical Security for Critical Infrastructures Protection
+  acronym: CPS4CIP 2025
+  startDate: "2025-09-22"
+  endDate: "2025-09-26"
+  description: CPS4CIP 2025 is the sisth workshop dedicated to cyber-physical security for protecting critical infrastructures that support finance, energy, health, air transport, communication, gas, and water.
+  url: /events/CPS4CIP2025
