@@ -1186,4 +1186,13 @@
   startDate: "2025-06-30"
   endDate: "2025-06-30"
 
+- id: ESORICS2025
+  name: European Symposium on Research in Computer Security
+  acronym: ESORICS 2025
+  url: https://esorics2025.sciencesconf.org
+  type: conference
+  location: Toulouse, France
+  startDate: "2023-09-22"
+  endDate: "2023-09-26"
+
 # PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)
