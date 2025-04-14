@@ -2328,4 +2328,21 @@
   #doi:
   urlNews: /news/2025/04/07/paper-accepted-at-iwpe-2025/
 
+  id: ESORICS2025
+  #id_iris:
+  title: "Entity-based Risk Assessment: A European Digital Identity Wallet Use Case"
+  authors:
+    - MajidMollaeefar
+    - AmirSharif
+    - ZahraEbadiAnsaroudi
+    - GiadaSciarretta
+    - FrancescoAntonioMarino
+    - SilvioRanise
+  abstract: >
+     European digital identity wallets have emerged as user-centric solutions for securely storing and managing sensitive credentials in compliance with the revised regulation on electronic Identification, Authentication, and Trust Services (eIDAS 2.0). Despite their growing adoption, both eIDAS 2.0 and its accompanying Architecture Reference Framework fall short of providing a comprehensive risk assessment. While they identify a broad range of potential risks, they do not offer systematic methods for prioritizing the threats that have the greatest impact on users. In addition, existing risk assessment frameworks for digital identity wallets tend to focus solely on threat modeling without quantifying risk severity or assume a centralized control model by attributing mitigation responsibilities to a single entity in the ecosystem. In reality, effective risk mitigation in digital identity wallet ecosystems hinges on cross-entity collaboration. To address these limitations, we introduce DIWAR (Digital Identity Wallet Analysis and Risk Assessment), a control-based methodology that integrates DREAD factors with entity-specific control attribution and implementation-level granularity. DIWAR quantitatively scores threats based on the five DREAD factors and then prescribes targeted mitigations that align with the defined responsibilities of the entities within the ecosystem. Our approach supports both entity-specific and system-wide evaluations, enabling actionable prioritization of security and privacy controls under varying implementation scenarios. A case study of the Italian EUDI Wallet ecosystem demonstrates how DIWAR bridges theoretical risk modeling with operational decision-making, ultimately enhancing the resilience of digital identity wallet systems.
+  destination: ESORICS2025
+  year: 2025
+  #doi:
+  urlNews: /news/2025/04/07/paper-accepted-at-iwpe-2025/
+
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
