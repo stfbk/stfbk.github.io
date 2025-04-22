@@ -60,6 +60,13 @@ current:
       yearFrom: 2025
       yearTo: 2025
 
+    - personId: NizarNadif
+      type: B
+      topic: Context-free grammar for TLS validation
+      institution: University of Trento
+      yearFrom: 2025
+      yearTo: 2025
+
   junior:    
       
 former:
