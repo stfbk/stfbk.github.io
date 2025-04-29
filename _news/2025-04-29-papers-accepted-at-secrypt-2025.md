@@ -16,4 +16,6 @@ people:
     - MarioScuro
     - AlessandroTomasi
 
+peopleOrder: surname
+
 ---

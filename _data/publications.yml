@@ -2344,7 +2344,7 @@
   doi: 10.1186/s13635-025-00187-6
   urlNews: /news/2025/02/27/paper-accepted-at-jins/
   
-  id: SECRYPT2025
+- id: SECRYPT2025
   id_iris:
   title: "Enhancing National Digital Identity Systems: A Framework for Institutional and Technical Harm Prevention Inspired by Microsoft's Harms Modeling"
   authors:
@@ -2360,7 +2360,7 @@
   doi:
   urlNews: /news/2025/04/29/papers-accepted-at-secrypt-2025/
   
-  id: SECRYPT2025_status
+- id: SECRYPT2025_status
   id_iris: 359647
   title: "Comparison of Credential Status Mechanisms for the Digital Wallet Ecosystem"
   authors:
