@@ -2026,7 +2026,7 @@
   abstract: >
     This paper presents an architecture for an OAuth 2.0-based i-voting solution using a mobile native client in a variant of the Araújo-Traoré protocol. We follow a systematic approach by identifying relevant OAuth 2.0 specifications and best practices. Having defined our framework, we identify threats applicable to our proposed methodology and detail how our design mitigates them to provide a safer i-voting process.
   destination: EVOTEID2023
-  #doi: 
+  doi: 10.18420/e-vote-id2023_04
   tags:                     
     - ThresholdCryptography
     - ZKP
@@ -2115,7 +2115,7 @@
   doi: 10.23919/AEIT63317.2024.10736786
 
 - id: CRiSIS2024
-  #id_iris:
+  id_iris: 353547
   title: "Protecting Digital Identity Wallet: A Threat Model in the Age of eIDAS 2.0"
   authors:
     - AmirSharif
@@ -2129,11 +2129,11 @@
     The revised eIDAS regulation (eIDAS 2.0) advocates a shift from federated identity management systems (such as SAML and OpenID Connect) to user-centric identity-based systems. It defines the European Digital Identity Wallet as a key component. The main goal is to enhance privacy by empowering citizens to selectively disclose personal data in a controlled way. To facilitate the implementation of an interoperable Wallet solution, the EU Commission published a reference architecture and identified a high-level set of requirements. However, comprehensive security and privacy guidelines to ensure a secure and privacy-preserving solution are still missing. To address this gap, we provide threat modeling explicitly designed for the Digital Identity Wallet context. This allows for identifying potential threats and a set of effective controls to secure the implementations.
   destination: CRiSIS2024
   year: 2024
-  #doi:
+  doi: 10.1007/978-3-031-89350-6_6
   urlNews: /news/2024/10/09/paper-accepted-at-crisis-2024/
 
 - id: CRiSIS2024_eVoting
-  #id_iris:
+  id_iris: 359548
   title: "Modeling and Assessing Coercion Threats in Electronic Voting"
   authors:
     - RiccardoLongo
@@ -2146,7 +2146,7 @@
     Electronic voting holds the potential to increase voter participation and streamline election processes, but its broad use is limited by many challenges, e.g., ensuring system security and usability. One of the most difficult threats to counter is coercion; i.e., the ability to monitor and force voters’ actions. This paper proposes a methodology to assess an e-voting system’s resistance to coercion by gathering the security properties that an e-voting solution should offer from both academia and regulation, and adapting the Microsoft STRIDE and LINDDUN threats and the OWASP Risk Rating Technologies to the e-voting scenario.
   destination: CRiSIS2024
   year: 2024
-  #doi:
+  doi: 10.1007/978-3-031-89350-6_30
   urlNews: /news/2024/10/09/paper-accepted-at-crisis-2024/
   awards: Best Paper Award at CRiSIS 2024
 
@@ -2165,7 +2165,7 @@
   destination: EUROSP2024
   year: 2024
   doi: 10.1109/EuroSP60621.2024.00016
-  urlComplementary: https://st.fbk.eu/complementary/EuroSP2024
+  urlComplementary: /complementary/EuroSP2024
 
 - id: IEEE_SP2024
   id_iris: 352727
@@ -2284,6 +2284,51 @@
   doi: 10.1145/3631971
 
 ## 2025
+  id: ESORICS2025
+  id_iris:
+  title: "Multi-entity Control-based Risk Assessment: A European Digital Identity Wallet Use Case"
+  authors:
+    - MajidMollaeefar
+    - AmirSharif
+    - ZahraEbadiAnsaroudi
+    - GiadaSciarretta
+    - FrancescoAntonioMarino
+    - SilvioRanise
+  abstract: >
+    European digital identity wallets have emerged as user-centric solutions for securely storing and managing sensitive credentials in compliance with the revised regulation on electronic Identification, Authentication, and Trust Services (eIDAS 2.0). Despite their growing adoption, both eIDAS 2.0 and its accompanying Architecture Reference Framework fall short of providing a comprehensive risk assessment. While they identify a broad range of potential risks, they do not offer systematic methods for prioritizing the threats that have the greatest impact on users. In addition, existing risk assessment frameworks for digital identity wallets tend to focus solely on threat modeling without quantifying risk severity or assume a centralized control model by attributing mitigation responsibilities to a single entity in the ecosystem. In reality, effective risk mitigation in digital identity wallet ecosystems hinges on cross-entity collaboration. To address these limitations, we introduce DIWAR (Digital Identity Wallet Analysis and Risk Assessment), a control-based methodology that integrates DREAD factors with entity-specific control attribution and implementation-level granularity. DIWAR quantitatively scores threats based on the five DREAD factors and then prescribes targeted mitigations that align with the defined responsibilities of the entities within the ecosystem. Our approach supports both entity-specific and system-wide evaluations, enabling actionable prioritization of security and privacy controls under varying implementation scenarios. A case study of the Italian EUDI Wallet ecosystem demonstrates how DIWAR bridges theoretical risk modeling with operational decision-making, ultimately enhancing the resilience of digital identity wallet systems.
+  destination: ESORICS2025
+  year: 2025
+  doi:
+
+- id: IWBF2025
+  id_iris:
+  title: "Spotting tell-tale visual artifacts in face swapping videos: strengths and pitfalls of CNN detectors"
+  authors:
+    - RiccardoZiglio
+    - CeciliaPasquini
+    - SilvioRanise
+  abstract: >
+    Face swapping manipulations in video streams represents an increasing threat in remote video communications, due to advances in automated and real-time tools. Recent literature proposes to characterize and exploit visual artifacts introduced in video frames by swapping algorithms when dealing with challenging physical scenes, such as face occlusions. This paper investigates the effectiveness of this approach by benchmarking CNN-based data-driven models on two data corpora (including a newly collected one) and analyzing generalization capabilities with respect to different acquisition sources and swapping algorithms. The results confirm excellent performance of general-purpose CNN architectures when operating within the same data source, but a significant difficulty in robustly characterizing occlusion-based visual cues across datasets. This highlights the need for specialized detection strategies to deal with such artifacts.
+  destination: IWBF2025
+  year: 2025
+  doi:
+  urlNews: /news/2025/02/28/paper-accepted-at-iwbf-2025/
+
+- id: IWPE2025
+  id_iris:
+  title: "PILLAR: LINDDUN Privacy Threat Modeling using LLMs"
+  authors:
+    - MajidMollaeefar
+    - AndreaBissoli
+    - DimitriVanLanduyt
+    - SilvioRanise
+  abstract: >
+    The rapid evolution of Large Language Models (LLMs) has unlocked new possibilities for applying artificial intelligence across a wide range of fields, including privacy engineering. As modern applications increasingly handle sensitive user data, safeguarding privacy has become more critical than ever. To ensure robust data protection, potential threats must be identified and addressed early in the development process. Privacy threat modeling frameworks like LINDDUN offer structured approaches for uncovering these risks, yet they often require significant manual effort, expert knowledge, and detailed system information—making the process time-intensive and reliant on thorough analysis. To address these challenges, we introduce PILLAR (Privacy risk Identification with LINDDUN and LLM Analysis Report), a new tool that implements and automates the LINDDUN framework through LLM integration to streamline and enhance privacy threat modeling. PILLAR automates key parts of the LINDDUN process, such as generating DFDs from unstructured textual inputs (e.g. system descriptions), eliciting privacy threats, and risk-based threat prioritization. By leveraging the capabilities of LLMs, PILLAR can take natural language descriptions of systems and transform them into comprehensive threat models with limited input from users. Furthermore, PILLAR is capable of simulating multi-agent collaboration, allowing different LLM instances to play different contributor roles in a virtual threat modeling workshop. Rather than merely reducing the workload on analysts, PILLAR shifts their involvement from repetitive, tedious tasks to more meaningful and impactful interventions—such as refining the scope of analysis or completing critical components like the DFD. This allows experts to focus on the aspects that truly matter for a robust threat modeling process while enhancing both efficiency and accuracy.
+  destination: IWPE2025
+  year: 2025
+  doi:
+  urlNews: /news/2025/04/07/paper-accepted-at-iwpe-2025/
+
 - id: JINS2025
   id_iris: 354507
   title: "Navigating secure storage requirements for EUDI Wallets: a review paper"
@@ -2298,51 +2343,21 @@
   year: 2025
   doi: 10.1186/s13635-025-00187-6
   urlNews: /news/2025/02/27/paper-accepted-at-jins/
-
-- id: IWBF2025
-  #id_iris:
-  title: "Spotting tell-tale visual artifacts in face swapping videos: strengths and pitfalls of CNN detectors"
-  authors:
-    - RiccardoZiglio
-    - CeciliaPasquini
-    - SilvioRanise
-  abstract: >
-    Face swapping manipulations in video streams represents an increasing threat in remote video communications, due to advances in automated and real-time tools. Recent literature proposes to characterize and exploit visual artifacts introduced in video frames by swapping algorithms when dealing with challenging physical scenes, such as face occlusions. This paper investigates the effectiveness of this approach by benchmarking CNN-based data-driven models on two data corpora (including a newly collected one) and analyzing generalization capabilities with respect to different acquisition sources and swapping algorithms. The results confirm excellent performance of general-purpose CNN architectures when operating within the same data source, but a significant difficulty in robustly characterizing occlusion-based visual cues across datasets. This highlights the need for specialized detection strategies to deal with such artifacts.
-  destination: IWBF2025
-  year: 2025
-  #doi:
-  urlNews: /news/2025/02/28/paper-accepted-at-iwbf-2025/
-
-- id: IWPE2025
-  #id_iris:
-  title: "PILLAR: LINDDUN Privacy Threat Modeling using LLMs"
-  authors:
-    - MajidMollaeefar
-    - AndreaBissoli
-    - DimitriVanLanduyt
-    - SilvioRanise
-  abstract: >
-    The rapid evolution of Large Language Models (LLMs) has unlocked new possibilities for applying artificial intelligence across a wide range of fields, including privacy engineering. As modern applications increasingly handle sensitive user data, safeguarding privacy has become more critical than ever. To ensure robust data protection, potential threats must be identified and addressed early in the development process. Privacy threat modeling frameworks like LINDDUN offer structured approaches for uncovering these risks, yet they often require significant manual effort, expert knowledge, and detailed system information—making the process time-intensive and reliant on thorough analysis. To address these challenges, we introduce PILLAR (Privacy risk Identification with LINDDUN and LLM Analysis Report), a new tool that implements and automates the LINDDUN framework through LLM integration to streamline and enhance privacy threat modeling. PILLAR automates key parts of the LINDDUN process, such as generating DFDs from unstructured textual inputs (e.g. system descriptions), eliciting privacy threats, and risk-based threat prioritization. By leveraging the capabilities of LLMs, PILLAR can take natural language descriptions of systems and transform them into comprehensive threat models with limited input from users. Furthermore, PILLAR is capable of simulating multi-agent collaboration, allowing different LLM instances to play different contributor roles in a virtual threat modeling workshop. Rather than merely reducing the workload on analysts, PILLAR shifts their involvement from repetitive, tedious tasks to more meaningful and impactful interventions—such as refining the scope of analysis or completing critical components like the DFD. This allows experts to focus on the aspects that truly matter for a robust threat modeling process while enhancing both efficiency and accuracy.
-  destination: IWPE2025
-  year: 2025
-  #doi:
-  urlNews: /news/2025/04/07/paper-accepted-at-iwpe-2025/
-
-  id: ESORICS2025
-  #id_iris:
-  title: "Multi-entity Control-based Risk Assessment: A European Digital Identity Wallet Use Case"
-  authors:
-    - MajidMollaeefar
-    - AmirSharif
-    - ZahraEbadiAnsaroudi
-    - GiadaSciarretta
-    - FrancescoAntonioMarino
-    - SilvioRanise
-  abstract: >
-     European digital identity wallets have emerged as user-centric solutions for securely storing and managing sensitive credentials in compliance with the revised regulation on electronic Identification, Authentication, and Trust Services (eIDAS 2.0). Despite their growing adoption, both eIDAS 2.0 and its accompanying Architecture Reference Framework fall short of providing a comprehensive risk assessment. While they identify a broad range of potential risks, they do not offer systematic methods for prioritizing the threats that have the greatest impact on users. In addition, existing risk assessment frameworks for digital identity wallets tend to focus solely on threat modeling without quantifying risk severity or assume a centralized control model by attributing mitigation responsibilities to a single entity in the ecosystem. In reality, effective risk mitigation in digital identity wallet ecosystems hinges on cross-entity collaboration. To address these limitations, we introduce DIWAR (Digital Identity Wallet Analysis and Risk Assessment), a control-based methodology that integrates DREAD factors with entity-specific control attribution and implementation-level granularity. DIWAR quantitatively scores threats based on the five DREAD factors and then prescribes targeted mitigations that align with the defined responsibilities of the entities within the ecosystem. Our approach supports both entity-specific and system-wide evaluations, enabling actionable prioritization of security and privacy controls under varying implementation scenarios. A case study of the Italian EUDI Wallet ecosystem demonstrates how DIWAR bridges theoretical risk modeling with operational decision-making, ultimately enhancing the resilience of digital identity wallet systems.
-  destination: ESORICS2025
-  year: 2025
-  #doi:
   
+  id: SECRYPT2025
+  id_iris:
+  title: "Enhancing National Digital Identity Systems: A Framework for Institutional and Technical Harm Prevention Inspired by Microsoft's Harms Modeling"
+  authors:
+    - GiovanniCorti
+    - GianlucaSassetti
+    - AmirSharif
+    - RobertoCarbone
+    - SilvioRanise
+  abstract: >
+    The rapid adoption of National Digital Identity systems (NDIDs) across the globe underscores their role in ensuring the human right to identity. Despite the transformation potential given by digitization, these systems introduce significant challenges, particularly concerning the collection, storage, and sharing of sensitive personal data. These practices can expose individuals and populations to risks such as data breaches and profiling, originating from design and institutional flaws embedded in identity management infrastructures. Existing studies on NDIDs related harms often focus narrowly on technical design issues while neglecting the broader institutional infrastructures that enable such harms. To fill this gap, this paper extends the collection of harms for analysis through a qualitative methodology approach of the existing harm-related literature. Our findings suggest that 80% of NDID-related harms are the product of suboptimal institutions and poor governance models, and that 47.5% of all impacted stakeholders are considered High Risk. By proposing a more accurate harm assessment model and highlighting the strong relationship between harm-enabling NDIDs and suboptimal institutions, this paper provides academia and the industry with a significant contribution that allows to identify the possibility of NDID-related harms at an embryonic state and build the necessary infrastructure to prevent them.
+  destination: SECRYPT2025
+  year: 2025
+  doi:
+  urlNews: /news/2025/04/29/paper-accepted-at-secrypt-2025/
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
