@@ -2361,7 +2361,7 @@
   urlNews: /news/2025/04/29/papers-accepted-at-secrypt-2025/
   
   id: SECRYPT2025_status
-  id_iris:
+  id_iris: 359647
   title: "Comparison of Credential Status Mechanisms for the Digital Wallet Ecosystem"
   authors:
     - RiccardoGermenia
