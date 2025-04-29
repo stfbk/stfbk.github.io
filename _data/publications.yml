@@ -2358,6 +2358,23 @@
   destination: SECRYPT2025
   year: 2025
   doi:
-  urlNews: /news/2025/04/29/paper-accepted-at-secrypt-2025/
+  urlNews: /news/2025/04/29/papers-accepted-at-secrypt-2025/
+  
+  id: SECRYPT2025_status
+  id_iris:
+  title: "Comparison of Credential Status Mechanisms for the Digital Wallet Ecosystem"
+  authors:
+    - RiccardoGermenia
+    - SalvatoreManfredi
+    - GiadaSciarretta
+    - MarioScuro
+    - AlessandroTomasi
+  abstract: >
+    Digital identity wallets enable citizens to verify their identity and manage digital credentials. 
+    A system that offers the possibility of using and presenting credentials, requires the ability to check for their validity, avoiding the use of revoked or suspended credentials.  This paper compares traditional and emerging credential status mechanisms to identify the most suitable solutions for the wallet ecosystem, taking in consideration privacy aspects and the set of available features.
+  destination: SECRYPT2025
+  year: 2025
+  doi:
+  urlNews: /news/2025/04/29/papers-accepted-at-secrypt-2025/
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
