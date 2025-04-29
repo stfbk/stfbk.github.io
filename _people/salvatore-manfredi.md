@@ -4,7 +4,7 @@ links:
   - name: ACM
     value: 99659851237
   - name: CV
-    value: https://drive.google.com/file/d/1OvYnVGcy0Sm7tiBhtPfqIzYYZZWVhRXX
+    value: https://drive.google.com/drive/folders/1OWpOR--JB0rLVKqQu3wgE-AbaqpVuq0M?usp=sharing
   - name: dblp
     value: 244/0589
   - name: GitHub
@@ -15,8 +15,6 @@ links:
     value: salvomanfredi
   - name: ORCID
     value: 0000-0001-9645-6034
-  - name: Twitter
-    value: salvomanfredi
   - name: Website	
     value: https://netbender.github.io
 ---
