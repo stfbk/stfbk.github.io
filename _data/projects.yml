@@ -1,11 +1,3 @@
-- id: JointKonica
-  title: Konica Minolta Joint Laboratory
-  url: /projects/JointKonica
-  startDate: "2022-01-31"
-  endDate: "2023-05-31"
-  partners:
-    - KonicaMinolta
-
 - id: SERICS
   title: SERICS
   titleAddon: SecCo (Secure Containers) project
@@ -47,14 +39,6 @@
     - name: Terraview
       url: https://terraview.co/
 
-- id: GEANT
-  title: GÉANT GN4 Phase 3
-  url: /projects/GEANT
-  startDate: "2019-01-01"
-  endDate: "2022-12-31"
-  partners:
-    - GARR
-
 - id: CS4EU
   title: CyberSec4Europe
   url: /projects/CS4EU
@@ -70,14 +54,6 @@
   startDate: "2019-02-01"
   endDate: "2022-07-31"
   partners: For a complete list of the partners please view the CORDIS page of project.
-
-- id: GEMRetail
-  title: GEM-Retail
-  url: /projects/GEMRetail
-  startDate: "2021-04-01"
-  endDate: "2022-01-31"
-  partners:
-    - Energenius
 
 - id: CQVERTIS
   title: CQ VERTIS - 4U
@@ -98,14 +74,6 @@
     - Telefonica
     - name: Innovalia
 
-- id: SR-GLOBO
-  title: SR-GLOBO
-  url: /projects/SR-GLOBO
-  startDate: "2019-09-01"
-  endDate: "2020-12-31"
-  partners:
-    - Cisco
-
 - id: RAML
   title: RAML
   titleAddon: Raman Amplification via Machine Learning
@@ -115,26 +83,6 @@
   partners:
     - Cisco
 
-- id: LightEdge
-  title: LightEdge
-  titleAddon: Application-Oriented Orchestration for Distributed Systems
-  url: /projects/LightEdge
-  startDate: "2019-11-01"
-  endDate: "2020-02-28"
-  partners:
-    - KonicaMinolta
-
-- id: EFLY
-  title: E-FLY
-  titleAddon: Edge-enabled Flying Inspector
-  url: /projects/EFLY
-  startDate: "2019-01-10"
-  endDate: "2020-12-31"
-  partners:
-    - Atos
-    - name: Ferrovial
-    - name: AeroTools-UAV
-
 - id: EnergIA
   title: EnergIA!
   url: /projects/EnergIA
@@ -142,15 +90,6 @@
   endDate: "2020-03-01"
   partners:
     - Energenius
-
-- id: OLearn
-  title: OLearn
-  titleAddon: Introducing Machine Learning Techniques to Empower the Control and Management of Optical Networks
-  url: /projects/OLearn
-  startDate: "2018-09-01"
-  endDate: "2023-12-31"
-  partners:
-    - Cisco
 
 - id: DECENTER
   title: DECENTER
@@ -169,35 +108,6 @@
     - name: LGU+
     - name: Daliworks
     - name: Gluesys
-
-- id: DIGIFLOW
-  title: DIGIFLOW
-  titleAddon: Digitizing Industrial Workflow, Monitoring and Optimization
-  url: /projects/DIGIFLOW
-  logo: DIGIFLOW.png
-  startDate: "2018-01-01"
-  endDate: "2019-12-31"
-  partners:
-    - name: Santer Reply
-    - name: ThinkINside srl
-      
-- id: BeeHive
-  title: BeeHive
-  titleAddon: Clustered Traffic Engineering in large ISP Networks
-  url: /projects/BeeHive
-  startDate: "2016-09-01"
-  endDate: "2021-12-31"
-  partners:
-    - Cisco
-
-- id: LBO
-  title: LBO
-  titleAddon: Local Bandwidth Optimization
-  url: /projects/LBO
-  startDate: "2018-01-01"
-  endDate: "2023-12-31"
-  partners:
-    - Cisco
   
 - id: FLEXINDUSTRIES
   title: FLEXINDUSTRIES

@@ -1,3 +1,13 @@
+- id: LorysMutti_M
+  author: LorysMutti
+  type: B
+  institution: University of Trento
+  year: 2024
+  title: "Programmable Scenario Simulation for Kubernetes-Related Testing"
+  supervisor: DomenicoSiracusa
+  co-supervisor:
+    - LuisAugustoDiasKnob
+
 - id: SimoneVigasio_B
   author: SimoneVigasio
   type: B

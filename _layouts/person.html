@@ -44,7 +44,7 @@ layout: default
 {% assign roleRiSING = nil %}
 {% for counter in (0..affiliationNumbers) %}
     {% if person.affiliations[counter].institution == "Fondazione Bruno Kessler" %}
-        {% if person.affiliations[counter].unit == "Robust and Secure Distributed Computing" or person.affiliations[counter].unit == "Center for Cybersecurity" %}
+        {% if person.affiliations[counter].unit == "Distributed AI for dependable cyberSecuritY" or person.affiliations[counter].unit == "Center for Cybersecurity" %}
             {% assign roleRiSING = person.affiliations[counter].role %}
         {% endif %}
     {% endif %}

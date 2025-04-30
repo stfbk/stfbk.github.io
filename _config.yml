@@ -1,10 +1,10 @@
-title: Robust and Secure Distributed Computing
+title: Distributed AI for dependable cyberSecuritY
 tagline: Research Unit in Fondazione Bruno Kessler (FBK)
-logo: /assets/images/logos/RiSING_symbol.png
+logo: /assets/images/logos/DAISY.png
 remote_theme: chrisrhymes/bulma-clean-theme@v0.13.3
 markdown: kramdown
-repository: risingfbk/risingfbk.github.io
-url: "https://rising.fbk.eu"
+repository: daisyfbk/daisyfbk.github.io
+url: "https://daisy.fbk.eu"
 baseurl: ""
 
 plugins:
@@ -57,7 +57,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/logos/RiSING_symbol.png
+      image: /assets/images/logos/DAISY_symbol.png
 
   - scope:
       type: collaborations

@@ -1,3 +1,7 @@
+- id: Decepto
+  name: "Decepto: A Decoy-Based Framework for Cyber Deception"
+  description: "Decepto is a software platform that provides cyber deception in cloud-native environments using a Kubernetes (K8s) orchestrator."
+  urlDocumentation: /tools/Decepto
 
 - id: LUCID
   name: "LUCID: A Practical, Lightweight Deep Learning Solution for DDoS Attack Detection"

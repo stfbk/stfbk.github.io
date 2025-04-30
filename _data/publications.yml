@@ -294,6 +294,30 @@
   doi: 10.1109/NetSoft54395.2022.9844023
 
 
+- id: iris_2022_253154c34bfc045f9957
+  id_iris: 358832,
+  title: "A Learning Approach for Production-Aware 5G Slicing in Private Industrial Networks"
+  authors:
+    - MarcoZambianco
+    - AlessandroLieto
+    - IlariaMalanchini
+    - GiacomoVerticale
+  destination: icc2022ieeeinternationalconferenceoncommunications
+  year: 2022
+  doi: 10.1109/icc45855.2022.9838527
+
+
+- id: iris_2022_1b0ae06601cf9aa5f55d
+  id_iris: 358833,
+  title: "A reinforcement learning agent for mixed-numerology interference-aware slice spectrum allocation with non-deterministic and deterministic traffic"
+  authors:
+    - MarcoZambianco
+    - GiacomoVerticale
+  destination: computercommunications
+  year: 2022
+  doi: 10.1016/j.comcom.2022.03.010
+
+
 - id: iris_2021_ebdc0eec0b825ff5da1b
   id_iris: 326250,
   title: "In-Network Volumetric DDoS Victim Identification Using Programmable Commodity Switches"
@@ -306,6 +330,19 @@
   destination: ieeetransactionsonnetworkandservicemanagement
   year: 2021
   doi: 10.1109/TNSM.2021.3073597
+
+
+- id: iris_2021_e0e9309b4c300b816f04
+  id_iris: 358929,
+  title: "Enforcing deployment latency SLA in edge infrastructures through multi-objective genetic scheduler"
+  authors:
+    - LuisAugustoDiasKnob
+    - CarlosHenriqueKayser
+    - PauloSilasSeverodeSouza
+    - TiagoFerreto
+  destination: 14thieeeacminternationalconferenceonutilityandcloudcomputing
+  year: 2021
+  doi: 10.1145/3468737.3494100
 
 
 - id: iris_2021_df92d92f54b2bd1181f9
@@ -361,6 +398,28 @@
   year: 2021
 
 
+- id: iris_2021_6cf947e528ea8e364fc9
+  id_iris: 358829,
+  title: "Intelligent multi-branch allocation of spectrum slices for inter-numerology interference minimization"
+  authors:
+    - MarcoZambianco
+    - GiacomoVerticale
+  destination: computernetworks
+  year: 2021
+  doi: 10.1016/j.comnet.2021.108254
+
+
+- id: iris_2021_536c34ed47e0a222d825
+  id_iris: 358831,
+  title: "Mixed-Numerology Interference-Aware Spectrum Allocation for eMBB and URLLC Network Slices"
+  authors:
+    - MarcoZambianco
+    - GiacomoVerticale
+  destination: 202119thmediterraneancommunicationandcomputernetworkingconferencemedcomnet
+  year: 2021
+  doi: 10.1109/medcomnet52149.2021.9501277
+
+
 - id: iris_2021_506d995135e723df4823
   id_iris: 327546,
   title: "Community-based placement of registries to speed up application deployment on Edge Computing"
@@ -372,6 +431,18 @@
   destination: 2021ieeeinternationalconferenceoncloudengineeringic2e
   year: 2021
   doi: 10.1109/IC2E52221.2021.00029
+
+
+- id: iris_2021_3560c9e41acf9dd12776
+  id_iris: 358934,
+  title: "Improving Container Deployment in Edge Computing Using the Infrastructure Aware Scheduling Algorithm"
+  authors:
+    - LuisAugustoDiasKnob
+    - CarlosHenriqueKayser
+    - TiagoFerreto
+  destination: 2021ieeesymposiumoncomputersandcommunicationsiscc
+  year: 2021
+  doi: 10.1109/iscc53001.2021.9631490
 
 
 - id: iris_2021_20c2d343f0a4ab145978
@@ -503,6 +574,17 @@
   year: 2020
 
 
+- id: iris_2020_928a20033de03f0f86c1
+  id_iris: 358834,
+  title: "Interference Minimization in 5G Physical-Layer Network Slicing"
+  authors:
+    - MarcoZambianco
+    - GiacomoVerticale
+  destination: ieeetransactionsoncommunications
+  year: 2020
+  doi: 10.1109/tcomm.2020.2983009
+
+
 - id: iris_2020_7f122ddc7f42923e7e0b
   id_iris: 321746,
   title: "An Automated Negotiation Framework for Application-Aware Transport Network Services"
@@ -530,6 +612,17 @@
   destination: journalofgridcomputing
   year: 2020
   doi: 10.1007/s10723-020-09534-y
+
+
+- id: iris_2020_67f74708624dbad25bc4
+  id_iris: 358830,
+  title: "Spectrum Allocation for Network Slices with Inter-Numerology Interference using Deep Reinforcement Learning"
+  authors:
+    - MarcoZambianco
+    - GiacomoVerticale
+  destination: 2020ieee31stannualinternationalsymposiumonpersonalindoorandmobileradiocommunications
+  year: 2020
+  doi: 10.1109/pimrc48278.2020.9217107
 
 
 - id: iris_2020_4d03e85c056ceb94de25
@@ -751,6 +844,18 @@
   doi: 10.1109/JLT.2018.2863564
 
 
+- id: iris_2018_bfeaaffd8e0dcfaf9e6a
+  id_iris: 358930,
+  title: "An Unikernels Provisioning Architecture for OpenStack"
+  authors:
+    - LuisAugustoDiasKnob
+    - BrunoGomesXavier
+    - TiagoFerreto
+  destination: 2018ieeesymposiumoncomputersandcommunicationsiscc
+  year: 2018
+  doi: 10.1109/iscc.2018.8538618
+
+
 - id: iris_2018_b7f6ab4e455c0d436d9c
   id_iris: 315055,
   title: "First WDM-SDM Optical Network with Spatial Sub-Group Routing ROADM Nodes Supporting Spatial Lane Changes"
@@ -819,6 +924,21 @@
   destination: acmcomputingsurveys
   year: 2018
   doi: 10.1145/3165290
+
+
+- id: iris_2018_479dab9f5b902f5f25a0
+  id_iris: 358928,
+  title: "Specialized CSIRT for Incident Response Management in Smart Grids"
+  authors:
+    - RafaeldeJesusMartins
+    - LuisAugustoDiasKnob
+    - EduardoGermanodaSilva
+    - JulianoAraujoWickboldt
+    - AlbertoSchaeffer-Filho
+    - LisandroZambenedettiGranville
+  destination: journalofnetworkandsystemsmanagement
+  year: 2018
+  doi: 10.1007/s10922-018-9458-z
 
 
 - id: iris_2018_4753c1ed5f3e10e204e4
@@ -928,6 +1048,19 @@
   destination: ieeeinternationalconferenceoncommunicationsworkshopsiccworkshops2017
   year: 2017
   doi: 10.1109/ICCW.2017.7962753
+
+
+- id: iris_2017_f97e05bce3806579e27d
+  id_iris: 358931,
+  title: "Mitigating elephant flows in SDN-based IXP networks"
+  authors:
+    - LuisAugustoDiasKnob
+    - RafaelPereiraEsteves
+    - LisandroZambenedettiGranville
+    - LianeMargaridaRockenbachTarouco
+  destination: 2017ieeesymposiumoncomputersandcommunicationsiscc
+  year: 2017
+  doi: 10.1109/iscc.2017.8024712
 
 
 - id: iris_2017_f88c724eab72c8481e6b
@@ -1272,6 +1405,19 @@
   doi: 10.1109/ONDM.2016.7494084
 
 
+- id: iris_2016_8a0a4fe458d0d407819e
+  id_iris: 358932,
+  title: "SDEFIX - Identifying elephant flows in SDN-based IXP networks"
+  authors:
+    - LuisAugustoDiasKnob
+    - RafaelPereiraEsteves
+    - LisandroZambenedettiGranville
+    - LianeMargaridaRockenbachTarouco
+  destination: 2016ieeeifipnetworkoperationsandmanagementsymposiumnoms
+  year: 2016
+  doi: 10.1109/noms.2016.7502792
+
+
 - id: iris_2016_7c7e9ab6ba86d6d24416
   id_iris: 310711,
   title: "SDN application-centric orchestration for multi-layer transport networks"
@@ -1479,6 +1625,22 @@
   doi: 10.1109/EuCNC.2016.7561067
 
 
+- id: iris_2016_2160cc6e1fd15f6665cc
+  id_iris: 358933,
+  title: "Performance Analysis of 6LoWPAN and CoAP for Secure Communications in Smart Homes"
+  authors:
+    - RafaelDeJesusMartins
+    - ViniciusGarcezSchaurich
+    - LuisAugustoDiasKnob
+    - JulianoAraujoWickboldt
+    - AlbertoSchaefferFilho
+    - LisandroZambenedettiGranville
+    - MarceloPias
+  destination: 2016ieee30thinternationalconferenceonadvancedinformationnetworkingandapplicationsaina
+  year: 2016
+  doi: 10.1109/aina.2016.82
+
+
 - id: iris_2016_061ff17ed68ea0c801ce
   id_iris: 310664,
   title: "Experimental Evaluation of YAMATO, a SDN Control Plane for Joint and Fractional-Joint Switched SDM Optical Networks"
@@ -1584,6 +1746,21 @@
   destination: journalofopticalcommunicationsandnetworking
   year: 2015
   doi: 10.1364/JOCN.7.00A344
+
+
+- id: iris_2015_94094c41d12054569905
+  id_iris: 358927,
+  title: "Capitalizing on SDN-based SCADA systems: An anti-eavesdropping case-study"
+  authors:
+    - EduardoGermanodaSilva
+    - LuisAugustoDiasKnob
+    - JulianoAraujoWickboldt
+    - LucianoPaschoalGaspary
+    - LisandroZambenedettiGranville
+    - AlbertoSchaeffer-Filho
+  destination: 2015ifipieeeinternationalsymposiumonintegratednetworkmanagementim
+  year: 2015
+  doi: 10.1109/inm.2015.7140289
 
 
 - id: iris_2015_7d5362f473643d702005

@@ -132,7 +132,7 @@
 }
 
 .card .card-image img.default {
-  content: url("/assets/images/logos/RiSING_symbol.png");
+  content: url("/assets/images/logos/DAISY_symbol.png");
 }
 
 .card.person .card-image img {
@@ -523,7 +523,7 @@ ul.no-bullet {
 }
 
 .parentFBK img {
-  max-height: 25px;
+  max-height: 35px;
   vertical-align: middle;
 }
 

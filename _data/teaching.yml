@@ -9,7 +9,6 @@
     - LuisAugustoDiasKnob
     - SilvioCretti
   startYear: 2019
-  endYear: 2024
   links:
     - name: 2020-2021
       url: "https://unitn.coursecatalogue.cineca.it/insegnamenti/2020/93765/2011/9999/10117?coorte=2020"
@@ -19,6 +18,8 @@
       url: "https://unitn.coursecatalogue.cineca.it/insegnamenti/2022/93765/2011/9999/10117?coorte=2022"
     - name: 2023-2024
       url: "https://unitn.coursecatalogue.cineca.it/insegnamenti/2023/93765/2011/9999/10117?coorte=2023"
+    - name: 2024-2025
+      url: "https://unitn.coursecatalogue.cineca.it/insegnamenti/2024/50538_644822_93765/2011/50539/10117?coorte=2024"
 
 - id: NetworkIntrusionDetection
   name: Network Intrusion Detection with Deep Learning

@@ -6,7 +6,7 @@
   email: adipace@fbk.eu
   affiliations:
     - role: Junior Researcher
-      unit: Robust and Secure Distributed Computing
+      unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
 
@@ -17,7 +17,7 @@
   phone: "+390461312450"
   affiliations:
     - role: Developer
-      unit: Robust and Secure Distributed Computing
+      unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   
@@ -29,7 +29,7 @@
   iris_id: rp26313
   affiliations:
     - role: Researcher
-      unit: Robust and Secure Distributed Computing
+      unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   
@@ -41,7 +41,7 @@
   iris_id: rp02795
   affiliations:
     - role: Developer
-      unit: Robust and Secure Distributed Computing
+      unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   
@@ -51,7 +51,7 @@
   email: hbeckerbrum@fbk.eu
   affiliations:
     - role: PhD Student
-      unit: Robust and Secure Distributed Computing
+      unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   
@@ -62,7 +62,7 @@
   phone: "+390461312427"
   affiliations:
     - role: Developer
-      unit: Robust and Secure Distributed Computing
+      unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
 
@@ -73,7 +73,7 @@
   email: lmutti@fbk.eu
   affiliations:
     - role: Junior Developer
-      unit: Robust and Secure Distributed Computing
+      unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
 
@@ -84,7 +84,7 @@
   iris_id: rp17578 
   affiliations:
     - role: Researcher
-      unit: Robust and Secure Distributed Computing
+      unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   
@@ -95,7 +95,7 @@
   iris_id: rp24978
   affiliations:
     - role: Researcher
-      unit: Robust and Secure Distributed Computing
+      unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   
@@ -107,7 +107,7 @@
   iris_id: rp24846
   affiliations:
     - role: PhD Student
-      unit: Robust and Secure Distributed Computing
+      unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
 
@@ -117,7 +117,7 @@
   email: mntakokoungni@fbk.eu
   affiliations:
     - role: PhD Student
-      unit: Robust and Secure Distributed Computing
+      unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   
@@ -131,7 +131,7 @@
       place: Trento, Italy
     - formerRole: Developer
       role: CLEANSE Lab Coordinator
-      unit: Robust and Secure Distributed Computing
+      unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: pietro.dematteis@dedagroup.it
@@ -143,8 +143,8 @@
   phone: "+390461312429"
   iris_id: rp02135
   affiliations:
-    - role: Researcher
-      unit: Robust and Secure Distributed Computing
+    - role: Head of Unit 
+      unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   
@@ -156,7 +156,7 @@
   iris_id: rp05551
   affiliations:
     - role: Developer
-      unit: Robust and Secure Distributed Computing
+      unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   
@@ -166,7 +166,7 @@
   email: varmani@fbk.eu
   affiliations:
     - role: Developer 
-      unit: Robust and Secure Distributed Computing
+      unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
 
@@ -176,7 +176,7 @@
   email: gvallazza@fbk.eu
   affiliations:
     - role: Developer
-      unit: Robust and Secure Distributed Computing
+      unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   
@@ -186,7 +186,7 @@
   email: mrodasbritez@fbk.eu
   affiliations:
     - role: Researcher
-      unit: Robust and Secure Distributed Computing
+      unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
 
@@ -196,7 +196,7 @@
   email: lfasol@fbk.eu
   affiliations:
     - role: Junior Developer
-      unit: Robust and Secure Distributed Computing
+      unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
 
@@ -214,22 +214,22 @@
       place: Trento, Italy
     - formerRole: Head of the Research Unit
       role: Affiliated Fellow
-      unit: Robust and Secure Distributed Computing
+      unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
 
 - id: SilvioRanise
   name: Silvio
   surname: Ranise
-  affiliations:
-    - role: Director of Center, Interim Head of Unit
-      unit: Center for Cybersecurity
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-    - role: Full Professor
-      unit: Department of Mathematics
-      institution: University of Trento
-      place: Trento, Italy
+  # affiliations:
+  #  - role: Director of Center, Interim Head of Unit
+  #    unit: Center for Cybersecurity
+  #    institution: Fondazione Bruno Kessler
+  #    place: Trento, Italy
+  #  - role: Full Professor
+  #    unit: Department of Mathematics
+  #    institution: University of Trento
+  #    place: Trento, Italy
   email: ranise@fbk.eu
   phone: "+390461314192"
 
@@ -300,23 +300,10 @@
 - id: GiacomoSegala
   name: Giacomo
   surname: Segala
-  iris_id: rp19776
-  # affiliations:
-  #   - role: PhD Student
-  #     unit: Robust and Secure Distributed Computing
-  #     institution: Fondazione Bruno Kessler
-  #     place: Trento, Italy
 
 - id: SimoneMagnani
   name: Simone
   surname: Magnani
-  iris_id: rp19839
-  # email: smagnani@fbk.eu
-  # affiliations:
-  #   - role: PhD Student
-  #     unit: Robust and Secure Distributed Computing
-  #     institution: Fondazione Bruno Kessler
-  #     place: Trento, Italy
   
 - id: MatteoBregola
   name: Matteo
@@ -571,6 +558,18 @@
   name:  Alberto
   surname: Mozo
 
+- id: AlbertoSchaeffer-Filho
+  name:  Alberto
+  surname: Schaeffer-Filho
+
+- id: AlbertoSchaefferFilho
+  name:  Alberto
+  surname: Schaeffer Filho
+
+- id: AlessandroLieto
+  name:  Alessandro
+  surname: Lieto
+
 - id: AlexanderWillner
   name:  Alexander
   surname: Willner
@@ -679,6 +678,10 @@
   name:  Brian
   surname: Pickering
 
+- id: BrunoGomesXavier
+  name:  Bruno
+  surname: Gomes Xavier
+
 - id: C.Betoule
   name:  C.
   surname: Betoule
@@ -710,6 +713,10 @@
 - id: CarloalbertoTorghele
   name:  Carloalberto
   surname: Torghele
+
+- id: CarlosHenriqueKayser
+  name:  Carlos
+  surname: Henrique Kayser
 
 - id: ChamaniaMohit
   name:  Chamania
@@ -838,6 +845,10 @@
 - id: EduardMarin
   name:  Eduard
   surname: Marin
+
+- id: EduardoGermanodaSilva
+  name:  Eduardo
+  surname: Germano da Silva
 
 - id: EduardoJacob
   name:  Eduardo
@@ -983,6 +994,10 @@
   name:  Gerstel
   surname: Ori
 
+- id: GiacomoVerticale
+  name:  Giacomo
+  surname: Verticale
+
 - id: GiadaLandi
   name:  Giada
   surname: Landi
@@ -1078,6 +1093,10 @@
 - id: IgnaciodeMiguel
   name:  Ignacio
   surname: de Miguel
+
+- id: IlariaMalanchini
+  name:  Ilaria
+  surname: Malanchini
 
 - id: IliasAliferis
   name:  Ilias
@@ -1199,6 +1218,10 @@
   name:  Juan
   surname: Pedro Fernandez Palacios
 
+- id: JulianoAraujoWickboldt
+  name:  Juliano
+  surname: Araujo Wickboldt
+
 - id: JuniqueStephane
   name:  Junique
   surname: Stephane
@@ -1259,6 +1282,14 @@
   name:  Li
   surname: Xi
 
+- id: LianeMargaridaRockenbachTarouco
+  name:  Liane
+  surname: Margarida Rockenbach Tarouco
+
+- id: LisandroZambenedettiGranville
+  name:  Lisandro
+  surname: Zambenedetti Granville
+
 - id: LiubovNedoshivina
   name:  Liubov
   surname: Nedoshivina
@@ -1290,6 +1321,10 @@
 - id: LucaZuanazzi
   name:  Luca
   surname: Zuanazzi
+
+- id: LucianoPaschoalGaspary
+  name:  Luciano
+  surname: Paschoal Gaspary
 
 - id: LukaszOgrodowczyk
   name:  Lukasz
@@ -1358,6 +1393,10 @@
 - id: MandarDatar
   name:  Mandar
   surname: Datar
+
+- id: MarceloPias
+  name:  Marcelo
+  surname: Pias
 
 - id: MarekMichalski
   name:  Marek
@@ -1511,6 +1550,10 @@
   name:  Panagiotis
   surname: Gouvas
 
+- id: PauloSilasSeverodeSouza
+  name:  Paulo
+  surname: Silas Severo de Souza
+
 - id: PetarKochovski
   name:  Petar
   surname: Kochovski
@@ -1574,6 +1617,18 @@
 - id: R.Vilalta
   name:  R.
   surname: Vilalta
+
+- id: RafaelDeJesusMartins
+  name:  Rafael
+  surname: De Jesus Martins
+
+- id: RafaelPereiraEsteves
+  name:  Rafael
+  surname: Pereira Esteves
+
+- id: RafaeldeJesusMartins
+  name:  Rafael
+  surname: de Jesus Martins
 
 - id: RaffaeleGiaffreda
   name:  Raffaele
@@ -1822,6 +1877,10 @@
 - id: VictorLopez
   name: Victor
   surname: Lopez
+
+- id: ViniciusGarcezSchaurich
+  name:  Vinicius
+  surname: Garcez Schaurich
 
 - id: VladoStankovski
   name:  Vlado

@@ -1,2 +1,2 @@
-Sitemap: https://rising.fbk.eu/sitemap.xml
+Sitemap: https://daisy.fbk.eu/sitemap.xml
 Allow: /

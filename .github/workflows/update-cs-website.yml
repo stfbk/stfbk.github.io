@@ -5,7 +5,7 @@ env:
   DESTINATION_REPO: 'csfbk/csfbk.github.io'
   USER_NAME: 'csfbk'
   USER_EMAIL: 'cs@fbk.eu'
-  UNIT_ACRONYM: 'rising'
+  UNIT_ACRONYM: 'daisy'
 
 on:
   push:

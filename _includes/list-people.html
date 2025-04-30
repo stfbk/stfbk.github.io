@@ -186,7 +186,7 @@
             {% endif %}
             {% assign affiliationNumbers = person.affiliations.size | minus: 1 %}
             {% for counter in (0..affiliationNumbers) %}
-                {% if person.affiliations[counter].unit == "Robust and Secure Distributed Computing" or person.affiliations[counter].unit == "Center for Cybersecurity" %}
+                {% if person.affiliations[counter].unit == "Distributed AI for dependable cyberSecuritY" or person.affiliations[counter].unit == "Center for Cybersecurity" %}
                     {% if person.affiliations[counter].institution == "Fondazione Bruno Kessler" %}
                         {% assign role = person.affiliations[counter].role %}
                     {% endif %}        
@@ -265,7 +265,7 @@
                             {% for affiliation in person.affiliations %}
                                 {% if affiliation.role %} 
                                 <div class="affiliation{% if person.affiliations.size > 1 %} more{% endif %}">
-                                    {% if (affiliation.unit == "Robust and Secure Distributed Computing" or affiliation.unit == "Center for Cybersecurity") and affiliation.institution == "Fondazione Bruno Kessler" and affiliation.role %}
+                                    {% if (affiliation.unit == "Distributed AI for dependable cyberSecuritY" or affiliation.unit == "Center for Cybersecurity") and affiliation.institution == "Fondazione Bruno Kessler" and affiliation.role %}
                                         <p class="subtitle role is-4">{{ affiliation.role }}</p>
                                     {% else %}
                                         {% if affiliation.role and details contains "role" %}<p class="subtitle affiliation role is-4">{{ affiliation.role }}</p>{% endif %}
@@ -279,7 +279,7 @@
                         {% elsif details contains "internalRole" or details contains "internalUnit" %}
                             {% for affiliation in person.affiliations %}
                                 {% if affiliation.institution == "Fondazione Bruno Kessler" %}
-                                    {% if affiliation.unit == "Robust and Secure Distributed Computing" or affiliation.unit == "Center for Cybersecurity" %}
+                                    {% if affiliation.unit == "Distributed AI for dependable cyberSecuritY" or affiliation.unit == "Center for Cybersecurity" %}
                                         <div class="affiliation">
                                             {% if details contains "internalRole" %}<p class="subtitle affiliation role is-4">{{ affiliation.role }}</p>{% endif %}
                                             {% if details contains "internalUnit" %}<p class="subtitle affiliation unit is-4">{{ affiliation.unit }}</p>{% endif %}

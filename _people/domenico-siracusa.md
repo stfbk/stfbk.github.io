@@ -9,7 +9,7 @@ links:
     value: 0000-0002-5640-6507
 ---
 
-Domenico Siracusa is associate professor at the Department of Information Engineering and Computer Science (DISI) of the University of Trento and affiliated fellow at the Robust and Secure Distributed Computing (RiSING) research unit at Fondazione Bruno Kessler (FBK). Previously, he was the head of the Unit.
+Domenico Siracusa is associate professor at the Department of Information Engineering and Computer Science (DISI) of the University of Trento and affiliated fellow at the Centre for Cybersecurity (CS) in Fondazione Bruno Kessler (FBK). Previously, he was the head of the RiSING (Robust and Secure Distributed Computing) unit.
 
 He received his Master’s Degree in Telecommunication Engineering and his PhD in Information Technology both at Politecnico di Milano, respectively in 2008 and 2012. In 2022 he earned the Executive MBA in Business Innovation at the MIB Trieste School of Management.
 

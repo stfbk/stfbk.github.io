@@ -32,6 +32,11 @@
   type: conference
   proceedings: Proceedings of 13th International Conference on Design of Reliable Communication Networks, Drcn 2017
 
+- id: 14thieeeacminternationalconferenceonutilityandcloudcomputing
+  name: 14th Ieee/acm International Conference on Utility and Cloud Computing
+  type: conference
+  proceedings: Proceedings of 14th Ieee/acm International Conference on Utility and Cloud Computing
+
 - id: 14thinternationalconferenceontransparentopticalnetworksicton2012
   name: 14th International Conference on Transparent Optical Networks (ICTON), 2012
   type: conference
@@ -107,25 +112,57 @@
   type: conference
   proceedings: Proceedings of 2014 Optical Fiber Communications Conference and Exhibition, Ofc 2014
 
+- id: 2015ifipieeeinternationalsymposiumonintegratednetworkmanagementim
+  name: 2015 Ifip/ieee International Symposium on Integrated Network Management (IM)
+  type: conference
+
 - id: 2015internationalconferenceonphotonicsinswitchingps
   name: 2015 International Conference on Photonics in Switching (PS)
   type: conference
   proceedings: Proceedings of 2015 International Conference on Photonics in Switching (PS)
+
+- id: 2016ieee30thinternationalconferenceonadvancedinformationnetworkingandapplicationsaina
+  name: 2016 IEEE 30th International Conference on Advanced Information Networking and Applications (AINA)
+  type: conference
+  proceedings: Proceedings of 2016 IEEE 30th International Conference on Advanced Information Networking and Applications (AINA)
+
+- id: 2016ieeeifipnetworkoperationsandmanagementsymposiumnoms
+  name: 2016 IEEE/IFIP Network Operations and Management Symposium (NOMS)
+  type: conference
+  proceedings: Proceedings of 2016 IEEE/IFIP Network Operations and Management Symposium (NOMS)
 
 - id: 2017europeanconferenceonopticalcommunicationecoc2017
   name: 2017 European Conference on Optical Communication (ECOC 2017)
   type: conference
   proceedings: Proceedings of 2017 European Conference on Optical Communication (ECOC 2017)
 
+- id: 2017ieeesymposiumoncomputersandcommunicationsiscc
+  name: 2017 IEEE Symposium on Computers and Communications (ISCC)
+  type: conference
+  proceedings: Proceedings of 2017 IEEE Symposium on Computers and Communications (ISCC)
+
 - id: 2017opticalfibercommunicationconferenceofc2017
   name: 2017 Optical Fiber Communication Conference (OFC 2017)
   type: conference
   proceedings: Proceedings of 2017 Optical Fiber Communication Conference (OFC 2017)
 
+- id: 2018ieeesymposiumoncomputersandcommunicationsiscc
+  name: 2018 IEEE Symposium on Computers and Communications (ISCC)
+  type: conference
+  proceedings: Proceedings of 2018 IEEE Symposium on Computers and Communications (ISCC)
+
 - id: 2020ieee10thinternationalconferenceonconsumerelectronicsicceberlin
   name: 2020 IEEE 10th International Conference on Consumer Electronics (ICCE-Berlin)
   type: conference
   proceedings: Proceedings of 2020 IEEE 10th International Conference on Consumer Electronics (ICCE-Berlin)
+
+- id: 2020ieee31stannualinternationalsymposiumonpersonalindoorandmobileradiocommunications
+  name: 2020 IEEE 31st Annual International Symposium on Personal, Indoor and Mobile Radio Communications
+  type: conference
+
+- id: 202119thmediterraneancommunicationandcomputernetworkingconferencemedcomnet
+  name: 2021 19th Mediterranean Communication and Computer Networking Conference (MedComNet)
+  type: conference
 
 - id: 202124thconferenceoninnovationincloudsinternetandnetworksandworkshopsicin
   name: 2021 24th Conference on Innovation in Clouds, Internet and Networks and Workshops (ICIN)
@@ -141,6 +178,11 @@
   name: 2021 IEEE International Conference on Cloud Engineering (IC2E)
   type: conference
   proceedings: Proceedings of 2021 IEEE International Conference on Cloud Engineering (IC2E)
+
+- id: 2021ieeesymposiumoncomputersandcommunicationsiscc
+  name: 2021 IEEE Symposium on Computers and Communications (ISCC)
+  type: conference
+  proceedings: Proceedings of 2021 IEEE Symposium on Computers and Communications (ISCC)
 
 - id: 2022ieee23rdinternationalsymposiumonaworldofwirelessmobileandmultimedianetworkswowmom
   name: 2022 IEEE 23rd International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM)
@@ -340,6 +382,10 @@
   name: Future Internet Symposium 2011
   type: conference
 
+- id: icc2022ieeeinternationalconferenceoncommunications
+  name: Icc 2022 - IEEE International Conference on Communications
+  type: conference
+
 - id: ieee10thinternationalconferenceonnetworksoftwarizationnetsoft
   name: IEEE 10th International Conference on Network Softwarization (NetSoft)
   type: conference
@@ -425,6 +471,10 @@
 
 - id: ieeesystemsjournal
   name: IEEE Systems Journal
+  type: journal
+
+- id: ieeetransactionsoncommunications
+  name: IEEE Transactions on Communications
   type: journal
 
 - id: ieeetransactionsondependableandsecurecomputing

@@ -1,14 +1,14 @@
 ---
-title: Robust and Secure Distributed Computing
+title: Distributed AI for dependable cyberSecuritY
 subtitle: Research Unit in Fondazione Bruno Kessler
 layout: page
-heroImageLeft: /assets/images/logos/RiSING_symbol.png
+heroImageLeft: /assets/images/logos/DAISY_white.png
 heroImageRight: /assets/images/logos/CS_white.png
 ---
 
 ## Who we are
 
-The Robust and Secure Distributed Computing (RiSING) research unit
+The Distributed AI for dependable cyberSecuritY (DAISY) research unit
 focuses on the investigation of methods and the design and
 implementation of platforms that guarantee efficiency, robustness and
 security in distributed computing environments.
@@ -33,7 +33,7 @@ following areas:
   computing solutions to effectively manage business and security
   applications
 
-The RiSING unit lies within the [Cybersecurity center](https://cs.fbk.eu/) in [Fondazione Bruno Kessler](https://www.fbk.eu) (FBK).
+The DAISY unit lies within the [Cybersecurity center](https://cs.fbk.eu/) in [Fondazione Bruno Kessler](https://www.fbk.eu) (FBK).
 
 ## Research Areas
 

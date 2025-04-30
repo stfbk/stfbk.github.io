@@ -18,7 +18,7 @@ permalink: /people/
   {% include list-people.html source=site.data.members.current.collaborators style="card" details=details sort="surname" %}
 {%- endif -%}
 
-{%- if site.data.members.current.students.size > 0 -%}
+<!-- {%- if site.data.members.current.students.size > 0 -%}
   <h1>Students</h1>
   {% assign details = "picture, institution, topic, type, thesis" | split: ", " %}
   {% include list-people.html source=site.data.members.current.students style="card" details=details sort="surnname" %}
@@ -29,3 +29,4 @@ permalink: /people/
   {% assign details = "institution, topic" | split: ", " %}
   {% include list-people.html source=site.data.members.current.junior style="card" details=details sort="surname" %}
 {%- endif -%}
+--->

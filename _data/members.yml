@@ -1,15 +1,12 @@
 current:
   head:
-    - SilvioRanise
+    - RobertoDoriguzziCorin
 
   members:
     - AndreaDipace
-    - AndreaZanardi
     - ClaudioFacchinetti
     - DanieleSantoro
-    - GiancarloVallazza
     - HenriqueBeckerBrum
-    - LorenzoGalvagni
     - LorenzoFasol
     - LorysMutti
     - LuisAugustoDiasKnob
@@ -17,209 +14,26 @@ current:
     - MarcoZambianco
     - MatteoFranzil
     - MichaelKevinNtakoKoungni
-    - RobertoDoriguzziCorin
     - SilvioCretti
-    - ValentinoArmani
-
-  students:
-    - personId: LucaPedercini
-      type: M
-      institution: University of Trento
-      yearFrom: 2024
-    - personId: EnricoCarnelos
-      type: M
-      institution: University of Trento
-      yearFrom: 2024
-    - personId: PetrSabel
-      type: B
-      institution: University of Trento
-      yearFrom: 2024
-    - personId: AlessiaPivotto
-      type: B
-      institution: University of Trento
-      yearFrom: 2024
-    - personId: FrancescoMarchetto
-      type: B
-      institution: University of Trento
-      yearFrom: 2024
-    - personId: DennisOrlando
-      type: B
-      institution: University of Trento
-      yearFrom: 2024
-      yearTo: 2024
 
   collaborators:
-    - PietroDeMatteis
     - DomenicoSiracusa
 
 former:
-  head:
-    - personId: DomenicoSiracusa
-      yearTo: 2024
-
-  phdStudents:
-    - personId: ArslanRafi
-      yearTo: 2024
-
-    - personId: SimoneMagnani
-      thesisId: SimoneMagnani_P
-
-    - personId: GiacomoSegala
-      thesisId: GiacomoSegala_P
-
-    - personId: MagedAbdelaty
-      thesisId: MagedAbdelaty_P
-
-    - personId: FrancescomariaFaticanti
-      thesisId: FrancescomariaFaticanti_P
-    
-    - personId: DamuDing
-      thesisId: DamuDing_P
-
-    - personId: RobertoDoriguzziCorin
-      thesisId: RobertoDoriguzziCorin_P
-    
-    - personId: AntonioMassaro
-      thesisId: AntonioMassaro_P
-
-    - personId: FedericoPederzolli
-      thesisId: FedericoPederzolli_P 
-    
-    - personId: AntonioMarsico
-      thesisId: AntonioMarsico_P
-
   members:
-    - personId: MatteoManfrin 
-      formerRole: Developer
+    - personId: DomenicoSiracusa
       yearTo: 2024
        
     - personId: PietroDeMatteis
       formerRole: Developer
       yearTo: 2023
 
-    - personId: MatteoGerola
-      formerRole: Developer
-      yearTo: 2023
-    
-    - personId: KindeGutemaTefera
-      formerRole: Developer
-      yearTo: 2022
-    
-    - personId: DanielePizzolli
-      formerRole: Developer
-      yearTo: 2022
-    
-    - personId: AndreaFregonese
-      formerRole: Junior Researcher
-      yearTo: 2022
-    
-    - personId: MarcoSavi
-      formerRole: Researcher
-      yearTo: 2021
-    
-    - personId: KewinRausch
-      formerRole: Developer
-      yearTo: 2021
-    
-    - personId: FedericoPederzolli
-      formerRole: Researcher
-      yearTo: 2021
-    
-    - personId: FrancescomariaFaticanti
-      formerRole: Researcher
-      yearTo: 2021
-    
-    - personId: DamuDing
-      formerRole: Researcher
-      yearTo: 2021
-    
-    - personId: XiaohuWu
-      formerRole: Researcher
-      yearTo: 2020
-    
-    - personId: AntonioMassaro
-      formerRole: Researcher
-      yearTo: 2020
-    
-    - personId: RaihanaFerdous
-      formerRole: Researcher
-      yearTo: 2020
-    
-    - personId: FrancescoDePellegrini
-      formerRole: Researcher
-      yearTo: 2020
-
-  students:    
-    - personId: MarcoZani 
-      type: B
-      institution: University of Trento
-      yearFrom: 2023
-      yearTo: 2024
-    - personId: GiovanniFoletto
-      type: B
-      institution: University of Trento
-      yearFrom: 2023
-      yearTo: 2024
-    - personId: CarloSorrentino
-      type: B
-      institution: University of Trento
-      yearFrom: 2024
-      yearTo: 2024
+  students:
     - personId: LorysMutti
-      type: B
-      institution: University of Trento
-      yearFrom: 2024
-      yearTo: 2024
-    - personId: SilvanusBordignon
-      type: B 
-      institution: University of Trento
-      yearFrom: 2024
-      yearTo: 2024
-
-    - personId: MatteoBregola
-      thesisId: MatteoBregola_B
-      
-    - personId: SamueleBouveret
-      type: B
-      institution: University of Trento
-      yearFrom: 2024
-      yearTo: 2024
-
-    - personId: SimoneVigasio
-      thesisId: SimoneVigasio_B
-
-    - personId: StefanoDiSanto
-      thesisId: StefanoDiSanto_M
-
-    - personId: MatteoCaliandro
-      thesisId: MatteoCaliandro_M
+      thesisId: LorysMutti_M
 
     - personId: ClaudioFacchinetti
       thesisId: ClaudioFacchinetti_M
 
-    - personId: MartinaLanzi
-      thesisId: MartinaLanzi_M
-
     - personId: MatteoFranzil
       thesisId: MatteoFranzil_M
-
-    - personId: RiccardoMicheletto
-      thesisId: RiccardoMicheletto_M
-
-    - personId: ValentinoArmani
-      thesisId: ValentinoArmani_M
-
-    - personId: DavideTessarolo
-      thesisId: DavideTessarolo_M
-
-    - personId: AndreaFregonese
-      thesisId: AndreaFregonese_M
-
-    - personId: MarianAlexandruDiaconu
-      thesisId: MarianAlexandruDiaconu_M
-
-    - personId: RiccardoCapraro
-      thesisId: RiccardoCapraro_M
-
-    - personId: StefanoSetti
-      thesisId: StefanoSetti_M
