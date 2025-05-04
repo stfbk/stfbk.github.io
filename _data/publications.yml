@@ -2284,6 +2284,38 @@
   doi: 10.1145/3631971
 
 ## 2025
+ id: DBSEC2025
+  #id_iris:
+  title: "Secure and Reliable Digital Wallets: A Threat Model for Secure Storage in eIDAS 2.0"
+  authors:
+    - ZahraEbadiAnsaroudi
+    - AmirSharif
+    - GiadaSciarretta
+    - FrancescoAntonioMarino
+    - SilvioRanise
+  abstract: >
+    The revised eIDAS regulation (eIDAS 2.0) advocates a shift back to user control over digital credentials, introducing the European Digital Identity Wallet. This shift aims to enhance privacy by allowing citizens to disclose personal data in a controlled manner selectively. As the keys to which the credentials are bound must be stored securely, a secure storage mechanism is essential—one that is not only secure but also accessible through the available technology stack and compliant with eIDAS 2.0. In support of the European Digital Identity Wallet, the EU Commission published an Architecture and Reference Framework together with a set of Implementing Acts to ensure interoperable solutions. However, the current versions only identify a high-level set of requirements and do not provide insights on satisfying them through actionable implementations. Secure storage is a crucial aspect that remains inadequately addressed, highlighting the need for comprehensive security and privacy guidelines to ensure a robust solution. To address this gap, we provide a threat model explicitly designed for the secure storage component of the wallet. This allows for identifying potential threats and a set of effective controls to secure the implementations and serves as a practical tool to assist architects in making informed decisions when selecting an implementation that best meets their system’s security and privacy requirements. In addition, it reinforces essential assurance activities, such as certification, testing, and attestation required by the eIDAS 2.0 to maintain a trusted state for secure storage.
+  destination: DBSEC2025
+  year: 2025
+  urlNews: 
+  #doi:
+
+ id: ESORICS2025
+  #id_iris:
+  title: "Entity-based Risk Assessment: A European Digital Identity Wallet Use Case"
+  authors:
+    - MajidMollaeefar
+    - AmirSharif
+    - ZahraEbadiAnsaroudi
+    - GiadaSciarretta
+    - FrancescoAntonioMarino
+    - SilvioRanise
+  abstract: >
+     European digital identity wallets have emerged as user-centric solutions for securely storing and managing sensitive credentials in compliance with the revised regulation on electronic Identification, Authentication, and Trust Services (eIDAS 2.0). Despite their growing adoption, both eIDAS 2.0 and its accompanying Architecture Reference Framework fall short of providing a comprehensive risk assessment. While they identify a broad range of potential risks, they do not offer systematic methods for prioritizing the threats that have the greatest impact on users. In addition, existing risk assessment frameworks for digital identity wallets tend to focus solely on threat modeling without quantifying risk severity or assume a centralized control model by attributing mitigation responsibilities to a single entity in the ecosystem. In reality, effective risk mitigation in digital identity wallet ecosystems hinges on cross-entity collaboration. To address these limitations, we introduce DIWAR (Digital Identity Wallet Analysis and Risk Assessment), a control-based methodology that integrates DREAD factors with entity-specific control attribution and implementation-level granularity. DIWAR quantitatively scores threats based on the five DREAD factors and then prescribes targeted mitigations that align with the defined responsibilities of the entities within the ecosystem. Our approach supports both entity-specific and system-wide evaluations, enabling actionable prioritization of security and privacy controls under varying implementation scenarios. A case study of the Italian EUDI Wallet ecosystem demonstrates how DIWAR bridges theoretical risk modeling with operational decision-making, ultimately enhancing the resilience of digital identity wallet systems.
+  destination: ESORICS2025
+  year: 2025
+  #doi:
+  
 - id: JINS2025
   id_iris: 354507
   title: "Navigating secure storage requirements for EUDI Wallets: a review paper"
@@ -2328,21 +2360,7 @@
   #doi:
   urlNews: /news/2025/04/07/paper-accepted-at-iwpe-2025/
 
-  id: ESORICS2025
-  #id_iris:
-  title: "Entity-based Risk Assessment: A European Digital Identity Wallet Use Case"
-  authors:
-    - MajidMollaeefar
-    - AmirSharif
-    - ZahraEbadiAnsaroudi
-    - GiadaSciarretta
-    - FrancescoAntonioMarino
-    - SilvioRanise
-  abstract: >
-     European digital identity wallets have emerged as user-centric solutions for securely storing and managing sensitive credentials in compliance with the revised regulation on electronic Identification, Authentication, and Trust Services (eIDAS 2.0). Despite their growing adoption, both eIDAS 2.0 and its accompanying Architecture Reference Framework fall short of providing a comprehensive risk assessment. While they identify a broad range of potential risks, they do not offer systematic methods for prioritizing the threats that have the greatest impact on users. In addition, existing risk assessment frameworks for digital identity wallets tend to focus solely on threat modeling without quantifying risk severity or assume a centralized control model by attributing mitigation responsibilities to a single entity in the ecosystem. In reality, effective risk mitigation in digital identity wallet ecosystems hinges on cross-entity collaboration. To address these limitations, we introduce DIWAR (Digital Identity Wallet Analysis and Risk Assessment), a control-based methodology that integrates DREAD factors with entity-specific control attribution and implementation-level granularity. DIWAR quantitatively scores threats based on the five DREAD factors and then prescribes targeted mitigations that align with the defined responsibilities of the entities within the ecosystem. Our approach supports both entity-specific and system-wide evaluations, enabling actionable prioritization of security and privacy controls under varying implementation scenarios. A case study of the Italian EUDI Wallet ecosystem demonstrates how DIWAR bridges theoretical risk modeling with operational decision-making, ultimately enhancing the resilience of digital identity wallet systems.
-  destination: ESORICS2025
-  year: 2025
-  #doi:
+ 
   
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
