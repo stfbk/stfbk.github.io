@@ -13,6 +13,6 @@ people:
 peopleOrder: surname
 ---
 
-**Supplementary material** a comprehensive list of elements involved in our threat modeling of secure storage solutions, also referred to as WSCDs, within the EUDI Wallet ecosystem, along with references for each element are available [here](https://sites.google.com/fbk.eu/awscd-centricthreatmodeling).
+**Supplementary material** a comprehensive list of elements involved in our threat modeling of secure storage solutions, also referred to as WSCDs, within the EUDI Wallet ecosystem, along with references for each element are available [here](https://docs.google.com/spreadsheets/d/17harankDn-ZgkGtEMA1Qn7YoERgKFP_ln1gmARKEAyA/edit?usp=sharing).
 
 
