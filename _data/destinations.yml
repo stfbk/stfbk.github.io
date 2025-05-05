@@ -1204,6 +1204,13 @@
   startDate: "2025-06-30"
   endDate: "2025-06-30"
 
-
+- id: SECRYPT2025
+  name: 22nd International Conference on Security and Cryptography
+  acronym: SECRYPT 2025
+  url: https://secrypt.scitevents.org/?y=2025
+  type: conference
+  location: Bilbao, Spain
+  startDate: "2025-06-11"
+  endDate: "2025-06-13"
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)

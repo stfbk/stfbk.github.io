@@ -1,5 +1,5 @@
 ---
-title: Entity-based Risk Assessment 
+title: Multi-entity Control-based Risk Assessment 
 subtitle: A European Digital Identity Wallet Use Case
 paper: ESORICS2025
 
