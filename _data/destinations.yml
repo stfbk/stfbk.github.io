@@ -1168,6 +1168,15 @@
   endDate: "2024-07-10"
 
 ## 2025
+- id: DBSEC2025
+  name: Conference on Data and Applications Security and Privacy
+  acronym: DBSEC 2025
+  url: https://www.ntnu.edu/web/dbsec2025/
+  type: conference
+  location: Gjøvik, Norway
+  startDate: "2023-06-23"
+  endDate: "2023-06-25"
+
 - id: ESORICS2025
   name: European Symposium on Research in Computer Security
   acronym: ESORICS 2025

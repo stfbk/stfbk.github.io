@@ -2284,7 +2284,23 @@
   doi: 10.1145/3631971
 
 ## 2025
-  id: ESORICS2025
+- id: DBSEC2025
+  id_iris:
+  title: "Secure and Reliable Digital Wallets: A Threat Model for Secure Storage in eIDAS 2.0"
+  authors:
+    - ZahraEbadiAnsaroudi
+    - AmirSharif
+    - GiadaSciarretta
+    - FrancescoAntonioMarino
+    - SilvioRanise
+  abstract: >
+    The revised eIDAS regulation (eIDAS 2.0) advocates a shift back to user control over digital credentials, introducing the European Digital Identity Wallet. This shift aims to enhance privacy by allowing citizens to disclose personal data in a controlled manner selectively. As the keys to which the credentials are bound must be stored securely, a secure storage mechanism is essential—one that is not only secure but also accessible through the available technology stack and compliant with eIDAS 2.0. In support of the European Digital Identity Wallet, the EU Commission published an Architecture and Reference Framework together with a set of Implementing Acts to ensure interoperable solutions. However, the current versions only identify a high-level set of requirements and do not provide insights on satisfying them through actionable implementations. Secure storage is a crucial aspect that remains inadequately addressed, highlighting the need for comprehensive security and privacy guidelines to ensure a robust solution. To address this gap, we provide a threat model explicitly designed for the secure storage component of the wallet. This allows for identifying potential threats and a set of effective controls to secure the implementations and serves as a practical tool to assist architects in making informed decisions when selecting an implementation that best meets their system’s security and privacy requirements. In addition, it reinforces essential assurance activities, such as certification, testing, and attestation required by the eIDAS 2.0 to maintain a trusted state for secure storage.
+  destination: DBSEC2025
+  year: 2025
+  urlNews: 
+  doi:
+
+- id: ESORICS2025
   id_iris:
   title: "Multi-entity Control-based Risk Assessment: A European Digital Identity Wallet Use Case"
   authors:
