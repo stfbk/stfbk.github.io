@@ -12,6 +12,8 @@ image: /assets/areas/events/SeRIM2025/serim2025.jpg
 </blockquote>
 
 # Recent News
+- **07/05/2025**: The [tentative program](program) has been published.
+- **07/05/2025**: The [registration](registration) and [venue](venue) information has been published.
 - **08/01/2025**: The website is online.
 
 # Overview
