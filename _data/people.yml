@@ -657,6 +657,16 @@
   email: mariano.ceccato@univr.it
   image: https://www.di.univr.it/documenti/Persona/foto/foto347921.jpg
 
+- id: MarioRaciti
+  name: Mario
+  surname: Raciti
+  affiliations:
+    - role: Visiting PhD Student
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: mraciti@fbk.eu
+
 - id: MarioScuro
   name: Mario
   surname: Scuro
