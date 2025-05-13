@@ -13,7 +13,6 @@ tools:
 publications: 
     - iris_2020_3de554176570db423bcd
     - iris_2022_d59e797b27217caa5885
-    - iris_2022_900d5b02342126bdf58d
     - iris_2024_6afeb7e1ba60f98f9a03
     - iris_2024_fee49bf2be68feb1ebf4
 
