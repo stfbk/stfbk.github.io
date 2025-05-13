@@ -15,9 +15,8 @@ infrastructure monitoring and control, as well as on resource and service orches
 The unit pursues its research and development activities in the
 following areas:
 
-- **AI-driven Threat and Anomaly Detection**: monitoring network and
-  computing devices (through e.g. programmable data planes) to detect
-  attacks using AI-based methods)
+- **AI-driven Threat and Anomaly Detection**: AI methods for detecting cyber threats and network/system anomalies that are robust to open-world challenges such as adversarial machine learning attacks and concept drift 
+- **Efficient network and system monitoring**: monitoring network and computing devices through programmable data planes) 
 - **Privacy-preserving training of AI-based threat detection methods**: distributed training of AI-based Intrusion and Anomaly detection systems with no sharing of private data in plain text
 - **Service and Security Orchestration**: automated networking and cloud
   computing solutions to effectively manage business and security
