@@ -14,7 +14,7 @@ FLAD (a Federated Learning approach to DDoS Attack Detection) is an adaptive Fed
 
 More details on the architecture of FLAD and its performance in terms of detection accuracy and execution time are available in the following research paper:
 
-`R. Doriguzzi-Corin and D. Siracusa, "FLAD: Adaptive Federated Learning for DDoS Attack Detection," in arXiv preprint arXiv:2205.06661, doi: 10.48550/arXiv.2205.06661, 2022.`
+`Doriguzzi-Corin, Roberto, and Domenico Siracusa. "FLAD: adaptive federated learning for DDoS attack detection." Computers & Security 137 (2024): 103597.DOI: https://doi.org/10.1016/j.cose.2023.103597`
 
 You may find the preprint of the paper in the [arXiv repository](https://arxiv.org/abs/2205.06661).
 

@@ -1,5 +1,5 @@
 ---
-title: Threat and Anomaly Detection and Mitigation
+title: Threat and Anomaly Detection
 subtitle: 
 type: topic
 topicUrl: /topics/ThreatDetection
@@ -31,9 +31,9 @@ systems, automotive, healthcare systems and many others.
 
 **Our focus:**
 
-- Monitoring of network and computing devices through software-defined
-  networks and programmable data planes (e.g. eBPF, P4)
 - Design and development of AI-based threat and anomaly detection
   algorithms
+- Monitoring of network and computing devices through software-defined
+  networks and programmable data planes (e.g. eBPF, P4)
 - Analysis of the effectiveness of the monitoring-detection-mitigation
   pipeline
