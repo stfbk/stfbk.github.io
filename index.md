@@ -8,30 +8,22 @@ heroImageRight: /assets/images/logos/CS_white.png
 
 ## Who we are
 
-The Distributed AI for dependable cyberSecuritY (DAISY) research unit
-focuses on the investigation of methods and the design and
-implementation of platforms that guarantee efficiency, robustness and
-security in distributed computing environments.
-
-Our research on security on cloud and network infrastructure revolves
-around offering adaptive and zero-trust defense to cloud-native
-services, with special emphasis on striking the right balance between
-minimizing security risks and maintaining the perceived service quality
-for distributed applications. We have a long-standing experience on
-infrastructure monitoring and control, as well as on resource and
-service orchestration.
+The *Distributed AI for dependable cyberSecuritY (DAISY)* research unit
+focuses on developing novel AI‑driven methods for cyber threat detection in distributed computing environments, with a particular emphasis on open-world challenges and the trade-off between minimizing cybersecurity risks and preserving perceived service quality in distributed applications. We have a long-standing experience on
+infrastructure monitoring and control, as well as on resource and service orchestration.
 
 The unit pursues its research and development activities in the
 following areas:
 
-- Threat and Anomaly Detection and Mitigation: monitoring network and
+- **AI-driven Threat and Anomaly Detection**: monitoring network and
   computing devices (through e.g. programmable data planes) to detect
-  attacks (using AI or statistical methods) and counteract them
-- Cyber Deception: algorithms and tools to lure attackers into decoys
-  to gain insights on their behavior
-- Service and Security Orchestration: automated networking and cloud
+  attacks using AI-based methods)
+- **Privacy-preserving training of AI-based threat detection methods**: distributed training of AI-based Intrusion and Anomaly detection systems with no sharing of private data in plain text
+- **Service and Security Orchestration**: automated networking and cloud
   computing solutions to effectively manage business and security
   applications
+- **Cyber Deception**: algorithms and tools to lure attackers into decoys
+  to gain insights on their behaviour
 
 The DAISY unit lies within the [Cybersecurity center](https://cs.fbk.eu/) in [Fondazione Bruno Kessler](https://www.fbk.eu) (FBK).
 
