@@ -41,6 +41,7 @@
 
 - id: CS4EU
   title: CyberSec4Europe
+  titleAddon: Working together to boost the security of all citizens of the European Union in their everyday digital transactions
   url: /projects/CS4EU
   logo: CSfE.png
   startDate: "2019-02-01"
@@ -69,28 +70,12 @@
   title: TOSHI
   titleAddon: Total System Shield
   url: /projects/TOSHI
+  logo: TOSHI.png
   startDate: "2020-01-01"
   endDate: "2020-12-31"
   partners:
     - Telefonica
     - name: Innovalia
-
-- id: RAML
-  title: RAML
-  titleAddon: Raman Amplification via Machine Learning
-  url: /projects/RAML
-  startDate: "2020-01-01"
-  endDate: "2020-07-31"
-  partners:
-    - Cisco
-
-- id: EnergIA
-  title: EnergIA!
-  url: /projects/EnergIA
-  startDate: "2018-12-01"
-  endDate: "2020-03-01"
-  partners:
-    - Energenius
 
 - id: DECENTER
   title: DECENTER
