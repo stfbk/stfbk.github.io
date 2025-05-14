@@ -1,8 +1,17 @@
 - id: SERICS
   title: SERICS
-  titleAddon: SecCo (Secure Containers) project
+  titleAddon: Secure Containers
   url: /projects/SERICS
   startDate: "2023-01-01"
+  partners:
+    - name: Universita' di Genova
+    - name: Consiglio Nazionale delle Ricerche
+    - name: Universita' di Messina
+    - name: Universita' di Salerno
+    - name: Universita' di Udine
+    - name: Università della Campania
+    - name: Universita' di Trento
+
 
 - id: FLUIDOS
   title: FLUIDOS
