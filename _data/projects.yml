@@ -1,7 +1,8 @@
 - id: SERICS
-  title: SERICS
+  title: SERICS - SecCo
   titleAddon: Secure Containers
   url: /projects/SERICS
+  logo: SERICS.png
   startDate: "2023-01-01"
   partners:
     - name: Universita' di Genova
@@ -22,6 +23,13 @@
   partners:
     - name: Energenius
     - name: Ape Servizi
+
+- id: IPCEI-CIS
+  title: IPCEI-CIS
+  titleAddon: Important Project of Common European Interest on Next Generation Cloud Infrastructure and Services (IPCEI-CIS)
+  url: /projects/IPCEI
+  logo: IPCEI.png
+  startDate: "2025-05-02"
 
 
 - id: FLUIDOS
