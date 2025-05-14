@@ -13,6 +13,17 @@
     - name: Universita' di Trento
 
 
+- id: HERO
+  title: HERO
+  titleAddon: Heating and cooling Energy Real-time Optimisation
+  url: /projects/HERO
+  logo: HERO.png
+  startDate: "2025-03-06"
+  partners:
+    - name: Energenius
+    - name: Ape Servizi
+
+
 - id: FLUIDOS
   title: FLUIDOS
   titleAddon: Flexible, scaLable and secUre decentralIzeD Operating System
