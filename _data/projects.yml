@@ -18,12 +18,12 @@
       url: https://www.um.es/
     - name: Ricerca sul Sistema Energetico - RSE
       url: https://www.rse-web.it/
-    - Robotnik
-    - PoliTO
+    - name: Robotnik
+    - name: Politecnico di Torino
     - name: European Digital SME Alliance
       url: http://www.pinsme.eu/
-    - IBM
-    - Telefonica
+    - name: IBM
+    - name: Telefonica
     - name: TOPIX - Torino and Piemonte Internet eXchange
       url: https://www.top-ix.org/en
     - name: Borderstep Institut
@@ -74,8 +74,10 @@
   startDate: "2020-01-01"
   endDate: "2020-12-31"
   partners:
-    - Telefonica
+    - name: Telefonica
     - name: Innovalia
+    - name: Politecnico di Torino
+    - name: Universidad Politecnica de Madrid
 
 - id: DECENTER
   title: DECENTER
@@ -85,8 +87,8 @@
   startDate: "2018-07-01"
   endDate: "2021-06-31"
   partners:
-    - Atos
-    - Robotnik
+    - name: Atos
+    - name: Robotnik
     - name: Univerza v Ljubljani
       url: http://www.uni-lj.si/
     - name: KentYou
