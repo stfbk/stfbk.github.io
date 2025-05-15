@@ -1,5 +1,5 @@
 ---
-title: Threat and Anomaly Detection
+title: Dependable AI-driven Threat and Anomaly Detection
 subtitle: 
 type: topic
 topicUrl: /topics/ThreatDetection
@@ -23,17 +23,15 @@ and networks from potential risks and are essential components of a
 robust cybersecurity strategy. Threat detection involves identifying and
 recognising potential cyber threats such as malware, hacking attempts,
 or other malicious activities that can compromise the security and
-integrirty of computer systems, networks, or data. Anomaly detection, on
+integrity of computer systems, networks, or data. Anomaly detection, on
 the other hand, focuses on discovering abnormal or unusual patterns in
-data that deviate significantly from the expected behavior. Applications
-fiels include networks and cloud infrastructure, industrial control
-systems, automotive, healthcare systems and many others.
+data that deviate significantly from the expected behaviour. 
+
+
 
 **Our focus:**
+- Dependable AI-driven threat and anomaly detection focussing on the following challenges:
+  - trade-off between resource-efficient and accurate detection of threats and anomalies
+  - robustness to open-world challenges such as adversarial machine learning attacks and concept drift
+- Enhanced Federated Learning for higher accuracy, lower resource overhead and enhanced confidentiality
 
-- Design and development of AI-based threat and anomaly detection
-  algorithms
-- Monitoring of network and computing devices through software-defined
-  networks and programmable data planes (e.g. eBPF, P4)
-- Analysis of the effectiveness of the monitoring-detection-mitigation
-  pipeline
