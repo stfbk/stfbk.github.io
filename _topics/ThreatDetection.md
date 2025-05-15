@@ -25,7 +25,11 @@ recognising potential cyber threats such as malware, hacking attempts,
 or other malicious activities that can compromise the security and
 integrity of computer systems, networks, or data. Anomaly detection, on
 the other hand, focuses on discovering abnormal or unusual patterns in
-data that deviate significantly from the expected behaviour. 
+data that deviate significantly from the expected behaviour.
+
+Areas of applications include:
+- **Smart industry**: Industrial Control Systems are the target of cyberattacks and are subject to anomalies due to hw/sw failures and concept-drift
+- **Smart cities**: Smart cities, smart homes, connected vehicles, health care devices/applications etc., are all common target of cyberattacks and are subject to anomalies due to hw/sw failures
 
 
 
@@ -33,5 +37,5 @@ data that deviate significantly from the expected behaviour.
 - Dependable AI-driven threat and anomaly detection focussing on the following challenges:
   - trade-off between resource-efficient and accurate detection of threats and anomalies
   - robustness to open-world challenges such as adversarial machine learning attacks and concept drift
-- Enhanced Federated Learning for higher accuracy, lower resource overhead and enhanced confidentiality
+- Enhanced Federated Learning for higher accuracy, lower resource overhead and enhanced data confidentiality
 
