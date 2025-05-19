@@ -578,6 +578,11 @@
   name: Lorenzo
   surname: Tait
 
+- id: LorenzoZarantonello
+  name: Lorenzo
+  surname: Zarantonello
+  usernameFBK: lzarantonello
+
 - id: LucaBazzanella
   name: Luca
   surname: Bazzanella
@@ -752,6 +757,11 @@
 - id: MattiaConci
   name: Mattia
   surname: Conci
+
+- id: MattiaMaramotti
+  name: Mattia
+  surname: Maramotti
+  usernameFBK: mmaramotti
   
 - id: MauroConti
   name: Mauro
@@ -1136,6 +1146,11 @@
 - id: ZahraEbadiAnsaroudi
   name: Zahra
   surname: Ebadi Ansaroudi
+  affiliations:
+    - role: Researcher
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
   email: zebadiansaroudi@fbk.eu
 
 # Please keep alphabetical order

@@ -22,24 +22,11 @@ current:
     - SimoneBrunello
     - TahirAhmad
     - UmbertoMorelli
+    - ZahraEbadiAnsaroudi
 
   collaborators:
       
   students:
-    - personId: AgnieszkaKowalska
-      type: B
-      topic: Automatic Security Testing Tool for Identity Management Protocols
-      institution: University of Trento
-      yearFrom: 2024
-      yearTo: 2024
-
-    - personId: GiuseppeAlessioSciumè
-      type: M
-      topic: 
-      institution: University of Trento
-      yearFrom: 2024
-      yearTo: 2024
-
     - personId: AndreaBissoli
       type: B
       topic: Enhancing Privacy Threat Modeling with Large Language Models
@@ -64,6 +51,20 @@ current:
     - personId: NizarNadif
       type: B
       topic: Context-free grammar for TLS validation
+      institution: University of Trento
+      yearFrom: 2025
+      yearTo: 2025
+
+    - personId: MattiaMaramotti
+      type: B
+      topic: Automatic Security Testing Tool for Identity Management Protocols
+      institution: University of Trento
+      yearFrom: 2025
+      yearTo: 2025
+
+    - personId: LorenzoZarantonello
+      type: B
+      topic: Automatic Security Testing Tool for Identity Management Protocols
       institution: University of Trento
       yearFrom: 2025
       yearTo: 2025
@@ -155,11 +156,6 @@ former:
 
     - personId: AlessandroTomasi
       formerRole: Researcher
-      yearTo: 2023
-
-    - personId: ZahraEbadiAnsaroudi
-      formerRole: Researcher
-      yearFrom: 2021
       yearTo: 2023
 
     - personId: RiccardoLussana
@@ -379,7 +375,9 @@ former:
       thesisId: EnricoMarconi_B
 
     - personId: GiuseppeAlessioSciumè
-      thesisId: GiuseppeAlessioSciumè_B
+      thesisId:
+        - GiuseppeAlessioSciumè_B
+        - GiuseppeAlessioSciumè_M
 
     - personId: MicheleZucchelli
       thesisId: MicheleZucchelli_B
@@ -458,6 +456,13 @@ former:
 
     - personId: RobertoSavi
       thesisId: RobertoSavi_B
+
+    - personId: AgnieszkaKowalska
+      type: B
+      topic: Automatic Security Testing Tool for Identity Management Protocols
+      institution: University of Trento
+      yearFrom: 2023
+      yearTo: 2024
 
   junior:
     - personId: YuriTomasini
