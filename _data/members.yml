@@ -55,6 +55,13 @@ current:
       yearFrom: 2025
       yearTo: 2025
 
+    - personId: DanieleCalvo
+      type: B
+      topic: Threat Modeling by Leveraging Agentic AI
+      institution: University of Trento
+      yearFrom: 2025
+      yearTo: 2025
+
     - personId: MattiaMaramotti
       type: B
       topic: Automatic Security Testing Tool for Identity Management Protocols

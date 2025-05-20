@@ -260,6 +260,11 @@
   name: Daniela
   surname: Pöhn
 
+- id: DanieleCalvo
+  name: Daniele
+  surname: Calvo
+  usernameFBK: dcalvo
+
 - id: DanieleDelSale
   name: Daniele
   surname: Del Sale
