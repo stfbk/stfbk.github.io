@@ -2,7 +2,7 @@
 title: DAISY - Distributed AI for dependable cyberSecuritY
 subtitle: Research Unit in Fondazione Bruno Kessler
 layout: page
-heroImageLeft: /assets/images/logos/DAISY_white.png
+heroImageLeft: /assets/images/logos/DAISY_logo_white.png
 heroImageRight: /assets/images/logos/CS_white.png
 ---
 
