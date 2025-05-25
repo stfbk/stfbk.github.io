@@ -1,4 +1,15 @@
-- id: LorysMutti_M
+- id: MarcoZani_B
+  author: MarcoZani
+  type: B
+  institution: University of Trento
+  year: 2025
+  title: "LogGraphModel - Improving log visualization in Kubernetes"
+  supervisor: DomenicoSiracusa
+  co-supervisor:
+    - MatteoFranzil
+    - LuisAugustoDiasKnob
+
+- id: LorysMutti_B
   author: LorysMutti
   type: B
   institution: University of Trento
