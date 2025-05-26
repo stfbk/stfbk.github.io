@@ -67,6 +67,7 @@ images:
 </blockquote>
 
 # Recent News
+- **XX/XX/2025**: The [proceedings](https://ceur-ws.org/Vol-3968/) have been published.
 - **04/02/2025**: [Speakers' slides](program) are now available.
 - **16/01/2025**: The workshop will be held in **Room E**.
 - **15/01/2025**: The [tentative program](program) has been published.
