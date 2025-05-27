@@ -9,8 +9,7 @@ heroImageRight: /assets/images/logos/CS_white.png
 ## Who we are
 
 The *Distributed AI for dependable cyberSecuritY (DAISY)* research unit
-focuses on developing novel AI‑driven methods for cyber threat detection in distributed computing environments, with a particular emphasis on open-world challenges and the trade-off between minimizing cybersecurity risks and preserving perceived service quality in distributed applications. We have a long-standing experience on
-infrastructure monitoring and control, as well as on resource and service orchestration.
+focuses on developing novel AI‑driven methods for cyber threat detection in distributed computing environments, with a particular emphasis on open-world challenges and the trade-off between minimizing cybersecurity risks and preserving perceived service quality in distributed applications. 
 
 The unit pursues its research and development activities in the
 following areas:
