@@ -13,7 +13,7 @@ menubar: SeRIM2025
   <tr class="day">
     <td colspan="2">
       Friday, July 4, 2025
-      <!--<p class="location">X Y Z</p>-->
+      <p class="location">Room 8B</p>
     </td>
   </tr>
 
