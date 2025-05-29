@@ -72,3 +72,9 @@
   description: A fully-featured tool that combines state-of-the-art TLS analyzers with a report system that suggests appropriate mitigations and shows the full set of viable attacks.
   urlCode: https://github.com/stfbk/tlsassistant
   urlDocumentation: /tools/TLSAssistant
+
+- id: PILLAR
+  name: PILLAR (Privacy risk Identification with LINDDUN and LLM Analysis Report)
+  description: PILLAR is a privacy threat modeling assistant that brings the power of large language models (LLMs) to the established LINDDUN framework. Simply feed PILLAR a natural-language system description, and it will transform it into comprehensive threat models with limited input from users. It provides three variants of LINDDUN threat modeling: SIMPLE, LINDDUN GO (by simulating multi-agent collaboration in a virtual threat modeling workshop), and PRO.
+  urlCode: https://github.com/stfbk/PILLAR
+  urlDocumentation: /tools/PILLAR
