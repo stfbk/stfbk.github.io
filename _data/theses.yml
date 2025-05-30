@@ -1013,3 +1013,15 @@
     - MajidMollaeefar
   year: 2024
   institution: University of Trento
+
+  # 2025
+- id: GiuseppeAlessioSciumè_M
+  title: "An LLM Based Approach to the Automated Generation and Validation of Security Tests for National Digital Identity Solutions: The Case of SPID and CIE"
+  type: B
+  author: GiuseppeAlessioSciumè
+  supervisor: SilvioRanise
+  co-supervisor:
+    - RobertoCarbone
+    - AndreaBisegna
+  year: 2025
+  institution: University of Trento

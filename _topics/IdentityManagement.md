@@ -38,6 +38,7 @@ publications:
     - ECML/PKDD2023_W
     - JINS2025
     - IWBF2025
+    - SECRYPT2025
 
 theses:
     - DamianoSartori_B
