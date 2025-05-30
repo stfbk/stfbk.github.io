@@ -1,14 +1,13 @@
 ---
 title: PILLAR                         
-subtitle:                       
+subtitle: Privacy risk Identification with LINDDUN and LLM Analysis Report
 
-people:                        
+people:
     - AndreaBissoli
     - MajidMollaeefar
     - SilvioRanise
 
-peopleOrder: surname            
-
+peopleOrder: surname
 
 publications:
     - IWPE2025
