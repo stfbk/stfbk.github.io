@@ -13,10 +13,10 @@
   description: FLAD (a Federated Learning approach to DDoS Attack Detection) is an adaptive Federated Learning (FL) approach for training feed-forward neural networks, that implements a mechanism to monitor the classification accuracy of the global model on the clients' validations sets, without requiring any exchange of data.
   urlDocumentation: /tools/FLAD
 
-- id: FogAtlas
-  name: "FogAtlas: Driving Applications through the Fog"
-  description: FogAtlas (evolution of the former Foggy platform) is a software framework aiming to manage a geographically distributed and decentralized Cloud Computing infrastructure that provides computational, storage and network services close to the data sources and the users, embracing the Fog Computing paradigm.
-  urlDocumentation: /tools/FogAtlas
+- id: kubeDelphi
+  name: "kubeDelphi: a Modular Framework for Intelligent Workload Placement and Rescheduling in Kubernetes"
+  description: kubeDelphi is an evolution of Kubernetes based on an advanced workload scheduling system, which is designed to optimize workload placement and rescheduling in cloud-native environments. 
+  urlDocumentation: /tools/kubeDelphi
 
 - id: PESS
   name: "PESS: Progressive Embedding of Security Services"

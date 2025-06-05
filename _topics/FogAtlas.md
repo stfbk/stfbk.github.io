@@ -1,7 +1,7 @@
 ---
 title: FogAtlas
 subtitle: 
-type: spotlight 
+type:  
 topicUrl: /tools/FogAtlas
 image: FogAtlas.png
 order: 5
