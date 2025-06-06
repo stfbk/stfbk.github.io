@@ -15,7 +15,7 @@
 
 - id: kubeDelphi
   name: "kubeDelphi: a Modular Framework for Intelligent Workload Placement and Rescheduling in Kubernetes"
-  description: kubeDelphi is an evolution of Kubernetes based on an advanced workload scheduling system, which is designed to optimize workload placement and rescheduling in cloud-native environments. 
+  description: kubeDelphi is an extension of Kubernetes based on an advanced workload scheduling system, which is designed to optimize workload placement and rescheduling in cloud-native environments.
   urlDocumentation: /tools/kubeDelphi
 
 - id: PESS
