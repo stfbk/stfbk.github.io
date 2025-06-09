@@ -240,7 +240,7 @@ Each wrapper module includes a caching mechanism. Because it is unlikely that an
 
 As stated before, a pre-analysis (step 3a) is required as a compromise between atomicity, efficiency, and execution speed. Because the testssl startup time is roughly 3 seconds, we need to limit the number of times the tool is called. To do this, the core will determine if the module being run is utilizing testssl.sh as a wrapper, and if so, it will get all testssl-related arguments. Following this, the core will fill the testssl wrapper cache, which will be executed once the analysis is complete.
 
-# Demo video
+# Features showcase
 <div class="h_iframe">
-    <iframe src="https://drive.google.com/file/d/1ejI6QGQ3A9trs0U4ce8aprLVeDYrK5H-/preview"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=Vgzy2dDMeHfMrJ6p&amp;list=PLLCelDM1fnkKnKr3qle1FukK90gIwoZHX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
