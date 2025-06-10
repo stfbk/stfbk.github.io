@@ -1,6 +1,5 @@
 ---
 person: HenriqueBeckerBrum 
----
 
 links:
   - name: GitHub
