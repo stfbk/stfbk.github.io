@@ -1186,6 +1186,15 @@
   startDate: "2023-09-22"
   endDate: "2023-09-26"
 
+- id: ESPRE2025
+  name: 12th International Workshop on Evolving Security & Privacy Requirements Engineering
+  acronym: ESPRE 2025
+  url: https://cybersecurity.bournemouth.ac.uk/espre2025/
+  type: workshop
+  location: Valencia, Spain
+  startDate: "2023-09-01"
+  endDate: "2023-09-05"
+
 - id: IWBF2025
   name: 13th International Workshop on Biometrics and Forensics
   acronym: IWBF 2025

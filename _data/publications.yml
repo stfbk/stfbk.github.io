@@ -2316,6 +2316,25 @@
   year: 2025
   doi:
 
+- id: ESPRE2025
+  id_iris:
+  title: "A First Appraisal of Leveraging Open Source Security Tools for NIS2 and CRA Compliance"
+  authors:
+    - GiovanniCorti
+    - GianlucaSassetti
+    - AmirSharif
+    - SerenaPonta
+    - LucaPiras
+    - PietroDeMatties
+    - MatteoRizzi
+    - RobertoCarbone
+    - SilvioRanise
+  abstract: >
+     The increased sophistication and complexity of modern software development poses a significant challenge to software supply chain risk management. Modern software is characterized by intricate dependency trees and increased scale. As a result, the software supply chain attack surface has also increased together with the number of reported disruptions. These attacks aim at destabilizing entire supply chains by compromising individual components in open source software, thereby triggering cascading disruptions. In response, several governance and regulatory efforts for ensuring software supply chain security have been made. At the European Union level, the recent introduction of Network and Information Security Directive 2 (NIS2), and Cyber Resilience Act (CRA) aims to establish robust cybersecurity requirements for organizations and products, including the secure development and importing of software products in the European market. However, translating verbatim requirements into actionable technical implementations for secure software development presents a complex and time consuming challenge for practitioners. This paper addresses this gap by leveraging the functionality of a selected number of open source tools to partially automate and simplify compliance with a number of requirements extracted from NIS2, and CRA. We identify key software supply chain security requirements in the two legislation and map them to relevant open source tools capable of partially automating compliance tasks. Additionally, we propose an easily-replicable, automated pipeline also implementable as GitHub workflows which allows to simplify compliance, thereby supporting practitioners and organizations in their NIS2, and CRA compliance efforts.
+  destination: ESPRE2025
+  year: 2025
+  doi:
+
 - id: IWBF2025
   id_iris:
   title: "Spotting tell-tale visual artifacts in face swapping videos: strengths and pitfalls of CNN detectors"
