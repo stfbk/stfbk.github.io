@@ -13,7 +13,7 @@ menubar: SeRIM2025
   <tr class="day">
     <td colspan="2">
       Friday, July 4, 2025
-      <!--<p class="location">X Y Z</p>-->
+      <p class="location">Room 8B</p>
     </td>
   </tr>
 
@@ -45,13 +45,6 @@ menubar: SeRIM2025
     <td>9:15-10:15</td>
   </tr>
 
-  <tr class="recreational">
-    <td>
-      Coffee Break
-    </td>
-    <td>10:15-10:45</td>
-  </tr>
-
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 2: Regular Papers</p>
@@ -62,21 +55,29 @@ menubar: SeRIM2025
       <p class="title">Decentralised Supply Chain Reputation: A Privacy and Self-Sovereign Identity Perspective</p>
       <p class="speakers">Abubakar-Sadiq Shehu and Steve Schneider (University of Surrey)</p>
     </td>
-    <td>10:45-11:05</td>
+    <td>10:15-10:35</td>
   </tr>
   <tr>
     <td class="talk">
       <p class="title">Identity Threats and Where to Find Them: Mapping ITDR and MITRE ATT&CK</p>
       <p class="speakers">Vitali Serzantov, Erwin Kupris and Thomas Schreck (Munich University of Applied Sciences)</p>
     </td>
-    <td>11:05-11:25</td>
+    <td>10:35-10:55</td>
   </tr>
+
+  <tr class="recreational">
+    <td>
+      Coffee Break
+    </td>
+    <td>11:00-11:30</td>
+  </tr>
+
   <tr>
     <td class="talk">
       <p class="title">Replication Study: Cross-Country Evaluation of the Recognition-Based Graphical Authentication Scheme in AR and VR Environments</p>
       <p class="speakers">Naheem Noah (University of Denver), Peter Mayer (University of Southern Denmark) and Sanchari Das (George Mason University)</p>
     </td>
-    <td>11:25-11:45</td>
+    <td>11:30-11:50</td>
   </tr>
 
   <tr class="session">
@@ -89,27 +90,27 @@ menubar: SeRIM2025
       <p class="title">Security Requirements Classification by Means of Explainable Transformer Models</p>
       <p class="authors">Luca Petrillo (IMT Lucca and IIT-CNR), Fabio Martinelli (ICAR-CNR), Antonella Santone (University of Molise) and Francesco Mercaldo (University of Molise and IIT-CNR)</p>
     </td>
-    <td>11:45-12:00</td>
+    <td>11:50-12:05</td>
   </tr>
   <tr>
     <td class="paper">
       <p class="title">Towards Privacy-Preserving Revocation of Verifiable Credentials with Time-Flexibility</p>
       <p class="authors">Francesco Buccafurri and Carmen Licciardi (University Mediterranea of Reggio Calabria)</p>
     </td>
-    <td>12:00-12:15</td>
+    <td>12:05-12:20</td>
   </tr>
 
   <tr class="institutional">
     <td>
       Closing Remarks
     </td>
-    <td>12:15-12:30</td>
+    <td>12:20-12:30</td>
   </tr>
 
   <tr class="recreational">
     <td>
       Lunch
     </td>
-    <td>12:30-14:00</td>
+    <td>13:00-14:00</td>
   </tr>
 </table>

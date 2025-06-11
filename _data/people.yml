@@ -260,6 +260,11 @@
   name: Daniela
   surname: Pöhn
 
+- id: DanieleCalvo
+  name: Daniele
+  surname: Calvo
+  usernameFBK: dcalvo
+
 - id: DanieleDelSale
   name: Daniele
   surname: Del Sale
@@ -578,6 +583,11 @@
   name: Lorenzo
   surname: Tait
 
+- id: LorenzoZarantonello
+  name: Lorenzo
+  surname: Zarantonello
+  usernameFBK: lzarantonello
+
 - id: LucaBazzanella
   name: Luca
   surname: Bazzanella
@@ -656,6 +666,16 @@
   surname: Ceccato
   email: mariano.ceccato@univr.it
   image: https://www.di.univr.it/documenti/Persona/foto/foto347921.jpg
+
+- id: MarioRaciti
+  name: Mario
+  surname: Raciti
+  affiliations:
+    - role: Visiting PhD Student
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: mraciti@fbk.eu
 
 - id: MarioScuro
   name: Mario
@@ -742,6 +762,11 @@
 - id: MattiaConci
   name: Mattia
   surname: Conci
+
+- id: MattiaMaramotti
+  name: Mattia
+  surname: Maramotti
+  usernameFBK: mmaramotti
   
 - id: MauroConti
   name: Mauro
@@ -1126,6 +1151,11 @@
 - id: ZahraEbadiAnsaroudi
   name: Zahra
   surname: Ebadi Ansaroudi
+  affiliations:
+    - role: Researcher
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
   email: zebadiansaroudi@fbk.eu
 
 # Please keep alphabetical order
