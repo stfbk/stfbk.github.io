@@ -184,6 +184,7 @@
   name: Marcelo Darío
   surname: Rodas Britez
   email: mrodasbritez@fbk.eu
+  iris_id: rp28217
   affiliations:
     - role: Researcher
       unit: Distributed AI for dependable cyberSecuritY
@@ -570,6 +571,10 @@
   name:  Alessandro
   surname: Lieto
 
+- id: AlethiaHume
+  name:  Alethia
+  surname: Hume
+
 - id: AlexanderWillner
   name:  Alexander
   surname: Willner
@@ -582,6 +587,18 @@
   name:  Ali Saman
   surname: Tosun
 
+- id: AltangerelChagnaa
+  name:  Altangerel
+  surname: Chagnaa
+
+- id: AmaliadeGotzen
+  name:  Amalia
+  surname: de Götzen
+
+- id: AmarsanaaGanbold
+  name:  Amarsanaa
+  surname: Ganbold
+
 - id: AmbrishRawat
   name:  Ambrish
   surname: Rawat
@@ -589,6 +606,14 @@
 - id: AmyL.Murphy
   name:  Amy L.
   surname: Murphy
+
+- id: Andrea-RebecaMendoza-Lara
+  name:  Andrea Rebeca
+  surname: Mendoza-Lara
+
+- id: AndreaBontempelli
+  name:  Andrea
+  surname: Bontempelli
 
 - id: AndreaColli-Vignarelli
   name:  Andrea
@@ -706,9 +731,17 @@
   name:  Caballero
   surname: Antonio
 
+- id: CanGunel
+  name:  Can
+  surname: Günel
+
 - id: CarlaFabianaChiasserini
   name:  Carla Fabiana
   surname: Chiasserini
+
+- id: CarloCaprini
+  name:  Carlo
+  surname: Caprini
 
 - id: CarloalbertoTorghele
   name:  Carloalberto
@@ -717,6 +750,10 @@
 - id: CarlosHenriqueKayser
   name:  Carlos
   surname: Henrique Kayser
+
+- id: ChaitanyaNutakki
+  name:  Chaitanya
+  surname: Nutakki
 
 - id: ChamaniaMohit
   name:  Chamania
@@ -794,6 +831,10 @@
   name:  Daniel
   surname: Depaoli
 
+- id: DanielGatica-Perez
+  name:  Daniel
+  surname: Gatica-Perez
+
 - id: DanielZozin
   name:  Daniel
   surname: Zozin
@@ -825,6 +866,10 @@
 - id: DomenicoLaFauci
   name:  Domenico
   surname: La Fauci
+
+- id: DongleiSong
+  name:  Donglei
+  surname: Song
 
 - id: E.Grasa
   name:  E.
@@ -905,6 +950,10 @@
 - id: FabrizioGranelli
   name:  Fabrizio
   surname: Granelli
+
+- id: FaustoGiunchiglia
+  name:  Fausto
+  surname: Giunchiglia
 
 - id: FedericoMicheleFacca
   name:  Federico Michele
@@ -989,6 +1038,10 @@
 - id: GabrieleGalimberti
   name:  Gabriele
   surname: Galimberti
+
+- id: GeorgeGaskell
+  name:  George
+  surname: Gaskell
 
 - id: GerstelOri
   name:  Gerstel
@@ -1114,6 +1167,14 @@
   name:  Ioannis
   surname: Tomkos
 
+- id: IvanKayongo
+  name:  Ivan
+  surname: Kayongo
+
+- id: IvanoBison
+  name:  Ivano
+  surname: Bison
+
 - id: IwoOlszewski
   name:  Iwo
   surname: Olszewski
@@ -1174,6 +1235,10 @@
   name:  Jaewon
   surname: Moon
 
+- id: JahnaOtterbacher
+  name:  Jahna
+  surname: Otterbacher
+
 - id: JasonZormpas
   name:  Jason
   surname: Zormpas
@@ -1193,6 +1258,10 @@
 - id: JooCho
   name:  Joo
   surname: Cho
+
+- id: JoseLuisZarza
+  name:  Jose
+  surname: Luis Zarza
 
 - id: JoseManuelArcoRodriguez
   name:  José Manuel Arco
@@ -1270,6 +1339,14 @@
   name:  L.
   surname: Wosinska
 
+- id: LakmalMeegahapola
+  name:  Lakmal
+  surname: Meegahapola
+
+- id: LauraSchelenz
+  name:  Laura
+  surname: Schelenz
+
 - id: LeandroDOrazio
   name:  Leandro
   surname: D’Orazio
@@ -1278,9 +1355,17 @@
   name:  Leonardo
   surname: Goratti
 
+- id: LeonardoJavierMalcotti
+  name:  Leonardo
+  surname: Javier Malcotti
+
 - id: LiXi
   name:  Li
   surname: Xi
+
+- id: LiXiaoyue
+  name:  Li
+  surname: Xiaoyue
 
 - id: LianeMargaridaRockenbachTarouco
   name:  Liane
@@ -1309,6 +1394,10 @@
 - id: LucaCapra
   name:  Luca
   surname: Capra
+
+- id: LucaCernuzzi
+  name:  Luca
+  surname: Cernuzzi
 
 - id: LucaMendozzi
   name:  Luca
@@ -1394,13 +1483,29 @@
   name:  Mandar
   surname: Datar
 
+- id: MarceloDarioRodasBritez
+  name:  Marcelo Dario
+  surname: Rodas Britez
+
 - id: MarceloPias
   name:  Marcelo
   surname: Pias
 
+- id: MarceloRodas
+  name:  Marcelo
+  surname: Rodas
+
+- id: MarceloRodas-Britez
+  name:  Marcelo
+  surname: Rodas-Britez
+
 - id: MarekMichalski
   name:  Marek
   surname: Michalski
+
+- id: MariaKasinidou
+  name:  Maria
+  surname: Kasinidou
 
 - id: MariannaAngelou
   name:  Marianna
@@ -1421,6 +1526,10 @@
 - id: MassimoTornatore
   name:  Massimo
   surname: Tornatore
+
+- id: MatteoBusso
+  name:  Matteo
+  surname: Busso
 
 - id: MatteoCeriotti
   name:  Matteo
@@ -1445,6 +1554,10 @@
 - id: MicheleSantuari
   name:  Michele
   surname: Santuari
+
+- id: MiriamBidoglia
+  name:  Miriam
+  surname: Bidoglia
 
 - id: MohitChamania
   name:  Mohit
@@ -1557,6 +1670,10 @@
 - id: PetarKochovski
   name:  Petar
   surname: Kochovski
+
+- id: PeterKun
+  name:  Peter
+  surname: Kun
 
 - id: PhemiusKevin
   name:  Phemius
@@ -1678,6 +1795,14 @@
   name:  Rojas
   surname: Elisa
 
+- id: RonaldChenu-Abente
+  name:  Ronald
+  surname: Chenu-Abente
+
+- id: RoyAliaAsiku
+  name:  Roy
+  surname: Alia Asiku
+
 - id: RozicCiril
   name:  Rožić
   surname: Ćiril
@@ -1730,6 +1855,14 @@
   name:  Sajad
   surname: Khorsandroo
 
+- id: SallyStares
+  name:  Sally
+  surname: Stares
+
+- id: SalvadorRuizCorrea
+  name:  Salvador
+  surname: Ruiz Correa
+
 - id: SandiGec
   name:  Sandi
   surname: Gec
@@ -1766,6 +1899,10 @@
   name:  Shikhmanter
   surname: Yona
 
+- id: ShyamDiwakar
+  name:  Shyam
+  surname: Diwakar
+
 - id: SkoldstromPontus
   name:  Sköldström
   surname: Pontus
@@ -1793,6 +1930,10 @@
 - id: StuartMillar
   name: Stuart
   surname: Millar
+
+- id: StylianiKleanthous
+  name:  Styliani
+  surname: Kleanthous
 
 - id: SzyrkowiecThomas
   name:  Szyrkowiec
@@ -1850,6 +1991,10 @@
   name:  Tommaso
   surname: Gazzini
 
+- id: TsolmonZundui
+  name:  Tsolmon
+  surname: Zundui
+
 - id: TymeckiAndrzej
   name:  Tymecki
   surname: Andrzej
@@ -1890,6 +2035,10 @@
   name:  W.
   surname: Klaus
 
+- id: WilliamDroz
+  name:  William
+  surname: Droz
+
 - id: WoesnerHagen
   name:  Woesner
   surname: Hagen
@@ -1913,6 +2062,10 @@
 - id: XavierCostaPerez
   name:  Xavier
   surname: Costa Pérez
+
+- id: XuHao
+  name:  Xu
+  surname: Hao
 
 - id: Y.Ye
   name:  Y.

@@ -267,6 +267,10 @@
   name: ACM Computing Surveys
   type: journal
 
+- id: acmoninteractivemobilewearableandubiquitoustechnologies
+  name: ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies
+  type: journal
+
 - id: acmsigcomm2011conference
   name: ACM Sigcomm 2011 Conference
   type: conference
@@ -522,6 +526,10 @@
   name: International Journal of Communication Networks and Distributed Systems
   type: journal
 
+- id: iticse20242024oninnovationandtechnologyincomputerscienceeducationv1
+  name: Iticse 2024 Proceedings of the 2024 on Innovation and Technology in Computer Science Education V. 1
+  type: conference
+
 - id: journalofgridcomputing
   name: Journal of Grid Computing
   type: journal
@@ -614,4 +622,8 @@
   name: Third European Workshop on Software Defined Networks (EWSDN), 2014
   type: conference
   proceedings: Proceedings of Third European Workshop on Software Defined Networks (EWSDN), 2014
+
+- id: webandbigdata6thinternationaljointconferenceapwebwaim2022nanjingchinanovember25272022parti
+  name: Web and Big Data 6th International Joint Conference, Apweb-waim 2022, Nanjing, China, November 25–27, 2022, Proceedings, Part I
+  type: conference
 

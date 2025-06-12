@@ -3,6 +3,41 @@
 # The following string is a separator used by the parser to trim away generated content
 # Please, please, please, keep this here!
 #--#--#--#--#--#
+- id: iris_2025_ee27c892d9762dd36c1f
+  id_iris: 357329,
+  title: "DiversityOne: A Multi-Country Smartphone Sensor Dataset for Everyday Life Behavior Modeling"
+  authors:
+    - MatteoBusso
+    - AndreaBontempelli
+    - LeonardoJavierMalcotti
+    - LakmalMeegahapola
+    - PeterKun
+    - ShyamDiwakar
+    - ChaitanyaNutakki
+    - MarceloDarioRodasBritez
+    - XuHao
+    - DongleiSong
+    - SalvadorRuizCorrea
+    - Andrea-RebecaMendoza-Lara
+    - GeorgeGaskell
+    - SallyStares
+    - MiriamBidoglia
+    - AmarsanaaGanbold
+    - AltangerelChagnaa
+    - LucaCernuzzi
+    - AlethiaHume
+    - RonaldChenu-Abente
+    - RoyAliaAsiku
+    - IvanKayongo
+    - DanielGatica-Perez
+    - AmaliadeGotzen
+    - IvanoBison
+    - FaustoGiunchiglia
+  destination: acmoninteractivemobilewearableandubiquitoustechnologies
+  year: 2025
+  doi: 10.1145/3712289
+
+
 - id: iris_2025_220419fbe6e1d3d85d0d
   id_iris: 355207,
   title: "A Proactive Decoy Selection Scheme for Cyber Deception using MITRE ATT&CK"
@@ -169,6 +204,21 @@
   doi: 10.1109/iscc61673.2024.10733585
 
 
+- id: iris_2024_3524bb02a8a09a4a2341
+  id_iris: 357372,
+  title: "Artificial Intelligence in Everyday Life 2.0: Educating University Students from Different Majors"
+  authors:
+    - MariaKasinidou
+    - StylianiKleanthous
+    - MatteoBusso
+    - MarceloRodas
+    - JahnaOtterbacher
+    - FaustoGiunchiglia
+  destination: iticse20242024oninnovationandtechnologyincomputerscienceeducationv1
+  year: 2024
+  doi: 10.1145/3649217.3653542
+
+
 - id: iris_2023_d10c4cdad8055829690b
   id_iris: 336467,
   title: "Locality-aware deployment of application microservices for multi-domain fog computing"
@@ -211,6 +261,42 @@
   doi: 10.1109/BigData59044.2023.10386446
 
 
+- id: iris_2023_7dd523fb6396b7da38fa
+  id_iris: 357489,
+  title: "Generalization and Personalization of Mobile Sensing-Based Mood Inference Models: An Analysis of College Students in Eight Countries"
+  authors:
+    - LakmalMeegahapola
+    - WilliamDroz
+    - PeterKun
+    - AmaliadeGotzen
+    - ChaitanyaNutakki
+    - ShyamDiwakar
+    - SalvadorRuizCorrea
+    - DongleiSong
+    - XuHao
+    - MiriamBidoglia
+    - GeorgeGaskell
+    - AltangerelChagnaa
+    - AmarsanaaGanbold
+    - TsolmonZundui
+    - CarloCaprini
+    - DanieleMiorandi
+    - AlethiaHume
+    - JoseLuisZarza
+    - LucaCernuzzi
+    - IvanoBison
+    - MarceloDarioRodasBritez
+    - MatteoBusso
+    - RonaldChenu-Abente
+    - CanGunel
+    - FaustoGiunchiglia
+    - LauraSchelenz
+    - DanielGatica-Perez
+  destination: acmoninteractivemobilewearableandubiquitoustechnologies
+  year: 2023
+  doi: 10.1145/3569483
+
+
 - id: iris_2023_218be0b36d780a2d0eaf
   id_iris: 339487,
   title: "Enhancing Network Intrusion Detection: An Online Methodology for Performance Analysis"
@@ -221,6 +307,19 @@
   destination: 2023ieee9thinternationalconferenceonnetworksoftwarizationnetsoft
   year: 2023
   doi: 10.1109/NetSoft57336.2023.10175465
+
+
+- id: iris_2023_138680a74c3816f687be
+  id_iris: 346487,
+  title: "A Context Model for Personal Data Streams"
+  authors:
+    - FaustoGiunchiglia
+    - LiXiaoyue
+    - MatteoBusso
+    - MarceloRodas-Britez
+  destination: webandbigdata6thinternationaljointconferenceapwebwaim2022nanjingchinanovember25272022parti
+  year: 2023
+  doi: 10.1007/978-3-031-25158-0_4
 
 
 - id: iris_2022_d59e797b27217caa5885
