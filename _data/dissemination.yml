@@ -480,4 +480,18 @@
   links:
     - name: Event
       url: https://eventi.wired.it/nextfest24-trentino/home
+
+## 2025
+- id: CrypTO2025
+  title: Research challenges of the digital identity wallet
+  participants:
+    - RobertoCarbone
+  eventName: CrypTO Conference 2025
+  startDate: "2025-05-23"
+  endDate: "2025-05-23"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://crypto.polito.it/crypto_conference
+
 # PLEASE KEEP CHRONOLOGICAL ORDER BY START DATE WITHIN YEARS
