@@ -1484,20 +1484,12 @@
   surname: Datar
 
 - id: MarceloDarioRodasBritez
-  name:  Marcelo Dario
-  surname: Rodas Britez
+  name: MarceloDario
+  surname: RodasBritez
 
 - id: MarceloPias
   name:  Marcelo
   surname: Pias
-
-- id: MarceloRodas
-  name:  Marcelo
-  surname: Rodas
-
-- id: MarceloRodas-Britez
-  name:  Marcelo
-  surname: Rodas-Britez
 
 - id: MarekMichalski
   name:  Marek
