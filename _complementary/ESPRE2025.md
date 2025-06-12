@@ -16,6 +16,7 @@ people:
 peopleOrder: surname
 ---
 
-**Supplementary material** a comprehensive list of requirements that are extracted from Network and Information Security Directive 2 (NIS2) and Cyber Resilience Act (CRA),their verbatim, and our selected tools to satisfy these requirements are reported [here](https://docs.google.com/spreadsheets/d/1ieI74wx_aB1AEVzs-9Z_LmUkn-QbMkECD4P2KijSEHk/edit?usp=sharing).
+**NIS2/CRA Requirements**: 
+A comprehensive list of requirements that are extracted from Network and Information Security Directive 2 (NIS2) and Cyber Resilience Act (CRA),their verbatim, and our selected tools to satisfy these requirements are reported [here](https://docs.google.com/spreadsheets/d/1ieI74wx_aB1AEVzs-9Z_LmUkn-QbMkECD4P2KijSEHk/edit?usp=sharing).
 
 
