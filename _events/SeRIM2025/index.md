@@ -12,6 +12,7 @@ image: /assets/areas/events/SeRIM2025/serim2025.jpg
 </blockquote>
 
 # Recent News
+- **17/06/2025**: Further details on the [keynote](keynote) have been published.
 - **28/05/2025**: The workshop will be held in **Room 8B**.
 - **22/05/2025**: The [program](program) has been updated.
 - **07/05/2025**: The [tentative program](program) has been published.

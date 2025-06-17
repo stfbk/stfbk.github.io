@@ -39,7 +39,11 @@ menubar: SeRIM2025
   </tr>
   <tr>
     <td class="talk">
-      <p class="title"><i>Under definition</i></p>
+      <p class="title">
+        <a href="keynote">
+          Modeling the Web to Secure the Web: Formal Analysis of Single Sign-On Authentication and Authorization Protocol Standards
+        </a>
+      </p>
       <p class="speakers">Ralf Küsters (University of Stuttgart)</p>
     </td>
     <td>9:15-10:15</td>
