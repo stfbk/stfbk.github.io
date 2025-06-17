@@ -928,3 +928,46 @@ table.bordered tr td {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.keynote:not(:first-of-type) {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.keynote:not(:last-of-type) {
+  border-bottom: 1px solid #f5f5f5;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.keynote .speaker {
+  margin-bottom: 20px;
+}
+
+.keynote .speaker p {
+  margin: 0px;
+  font-style: italic;
+}
+
+.keynote .abstract,
+.keynote .bio {
+  margin-bottom: 25px;
+}
+
+.keynote .abstract::before {
+  content: "Abstract";
+  margin-bottom: 1.5rem;
+  font-size: 1.3em;
+  color: #363636;
+  font-weight: 600;
+  line-height: 1.125;
+}
+
+.keynote .bio::before {
+  content: "Short Bio";
+  margin-bottom: 1.5rem;
+  font-size: 1.3em;
+  color: #363636;
+  font-weight: 600;
+  line-height: 1.125;
+}
