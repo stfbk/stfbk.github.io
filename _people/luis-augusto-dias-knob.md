@@ -5,7 +5,7 @@ links:
   - name: GitHub
     value: luisdknob
   - name: ORCID
-    value: 0000-0001-7291-77806
+    value: 0000-0001-7291-7780
   - name: LinkedIn
     value: luisdknob
     
