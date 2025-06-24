@@ -2336,7 +2336,7 @@
   doi:
 
 - id: IWBF2025
-  id_iris:
+  id_iris: 360887
   title: "Spotting tell-tale visual artifacts in face swapping videos: strengths and pitfalls of CNN detectors"
   authors:
     - RiccardoZiglio
