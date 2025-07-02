@@ -34,7 +34,7 @@ menubar: SeRIM2025
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 1: Keynote</p>
-      <p class="chair">Flaminia Luccio</p>
+      <p class="chair">Riccardo Focardi</p>
     </td>
   </tr>
   <tr>
