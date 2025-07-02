@@ -6,7 +6,7 @@ menubar: SeRIM2025
 
 The workshop will be held at:
 <ul style="list-style: none;">
-  <li><b>San Giobbe Economic Campus</b></li>
+  <li><b>San Giobbe Economic Campus, Room 8B</b></li>
   <li><b>Ca' Foscari University of Venice</b></li>
   <li>Cannaregio 873, 30121 Venice (Italy)</li>
 </ul>

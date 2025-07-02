@@ -6,7 +6,6 @@ menubar: SeRIM2025
 
 <div class="text-center">
   <h4>All times are in <a href="https://time.is/en/CEST" target="_blank">Central European Summer Time (CEST)</a>.</h4>
-  <h4>The program is tentative and may be subject to changes.</h4>
 </div>
 
 <table class="bordered program" width="100%">
@@ -35,6 +34,7 @@ menubar: SeRIM2025
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 1: Keynote</p>
+      <p class="chair">Flaminia Luccio</p>
     </td>
   </tr>
   <tr>
@@ -52,6 +52,7 @@ menubar: SeRIM2025
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 2: Regular Papers</p>
+      <p class="chair">Matteo Busi</p>
     </td>
   </tr>
   <tr>
@@ -87,6 +88,7 @@ menubar: SeRIM2025
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 3: Short Papers</p>
+      <p class="chair">Roberto Carbone</p>
     </td>
   </tr>
   <tr>
