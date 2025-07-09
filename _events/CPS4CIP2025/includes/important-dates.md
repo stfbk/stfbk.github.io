@@ -1,3 +1,3 @@
-- **Submission deadline**:      <s>13.06.2025</s> 29.06.2025 (extended)
-- **Notification to authors**:  <s>14.07.2025</s> 20.07.2025 (extended)
-- **Camera-ready versions**:    15.08.2025
+- **Submission deadline**:      <s>13.06.2025</s> 14.07.2025 (extended)
+- **Notification to authors**:  <s>14.07.2025</s> 30.07.2025 (extended)
+- **Camera-ready versions**:    <s>15.08.2025</s> 20.08.2025 (extended)
