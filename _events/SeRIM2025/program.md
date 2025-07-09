@@ -27,6 +27,9 @@ menubar: SeRIM2025
     <td class="talk">
       <p class="title">Introductory Remarks</p>
       <p class="speakers">Riccardo Focardi, Silvio Ranise (General Co-Chairs), Flaminia Luccio, Giada Sciarretta (Program Co-Chairs)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/SeRIM2025/slides/0_1_IntroductoryRemarks.pdf">Slides</a>
+      </p>
     </td>
     <td>9:00-9:15</td>
   </tr>
@@ -45,6 +48,9 @@ menubar: SeRIM2025
         </a>
       </p>
       <p class="speakers">Ralf Küsters (University of Stuttgart)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/SeRIM2025/slides/1_1_Küsters.pdf">Slides</a>
+      </p>
     </td>
     <td>9:15-10:15</td>
   </tr>
@@ -59,6 +65,9 @@ menubar: SeRIM2025
     <td class="talk">
       <p class="title">Decentralised Supply Chain Reputation: A Privacy and Self-Sovereign Identity Perspective</p>
       <p class="speakers">Abubakar-Sadiq Shehu and Steve Schneider (University of Surrey)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/SeRIM2025/slides/2_1_Shehu.pdf">Slides</a>
+      </p>
     </td>
     <td>10:15-10:35</td>
   </tr>
@@ -66,6 +75,9 @@ menubar: SeRIM2025
     <td class="talk">
       <p class="title">Identity Threats and Where to Find Them: Mapping ITDR and MITRE ATT&CK</p>
       <p class="speakers">Vitali Serzantov, Erwin Kupris and Thomas Schreck (Munich University of Applied Sciences)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/SeRIM2025/slides/2_2_Serzantov.pdf">Slides</a>
+      </p>
     </td>
     <td>10:35-10:55</td>
   </tr>
@@ -81,6 +93,9 @@ menubar: SeRIM2025
     <td class="talk">
       <p class="title">Replication Study: Cross-Country Evaluation of the Recognition-Based Graphical Authentication Scheme in AR and VR Environments</p>
       <p class="speakers">Naheem Noah (University of Denver), Peter Mayer (University of Southern Denmark) and Sanchari Das (George Mason University)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/SeRIM2025/slides/2_3_Noah.pdf">Slides</a>
+      </p>
     </td>
     <td>11:30-11:50</td>
   </tr>
@@ -95,6 +110,9 @@ menubar: SeRIM2025
     <td class="paper">
       <p class="title">Security Requirements Classification by Means of Explainable Transformer Models</p>
       <p class="authors">Luca Petrillo (IMT Lucca and IIT-CNR), Fabio Martinelli (ICAR-CNR), Antonella Santone (University of Molise) and Francesco Mercaldo (University of Molise and IIT-CNR)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/SeRIM2025/slides/3_1_Petrillo.pdf">Slides</a>
+      </p>
     </td>
     <td>11:50-12:05</td>
   </tr>
