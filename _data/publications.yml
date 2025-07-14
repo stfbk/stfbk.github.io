@@ -2285,7 +2285,7 @@
 
 ## 2025
 - id: DBSEC2025
-  id_iris:
+  id_iris: 360847
   title: "Secure and Reliable Digital Wallets: A Threat Model for Secure Storage in eIDAS 2.0"
   authors:
     - ZahraEbadiAnsaroudi
@@ -2297,8 +2297,8 @@
     The revised eIDAS regulation (eIDAS 2.0) advocates a shift back to user control over digital credentials, introducing the European Digital Identity Wallet. This shift aims to enhance privacy by allowing citizens to disclose personal data in a controlled manner selectively. As the keys to which the credentials are bound must be stored securely, a secure storage mechanism is essential—one that is not only secure but also accessible through the available technology stack and compliant with eIDAS 2.0. In support of the European Digital Identity Wallet, the EU Commission published an Architecture and Reference Framework together with a set of Implementing Acts to ensure interoperable solutions. However, the current versions only identify a high-level set of requirements and do not provide insights on satisfying them through actionable implementations. Secure storage is a crucial aspect that remains inadequately addressed, highlighting the need for comprehensive security and privacy guidelines to ensure a robust solution. To address this gap, we provide a threat model explicitly designed for the secure storage component of the wallet. This allows for identifying potential threats and a set of effective controls to secure the implementations and serves as a practical tool to assist architects in making informed decisions when selecting an implementation that best meets their system’s security and privacy requirements. In addition, it reinforces essential assurance activities, such as certification, testing, and attestation required by the eIDAS 2.0 to maintain a trusted state for secure storage.
   destination: DBSEC2025
   year: 2025
-  urlNews: 
-  doi:
+  doi: 10.1007/978-3-031-96590-6_15
+  urlNews: /news/2025/05/12/paper-accepted-at-dbsec-2025/
 
 - id: ESORICS2025
   id_iris:
@@ -2317,8 +2317,8 @@
   doi:
 
 - id: ESPRE2025
-  id_iris:
-  title: "A First Appraisal of Leveraging Open Source Security Tools for NIS2 and CRA Compliance"
+  id_iris: 361187
+  title: "A First Appraisal of NIS2 and CRA Compliance Leveraging Open Source Tools"
   authors:
     - GiovanniCorti
     - GianlucaSassetti
@@ -2330,10 +2330,11 @@
     - RobertoCarbone
     - SilvioRanise
   abstract: >
-     The increased sophistication and complexity of modern software development poses a significant challenge to software supply chain risk management. Modern software is characterized by intricate dependency trees and increased scale. As a result, the software supply chain attack surface has also increased together with the number of reported disruptions. These attacks aim at destabilizing entire supply chains by compromising individual components in open source software, thereby triggering cascading disruptions. In response, several governance and regulatory efforts for ensuring software supply chain security have been made. At the European Union level, the recent introduction of Network and Information Security Directive 2 (NIS2), and Cyber Resilience Act (CRA) aims to establish robust cybersecurity requirements for organizations and products, including the secure development and importing of software products in the European market. However, translating verbatim requirements into actionable technical implementations for secure software development presents a complex and time consuming challenge for practitioners. This paper addresses this gap by leveraging the functionality of a selected number of open source tools to partially automate and simplify compliance with a number of requirements extracted from NIS2, and CRA. We identify key software supply chain security requirements in the two legislation and map them to relevant open source tools capable of partially automating compliance tasks. Additionally, we propose an easily-replicable, automated pipeline also implementable as GitHub workflows which allows to simplify compliance, thereby supporting practitioners and organizations in their NIS2, and CRA compliance efforts.
+    The increased sophistication and complexity of modern software development pose a significant challenge to software supply chain risk management. Modern software is characterized by intricate dependency trees and an increased scale. As a result, the software supply chain attack surface has also increased, and with it, the number of reported disruptions. These attacks aim at destabilizing entire supply chains by compromising individual components in open source software, thereby triggering cascading disruptions. In response, several governance and regulatory efforts for ensuring software supply chain security have been made. At the European Union level, the recent introduction of Network and Information Security Directive 2 (NIS2) and Cyber Resilience Act (CRA) aims to establish robust cybersecurity requirements for organizations and products, including the secure development and importing of software products in the European market. However, translating verbatim requirements into actionable technical implementations for secure software development is a complex and time-consuming challenge for practitioners. This paper addresses this gap by leveraging the functionality of a selected number of open source tools to partially automate and simplify compliance with a number of requirements extracted from NIS2 and CRA. We identify key software supply chain security requirements in the two legislations and map them to relevant open source tools capable of partially automating compliance tasks. Additionally, we propose an easily replicable, automated pipeline also implementable as GitHub workflows, which simplifies practitioners' and organizations' NIS2 and CRA compliance efforts.
   destination: ESPRE2025
   year: 2025
   doi:
+  urlNews: /news/2025/07/14/paper-accepted-at-espre-2025/
 
 - id: IWBF2025
   id_iris: 360887
@@ -2380,7 +2381,7 @@
   urlNews: /news/2025/02/27/paper-accepted-at-jins/
   
 - id: SECRYPT2025
-  id_iris:
+  id_iris: 360987
   title: "Enhancing National Digital Identity Systems: A Framework for Institutional and Technical Harm Prevention Inspired by Microsoft's Harms Modeling"
   authors:
     - GiovanniCorti
@@ -2392,7 +2393,7 @@
     The rapid adoption of National Digital Identity systems (NDIDs) across the globe underscores their role in ensuring the human right to identity. Despite the transformation potential given by digitization, these systems introduce significant challenges, particularly concerning the collection, storage, and sharing of sensitive personal data. These practices can expose individuals and populations to risks such as data breaches and profiling, originating from design and institutional flaws embedded in identity management infrastructures. Existing studies on NDIDs related harms often focus narrowly on technical design issues while neglecting the broader institutional infrastructures that enable such harms. To fill this gap, this paper extends the collection of harms for analysis through a qualitative methodology approach of the existing harm-related literature. Our findings suggest that 80% of NDID-related harms are the product of suboptimal institutions and poor governance models, and that 47.5% of all impacted stakeholders are considered High Risk. By proposing a more accurate harm assessment model and highlighting the strong relationship between harm-enabling NDIDs and suboptimal institutions, this paper provides academia and the industry with a significant contribution that allows to identify the possibility of NDID-related harms at an embryonic state and build the necessary infrastructure to prevent them.
   destination: SECRYPT2025
   year: 2025
-  doi:
+  doi: 10.5220/0013601400003979
   urlNews: /news/2025/04/29/papers-accepted-at-secrypt-2025/
   
 - id: SECRYPT2025_status

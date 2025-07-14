@@ -15,6 +15,7 @@ publications:
     - SECRYPT2020
     - SAFECOMP2017
     - SACMAT2017
+    - ESPRE2025
 
 theses:
     - AlessioValenza_B
