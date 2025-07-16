@@ -38,6 +38,20 @@
   doi: 10.1145/3712289
 
 
+- id: iris_2025_ae7f26c66ae3e3f3395b
+  id_iris: 361307,
+  title: "Carbon-Aware Spatio-Temporal Workload Shifting in Edge–Cloud Environments: A Review and Novel Algorithm"
+  authors:
+    - NasirAsadov
+    - VladC.Coroama
+    - MatteoFranzil
+    - StefanoGalantino
+    - MatthiasFinkbeiner
+  destination: sustainability
+  year: 2025
+  doi: 10.3390/su17146433
+
+
 - id: iris_2025_220419fbe6e1d3d85d0d
   id_iris: 355207,
   title: "A Proactive Decoy Selection Scheme for Cyber Deception using MITRE ATT&CK"

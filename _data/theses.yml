@@ -1,3 +1,13 @@
+- id: NicolaLovo_B
+  author: NicolaLovo
+  type: B
+  institution: University of Trento
+  year: 2025
+  title: "Cloud Infrastructure Management for Online Development Environments"
+  supervisor: DomenicoSiracusa
+  co-supervisor:
+    - MatteoFranzil
+
 - id: MarcoZani_B
   author: MarcoZani
   type: B

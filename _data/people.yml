@@ -439,6 +439,9 @@
   surname: Abdelaty
 
 # Etc
+- id: NicolaLovo
+  name: Nicola
+  surname: Lovo
 
 - id: LucaOneto
   name: Luca
@@ -1268,8 +1271,8 @@
   surname: Rodríguez
 
 - id: JoseManuelRivas-Moscoso
-  name: Jose Manuel
-  surname: Rivas-Moscoso
+  name:  Jose
+  surname: Manuel Rivas-Moscoso
 
 - id: JoseSanchez
   name:  José
@@ -1526,6 +1529,10 @@
 - id: MatteoCeriotti
   name:  Matteo
   surname: Ceriotti
+
+- id: MatthiasFinkbeiner
+  name:  Matthias
+  surname: Finkbeiner
 
 - id: MauroCampanella
   name:  Mauro
@@ -2018,6 +2025,10 @@
 - id: ViniciusGarcezSchaurich
   name:  Vinicius
   surname: Garcez Schaurich
+
+- id: VladC.Coroama
+  name:  Vlad C.
+  surname: Coroamă
 
 - id: VladoStankovski
   name:  Vlado
