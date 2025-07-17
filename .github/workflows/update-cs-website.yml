@@ -61,7 +61,7 @@ jobs:
       with:
         source_file: '_data/destinations.yml'
         destination_repo: ${{ env.DESTINATION_REPO }}
-        destination_folder: '_data/destinations'
+        destination_folder: '_data/single/destinations'
         rename: 'destinations_${{ env.UNIT_ACRONYM }}.yml'
         user_name: ${{ env.USER_NAME }}
         user_email: ${{ env.USER_EMAIL }}
@@ -81,7 +81,7 @@ jobs:
       with:
         source_file: '_data/members.yml'
         destination_repo: ${{ env.DESTINATION_REPO }}
-        destination_folder: '_data/members'
+        destination_folder: '_data/single/members'
         rename: 'members_${{ env.UNIT_ACRONYM }}.yml'
         user_name: ${{ env.USER_NAME }}
         user_email: ${{ env.USER_EMAIL }}
@@ -99,7 +99,7 @@ jobs:
       with:
         source_file: '_data/people.yml'
         destination_repo: ${{ env.DESTINATION_REPO }}
-        destination_folder: '_data/people'
+        destination_folder: '_data/single/people'
         rename: '1_people_${{ env.UNIT_ACRONYM }}.yml'
         user_name: ${{ env.USER_NAME }}
         user_email: ${{ env.USER_EMAIL }}
@@ -139,7 +139,7 @@ jobs:
       with:
         source_file: '_data/publications.yml'
         destination_repo: ${{ env.DESTINATION_REPO }}
-        destination_folder: '_data/publications'
+        destination_folder: '_data/single/publications'
         rename: 'publications_${{ env.UNIT_ACRONYM }}.yml'
         user_name: ${{ env.USER_NAME }}
         user_email: ${{ env.USER_EMAIL }}
@@ -157,7 +157,7 @@ jobs:
       with:
         source_file: '_data/theses.yml'
         destination_repo: ${{ env.DESTINATION_REPO }}
-        destination_folder: '_data/theses'
+        destination_folder: '_data/single/theses'
         rename: 'theses_${{ env.UNIT_ACRONYM }}.yml'
         user_name: ${{ env.USER_NAME }}
         user_email: ${{ env.USER_EMAIL }}
