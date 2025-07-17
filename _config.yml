@@ -1,11 +1,54 @@
+# Site Settings
 title: Security & Trust
 tagline: Research Unit in Fondazione Bruno Kessler (FBK)
-logo: /assets/images/logos/ST_symbol.png
-remote_theme: chrisrhymes/bulma-clean-theme@v0.13.3
-markdown: kramdown
+remote_theme: csfbk/fbk-cs-websites-theme
 repository: stfbk/stfbk.github.io
-url: "https://st.fbk.eu"
+
+# Entity Settings
+entity_type: "unit"
+
+organization:
+  unit:
+    name: "Security & Trust"
+    acronym: "ST"
+  center:
+    name: "Center for Cybersecurity"
+    acronym: "CS"
+    website: "https://cs.fbk.eu"
+
+logos:
+  unit:
+    regular:
+      default: "/assets/images/institutional/ST_regular.png"
+      white: "/assets/images/institutional/ST_regular_white.png"
+    symbol:
+      default: "/assets/images/institutional/ST_symbol.png"
+      white: "/assets/images/institutional/ST_symbol_white.png"
+
+content-manager:
+  name: Silvio Ranise
+  affiliation: Center for Cybersecurity
+  email: ranise@fbk.eu
+  phone: +390461314192
+
+social:
+  github: https://github.com/stfbk/
+
+# Other Settings and Defaults
+livereload: true
+primary-color: "#0068b4"
+
+## DO NOT MODIFY
+lang: en
 baseurl: ""
+permalink: pretty
+markdown: kramdown
+highlighter: rouge
+show_navbar_brand: false
+show_link_fbk: true
+sass:
+  style: compressed
+  source_dir: _sass
 
 plugins:
   - jekyll-redirect-from
@@ -14,55 +57,38 @@ collections:
   collaborations:
     output: true
     layout: collaboration
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
   complementary:
     output: true
     layout: complementary
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
   events:
     output: true
     layout: page
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
   news:
     output: true
     layout: news
-    image: https://via.placeholder.com/800x600
     permalink: /news/:year/:month/:day/:title/
-    show_sidebar: false
   people:
     output: true
     layout: page
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
   projects:
     output: true
     layout: project
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
   teaching:
     output: true
     layout: page
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
   tools:
     output: true
     layout: tool
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
   topics:
     output: true
     layout: topic
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
 
 defaults:
   - scope:
       path: ""
+      type: pages
     values:
-      image: /assets/images/logos/ST_symbol.png
+      show_sidebar: false
 
   - scope:
       type: collaborations
@@ -83,11 +109,6 @@ defaults:
       type: news
     values:
       layout: news
-
-  - scope:
-      path: "_news/assets/*"
-    values:
-      permalink: /news/:title
 
   - scope:
       path: "_news/*-paper*-accepted-*"
@@ -131,4 +152,16 @@ defaults:
     values:
       layout: topic
 
-exclude: ["*/template*.md", "*/_template*.md", "README*.md", "vendor"]
+exclude: [
+  "Gemfile",
+  "clean-theme.gemspec",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "*/template*.md",
+  "*/_template*.md",
+  "README*.md"
+]
