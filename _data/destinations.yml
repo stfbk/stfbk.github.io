@@ -546,6 +546,10 @@
   name: Journal of Optical Communications and Networking
   type: journal
 
+- id: modelscompanion24acmieee27thinternationalconferenceonmodeldrivenengineeringlanguagesandsystems
+  name: Models Companion '24 Proceedings of the Acm/ieee 27th International Conference on Model Driven Engineering Languages and Systems
+  type: conference
+
 - id: opticalfibercommunicationconference2018
   name: Optical Fiber Communication Conference, 2018
   type: conference

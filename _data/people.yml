@@ -195,6 +195,7 @@
   name: Lorenzo
   surname: Fasol
   email: lfasol@fbk.eu
+  iris_id: rp30725
   affiliations:
     - role: Junior Developer
       unit: Distributed AI for dependable cyberSecuritY
@@ -654,6 +655,10 @@
   name:  Antonio
   surname: Alvarez Romero
 
+- id: AntonioBucchiarone
+  name:  Antonio
+  surname: Bucchiarone
+
 - id: AntonioFrancescon
   name:  Antonio
   surname: Francescon
@@ -853,6 +858,10 @@
 - id: DanieleTovazzi
   name:  Daniele
   surname: Tovazzi
+
+- id: DavidNegrier
+  name:  David
+  surname: Négrier
 
 - id: DeMiguel
   name:  De
@@ -1066,6 +1075,10 @@
   name:  Gian
   surname: Pietro Picco
 
+- id: GianlucaSchiavo
+  name:  Gianluca
+  surname: Schiavo
+
 - id: GianniAntichi
   name: Gianni
   surname: Antichi
@@ -1261,6 +1274,10 @@
 - id: JooCho
   name:  Joo
   surname: Cho
+
+- id: JorgKienzle
+  name:  Jörg
+  surname: Kienzle
 
 - id: JoseLuisZarza
   name:  Jose
@@ -1878,6 +1895,10 @@
   name: Sebastiano
   surname: Miano
 
+- id: SebastienGerard
+  name:  Sebastien
+  surname: Gerard
+
 - id: SergeyDrozdov
   name:  Sergey
   surname: Drozdov
@@ -1989,6 +2010,14 @@
 - id: TommasoGazzini
   name:  Tommaso
   surname: Gazzini
+
+- id: TommasoGuidolin
+  name:  Tommaso
+  surname: Guidolin
+
+- id: TommasoMartorella
+  name:  Tommaso
+  surname: Martorella
 
 - id: TsolmonZundui
   name:  Tsolmon

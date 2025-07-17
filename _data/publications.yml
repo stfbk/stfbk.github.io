@@ -233,6 +233,23 @@
   doi: 10.1145/3649217.3653542
 
 
+- id: iris_2024_11d4d3a8fe8b064d89bb
+  id_iris: 354427,
+  title: "PolyGloT-UML: A Gamified Framework for Enhancing UML Learning Paths"
+  authors:
+    - AntonioBucchiarone
+    - TommasoGuidolin
+    - LorenzoFasol
+    - GianlucaSchiavo
+    - JorgKienzle
+    - SebastienGerard
+    - DavidNegrier
+    - TommasoMartorella
+  destination: modelscompanion24acmieee27thinternationalconferenceonmodeldrivenengineeringlanguagesandsystems
+  year: 2024
+  doi: 10.1145/3652620.3687785
+
+
 - id: iris_2023_d10c4cdad8055829690b
   id_iris: 336467,
   title: "Locality-aware deployment of application microservices for multi-domain fog computing"
