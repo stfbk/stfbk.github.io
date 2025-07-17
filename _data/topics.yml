@@ -1,0 +1,35 @@
+- id: IdentityManagement
+  title: Identity Management
+  category: topic
+  url: /topics/IdentityManagement
+  image: DigitalIdentity.jpg
+
+- id: LegalCompliance
+  title: Legal Compliance
+  category: topic
+  url: /topics/LegalCompliance
+  image: LegalCompliance.jpg
+
+- id: ComplexSystems
+  title: Complex Systems
+  category: topic
+  url: /topics/ComplexHeterogeneousSystems
+  image: ComplexSystems.jpg
+
+- id: FinancialSecurity
+  title: Financial Security
+  category: spotlight
+  url: /topics/FinancialSecurity
+  image: FinancialSecurity.jpg
+
+- id: OAuthOIDC
+  title: OAuth & OIDC
+  category: spotlight
+  url: /topics/OAuthOIDC
+  image: OAuth.jpg
+
+- id: TLS
+  title: Lost in TLS? No more!
+  category: spotlight
+  url: /topics/TLS
+  image: TLS.jpg

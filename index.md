@@ -13,7 +13,9 @@ In line with the mission of [Fondazione Bruno Kessler](https://www.fbk.eu/en) (F
 - Complex and Heterogeneous systems (e.g., API, Cloud, Mobile, IoT and Blockchain)
 
 # Research Areas
-{% include topics.md %}
+{% assign researchAreas = site.data.topics | where_exp: "topic", "topic.category == 'topic'" %}
+{% include list-topics.html source=researchAreas %}
 
 # In the Spotlight
-{% include spotlights.md %}
+{% assign spotlights = site.data.topics | where_exp: "topic", "topic.category == 'spotlight'" %}
+{% include list-topics.html source=spotlights %}

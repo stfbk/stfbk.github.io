@@ -1,10 +1,5 @@
 ---
-title: Financial Security
-subtitle:
-type: spotlight
-url: /topics/FinancialSecurity
-image: FinancialSecurity.jpg
-order: 3
+topic: FinancialSecurity
 
 publications:
     - ICTSecMag202006_TLSA
