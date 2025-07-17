@@ -1,6 +1,7 @@
 ---
 title: News
-layout: news-list
+layout: page
 permalink: /news/
 ---
 
+{% include list-news.html %}
