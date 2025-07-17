@@ -1,5 +1,5 @@
 ---
-title: SecSES
+tool: SecSES
 
 publications:
     - SACMAT2014_ABAC

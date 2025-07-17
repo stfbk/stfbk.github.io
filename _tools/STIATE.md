@@ -1,5 +1,5 @@
 ---
-title: STIATE Toolkit
+tool: STIATE Toolkit
 subtitle: Security Threat Identification And TEsting toolkit
 ---
 

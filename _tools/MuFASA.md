@@ -1,5 +1,5 @@
 ---
-title: MuFASA
+tool: MuFASA
 subtitle: A Tool for High-level Specification and Analysis of Multi-factor Authentication Protocols
 
 people:

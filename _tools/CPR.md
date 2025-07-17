@@ -1,5 +1,5 @@
 ---
-title: CPR
+tool: CPR
 subtitle: Content-based Information Protection and Release
 
 publications:

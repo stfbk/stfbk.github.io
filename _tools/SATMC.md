@@ -1,5 +1,5 @@
 ---
-title: SATMC
+tool: SATMC
 
 publications:
   - TACAS2014

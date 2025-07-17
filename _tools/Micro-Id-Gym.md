@@ -1,5 +1,5 @@
 ---
-title: Micro-Id-Gym
+tool: Micro-Id-Gym
 subtitle: Identity Management Workouts with Container-Based Microservices
 
 people:

@@ -1,5 +1,5 @@
 ---
-title: ASASP
+tool: ASASP
 subtitle: Automated Symbolic Analysis of Security Policies
 
 publications:
