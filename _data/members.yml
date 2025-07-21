@@ -34,13 +34,6 @@ current:
       yearFrom: 2024
       yearTo: 2024
 
-    - personId: NiccolòLechthaler
-      type: B
-      topic: Micro-Id Gym
-      institution: University of Trento
-      yearFrom: 2024
-      yearTo: 2024
-
     - personId: FilippoGrilli
       type: M
       topic: Security Analysis of Identity Managament Protocols
@@ -58,13 +51,6 @@ current:
     - personId: DanieleCalvo
       type: B
       topic: Threat Modeling by Leveraging Agentic AI
-      institution: University of Trento
-      yearFrom: 2025
-      yearTo: 2025
-
-    - personId: MattiaMaramotti
-      type: B
-      topic: Automatic Security Testing Tool for Identity Management Protocols
       institution: University of Trento
       yearFrom: 2025
       yearTo: 2025
@@ -470,6 +456,12 @@ former:
       institution: University of Trento
       yearFrom: 2023
       yearTo: 2024
+
+    - personId: MattiaMaramotti
+      thesisId: MattiaMaramotti_B
+
+    - personId: NiccolòLechthaler
+      thesisId: NiccolòLechthaler_B
 
   junior:
     - personId: YuriTomasini
