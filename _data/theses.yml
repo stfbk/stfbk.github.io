@@ -1025,3 +1025,28 @@
     - AndreaBisegna
   year: 2025
   institution: University of Trento
+
+- id: MattiaMaramotti_B
+  title: "Testing as a Service for the Security and Compliance of Identity Management Solutions: Enhancing MIG A Scalable Abstract Architecture for Conformance Verification of Network Protocol Implementations"
+  type: B
+  author: MattiaMaramotti
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - RobertoCarbone
+    - LauraCristiano
+    - PietroDeMatteis
+  year: 2025
+  institution: University of Trento
+
+- id: NiccolòLechthaler_B
+  title: "Towards the Parametrization of Security Testing Tools for IdM Implementations: The MIG-T Case Study"
+  type: B
+  author: NiccolòLechthaler
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - LauraCristiano
+    - PietroDeMatteis
+  year: 2025
+  institution: University of Trento
