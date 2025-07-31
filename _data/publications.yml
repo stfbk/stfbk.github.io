@@ -2300,6 +2300,22 @@
   doi: 10.1007/978-3-031-96590-6_15
   urlNews: /news/2025/05/12/paper-accepted-at-dbsec-2025/
 
+- id: DevSecOpsRO2025
+  id_iris: 361407
+  title: "Towards Continuous Risk Assessment and Conformance Checking of IdM Deployments"
+  authors:
+    - AndreaBisegna
+    - RobertoCarbone
+    - LauraCristiano
+    - PietroDeMatteis
+    - SilvioRanise
+  abstract: >
+    Ensuring effective threat intelligence sharing, assessing potential risks, and responding to threats remain significant challenges, particularly in complex systems and critical infrastructures.
+    Environmental, Social, and Governance platforms are emerging as comprehensive solutions that integrate cybersecurity with governance principles, enhancing transparency and proactive risk management. However, integrating security tools into platforms that enable conformance checking and continuous risk assessment poses challenges, including automating security workflows and prioritizing vulnerabilities based on severity and exploitability. This paper presents an extended version of Micro-Id-Gym (MIG), an open-source security testing tool for Identity Management (IdM) implementations. The goal of this enhancement is to make MIG easily integrable into platforms for continuous risk assessment and mitigation in complex software supply chains deploying IdM solutions critical to the Zero Trust paradigm. By supporting trustworthy deployments, MIG focuses on conformance testing as a key mechanism to ensure reliability and compliance in multi-entity deployments. The extended version of MIG is designed for seamless integration into Continuous Integration and Continuous Delivery  pipelines and has been validated in Open Authorization 2.0 and OpenID Connect deployments.
+  destination: DevSecOpsRO2025
+  year: 2025
+  doi: 
+
 - id: ESORICS2025
   id_iris:
   title: "Multi-entity Control-based Risk Assessment: A European Digital Identity Wallet Use Case"
