@@ -1,5 +1,5 @@
 ---
-title: CryptoAC
+tool: CryptoAC
 subtitle: Flexible and Automated Role-based Cryptographic Access Control Enforcement in the Cloud
 
 people:

@@ -3,8 +3,9 @@
   titleAddon: Intelligenza artificiale a Trento
   startDate: "2022-01-01"
   endDate: "2023-12-31"
-  # url: https://magazine.fbk.eu/it/news/nasce-il-progetto-ai-tn-intelligenza-artificiale-a-trento/
-  url: /projects/AITN
+  url:
+    unit: /projects/AITN
+    external: https://magazine.fbk.eu/it/news/nasce-il-progetto-ai-tn-intelligenza-artificiale-a-trento/
 
 - id: DCoT
   title: DCoT
@@ -12,7 +13,8 @@
   startDate: "2018-01-01"
   endDate: "2018-12-31"
   logo: logo_DCOT.png
-  url: /projects/DCoT
+  url:
+    unit: /projects/DCoT
   
 - id: F&C_authnCIE
   title: F&C CIE
@@ -20,7 +22,8 @@
   startDate: "2021-04-01"
   endDate: "2022-03-31"
   logo: logo_FuturoConoscenza.png
-  url: /projects/FC_authnCIE
+  url:
+    unit: /projects/FC_authnCIE
 
 - id: F&C_eID
   title: F&C eID
@@ -28,13 +31,15 @@
   startDate: "2022-04-01"
   endDate: "2023-12-31"
   logo: logo_FuturoConoscenza.png
-  url: /projects/FC_eID
+  url:
+    unit: /projects/FC_eID
 
 - id: F&C_eVoting
   title: F&C eVoting
   endDate: "2023-06-30"
   logo: logo_FuturoConoscenza.png
-  url: /projects/FC_eVoting
+  url:
+    unit: /projects/FC_eVoting
 
 - id: F&C_fisica
   title: F&C fisica
@@ -42,7 +47,8 @@
   startDate: "2022-04-01"
   endDate: "2023-12-31"
   logo: logo_FuturoConoscenza.png
-  url: /projects/FC_fisica
+  url:
+    unit: /projects/FC_fisica
 
 - id: FIDES2015
   title: FIDES 2015
@@ -50,7 +56,8 @@
   startDate: "2015-01-01"
   endDate: "2015-12-31"
   logo: logo_FIDES.png
-  url: /projects/FIDES_2015
+  url:
+    unit: /projects/FIDES_2015
 
 - id: FIDES2016
   title: FIDES 2016
@@ -58,7 +65,8 @@
   startDate: "2016-01-01"
   endDate: "2016-12-31"
   logo: logo_FIDES.png
-  url: /projects/FIDES_2016
+  url:
+    unit: /projects/FIDES_2016
 
 - id: FINSEC
   title: FINSEC
@@ -66,13 +74,15 @@
   startDate: "2018-05-01"
   endDate: "2021-04-30"
   logo: logo_FINSEC.png
-  url: /projects/FINSEC
+  url:
+    unit: /projects/FINSEC
 
 - id: IDeARe
   title: IDeARe
   titleAddon: Identità Digitali ed Azioni Reali
   endDate: "2023-12-31"
-  url: /projects/IDeARe
+  url:
+    unit: /projects/IDeARe
 
 - id: IPZS_JointLab_Wallet
   title: Evoluzione ID CIE con OpenID Connect e Mobile Identity
@@ -80,7 +90,8 @@
   startDate: "2024-03-21"
   endDate: "2024-06-14"
   logo: IPZS.png
-  url: /projects/IPZS_JointLab_Wallet
+  url:
+    unit: /projects/IPZS_JointLab_Wallet
 
 - id: IPZS_JointLab_iVoting_eID
   title: Internet Voting - Evoluzione ID sulla CIE
@@ -88,46 +99,53 @@
   startDate: "2024-03-21"
   endDate: "2026-03-20"
   logo: IPZS.png
-  url: /projects/IPZS_JointLab_iVoting_eID
+  url:
+    unit: /projects/IPZS_JointLab_iVoting_eID
 
 - id: JuLIA
   title: JuLIA
   titleAddon: Justice, fundamentaL rIghts and Artificial intelligence
   logo: logo_JuLIA.svg
-  # url: https://www.julia-project.eu/
-  url: /projects/JuLIA
+  url:
+    unit: /projects/JuLIA
+    external: https://www.julia-project.eu/
 
 - id: MERIT
   title: MERIT
   titleAddon: Master of Science in Smart, Secure and Interconnected Systems
   startDate: "2022-10-01"
   logo: logo_MERIT.png
-  url: /projects/MERIT
+  url:
+    unit: /projects/MERIT
 
 - id: METAfora
   title: METAfora
   titleAddon: Metodologie e tecnologie di rappresentazione per il metaverso
   logo: logo_METAfora.jpg
-  url: /projects/METAfora
+  url:
+    unit: /projects/METAfora
 
 - id: NATO_ABAC
   title: NATO High Assurance ABAC Guard
   startDate: "2012-08-01"
   endDate: "2014-12-31"
-  url: /projects/NATO_High_Assurance_ABAC_Guard
+  url:
+    unit: /projects/NATO_High_Assurance_ABAC_Guard
 
 - id: Notarify
   title: Notarify
   startDate: "2024-05-10"
   endDate: "2024-10-31"
-  url: /projects/Notarify
+  url:
+    unit: /projects/Notarify
 
 - id: POTENTIAL
   title: POTENTIAL
   titleAddon: PilOTs for EuropeaN digiTal Identity wALlet
   logo: logo_POTENTIAL.png
- # url: https://www.digital-identity-wallet.eu/
-  url: /projects/POTENTIAL
+  url:
+    unit: /projects/POTENTIAL
+    external: https://www.digital-identity-wallet.eu/
 
 - id: PROTECTOR
   title: PROTECTOR
@@ -135,27 +153,31 @@
   startDate: "2021-04-01"
   endDate: "2023-03-31"
   logo: logo_PROTECTOR.png
-  url: /projects/PROTECTOR
+  url:
+    unit: /projects/PROTECTOR
 
 - id: SecAC
   title: SecAC
   titleAddon: Security Analysis of Complex Access Control Policies
   startDate: "2012-10-01"
   endDate: "2014-09-30"
-  url: /projects/SecAC
+  url:
+    unit: /projects/SecAC
 
 - id: SecCo
   title: SecCo
   titleAddon: Securing Containers
   logo: logo_SERICS.png
-  url: /projects/SecCo
+  url:
+    unit: /projects/SecCo
 
 - id: SECENTIS
   title: SECENTIS
   startDate: "2013-04-01"
   endDate: "2017-03-31"
   logo: logo_SECENTIS.png
-  url: /projects/SECENTIS
+  url:
+    unit: /projects/SECENTIS
 
 - id: SecSES
   title: SecSES
@@ -163,21 +185,24 @@
   startDate: "2013-01-01"
   endDate: "2013-12-31"
   logo: logo_EIT_Labs.jpeg
-  url: /projects/SecSES
+  url:
+    unit: /projects/SecSES
 
 - id: SESSec-EU
   title: SESSec-EU
   startDate: "2012-01-01"
   endDate: "2012-12-31"
   logo: logo_EIT_Labs.jpeg
-  url: /projects/SESSec-EU
+  url:
+    unit: /projects/SESSec-EU
 
 - id: SIAM
   title: SIAM
   titleAddon: Automated Security Analysis of Identity and Access Management Systems
   startDate: "2010-04-01"
   endDate: "2013-08-01"
-  url: /projects/SIAM
+  url:
+    unit: /projects/SIAM
 
 - id: SPARTA
   title: SPARTA
@@ -185,7 +210,8 @@
   startDate: # "2020-05-01" #date to be checked
   endDate: "2022-12-30" #date to be checked
   logo: logo_SPARTA.png
-  url: /projects/SPARTA
+  url:
+    unit: /projects/SPARTA
 
 - id: STAnD
   title: STAnD
@@ -193,13 +219,15 @@
   startDate: "2018-01-01"
   endDate: "2018-12-31"
   logo: logo_STAnD.png
-  url: /projects/STAnD
+  url:
+    unit: /projects/STAnD
 
 - id: StealthGoCloud
   title: Stealth Go! Cloud
   startDate: "2021-11-01"
   endDate: "2023-04-30"
-  url: /projects/StealthGoCloud
+  url:
+    unit: /projects/StealthGoCloud
 
 - id: STIATE
   title: STIATE
@@ -207,17 +235,20 @@
   startDate: "2014-01-01"
   endDate: "2014-12-31"
   logo: logo_EIT_Labs.jpeg
-  url: /projects/STIATE
+  url:
+    unit: /projects/STIATE
 
 - id: STRIDE
   title: STRIDE
   titleAddon: Secure and TRaceable Identities in Distributed Environments 
   logo: logo_SERICS.png
-  url: /projects/STRIDE
+  url:
+    unit: /projects/STRIDE
 
 - id: TreC
   title: TreC
   startDate: "2010-11-01"
   endDate: "2011-11-30"
   logo: logo_TreC.jpg
-  url: /projects/TreC
+  url:
+    unit: /projects/TreC

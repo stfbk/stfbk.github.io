@@ -1,10 +1,5 @@
 ---
-title: Complex Systems
-subtitle: 
-type: topic
-url: /topics/ComplexHeterogeneousSystems
-image: ComplexSystems.jpg
-order: 3
+topic: ComplexSystems
 
 publications:
     - ASIACCS2020

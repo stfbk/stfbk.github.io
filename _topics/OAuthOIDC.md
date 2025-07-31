@@ -1,10 +1,5 @@
 ---
-title: OAuth & OIDC
-subtitle: 
-type: spotlight
-url: /topics/OAuthOIDC
-image: OAuth.jpg
-order: 5
+topic: OAuthOIDC
 
 tools:
     - mIDAssistant

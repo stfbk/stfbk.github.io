@@ -1,10 +1,5 @@
 ---
-title: Identity Management
-subtitle: 
-type: topic
-url: /topics/IdentityManagement
-image: DigitalIdentity.jpg
-order: 1
+topic: IdentityManagement
 
 publications:
     - CODASPY2020_PN

@@ -1,10 +1,5 @@
 ---
-title: Lost in TLS? No more!
-subtitle: 
-type: spotlight
-url: /topics/TLS
-image: TLS.jpg
-order: 6
+topic: TLS
 
 tools:
     - TLSAssistant
