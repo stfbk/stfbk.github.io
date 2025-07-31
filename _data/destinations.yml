@@ -1177,6 +1177,15 @@
   startDate: "2023-06-23"
   endDate: "2023-06-25"
 
+- id: DevSecOpsRO2025
+  name: DevSecOps Research and Opportunities
+  acronym: DevSecOpsRO 2025
+  url: https://spritz.math.unipd.it/events/2025/devSecOpsRO/index.html
+  type: workshop
+  location: Venice, Italy
+  startDate: "2025-07-04"
+  endDate: "2025-07-04"
+
 - id: ESORICS2025
   name: European Symposium on Research in Computer Security
   acronym: ESORICS 2025
@@ -1221,5 +1230,14 @@
   location: Bilbao, Spain
   startDate: "2025-06-11"
   endDate: "2025-06-13"
+
+- id: STM2025
+  name: 21st International Workshop on Security and Trust Management
+  acronym: STM 2025
+  url: https://www.nics.uma.es/stm2025/index.html
+  type: workshop
+  location: Toulouse, France
+  startDate: "2023-09-22"
+  endDate: "2023-09-26"
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)

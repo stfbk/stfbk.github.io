@@ -3,6 +3,25 @@ title: 1st International Workshop on Security and Risk in Identity Management (S
 menubar: SeRIM2025
 permalink: /events/SeRIM2025/
 image: /assets/areas/events/SeRIM2025/serim2025.jpg
+
+images:
+  - title: Flaminia Luccio
+    source: /assets/areas/events/SeRIM2025/pictures/Introduction_Luccio.jpg
+  - title: Ralf Küsters
+    source: /assets/areas/events/SeRIM2025/pictures/Keynote_Kuesters.jpg
+  - title: Abubakar-Sadiq Shehu
+    source: /assets/areas/events/SeRIM2025/pictures/Regular_Shehu.jpg
+  - title: Vitali Serzantov
+    source: /assets/areas/events/SeRIM2025/pictures/Regular_Serzantov.jpg
+  - title: Naheem Noah (remote presentation)
+    source: /assets/areas/events/SeRIM2025/pictures/Regular_Noah.jpg
+  - title: Luca Petrillo (remote presentation)
+    source: /assets/areas/events/SeRIM2025/pictures/Short_Petrillo.jpg
+  - title: Carmen Licciardi
+    source: /assets/areas/events/SeRIM2025/pictures/Short_Licciardi.jpg
+  - title: Group Picture
+    source: /assets/areas/events/SeRIM2025/pictures/GroupPicture.jpg
+
 ---
 
 <img class="image-centered" src="/assets/areas/events/SeRIM2025/serim2025.jpg" />
@@ -12,6 +31,7 @@ image: /assets/areas/events/SeRIM2025/serim2025.jpg
 </blockquote>
 
 # Recent News
+- **31/07/2025**: The event pictures have been published.
 - **09/07/2025**: [Speakers' slides](program) are now available.
 - **17/06/2025**: Further details on the [keynote](keynote) have been published.
 - **28/05/2025**: The workshop will be held in **Room 8B**.
