@@ -4,8 +4,6 @@
   link: /dissemination/
 - name: Events
   link: /events/
-- name: News
-  link: /news/
 - name: People
   link: /people/
   dropdown:
