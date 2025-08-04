@@ -8,29 +8,29 @@ funding: ICT EIT Labs
 
 partners:
     - name: Fondazione Bruno Kessler (FBK)
-      link: https://www.fbk.eu/en/
+      url: https://www.fbk.eu/en/
     - name: Poste Italiane
-      link: http://www.poste.it/
+      url: http://www.poste.it/
     - name: Intellium
-      link: http://www.intelliumgroup.com/
+      url: http://www.intelliumgroup.com/
     - name: QKey
-      link: https://www.qkeysecurity.com/
+      url: https://www.qkeysecurity.com/
     - name: Reply SpA
-      link: http://www.reply.it/en/
+      url: http://www.reply.it/en/
     - name: Politecnico di Torino
-      link: http://www.polito.it/?lang=en
+      url: http://www.polito.it/?lang=en
     - name: Eotvos University
-      link: http://www.elte.hu/en
+      url: http://www.elte.hu/en
     - name: Telecom Italia
-      link: http://www.telecomitalia.com/tit/en.html
+      url: http://www.telecomitalia.com/tit/en.html
     - name: TNO
-      link: https://www.tno.nl/en/
+      url: https://www.tno.nl/en/
     - name: Atos
-      link: http://atos.net/en-us/home.html
+      url: http://atos.net/en-us/home.html
     - name: DFKI
-      link: http://www.dfki.de/web/welcome?set_language=en&cl=en
+      url: http://www.dfki.de/web/welcome?set_language=en&cl=en
     - name: Eurodocs
-      link: http://www.eurodocs.net/
+      url: http://www.eurodocs.net/
 
 people:
     - FedericoSinigaglia
