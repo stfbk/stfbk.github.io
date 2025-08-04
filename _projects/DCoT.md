@@ -5,17 +5,16 @@ website: https://www.eitdigital.eu/fileadmin/files/2018/factsheets/digital-infra
 goals: Design and development of a blockchain-based service for notarised events and records, with a first application to logistics - providing a solution for tracking and tracing of parcels.
 partners:
   - name:                     Poste Italiane
-    detail:                   
-    link:                     https://www.posteitaliane.it/it/cyber-security-sostenibilita.html
+    url:                      https://www.posteitaliane.it/it/cyber-security-sostenibilita.html
   - name:                     Fraunhofer Gesellschaft
-    detail:                   AISEC - Institute for Applied and Integrated Security
-    link:                     https://www.aisec.fraunhofer.de/
+    description:              AISEC - Institute for Applied and Integrated Security
+    url:                      https://www.aisec.fraunhofer.de/
   - name:                     Engineering
-    detail:                   "IT service provider: systems integration, strategic consulting, and outsourcing. "
-    link:                     https://www.eng.it/en/case-studies/dcot-digital-chain-of-trust
+    description:              "IT service provider: systems integration, strategic consulting, and outsourcing. "
+    url:                      https://www.eng.it/en/case-studies/dcot-digital-chain-of-trust
   - name:                     Innopay
-    detail:                   A consultancy firm specialised in digital transactions.
-    link:                     https://www.innopay.com/
+    description:              A consultancy firm specialised in digital transactions.
+    url:                      https://www.innopay.com/
 people:
     - AlessandroTomasi
 ---
