@@ -10,13 +10,13 @@ funding: EIT ICT Labs
 
 partners:
     - name: Fondazione Bruno Kessler (FBK)
-      link: https://www.fbk.eu/en/
+      url: https://www.fbk.eu/en/
     - name: SAP AG
-      link: http://www.sap.com/index.html
+      url: http://www.sap.com/index.html
     - name: Reply SpA
-      link: http://www.reply.it/en/
+      url: http://www.reply.it/en/
     - name: DFKI
-      link: http://www.dfki.de/web/welcome?set_language=en&cl=en
+      url: http://www.dfki.de/web/welcome?set_language=en&cl=en
 
 people:
     - RobertoCarbone
