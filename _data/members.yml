@@ -19,7 +19,6 @@ current:
     - RiccardoGermenia
     - RiccardoZiglio
     - SalvatoreManfredi
-    - SimoneBrunello
     - TahirAhmad
     - UmbertoMorelli
     - ZahraEbadiAnsaroudi
@@ -159,6 +158,11 @@ former:
     - personId: ElhamArshad
       formerRole: Researcher
       yearFrom: 2023
+      yearTo: 2025
+
+    - personId: SimoneBrunello
+      formerRole: Research Assistant
+      yearFrom: 2024
       yearTo: 2025
 
   phdStudents:

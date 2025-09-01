@@ -1,5 +1,6 @@
 ---
 person: SimoneBrunello
+redirect_from: /people/simone-brunello
 
 links:
   - name: GitHub
