@@ -26,13 +26,6 @@ current:
   collaborators:
       
   students:
-    - personId: AndreaBissoli
-      type: B
-      topic: Enhancing Privacy Threat Modeling with Large Language Models
-      institution: University of Trento
-      yearFrom: 2024
-      yearTo: 2024
-
     - personId: FilippoGrilli
       type: M
       topic: Security Analysis of Identity Managament Protocols
@@ -466,6 +459,9 @@ former:
 
     - personId: NiccolòLechthaler
       thesisId: NiccolòLechthaler_B
+
+    - personId: AndreaBissoli
+      thesisId: AndreaBissoli_B
 
   junior:
     - personId: YuriTomasini
