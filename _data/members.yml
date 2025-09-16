@@ -28,14 +28,7 @@ current:
   students:
     - personId: FilippoGrilli
       type: M
-      topic: Security Analysis of Identity Managament Protocols
-      institution: University of Trento
-      yearFrom: 2025
-      yearTo: 2025
-
-    - personId: NizarNadif
-      type: B
-      topic: Context-free grammar for TLS validation
+      topic: Security Analysis of Identity Management Protocols
       institution: University of Trento
       yearFrom: 2025
       yearTo: 2025
@@ -462,6 +455,14 @@ former:
 
     - personId: AndreaBissoli
       thesisId: AndreaBissoli_B
+
+    - personId: NizarNadif
+      type: B
+      topic: Context-free grammar for TLS validation
+      institution: University of Trento
+      yearFrom: 2025
+      yearTo: 2025
+      thesisId: NizarNadif_B
 
   junior:
     - personId: YuriTomasini

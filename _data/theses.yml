@@ -1060,3 +1060,14 @@
     - PietroDeMatteis
   year: 2025
   institution: University of Trento
+
+- id: NizarNadif_B
+  title: "Validating TLS Implementations via Bytestream Parsing - A Context-Free Language Approach"
+  type: B
+  author: NizarNadif
+  supervisor: SilvioRanise
+  co-supervisor:
+    - SalvatoreManfredi
+    - RiccardoGermenia
+  year: 2025
+  institution: University of Trento
