@@ -2353,8 +2353,8 @@
   urlNews: /news/2025/07/14/paper-accepted-at-espre-2025/
 
 - id: IWBF2025
-  id_iris: 360887
-  title: "Spotting tell-tale visual artifacts in face swapping videos: strengths and pitfalls of CNN detectors"
+  id_iris: 362127
+  title: "Spotting Tell-Tale Visual Artifacts in Face Swapping Videos: Strengths and Pitfalls of CNN Detectors"
   authors:
     - RiccardoZiglio
     - CeciliaPasquini
@@ -2363,7 +2363,7 @@
     Face swapping manipulations in video streams represents an increasing threat in remote video communications, due to advances in automated and real-time tools. Recent literature proposes to characterize and exploit visual artifacts introduced in video frames by swapping algorithms when dealing with challenging physical scenes, such as face occlusions. This paper investigates the effectiveness of this approach by benchmarking CNN-based data-driven models on two data corpora (including a newly collected one) and analyzing generalization capabilities with respect to different acquisition sources and swapping algorithms. The results confirm excellent performance of general-purpose CNN architectures when operating within the same data source, but a significant difficulty in robustly characterizing occlusion-based visual cues across datasets. This highlights the need for specialized detection strategies to deal with such artifacts.
   destination: IWBF2025
   year: 2025
-  doi:
+  doi: 10.1109/IWBF63717.2025.11113429
   urlNews: /news/2025/02/28/paper-accepted-at-iwbf-2025/
 
 - id: IWPE2025

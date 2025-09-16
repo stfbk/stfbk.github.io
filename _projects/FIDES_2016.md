@@ -8,15 +8,15 @@ funding: ICT EIT Labs
 
 partners:
     - name: Atos
-      link: http://atos.net/en-us/home.html
+      url: http://atos.net/en-us/home.html
     - name: Fondazione Bruno Kessler (FBK)
-      link: https://www.fbk.eu/en/
+      url: https://www.fbk.eu/en/
     - name: Reply SpA
-      link: http://www.reply.it/en/
+      url: http://www.reply.it/en/
     - name: Poste Italiane
-      link: http://www.poste.it/
+      url: http://www.poste.it/
     - name: TNO
-      link: https://www.tno.nl/en/
+      url: https://www.tno.nl/en/
 
 people:
     - AndreaBisegna

@@ -8,17 +8,17 @@ funding: EIT Digital innovation and entrepreneurial education organisation under
 
 partners:
     - name: Fondazione Bruno Kessler (FBK)
-      link: https://www.fbk.eu/en/
-      detail: leader of the API Assistant Innovation Activity, responsible also for identity management within the project
+      url: https://www.fbk.eu/en/
+      description: leader of the API Assistant Innovation Activity, responsible also for identity management within the project
     - name: GFT Technologies
-      link: https://www.gft.com/int/en/index
-      detail: business champion and system integrator
+      url: https://www.gft.com/int/en/index
+      description: business champion and system integrator
     - name: Technical University of Berlin
-      link: http://www.tu-berlin.de/menue/home/parameter/en/
-      detail: code analysis and security analysis of API usage
+      url: http://www.tu-berlin.de/menue/home/parameter/en/
+      description: code analysis and security analysis of API usage
     - name: Poste Italiane
-      link: https://www.poste.it/
-      detail: fintech business case with an app developed using the API Assistant
+      url: https://www.poste.it/
+      description: fintech business case with an app developed using the API Assistant
 
 people:
     - AmirSharif
