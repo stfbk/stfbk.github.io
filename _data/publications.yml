@@ -38,6 +38,32 @@
   doi: 10.1145/3712289
 
 
+- id: iris_2025_d935bd42dcb5b0d492bf
+  id_iris: 362587,
+  title: "From Edge to Cloud: Securing Distributed Containerized Applications"
+  authors:
+    - LucaVerderame
+    - GiorgiaBolognesi
+    - EnricoPezzano
+    - MassimilianoRak
+    - AlbertoFalcone
+    - GiacomoBenedetti
+    - MassimoGuarascio
+    - LucaCaviglione
+    - RobertoCarbone
+    - RobertoDoriguzziCorin
+    - MaurizioGiacobbe
+    - GiovanniMerlino
+    - AntonioPuliafito
+    - MassimilianoBaldo
+    - MarinoMiculan
+    - VincenzoRiccio
+    - MassimoFicco
+  destination: procofthe2025ieeeeuropeansymposiumonsecurityandprivacyworkshopseurospw
+  year: 2025
+  doi: 10.1109/eurospw67616.2025.00077
+
+
 - id: iris_2025_ae7f26c66ae3e3f3395b
   id_iris: 361307,
   title: "Carbon-Aware Spatio-Temporal Workload Shifting in Edge–Cloud Environments: A Review and Novel Algorithm"

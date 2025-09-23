@@ -559,6 +559,10 @@
   name:  Alaa
   surname: Alloush
 
+- id: AlbertoFalcone
+  name:  Alberto
+  surname: Falcone
+
 - id: AlbertoMozo
   name:  Alberto
   surname: Mozo
@@ -666,6 +670,10 @@
 - id: AntonioPastor
   name:  Antonio
   surname: Pastor
+
+- id: AntonioPuliafito
+  name:  Antonio
+  surname: Puliafito
 
 - id: AntonioSkarmeta
   name:  Antonio
@@ -923,6 +931,10 @@
   name:  Elisa
   surname: Albanese
 
+- id: EnricoPezzano
+  name:  Enrico
+  surname: Pezzano
+
 - id: F.Cugini
   name:  F.
   surname: Cugini
@@ -1059,6 +1071,10 @@
   name:  Gerstel
   surname: Ori
 
+- id: GiacomoBenedetti
+  name:  Giacomo
+  surname: Benedetti
+
 - id: GiacomoVerticale
   name:  Giacomo
   surname: Verticale
@@ -1083,9 +1099,17 @@
   name: Gianni
   surname: Antichi
 
+- id: GiorgiaBolognesi
+  name:  Giorgia
+  surname: Bolognesi
+
 - id: GiovanniMartinelli
   name:  Giovanni
   surname: Martinelli
+
+- id: GiovanniMerlino
+  name:  Giovanni
+  surname: Merlino
 
 - id: GiovanniRussello
   name:  Giovanni
@@ -1415,6 +1439,10 @@
   name:  Luca
   surname: Capra
 
+- id: LucaCaviglione
+  name:  Luca
+  surname: Caviglione
+
 - id: LucaCernuzzi
   name:  Luca
   surname: Cernuzzi
@@ -1426,6 +1454,10 @@
 - id: LucaMottola
   name:  Luca
   surname: Mottola
+
+- id: LucaVerderame
+  name:  Luca
+  surname: Verderame
 
 - id: LucaZuanazzi
   name:  Luca
@@ -1523,6 +1555,10 @@
   name:  Marianna
   surname: Angelou
 
+- id: MarinoMiculan
+  name:  Marino
+  surname: Miculan
+
 - id: MarkPurcell
   name:  Mark
   surname: Purcell
@@ -1530,6 +1566,22 @@
 - id: MartenssonJonas
   name:  Mårtensson
   surname: Jonas
+
+- id: MassimilianoBaldo
+  name:  Massimiliano
+  surname: Baldo
+
+- id: MassimilianoRak
+  name:  Massimiliano
+  surname: Rak
+
+- id: MassimoFicco
+  name:  Massimo
+  surname: Ficco
+
+- id: MassimoGuarascio
+  name:  Massimo
+  surname: Guarascio
 
 - id: MassimoPescalli
   name:  Massimo
@@ -1550,6 +1602,10 @@
 - id: MatthiasFinkbeiner
   name:  Matthias
   surname: Finkbeiner
+
+- id: MaurizioGiacobbe
+  name:  Maurizio
+  surname: Giacobbe
 
 - id: MauroCampanella
   name:  Mauro
@@ -2050,6 +2106,10 @@
 - id: VictorLopez
   name: Victor
   surname: Lopez
+
+- id: VincenzoRiccio
+  name:  Vincenzo
+  surname: Riccio
 
 - id: ViniciusGarcezSchaurich
   name:  Vinicius

@@ -597,6 +597,10 @@
   name: Photonics
   type: journal
 
+- id: procofthe2025ieeeeuropeansymposiumonsecurityandprivacyworkshopseurospw
+  name: Proc. of the 2025 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)
+  type: conference
+
 - id: procspie9009nextgenerationopticalcommunicationcomponentssubsystemsandsystemsiii
   name: Proc. Spie 9009, Next-generation Optical Communication Components, Sub-systems, and Systems Iii
   type: conference
