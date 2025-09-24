@@ -485,6 +485,11 @@
   surname: Abbiati
   email: giovanni.abbiati@unimi.it
 
+- id: GiulioBenedetti
+  name: Giulio
+  surname: Benedetti
+  usernameFBK: gbenedetti
+
 - id: GiulioPellizzari
   name: Giulio
   surname: Pellizzari
@@ -578,6 +583,11 @@
 - id: LorenzoNicolodi
   name: Lorenzo
   surname: Nicolodi
+
+- id: LorenzoStella
+  name: Lorenzo
+  surname: Stella
+  usernameFBK: lstella
   
 - id: LorenzoTait
   name: Lorenzo
@@ -1049,12 +1059,7 @@
 - id: SimoneBrunello
   name: Simone
   surname: Brunello
-  affiliations:
-    - role: Research Assistant
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: sbrunello@fbk.eu
+  usernameFBK: sbrunello
 
 - id: SofiaPuttin
   name: Sofia

@@ -10,14 +10,14 @@ website: http://www.secentis.eu/
 
 partners:
     - name: SAP Next Business and Technology (Security & Trust applied research department in Sophia-Antipolis)
-      link: http://scn.sap.com/docs/DOC-25949
-      detail: the world's leading provider of e-business software solutions
+      url: http://scn.sap.com/docs/DOC-25949
+      description: the world's leading provider of e-business software solutions
     - name: University of Trento
-      link: http://www.unitn.it/en
-      detail: associate partner
+      url: http://www.unitn.it/en
+      description: associate partner
     - name: Trento-RISE
-      link: http://www.trentorise.eu/
-      detail: associate partner
+      url: http://www.trentorise.eu/
+      description: associate partner
 
 people:
     - RobertoCarbone

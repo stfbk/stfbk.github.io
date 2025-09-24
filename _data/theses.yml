@@ -1014,10 +1014,20 @@
   year: 2024
   institution: University of Trento
 
-  # 2025
+# 2025
+- id: AndreaBissoli_B
+  title: "PILLAR: an LLM-based Privacy Threat Modeling Tool"
+  type: B
+  author: AndreaBissoli
+  supervisor: SilvioRanise
+  co-supervisor:
+    - MajidMollaeefar
+  year: 2025
+  institution: University of Trento
+
 - id: GiuseppeAlessioSciumè_M
   title: "An LLM Based Approach to the Automated Generation and Validation of Security Tests for National Digital Identity Solutions: The Case of SPID and CIE"
-  type: B
+  type: M
   author: GiuseppeAlessioSciumè
   supervisor: SilvioRanise
   co-supervisor:
@@ -1048,5 +1058,16 @@
     - AndreaBisegna
     - LauraCristiano
     - PietroDeMatteis
+  year: 2025
+  institution: University of Trento
+
+- id: NizarNadif_B
+  title: "Validating TLS Implementations via Bytestream Parsing - A Context-Free Language Approach"
+  type: B
+  author: NizarNadif
+  supervisor: SilvioRanise
+  co-supervisor:
+    - SalvatoreManfredi
+    - RiccardoGermenia
   year: 2025
   institution: University of Trento

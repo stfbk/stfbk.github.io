@@ -9,6 +9,8 @@ env:
 
 on:
   push:
+    branches:
+      - master
     paths:
       - '_data/destinations.yml'
       - '_data/members.yml'
