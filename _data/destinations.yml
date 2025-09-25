@@ -1219,8 +1219,8 @@
   url: https://nordsec2025.cs.ut.ee
   type: conference
   location: Tartu, Estonia
-  startDate: "2023-11-12"
-  endDate: "2023-11-13"
+  startDate: "2025-11-12"
+  endDate: "2025-11-13"
 
 - id: SECRYPT2025
   name: 22nd International Conference on Security and Cryptography
