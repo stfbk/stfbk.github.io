@@ -1,7 +1,7 @@
 ---
 title: Multi-entity Control-based Risk Assessment 
 subtitle: A European Digital Identity Wallet Use Case
-paper: ESORICS2025
+paper: NORDSEC2025
 
 people:
     - MajidMollaeefar
