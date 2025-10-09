@@ -2317,7 +2317,7 @@
   doi: 
 
 - id: NORDSEC2025
-  id_iris:
+  id_iris: 363247
   title: "Multi-entity Control-based Risk Assessment: A European Digital Identity Wallet Use Case"
   authors:
     - MajidMollaeefar
