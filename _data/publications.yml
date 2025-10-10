@@ -2367,7 +2367,7 @@
   urlNews: /news/2025/02/28/paper-accepted-at-iwbf-2025/
 
 - id: IWPE2025
-  id_iris:
+  id_iris: 362447
   title: "PILLAR: LINDDUN Privacy Threat Modeling using LLMs"
   authors:
     - MajidMollaeefar
