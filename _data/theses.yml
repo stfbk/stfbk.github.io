@@ -45,17 +45,6 @@
   year: 2024
   supervisor: RobertoDoriguzziCorin
 
-- id: MatteoBregola_B
-  author: MatteoBregola
-  type: B
-  title: Comprehensive Analysis of Breach and Attack Simulation Tools
-  year: 2024
-  supervisor: SilvioRanise
-  co-supervisor:
-    - PietroDeMatteis
-    - MatteoRizzi
-    - SalvatoreManfredi
-
 - id: GiacomoSegala_P
   author: GiacomoSegala
   type: P
