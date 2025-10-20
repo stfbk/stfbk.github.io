@@ -1,3 +1,11 @@
+- id: PetrSabel_M
+  author: PetrSabel
+  type: M
+  title: "Federated Learning in Cybersecurity Challenges of Non-IID and Unbalanced Data"
+  institution: University of Trento
+  year: 2025
+  supervisor: RobertoDoriguzziCorin
+
 - id: NicolaLovo_B
   author: NicolaLovo
   type: B
@@ -28,16 +36,6 @@
   supervisor: DomenicoSiracusa
   co-supervisor:
     - LuisAugustoDiasKnob
-
-- id: SimoneVigasio_B
-  author: SimoneVigasio
-  type: B
-  institution: University of Trento
-  year: 2024
-  title: "Evaluation of an AI Approach for Static Code Analysis Based on the VULBERTA Model"
-  supervisor: DomenicoSiracusa
-  co-supervisor:
-  - PietroDeMatteis
 
 - id: IrinaVoloshina_M
   author: IrinaVoloshina
