@@ -9,17 +9,6 @@
       unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-
-- id: AndreaZanardi
-  name: Andrea
-  surname: Zanardi
-  email: azanardi@fbk.eu
-  phone: "+390461312450"
-  affiliations:
-    - role: Developer
-      unit: Distributed AI for dependable cyberSecuritY
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
   
 - id: ClaudioFacchinetti
   name: Claudio
@@ -51,17 +40,6 @@
   email: hbeckerbrum@fbk.eu
   affiliations:
     - role: PhD Student
-      unit: Distributed AI for dependable cyberSecuritY
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  
-- id: LorenzoGalvagni
-  name: Lorenzo
-  surname: Galvagni
-  email: lgalvagni@fbk.eu
-  phone: "+390461312427"
-  affiliations:
-    - role: Developer
       unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -160,26 +138,6 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   
-- id: ValentinoArmani
-  name: Valentino
-  surname: Armani
-  email: varmani@fbk.eu
-  affiliations:
-    - role: Developer 
-      unit: Distributed AI for dependable cyberSecuritY
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-
-- id: GiancarloVallazza
-  name: Giancarlo
-  surname: Vallazza
-  email: gvallazza@fbk.eu
-  affiliations:
-    - role: Developer
-      unit: Distributed AI for dependable cyberSecuritY
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  
 - id: MarceloDarioRodasBritez
   name: Marcelo Darío
   surname: Rodas Britez
@@ -249,6 +207,22 @@
 - id: SalvatoreManfredi
   name: Salvatore
   surname: Manfredi
+
+- id: AndreaZanardi
+  name: Andrea
+  surname: Zanardi
+
+- id: LorenzoGalvagni
+  name: Lorenzo
+  surname: Galvagni
+
+- id: ValentinoArmani
+  name: Valentino
+  surname: Armani
+
+- id: GiancarloVallazza
+  name: Giancarlo
+  surname: Vallazza
 
 # Interns
 
