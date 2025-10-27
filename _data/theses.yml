@@ -1025,6 +1025,17 @@
   year: 2025
   institution: University of Trento
 
+- id: FilippoGrilli_M
+  title: "Security Analysis of a Protocol for Authenticated Session Transfer in Digital Ecosystems: Integration of HTTP Message Signatures and User Binding"
+  type: M
+  author: FilippoGrilli
+  supervisor: SilvioRanise
+  co-supervisor:
+    - GiadaSciarretta
+    - MarcoPernpruner
+  year: 2025
+  institution: University of Trento
+
 - id: GiuseppeAlessioSciumè_M
   title: "An LLM Based Approach to the Automated Generation and Validation of Security Tests for National Digital Identity Solutions: The Case of SPID and CIE"
   type: M
