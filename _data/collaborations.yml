@@ -3,21 +3,24 @@
   acronym: IPZS
   startYear: 2017
   description: Identity managements solutions with the Italian electronic identity card (CIE 3.0)
-  internalUrl: /collaborations/IPZS
-  officialUrl: https://www.ipzs.it/ext/index.html
+  url:
+    unit: /collaborations/IPZS
+    external: https://www.ipzs.it/ext/index.html
 
 - id: CherryChain
   name: CherryChain
   startYear: 2019
   endYear: 2021
   description: Enrollment and attribute provisioning for Distributed Ledger Technologies
-  internalUrl: /collaborations/CherryChain
-  officialUrl: https://www.cherrychain.it/
   logo: CherryChain.png
+  url:
+    unit: /collaborations/CherryChain
+    external: https://www.cherrychain.it/
 
 - id: CassaCentraleBanca
   name: Cassa Centrale Banca
   startYear: 2021
   description: Aiming at the development of an innovative program in Cyber Threat Intelligence to further consolidate the Group's IT security control
-  internalUrl: /collaborations/CassaCentraleBanca
-  externalUrl: https://www.cassacentrale.it/
+  url:
+    unit: /collaborations/CassaCentraleBanca
+    external: https://www.cassacentrale.it/

@@ -15,6 +15,7 @@ publications:
     - ETAA2021_MIG
     - EUROSP2024
     - IEEE_SP2024
+    - DevSecOpsRO2025
 
 theses:
     - GiulioPellizzari_B
