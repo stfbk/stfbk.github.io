@@ -1186,23 +1186,14 @@
   startDate: "2025-07-04"
   endDate: "2025-07-04"
 
-- id: ESORICS2025
-  name: European Symposium on Research in Computer Security
-  acronym: ESORICS 2025
-  url: https://esorics2025.sciencesconf.org
-  type: conference
-  location: Toulouse, France
-  startDate: "2023-09-22"
-  endDate: "2023-09-26"
-
 - id: ESPRE2025
   name: 12th International Workshop on Evolving Security & Privacy Requirements Engineering
   acronym: ESPRE 2025
   url: https://cybersecurity.bournemouth.ac.uk/espre2025/
   type: workshop
   location: Valencia, Spain
-  startDate: "2023-09-01"
-  endDate: "2023-09-05"
+  startDate: "2025-09-01"
+  endDate: "2025-09-05"
 
 - id: IWBF2025
   name: 13th International Workshop on Biometrics and Forensics
@@ -1222,6 +1213,15 @@
   startDate: "2025-06-30"
   endDate: "2025-06-30"
 
+- id: NORDSEC2025
+  name: Nordic Conference on Secure IT Systems
+  acronym: NORDSEC 2025
+  url: https://nordsec2025.cs.ut.ee
+  type: conference
+  location: Tartu, Estonia
+  startDate: "2025-11-12"
+  endDate: "2025-11-13"
+
 - id: SECRYPT2025
   name: 22nd International Conference on Security and Cryptography
   acronym: SECRYPT 2025
@@ -1230,6 +1230,15 @@
   location: Bilbao, Spain
   startDate: "2025-06-11"
   endDate: "2025-06-13"
+
+- id: SSR2025
+  name: 10th International Conference on Security Standardisation Research
+  acronym: SSR 2025
+  url: https://www.uni-passau.de/ssr2025
+  type: conference
+  location: Passau, Germany
+  startDate: "2025-12-04"
+  endDate: "2025-12-05"  
 
 - id: STM2025
   name: 21st International Workshop on Security and Trust Management

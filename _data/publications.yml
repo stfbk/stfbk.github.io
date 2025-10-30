@@ -1681,7 +1681,6 @@
   destination: SECRYPT2021
   year: 2021
   urlComplementary: /complementary/SECRYPT2021
-  urlNews: 
   doi: 10.5220/0010554502220233
 
 - id: SECRYPT2021_2
@@ -2249,8 +2248,8 @@
   year: 2025
   doi: 
 
-- id: ESORICS2025
-  id_iris:
+- id: NORDSEC2025
+  id_iris: 363247
   title: "Multi-entity Control-based Risk Assessment: A European Digital Identity Wallet Use Case"
   authors:
     - MajidMollaeefar
@@ -2261,7 +2260,7 @@
     - SilvioRanise
   abstract: >
     European digital identity wallets have emerged as user-centric solutions for securely storing and managing sensitive credentials in compliance with the revised regulation on electronic Identification, Authentication, and Trust Services (eIDAS 2.0). Despite their growing adoption, both eIDAS 2.0 and its accompanying Architecture Reference Framework fall short of providing a comprehensive risk assessment. While they identify a broad range of potential risks, they do not offer systematic methods for prioritizing the threats that have the greatest impact on users. In addition, existing risk assessment frameworks for digital identity wallets tend to focus solely on threat modeling without quantifying risk severity or assume a centralized control model by attributing mitigation responsibilities to a single entity in the ecosystem. In reality, effective risk mitigation in digital identity wallet ecosystems hinges on cross-entity collaboration. To address these limitations, we introduce DIWAR (Digital Identity Wallet Analysis and Risk Assessment), a control-based methodology that integrates DREAD factors with entity-specific control attribution and implementation-level granularity. DIWAR quantitatively scores threats based on the five DREAD factors and then prescribes targeted mitigations that align with the defined responsibilities of the entities within the ecosystem. Our approach supports both entity-specific and system-wide evaluations, enabling actionable prioritization of security and privacy controls under varying implementation scenarios. A case study of the Italian EUDI Wallet ecosystem demonstrates how DIWAR bridges theoretical risk modeling with operational decision-making, ultimately enhancing the resilience of digital identity wallet systems.
-  destination: ESORICS2025
+  destination: NORDSEC2025
   year: 2025
   doi:
 
@@ -2285,8 +2284,8 @@
   doi:
 
 - id: IWBF2025
-  id_iris: 360887
-  title: "Spotting tell-tale visual artifacts in face swapping videos: strengths and pitfalls of CNN detectors"
+  id_iris: 362127
+  title: "Spotting Tell-Tale Visual Artifacts in Face Swapping Videos: Strengths and Pitfalls of CNN Detectors"
   authors:
     - RiccardoZiglio
     - CeciliaPasquini
@@ -2295,10 +2294,10 @@
     Face swapping manipulations in video streams represents an increasing threat in remote video communications, due to advances in automated and real-time tools. Recent literature proposes to characterize and exploit visual artifacts introduced in video frames by swapping algorithms when dealing with challenging physical scenes, such as face occlusions. This paper investigates the effectiveness of this approach by benchmarking CNN-based data-driven models on two data corpora (including a newly collected one) and analyzing generalization capabilities with respect to different acquisition sources and swapping algorithms. The results confirm excellent performance of general-purpose CNN architectures when operating within the same data source, but a significant difficulty in robustly characterizing occlusion-based visual cues across datasets. This highlights the need for specialized detection strategies to deal with such artifacts.
   destination: IWBF2025
   year: 2025
-  doi:
+  doi: 10.1109/IWBF63717.2025.11113429
 
 - id: IWPE2025
-  id_iris:
+  id_iris: 362447
   title: "PILLAR: LINDDUN Privacy Threat Modeling using LLMs"
   authors:
     - MajidMollaeefar
@@ -2355,6 +2354,21 @@
   destination: SECRYPT2025
   year: 2025
   doi:
+
+- id: SSR2025_DCAPI
+  id_iris: 363967
+  title: "A Threat Model for the W3C Digital Credentials API: An Initial Analysis"
+  authors:
+    - ZahraEbadiAnsaroudi
+    - AmirSharif
+    - GiadaSciarretta
+    - SimoneOnofri
+    - SilvioRanise
+  abstract: >
+    Accessing online services requires users to choose from a growing set of identity providers, including social logins (e.g., Google, Facebook), national eID providers (e.g., CIE, BundID), and recently, under the revised electronic Identification, Authentication and Trust Services regulation (eIDAS 2.0), “Log in with Digital Wallet”. In self sovereign identity settings, this choice worsens the “NASCAR problem”: users must select among many wallets, while relying parties face significant integration and maintenance costs. The W3C Digital Credentials API shifts selection from the wallet to the specific credential required by the relying parties, enabling a simpler and more interoperable user journey. To achieve this, the API mediates requests and responses through both web and operating system interfaces. Yet this multi-party, cross layer architecture, which spans user agents, operating systems, and wallets, expands the attack surface. This paper presents a preliminary threat model for the Digital Credentials API to identify and mitigate potential threats, thereby supporting a secure, privacy preserving, and interoperable self sovereign identity ecosystem.
+  destination: SSR2025
+  year: 2025
+  doi: 
 
 - id: STM2025
   id_iris: 361667

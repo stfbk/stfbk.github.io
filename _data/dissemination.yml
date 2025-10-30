@@ -506,4 +506,17 @@
     - name: Event
       url: https://globaldigitalcollaboration.org/
 
+- id: GARRSEC2025
+  title: OIDC 1.0 and OAuth 2.0 Security
+  participants:
+    - AmirSharif
+    - GiadaSciarretta
+  eventName: GARR Security Days
+  startDate: "2025-10-06"
+  endDate: "2025-10-07"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://securitydays25.garr.it
+
 # PLEASE KEEP CHRONOLOGICAL ORDER BY START DATE WITHIN YEARS
