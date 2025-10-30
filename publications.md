@@ -2,9 +2,6 @@
 title: Publications
 layout: page
 permalink: /publications/
-sort_by: id_iris
-sort_natural: false
-sort_reverse: true
 ---
 
 <div class="columns is-multiline collaborations">

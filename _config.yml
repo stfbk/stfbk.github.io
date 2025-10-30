@@ -112,23 +112,6 @@ defaults:
       layout: news
 
   - scope:
-      path: "_news/*-paper*-accepted-*"
-    values:
-      layout: news-accepted-paper
-      tags: [papers]
-
-  - scope:
-      path: "_news/*seminar*"
-    values:
-      layout: news-seminar
-      tags: [seminars]
-      
-  - scope:
-      path: "_news/*award*"
-    values:
-      tags: [awards]
-
-  - scope:
       path: "_people/*-*"
     values:
       layout: person
