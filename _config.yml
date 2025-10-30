@@ -63,10 +63,6 @@ collections:
   events:
     output: true
     layout: page
-  news:
-    output: true
-    layout: news
-    permalink: /news/:year/:month/:day/:title/
   people:
     output: true
     layout: page
@@ -104,28 +100,6 @@ defaults:
       type: events
     values:
       layout: page
-
-  - scope:
-      type: news
-    values:
-      layout: news
-
-  - scope:
-      path: "_news/*-paper*-accepted-*"
-    values:
-      layout: news-accepted-paper
-      tags: [papers]
-
-  - scope:
-      path: "_news/*seminar*"
-    values:
-      layout: news-seminar
-      tags: [seminars]
-      
-  - scope:
-      path: "_news/*award*"
-    values:
-      tags: [awards]
 
   - scope:
       path: "_people/*-*"

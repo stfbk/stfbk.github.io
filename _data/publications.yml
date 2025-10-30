@@ -432,7 +432,6 @@
   destination: FroCoS2013
   year: 2013
   doi: 10.1007/978-3-642-40885-4_4
-  urlNews: /news/2013/06/06/paper-accepted-at-frocos-2013/
 
 - id: FPS2013
   id_iris: 226615
@@ -447,7 +446,6 @@
   destination: FPS2013
   year: 2013
   doi: 10.1007/978-3-319-05302-8_14
-  urlNews: /news/2013/08/27/paper-accepted-at-fps2013/
 
 - id: ICITST2013
   id_iris: 222616
@@ -500,7 +498,6 @@
     - AntoninoSabetta
   destination: CSET2014
   year: 2014
-  urlNews: /news/2014/06/09/paper-accepted-at-cset14/
 
 - id: DBSec2014
   id_iris: 226015
@@ -541,7 +538,6 @@
   destination: NOMS2014
   year: 2014
   doi: 10.1109/NOMS.2014.6838319
-  urlNews: /news/2013/11/05/paper-accepted-at-noms-2014/
 
 - id: SACMAT2014_ABAC
   id_iris: 226218
@@ -556,7 +552,6 @@
   destination: SACMAT2014
   year: 2014
   doi: 10.1145/2613087.2613109
-  urlNews: /news/2014/05/20/papers-accepted-at-sacmat-2014/
 
 - id: SACMAT2014_RBAC
   id_iris: 226016
@@ -570,7 +565,6 @@
   destination: SACMAT2014
   year: 2014
   doi: 10.1145/2613087.2613102
-  urlNews: /news/2014/05/20/papers-accepted-at-sacmat-2014/
 
 - id: SmartGridSec14
   id_iris: 251631
@@ -588,7 +582,6 @@
   destination: SmartGridSec14
   year: 2014
   doi: 10.1007/978-3-319-10329-7_4
-  urlNews: /news/2014/02/19/paper-accepted-at-workshop-on-smart-grid-security/
 
 - id: STM2014
   id_iris: 251431
@@ -640,7 +633,6 @@
   destination: ASIACCS2015
   year: 2015
   doi: 10.1145/2714576.2714633
-  urlNews: /news/2015/04/01/paper-accepted-at-asiaccs-2015/
 
 - id: CNS2015
   id_iris: 303740
@@ -665,7 +657,6 @@
   destination: DBSec2015
   year: 2015
   doi: 10.1007/978-3-319-20810-7_6
-  urlNews: /news/2015/04/21/paper-accepted-at-dbsec-2015/
 
 - id: MIST2015
   id_iris: 303716
@@ -682,7 +673,6 @@
   destination: DBSec2015
   year: 2015
   doi: 10.1007/978-3-319-20810-7_6
-  urlNews: /news/2015/04/21/paper-accepted-at-dbsec-2015/
 
 - id: POST2015
   id_iris: 303746
@@ -756,7 +746,6 @@
     - AndersonSantanaDeOliveira
   destination: TaPP2015
   year: 2015
-  urlNews: /news/2015/06/05/paper-accepted-at-tapp-2015/
 
 ## 2016
 - id: ABAC2016
@@ -770,7 +759,6 @@
   destination: ABAC2016
   year: 2016
   doi: 10.1145/2875491.2875493
-  urlNews: /news/2016/01/11/paper-accepted-at-abac-2016/
 
 - id: ESSoS2016
   id_iris: 307090
@@ -784,7 +772,6 @@
   destination: ESSoS2016
   year: 2016
   doi: 10.1007/978-3-319-30806-7_12
-  urlNews: /news/2016/02/16/paper-accepted-at-essos-2016/
 
 - id: FDSE2016
   id_iris: 307039
@@ -810,7 +797,6 @@
     The advent of Software-as-a-Service (SaaS) has led to the development of multi-party web applications (MPWAs). MPWAs rely on core trusted third-party systems (e.g., payment servers, identity providers) and protocols such as Cashier-as-aService (CaaS), Single Sign-On (SSO) to deliver business services to users. Motivated by the large number of attacks discovered against MPWAs and by the lack of a single general-purpose application-agnostic technique to support their discovery, we propose an automatic technique based on attack patterns for black-box, security testing of MPWAs. Our approach stems from the observation that attacks against popular MPWAs share a number of similarities, even if the underlying protocols and services are different. In this paper, we target six different replay attacks, a login CSRF attack and a persistent XSS attack. Firstly, we propose a methodology in which security experts can create attack patterns from known attacks. Secondly, we present a security testing framework that leverages attack patterns to automatically generate test cases for testing the security of MPWAs. We implemented our ideas on top of OWASP ZAP (a popular, open-source penetration testing tool), created seven attack patterns that correspond to thirteen prominent attacks from the literature and discovered twenty one previously unknown vulnerabilities in prominent MPWAs (e.g., twitter.com, developer.linkedin.com, pinterest.com), including MPWAs that do not belong to SSO and CaaS families.
   destination: NDSS2016
   year: 2016
-  urlNews: /news/2015/10/23/paper-accepted-at-ndss-2016/
 
 - id: RTSI2016
   id_iris: 313241
@@ -851,7 +837,6 @@
   destination: SECRYPT2016
   year: 2016
   doi: 10.5220/0005969001470158
-  urlNews: /news/2016/06/16/paper-accepted-at-secrypt-2016/
 
 - id: STTT2016
   id_iris: 307037
@@ -940,7 +925,6 @@
   destination: EUROSP2017
   year: 2017
   doi: 10.1109/EuroSP.2017.45
-  urlNews: /news/2017/10/17/paper-accepted-at-eurosp-2017/
 
 - id: IFIPSEC2017
   id_iris: 313224
@@ -953,7 +937,6 @@
   destination: IFIPSEC2017
   year: 2017
   doi: 10.1007/978-3-319-58469-0_20
-  urlNews: /news/2017/06/15/paper-accepted-at-ifipsec-2017/
 
 - id: JCS2017
   id_iris: 313204
@@ -994,7 +977,7 @@
   destination: SAFECOMP2017
   year: 2017
   doi: 10.1007/978-3-319-66284-8_30
-  
+
 - id: SECRYPT2017
   id_iris: 313202
   title: "Strong Authentication for e-Banking: a Survey on European Regulations and Implementations"
@@ -1007,7 +990,6 @@
   destination: SECRYPT2017
   year: 2017
   doi: 10.5220/0006438504800485
-  urlNews: /news/2017/06/15/paper-accepted-at-secrypt-2017/
 
 - id: SEFM2017
   id_iris: 313228
@@ -1062,7 +1044,6 @@
   destination: FPS2018
   year: 2018
   doi: 10.1007/978-3-030-18419-3_9
-  urlNews: /news/2018/10/11/paper-accepted-at-fps-2018/
 
 - id: JCS2018
   id_iris: 316172
@@ -1101,7 +1082,6 @@
   destination: POST2018
   year: 2018
   doi: 10.1007/978-3-319-89722-6_8
-  urlNews: /news/2018/01/25/paper-accepted-at-post-2018/
 
 - id: SACMAT2018
   id_iris: 316176
@@ -1116,7 +1096,6 @@
   destination: SACMAT2018
   year: 2018
   doi: 10.1145/3205977.3205989
-  urlNews: /news/2018/04/02/paper-accepted-at-sacmat-2018/
 
 - id: SACMAT2018_Satisfiability
   id_iris: 316174
@@ -1178,7 +1157,6 @@
   destination: MSTEC2019
   year: 2019
   doi: 10.1007/978-3-030-42051-2_10
-  urlNews: /news/2019/08/06/paper-accepted-at-mstec-2019/
 
 - id: IEEESERVICES2019
   id_iris: 320696
@@ -1194,7 +1172,6 @@
   destination: IEEESERVICES2019
   year: 2019
   doi: 10.1109/SERVICES.2019.00023
-  urlNews: /news/2019/05/04/paper-accepted-at-ieee-services-2019/
 
 - id: DBSec2019_TLSA
   id_iris: 320466
@@ -1209,7 +1186,6 @@
   destinationAddon: vol. 11559, pp. 201-220
   year: 2019
   doi: 10.1007/978-3-030-22479-0_11
-  urlNews: /news/2019/04/15/paper-accepted-at-dbsec-2019/
 
 - id: ETAA2019_MuFASA
   id_iris: 325074
@@ -1226,7 +1202,6 @@
   year: 2019
   doi: 10.1007/978-3-030-39749-4_9
   urlComplementary: /tools/MuFASA
-  urlNews: /news/2019/07/30/paper-accepted-at-etaa-2019/
 
 - id: FPS2019
   id_iris: 324208
@@ -1238,7 +1213,6 @@
   destination: FPS2019
   year: 2019
   doi: 10.1007/978-3-030-45371-8_10
-  urlNews: /news/2019/10/01/paper-accepted-at-fps-2019/
 
 - id: GCIoT2019
   id_iris: 325066
@@ -1289,7 +1263,6 @@
   destination: SECRYPT2019
   year: 2019
   doi: 10.5220/0007932202760283
-  urlNews: /news/2019/05/02/papers-accepted-at-secrypt-2019/
 
 - id: SECRYPT2019_SSO
   id_iris: 319672
@@ -1305,7 +1278,6 @@
   year: 2019
   doi: 10.5220/0007930502680275
   urlComplementary: /complementary/SECRYPT2019_SSO
-  urlNews: /news/2019/05/02/papers-accepted-at-secrypt-2019/
 
 - id: STM2019
   id_iris: 320526
@@ -1321,7 +1293,6 @@
   destination: STM2019
   year: 2019
   doi: 10.1007/978-3-030-31511-5_2
-  urlNews: /news/2019/07/25/paper-accepted-at-stm-2019/
 
 ## 2020
 - id: 5GWF20
@@ -1339,7 +1310,6 @@
     The increasing demand for cooperative, connected, and automated mobility (CCAM) services should proceed at the same pace with the enforcement of security mechanisms that would make CCAM services secure. The first contribution of this paper resides in a review of the ongoing regulatory and standardization activities related to cybersecurity of autonomous vehicles. Then, referring to the ongoing piloting activities funded by the European Union, we focus on the security threats for back-situation awareness (BSA), i.e., a safety-related CCAM service dealing with emergency scenarios. We propose a practical strong authentication method for BSA, and extensively discuss how existing standards can mitigate the security threats of this prominent CCAM service.
   destination: 5GWF20
   year: 2020
-  urlNews: /news/2020/07/20/paper-accepted-at-5GWF20/
 
 - id: AHN2020
   id_iris: 323806
@@ -1369,7 +1339,6 @@
   year: 2020
   doi: 10.1145/3320269.3384767
   urlComplementary: /complementary/ASIACCS2020
-  urlNews: /news/2020/02/15/paper-accepted-at-asiaccs-2020/
 
 - id: CODASPY2020_PN
   id_iris: 321325
@@ -1385,7 +1354,6 @@
   year: 2020
   doi: 10.1145/3374664.3375727
   urlComplementary: /complementary/CODASPY2020
-  urlNews: /news/2019/12/01/paper-accepted-at-codaspy-2020/
 
 - id: COSE2020_MFA
   title: "A Survey on Multi-Factor Authentication for Online Banking in the Wild"
@@ -1400,7 +1368,6 @@
   year: 2020
   doi: 10.1016/j.cose.2020.101745
   urlComplementary: https://mfa-team.github.io/
-  urlNews: /news/2020/02/02/paper-accepted-at-cose/
 
 - id: CPS4CIP2020_TLS
   id_iris: 324801
@@ -1428,7 +1395,7 @@
   abstract: >
     We investigate the combined use of eIDAS-based electronic identity and Verifiable Credentials for remote onboarding and contracting, and provide a proof-of-concept implementation based on SAML authentication. The main non-trivial value derived from this proposal is a higher degree of assurance in the contract offering phase for the Contracting Service Provider.
   year: 2020
-  doi: 10.1007/978-3-030-66504-3_8 
+  doi: 10.1007/978-3-030-66504-3_8
 
 - id: ETAA2020_MIG
   id_iris: 325778
@@ -1468,7 +1435,6 @@
   destination: ICTSecurityMagazine
   year: 2020
   url: https://www.ictsecuritymagazine.com/articoli/tlsassistant-uno-strumento-per-mitigare-i-problemi-di-sicurezza-di-tls/
-  urlNews: /news/2020/06/03/article-published-on-ict-security-magazine/
 
 - id: ITASEC2020_OIC
   title: Automated Secure Code Generation for OpenID Connect iGov Profile in Mobile Native Applications
@@ -1479,7 +1445,6 @@
     - GiadaSciarretta
   destination: ITASEC2020
   year: 2020
-  urlNews: /news/2020/01/07/papers-accepted-at-itasec-2020/
 
 - id: ITASEC2020_PP
   title: "Pull Printing with National eID Cards: An Open-source and Software-oriented Implementation"
@@ -1492,7 +1457,6 @@
     Pull printing is the set of technologies and processes that allow print jobs to be released according to specific conditions; typically user authentication and proximity to a printer. In this paper, we propose an open-source and software-oriented pull printing infrastructure that use a cloud print orchestrator and leverages the OpenID Connect protocol and the Italian electronic identity card to protect user prints with a second-factor authentication. Our goal is to prevent print-related data breaches and tackle the challenges that hinder the widespread adoption of more secure printing solutions: costs and user experience.
   destination: ITASEC2020
   year: 2020
-  urlNews: /news/2020/01/07/papers-accepted-at-itasec-2020/
   
 - id: JISA2020
   id_iris: 321185
@@ -1505,7 +1469,6 @@
   destination: JISA
   year: 2020
   doi: 10.1016/j.jisa.2020.102463
-  urlNews: /news/2020/01/29/paper-accepted-at-jisa/
 
 - id: SACMAT2020
   id_iris: 325002
@@ -1520,7 +1483,6 @@
     We discuss the trade-off between security and performance that may help IoT designers choose the most suitable architecture supporting their requirements.
   destination: SACMAT2020
   year: 2020
-  urlNews: /news/2020/04/08/paper-accepted-at-sacmat-2020/
 
 - id: SecAssAPIFinancial_book_2020
   id_iris: 325801
@@ -1580,7 +1542,6 @@
   year: 2020
   doi: 10.1145/3386685
   urlComplementary: /complementary/TOPS2020
-  urlNews: /news/2020/03/12/paper-accepted-at-tops/
 
 - id: TOPS2020_2
   id_iris: 329068
@@ -1595,7 +1556,7 @@
   destination: TOPS
   year: 2020
   urlComplementary: /complementary/TOPS2020_2
-  
+
 ## 2021
 - id: CODASPY2021_SPP
   id_iris: 331090
@@ -1611,7 +1572,6 @@
   year: 2021
   doi: 10.1145/3422337.3447847
   urlComplementary: /complementary/CODASPY2021
-  urlNews: /news/2019/12/01/paper-accepted-at-codaspy-2021/
 
 - id: DBSec2021
   id_iris: 327486
@@ -1625,7 +1585,6 @@
     The introduction of the Payment Service Directive (PSD2) has accelerated financial services and open banking growth. Deploying appropriate identity management solutions is crucial. This implies the adoption of secure protocols for authentication and authorization, such as OpenID Connect and OAuth 2.0. The PSD2 also requires the application of the General Data Protection Regulation (GDPR) when transactions involve personal data. In turn, the GDPR mandates a Data Protection Impact Assessment (DPIA) for assessing risks posed to data subjects’ rights and freedom. This is a time-consuming and challenging task requiring heterogeneous skills that include the knowledge of best practices for deploying protocols, security mechanisms adopted by available identity management providers, and the capability to perform careful what-if analysis of the possible alternatives. To assist users in this task, we propose a methodology based on the formalization of the what-if analysis as an optimization problem that available tools can solve.  The formalization is derived from the OAuth 2.0 and OpenID connects standards, security best practices to mitigate threats, and thorough the evaluation of 19 identity management providers to check their supported features concerning the identified set of features for OAuth/OIDC solutions. We apply the methodology to assist controllers and identify the most appropriate security setup to drive the process of making financial services compliant with the PSD2.
   destination: DBSec2021
   year: 2021
-  urlNews: /news/2021/06/04/paper-accepted-at-dbsec-2021/
 
 - id: ETAA2021_MIG
   id_iris: 331569
@@ -1653,7 +1612,6 @@
   destination: ETACS2021
   year: 2021
   urlComplementary: /complementary/ETACS2021
-  urlNews: /news/2021/05/31/paper-accepted-at-etacs-2021
   doi: 10.1145/3465481.3469187
 
 - id: ICSE2021
@@ -1668,7 +1626,6 @@
     In our journal paper, we investigate the hybrid use of program analysis, genetic algorithm based test generation, natural language processing, machine learning techniques for precise detection of permission re-delegation vulnerabilities in Android apps. Our approach first groups a large set of benign and ”safe” apps into different clusters, based on their similarities in terms of functional descriptions. It then generates permission re-delegation model for each cluster, which characterizes common permission re-delegation behaviors of the apps in the cluster. Given an app under test, our approach checks whether it has permission re-delegation behaviors that deviate from the model of the cluster it belongs to. If that is the case, it generates test cases to detect the vulnerabilities. We evaluated the vulnerability detection capability of our approach based on 1,258 official apps and 20 mutated apps. Our approach achieved 81.8% recall and 100% precision. We also compared our approach with two static analysis-based approaches — Covert and IccTA — based on 595 open source apps. Our approach detected 30 vulnerable apps whereas Covert detected one of them and IccTA did not detect any. Executable proof-of-concept attacks generated by our approach were reported to the corresponding app developers.
   destination: ICSE2021
   year: 2021
-  urlNews: /news/2021/05/23/paper-accepted-at-icse-2021/
 
 - id: IJIS2021
   id_iris: 331088
@@ -1683,7 +1640,7 @@
   destination: IJIS
   year: 2021
   doi: 10.1007/s10207-021-00558-3
-  
+
 - id: IOTSECFOR2021
   id_iris: 331086
   title: "DoS Attacks in Available MQTT Implementations: Investigating the Impact on Brokers and Devices, and supported Anti-DoS Protections."
@@ -1697,7 +1654,6 @@
   destination: IOTSECFOR2021
   year: 2021
   urlComplementary: /complementary/IOTSECFOR2021
-  urlNews: /news/2021/06/05/paper-accepted-at-IoT-SECFOR-2021/
 
 - id: JISA2021
   id_iris: 329426
@@ -1711,7 +1667,6 @@
     OAuth 2.0 and OpenID Connect have been extensively integrated into mobile applications during recent years to manage access delegation and reduce password fatigue via a single sign-on experience. To provide a precise specification for mobile application developers on how to secure their implementations, the OAuth Working Group has published a set of best current practices called “OAuth 2.0 for Native Apps”. Nevertheless, many available mobile applications still suffer from poor implementations leading to serious security issues. To find the source of the problem, we perform a comprehensive analysis on 14 popular OAuth 2.0 and OpenID Connect providers and 87 top-ranked Google Play Store applications selected out of 2505 top-ranked applications to investigate their compliance with the best current practices for native apps. Our analysis reveals that only 7 OAuth 2.0 and OpenID Connect providers and 5 Google Play Store applications are fully compliant with the best current practices. To help mobile application developers with securing the implementation of OAuth 2.0 and OpenID Connect solutions, we introduce a wizard-based approach to assist mobile application developers to integrate multiple third-party OAuth 2.0 and OpenID Connect providers in their mobile applications. To verify the correctness and security of the integrated code by our wizard-based approach, we performed a security analysis by using both open-source and commercial source-code analysis tools. The result of security analysis confirms the security of using our approach in mobile applications, even though it raises some security issues related to the general implementation of mo- bile applications (e.g., insufficient code obfuscation). Despite these issues are out of the scope of our work, they stimulate interesting challenges at the intersection of theory and practice of security in mobile applications using OAuth 2.0 and OpenID Connect.
   destination: JISA
   year: 2021
-  urlNews: /news/2021/12/14/paper-accepted-at-jisa-2021/
   doi: 10.1016/j.jisa.2021.103097
 
 - id: SECRYPT2021
@@ -1726,7 +1681,6 @@
   destination: SECRYPT2021
   year: 2021
   urlComplementary: /complementary/SECRYPT2021
-  urlNews: 
   doi: 10.5220/0010554502220233
 
 - id: SECRYPT2021_2
@@ -1741,7 +1695,6 @@
   destination: SECRYPT2021
   year: 2021
   urlComplementary: /complementary/SECRYPT2021_2
-  urlNews: /news/2021/05/17/paper-accepted-at-secrypt-2021/
   
 - id: SMDS2021
   id_iris: 328826
@@ -1753,7 +1706,6 @@
     Migrating databases to the cloud requires the adoption of the shared responsibility model for protecting data. The database-as-a-service provider secures the database from different kinds of attacks while the developer defines the access control policy to prevent unauthorized access. Recent reports show that developers fail to properly secure their cloud databases leading to sensitive data leaks. In this paper, we investigate the prevalence of the access control misconfigurations in 50K+ top Android apps that use one of the most popular cloud database services, namely Firebase. Overall, we found 763 apps (1 billion downloads) with public databases and 536 apps (630 million downloads) with world-writable databases. Considering the popularity of these apps and the cross-platform nature of Firebase databases, our findings reveal a worrying state in the adoption of the shared responsibility model for the security of cloud databases. To assist developers, we make our prototype tool publicly available as an Android Studio plugin. The plugin performs static analysis to automatically extract Firebase database information from the app under development and checks its configuration status.
   destination: SMDS2021
   year: 2021
-  urlNews: /news/2021/06/05/paper-accepted-at-IoT-SECFOR-2021/
 
 - id: SMDS2021_Blockchain
   id_iris: 328846
@@ -1786,7 +1738,6 @@
   destination: T-ITS
   year: 2021
   doi: 10.1109/TITS.2021.3118721
-  urlNews: /news/2021/10/26/paper-accepted-at-t-its/
 
 - id: VTM2021
   id_iris: 328346
@@ -1805,7 +1756,7 @@
   destinationAddon: Volume 16, Issue 4, December 2021, Pages 78-88
   year: 2021
   doi: 10.1109/MVT.2021.3089144
-  
+
 ## 2022
 - id: CODASPY2022_TLSA2
   id_iris: 332247
@@ -1822,7 +1773,6 @@
   destination: CODASPY2022
   year: 2022
   doi: 10.1145/3508398.3511505
-  urlNews: /news/2021/12/21/paper-accepted-at-codaspy-2022/
   
 - id: DBSEC2022
   id_iris: 335865
@@ -1838,7 +1788,7 @@
   year: 2022
   doi: 10.1007/978-3-031-10684-2_14
   urlComplementary: /complementary/DBSEC2022
-  
+
 - id: EVOTEID2022
   title: "Adaptation of an i-voting scheme to Italian Elections for Citizens Abroad"
   authors:
@@ -1851,7 +1801,7 @@
   destination: EVOTEID2022
   year: 2022
   doi: 10.15157/diss/027
-  
+
 - id: FARES2022_EIDAS
   id_iris: 333210
   title: "SoK: A Survey on Technological Trends for (pre)Notified eIDAS Electronic Identity Schemes"
@@ -1866,10 +1816,9 @@
   destination: FARES2022
   awards: Best paper award
   year: 2022
-  urlNews: /news/2022/06/10/papers-accepted-at-fares-2022/
   doi: 10.1145/3538969.3543817
   urlComplementary: /complementary/FARES2022_2
-  
+
 - id: FARES2022_ITS
   id_iris: 333787
   title: "Distributed Enforcement of Access Control policies in Intelligent Transportation System (ITS) for Situation Awareness"
@@ -1882,7 +1831,6 @@
   destination: FARES2022
   year: 2022
   doi: 10.1145/3538969.3543792
-  urlNews: /news/2022/06/10/papers-accepted-at-fares-2022/
 
 - id: JOWUA2022
   id_iris: 332248
@@ -1912,10 +1860,9 @@
     The eIDAS regulation aims to provide an interoperable European framework to enable EU citizens to authenticate and communicate with services of other Member States by using their national electronic identity. While a number of high-level requirements (e.g., related to privacy and security) are established to make interoperability among Member States possible, the eIDAS regulation does not explicitly specify the technologies that can be adopted during the development phase to meet the requirements as mentioned earlier. To the best of our knowledge, there is no work available in the literature investigating the technological trends within the notified eIDAS electronic identity schemes used by Member States. To fill this gap, this paper analyzes how the different technological trends of notified schemes satisfy the requirements of the eIDAS regulation. To do this, we define a set of research questions that allow us to investigate the correlations between different design dimensions such as security, privacy, and usability. Based on these findings, we provide a set of lessons learned that would be valuable to the security community, as they can provide useful insights on how to more efficiently protect interoperable national digital identities. Furthermore, we provide a brief overview regarding the new eIDAS regulation (eIDAS 2.0) that aims to provide a more privacy-preserving electronic identity solution by moving from a centralized approach to a decentralized one.
   destination: MDPI-applsci
   year: 2022
-  urlNews: /news/2022/12/08/papers-accepted-at-MDPI-2022/
   doi: 10.3390/app122412679
   urlComplementary: /complementary/MDPI2022
-    
+
 - id: SACMAT2022_TLSA2
   id_iris: 332827
   title: "Demo: TLSAssistant v2 - A Modular and Extensible Framework for Securing TLS"
@@ -1929,7 +1876,6 @@
   destination: SACMAT2022
   year: 2022
   doi: 10.1145/3532105.3535042
-  urlNews: /news/2022/04/25/demo-accepted-at-sacmat-2022/
 
 ## 2023
 - id: ARES2023
@@ -1947,7 +1893,6 @@
   destination: ARES2023
   year: 2023
   doi: 10.1145/3600160.3600183
-  urlNews: /news/2023/05/15/paper-accepted-at-ares-2023/
   
 - id: COSE2023
   id_iris: 337867
@@ -1956,14 +1901,13 @@
     - MajidMollaeefar
     - SilvioRanise
   abstract: >
-    Cybersecurity risk management consists of several steps including the selection of appropriate controls to minimize risks.  
+    Cybersecurity risk management consists of several steps including the selection of appropriate controls to minimize risks.
     This is a difficult task that requires to search through all possible subsets of a set of available controls and identify those that minimize the risks of all stakeholders.
     Since stakeholders may have different perceptions of the risks (especially when considering the impact of threats), conflicting goals may arise that require to find the best possible trade-offs among the various needs.
     In this work, we propose a quantitative and (semi-)automated approach to solve this problem based on the well-known notion of Pareto optimality.  For validation, we show how a prototype tool based on our approach can assist in the Data Protection Impact Assessment mandated by the General Data Protection Regulation on a simplified-but realistic-use case scenario.  We also evaluate the scalability of the approach by conducting an experimental evaluation with the prototype with encouraging results.
   destination: COSE
   year: 2023
   doi: 10.1016/j.cose.2023.103206
-  urlNews: /news/2023/03/28/paper-accepted-at-cose/
   
 - id: DBSEC2023
   id_iris: 339007
@@ -1979,7 +1923,6 @@
   destination: DBSEC2023
   year: 2023
   doi: 10.1007/978-3-031-37586-6_13
-  urlNews: /news/2023/05/25/paper-accepted-at-dbsec-2023/
 
 - id: DBSEC2023_WalletTrends
   id_iris: 339507
@@ -2009,7 +1952,6 @@
   destinationAddon: Communications in Computer and Information Science, volume 2134
   year: 2025
   doi: 10.1007/978-3-031-74627-7_45
-  urlNews: /news/2023/11/20/paper-accepted-at-ecml-pkdd-post-workshop-proceedings/
 
 - id: EVOTEID2023
   id_iris: 346347
@@ -2027,7 +1969,7 @@
     This paper presents an architecture for an OAuth 2.0-based i-voting solution using a mobile native client in a variant of the Araújo-Traoré protocol. We follow a systematic approach by identifying relevant OAuth 2.0 specifications and best practices. Having defined our framework, we identify threats applicable to our proposed methodology and detail how our design mitigates them to provide a safer i-voting process.
   destination: EVOTEID2023
   doi: 10.18420/e-vote-id2023_04
-  tags:                     
+  tags:
     - ThresholdCryptography
     - ZKP
     - SMPC
@@ -2063,7 +2005,6 @@
   destination: SECRYPT2023
   year: 2023
   doi: 10.5220/0012084000003555
-  urlNews: /news/2023/04/24/paper-accepted-at-secrypt-2023/
 
 - id: TDSC2022
   id_iris: 342587
@@ -2080,7 +2021,6 @@
   year: 2024
   doi: 10.1109/TDSC.2023.3296210
   urlComplementary: /complementary/TDSC2022
-  urlNews: /news/2023/07/17/paper-accepted-at-tdsc/
 
 ## 2024
 - id: AIEE2024
@@ -2130,7 +2070,6 @@
   destination: CRiSIS2024
   year: 2024
   doi: 10.1007/978-3-031-89350-6_6
-  urlNews: /news/2024/10/09/paper-accepted-at-crisis-2024/
 
 - id: CRiSIS2024_eVoting
   id_iris: 359548
@@ -2147,7 +2086,6 @@
   destination: CRiSIS2024
   year: 2024
   doi: 10.1007/978-3-031-89350-6_30
-  urlNews: /news/2024/10/09/paper-accepted-at-crisis-2024/
   awards: Best Paper Award at CRiSIS 2024
 
 - id: EUROSP2024
@@ -2180,7 +2118,6 @@
   destination: IEEE_SP
   year: 2024
   doi: 10.1109/MSEC.2024.3450277
-  urlNews: /news/2024/09/26/paper-accepted-at-ieee-sp/
 
 - id: iMETA2024
   id_iris: 353567
@@ -2196,7 +2133,6 @@
   destination: iMETA2024
   year: 2024
   doi: 10.1109/iMETA62882.2024.10808135
-  urlNews: /news/2024/09/02/paper-accepted-at-imeta-2024/
 
 - id: Ital-IA2024
   id_iris: 351167
@@ -2211,7 +2147,6 @@
   destination: Ital-IA2024
   year: 2024
   url: https://ceur-ws.org/Vol-3762/469.pdf
-  urlNews: /news/2024/04/24/paper-accepted-at-ital-ia-2024/
  
 - id: JISA2024
   id_iris: 347387
@@ -2231,7 +2166,6 @@
   destination: JISA
   year: 2024
   doi: 10.1016/j.jisa.2024.103789
-  urlNews: /news/2024/05/10/paper-accepted-at-jisa/
 
 - id: OSVS2024
   id_iris: 350627
@@ -2268,7 +2202,6 @@
   year: 2024
   doi: 10.5220/0012764700003767
   urlComplementary: /complementary/SECRYPT2024
-  urlNews: /news/2024/04/22/paper-accepted-at-secrypt-2024/
 
 - id: TOSEM2024
   id_iris: 344227
@@ -2298,7 +2231,6 @@
   destination: DBSEC2025
   year: 2025
   doi: 10.1007/978-3-031-96590-6_15
-  urlNews: /news/2025/05/12/paper-accepted-at-dbsec-2025/
 
 - id: DevSecOpsRO2025
   id_iris: 361407
@@ -2350,7 +2282,6 @@
   destination: ESPRE2025
   year: 2025
   doi:
-  urlNews: /news/2025/07/14/paper-accepted-at-espre-2025/
 
 - id: IWBF2025
   id_iris: 362127
@@ -2364,7 +2295,6 @@
   destination: IWBF2025
   year: 2025
   doi: 10.1109/IWBF63717.2025.11113429
-  urlNews: /news/2025/02/28/paper-accepted-at-iwbf-2025/
 
 - id: IWPE2025
   id_iris: 362447
@@ -2379,7 +2309,6 @@
   destination: IWPE2025
   year: 2025
   doi:
-  urlNews: /news/2025/04/07/paper-accepted-at-iwpe-2025/
 
 - id: JINS2025
   id_iris: 354507
@@ -2394,7 +2323,6 @@
   destination: JINS
   year: 2025
   doi: 10.1186/s13635-025-00187-6
-  urlNews: /news/2025/02/27/paper-accepted-at-jins/
   
 - id: SECRYPT2025
   id_iris: 360987
@@ -2410,7 +2338,6 @@
   destination: SECRYPT2025
   year: 2025
   doi: 10.5220/0013601400003979
-  urlNews: /news/2025/04/29/papers-accepted-at-secrypt-2025/
   
 - id: SECRYPT2025_status
   id_iris: 359647
@@ -2427,7 +2354,6 @@
   destination: SECRYPT2025
   year: 2025
   doi:
-  urlNews: /news/2025/04/29/papers-accepted-at-secrypt-2025/
 
 - id: SSR2025_DCAPI
   id_iris: 363967
@@ -2443,7 +2369,6 @@
   destination: SSR2025
   year: 2025
   doi: 
-  urlNews:   
 
 - id: STM2025
   id_iris: 361667
@@ -2458,6 +2383,5 @@
   destination: STM2025
   year: 2025
   doi: 
-  urlNews: 
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
