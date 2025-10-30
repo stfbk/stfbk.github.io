@@ -1,63 +1,95 @@
+# Site Settings
 title: Distributed AI for dependable cyberSecuritY
 tagline: Research Unit in Fondazione Bruno Kessler (FBK)
-logo: /assets/images/logos/DAISY.png
-remote_theme: chrisrhymes/bulma-clean-theme@v0.13.3
-markdown: kramdown
+remote_theme: csfbk/fbk-cs-websites-theme
 repository: daisyfbk/daisyfbk.github.io
-url: "https://daisy.fbk.eu"
+
+# Entity Settings
+entity_type: "unit"
+
+organization:
+  unit:
+    name: "Distributed AI for dependable cyberSecuritY"
+    acronym: "DAISY"
+  center:
+    name: "Center for Cybersecurity"
+    acronym: "CS"
+    website: "https://cs.fbk.eu"
+
+logos:
+  unit:
+    regular:
+      default: "/assets/images/institutional/DAISY_regular.png"
+      white: "/assets/images/institutional/DAISY_regular_white.png"
+    symbol:
+      default: "/assets/images/institutional/DAISY_symbol.png"
+      white: "/assets/images/institutional/DAISY_symbol_white.png"
+
+content-manager:
+  name: Roberto Doriguzzi Corin
+  affiliation: Center for Cybersecurity
+  email: rdoriguzzi@fbk.eu
+  phone: "+390461312429"
+
+social:
+  github: https://github.com/daisyfbk/
+
+# Other Settings and Defaults
+livereload: true
+primary-color: "#0068b4"
+
+## DO NOT MODIFY
+lang: en
 baseurl: ""
+permalink: pretty
+markdown: kramdown
+highlighter: rouge
+show_navbar_brand: false
+show_link_fbk: true
+sass:
+  style: compressed
+  source_dir: _sass
 
 plugins:
-  - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 collections:
   collaborations:
     output: true
     layout: collaboration
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
   complementary:
     output: true
     layout: complementary
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
   events:
     output: true
     layout: page
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
+  news:
+    output: true
+    layout: news
+    permalink: /news/:year/:month/:day/:title/
   people:
     output: true
     layout: page
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
   projects:
     output: true
     layout: project
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
   teaching:
     output: true
     layout: page
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
   tools:
     output: true
     layout: tool
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
   topics:
     output: true
     layout: topic
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
 
 defaults:
   - scope:
       path: ""
+      type: pages
     values:
-      image: /assets/images/logos/DAISY_symbol.png
+      show_sidebar: false
 
   - scope:
       type: collaborations
@@ -75,7 +107,34 @@ defaults:
       layout: page
 
   - scope:
+      type: news
+    values:
+      layout: news
+
+  - scope:
+      path: "_news/*-paper*-accepted-*"
+    values:
+      layout: news-accepted-paper
+      tags: [papers]
+
+  - scope:
+      path: "_news/*seminar*"
+    values:
+      layout: news-seminar
+      tags: [seminars]
+      
+  - scope:
+      path: "_news/*award*"
+    values:
+      tags: [awards]
+
+  - scope:
       path: "_people/*-*"
+    values:
+      layout: person
+
+  - scope:
+      path: "_people/archive/*-*"
     values:
       layout: person
 
@@ -94,4 +153,16 @@ defaults:
     values:
       layout: topic
 
-exclude: ["*/template*.md", "*/_template*.md", "README*.md", "vendor"]
+exclude: [
+  "Gemfile",
+  "clean-theme.gemspec",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "*/template*.md",
+  "*/_template*.md",
+  "README*.md"
+]

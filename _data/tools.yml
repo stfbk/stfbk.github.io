@@ -1,24 +1,36 @@
 - id: Decepto
-  name: "Decepto: A Decoy-Based Framework for Cyber Deception"
+  name: "Decepto"
+  nameAddon: "A Decoy-Based Framework for Cyber Deception"
   description: "Decepto is a software platform that provides cyber deception in cloud-native environments using a Kubernetes (K8s) orchestrator."
-  urlDocumentation: /tools/Decepto
+  logo: DECEPTO.png
+  urlDocumentation:
+    unit: /tools/Decepto
 
 - id: LUCID
-  name: "LUCID: A Practical, Lightweight Deep Learning Solution for DDoS Attack Detection"
+  name: "LUCID"
+  nameAddon: "A Practical, Lightweight Deep Learning Solution for DDoS Attack Detection"
   description: LUCID (Lightweight, Usable CNN in DDoS Detection) is a lightweight Deep Learning-based DDoS detection framework suitable for online resource-constrained environments, which leverages Convolutional Neural Networks (CNNs) to learn the behaviour of DDoS and benign traffic flows with both low processing overhead and attack detection time. 
-  urlDocumentation: /tools/LUCID
+  urlDocumentation:
+    unit: /tools/LUCID
 
 - id: FLAD
-  name: "FLAD: Adaptive Federated Learning for DDoS Attack Detection"
+  name: "FLAD"
+  nameAddon: "Adaptive Federated Learning for DDoS Attack Detection"
   description: FLAD (a Federated Learning approach to DDoS Attack Detection) is an adaptive Federated Learning (FL) approach for training feed-forward neural networks, that implements a mechanism to monitor the classification accuracy of the global model on the clients' validations sets, without requiring any exchange of data.
-  urlDocumentation: /tools/FLAD
+  urlDocumentation:
+    unit: /tools/FLAD
 
 - id: kubeDelphi
-  name: "kubeDelphi: a Modular Framework for Intelligent Workload Placement and Rescheduling in Kubernetes"
+  name: "kubeDelphi"
+  nameAddon: "A Modular Framework for Intelligent Workload Placement and Rescheduling in Kubernetes"
   description: kubeDelphi is an extension of Kubernetes based on an advanced workload scheduling system, which is designed to optimize workload placement and rescheduling in cloud-native environments.
-  urlDocumentation: /tools/kubeDelphi
+  logo: kubeDelphi.png
+  urlDocumentation:
+    unit: /tools/kubeDelphi
 
 - id: PESS
-  name: "PESS: Progressive Embedding of Security Services"
+  name: "PESS"
+  nameAddon: "Progressive Embedding of Security Services"
   description: PESS is a heuristic algorithm for the provisioning of security services in softwarised networks, where network functions can be dynamically deployed on commodity hardware following the NFV paradigm, and the network is controlled using SDN technologies.
-  urlDocumentation: /tools/PESS
+  urlDocumentation:
+    unit: /tools/PESS

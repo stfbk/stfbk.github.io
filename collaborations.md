@@ -1,6 +1,6 @@
 ---
 title: Collaborations
-layout: collaborations-list
+layout: list-collaborations
 permalink: /collaborations/
 ---
 

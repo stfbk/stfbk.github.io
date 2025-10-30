@@ -1,10 +1,5 @@
 ---
-title: Service and security orchestration
-subtitle: 
-type: topic
-topicUrl: /topics/ServSecOrchestration
-image: ServSecOrchestration.jpg
-order: 3
+topic: ServSecOrchestration
 
 publications: 
   - iris_2020_d64aa6e851f906e73853
