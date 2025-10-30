@@ -34,10 +34,11 @@ theses:
 
 The tool has been developed within [Digimat](https://ict.fbk.eu/partnerships/co-innovation-labs/ipzs/), a joint lab between [Poligrafico e Zecca dello Stato](https://www.ipzs.it/ext/index.html) and the [Center for Cybersecurity](https://www.fbk.eu/it/cybersecurity/) of the Fondazione Bruno Kessler.
 
-
-<a href="https://github.com/stfbk/tlsassistant">
-  <img class="image-centered" src="/assets/images/logos/GitHub.png" alt="GitHub_logo" width="150px"/>
-</a>
+<div class="text-center">
+    <a href="https://github.com/stfbk/tlsassistant">
+        <i class="fa-brands fa-github fa-fw fa-10x mb-5"></i>
+    </a>
+</div>
 
 {% include toc.md %}
 
@@ -222,12 +223,16 @@ TLSAssistant is able to perform an automated compliance analysis against five ag
 - **BSI** [TR-02102-2](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG02102/BSI-TR-02102-2.html) and [TR-03116-4](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03116/BSI-TR-03116-4.html)
 - **Mozilla** [v5.7](https://wiki.mozilla.org/Security/Server_Side_TLS)
 - **NIST** [SP 800-52 Rev. 2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r2.pdf) (and related)
+
 ### Comparison Modules
 The `compare_one` and `compare_many` modules are used to assess the compliance level of an existing webserver (both deployed and not) against one or multiple guidelines. Its output consists of an actionable report that combines a description of the potential lack of compliance along with an explanation on how improve the security posture of the analyzed server and a set of actionable hints to guide the user in the process of making the webserver compliant.
+
 ### Generation Modules
 The `generate_one` and `generate_many` modules are used to generate from scratch configuration files that are compliant with one or more guidelines. Its output consists of a configuration file (for Apache or nginx webservers) that can be directly used to deploy a compliant webserver out-of-the-box.  
+
 ### Custom Guidelines
 The modules can be customized to take into consideration specific requirements of the user, such as structured custom guidelines or single requirements for selected configurable elements.
+
 ### Warning
 The compliance module can recieve both a configuration file and a hostname/ip as input. If a configuration file is provided the analysis will not check the Certificates since they depend on external files.
 
