@@ -10,8 +10,3 @@ internships: >
   </ul>
 
 ---
-
-
-Please visit the [internship projects page](https://csfbk.github.io/internships) on the Centre for Cybersecurity website to see the full list of available theses and internship projects, and apply for them.
-
-- [Projects for Academic Year 2023-2024](/teaching/projects/2023-2024)
