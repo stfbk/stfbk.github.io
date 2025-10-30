@@ -1231,6 +1231,15 @@
   startDate: "2025-06-11"
   endDate: "2025-06-13"
 
+- id: SSR2025
+  name: 10th International Conference on Security Standardisation Research
+  acronym: SSR 2025
+  url: https://www.uni-passau.de/ssr2025
+  type: conference
+  location: Passau, Germany
+  startDate: "2025-12-04"
+  endDate: "2025-12-05"  
+
 - id: STM2025
   name: 21st International Workshop on Security and Trust Management
   acronym: STM 2025

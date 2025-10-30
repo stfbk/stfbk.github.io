@@ -2429,6 +2429,22 @@
   doi:
   urlNews: /news/2025/04/29/papers-accepted-at-secrypt-2025/
 
+- id: SSR2025_DCAPI
+  id_iris: 363967
+  title: "A Threat Model for the W3C Digital Credentials API: An Initial Analysis"
+  authors:
+    - ZahraEbadiAnsaroudi
+    - AmirSharif
+    - GiadaSciarretta
+    - SimoneOnofri
+    - SilvioRanise
+  abstract: >
+    Accessing online services requires users to choose from a growing set of identity providers, including social logins (e.g., Google, Facebook), national eID providers (e.g., CIE, BundID), and recently, under the revised electronic Identification, Authentication and Trust Services regulation (eIDAS 2.0), “Log in with Digital Wallet”. In self sovereign identity settings, this choice worsens the “NASCAR problem”: users must select among many wallets, while relying parties face significant integration and maintenance costs. The W3C Digital Credentials API shifts selection from the wallet to the specific credential required by the relying parties, enabling a simpler and more interoperable user journey. To achieve this, the API mediates requests and responses through both web and operating system interfaces. Yet this multi-party, cross layer architecture, which spans user agents, operating systems, and wallets, expands the attack surface. This paper presents a preliminary threat model for the Digital Credentials API to identify and mitigate potential threats, thereby supporting a secure, privacy preserving, and interoperable self sovereign identity ecosystem.
+  destination: SSR2025
+  year: 2025
+  doi: 
+  urlNews:   
+
 - id: STM2025
   id_iris: 361667
   title: "Toward Secure and Trustworthy Identity Management Systems: A Knowledge-base Driven Approach"
