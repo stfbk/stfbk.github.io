@@ -2,8 +2,7 @@
 title: DAISY - Distributed AI for dependable cyberSecuritY
 subtitle: Research Unit in Fondazione Bruno Kessler
 layout: page
-heroImageLeft: /assets/images/logos/DAISY_logo_white.png
-heroImageRight: /assets/images/logos/CS_white.png
+show_logos: true
 ---
 
 ## Who we are
@@ -27,8 +26,10 @@ The DAISY unit lies within the [Cybersecurity center](https://cs.fbk.eu/) in [Fo
 
 ## Research Areas
 
-{% include topics.md %}
+{% assign researchAreas = site.data.topics | where_exp: "topic", "topic.category == 'topic'" %}
+{% include list-topics.html source=researchAreas sort_by="order" sort_natural="false" %}
 
 ## In the Spotlight
 
-{% include spotlights.md %}
+{% assign researchSpotlights = site.data.topics | where_exp: "topic", "topic.category == 'spotlight'" %}
+{% include list-topics.html source=researchSpotlights sort_by="order" sort_natural="false" %}

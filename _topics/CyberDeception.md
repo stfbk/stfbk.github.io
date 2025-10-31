@@ -1,10 +1,5 @@
 ---
-title: Cyber Deception
-subtitle: 
-type: topic
-topicUrl: /topics/CyberDeception
-image: CyberDeception.jpg
-order: 2
+topic: CyberDeception
 
 # tools:
 #     - LUCID

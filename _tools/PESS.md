@@ -1,6 +1,5 @@
 ---
-title: PESS
-subtitle: Progressive Embedding of Security Services
+tool: PESS
 people: 
     - RobertoDoriguzziCorin
     - DomenicoSiracusa

@@ -1,7 +1,5 @@
 ---
-title: kubeDelphi 
-subtitle: A Modular Framework for Intelligent Workload Placement and Rescheduling in Kubernetes
-logo: kubeDelphi.png 
+tool: kubeDelphi
 people: 
     - SilvioCretti
     - DanieleSantoro

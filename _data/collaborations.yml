@@ -3,33 +3,38 @@
   startYear: 2016
   endYear: 2022
   description: Gruppo per l'Armonizzazione della Rete della Ricerca
-  internalUrl: /collaborations/GARR
-  officialUrl: https://www.garr.it/
+  url:
+    unit: /collaborations/GARR
+    external: https://www.garr.it/
 
 - id: Energenius
   name: Energenius
   startYear: 2018
   description: Start-up focused on energy optimization solutions
-  internalUrl: /collaborations/Energenius
-  officialUrl: https://www.energenius.it/
+  url:
+    unit: /collaborations/Energenius
+    external: https://www.energenius.it/
 
 - id: QUEENS
   name: Queen's University Belfast
   startYear: 2018
   description: Research-intensive public university located in Belfast, Northern Ireland
-  internalUrl: /collaborations/QUEENS
-  officialUrl: https://www.qub.ac.uk/
+  url:
+    unit: /collaborations/QUEENS
+    external: https://www.qub.ac.uk/
 
 - id: UniGE
   name: Università di Genova
   startYear: 2018
   description: University located in Genoa, Italy
-  internalUrl: /collaborations/UNIGE
-  officialUrl: https://www.unige.it/
+  url:
+    unit: /collaborations/UNIGE
+    external: https://www.unige.it/
 
 - id: UniTN
   name: Università di Trento
   startYear: 2014
   description: University located in Trento, Italy
-  internalUrl: /collaborations/UniTN
-  officialUrl: https://www.unitn.it/
+  url:
+    unit: /collaborations/UniTN
+    external: https://www.unitn.it/

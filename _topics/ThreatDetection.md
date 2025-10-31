@@ -1,10 +1,5 @@
 ---
-title: Dependable AI-driven Threat and Anomaly Detection
-subtitle: 
-type: topic
-topicUrl: /topics/ThreatDetection
-image: ThreatDetection.jpg
-order: 1
+topic: ThreatDetection
 
 tools:
     - LUCID

@@ -1,0 +1,41 @@
+- id: ThreatDetection
+  title: Dependable AI-driven Threat and Anomaly Detection
+  category: topic
+  url: /topics/ThreatDetection
+  image: ThreatDetection.jpg
+  order: 1
+
+- id: CyberDeception
+  title: Cyber Deception
+  category: topic
+  url: /topics/CyberDeception
+  image: CyberDeception.jpg
+  order: 2
+
+- id: ServSecOrchestration
+  title: Service and security orchestration
+  category: topic
+  url: /topics/ServSecOrchestration
+  image: ServSecOrchestration.jpg
+  order: 3
+
+- id: Decepto
+  title: Decepto
+  category: spotlight
+  url: /tools/Decepto
+  image: Decepto.png
+  order: 2
+
+- id: LUCID
+  title: LUCID
+  category: spotlight 
+  url: /tools/LUCID
+  image: LUCID.jpg
+  order: 4
+
+- id: kubeDelphi
+  title: kubeDelphi
+  category: spotlight 
+  url: /tools/kubeDelphi
+  image: kubeDelphi.png
+  order: 5
