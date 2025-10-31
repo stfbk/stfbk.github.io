@@ -1,6 +1,6 @@
 ---
 title: Tools
-layout: tools-list
+layout: list-tools
 permalink: /tools/
 ---
 

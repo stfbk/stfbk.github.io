@@ -1,6 +1,5 @@
 ---
-title: FLAD
-subtitle: Adaptive Federated Learning for DDoS Attack Detection
+tool: FLAD
 people: 
     - RobertoDoriguzziCorin
     - DomenicoSiracusa

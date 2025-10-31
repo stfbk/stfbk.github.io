@@ -1,7 +1,6 @@
 ---
-title: FogAtlas 
+tool: FogAtlas 
 subtitle: Driving Applications through the Fog
-logo: FogAtlas.png 
 people: 
     - DomenicoSiracusa
     - SilvioCretti

@@ -1,3 +1,19 @@
+- id: NetworkIntrusionMaster
+  name: Network Intrusion and Anomaly Detection with Machine Learning
+  level: MSc
+  institution: University of Trento
+  lecturer:
+    - RobertoDoriguzziCorin
+  startYear: 2023
+  links:
+    - name: 2023-2024
+      url: "https://unitn.coursecatalogue.cineca.it/insegnamenti/2023/50328_643270_96291/2011/50328/10117?coorte=2023&schemaid=8484"
+    - name: 2024-2025
+      url: "https://unitn.coursecatalogue.cineca.it/insegnamenti/2024/50174_642668_96291/2023/50175/10756?annoOrdinamento=2023"
+    - name: 2025-2026
+      url: "https://unitn.coursecatalogue.cineca.it/insegnamenti/2025/50880_650697_96291/2025/50880/10883?annoOrdinamento=2025"
+
+
 - id: FogAndCloud
   name: Fog and Cloud Computing
   level: MSc
@@ -37,17 +53,3 @@
       url: "https://iecs.unitn.it/node/1370"
     - name: 2024-2025
       url: "https://iecs.unitn.it/node/1412"
-
-- id: NetworkIntrusionMaster
-  name: Network Intrusion and Anomaly Detection with Machine Learning
-  level: MSc
-  institution: University of Trento
-  lecturer:
-    - RobertoDoriguzziCorin
-  startYear: 2023
-  links:
-    - name: 2023-2024
-      url: "https://unitn.coursecatalogue.cineca.it/insegnamenti/2023/96364/2011/10000/10117?coorte=2023"
-    - name: 2024-2025
-      url: "https://unitn.coursecatalogue.cineca.it/insegnamenti/2024/50174_642668_96291/2023/50175/10756?annoOrdinamento=2023"
-

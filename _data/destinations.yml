@@ -546,6 +546,10 @@
   name: Journal of Optical Communications and Networking
   type: journal
 
+- id: modelscompanion24acmieee27thinternationalconferenceonmodeldrivenengineeringlanguagesandsystems
+  name: Models Companion '24 Proceedings of the Acm/ieee 27th International Conference on Model Driven Engineering Languages and Systems
+  type: conference
+
 - id: opticalfibercommunicationconference2018
   name: Optical Fiber Communication Conference, 2018
   type: conference
@@ -564,6 +568,7 @@
 - id: opticalfibercommunicationsconferenceandexhibitionofc2014
   name: Optical Fiber Communications Conference and Exhibition (OFC), 2014
   type: conference
+  proceedings: Proceedings of Optical Fiber Communications Conference and Exhibition (OFC), 2014
 
 - id: opticalfibercommunicationsconferenceandexhibitionofc2017
   name: Optical Fiber Communications Conference and Exhibition (OFC), 2017
@@ -592,6 +597,10 @@
   name: Photonics
   type: journal
 
+- id: procofthe2025ieeeeuropeansymposiumonsecurityandprivacyworkshopseurospw
+  name: Proc. of the 2025 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)
+  type: conference
+
 - id: procspie9009nextgenerationopticalcommunicationcomponentssubsystemsandsystemsiii
   name: Proc. Spie 9009, Next-generation Optical Communication Components, Sub-systems, and Systems Iii
   type: conference
@@ -608,6 +617,10 @@
   name: Sigcomm Dcc
   type: conference
   proceedings: Proceedings of Sigcomm Dcc
+
+- id: sustainability
+  name: Sustainability
+  type: journal
 
 - id: terenanetworkingconference
   name: Terena Networking Conference

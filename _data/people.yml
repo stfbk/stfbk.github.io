@@ -9,17 +9,6 @@
       unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-
-- id: AndreaZanardi
-  name: Andrea
-  surname: Zanardi
-  email: azanardi@fbk.eu
-  phone: "+390461312450"
-  affiliations:
-    - role: Developer
-      unit: Distributed AI for dependable cyberSecuritY
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
   
 - id: ClaudioFacchinetti
   name: Claudio
@@ -51,17 +40,6 @@
   email: hbeckerbrum@fbk.eu
   affiliations:
     - role: PhD Student
-      unit: Distributed AI for dependable cyberSecuritY
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  
-- id: LorenzoGalvagni
-  name: Lorenzo
-  surname: Galvagni
-  email: lgalvagni@fbk.eu
-  phone: "+390461312427"
-  affiliations:
-    - role: Developer
       unit: Distributed AI for dependable cyberSecuritY
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -160,26 +138,6 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   
-- id: ValentinoArmani
-  name: Valentino
-  surname: Armani
-  email: varmani@fbk.eu
-  affiliations:
-    - role: Developer 
-      unit: Distributed AI for dependable cyberSecuritY
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-
-- id: GiancarloVallazza
-  name: Giancarlo
-  surname: Vallazza
-  email: gvallazza@fbk.eu
-  affiliations:
-    - role: Developer
-      unit: Distributed AI for dependable cyberSecuritY
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  
 - id: MarceloDarioRodasBritez
   name: Marcelo Darío
   surname: Rodas Britez
@@ -195,6 +153,7 @@
   name: Lorenzo
   surname: Fasol
   email: lfasol@fbk.eu
+  iris_id: rp30725
   affiliations:
     - role: Junior Developer
       unit: Distributed AI for dependable cyberSecuritY
@@ -248,6 +207,22 @@
 - id: SalvatoreManfredi
   name: Salvatore
   surname: Manfredi
+
+- id: AndreaZanardi
+  name: Andrea
+  surname: Zanardi
+
+- id: LorenzoGalvagni
+  name: Lorenzo
+  surname: Galvagni
+
+- id: ValentinoArmani
+  name: Valentino
+  surname: Armani
+
+- id: GiancarloVallazza
+  name: Giancarlo
+  surname: Vallazza
 
 # Interns
 
@@ -439,6 +414,9 @@
   surname: Abdelaty
 
 # Etc
+- id: NicolaLovo
+  name: Nicola
+  surname: Lovo
 
 - id: LucaOneto
   name: Luca
@@ -555,6 +533,10 @@
   name:  Alaa
   surname: Alloush
 
+- id: AlbertoFalcone
+  name:  Alberto
+  surname: Falcone
+
 - id: AlbertoMozo
   name:  Alberto
   surname: Mozo
@@ -651,6 +633,10 @@
   name:  Antonio
   surname: Alvarez Romero
 
+- id: AntonioBucchiarone
+  name:  Antonio
+  surname: Bucchiarone
+
 - id: AntonioFrancescon
   name:  Antonio
   surname: Francescon
@@ -658,6 +644,10 @@
 - id: AntonioPastor
   name:  Antonio
   surname: Pastor
+
+- id: AntonioPuliafito
+  name:  Antonio
+  surname: Puliafito
 
 - id: AntonioSkarmeta
   name:  Antonio
@@ -851,6 +841,10 @@
   name:  Daniele
   surname: Tovazzi
 
+- id: DavidNegrier
+  name:  David
+  surname: Négrier
+
 - id: DeMiguel
   name:  De
   surname: Miguel
@@ -910,6 +904,10 @@
 - id: ElisaAlbanese
   name:  Elisa
   surname: Albanese
+
+- id: EnricoPezzano
+  name:  Enrico
+  surname: Pezzano
 
 - id: F.Cugini
   name:  F.
@@ -1047,6 +1045,10 @@
   name:  Gerstel
   surname: Ori
 
+- id: GiacomoBenedetti
+  name:  Giacomo
+  surname: Benedetti
+
 - id: GiacomoVerticale
   name:  Giacomo
   surname: Verticale
@@ -1063,13 +1065,25 @@
   name:  Gian
   surname: Pietro Picco
 
+- id: GianlucaSchiavo
+  name:  Gianluca
+  surname: Schiavo
+
 - id: GianniAntichi
   name: Gianni
   surname: Antichi
 
+- id: GiorgiaBolognesi
+  name:  Giorgia
+  surname: Bolognesi
+
 - id: GiovanniMartinelli
   name:  Giovanni
   surname: Martinelli
+
+- id: GiovanniMerlino
+  name:  Giovanni
+  surname: Merlino
 
 - id: GiovanniRussello
   name:  Giovanni
@@ -1259,6 +1273,10 @@
   name:  Joo
   surname: Cho
 
+- id: JorgKienzle
+  name:  Jörg
+  surname: Kienzle
+
 - id: JoseLuisZarza
   name:  Jose
   surname: Luis Zarza
@@ -1268,8 +1286,8 @@
   surname: Rodríguez
 
 - id: JoseManuelRivas-Moscoso
-  name: Jose Manuel
-  surname: Rivas-Moscoso
+  name:  Jose
+  surname: Manuel Rivas-Moscoso
 
 - id: JoseSanchez
   name:  José
@@ -1395,6 +1413,10 @@
   name:  Luca
   surname: Capra
 
+- id: LucaCaviglione
+  name:  Luca
+  surname: Caviglione
+
 - id: LucaCernuzzi
   name:  Luca
   surname: Cernuzzi
@@ -1406,6 +1428,10 @@
 - id: LucaMottola
   name:  Luca
   surname: Mottola
+
+- id: LucaVerderame
+  name:  Luca
+  surname: Verderame
 
 - id: LucaZuanazzi
   name:  Luca
@@ -1503,6 +1529,10 @@
   name:  Marianna
   surname: Angelou
 
+- id: MarinoMiculan
+  name:  Marino
+  surname: Miculan
+
 - id: MarkPurcell
   name:  Mark
   surname: Purcell
@@ -1510,6 +1540,22 @@
 - id: MartenssonJonas
   name:  Mårtensson
   surname: Jonas
+
+- id: MassimilianoBaldo
+  name:  Massimiliano
+  surname: Baldo
+
+- id: MassimilianoRak
+  name:  Massimiliano
+  surname: Rak
+
+- id: MassimoFicco
+  name:  Massimo
+  surname: Ficco
+
+- id: MassimoGuarascio
+  name:  Massimo
+  surname: Guarascio
 
 - id: MassimoPescalli
   name:  Massimo
@@ -1526,6 +1572,14 @@
 - id: MatteoCeriotti
   name:  Matteo
   surname: Ceriotti
+
+- id: MatthiasFinkbeiner
+  name:  Matthias
+  surname: Finkbeiner
+
+- id: MaurizioGiacobbe
+  name:  Maurizio
+  surname: Giacobbe
 
 - id: MauroCampanella
   name:  Mauro
@@ -1871,6 +1925,10 @@
   name: Sebastiano
   surname: Miano
 
+- id: SebastienGerard
+  name:  Sebastien
+  surname: Gerard
+
 - id: SergeyDrozdov
   name:  Sergey
   surname: Drozdov
@@ -1983,6 +2041,14 @@
   name:  Tommaso
   surname: Gazzini
 
+- id: TommasoGuidolin
+  name:  Tommaso
+  surname: Guidolin
+
+- id: TommasoMartorella
+  name:  Tommaso
+  surname: Martorella
+
 - id: TsolmonZundui
   name:  Tsolmon
   surname: Zundui
@@ -2015,9 +2081,17 @@
   name: Victor
   surname: Lopez
 
+- id: VincenzoRiccio
+  name:  Vincenzo
+  surname: Riccio
+
 - id: ViniciusGarcezSchaurich
   name:  Vinicius
   surname: Garcez Schaurich
+
+- id: VladC.Coroama
+  name:  Vlad C.
+  surname: Coroamă
 
 - id: VladoStankovski
   name:  Vlado

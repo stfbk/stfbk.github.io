@@ -1,7 +1,5 @@
 ---
-title: Decepto
-subtitle:
-logo: DECEPTO.png 
+tool: Decepto
 people: 
 - DanieleSantoro
 - ClaudioFacchinetti

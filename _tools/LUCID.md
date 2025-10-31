@@ -1,6 +1,5 @@
 ---
-title: LUCID
-subtitle: A Practical, Lightweight Deep Learning Solution for DDoS Attack Detection
+tool: LUCID
 people: 
     - RobertoDoriguzziCorin
     - DomenicoSiracusa

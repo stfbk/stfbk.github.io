@@ -38,6 +38,46 @@
   doi: 10.1145/3712289
 
 
+- id: iris_2025_d935bd42dcb5b0d492bf
+  id_iris: 362587,
+  title: "From Edge to Cloud: Securing Distributed Containerized Applications"
+  authors:
+    - LucaVerderame
+    - GiorgiaBolognesi
+    - EnricoPezzano
+    - MassimilianoRak
+    - AlbertoFalcone
+    - GiacomoBenedetti
+    - MassimoGuarascio
+    - LucaCaviglione
+    - RobertoCarbone
+    - RobertoDoriguzziCorin
+    - MaurizioGiacobbe
+    - GiovanniMerlino
+    - AntonioPuliafito
+    - MassimilianoBaldo
+    - MarinoMiculan
+    - VincenzoRiccio
+    - MassimoFicco
+  destination: procofthe2025ieeeeuropeansymposiumonsecurityandprivacyworkshopseurospw
+  year: 2025
+  doi: 10.1109/eurospw67616.2025.00077
+
+
+- id: iris_2025_ae7f26c66ae3e3f3395b
+  id_iris: 361307,
+  title: "Carbon-Aware Spatio-Temporal Workload Shifting in Edge–Cloud Environments: A Review and Novel Algorithm"
+  authors:
+    - NasirAsadov
+    - VladC.Coroama
+    - MatteoFranzil
+    - StefanoGalantino
+    - MatthiasFinkbeiner
+  destination: sustainability
+  year: 2025
+  doi: 10.3390/su17146433
+
+
 - id: iris_2025_220419fbe6e1d3d85d0d
   id_iris: 355207,
   title: "A Proactive Decoy Selection Scheme for Cyber Deception using MITRE ATT&CK"
@@ -217,6 +257,23 @@
   destination: iticse20242024oninnovationandtechnologyincomputerscienceeducationv1
   year: 2024
   doi: 10.1145/3649217.3653542
+
+
+- id: iris_2024_11d4d3a8fe8b064d89bb
+  id_iris: 354427,
+  title: "PolyGloT-UML: A Gamified Framework for Enhancing UML Learning Paths"
+  authors:
+    - AntonioBucchiarone
+    - TommasoGuidolin
+    - LorenzoFasol
+    - GianlucaSchiavo
+    - JorgKienzle
+    - SebastienGerard
+    - DavidNegrier
+    - TommasoMartorella
+  destination: modelscompanion24acmieee27thinternationalconferenceonmodeldrivenengineeringlanguagesandsystems
+  year: 2024
+  doi: 10.1145/3652620.3687785
 
 
 - id: iris_2023_d10c4cdad8055829690b
