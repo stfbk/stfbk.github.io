@@ -576,6 +576,16 @@
   name: Leonardo
   surname: Xompero
 
+- id: LiviaMarini
+  name: Livia
+  surname: Marini
+  affiliations:
+    - role: Research Assistant
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: lmarini@fbk.eu
+
 - id: LorenzoBellesso
   name: Lorenzo
   surname: Bellesso
