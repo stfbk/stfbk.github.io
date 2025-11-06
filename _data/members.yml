@@ -55,6 +55,13 @@ current:
       yearFrom: 2025
       yearTo: 2025
 
+    - personId: AlessandroDeToffoli
+      type: B
+      topic: Analysis and comparison of data anonymization techniques for AI applications
+      institution: University of Trento
+      yearFrom: 2025
+      yearTo: 2026
+
   junior:    
       
 former:
