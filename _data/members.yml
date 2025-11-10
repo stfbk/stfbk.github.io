@@ -34,6 +34,13 @@ current:
       yearFrom: 2025
       yearTo: 2025
 
+    - personId: EliaTomaselli
+      type: B
+      topic: Validating TLS Implementations via Bytestream Parsing
+      institution: University of Trento
+      yearFrom: 2025
+      yearTo: 2025
+
     - personId: LorenzoZarantonello
       type: B
       topic: Automatic Security Testing Tool for Identity Management Protocols
