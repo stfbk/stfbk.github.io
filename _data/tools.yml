@@ -1,3 +1,11 @@
+- id: HoneyPeople
+  name: "HoneyPeople"
+  nameAddon: "A user emulation engine for Cyber Deception"
+  description: "HoneyPeople is a Cyber Deception tool to interact with phishing emails leveraging AI technology."
+  logo: HONEYPEOPLE.png
+  urlDocumentation:
+    unit: /tools/HoneyPeople
+
 - id: Decepto
   name: "Decepto"
   nameAddon: "A Decoy-Based Framework for Cyber Deception"
@@ -9,7 +17,7 @@
 - id: LUCID
   name: "LUCID"
   nameAddon: "A Practical, Lightweight Deep Learning Solution for DDoS Attack Detection"
-  description: LUCID (Lightweight, Usable CNN in DDoS Detection) is a lightweight Deep Learning-based DDoS detection framework suitable for online resource-constrained environments, which leverages Convolutional Neural Networks (CNNs) to learn the behaviour of DDoS and benign traffic flows with both low processing overhead and attack detection time. 
+  description: LUCID (Lightweight, Usable CNN in DDoS Detection) is a lightweight Deep Learning-based DDoS detection framework suitable for online resource-constrained environments, which leverages Convolutional Neural Networks (CNNs) to learn the behaviour of DDoS and benign traffic flows with both low processing overhead and attack detection time.
   urlDocumentation:
     unit: /tools/LUCID
 
