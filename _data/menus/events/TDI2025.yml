@@ -3,17 +3,17 @@
     - name: Home
       link: /events/TDI2025/
     - name: Call for Papers
-      link: call-for-papers
+      link: /events/TDI2025/call-for-papers
     - name: Committees
-      link: committees
+      link: /events/TDI2025/committees
     - name: Proceedings
       link: https://ceur-ws.org/Vol-3968/
     - name: Program
-      link: program
+      link: /events/TDI2025/program
     - name: Registration
-      link: registration
+      link: /events/TDI2025/registration
     - name: Venue
-      link: venue
+      link: /events/TDI2025/venue
     - name: Previous Editions
       items:
         - name: 1st Edition (2023)

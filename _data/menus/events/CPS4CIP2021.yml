@@ -3,8 +3,8 @@
     - name: Home
       link: /events/CPS4CIP2021/
     - name: Submission
-      link: submission
+      link: /events/CPS4CIP2021/submission
     - name: Committees
-      link: committees
+      link: /events/CPS4CIP2021/committees
     - name: Program
-      link: program
+      link: /events/CPS4CIP2021/program

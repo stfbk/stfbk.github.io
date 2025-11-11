@@ -3,14 +3,14 @@
     - name: Home
       link: /events/SeRIM2025/
     - name: Call for Papers
-      link: call-for-papers
+      link: /events/SeRIM2025/call-for-papers
     - name: Committees
-      link: committees
+      link: /events/SeRIM2025/committees
     - name: Keynote
-      link: keynote
+      link: /events/SeRIM2025/keynote
     - name: Program
-      link: program
+      link: /events/SeRIM2025/program
     - name: Registration
-      link: registration
+      link: /events/SeRIM2025/registration
     - name: Venue
-      link: venue
+      link: /events/SeRIM2025/venue

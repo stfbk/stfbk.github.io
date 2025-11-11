@@ -3,14 +3,14 @@
     - name: Home
       link: /events/TDI2023/
     - name: Accepted Papers
-      link: accepted-papers
+      link: /events/TDI2023/accepted-papers
     - name: Committees
-      link: committees
+      link: /events/TDI2023/committees
     - name: Program
-      link: program
+      link: /events/TDI2023/program
     - name: Registration
-      link: registration
+      link: /events/TDI2023/registration
     - name: Submission
-      link: submission
+      link: /events/TDI2023/submission
     - name: Venue
-      link: venue
+      link: /events/TDI2023/venue

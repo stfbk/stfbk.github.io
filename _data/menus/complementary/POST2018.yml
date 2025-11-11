@@ -3,8 +3,8 @@
     - name: Home
       link: /complementary/POST2018/
     - name: IDOTP App Scenario
-      link: idotp-scenario
+      link: /complementary/POST2018/idotp-scenario
     - name: Security Results
-      link: security-results
+      link: /complementary/POST2018/security-results
     - name: Tools
-      link: tools
+      link: /complementary/POST2018/tools

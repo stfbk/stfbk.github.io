@@ -1,16 +1,16 @@
 - label: Menu
   items:
     - name: Home
-      link: /events/OSW2018/index
+      link: /events/OSW2018/
     - name: Accepted Papers
-      link: accepted_papers
+      link: /events/OSW2018/accepted_papers
     - name: Call for Papers
-      link: cfp
+      link: /events/OSW2018/cfp
     - name: Venue Details
-      link: venue
+      link: /events/OSW2018/venue
     - name: Program
-      link: program
+      link: /events/OSW2018/program
     - name: Registration
-      link: registration
+      link: /events/OSW2018/registration
     - name: Accommodation
-      link: accommodation
+      link: /events/OSW2018/accommodation

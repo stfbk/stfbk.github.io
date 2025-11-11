@@ -3,16 +3,16 @@
     - name: Home
       link: /events/TDI2024/
     - name: Committees
-      link: committees
+      link: /events/TDI2024/committees
     - name: Proceedings
       link: https://ceur-ws.org/Vol-3863/
     - name: Program
-      link: program
+      link: /events/TDI2024/program
     - name: Registration
-      link: registration
+      link: /events/TDI2024/registration
     - name: Submission
-      link: submission
+      link: /events/TDI2024/submission
     - name: Venue
-      link: venue
+      link: /events/TDI2024/venue
     - name: Previous Edition (2023)
       link: /events/TDI2023/
