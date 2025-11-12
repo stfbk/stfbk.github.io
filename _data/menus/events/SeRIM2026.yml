@@ -1,0 +1,8 @@
+- label: Menu
+  items:
+    - name: Home
+      link: /events/SeRIM2026/
+    - name: Call for Papers
+      link: /events/SeRIM2026/call-for-papers
+    - name: Committees
+      link: /events/SeRIM2026/committees

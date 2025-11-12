@@ -181,3 +181,12 @@
   endDate: "2025-09-26"
   description: CPS4CIP 2025 is the sisth workshop dedicated to cyber-physical security for protecting critical infrastructures that support finance, energy, health, air transport, communication, gas, and water.
   url: /events/CPS4CIP2025
+
+# 2026
+- id: SeRIM2026
+  name: 2nd International Workshop on Security and Risk in Identity Management
+  acronym: SeRIM 2026
+  startDate: "2026-07-10"
+  endDate: "2026-07-10"
+  description: The workshop aims at exploring security and risk assessment in identity management systems, by investigating how to evaluate the security posture of identity solutions, assess risks, identify suitable security controls together with privacy enhancing techniques, and ensure compliance with regulations.
+  url: /events/SeRIM2026
