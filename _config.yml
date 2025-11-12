@@ -3,6 +3,7 @@ title: Security & Trust
 tagline: Research Unit in Fondazione Bruno Kessler (FBK)
 remote_theme: csfbk/fbk-cs-websites-theme
 repository: stfbk/stfbk.github.io
+url: "https://st.fbk.eu"
 
 # Entity Settings
 entity_type: "unit"
