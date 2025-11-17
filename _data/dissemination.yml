@@ -519,4 +519,16 @@
     - name: Event
       url: https://securitydays25.garr.it
 
+- id: TecnicheAvanzateMFA2025
+  title: Tool-Based Analysis of Multi-Factor Authentication Protocols
+  participants:
+    - MarcoPernpruner
+  eventName: Tecniche avanzate per la sicurezza dei meccanismi di autenticazione forte
+  startDate: "2025-10-10"
+  endDate: "2025-10-10"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://www.internetfestival.it/programma/tecniche-avanzate-per-la-sicurezza-meccanismi-autenticazione-forte/
+
 # PLEASE KEEP CHRONOLOGICAL ORDER BY START DATE WITHIN YEARS
