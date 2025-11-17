@@ -1,5 +1,6 @@
 ---
 person: TahirAhmad
+redirect_from: /people/tahir-ahmad
 links:
     
   - name: GoogleScholar         

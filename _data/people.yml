@@ -1121,12 +1121,7 @@
 - id: TahirAhmad
   name: Tahir
   surname: Ahmad
-  affiliations:
-    - role: Researcher
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: ahmad@fbk.eu
+  usernameFBK: ahmad
 
 - id: ThanhTungNguyen
   name: Thanh-Tung
