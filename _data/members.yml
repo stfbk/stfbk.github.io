@@ -13,8 +13,7 @@ current:
     - GiovanniCorti
     - LiviaMarini
     - MajidMollaeefar
-    - MarcoPernpruner
-    - MarioRaciti
+    - MarcoPernpruner    
     - MatteoRizzi
     - MuhammadImran
     - RiccardoGermenia
@@ -170,6 +169,11 @@ former:
     - personId: SimoneBrunello
       formerRole: Research Assistant
       yearFrom: 2024
+      yearTo: 2025
+
+    - personId: MarioRaciti
+      formerRole: Visiting PhD Student
+      yearFrom: 2025
       yearTo: 2025
 
     - personId: TahirAhmad

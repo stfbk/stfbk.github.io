@@ -703,12 +703,7 @@
 - id: MarioRaciti
   name: Mario
   surname: Raciti
-  affiliations:
-    - role: Visiting PhD Student
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: mraciti@fbk.eu
+  usernameFBK: mraciti
 
 - id: MarioScuro
   name: Mario
