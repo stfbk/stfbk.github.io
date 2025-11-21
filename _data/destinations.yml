@@ -12,6 +12,12 @@
   url: https://www.sciencedirect.com/journal/computers-and-security
   type: journal
 
+- id: FGCS
+  name: Future Generation Computer Systems
+  acronym: FGCS
+  url: https://www.sciencedirect.com/journal/future-generation-computer-systems
+  type: journal
+
 - id: FMSD
   name: Formal Methods in System Design 
   url: https://www.springer.com/journal/10703
@@ -1248,11 +1254,5 @@
   location: Toulouse, France
   startDate: "2023-09-22"
   endDate: "2023-09-26"
-
-- id: FGCS
-  name: Future Generation Computer Systems
-  acronym: FGCS
-  url: https://www.sciencedirect.com/journal/future-generation-computer-systems
-  type: journal
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)
