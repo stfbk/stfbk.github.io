@@ -12,6 +12,12 @@
   url: https://www.sciencedirect.com/journal/computers-and-security
   type: journal
 
+- id: FGCS
+  name: Future Generation Computer Systems
+  acronym: FGCS
+  url: https://www.sciencedirect.com/journal/future-generation-computer-systems
+  type: journal
+
 - id: FMSD
   name: Formal Methods in System Design 
   url: https://www.springer.com/journal/10703
