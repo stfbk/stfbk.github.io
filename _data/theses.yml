@@ -1047,6 +1047,18 @@
   year: 2025
   institution: University of Trento
 
+- id: LorenzoZarantonello_B
+  title: "Design and Implementation of an AI-Powered Database for Security Testing in IdM Protocols: The MIG-T Case Study"
+  type: B
+  author: LorenzoZarantonello
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - LauraCristiano
+    - PietroDeMatteis
+  year: 2025
+  institution: University of Trento
+
 - id: MattiaMaramotti_B
   title: "Testing as a Service for the Security and Compliance of Identity Management Solutions: Enhancing MIG A Scalable Abstract Architecture for Conformance Verification of Network Protocol Implementations"
   type: B

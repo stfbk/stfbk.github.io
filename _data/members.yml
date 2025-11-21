@@ -39,13 +39,6 @@ current:
       yearFrom: 2025
       yearTo: 2025
 
-    - personId: LorenzoZarantonello
-      type: B
-      topic: Automatic Security Testing Tool for Identity Management Protocols
-      institution: University of Trento
-      yearFrom: 2025
-      yearTo: 2025
-
     - personId: GiulioBenedetti
       type: B
       topic: Research on digital identity solutions based on Single-Sign On
@@ -497,6 +490,9 @@ former:
 
     - personId: FilippoGrilli
       thesisId: FilippoGrilli_M
+
+    - personId: LorenzoZarantonello
+      thesisId: LorenzoZarantonello_B
 
   junior:
     - personId: YuriTomasini
