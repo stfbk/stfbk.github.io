@@ -4,6 +4,10 @@
   name: Aaron
   surname: Stump
 
+- id: AbdulazizKalash
+  name: Abdulaziz
+  surname: Kalash
+
 - id: AchimBrucker
   name: Achim D.
   surname: Brucker
@@ -293,6 +297,10 @@
   name: Davide
   surname: Pizzolotto
 
+- id: DavyPreuveneers
+  name: Davy
+  surname: Preuveneers
+
 - id: DimitriVanLanduyt
   name: Dimitri
   surname: Van Landuyt
@@ -439,6 +447,10 @@
       place: Trento, Italy
   email: g.sciarretta@fbk.eu
   phone: "+390461312378"
+
+- id: GiampaoloBella
+  name: Giampaolo
+  surname: Bella
 
 - id: GianfrancoBurzio
   name: Gianfranco
@@ -1095,6 +1107,10 @@
   name: Stanislav
   surname: Dashevskyi
 
+- id: StefVerreydt
+  name: Stef
+  surname: Verreydt
+
 - id: StefanoBerlato
   name: Stefano
   surname: Berlato
@@ -1180,19 +1196,4 @@
       place: Trento, Italy
   email: zebadiansaroudi@fbk.eu
 
-- id: StefVerreydt
-  name: Stef
-  surname: Verreydt
-
-- id: AbdulazizKalash
-  name: Abdulaziz
-  surname: Kalash
-
-- id: DavyPreuveneers
-  name: Davy
-  surname: Preuveneers
-
-- id: GiampaoloBella
-  name: Giampaolo
-  surname: Bella
 # Please keep alphabetical order
