@@ -67,6 +67,13 @@ current:
       yearFrom: 2025
       yearTo: 2026
 
+    - personId: GiuseppeScarciolla
+      type: B
+      topic: Security and implementation issues in Single Sign-On techniques
+      institution: University of Trento
+      yearFrom: 2025
+      yearTo: 2026
+
   junior:    
       
 former:
