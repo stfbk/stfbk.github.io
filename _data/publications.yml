@@ -38,7 +38,34 @@
   doi: 10.1145/3712289
 
 
-- id: iris_2025_d935bd42dcb5b0d492bf
+- id: iris_2025_ae7f26c66ae3e3f3395b
+  id_iris: 361307,
+  title: "Carbon-Aware Spatio-Temporal Workload Shifting in Edge–Cloud Environments: A Review and Novel Algorithm"
+  authors:
+    - NasirAsadov
+    - VladC.Coroama
+    - MatteoFranzil
+    - StefanoGalantino
+    - MatthiasFinkbeiner
+  destination: sustainability
+  year: 2025
+  doi: 10.3390/su17146433
+
+
+- id: iris_2025_77bf63f9047161dd9cfc
+  id_iris: 364967,
+  title: "Sharpening Kubernetes Audit Logs with Context Awareness"
+  authors:
+    - MatteoFranzil
+    - ValentinoArmani
+    - LuisAugustoDiasKnob
+    - DomenicoSiracusa
+  destination: computernetworks
+  year: 2025
+  doi: 10.1016/j.comnet.2025.111890
+
+
+- id: iris_2025_545ae5e10c1aeabccd7d
   id_iris: 362587,
   title: "From Edge to Cloud: Securing Distributed Containerized Applications"
   authors:
@@ -61,21 +88,7 @@
     - MassimoFicco
   destination: procofthe2025ieeeeuropeansymposiumonsecurityandprivacyworkshopseurospw
   year: 2025
-  doi: 10.1109/eurospw67616.2025.00077
-
-
-- id: iris_2025_ae7f26c66ae3e3f3395b
-  id_iris: 361307,
-  title: "Carbon-Aware Spatio-Temporal Workload Shifting in Edge–Cloud Environments: A Review and Novel Algorithm"
-  authors:
-    - NasirAsadov
-    - VladC.Coroama
-    - MatteoFranzil
-    - StefanoGalantino
-    - MatthiasFinkbeiner
-  destination: sustainability
-  year: 2025
-  doi: 10.3390/su17146433
+  doi: 10.1109/EuroSPW67616.2025.00077
 
 
 - id: iris_2025_220419fbe6e1d3d85d0d
