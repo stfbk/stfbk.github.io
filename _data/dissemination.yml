@@ -531,4 +531,17 @@
     - name: Event
       url: https://www.internetfestival.it/programma/tecniche-avanzate-per-la-sicurezza-meccanismi-autenticazione-forte/
 
+- id: W3CTPAC2025
+  title: "Mitigate Threats for Digital Credentials API: Episode III - Revenge of the Wallet"
+  participants:
+    - ZahraEbadiAnsaroudi
+    - AmirSharif
+  eventName: W3C Technical Plenary and Advisory Committee (TPAC)
+  startDate: "2025-11-10"
+  endDate: "2025-11-14"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://www.w3.org/events/meetings/202a8c77-ba79-42d9-8c60-33b10544a227/
+
 # PLEASE KEEP CHRONOLOGICAL ORDER BY START DATE WITHIN YEARS
