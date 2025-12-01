@@ -5,6 +5,7 @@ import unicodedata
 import os
 import hashlib
 import json
+import datetime
 
 destinations = {}
 global_authors = {}
@@ -217,6 +218,8 @@ def parse_bibtex(bibtex):
         elif key == 'title':
             citation['title'] = value.strip()
         elif key == 'year':
+            if int(value) > 3000:
+                value = datetime.datetime.now().year
             citation['year'] = int(value)
         elif key == 'abstract':
             citation['abstract'] = value.strip()
