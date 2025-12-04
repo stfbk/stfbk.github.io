@@ -9,7 +9,8 @@
 - id: LUCID
   name: "LUCID"
   nameAddon: "A Practical, Lightweight Deep Learning Solution for DDoS Attack Detection"
-  description: LUCID (Lightweight, Usable CNN in DDoS Detection) is a lightweight Deep Learning-based DDoS detection framework suitable for online resource-constrained environments, which leverages Convolutional Neural Networks (CNNs) to learn the behaviour of DDoS and benign traffic flows with both low processing overhead and attack detection time. 
+  description: LUCID (Lightweight, Usable CNN in DDoS Detection) is a lightweight Deep Learning-based DDoS detection framework suitable for online resource-constrained environments, which leverages Convolutional Neural Networks (CNNs) to learn the behaviour of DDoS and benign traffic flows with both low processing overhead and attack detection time.
+  logo: LUCID.jpg
   urlDocumentation:
     unit: /tools/LUCID
 
@@ -17,6 +18,7 @@
   name: "FLAD"
   nameAddon: "Adaptive Federated Learning for DDoS Attack Detection"
   description: FLAD (a Federated Learning approach to DDoS Attack Detection) is an adaptive Federated Learning (FL) approach for training feed-forward neural networks, that implements a mechanism to monitor the classification accuracy of the global model on the clients' validations sets, without requiring any exchange of data.
+  logo: FLAD.png
   urlDocumentation:
     unit: /tools/FLAD
 
@@ -34,3 +36,4 @@
   description: PESS is a heuristic algorithm for the provisioning of security services in softwarised networks, where network functions can be dynamically deployed on commodity hardware following the NFV paradigm, and the network is controlled using SDN technologies.
   urlDocumentation:
     unit: /tools/PESS
+

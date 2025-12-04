@@ -2,6 +2,7 @@
   name: Consortium GARR
   startYear: 2016
   endYear: 2022
+  logo: garr.jpg
   description: Gruppo per l'Armonizzazione della Rete della Ricerca
   url:
     unit: /collaborations/GARR
@@ -11,6 +12,7 @@
   name: Energenius
   startYear: 2018
   description: Start-up focused on energy optimization solutions
+  logo: energius.png
   url:
     unit: /collaborations/Energenius
     external: https://www.energenius.it/
@@ -28,7 +30,7 @@
   startYear: 2018
   description: University located in Genoa, Italy
   url:
-    unit: /collaborations/UNIGE
+    unit: /collaborations/UniGE
     external: https://www.unige.it/
 
 - id: UniTN
@@ -38,3 +40,29 @@
   url:
     unit: /collaborations/UniTN
     external: https://www.unitn.it/
+
+- id: nubee
+  name: Nubee s.r.l.
+  startYear: 2025
+  description: Private business located in Italy.
+  logo: nubee.png
+  url:
+    unit: /collaborations/nubee
+    external: https://nubee.it
+
+- id: cherrychain
+  name: CherryChain
+  startYear: 2025
+  description: FinTech company located in Trento, Italy.
+  logo: cherrychain.jpg
+  url:
+    unit: /collaborations/cherrychain
+    external: https://cherrychain.it
+
+- id: Fincantieri
+  name: Fincantieri
+  startYear: 2025
+  description: Shipbuilding company located in Trieste, Italy
+  url:
+    unit: /collaborations/Fincantieri
+    external: https://www.fincantieri.com

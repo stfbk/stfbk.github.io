@@ -6,6 +6,7 @@ current:
     - AndreaDipace
     - ClaudioFacchinetti
     - DanieleSantoro
+    - EliaZiviani
     - HenriqueBeckerBrum
     - LorenzoFasol
     - LorysMutti
@@ -23,7 +24,7 @@ former:
   members:
     - personId: DomenicoSiracusa
       yearTo: 2024
-       
+
     - personId: PietroDeMatteis
       formerRole: Developer
       yearTo: 2023

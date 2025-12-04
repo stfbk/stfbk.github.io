@@ -14,7 +14,6 @@
     - name: Università della Campania
     - name: Universita' di Trento
 
-
 - id: HERO
   title: HERO
   titleAddon: Heating and cooling Energy Real-time Optimisation
@@ -34,7 +33,6 @@
   logo: IPCEI.png
   startDate: "2025-05-02"
 
-
 - id: FLUIDOS
   title: FLUIDOS
   titleAddon: Flexible, scaLable and secUre decentralIzeD Operating System
@@ -42,6 +40,7 @@
     unit: /projects/FLUIDOS
   logo: FLUIDOS.png
   startDate: "2022-09-01"
+  endDate: "2025-09-30"
   partners:
     - name: MARTEL Innovate
       url: https://martel-innovate.com/
@@ -133,7 +132,7 @@
     - name: LGU+
     - name: Daliworks
     - name: Gluesys
-  
+
 - id: FLEXINDUSTRIES
   title: FLEXINDUSTRIES
   titleAddon: Digitally-enabled FLEXible Industries for reliable energy grids under high penetration of Variable Renewable Energy Sources
@@ -142,3 +141,25 @@
   logo: FLEXINDUSTRIES.png
   startDate: "2022-06-01"
   partners: For a complete list of the partners please view the CORDIS page of project.
+
+- id: ARESAI
+  title: ARES-AI
+  titleAddon: AI-Based network monitoring for live anomaly detection and network intrustion
+  url:
+    unit: /projects/ARESAI
+  # logo: ARES-AI.png
+  startDate: "2025-09-03"
+  endDate: "2026-02-28"
+  partners:
+    - name: Nubee
+      url: https://nubee.it
+
+- id: DAOFidelity
+  title: DAO Fidelity and CyberSecurity
+  titleAddon: Integrating AI and OpenTelemetry in the DAO Platform
+  startDate: "2025-09-03"
+  url:
+    unit: /projects/DAOFidelity
+  partners:
+    - name: CherryChain
+      url: https://cherrychain.it
