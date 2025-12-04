@@ -1,3 +1,11 @@
+- id: HoneyPeople
+  name: "HoneyPeople"
+  nameAddon: "A user emulation engine for Cyber Deception"
+  description: "HoneyPeople is a Cyber Deception tool to interact with phishing emails leveraging AI technology."
+  logo: HONEYPEOPLE.png
+  urlDocumentation:
+    unit: /tools/HoneyPeople
+
 - id: Decepto
   name: "Decepto"
   nameAddon: "A Decoy-Based Framework for Cyber Deception"
@@ -36,4 +44,3 @@
   description: PESS is a heuristic algorithm for the provisioning of security services in softwarised networks, where network functions can be dynamically deployed on commodity hardware following the NFV paradigm, and the network is controlled using SDN technologies.
   urlDocumentation:
     unit: /tools/PESS
-
