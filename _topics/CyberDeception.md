@@ -1,15 +1,12 @@
 ---
 topic: CyberDeception
-
-# tools:
-#     - LUCID
-#     - FLAD
-# 
-# publications: 
-#     - lucidapractical,lightweightdeeplearningsolutionforddosattackdetection2020
-
-# theses:
-    # - MatteoRizzi_B
+tools:
+  - Decepto
+  - HoneyPeople
+#
+publications:
+  - iris_2024_5803b4d065e39e763bc9
+  - iris_2025_220419fbe6e1d3d85d0d
 ---
 
 Cyber deception is a defensive technique that involves the deployment of
@@ -27,9 +24,3 @@ valuable source of data for cyber threat intelligence.
   algorithms for the selection of the most appropriate decoys to
   deploy
 - Development of automated and cloud-native cyber deception tools
-
-**Selected publications** We recently started this research area and we
-have no papers published yet. However, please have a look at our first
-work [Resource-aware Cyber Deception in Cloud-Native
-Environments](https://arxiv.org/abs/2303.03151), currently under review.
-We will also publish soon our proof-of-concept tool for cyber deception.

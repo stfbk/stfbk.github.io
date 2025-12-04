@@ -20,4 +20,3 @@ HoneyPeople has also been used as part of a Capture The Flag (CTF) competition, 
 Ongoing developments aim to make the environment dynamic, allowing users to perform their business activities, making the environment more realistic and resembling a real company or business unit.
 
 The code of HoneyPeople is available on [GitLab](https://gitlab.fbk.eu/honeypeople).
-
