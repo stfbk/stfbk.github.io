@@ -42,7 +42,7 @@
     external: https://www.unitn.it/
 
 - id: nubee
-  name: Nubee s.r.l.
+  name: Nubee
   startYear: 2025
   description: Private business located in Italy.
   logo: nubee.png
@@ -63,6 +63,16 @@
   name: Fincantieri
   startYear: 2025
   description: Shipbuilding company located in Trieste, Italy
+  logo: fincantieri.png
   url:
     unit: /collaborations/Fincantieri
     external: https://www.fincantieri.com
+
+- id: ENEA
+  name: ENEA
+  startYear: 2025
+  description: Italian National Agency for New Technologies, Energy and Sustainable Economic Development
+  logo: enea.png
+  url:
+    unit: /collaborations/ENEA
+    external: https://www.enea.it

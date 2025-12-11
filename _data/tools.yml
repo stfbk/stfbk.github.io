@@ -1,10 +1,10 @@
-- id: HoneyPeople
-  name: "HoneyPeople"
-  nameAddon: "A user emulation engine for Cyber Deception"
-  description: "HoneyPeople is a Cyber Deception tool to interact with phishing emails leveraging AI technology."
-  logo: HONEYPEOPLE.png
-  urlDocumentation:
-    unit: /tools/HoneyPeople
+#- id: HoneyPeople
+#  name: "HoneyPeople"
+#  nameAddon: "A user emulation engine for Cyber Deception"
+#  description: "HoneyPeople is a Cyber Deception tool to interact with phishing emails leveraging AI technology."
+#  logo: HONEYPEOPLE.png
+#  urlDocumentation:
+#    unit: /tools/HoneyPeople
 
 - id: Decepto
   name: "Decepto"
