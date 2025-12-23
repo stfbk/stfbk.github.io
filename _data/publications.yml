@@ -2342,6 +2342,21 @@
   destination: JINS
   year: 2025
   doi: 10.1186/s13635-025-00187-6
+
+- id: OIDCPRIV2025
+  id_iris: 
+  title: "Best Current Practices for Privacy-Preserving OpenID Connect: A Study of Their Adoption in the Wild"
+  authors:
+    - GianlucaSassetti
+    - AmirSharif
+    - GiadaSciarretta
+    - RobertoCarbone
+    - SilvioRanise
+  abstract: >
+    The transition from centralized identity architecture to a decentralized one introduces profound shifts in the privacy protection of users' data. Yet, as decentralized identity continues to mature, today's online services still overwhelmingly depend on centralized identity management solutions built on top of OpenID Connect (OIDC) as the most widespread solution. Ensuring privacy-preserving OIDC deployments is therefore critical for safeguarding users' personal data and maintaining compliance with regulatory frameworks such as the General Data Protection Regulation (GDPR) and trust frameworks, such as the Electronic Identification, Authentication and Trust Services (eIDAS). However, the current OIDC ecosystem lacks a coherent set of privacy Best Current Practices (BCPs) and a study of how widely these privacy-enhancing features are adopted in real-world deployments. To this end, this work addresses the aforementioned gaps on two fronts. First, we propose a structured set of privacy BCPs derived from official OIDC specifications and current implementation trends, identifying easy-to-deploy privacy-enhancing features that strengthen the OIDC deployments' baseline privacy without altering the protocol or compromising interoperability. Furthermore, the BCPs also help achieve the GDPR privacy principles, such as data minimization, confidentiality, and unlinkability. Second, this work provides a comprehensive survey of OpenID Providers (OPs) in the wild to identify gaps in privacy-preserving configurations in both private and public (i.e., national) sectors OPs. The study employs a dual methodology: first, a manual review performed in 2022; subsequently, an automated compliance analysis performed in 2025 surveying a dataset of 10000 OPs worldwide. The results reveal a concerning lack of privacy-enhancing features among private OPs and a wide gap between private and national OPs, with the latter group providing, on average, much higher baseline privacy. We have also found a prevalence of misconfigured OPs not complying with the OIDC specifications, potentially resulting in misconfigured and non-compliant OPs. The paper emphasizes the importance of adopting actionable BCPs to improve baseline privacy and demonstrates the need for an automated framework for ongoing privacy compliance assessments in OIDC ecosystems.
+  destination: COSE
+  year: 2025
+  doi: 
   
 - id: SECRYPT2025
   id_iris: 360987
