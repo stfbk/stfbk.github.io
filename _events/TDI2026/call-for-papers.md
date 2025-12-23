@@ -15,9 +15,11 @@ Submissions will be categorized into (page limits exclude references and well-ma
 - **Regular Papers**: full-length research papers (from 10 to 12 pages).
 - **Short Papers**: research papers presenting preliminary results (from 5 to 9 pages).
 
-Submissions must be made through the [EasyChair conference management system](https://easychair.org/conferences/?conf=tdi2026). When submitting, authors must select the "Call for Papers" track.
+Submissions must be made through the [EasyChair conference management system](https://easychair.org/conferences/?conf=tdi2026). When submitting, authors **must select the "Call for Papers" track**.
 
-All submitted papers will undergo a single-blind review process, so anonymization is **not** required.
+Papers must be submitted in a form suitable for **anonymous review**: no author names or affiliations may appear on the title page, and papers should avoid revealing their identity in the text. Authors should also take care in not including acknowledgments that help identify them (e.g., funding information, names of colleagues who gave feedback on the paper). When referring to your previous work, do so in the third person, as though it were written by someone else. Any source code or other material (e.g., data sets) which requires hosting must use anonymous services. This explicitly excludes hosting on GitHub or Google Drive (which could leak reviewer identities). Instead, authors are encouraged to use services such as [Anonymous GitHub](https://anonymous.4open.science/).
+
+Failure to comply with the above requirements may result in rejection without review.
 
 Please note that at least one author of each accepted paper must register for the workshop and present the paper in person.
 
