@@ -1,0 +1,20 @@
+# Topics of Interest
+We encourage submissions on a range of topics, including but not limited to:
+- Access Control in IoT and Distributed Systems
+- Behavioral and Risk-based Authentication Mechanisms
+- Compliance with Regulations such as eIDAS (2), PSD2, NIS2
+- Decentralized Identity and Self Sovereign Identity
+- Digital Wallets and Verifiable Credentials (such as Selective Disclosure and Revocation)
+- Identification, Onboarding and Know Your Customer (KYC) Procedures
+- Identity for Web 3.0 and Metaverse
+- Identity Governance and Administration
+- Identity of Things and Cloud Security
+- Mobile and Strong Authentication
+- Passwordless Authentication (including Passkeys)
+- Privacy-Enhancing Technologies for Identity Management
+- Securing Identities for Financial, Governmental and Health Services
+- Session Management for Seamless and Continuous Authentication
+- Threat Modeling, Security and Risk Analysis of Identity Management Solutions
+- Trust Frameworks for Identity Management Solutions
+- Usability of Identity Management Solutions
+- Zero Trust Architectures

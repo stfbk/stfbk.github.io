@@ -183,6 +183,14 @@
   url: /events/CPS4CIP2025
 
 # 2026
+- id: TDI2026
+  name: 4th International Workshop on Trends in Digital Identity
+  acronym: TDI 2026
+  startDate: "2026-04-20"
+  endDate: "2026-04-21"
+  description: The workshop seeks to bring together representatives from academia, research institutions, industry, public administrations, and standardization bodies to discuss the evolving landscape of digital identity management.
+  url: /events/TDI2026
+
 - id: SeRIM2026
   name: 2nd International Workshop on Security and Risk in Identity Management
   acronym: SeRIM 2026
