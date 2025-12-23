@@ -10,8 +10,11 @@ permalink: /events/TDI2026/
 <!--<img class="image-centered" src="/assets/areas/events/TDI2026/tdi2026.jpg" />-->
 
 <blockquote>
-  <b>New: Call for Talks</b><br />
-  Starting from this year, talks are no longer by invitation only. Speakers are invited to propose their talks, which will be evaluated and selected through a dedicated process.
+  <b>What's new in TDI 2026?</b>
+  <ul>
+    <li><b>Extended format</b>: the workshop will run for one and a half days, allowing additional time for presentations, discussion and networking.</li>
+    <li><b>Open Call for Talks</b>: in addition to scientific papers, speakers can now propose talks through an open selection process.</li>
+  </ul>
 </blockquote>
 
 # Recent News
