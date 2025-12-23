@@ -10,6 +10,7 @@ We encourage submissions on a range of topics, including but not limited to:
 - Identity Governance and Administration
 - Identity of Things and Cloud Security
 - Mobile and Strong Authentication
+- Non-Human Identities
 - Passwordless Authentication (including Passkeys)
 - Privacy-Enhancing Technologies for Identity Management
 - Securing Identities for Financial, Governmental and Health Services

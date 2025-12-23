@@ -1,5 +1,6 @@
 ---
 title: 4th International Workshop on Trends in Digital Identity (TDI 2026)
+subtitle: April 20-21, 2026 · Verona, Italy
 menubar: TDI2026
 permalink: /events/TDI2026/
 #image: /assets/areas/events/TDI2026/tdi2026.jpg
@@ -23,8 +24,6 @@ To effectively address these challenges, collaboration among researchers and pra
 
 # Format
 The workshop will feature a dynamic format, combining talks and presentations of scientific contributions, all selected through open calls. This structure ensures a diverse and enriching experience, integrating a broad range of perspectives with the latest research findings to foster a comprehensive understanding of current challenges and innovations in the field.
-
-**Note**: Starting from this year, talks are no longer by invitation only. Speakers are invited to propose their talks, which will be evaluated and selected through a dedicated selection process.
 
 Further details on the open calls are available in the respective pages ([call for papers](call-for-papers), [call for talks](call-for-talks)).
 
