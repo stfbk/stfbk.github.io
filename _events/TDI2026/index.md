@@ -3,16 +3,16 @@ title: 4th International Workshop on Trends in Digital Identity (TDI 2026)
 subtitle: April 20-21, 2026 · Verona, Italy
 menubar: TDI2026
 permalink: /events/TDI2026/
-#image: /assets/areas/events/TDI2026/tdi2026.jpg
+image: /assets/areas/events/TDI2026/tdi2026.jpg
 
 ---
 
-<!--<img class="image-centered" src="/assets/areas/events/TDI2026/tdi2026.jpg" />-->
+<img class="image-centered" src="/assets/areas/events/TDI2026/tdi2026.jpg" />
 
 <blockquote>
   <b>What's new in TDI 2026?</b>
   <ul>
-    <li><b>Extended format</b>: the workshop will run for one and a half days, allowing additional time for presentations, discussion and networking.</li>
+    <li><b>Extended Format</b>: the workshop will run for one and a half days, allowing additional time for presentations, discussion and networking.</li>
     <li><b>Open Call for Talks</b>: in addition to scientific papers, speakers can now propose talks through an open selection process.</li>
   </ul>
 </blockquote>
