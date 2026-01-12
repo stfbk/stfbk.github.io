@@ -67,6 +67,20 @@ current:
       yearFrom: 2025
       yearTo: 2026
 
+    - personId: FrancescoBrunelli
+      type: B
+      topic: Analysis of security and privacy issues in AI and GenAI models
+      institution: University of Trento
+      yearFrom: 2026
+      yearTo: 2026
+
+    - personId: SimoneRossi
+      type: M
+      topic: Validating TLS Implementations via Bytestream Parsing
+      institution: University of Trento and University of Turku
+      yearFrom: 2026
+      yearTo: 2026
+
   junior:    
       
 former:

@@ -424,6 +424,11 @@
   surname: Marino
   email: fa.marino@ipzs.it
 
+- id: FrancescoBrunelli
+  name: Francesco
+  surname: Brunelli
+  usernameFBK: fbrunelli
+
 - id: FrancescoDefilippo
   name: Francesco
   surname: Defilippo
@@ -1094,6 +1099,11 @@
 - id: SimoneOnofri
   name: Simone
   surname: Onofri
+
+- id: SimoneRossi
+  name: Simone
+  surname: Rossi
+  usernameFBK: sirossi
 
 - id: SofiaPuttin
   name: Sofia
