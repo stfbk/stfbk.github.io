@@ -1,6 +1,6 @@
 ---
 title: 4th International Workshop on Trends in Digital Identity (TDI 2026)
-subtitle: Call for Papers
+subtitle: Call for Talks
 menubar: TDI2026
 ---
 
