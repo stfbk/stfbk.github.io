@@ -1844,7 +1844,7 @@
     Several automated tools have been proposed to detect vulnerabilities. These tools are mainly evaluated in terms of their accuracy in detecting vulnerabilities, but the evaluation of their usability is commonly neglected. Usability of automated security tools is particularly crucial when dealing with problems of cryptographic protocols for which even small—apparently insignificant—changes in configuration can result in vulnerabilities that, if exploited, pave the way to attacks with dramatic consequences for the confidentiality and integrity of the exchanged messages. This becomes even more acute when considering such ubiquitous protocols as the one for Transport Layer Security (TLS for short). In this paper, we present the design and the lessons learned of a user study, meant to compare two different approaches when reporting misconfigurations. Results reveal that including contextualized actionable mitigations in security reports significantly impact the accuracy and the time needed to patch TLS vulnerabilities. We used these results to build an open-source tool called TLSAssistant, able to combine state-of-the-art analyzers with a report systems that generates actionable mitigations to assist the user. Finally, we report our experience in using TLSAssistant in two case studies conducted in a corporate environment.
   destination: JOWUA
   year: 2022
-  doi: 10.1145/3508398.3511505
+  doi: 10.22667/JOWUA.2022.03.31.056
 
 - id: MDPI2022
   id_iris: 335107
@@ -2387,7 +2387,7 @@
     A system that offers the possibility of using and presenting credentials, requires the ability to check for their validity, avoiding the use of revoked or suspended credentials.  This paper compares traditional and emerging credential status mechanisms to identify the most suitable solutions for the wallet ecosystem, taking in consideration privacy aspects and the set of available features.
   destination: SECRYPT2025
   year: 2025
-  doi:
+  doi: 10.5220/0013635500003979
 
 - id: SSR2025_DCAPI
   id_iris: 363967
