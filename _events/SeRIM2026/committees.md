@@ -17,4 +17,13 @@ menubar: SeRIM2026
 - **Marco Pernpruner** (Fondazione Bruno Kessler)
 
 # Program Committee
-*Under definition.*
+- **Roberto Carbone** (Fondazione Bruno Kessler)
+- **Letterio Galletta** (IMT School for Advanced Studies Lucca)
+- **Ralf Küsters** (University of Stuttgart)
+- **Luigi Lo Iacono** (Justus Liebig University Giessen)
+- **Marino Miculan** (University of Udine)
+- **Simone Onofri** (W3C)
+- **Federica Maria Francesca Paci** (University of Verona)
+- **Pieter Philippaerts** (KU Leuven)
+- **Thomas Schreck** (Munich University of Applied Sciences)
+- **Luca Viganò** (King's College London)
