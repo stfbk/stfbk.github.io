@@ -11,7 +11,7 @@ menubar: TDI2026
 - **Marco Pernpruner** (Fondazione Bruno Kessler)
 - **Giada Sciarretta** (Fondazione Bruno Kessler)
 
-# Scientific Program Committee (tentative)
+# Scientific Program Committee
 - **Francesco Buccafurri** (University of Reggio Calabria)
 - **Markus Dürmuth** (Leibniz University Hannover)
 - **Isaac Henderson Johnson Jeyakumar** (Fraunhofer IAO)
@@ -25,12 +25,16 @@ menubar: TDI2026
 - **Nicola Zannone** (Eindhoven University of Technology)
 
 # Talk Program Committee
-*Under definition.*
+- **Juan Caballero** (Decentralized Identity Foundation)
+- **Michael B. Jones** (Self-Issued Consulting)
+- **Francesco Antonio Marino** (Istituto Poligrafico e Zecca dello Stato, IPZS)
+- **Andreea Prian** (iDAKTO)
+- **Davide Vaghetti** (GARR)
 
 # Organizing Committee
 - **Annalisa Armani** (Fondazione Bruno Kessler)
 - **Roberto Carbone** (Fondazione Bruno Kessler)
+- **Claudio De Cassan** (Universitas Mercatorum Telematic University - Verona Campus)
 - **Isabella Masè** (Fondazione Bruno Kessler)
 - **Marco Pernpruner** (Fondazione Bruno Kessler)
 - **Giada Sciarretta** (Fondazione Bruno Kessler)
-- **Amir Sharif** (Fondazione Bruno Kessler)
