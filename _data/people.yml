@@ -350,6 +350,12 @@
 - id: EmilianoRizzonelli
   name: Emiliano
   surname: Rizzonelli
+  affiliations:
+    - role: Research Assistant
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: erizzonelli@fbk.eu
 
 - id: EnricoCambiaso
   name: Enrico
