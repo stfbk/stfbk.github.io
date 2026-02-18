@@ -1010,6 +1010,16 @@
 - id: RoccoMammoliti
   name: Rocco
   surname: Mammoliti
+
+- id: RomanJevsejev
+  name: Roman
+  surname: Jevsejev
+  affiliations:
+    - role: Visiting PhD Student
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  usernameFBK: rjevsejev
   
 - id: RupertGobber
   name: Rupert
