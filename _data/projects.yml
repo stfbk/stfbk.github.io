@@ -1,3 +1,11 @@
+- id: 8ra
+  title: 8ra
+  titleAddon: Cybersecurity & AI at The Edge
+  logo: logo_8ra.jpg
+  url:
+    unit: /projects/8ra
+    external: https://ipcei-cis.fbk.eu/
+
 - id: AI@TN
   title: AI@TN
   titleAddon: Intelligenza artificiale a Trento
