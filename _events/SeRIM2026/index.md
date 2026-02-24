@@ -1,5 +1,6 @@
 ---
 title: 2nd International Workshop on Security and Risk in Identity Management (SeRIM 2026)
+subtitle: July 10, 2026 · Lisbon, Portugal
 menubar: SeRIM2026
 permalink: /events/SeRIM2026/
 image: /assets/areas/events/SeRIM2026/serim2026.jpg
