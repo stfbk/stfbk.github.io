@@ -2418,4 +2418,20 @@
   year: 2025
   doi: 
 
+## 2026
+- id: PETS2026
+  id_iris: 367947
+  title: "Chatbot Confessions: Large-Scale Analysis of Private Data Disclosure in Shared AI Chatbot Conversations"
+  authors:
+    - MajidMollaeefar
+    - DimitriVanLanduyt
+    - GertjanFranken
+    - NicoEbert
+    - SilvioRanise
+  abstract: >
+    The proliferation of AI conversation platforms has introduced unprecedented privacy risks through user-shared conversations. This paper presents a comprehensive analysis of privacy vulnerabilities in shared conversations across three major LLM platforms: ChatGPT, Microsoft Copilot, and Google Gemini. We collected and analyzed 100 342 conversations using an automated LLM-based privacy detection pipeline enhanced with a defined risk scoring system and the LINDDUN threat modeling framework. Our analysis identifies 8 131 conversations (8%) to incur privacy risks deriving from the disclosure of private and sensitive data including user identifiers (49%) and user location data (40%), yet in some cases also financial (4%), health (3%) and authentication data such as access tokens (3%). Through systematic analysis of conversation length and temporal disclosure patterns, we demonstrate that extended conversations exhibit higher privacy risk rates compared to brief interactions. Notably, 60% of private data disclosures in longer conversations occur in the final quartile of these conversations, which may indicate that users progressively lose privacy awareness as interactions deepen. Our findings have immediate implications for platform designers and policymakers, highlighting the need for proactive interventions including real-time privacy warnings, preshare scanning, and clearer education about the permanence and discoverability of shared conversation links.
+  destination: PETS2026
+  year: 2026
+  doi: 
+
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS

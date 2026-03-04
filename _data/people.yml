@@ -444,6 +444,10 @@
   surname: Costa
   email: gabriele.costa@imtlucca.it
 
+- id: GertjanFranken
+  name: Gertjan
+  surname: Franken
+
 - id: GiacomoZanolli
   name: Giacomo
   surname: Zanolli
@@ -885,6 +889,10 @@
   name: Niccolò
   surname: Lechthaler
   usernameFBK: nnlechthaler
+
+- id: NicoEbert
+  name: Nico
+  surname: Ebert
 
 - id: NicolaCasagrande
   name: Nicola
