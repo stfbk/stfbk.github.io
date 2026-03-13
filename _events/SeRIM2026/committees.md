@@ -24,6 +24,7 @@ menubar: SeRIM2026
 - **Marino Miculan** (University of Udine)
 - **Simone Onofri** (W3C)
 - **Federica Maria Francesca Paci** (University of Verona)
+- **Cecilia Pasquini** (Fondazione Bruno Kessler)
 - **Pieter Philippaerts** (KU Leuven)
 - **Thomas Schreck** (Munich University of Applied Sciences)
 - **Luca Viganò** (King's College London)
