@@ -1,0 +1,5 @@
+table + table,
+.table-scrollable + .table-scrollable {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
