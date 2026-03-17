@@ -1094,3 +1094,35 @@
     - RiccardoGermenia
   year: 2025
   institution: University of Trento
+
+# 2026
+- id: GiulioBenedetti_B
+  title: "Towards a Systematic Methodology for Security Testing of Identity Management deployment: The SAML Case Study"
+  type: B
+  author: GiulioBenedetti
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+  year: 2026
+  institution: University of Trento
+
+- id: LorenzoStella_B
+  title: "A Semi-Automatic Methodology for Deriving Security Tests from Specifications: The Italian Digital Identity Wallet Use Case"
+  type: B
+  author: LorenzoStella
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - LauraCristiano
+  year: 2026
+  institution: University of Trento
+
+- id: MicheleCoco_B
+  title: "A Multi-Layered Security and Risk Analysis of Legacy 2FA Channels: A Case Study of SMS and Email OTP Implementations at Castor"
+  type: B
+  author: MicheleCoco
+  supervisor: SilvioRanise
+  co-supervisor:
+    - MarcoPernpruner
+  year: 2026
+  institution: University of Trento

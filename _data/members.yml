@@ -41,20 +41,6 @@ current:
       yearFrom: 2025
       yearTo: 2025
 
-    - personId: GiulioBenedetti
-      type: B
-      topic: Research on digital identity solutions based on Single-Sign On
-      institution: University of Trento
-      yearFrom: 2025
-      yearTo: 2025
-
-    - personId: LorenzoStella
-      type: B
-      topic: Research on digital identity solutions based on Wallet
-      institution: University of Trento
-      yearFrom: 2025
-      yearTo: 2025
-
     - personId: AlessandroDeToffoli
       type: B
       topic: Analysis and comparison of data anonymization techniques for AI applications
@@ -509,6 +495,15 @@ former:
 
     - personId: LorenzoZarantonello
       thesisId: LorenzoZarantonello_B
+
+    - personId: GiulioBenedetti
+      thesisId: GiulioBenedetti_B
+
+    - personId: LorenzoStella
+      thesisId: LorenzoStella_B
+
+    - personId: MicheleCoco
+      thesisId: MicheleCoco_B
 
   junior:
     - personId: YuriTomasini
