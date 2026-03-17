@@ -33,7 +33,7 @@ menubar: TDI2026
 
   <tr class="session">
     <td colspan="2">
-      <p class="title">Session 1: The EUDI Wallet Ecosystem</p>
+      <p class="title">Session 1: Security and Trust in the EUDI Wallet Ecosystem</p>
       <!--<p class="chair"></p>-->
     </td>
   </tr>
@@ -166,12 +166,19 @@ menubar: TDI2026
     </td>
     <td>11:55-12:20</td>
   </tr>
+  <tr>
+    <td class="talk">
+      <p class="title">The Identity Mismodeling Crisis: Rectifying B2C and Workforce IAM Misuse in B2B Ecosystems</p>
+      <p class="speakers">Anuradha Karunarathna (WSO2)</p>
+    </td>
+    <td>12:20-12:45</td>
+  </tr>
 
   <tr class="recreational">
     <td>
       Lunch
     </td>
-    <td>12:30-14:00</td>
+    <td>12:45-14:15</td>
   </tr>
 
   <tr class="session">
@@ -185,61 +192,47 @@ menubar: TDI2026
       <p class="title">So Many Anonymous Credentials, So Little Adoption: Can We Break the Linkability Loop in Identity Management?</p>
       <p class="speakers">Andrea Moro (Fondazione Bruno Kessler)</p>
     </td>
-    <td>14:00-14:25</td>
+    <td>14:15-14:40</td>
   </tr>
   <tr>
     <td class="talk">
       <p class="title">Designing Identity and Access Management for AI Agents</p>
       <p class="speakers">Thivaharan Kalyanasundaram (WSO2)</p>
     </td>
-    <td>14:25-14:50</td>
+    <td>14:40-15:05</td>
   </tr>
   <tr>
     <td class="talk">
       <p class="title">Provenance Identity Continuity (PIC): Secure Authority Propagation from Human and Non-Human Origins Across Trust Boundaries</p>
       <p class="speakers">Nicola Gallo, Antonio Radesca (Nitro Agility Srl)</p>
     </td>
-    <td>14:50-15:15</td>
+    <td>15:05-15:30</td>
   </tr>
 
   <tr class="recreational">
     <td>
       Coffee Break
     </td>
-    <td>15:15-16:00</td>
+    <td>15:30-16:15</td>
   </tr>
 
   <tr class="session">
     <td colspan="2">
-      <p class="title">Session 6: Identity for the Modern Enterprise</p>
+      <p class="title">Session 6: <i>Under Definition</i></p>
       <!--<p class="chair"></p>-->
     </td>
   </tr>
   <tr>
     <td class="talk">
-      <p class="title">Identity and Access Management for the Decade Ahead</p>
-      <p class="speakers">Thivaharan Kalyanasundaram (WSO2)</p>
+      <p class="title"><i>Under Definition</i></p>
     </td>
-    <td>16:00-16:25</td>
-  </tr>
-  <tr>
-    <td class="talk">
-      <p class="title">The Identity Mismodeling Crisis: Rectifying B2C and Workforce IAM Misuse in B2B Ecosystems</p>
-      <p class="speakers">Anuradha Karunarathna (WSO2)</p>
-    </td>
-    <td>16:25-16:50</td>
+    <td>16:15-16:40</td>
   </tr>
   <tr>
     <td class="talk">
       <p class="title"><i>Under Definition</i></p>
     </td>
-    <td>16:50-17:20</td>
-  </tr>
-  <tr>
-    <td class="talk">
-      <p class="title"><i>Under Definition</i></p>
-    </td>
-    <td>17:20-17:50</td>
+    <td>16:40-17:05</td>
   </tr>
 
   <tr class="institutional">
@@ -247,6 +240,6 @@ menubar: TDI2026
       <p class="title">Closing Remarks</p>
       <p class="speakers">Silvio Ranise (General Chair)</p>
     </td>
-    <td>17:50-18:10</td>
+    <td>17:05-17:30</td>
   </tr>
 </table>
