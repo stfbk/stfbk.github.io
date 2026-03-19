@@ -35,8 +35,8 @@ menubar: TDI2026
 
 <p>Registrations include:<p>
 <ul>
-  <li><b>Single Registration</b>: participation to the workshop (one and a half days), three coffee breaks, two lunches;</li>
-  <li><b>Combined Registration</b>: participation to both the events (two full days), four coffee breaks, two lunches.</li>
+  <li><b>Single Registration</b>: access to the workshop (1.5 days), three coffee breaks, two lunches, and the welcome reception on the evening of April 20;</li>
+  <li><b>Combined Registration</b>: access to both events (2 full days), four coffee breaks, two lunches, and the welcome reception on the evening of April 20.</li>
 </ul>
 
 <p>Student Registrations are available exclusively to enrolled students who provide valid proof of status (such as a current ID or University letter). Please note that authors of papers and speakers are required to complete a Regular Registration, regardless of their student status, to ensure their contribution is included in the program.</p>

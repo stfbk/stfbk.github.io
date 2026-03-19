@@ -16,6 +16,13 @@ menubar: TDI2026
     </td>
   </tr>
 
+  <tr class="recreational">
+    <td>
+      Lunch
+    </td>
+    <td>13:00-14:00</td>
+  </tr>
+
   <tr class="logistical">
     <td class="talk">
       <p class="title">Registration</p>
@@ -86,6 +93,13 @@ menubar: TDI2026
       <!--<p class="speakers"></p>-->
     </td>
     <td>18:15-18:30</td>
+  </tr>
+
+  <tr class="logistical">
+    <td class="talk">
+      <p class="title">Welcome Reception</p>
+    </td>
+    <td>18:30-21:00</td>
   </tr>
 </table>
 
