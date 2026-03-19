@@ -21,7 +21,7 @@ menubar: TDI2026
     <td>€ 180</td>
   </tr>
   <tr>
-    <td colspan="2" class="text-center" style="text-align: center;"><b>Combined Registration<br /><small>(<a href="https://st.fbk.eu/events/CyberResilienza_PMI2026/">Cyber-Resilienza per le PMI</a> + TDI 2026)</small></b></td>
+    <td colspan="2" class="text-center" style="text-align: center;"><b>Combined Registration<br /><small>(Cyber-Resilienza per le PMI + TDI 2026)</small></b></td>
   </tr>
   <tr>
     <td width="450px">Both Events – Regular Registration</td>
