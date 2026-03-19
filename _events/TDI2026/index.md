@@ -18,6 +18,8 @@ image: /assets/areas/events/TDI2026/tdi2026.jpg
 </blockquote>
 
 # Recent News
+- **19/03/2026**: The [registration procedure](registration) is now available.
+- **19/03/2026**: The [tentative program](program) has been published.
 - **16/02/2026**: The paper submission deadline has been extended to **February 22, 2026**.
 - **16/02/2026**: The [Talk Program Committee](committees) has been published.
 - **29/01/2026**: The [Scientific Program Committee](committees) has been published.
