@@ -47,7 +47,7 @@ menubar: TDI2026
   <tr>
     <td class="talk">
       <p class="title">Trust at European and National Level: Technologies and Approaches in the Italian EUDI Wallet Architecture with OpenID Federation 1.0 and eIDAS Trusted Lists</p>
-      <p class="speakers">Giuseppe De Marco (Independent)</p>
+      <p class="speakers">Giuseppe De Marco (Dipartimento per la Trasformazione Digitale)</p>
     </td>
     <td>15:10-15:35</td>
   </tr>
@@ -155,7 +155,7 @@ menubar: TDI2026
   <tr>
     <td class="talk">
       <p class="title">The Journey to OpenID Federation 1.0 and the Road Ahead</p>
-      <p class="speakers">Michael Jones (Self-Issued Consulting), Giuseppe De Marco (Independent), Roland Hedberg (Independent)</p>
+      <p class="speakers">Michael Jones (Self-Issued Consulting), Giuseppe De Marco (Dipartimento per la Trasformazione Digitale), Roland Hedberg (Independent)</p>
     </td>
     <td>11:30-11:55</td>
   </tr>
