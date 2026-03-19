@@ -35,3 +35,47 @@ Further details on the open calls are available in the respective pages ([call f
 
 # Important Dates
 {% include_relative includes/important-dates.md %}
+
+<div class="columns mt-4">
+  <div class="column is-12-desktop is-12-tablet">
+    <h1>Organized by</h1>
+    <div class="columns mt-2 is-multiline">
+      <div class="column is-4-desktop is-4-tablet">
+        <a class="no-decoration" href="https://cs.fbk.eu/">
+          <div class="card sponsor">
+            <div class="card-image">
+              <figure class="image">
+                <img src="/assets/images/institutional/CS_regular.png" width="200px" />
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-4">Fondazione Bruno Kessler</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="columns mt-4">
+  <div class="column is-12-desktop is-12-tablet">
+    <h1>Under the patronage of</h1>
+    <div class="columns mt-2 is-multiline">
+      <div class="column is-4-desktop is-4-tablet">
+        <a class="no-decoration" href="https://www.unimercatorum.it/">
+          <div class="card sponsor">
+            <div class="card-image">
+              <figure class="image">
+                <img src="/assets/areas/events/CyberResilienza_PMI2026/logo_UniMercatorum.png" width="200px" />
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-4">Universitas Mercatorum Telematic University</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
