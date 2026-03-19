@@ -69,6 +69,13 @@ current:
       yearFrom: 2026
       yearTo: 2026
 
+    - personId: HabibKazemi
+      type: M
+      topic: Vision Language Models (VLMs) for Face-Swapping Detection
+      institution: University of Bologna
+      yearFrom: 2026
+      yearTo: 2026
+
   junior:    
       
 former:
