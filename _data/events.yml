@@ -183,6 +183,13 @@
   url: /events/CPS4CIP2025
 
 # 2026
+- id: CyberResilienza_PMI2026
+  name: "Cyber-Resilienza per le PMI: il nuovo volto della sicurezza informatica alla luce della NIS2"
+  startDate: "2026-04-20"
+  endDate: "2026-04-20"
+  description: L'evento mira a supportare le piccole e medie imprese (PMI) nella transizione verso i nuovi regolamenti NIS2. Grazie all'intervento di consulenti aziendali ed esperti del settore, tali norme complesse potranno essere trasformate in una roadmap pratica e multidisciplinare, garantendo resilienza e conformità.
+  url: /events/CyberResilienza_PMI2026
+
 - id: TDI2026
   name: 4th International Workshop on Trends in Digital Identity
   acronym: TDI 2026

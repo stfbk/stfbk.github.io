@@ -1,0 +1,12 @@
+- label: Menu
+  items:
+    - name: Home
+      link: /events/CyberResilienza_PMI2026/
+    - name: Comitati
+      link: /events/CyberResilienza_PMI2026/comitati
+    - name: Luogo
+      link: /events/CyberResilienza_PMI2026/location
+    - name: Programma
+      link: /events/CyberResilienza_PMI2026/programma
+    - name: Registrazione
+      link: /events/CyberResilienza_PMI2026/registrazione
