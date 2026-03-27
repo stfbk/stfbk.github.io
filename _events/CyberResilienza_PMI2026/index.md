@@ -36,20 +36,6 @@ Il panorama digitale europeo è a un punto di svolta. Mentre le aziende accelera
     <h1>Con il patrocinio di</h1>
     <div class="columns mt-2 is-multiline">
       <div class="column is-4-desktop is-4-tablet">
-        <a class="no-decoration" href="https://www.unimercatorum.it/">
-          <div class="card sponsor">
-            <div class="card-image">
-              <figure class="image">
-                <img src="/assets/areas/events/CyberResilienza_PMI2026/logo_UniMercatorum.png" width="200px" />
-              </figure>
-            </div>
-            <div class="card-content">
-              <p class="title is-4">Università Digitale Mercatorum</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="column is-4-desktop is-4-tablet">
         <a class="no-decoration" href="https://verona.commercialisti.it/">
           <div class="card sponsor">
             <div class="card-image">
@@ -85,6 +71,21 @@ Il panorama digitale europeo è a un punto di svolta. Mentre le aziende accelera
   <div class="column is-12-desktop is-12-tablet">
     <h1>In collaborazione con</h1>
     <div class="columns mt-2 is-multiline">
+      <div class="column is-4-desktop is-4-tablet">
+        <a class="no-decoration" href="https://www.unimercatorum.it/">
+          <div class="card sponsor">
+            <div class="card-image">
+              <figure class="image">
+                <img src="/assets/areas/events/CyberResilienza_PMI2026/logo_UniMercatorum.png" width="200px" />
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-4">Università Digitale Mercatorum</p>
+              <p class="subtitle is-4 addon"><small>Sede di Verona</small></p>
+            </div>
+          </div>
+        </a>
+      </div>
       <div class="column is-4-desktop is-4-tablet">
         <div class="card sponsor">
           <div class="card-image">

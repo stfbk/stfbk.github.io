@@ -63,6 +63,27 @@ Further details on the open calls are available in the respective pages ([call f
 <div class="columns mt-4">
   <div class="column is-12-desktop is-12-tablet">
     <h1>Under the patronage of</h1>
+      <div class="column is-4-desktop is-4-tablet">
+        <a class="no-decoration" href="https://st.fbk.eu/projects/MERIT/">
+          <div class="card sponsor">
+            <div class="card-image">
+              <figure class="image">
+                <img src="/assets/areas/projects/logo_MERIT.png" width="200px" />
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-4">Progetto MERIT</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="columns mt-4">
+  <div class="column is-12-desktop is-12-tablet">
+    <h1>In collaboration with</h1>
     <div class="columns mt-2 is-multiline">
       <div class="column is-4-desktop is-4-tablet">
         <a class="no-decoration" href="https://www.unimercatorum.it/">
@@ -73,10 +94,23 @@ Further details on the open calls are available in the respective pages ([call f
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-4">Universitas Mercatorum Telematic University</p>
+              <p class="title is-4">Università Digitale Mercatorum</p>
+              <p class="subtitle is-4 addon"><small>Verona Campus</small></p>
             </div>
           </div>
         </a>
+      </div>
+      <div class="column is-4-desktop is-4-tablet">
+        <div class="card sponsor">
+          <div class="card-image">
+            <figure class="image">
+              <img src="/assets/areas/events/CyberResilienza_PMI2026/logo_DLPS.jpeg" width="200px" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <p class="title is-4">DLPS Consulting</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
