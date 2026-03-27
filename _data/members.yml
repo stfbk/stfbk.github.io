@@ -34,13 +34,6 @@ current:
       yearFrom: 2025
       yearTo: 2025
 
-    - personId: EliaTomaselli
-      type: B
-      topic: Validating TLS Implementations via Bytestream Parsing
-      institution: University of Trento
-      yearFrom: 2025
-      yearTo: 2025
-
     - personId: AlessandroDeToffoli
       type: B
       topic: Analysis and comparison of data anonymization techniques for AI applications
@@ -511,6 +504,13 @@ former:
 
     - personId: MicheleCoco
       thesisId: MicheleCoco_B
+
+    - personId: EliaTomaselli
+      type: M
+      topic: Validating TLS Implementations via Bytestream Parsing
+      institution: University of Trento
+      yearFrom: 2025
+      yearTo: 2026
 
   junior:
     - personId: YuriTomasini
