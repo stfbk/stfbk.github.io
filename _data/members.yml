@@ -69,6 +69,41 @@ current:
       yearFrom: 2026
       yearTo: 2026
 
+    - personId: StefanoMurtas
+      type: M
+      topic: Investigation of Phishing in Digital Identity Contects
+      institution: University of Trento
+      yearFrom: 2026
+      yearTo: 2026
+
+    - personId: LeonardoMosca
+      type: B
+      topic: Fuzzing for Web APIs
+      institution: University of Trento
+      yearFrom: 2026
+      yearTo: 2026
+
+    - personId: FrancescoVerdolin
+      type: B
+      topic: Investigation of OpenID Connect in the Italian Ecosystem
+      institution: University of Trento
+      yearFrom: 2026
+      yearTo: 2026
+
+    - personId: MatteoLoisi
+      type: B
+      topic: Investigation of Communication Protocols for AI Agents
+      institution: University of Trento
+      yearFrom: 2026
+      yearTo: 2026
+
+    - personId: GiovannaGagliardo
+      type: B
+      topic: Investigation of Italian Regulations on Cloud Service Security
+      institution: University of Trento
+      yearFrom: 2026
+      yearTo: 2026
+
   junior:    
       
 former:

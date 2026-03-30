@@ -439,6 +439,11 @@
   name: Francesco
   surname: Defilippo
 
+- id: FrancescoVerdolin
+  name: Francesco
+  surname: Verdolin
+  usernameFBK: fverdolin
+
 - id: GabrieleCosta
   name: Gabriele
   surname: Costa
@@ -493,6 +498,11 @@
 - id: GianPaoloRossi
   name: Gian Paolo
   surname: Rossi
+
+- id: GiovannaGagliardo
+  name: Giovanna
+  surname: Gagliardo
+  usernameFBK: ggagliardo
 
 - id: GiovanniCorti
   name: Giovanni
@@ -604,14 +614,19 @@
   name: Laura
   surname: Cristiano
   email: l.cristiano@fbk.eu
+
+- id: LauraPiva
+  name: Laura
+  surname: Piva
   
 - id: LeonardoDeMoura
   name: Leonardo
   surname: de Moura
 
-- id: LauraPiva
-  name: Laura
-  surname: Piva
+- id: LeonardoMosca
+  name: Leonardo
+  surname: Mosca
+  usernameFBK: lmosca
 
 - id: LeonardoVicentini
   name: Leonardo
@@ -790,6 +805,11 @@
 - id: MatteoLeonelli
   name: Matteo
   surname: Leonelli
+
+- id: MatteoLoisi
+  name: Matteo
+  surname: Loisi
+  usernameFBK: mloisi
   
 - id: MatteoLongato
   name: Matteo
@@ -1175,6 +1195,11 @@
 - id: StefanoFacchini
   name: Stefano
   surname: Facchini
+
+- id: StefanoMurtas
+  name: Stefano
+  surname: Murtas
+  usernameFBK: smurtas
 
 - id: TahirAhmad
   name: Tahir
