@@ -203,7 +203,7 @@ menubar: TDI2026
   </tr>
   <tr>
     <td class="talk">
-      <p class="title">So Many Anonymous Credentials, So Little Adoption: Can We Break the Linkability Loop in Identity Management?</p>
+      <p class="title">So Many Anonymous Credentials, So Little Adoption: Can We Escape the Linkability Well in Identity Management?</p>
       <p class="speakers">Andrea Moro (Fondazione Bruno Kessler)</p>
     </td>
     <td>14:15-14:40</td>
