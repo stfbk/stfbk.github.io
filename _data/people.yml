@@ -834,6 +834,17 @@
   email: mrizzi@fbk.eu
   phone: "+390461312356"
 
+- id: MatteoSantAnaCasarotto
+  name: Matteo Sant'Ana
+  surname: Casarotto
+  affiliations:
+    - role: Research Assistant
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: mcasarotto@fbk.eu
+  usernameFBK: mcasarotto
+
 - id: MattiaAndreolli
   name: Mattia
   surname: Andreolli
