@@ -81,7 +81,7 @@ menubar: TDI2026
   </tr>
   <tr>
     <td class="talk">
-      <p class="title"><i>Under Definition (focused on Business Wallet)</i></p>
+      <p class="title"><i>Under Definition (Wallet-related)</i></p>
       <!--<p class="speakers"></p>-->
     </td>
     <td>16:45-18:15</td>
