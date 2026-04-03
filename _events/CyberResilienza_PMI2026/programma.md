@@ -35,7 +35,7 @@ menubar: CyberResilienza_PMI2026
       <p class="title">Cybersecurity: un cambio di prospettiva per proteggere il valore dell'impresa</p>
       <p class="speakers">
         Prof. Silvio Ranise<br />
-        <i>Direttore del Centro per la Cybersecurity presso Fondazione Bruno Kessler, Professore Ordinario presso Università degli Studi di Trento</i>
+        <i>Direttore del Centro per la Cybersecurity - Fondazione Bruno Kessler, Professore Ordinario - Università degli Studi di Trento</i>
       </p>
     </td>
     <td>9:20-9:50</td>
@@ -45,7 +45,7 @@ menubar: CyberResilienza_PMI2026
       <p class="title">Dal compliance-checklist al rischio reale: l’identità digitale al centro di NIS2 e Zero Trust per le PMI</p>
       <p class="speakers">
         Dott. Andrea Rigoni<br />
-        <i>Fondatore e Managing Partner presso Altirium Srl</i>
+        <i>Fondatore e Managing Partner - Altirium Srl</i>
       </p>
     </td>
     <td>9:50-10:20</td>
@@ -63,7 +63,7 @@ menubar: CyberResilienza_PMI2026
       <p class="title">PMI e Cybersicurezza: paure, errori e problemi che devono essere superati</p>
       <p class="speakers">
         Ing. Alessandro Sorio<br />
-        <i>Amministratore Delegato presso DLPS Consulting Srl</i>
+        <i>Amministratore Delegato - DLPS Consulting Srl</i>
       </p>
     </td>
     <td>11:15-11:45</td>

@@ -6,12 +6,9 @@ menubar: TDI2026
 
 <p>Registration is mandatory and the access to the conference place will be granted to registered people, only.</p>
 
-<p>The workshop is co-located with the event "<b>Cyber-Resilienza per le PMI: il nuovo volto della sicurezza informatica alla luce della NIS2</b>", which will be held <u>in Italian</u> on Monday, April 20, 2026 in the morning. Both single and combined registrations are available.</p>
+<p>The workshop is co-located with the event "<b>Cyber-Resilienza per le PMI: il nuovo volto della sicurezza informatica alla luce della NIS2</b>", which will be held <u>in Italian</u> on Monday, April 20, 2026 in the morning. Additional information can be found on the <a href="https://st.fbk.eu/events/CyberResilienza_PMI2026/">event website</a>.</p>
 
 <table width="100%" class="bordered" style="margin-bottom: 10px;">
-  <tr>
-    <td colspan="2" class="text-center" style="text-align: center;"><b>Single Registration<br /><small>(TDI 2026)</small></b></td>
-  </tr>
   <tr>
     <td width="450px">TDI – Regular Registration</td>
     <td>€ 250</td>
@@ -20,24 +17,9 @@ menubar: TDI2026
     <td width="450px">TDI – Student Registration</td>
     <td>€ 180</td>
   </tr>
-  <tr>
-    <td colspan="2" class="text-center" style="text-align: center;"><b>Combined Registration<br /><small>(Cyber-Resilienza per le PMI + TDI 2026)</small></b></td>
-  </tr>
-  <tr>
-    <td width="450px">Both Events – Regular Registration</td>
-    <td>€ 270</td>
-  </tr>
-  <tr>
-    <td width="450px">Both Events – Student Registration</td>
-    <td>€ 200</td>
-  </tr>
 </table>
 
-<p>Registrations include:<p>
-<ul>
-  <li><b>Single Registration</b>: access to the workshop (1.5 days), three coffee breaks, two lunches, and the welcome reception on the evening of April 20;</li>
-  <li><b>Combined Registration</b>: access to both events (2 full days), four coffee breaks, two lunches, and the welcome reception on the evening of April 20.</li>
-</ul>
+<p>Registrations include: access to the workshop (1.5 days), three coffee breaks, two lunches, and the welcome reception on the evening of April 20.</p>
 
 <p>Student Registrations are available exclusively to enrolled students who provide valid proof of status (such as a current ID or University letter). Please note that authors of papers and speakers are required to complete a Regular Registration, regardless of their student status, to ensure their contribution is included in the program.</p>
 
