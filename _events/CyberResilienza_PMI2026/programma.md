@@ -20,14 +20,14 @@ menubar: CyberResilienza_PMI2026
     <td class="talk">
       <p class="title">Registrazione</p>
     </td>
-    <td>8:15-9:00</td>
+    <td>8:45-9:30</td>
   </tr>
 
   <tr class="institutional">
     <td class="talk">
       <p class="title">Apertura lavori e saluti istituzionali</p>
     </td>
-    <td>9:00-9:20</td>
+    <td>9:30-10:00</td>
   </tr>
 
   <tr>
@@ -38,7 +38,7 @@ menubar: CyberResilienza_PMI2026
         <i>Direttore del Centro per la Cybersecurity - Fondazione Bruno Kessler, Professore Ordinario - Università degli Studi di Trento</i>
       </p>
     </td>
-    <td>9:20-9:50</td>
+    <td>10:00-10:30</td>
   </tr>
   <tr>
     <td class="talk">
@@ -48,14 +48,14 @@ menubar: CyberResilienza_PMI2026
         <i>Fondatore e Managing Partner - Altirium Srl</i>
       </p>
     </td>
-    <td>9:50-10:20</td>
+    <td>10:30-11:00</td>
   </tr>
 
   <tr class="recreational">
     <td>
       Coffee Break
     </td>
-    <td>10:30-11:15</td>
+    <td>11:00-11:45</td>
   </tr>
 
   <tr>
@@ -66,18 +66,16 @@ menubar: CyberResilienza_PMI2026
         <i>Amministratore Delegato - DLPS Consulting Srl</i>
       </p>
     </td>
-    <td>11:15-11:45</td>
+    <td>11:45-12:15</td>
   </tr>
 
   <tr>
     <td class="talk">
       <p class="title"><i>In definizione</i></p>
-    </td>
-    <td>11:45-12:15</td>
-  </tr>
-  <tr>
-    <td class="talk">
-      <p class="title"><i>In definizione</i></p>
+      <p class="speakers">
+        Ing. Davide Nardacci<br />
+        <i>Vice Capo Divisione NIS e discipline unionali - ACN</i>
+      </p>
     </td>
     <td>12:15-12:45</td>
   </tr>

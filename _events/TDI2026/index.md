@@ -10,6 +10,10 @@ image: /assets/areas/events/TDI2026/tdi2026.jpg
 <img class="image-centered" src="/assets/areas/events/TDI2026/tdi2026.jpg" />
 
 <blockquote>
+<p>The workshop is co-located with the event <a href="/events/CyberResilienza_PMI2026/"><b>Cyber-Resilienza per le PMI: il nuovo volto della sicurezza informatica alla luce della NIS2</b></a> (in Italian).</p>
+</blockquote>
+
+<blockquote>
   <b>What's new in TDI 2026?</b>
   <ul>
     <li><b>Extended Format</b>: the workshop will run for one and a half days, allowing additional time for presentations, discussion and networking.</li>

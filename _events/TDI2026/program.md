@@ -232,21 +232,16 @@ menubar: TDI2026
 
   <tr class="session">
     <td colspan="2">
-      <p class="title">Session 6: <i>Under Definition</i></p>
+      <p class="title">Session 6: Empowering the Next Generation</p>
       <!--<p class="chair"></p>-->
     </td>
   </tr>
   <tr>
     <td class="talk">
-      <p class="title"><i>Under Definition</i></p>
+      <p class="title">The IAM Pillar and Beyond: Exploring the Results of the Master of Science in Smart, Secure and Interconnected Systems (MERIT)</p>
+      <p class="speakers">Umberto Morelli (Fondazione Bruno Kessler)</p>
     </td>
     <td>16:15-16:40</td>
-  </tr>
-  <tr>
-    <td class="talk">
-      <p class="title"><i>Under Definition</i></p>
-    </td>
-    <td>16:40-17:05</td>
   </tr>
 
   <tr class="institutional">
@@ -254,6 +249,6 @@ menubar: TDI2026
       <p class="title">Closing Remarks</p>
       <p class="speakers">Silvio Ranise (General Chair)</p>
     </td>
-    <td>17:05-17:30</td>
+    <td>16:40-17:00</td>
   </tr>
 </table>
