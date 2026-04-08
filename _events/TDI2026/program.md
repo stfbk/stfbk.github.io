@@ -134,7 +134,7 @@ menubar: TDI2026
   <tr>
     <td class="talk">
       <p class="title">The Post-Quantum Apocalypse Is Already Upon Us</p>
-      <p class="speakers">Michael Jones (Self-Issued Consulting)</p>
+      <p class="speakers">Michael B. Jones (Self-Issued Consulting)</p>
     </td>
     <td>9:30-9:55</td>
   </tr>
@@ -169,7 +169,7 @@ menubar: TDI2026
   <tr>
     <td class="talk">
       <p class="title">The Journey to OpenID Federation 1.0 and the Road Ahead</p>
-      <p class="speakers">Michael Jones (Self-Issued Consulting), Giuseppe De Marco (Dipartimento per la Trasformazione Digitale), Roland Hedberg (Independent)</p>
+      <p class="speakers">Michael B. Jones (Self-Issued Consulting), Giuseppe De Marco (Dipartimento per la Trasformazione Digitale), Roland Hedberg (Independent)</p>
     </td>
     <td>11:30-11:55</td>
   </tr>
