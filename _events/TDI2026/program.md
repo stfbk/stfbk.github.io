@@ -41,7 +41,7 @@ menubar: TDI2026
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 1: Security and Trust in the EUDI Wallet Ecosystem</p>
-      <!--<p class="chair"></p>-->
+      <p class="chair">Gianluca Dotti</p>
     </td>
   </tr>
   <tr>
@@ -76,13 +76,13 @@ menubar: TDI2026
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 2: Round Table</p>
-      <!--<p class="chair"></p>-->
+      <p class="chair">Gianluca Dotti</p>
     </td>
   </tr>
   <tr>
     <td class="talk">
-      <p class="title"><i>Under Definition (Wallet-related)</i></p>
-      <!--<p class="speakers"></p>-->
+      <p class="title">The Wallet Revolution: Redefining Digital Interaction Through EUDIW and EUBW</p>
+      <p class="speakers">Alessandro Bazzolo (InfoCamere), Luigi Castaldo (Namirial S.p.A.), Francesco Vetrano (Intesi Group S.p.A.)</p>
     </td>
     <td>16:45-18:15</td>
   </tr>
@@ -163,7 +163,7 @@ menubar: TDI2026
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 4: Identity Protocol Evolution</p>
-      <!--<p class="chair"></p>-->
+      <p class="chair">Andrea Moro</p>
     </td>
   </tr>
   <tr>
@@ -198,7 +198,7 @@ menubar: TDI2026
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 5: Identity in the Age of AI and Privacy</p>
-      <!--<p class="chair"></p>-->
+      <p class="chair">Michael B. Jones</p>
     </td>
   </tr>
   <tr>
