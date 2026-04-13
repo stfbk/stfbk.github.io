@@ -36,6 +36,11 @@ theses:
     - GiuseppeAlessioSciumè_B
     - PierGuidoSeno_B
     - RobertoSavi_B
+    - MattiaMaramotti_B
+    - NiccolòLechthaler_B
+    - LorenzoZarantonello_B
+    - GiulioBenedetti_B
+    - LorenzoStella_B
 
 ---
 
