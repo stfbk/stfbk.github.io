@@ -128,7 +128,7 @@ menubar: TDI2026
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 3: Cryptographic Resilience</p>
-      <!--<p class="chair"></p>-->
+      <p class="chair">Alessandro Tomasi</p>
     </td>
   </tr>
   <tr>
@@ -233,7 +233,7 @@ menubar: TDI2026
   <tr class="session">
     <td colspan="2">
       <p class="title">Session 6: Empowering the Next Generation</p>
-      <!--<p class="chair"></p>-->
+      <p class="chair">Amir Sharif</p>
     </td>
   </tr>
   <tr>
