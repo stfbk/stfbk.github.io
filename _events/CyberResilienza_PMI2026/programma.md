@@ -55,7 +55,7 @@ menubar: CyberResilienza_PMI2026
     <td>
       Coffee Break
     </td>
-    <td>11:00-11:45</td>
+    <td>11:00-11:30</td>
   </tr>
 
   <tr>
@@ -66,7 +66,7 @@ menubar: CyberResilienza_PMI2026
         <i>Amministratore Delegato – DLPS Consulting Srl</i>
       </p>
     </td>
-    <td>11:45-12:15</td>
+    <td>11:30-12:00</td>
   </tr>
 
   <tr>
@@ -77,14 +77,14 @@ menubar: CyberResilienza_PMI2026
         <i>Vice Capo Divisione NIS e discipline unionali – Agenzia per la Cybersicurezza Nazionale</i>
       </p>
     </td>
-    <td>12:15-12:45</td>
+    <td>12:00-12:30</td>
   </tr>
 
   <tr class="institutional">
     <td class="talk">
       <p class="title">Chiusura lavori</p>
     </td>
-    <td>12:45-13:00</td>
+    <td>12:30-13:00</td>
   </tr>
 
   <tr class="recreational">
