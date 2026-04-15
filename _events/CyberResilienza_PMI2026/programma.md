@@ -35,17 +35,17 @@ menubar: CyberResilienza_PMI2026
       <p class="title">Cybersecurity: un cambio di prospettiva per proteggere il valore dell'impresa</p>
       <p class="speakers">
         Prof. Silvio Ranise<br />
-        <i>Direttore del Centro per la Cybersecurity - Fondazione Bruno Kessler, Professore Ordinario - Università degli Studi di Trento</i>
+        <i>Direttore del Centro per la Cybersecurity – Fondazione Bruno Kessler, Professore Ordinario – Università degli Studi di Trento</i>
       </p>
     </td>
     <td>10:00-10:30</td>
   </tr>
   <tr>
     <td class="talk">
-      <p class="title">Dal compliance-checklist al rischio reale: l’identità digitale al centro di NIS2 e Zero Trust per le PMI</p>
+      <p class="title">Dal compliance-checklist al rischio reale: l'identità digitale al centro di NIS2 e Zero Trust per le PMI</p>
       <p class="speakers">
         Dott. Andrea Rigoni<br />
-        <i>Fondatore e Managing Partner - Altirium Srl</i>
+        <i>Fondatore e Managing Partner – Altirium Srl</i>
       </p>
     </td>
     <td>10:30-11:00</td>
@@ -63,7 +63,7 @@ menubar: CyberResilienza_PMI2026
       <p class="title">PMI e Cybersicurezza: paure, errori e problemi che devono essere superati</p>
       <p class="speakers">
         Ing. Alessandro Sorio<br />
-        <i>Amministratore Delegato - DLPS Consulting Srl</i>
+        <i>Amministratore Delegato – DLPS Consulting Srl</i>
       </p>
     </td>
     <td>11:45-12:15</td>
@@ -71,10 +71,10 @@ menubar: CyberResilienza_PMI2026
 
   <tr>
     <td class="talk">
-      <p class="title"><i>In definizione</i></p>
+      <p class="title">NIS2 - implementazione del decreto e i prossimi passi</p>
       <p class="speakers">
         Ing. Davide Nardacci<br />
-        <i>Vice Capo Divisione NIS e discipline unionali - ACN</i>
+        <i>Vice Capo Divisione NIS e discipline unionali – Agenzia per la Cybersicurezza Nazionale</i>
       </p>
     </td>
     <td>12:15-12:45</td>
