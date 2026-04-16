@@ -71,7 +71,7 @@ menubar: CyberResilienza_PMI2026
 
   <tr>
     <td class="talk">
-      <p class="title">NIS2 - implementazione del decreto e i prossimi passi</p>
+      <p class="title">NIS2 - implementazione del decreto e prossimi passi</p>
       <p class="speakers">
         Ing. Davide Nardacci<br />
         <i>Vice Capo Divisione NIS e discipline unionali – Agenzia per la Cybersicurezza Nazionale</i>

@@ -76,7 +76,7 @@ Il panorama digitale europeo è a un punto di svolta. Mentre le aziende accelera
     <h1>In collaborazione con</h1>
     <div class="columns mt-2 is-multiline">
       <div class="column is-4-desktop is-4-tablet">
-        <a class="no-decoration" href="https://www.unimercatorum.it/">
+        <a class="no-decoration" href="https://www.unidigitaliverona.it/">
           <div class="card sponsor">
             <div class="card-image">
               <figure class="image">
@@ -91,16 +91,18 @@ Il panorama digitale europeo è a un punto di svolta. Mentre le aziende accelera
         </a>
       </div>
       <div class="column is-4-desktop is-4-tablet">
-        <div class="card sponsor">
-          <div class="card-image">
-            <figure class="image">
-              <img src="/assets/areas/events/CyberResilienza_PMI2026/logo_DLPS.jpeg" width="200px" />
-            </figure>
+        <a class="no-decoration" href="https://www.dlps.it/">
+          <div class="card sponsor">
+            <div class="card-image">
+              <figure class="image">
+                <img src="/assets/areas/events/CyberResilienza_PMI2026/logo_DLPS.jpeg" width="200px" />
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-4">DLPS Consulting</p>
+            </div>
           </div>
-          <div class="card-content">
-            <p class="title is-4">DLPS Consulting</p>
-          </div>
-        </div>
+        </a>
       </div>
     </div>
   </div>

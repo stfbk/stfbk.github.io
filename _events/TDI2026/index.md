@@ -89,7 +89,7 @@ Further details on the open calls are available in the respective pages ([call f
     <h1>In collaboration with</h1>
     <div class="columns mt-2 is-multiline">
       <div class="column is-4-desktop is-4-tablet">
-        <a class="no-decoration" href="https://www.unimercatorum.it/">
+        <a class="no-decoration" href="https://www.unidigitaliverona.it/">
           <div class="card sponsor">
             <div class="card-image">
               <figure class="image">
