@@ -14,6 +14,10 @@ image: /assets/areas/events/SeRIM2026/serim2026.jpg
 </blockquote>
 
 # Recent News
+- **10/04/2026**: The deadline for the submission of the camera ready has been extended to **April 21, 2026**.
+- **02/03/2026**: Notifications to Authors have been postponed to **April 10, 2026**.
+- **02/03/2026**: The paper submission deadline has been extended to **March 10, 2026**.
+- **16/02/2026**: The [Program Committee](committees) has been published.
 - **12/11/2025**: The website is online.
 
 # Overview
