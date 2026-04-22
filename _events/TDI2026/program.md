@@ -90,7 +90,7 @@ menubar: TDI2026
   <tr class="institutional">
     <td class="talk">
       <p class="title">First Day Take-Aways</p>
-      <!--<p class="speakers"></p>-->
+      <p class="speakers">Silvio Ranise (General Chair)</p>
     </td>
     <td>18:15-18:30</td>
   </tr>

@@ -26,6 +26,12 @@ menubar: CyberResilienza_PMI2026
   <tr class="institutional">
     <td class="talk">
       <p class="title">Apertura lavori e saluti istituzionali</p>
+      <p class="speakers">
+        Ing. Andrea Simoni<br />
+        <i>Segretario Generale – Fondazione Bruno Kessler</i><br />
+        Dott. Claudio De Cassan
+        <i>Responsabile della sede di Verona – Università Digitale Mercatorum</i>
+      </p>
     </td>
     <td>9:30-10:00</td>
   </tr>
