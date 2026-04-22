@@ -23,6 +23,13 @@ menubar: CyberResilienza_PMI2026
     <td>8:45-9:30</td>
   </tr>
 
+  <tr class="session">
+    <td colspan="2">
+      <p class="title">Sessione Unica</p>
+      <p class="moderatore">Gianluca Dotti</p>
+    </td>
+  </tr>
+
   <tr class="institutional">
     <td class="talk">
       <p class="title">Apertura lavori e saluti istituzionali</p>
@@ -31,6 +38,9 @@ menubar: CyberResilienza_PMI2026
         <i>Segretario Generale – Fondazione Bruno Kessler</i><br />
         Dott. Claudio De Cassan
         <i>Responsabile della sede di Verona – Università Digitale Mercatorum</i>
+      </p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/CyberResilienza_PMI2026/slides/0_Apertura.pdf">Slide</a>
       </p>
     </td>
     <td>9:30-10:00</td>
@@ -42,6 +52,9 @@ menubar: CyberResilienza_PMI2026
       <p class="speakers">
         Prof. Silvio Ranise<br />
         <i>Direttore del Centro per la Cybersecurity – Fondazione Bruno Kessler, Professore Ordinario – Università degli Studi di Trento</i>
+      </p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/CyberResilienza_PMI2026/slides/1_Ranise.pdf">Slide</a>
       </p>
     </td>
     <td>10:00-10:30</td>
@@ -71,6 +84,9 @@ menubar: CyberResilienza_PMI2026
         Ing. Alessandro Sorio<br />
         <i>Amministratore Delegato – DLPS Consulting Srl</i>
       </p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/CyberResilienza_PMI2026/slides/3_Sorio.pdf">Slide</a>
+      </p>
     </td>
     <td>11:30-12:00</td>
   </tr>
@@ -81,6 +97,9 @@ menubar: CyberResilienza_PMI2026
       <p class="speakers">
         Ing. Davide Nardacci<br />
         <i>Vice Capo Divisione NIS e discipline unionali – Agenzia per la Cybersicurezza Nazionale</i>
+      </p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/CyberResilienza_PMI2026/slides/4_Nardacci.pdf">Slide</a>
       </p>
     </td>
     <td>12:00-12:30</td>
