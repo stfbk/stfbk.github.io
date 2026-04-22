@@ -56,6 +56,7 @@ The workshop is supported by the projects of the [European Cluster for Securing 
 ECSCI Running projects:
 - [Act4Food](https://ianus-technologies.com/act4food/)
 - [CASTOR](https://castorhorizon.eu/)
+- [CIRCAT](https://circat.eu/)
 - [CoEvolution](https://coevolution-project.eu/)
 - [CyberAID](https://cyberaidproject.eu/)
 - [CyberNEMO](https://cybernemo.eu/)
