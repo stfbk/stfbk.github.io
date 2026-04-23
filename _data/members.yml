@@ -14,8 +14,9 @@ current:
     - GiovanniCorti
     - LiviaMarini
     - MajidMollaeefar
-    - MarcoPernpruner    
+    - MarcoPernpruner
     - MatteoRizzi
+    - MatteoSantAnaCasarotto
     - MuhammadImran
     - RiccardoGermenia
     - RiccardoZiglio
@@ -25,18 +26,12 @@ current:
     - ZahraEbadiAnsaroudi
 
   collaborators:
-      
+
   students:
+
     - personId: DanieleCalvo
       type: B
       topic: Threat Modeling by Leveraging Agentic AI
-      institution: University of Trento
-      yearFrom: 2025
-      yearTo: 2025
-
-    - personId: EliaTomaselli
-      type: B
-      topic: Validating TLS Implementations via Bytestream Parsing
       institution: University of Trento
       yearFrom: 2025
       yearTo: 2025
@@ -76,8 +71,57 @@ current:
       yearFrom: 2026
       yearTo: 2026
 
-  junior:    
-      
+    - personId: StefanoMurtas
+      type: M
+      topic: Investigation of Phishing in Digital Identity Contects
+      institution: University of Trento
+      yearFrom: 2026
+      yearTo: 2026
+
+    - personId: LeonardoMosca
+      type: B
+      topic: Fuzzing for Web APIs
+      institution: University of Trento
+      yearFrom: 2026
+      yearTo: 2026
+
+    - personId: FrancescoVerdolin
+      type: B
+      topic: Investigation of OpenID Connect in the Italian Ecosystem
+      institution: University of Trento
+      yearFrom: 2026
+      yearTo: 2026
+
+    - personId: MatteoLoisi
+      type: B
+      topic: Investigation of Communication Protocols for AI Agents
+      institution: University of Trento
+      yearFrom: 2026
+      yearTo: 2026
+
+    - personId: GiovannaGagliardo
+      type: B
+      topic: Investigation of Italian Regulations on Cloud Service Security
+      institution: University of Trento
+      yearFrom: 2026
+      yearTo: 2026
+
+    - personId: AlbertoFanchin
+      type: B
+      topic: Automating Risk Assessment for Identity Management Solutions:A Knowledge-Base Approach
+      institution: University of Trento
+      yearFrom: 2026
+      yearTo: 2026
+
+    - personId: AlessandroGremes
+      type: B
+      topic: Automated Privacy Assessment of OpenID Connect Parties
+      institution: University of Trento
+      yearFrom: 2026
+      yearTo: 2026
+
+  junior:
+
 former:
   head:
     - personId: AlessandroArmando
@@ -240,7 +284,7 @@ former:
 
     - personId: StefanoBerlato
       thesisId: StefanoBerlato_P
-  
+
   students:
     - personId: MarcoPernpruner
       thesisId: MarcoPernpruner_M
@@ -279,7 +323,7 @@ former:
       thesisId:
         - GiulioPellizzari_B
         - GiulioPellizzari_M
-      
+
     - personId: GiovanniFerronato
       thesisId: GiovanniFerronato_B
 
@@ -306,7 +350,7 @@ former:
       topic: Risk Assessment Smart Campus
       yearFrom: 2014
       yearTo: 2014
-      
+
     - personId: VincenzoChiarini
       topic: Studio dell'usabilità di soluzioni di Single Sign-On e autenticazione forte per applicazioni mobile.
       institution: University of Trento
@@ -328,10 +372,10 @@ former:
 
     - personId: StefanoFacchini
       thesisId: StefanoFacchini_B
-      
+
     - personId: MatteoRizzi
       thesisId: MatteoRizzi_B
-      
+
     - personId: MatteoLongato
       thesisId: MatteoLongato_B
 
@@ -346,7 +390,7 @@ former:
 
     - personId: WendyBarreto
       thesisId: WendyBarreto_B
-    
+
     - personId: LucaBazzanella
       thesisId: LucaBazzanella_B
 
@@ -512,6 +556,13 @@ former:
     - personId: MicheleCoco
       thesisId: MicheleCoco_B
 
+    - personId: EliaTomaselli
+      type: M
+      topic: Validating TLS Implementations via Bytestream Parsing
+      institution: University of Trento
+      yearFrom: 2025
+      yearTo: 2026
+
   junior:
     - personId: YuriTomasini
       topic: Cybersecurity 101
@@ -572,7 +623,7 @@ former:
       institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
       yearFrom: 2023
       yearTo: 2023
-      
+
     - personId: FedericaMascia
       topic: Awareness - percezione del rischio
       institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
@@ -596,13 +647,13 @@ former:
       institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
       yearFrom: 2022
       yearTo: 2023
-      
+
     - personId: DanielFranchini
       topic: Virtualization of TLS vulnerabilities
       institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
       yearFrom: 2024
       yearTo: 2024
-      
+
     - personId: EmilianoRizzonelli
       topic: Virtualization of TLS vulnerabilities
       institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento

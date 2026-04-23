@@ -15,12 +15,9 @@ peopleOrder: surname
 
 Below, you find links to complementary material and additional resources referenced in the paper.
 
-
 ### Extended Article
 
 An extended version of this work with more details on the Cryptographic Access Control scheme is available [**here**](/assets/areas/complementary/DBSEC2022/DBSEC2022_Extended.pdf). Please see [**the repository**](https://github.com/stfbk/CryptoAC) for more details on **CryptoAC**.
-
-
 
 ### Experimental Results
 

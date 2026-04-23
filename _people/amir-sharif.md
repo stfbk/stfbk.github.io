@@ -31,6 +31,6 @@ His accomplishments include receiving the prestigious OpenID Foundation Kim Came
 
 Amir's academic contributions extend to publishing peer-reviewed papers in the field of identity management and data security, a selection of them showcased in the Publications section. He has also shared his expertise at various international events on identity management, listed in the Dissemination section.
 
-His research currently focuses on identity and access management, exploring decentralized identity solutions within the context of the European Digital Identity Wallet, specifically investigating PID issuance. His expertise encompasses a solid understanding of federated identity and access management standards such as OAuth, OpenID Connect, and SAML. Amir is well-versed in OAuth and OpenID Connect profiles (iGov, FAPI, Identity Assurance), as well as relevant regulatory frameworks like eIDAS, PSD2, and NIS2. 
+His research currently focuses on identity and access management, exploring decentralized identity solutions within the context of the European Digital Identity Wallet, specifically investigating PID issuance. His expertise encompasses a solid understanding of federated identity and access management standards such as OAuth, OpenID Connect, and SAML. Amir is well-versed in OAuth and OpenID Connect profiles (iGov, FAPI, Identity Assurance), as well as relevant regulatory frameworks like eIDAS, PSD2, and NIS2.
 
 His research interests include identity management solution design and security analysis, decentralized identity, and data hiding techniques.

@@ -127,16 +127,17 @@ defaults:
     values:
       layout: topic
 
-exclude: [
-  "Gemfile",
-  "clean-theme.gemspec",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "*/template*.md",
-  "*/_template*.md",
-  "README*.md"
-]
+exclude:
+  [
+    "Gemfile",
+    "clean-theme.gemspec",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "*/template*.md",
+    "*/_template*.md",
+    "README*.md",
+  ]

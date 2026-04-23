@@ -5,13 +5,16 @@ menubar: TDI2026
 ---
 
 # General Chair
+
 - **Silvio Ranise** (Fondazione Bruno Kessler and University of Trento)
 
 # Program Co-Chairs
+
 - **Marco Pernpruner** (Fondazione Bruno Kessler)
 - **Giada Sciarretta** (Fondazione Bruno Kessler)
 
 # Scientific Program Committee
+
 - **Francesco Buccafurri** (University of Reggio Calabria)
 - **Markus Dürmuth** (Leibniz University Hannover)
 - **Isaac Henderson Johnson Jeyakumar** (Fraunhofer IAO)
@@ -25,6 +28,7 @@ menubar: TDI2026
 - **Nicola Zannone** (Eindhoven University of Technology)
 
 # Talk Program Committee
+
 - **Juan Caballero** (Decentralized Identity Foundation)
 - **Michael B. Jones** (Self-Issued Consulting)
 - **Francesco Antonio Marino** (Istituto Poligrafico e Zecca dello Stato, IPZS)
@@ -32,6 +36,7 @@ menubar: TDI2026
 - **Davide Vaghetti** (GARR)
 
 # Organizing Committee
+
 - **Annalisa Armani** (Fondazione Bruno Kessler)
 - **Roberto Carbone** (Fondazione Bruno Kessler)
 - **Claudio De Cassan** (Universitas Mercatorum Telematic University - Verona Campus)

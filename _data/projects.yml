@@ -23,7 +23,7 @@
   logo: logo_DCOT.png
   url:
     unit: /projects/DCoT
-  
+
 - id: F&C_authnCIE
   title: F&C CIE
   titleAddon: Autenticazione con CIE
@@ -35,7 +35,7 @@
 
 - id: F&C_eID
   title: F&C eID
-  titleAddon: Scenari Innovativi di Identità Digitale 
+  titleAddon: Scenari Innovativi di Identità Digitale
   startDate: "2022-04-01"
   endDate: "2023-12-31"
   logo: logo_FuturoConoscenza.png
@@ -215,8 +215,8 @@
 - id: SPARTA
   title: SPARTA
   titleAddon: Re-imagining the way cybersecurity research, innovation, and training are performed in Europe
-  startDate: # "2020-05-01" #date to be checked
-  endDate: "2022-12-30" #date to be checked
+  startDate: # "2020-05-01" # date to be checked
+  endDate: "2022-12-30" # date to be checked
   logo: logo_SPARTA.png
   url:
     unit: /projects/SPARTA
@@ -248,7 +248,7 @@
 
 - id: STRIDE
   title: STRIDE
-  titleAddon: Secure and TRaceable Identities in Distributed Environments 
+  titleAddon: Secure and TRaceable Identities in Distributed Environments
   logo: logo_SERICS.png
   url:
     unit: /projects/STRIDE

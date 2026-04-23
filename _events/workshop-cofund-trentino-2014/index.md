@@ -11,6 +11,7 @@ projects:
 ---
 
 This event will discuss the final results of the project COFUND "Trentino" and it is split into two sessions:
+
 - First session: oral presentations;
 - Second session: presentations through posters.
 

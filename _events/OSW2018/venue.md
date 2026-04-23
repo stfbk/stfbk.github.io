@@ -13,11 +13,15 @@ The conference will take place at the Humanities and Social Sciences Hub of Fond
 </div>
 
 # Reaching Trento
+
 ## Car
+
 Check any web map available for exact details. If you plan to stay in the city center, make sure that you observe all trafic restrictions and that you have a convenient parking place nearby.
 
 ## Plane and Trains
+
 Close-by airports:
+
 - Verona "Valerio Catullo"
 - Milano "Malpensa”
 - Milano "Linate"
@@ -26,21 +30,27 @@ Close-by airports:
 - Munich
 
 Verona is the closest airport and trains to Trento run almost every hour. Trains from the other airports run less frequently, so we recommend to check train schedules before booking your flights at the following links:
+
 - Trenitalia (Italian State Railways)
 - Deutsche Bahn (German State Railways)
 - Obb (Austrian State Railways)
 
 # Reaching FBK
+
 FBK's head offices are in the city center, a few hundred meters from Piazza Duomo and very close to Piazza Fiera.
 
 ## By foot
-It takes less than 15 minutes to walk from the train station. Ask for via Santa Croce. Or ask for Centro Santa Chiara, a well known structure hosting the University of Trento’s literature faculty as well as an auditorium for cultural events. 
- 
+
+It takes less than 15 minutes to walk from the train station. Ask for via Santa Croce. Or ask for Centro Santa Chiara, a well known structure hosting the University of Trento’s literature faculty as well as an auditorium for cultural events.
+
 ## By car
-You can’t park at our offices without special permission. Consider parking in the underground car park at Piazza Fiera. From the motorway, exit at TRENTO SUD and head toward the center. Cross over the river, go under the railway, and follow the road around Bounconsiglio Castle. Turn right, then go straight around the large fountain to Piazza Fiera. 
- 
-## By bus 
-Trento has a very good transport system, with 17 city routes. All routes pass close to the train station, leaving every 15 to 30 minutes from about 5 a.m. to about 10 p.m. There are lots of busses that go to our head offices (President’s office, Religious Sciences, ItaloGermanic Studies, and FBK’s humanities libraries. The most frequent are the 3 and 8, but any bus that stops at Piazza Fiera works. When you get off, walk in the opposite direction of the old city wall. 
- 
-## By Taxi 
+
+You can’t park at our offices without special permission. Consider parking in the underground car park at Piazza Fiera. From the motorway, exit at TRENTO SUD and head toward the center. Cross over the river, go under the railway, and follow the road around Bounconsiglio Castle. Turn right, then go straight around the large fountain to Piazza Fiera.
+
+## By bus
+
+Trento has a very good transport system, with 17 city routes. All routes pass close to the train station, leaving every 15 to 30 minutes from about 5 a.m. to about 10 p.m. There are lots of busses that go to our head offices (President’s office, Religious Sciences, ItaloGermanic Studies, and FBK’s humanities libraries. The most frequent are the 3 and 8, but any bus that stops at Piazza Fiera works. When you get off, walk in the opposite direction of the old city wall.
+
+## By Taxi
+
 Find one just outside the train station at the taxi stand to the right as you exit. Or call Radio Taxi at 0461 930002. The cost is 10 to 15 euros.

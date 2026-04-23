@@ -10,6 +10,7 @@ permalink: /events/CPS4CIP2023/
 </blockquote>
 
 # Scope & Topics
+
 CPS4CIP'23 is the fourth workshop dedicated to cyber-physical security for protecting critical infrastructures that support finance, energy, health, air transport, communication, gas, and water. The secure operation of these critical infrastructures is essential to the security of a nation, its economy, and the public's health and safety. Security incidents in critical infrastructures can directly lead to a violation of users’ safety and privacy, physical damages, significant economic impacts on individuals and companies, and threats to human life while decreasing trust in institutions and questioning their social value. Because of the increasing interconnection between the digital and physical worlds, these infrastructures and services are more critical, sophisticated, and interconnected than ever before. This makes them increasingly vulnerable to attacks, as confirmed by the steady rise of cyber-security incidents, such as phishing or ransomware, but also cyber-physical incidents, such as physical violation of devices or facilities in conjunction with malicious cyber activities.
 
 To address all these challenges, the CPS4CIP workshop has the objective of bringing together security researchers and practitioners from the various verticals of critical infrastructures (such as the financial, energy, health, air transport, communication, gas and water domains) to rethink cyber-
@@ -21,7 +22,9 @@ physical security in the light of latest technology developments, e.g., Cloud Co
 1. allowing all stakeholders to collaborate in vulnerability assessment, risk analysis, threat identification, threat mitigation, and compliance.
 
 # Topics of Interest
+
 CPS4CIP invites submissions that present innovative ideas, proof of concepts, use cases, experience reports, and results from a variety of topics relevant to the security of critical infrastructures and services. Topics of interest include, but are not limited to:
+
 - AI, machine learning for predictive security of critical infrastructures
 - Integrated (cyber & physical) security
 - Collaborative risk assessment/mitigation in supply chains
@@ -46,12 +49,15 @@ CPS4CIP invites submissions that present innovative ideas, proof of concepts, us
 - Adaptive threat hunting and intelligence
 
 # Important Dates
+
 {% include_relative includes/important-dates.md %}
 
 # Support
+
 The workshop is supported by the projects of the [European Cluster for Securing Critical Infrastructures (ECSCI)](https://www.finsec-project.eu/ecsci), namely
 
 ECSCI Running projects:
+
 - [AI4CYBER](https://ai4cyber.eu/)
 - [ATLANTIS](https://www.atlantis-horizon.eu/)
 - [CyberSEAS](https://cyberseas.eu/)
@@ -65,6 +71,7 @@ ECSCI Running projects:
 - [SUNRISE](https://sunrise-europe.eu/)
 
 ECSCI ended projects supported by coordinators:
+
 - [FINSEC](https://www.finsec-project.eu)
 - [ANASTACIA](http://www.anastacia-h2020.eu/)
 - [CyberSANE](https://www.cybersane-project.eu/)
@@ -87,9 +94,11 @@ ECSCI ended projects supported by coordinators:
 - [7SHIELD](https://www.7shield.eu/)
 
 Horizon Europe project based on ECSCI:
+
 - [EU-CIP (European Knowledge Hub and Policy Testbed for Critical Infrastructure Protection)](https://www.eucip.eu)
 
 And three national projects:
+
 - [NORCICS (Norwegian Center for Cybersecurity in Critical Sectors) project](https://www.ntnu.edu/norcics) funded by the Research Council of Norway under the Center for Research-based Innovation (SFI)
 - [RESTABILISE4.0 (Restabilise and Energy: Specialization of Enabling Technologies for Balancing Energy Infrastructures and Systems) project](http://www.restabilise4-0.it/) Confunded by START4.0 - Competence Center for security and optimization of strategic infrastructures
 - [CybAlliance (International Alliance for Strengthening Cybersecurity and Privacy in Healthcare)](https://nr.no/en/projects/kompetanseheving-for-okt-digital-sikkerhet-i-helsevesenet/) project funded by the [Research Council of Norway](https://www.forskningsradet.no/en/) under the [INTPART International Partnerships for Excellent Education, Research and Innovation](https://www.forskningsradet.no/en/call-for-proposals/2022/intpart-international-partnerships/) program

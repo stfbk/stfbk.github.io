@@ -5,6 +5,7 @@ menubar: CPS4CIP2021
 ---
 
 # Keynote
+
 **Speaker**: Daniel dos Santos, Sr. Research Manager - Forescout Technologies
 
 **Bio**: Daniel dos Santos holds a PhD in computer science from the University of Trento, Italy, has published over 30 journal and conference papers on cybersecurity and has spoken at hacking conferences such as Black Hat, Hack In The Box, and x33fcon. He has experience in software development, security testing, and research. He is now a Sr. Research Manager at Forescout Technologies, leading a vulnerability and threat research team, as well as collaborating on the research and development of innovative features for network security monitoring.
@@ -16,6 +17,7 @@ Over the past 18 months, the Forescout Research Labs team has analyzed, discover
 In this talk, we will overview the techniques used in our security analysis, the implementation anti-patterns we observed, the results we obtained and, most importantly, the impact that this research has on critical infrastructure networks and what that means for their protection. We will dedicate part of the talk to one specific critical infrastructure sector: healthcare. We will discuss how our data shows that healthcare organizations are among the most affected by this type of vulnerability and how they often have a combination of diverse vulnerable devices and network misconfigurations that put them in danger.
 
 # Program
+
 **Friday, 8th October 2021**
 
 *09:00 – 09:45*
@@ -32,6 +34,7 @@ Speaker: **Daniel dos Santos**, Sr. Research Manager - Forescout Technologies
 
 SESSION 1: Resilience<br />
 Chair: Silvio Ranise<br />
+
 - Resilience quantification for critical infrastructure: Exemplified for airport operations [[presentation](/assets/areas/events/CPS4CIP2021/CPS4CIP_2021_Paper_7_ResilienceQuantificationForCI.pdf)]<br />
   **Corinna Köpke**, Kushal Srivastava, Natalie Miller and Elena Branchini
 
@@ -49,6 +52,7 @@ Coffee break
 
 SESSION 2: Threat and Vulnerability<br />
 Chair: Habtamu Abie
+
 - Severity level assessment from semantically fused video content analysis for physical threat detection in ground segments of space systems [[presentation](/assets/areas/events/CPS4CIP2021/CPS4CIP_2021_Paper_4_Presentation_7SHIELD_CERTH.pdf)]<br />
   **Gerasimos Antzoulatos**, Georgios Orfanidis, Panagiotis Giannakeris, Giorgos Tzanetis, Grigorios Kampilis-Stathopoulos, Nikolaos Kopalidis, Ilias Gialampoukidis, Stefanos Vrochidis, and Ioannis Kompatsiaris
 
@@ -66,6 +70,7 @@ Coffee break
 
 SESSION 3: ECSCI Projects Presentations I<br />
 Chair: Rita Ugarelli, SINTEF
+
 - SOTER - human factors in cybersecurity [[presentation](/assets/areas/events/CPS4CIP2021/CPS4CIP_2021_SOTER_ESORICS.pdf)]<br />
   **Robin Renwick**, Trilateral Research
 
@@ -83,6 +88,7 @@ LUNCH BREAK
 
 SESSION 4: ECSCI Projects Presentations II<br />
 Chair: Habtamu Abie
+
 - 7SHIELD project - A holistic framework to protect Ground Segments of Space Systems against cyber, physical and natural complex threats [[presentation](/assets/areas/events/CPS4CIP2021/CPS4CIP_2021_7SHIELD_project.pdf)]<br />
   **Gerasimos Antzoulatos**, Centre for Research and Technology-Hellas (CERTH)
 

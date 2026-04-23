@@ -1,0 +1,3 @@
+- **Submission deadline**:      15.06.2026
+- **Notification to authors**:  13.07.2026
+- **Camera-ready versions**:    17.08.2026

@@ -5,18 +5,22 @@ menubar: SeRIM2025
 ---
 
 # General Co-Chairs
+
 - **Riccardo Focardi** (Ca' Foscari University of Venice)
 - **Silvio Ranise** (Fondazione Bruno Kessler and University of Trento)
 
 # Program Co-Chairs
+
 - **Flaminia Luccio** (Ca' Foscari University of Venice)
 - **Giada Sciarretta** (Fondazione Bruno Kessler)
 
 # Publication Co-Chairs
+
 - **Matteo Busi** (Ca' Foscari University of Venice)
 - **Marco Pernpruner** (Fondazione Bruno Kessler)
 
 # Program Committee
+
 - **Roberto Carbone** (Fondazione Bruno Kessler)
 - **Letterio Galletta** (IMT School for Advanced Studies Lucca)
 - **Marino Miculan** (University of Udine)

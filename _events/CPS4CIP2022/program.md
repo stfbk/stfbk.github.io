@@ -5,6 +5,7 @@ menubar: CPS4CIP2022
 ---
 
 # Program
+
 ## Friday, 30th September 2022
 
 *09:00 – 09:10*<br />
@@ -19,7 +20,7 @@ Chair: Luca Verderame<br />
   **Mariano Ceccato**, Youssef Driouich, Ruggero Lanotte, Marco Lucchese, and Massimo Merro
 
 - Solutions for Protecting the Space Ground Segments: From risk assessment to emergency response<br />
-  **Ilias Gkotsis**, Leonidas Perlepes, Aggelos Aggelis, Katerina Valouma, Antonis Kostaridis, Eftichia Georgiou, Nikolaos Lalazisis, and Vasiliki Mantzana 
+  **Ilias Gkotsis**, Leonidas Perlepes, Aggelos Aggelis, Katerina Valouma, Antonis Kostaridis, Eftichia Georgiou, Nikolaos Lalazisis, and Vasiliki Mantzana
 
 - Modelling and Simulation of Railway Networks for Resilience Analysis<br />
   **Kushal Srivastava**, Corinna Köpke, Johannes Walter, Katja Faist, John Marschalk Berry, Claudio Porretti, and Alexander Stolz

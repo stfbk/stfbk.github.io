@@ -5,17 +5,21 @@ menubar: CPS4CIP2024
 ---
 
 # Workshop Organizers
+
 ## General Chairs
+
 - **Habtamu Abie**, Norwegian Computing Center, Norway
 - **Silvio Ranise**, University of Trento and Fondazione Bruno Kessler (FBK), Italy
 
 ## PC Chairs
+
 - **Luca Verderame**, University of Genoa, Italy
 - **Enrico Cambiaso**, National Research Council (CNR), Italy
 - **Rita Ugarelli**, SINTEF, Norway
 - **Isabel Praça**, GECAD/ISEP, Portugal
 
 # Program Committee
+
 - **Dieter Gollmann**, Hamburg University of Technology, Germany
 - **Sokratis Katsikas**, Norwegian University of Science and Technology, Norway
 - **Fabio Martinelli**, IIT-CNR, Italy

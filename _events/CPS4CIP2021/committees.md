@@ -5,11 +5,14 @@ menubar: CPS4CIP2021
 ---
 
 # Workshop Organizers
+
 ## General Chairs
+
 - **Habtamu Abie**, Norwegian Computing Center, Norway
 - **Silvio Ranise**, University of Trento and Fondazione Bruno Kessler (FBK), Italy
 
 ## PC Chairs
+
 - **Luca Verderame**, University of Genoa, Italy
 - **Enrico Cambiaso**, National Research Council (CNR), Italy
 - **Rita Ugarelli**, SINTEF, Norway
@@ -18,6 +21,7 @@ menubar: CPS4CIP2021
 - **Federica Pascucci**, Roma Tre University, Italy
 
 # Program Committee (tentative)
+
 - **Dieter Gollmann**, Hamburg University of Technology, Germany
 - **Sokratis Katsikas**, Norwegian University of Science and Technology, Norway
 - **Javier Lopez**, University of Malaga, Spain
@@ -32,7 +36,7 @@ menubar: CPS4CIP2021
 - **Cristina Alcaraz**, University of Malaga, Spain
 - **Giovanni Livraga**, University of Milan, Italy
 - **Gustavo Gonzalez-Granadillo**, Atos Spain, Spain
-- **Shouhuai Xu**, University of Texas at San Antonio, USA 
+- **Shouhuai Xu**, University of Texas at San Antonio, USA
 - **Christos Xenakis**, University of Piraeus, Greece
 - **Mauro Conti**, University of Padua, Italy
 - **Denis Čaleta**, Institute for Corporate Security Studies, Slovenia

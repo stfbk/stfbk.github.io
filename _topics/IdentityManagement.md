@@ -77,6 +77,7 @@ theses:
 Digital Identity Management is a key enabler for the adoption of innovative digital and physical services. It creates identity ecosystem across organization/company boundaries and injects trust (added value for citizens and public and private sectors).
 
 **Our focus**:
+
 - Formal specification and analysis of IdM protocols covering the entire digital identity lifecycle (enrollment, authentication and authorization)
 - Design and risk assessment of access delegation and single sign-on protocols (e.g., OAuth 2.0 and OpenID Connect), multi-factor authentication (e.g., eID cards and FIDO) and remote enrollment procedures
 - Automated synthesis of enforcement mechanisms from high-level access control policies

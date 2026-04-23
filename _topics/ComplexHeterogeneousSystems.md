@@ -36,6 +36,7 @@ mechanisms for  Mobile, Application Programming Interface, Cloud/Edge
 computing, Internet of Things, and Distributed Ledger Technology.
 
 **Our focus**: Design and tool development for
+
 - Access control policies in the cloud
 - Controlled information sharing (NATO: declarative Attribute-Based Access Control (ABAC) policy specification, model, and enforcement)
 - Securing MQTT-based environments
