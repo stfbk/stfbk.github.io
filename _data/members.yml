@@ -106,14 +106,14 @@ current:
       yearFrom: 2026
       yearTo: 2026
 
-     - personId: AlbertoFanchin
+    - personId: AlbertoFanchin
       type: B
       topic: Automating Risk Assessment for Identity Management Solutions:A Knowledge-Base Approach
       institution: University of Trento
       yearFrom: 2026
       yearTo: 2026
 
-     - personId: AlessandroGremes
+    - personId: AlessandroGremes
       type: B
       topic: Automated Privacy Assessment of OpenID Connect Parties
       institution: University of Trento
