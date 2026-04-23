@@ -11,36 +11,40 @@ people:
     - EnricoCambiaso
 ---
 
-## Slides, test results and configurations are available [here](https://drive.google.com/drive/folders/1YOGKlGiSuHcViDgV3p-7D_QEu2qNY1ck?usp=sharing).
-## The presentation is on the *ARES & CD-MAKE Conference*  [Youtube channel](https://www.youtube.com/watch?v=5xhcJVmdJSI). 
+## Slides, test results and configurations are available [here](https://drive.google.com/drive/folders/1YOGKlGiSuHcViDgV3p-7D_QEu2qNY1ck?usp=sharing)
+
+## The presentation is on the *ARES & CD-MAKE Conference*  [Youtube channel](https://www.youtube.com/watch?v=5xhcJVmdJSI)
 
 ## Summary
+
 The Internet of Things is a widely adopted and pervasive technology, but also one of the most conveniently attacked given the volume of shared data and the availability of affordable but insecure products. In most cases, if attackers cannot exploit security gaps and privacy issues to exfiltrate data, they can (and most probably will) damage the service by performing Denial of Service (DoS) attacks towards the backend, the connected clients or external services.
 
-In this work we investigated two classes of DoS attacks that target the handling of message queues in MQTT, one of the most broadly used IoT protocols; ref. [here](https://www.hivemq.com/mqtt-protocol/) for an introduction to MQTT and its capabilities. 
+In this work we investigated two classes of DoS attacks that target the handling of message queues in MQTT, one of the most broadly used IoT protocols; ref. [here](https://www.hivemq.com/mqtt-protocol/) for an introduction to MQTT and its capabilities.
 
-- The first attack attempts to saturate the MQTT broker resources by sending many heavy messages on different topics with or without a set of subscribed clients. This is due to the broker storing all the messages (up to a queue limit) for each subscribed client; and will compromise the service as the broker is a single-point-of-failure. 
+- The first attack attempts to saturate the MQTT broker resources by sending many heavy messages on different topics with or without a set of subscribed clients. This is due to the broker storing all the messages (up to a queue limit) for each subscribed client; and will compromise the service as the broker is a single-point-of-failure.
   The attack succeeds if the use of queues (associated with subscribed clients) impacts the broker resources (disk/RAM/CPU) or if the machine hosting the broker reaches 100% usage of CPU or network bandwidth.
 - The second, that can be describe as an [amplification attack](https://www.radware.com/security/ddos-knowledge-center/ddospedia/amplification-attack) in the context of MQTT, prescribes sending heavy messages periodically to mount a DoS attack towards the resource-constrained clients connected to the broker.
-  The attack succeeds if the clients are prevented from receiving other/all messages and use CPU resources to keep attempting the receiving of heavy ones. It is also worth mentioning that, if clients with a persistent session forcefully disconnect, the broker will queue all new messages (up to the configured limit) and attempt the forwarding once again when they reconnect; including the heavy ones that affect clients CPU. 
+  The attack succeeds if the clients are prevented from receiving other/all messages and use CPU resources to keep attempting the receiving of heavy ones. It is also worth mentioning that, if clients with a persistent session forcefully disconnect, the broker will queue all new messages (up to the configured limit) and attempt the forwarding once again when they reconnect; including the heavy ones that affect clients CPU.
 
 We investigated the effectiveness of the attacks with two testbeds and three open-source MQTT broker implementations <ins>deployed with the default configuration</ins>: [Mosquitto](https://www.mosquitto.org) v.1.6.9, [VerneMQ](https://vernemq.com) v.1.11.0 and [EMQ X](https://www.emqx.io/products/broker) v.4.1.5. To simulate clients, we used the MQTT Python library [Paho](https://www.eclipse.org/paho).
 
 ### Results of the DoS against the MQTT brokers under test
+
 - All brokers RAM usage is affected by the publishing of messages:
-  - In Mosquitto it is possible to saturate the RAM and swap spaces (and be killed by the system) with just one malicious connected client; in VerneMQ and EMQ X, it is necessary to use multiple concurrent clients. 
+  - In Mosquitto it is possible to saturate the RAM and swap spaces (and be killed by the system) with just one malicious connected client; in VerneMQ and EMQ X, it is necessary to use multiple concurrent clients.
     However, attacking EMQ X requires a much longer amount of time due to the limit (by default) on the payload size.
 - In VerneMQ it is possible to attack the disk as it stores (by default) received messages on the disk.
 - To attack the CPU usage, we used up to 400 concurrent clients (400 publishers and in the second test run 400 subscribers). When also using the subscribers (that connect with a certain quality of service and disconnect before the publishing begins), the attack is successful only in EMQ X: starting from 250 concurrent publishers, the CPU usage is on average over 80% (93% peak use). In the worst case, Mosquitto have an increment of 7.75% and VerneMQ 14.4%.
   - During the test, Mosquitto will use only one CPU core being single-threaded; VerneMQ and EMQ X will use concurrently all cores at the same CPU level with minimal variations.
 
 ### Results of the Amplification Attack
+
 - The use of TLS strongly affects the maximum payload size and the processing time: a message with a 255MB payload (the maximum supported) was only received with the plaintext configuration, and the processing time when using TLS is about ten times longer.
 - A connected client is unable to concurrently receive other messages, and it uses one of the CPU core for longer periods of times. This enables an attacker to prevent the client from receiving (potentially important) messages or overheating it by periodically sending one message of the maximum supported size.
 - There is no difference in terms of performance between TLS 1.2 and 1.3 (in the case of Mosquitto), MQTT v.3.1.1 and v.5.0, or if using the ACLs as authorization mechanism.
 - The average time required by the subscribers to receive queued messages increases linearly.
 
-To improve the security awareness in MQTT-based deployments, we integrate the attacks and mitigations in [MQTTSA](https://github.com/stfbk/mqttsa), a tool that detects MQTT (mis)configurations and provides security-oriented recommendations and configuration snippets. 
+To improve the security awareness in MQTT-based deployments, we integrate the attacks and mitigations in [MQTTSA](https://github.com/stfbk/mqttsa), a tool that detects MQTT (mis)configurations and provides security-oriented recommendations and configuration snippets.
 
 Finally, we identified the settings in the MQTT brokers under test that would preventing or support (if misconfigured) a DoS attack.
 

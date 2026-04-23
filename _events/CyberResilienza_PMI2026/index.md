@@ -6,7 +6,12 @@ permalink: /events/CyberResilienza_PMI2026/
 
 ---
 
+<blockquote>
+<p>Il convegno è co-locato con il <a href="/events/TDI2026/"><b>4th International Workshop on Trends in Digital Identity</b></a> (TDI 2026).</p>
+</blockquote>
+
 # Panoramica
+
 Il panorama digitale europeo è a un punto di svolta. Mentre le aziende accelerano l'adozione di nuove tecnologie, il contesto normativo si fa più rigoroso: la cybersecurity sta passando da best practice a un preciso obbligo di legge grazie alla Direttiva NIS2. In questo contesto, l’evento mira a supportare le piccole e medie imprese (PMI) nella transizione verso i nuovi regolamenti NIS2. Grazie all'intervento di consulenti aziendali ed esperti del settore, tali norme complesse potranno essere trasformate in una roadmap pratica e multidisciplinare, garantendo resilienza e conformità.
 
 <div class="columns mt-4">
@@ -72,7 +77,7 @@ Il panorama digitale europeo è a un punto di svolta. Mentre le aziende accelera
     <h1>In collaborazione con</h1>
     <div class="columns mt-2 is-multiline">
       <div class="column is-4-desktop is-4-tablet">
-        <a class="no-decoration" href="https://www.unimercatorum.it/">
+        <a class="no-decoration" href="https://www.unidigitaliverona.it/">
           <div class="card sponsor">
             <div class="card-image">
               <figure class="image">
@@ -87,16 +92,18 @@ Il panorama digitale europeo è a un punto di svolta. Mentre le aziende accelera
         </a>
       </div>
       <div class="column is-4-desktop is-4-tablet">
-        <div class="card sponsor">
-          <div class="card-image">
-            <figure class="image">
-              <img src="/assets/areas/events/CyberResilienza_PMI2026/logo_DLPS.jpeg" width="200px" />
-            </figure>
+        <a class="no-decoration" href="https://www.dlps.it/">
+          <div class="card sponsor">
+            <div class="card-image">
+              <figure class="image">
+                <img src="/assets/areas/events/CyberResilienza_PMI2026/logo_DLPS.jpeg" width="200px" />
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-4">DLPS Consulting</p>
+            </div>
           </div>
-          <div class="card-content">
-            <p class="title is-4">DLPS Consulting</p>
-          </div>
-        </div>
+        </a>
       </div>
     </div>
   </div>

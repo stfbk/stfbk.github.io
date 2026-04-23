@@ -27,8 +27,8 @@ theses:
 
 OAuth 2.0 and OpenID Connect are two of the most widely used protocols to support secure and frictionless access delegation and single sign-on login solutions within web and mobile native applications.
 
-
 **Our focus**:
+
 - Design of innovative scenarios: government profile, issuing and presentation of credentials using a wallet application
 - Assist mobile native application developers with the secure implementation of OAuth and OIDC solutions
 - Security analysis and pentesting of OAuth and OIDC solutions

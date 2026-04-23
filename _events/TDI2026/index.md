@@ -10,6 +10,10 @@ image: /assets/areas/events/TDI2026/tdi2026.jpg
 <img class="image-centered" src="/assets/areas/events/TDI2026/tdi2026.jpg" />
 
 <blockquote>
+<p>The workshop is co-located with the event <a href="/events/CyberResilienza_PMI2026/"><b>Cyber-Resilienza per le PMI: il nuovo volto della sicurezza informatica alla luce della NIS2</b></a> (in Italian).</p>
+</blockquote>
+
+<blockquote>
   <b>What's new in TDI 2026?</b>
   <ul>
     <li><b>Extended Format</b>: the workshop will run for one and a half days, allowing additional time for presentations, discussion and networking.</li>
@@ -18,6 +22,8 @@ image: /assets/areas/events/TDI2026/tdi2026.jpg
 </blockquote>
 
 # Recent News
+
+- **22/04/2026**: [Speakers' slides](program) are now available.
 - **19/03/2026**: The [registration procedure](registration) is now available.
 - **19/03/2026**: The [tentative program](program) has been published.
 - **16/02/2026**: The paper submission deadline has been extended to **February 22, 2026**.
@@ -26,16 +32,19 @@ image: /assets/areas/events/TDI2026/tdi2026.jpg
 - **22/12/2025**: The website is online.
 
 # Overview
+
 Digital identity is increasingly recognized as a fundamental building block in the development and deployment of digital infrastructures and services across a wide range of sectors, including e-commerce, e-government, healthcare, and finance. As the adoption of digital technologies accelerates, the need for secure and reliable identity management solutions grows significantly and becomes the cornerstone of other security services, such as access control. However, this increased demand presents numerous challenges, including technical issues like security, interoperability, and usability, as well as legal and regulatory concerns related to data protection, privacy, and compliance.
 
 To effectively address these challenges, collaboration among researchers and practitioners from various fields is essential. This workshop seeks to bring together representatives from academia, research institutions, industry, public administrations, and standardization bodies to discuss the evolving landscape of digital identity management. The objective is to drive a transformation process that ensures security guarantees, robust data protection, compliance, and a foundation of trust in digital services. By fostering these discussions, the workshop provides a unique opportunity for interdisciplinary collaboration, with the aim of shaping the future of digital identity.
 
 # Format
+
 The workshop will feature a dynamic format, combining talks and presentations of scientific contributions, all selected through open calls. This structure ensures a diverse and enriching experience, integrating a broad range of perspectives with the latest research findings to foster a comprehensive understanding of current challenges and innovations in the field.
 
 Further details on the open calls are available in the respective pages ([call for papers](call-for-papers), [call for talks](call-for-talks)).
 
 # Important Dates
+
 {% include_relative includes/important-dates.md %}
 
 <div class="columns mt-4">
@@ -85,7 +94,7 @@ Further details on the open calls are available in the respective pages ([call f
     <h1>In collaboration with</h1>
     <div class="columns mt-2 is-multiline">
       <div class="column is-4-desktop is-4-tablet">
-        <a class="no-decoration" href="https://www.unimercatorum.it/">
+        <a class="no-decoration" href="https://www.unidigitaliverona.it/">
           <div class="card sponsor">
             <div class="card-image">
               <figure class="image">

@@ -12,8 +12,9 @@ publications:
 This project deals with the dematerialization of physical documents with the aim of implementing innovative POC solutions for different uses cases (e.g., Digital Travel Credential and mobile Driving License) in the Wallet context.
 
 We cover four main aspects:
+
 - **Secure Storage**: We identified the requirements for secure storage derived from the ARF and eIDAS regulation and described the current technologies for implementing a secure storage solution alternatives to mobile local storage (EUDI Wallet Backend, CIE Smartcard, or others).
-- **Pseudonym Attestations**: We identified the requirements and use cases for use of pseudonym attestations. 
+- **Pseudonym Attestations**: We identified the requirements and use cases for use of pseudonym attestations.
 - **Selective Disclosure**: We described the state of the art mechanisms for selective disclosure and provided design choices that satisfied the identified requirements.
 - **Revocation**: We assessed and provided a comparison for the following different revocation mechanisms (Status List, Revocation Lists and Online Status Protocols).
 

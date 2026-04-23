@@ -14,25 +14,32 @@ images:
 ---
 
 # Lista degli interventi
+
 **Privacy e altro**:
+
 - [Sergio Bettotti](http://www.strutture.provincia.tn.it/Dettaglio_Strutture.aspx?cod_s=D336) (Responsabile del Dipartimento agricoltura, turismo, commercio e promozione della Provincia Autonoma di Trento)
 - [Pier Luigi Sartori](http://it.linkedin.com/in/pierluigisartori) (Responsabile sicurezza delle informazioni di Informatica Trentina)
 
 **Identità Digitale e Privacy: convivenza forzata o una nuova evoluzione della security?**
-- [Andrea Rigoni](http://www.intelliumgroup.com/who-we-are/item/51?tmpl=raw) (Intellium Chairman and Managing Partner, Director General of the “Global Cyber Security Center” GCSEC, a no-profit Foundation based in Rome dedicated to Cyber Security, advisor to the CEO of the Italian Postal Company on Digital Services and Digital Identity, advisor to the Italian Government on Cyber Security). 
+
+- [Andrea Rigoni](http://www.intelliumgroup.com/who-we-are/item/51?tmpl=raw) (Intellium Chairman and Managing Partner, Director General of the “Global Cyber Security Center” GCSEC, a no-profit Foundation based in Rome dedicated to Cyber Security, advisor to the CEO of the Italian Postal Company on Digital Services and Digital Identity, advisor to the Italian Government on Cyber Security).
 
 **"Quo vadis, privacy?": il diritto alla riservatezza nell'era digitale**
+
 - [Paolo Guarda](http://www.lawtech.jus.unitn.it/index.php/people/paolo-guarda) (Post-doc researcher in Comparative Private Law, Faculty of Law, University of Trento - Lecturer in Information Technologies Law)
 - [Rossana Ducato](http://www.lawtech.jus.unitn.it/index.php/people/rossana-ducato) (Post-doc Research Fellow in Comparative Law, Faculty of Law University of Trento)
 
 **Confidential and Compliant Clouds**
+
 - [Fabio Martinelli](http://wwwold.iit.cnr.it/staff/fabio.martinelli/) (Senior reasercher at Security Group Istituto di Informatica e Telematica - IIT National Research Council - C.N.R.)
 
 **La protezione dei dati personali nei nuovi modelli di business**
+
 - [Loredana Mancini](http://it.linkedin.com/pub/loredana-mancini/1/6b4/280) (Gruppo ITWAY - Direttore Operation della società Business-e – co-fondatore  Italian Chapter Cloud security AllianceIT-ways)
 
 # Tema della Tavola Rotonda
-"Non c'e' modo di avere privacy, rassegnatevi", disse nel 1999 Scott McNealy, allora amministratore delegato di Sun Microsystems, intervistato sul tema della privacy di chi acquista su Internet. Quindici anni più tardi è ancora così? 
+
+"Non c'e' modo di avere privacy, rassegnatevi", disse nel 1999 Scott McNealy, allora amministratore delegato di Sun Microsystems, intervistato sul tema della privacy di chi acquista su Internet. Quindici anni più tardi è ancora così?
 
 In qualche modo, la situazione è peggiore rispetto al 1999 in quanto tutto ciò che si fa può lasciare letteralmente un'impronta digitale. Ciò è dovuto a diversi fattori: il numero crescente di nuovi utenti di Internet che supera il 10% ogni mese, la crescita continua e veloce dell'e-business, l’ampiezza dei servizi offerti dall'e-government i quali fanno circolare informazioni attraverso Internet. Mentre questo stato di cose da una parte ha conseguenze positive sulla nostra vita quotidiana (l’e-commerce ci permette di accedere ad una più ampia selezione di prodotti a prezzi più vantaggiosi mentre grazie all’e-government vengono ridotti i tempi di attesa per l'ottenimento di certificati da parte delle istituzioni governative), dall’altra aumenta problemi di privacy per i clienti e i cittadini a causa della facilità con cui le informazioni personali vengono raccolte, aggregate e comunicate a soggetti terzi a volte anche senza il consenso dell'utente.
 
@@ -64,6 +71,7 @@ This event is part of the [European Cyber Security Month](http://cybersecuritymo
 **Location**: Sala Stringa - FBK (Povo, Trento)
 
 L'evento è stato trasmesso in streaming tramite Google Hangout on air ed e' visibile ai seguenti link:
+
 - [Prima parte](http://youtu.be/YG50SFnQZ5Q)
 - [Seconda parte](http://youtu.be/aZfvqnu6WgM)
 - [Terza parte](http://youtu.be/QOahGi1cr44)

@@ -5,13 +5,16 @@ menubar: TDI2025
 ---
 
 # General Chair
+
 - **Silvio Ranise** (Fondazione Bruno Kessler and University of Trento)
 
 # Program Co-Chairs
+
 - **Marco Pernpruner** (Fondazione Bruno Kessler)
 - **Giada Sciarretta** (Fondazione Bruno Kessler)
 
 # Program Committee
+
 - **Francesco Buccafurri** (University of Reggio Calabria)
 - **Markus Dürmuth** (Leibniz University Hannover)
 - **Riccardo Focardi** (Ca' Foscari University of Venice)
@@ -28,6 +31,7 @@ menubar: TDI2025
 - **Nicola Zannone** (Eindhoven University of Technology)
 
 # Organizing Committee
+
 - **Roberto Carbone** (Fondazione Bruno Kessler)
 - **Marco Pernpruner** (Fondazione Bruno Kessler)
 - **Giada Sciarretta** (Fondazione Bruno Kessler)

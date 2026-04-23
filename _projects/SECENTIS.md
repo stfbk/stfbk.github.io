@@ -35,11 +35,12 @@ SECENTIS is an Initial Training Network (ITN) / European Industrial Doctorate (E
 The aim is to give 5 scientists (Early Stage Researcher) an optimal training and technical assistance to carry out their doctoral research on Security and Trust of Next Generation Enterprise Information Systems.
 
 The following topics will be addressed:
-* Risk-based Access Control
-* Security Policy Enforcement and Monitoring
-* Certification of Third-parties Applications
-* Automatic Security Analysis of Business Processes
-* Automatic Analysis of Browser-based Security Protocols
+
+- Risk-based Access Control
+- Security Policy Enforcement and Monitoring
+- Certification of Third-parties Applications
+- Automatic Security Analysis of Business Processes
+- Automatic Analysis of Browser-based Security Protocols
 
 SECENTIS will give to the 5 ESRs unparalleled research training opportunities by providing hands-on experience on a software infrastructure of industrial complexity. Each ESR will conduct internationally leading research in computer security and contribute to the development of solutions that will improve the security of the next generation of Enterprise Information Systems and Process Management solutions.
 
