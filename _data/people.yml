@@ -30,6 +30,11 @@
   name: Alberto
   surname: Calvi
 
+- id: AlbertoFanchin
+  name: Alberto
+  surname: Fanchin
+  usernameFBK: afanchin
+
 - id: AlbertoSiena
   name: Alberto
   surname: Siena
@@ -66,6 +71,11 @@
   name: Alessandro
   surname: Fontana
   usernameFBK: afontana
+
+- id: AlessandroGremes
+  name: Alessandro
+  surname: Gremes
+  usernameFBK: agremes
 
 - id: AlessandroMerlo
   name: Alessandro
