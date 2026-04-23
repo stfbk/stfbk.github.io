@@ -11,6 +11,7 @@ permalink: /events/CyberResilienza_PMI2026/
 </blockquote>
 
 # Panoramica
+
 Il panorama digitale europeo è a un punto di svolta. Mentre le aziende accelerano l'adozione di nuove tecnologie, il contesto normativo si fa più rigoroso: la cybersecurity sta passando da best practice a un preciso obbligo di legge grazie alla Direttiva NIS2. In questo contesto, l’evento mira a supportare le piccole e medie imprese (PMI) nella transizione verso i nuovi regolamenti NIS2. Grazie all'intervento di consulenti aziendali ed esperti del settore, tali norme complesse potranno essere trasformate in una roadmap pratica e multidisciplinare, garantendo resilienza e conformità.
 
 <div class="columns mt-4">

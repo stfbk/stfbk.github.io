@@ -5,11 +5,14 @@ menubar: CPS4CIP2025
 ---
 
 # Workshop Organizers
+
 ## General Chairs
+
 - **Habtamu Abie**, Norwegian Computing Center, Norway
 - **Silvio Ranise**, University of Trento and Fondazione Bruno Kessler (FBK), Italy
 
 ## PC Chairs
+
 - **Luca Verderame**, University of Genoa, Italy
 - **Enrico Cambiaso**, National Research Council (CNR), Italy
 - **Rita Ugarelli**, SINTEF, Norway
@@ -18,6 +21,7 @@ menubar: CPS4CIP2025
 - **Manos Athanatos**, Foundation for Research and Technology Hellas, Crete
 
 # Program Committee
+
 - **Dieter Gollmann**, Hamburg University of Technology, Germany
 - **Sokratis Katsikas**, Norwegian University of Science and Technology, Norway
 - **Fabio Martinelli**, IIT-CNR, Italy
@@ -29,7 +33,7 @@ menubar: CPS4CIP2025
 - **Alessio Merlo**, University of Genoa, Italy
 - **Cristina Alcaraz**, University of Malaga, Spain
 - **Giovanni Livraga**, University of Milan, Italy
-- **Shouhuai Xu**, University of Colorado Colorado Springs, USA 
+- **Shouhuai Xu**, University of Colorado Colorado Springs, USA
 - **Christos Xenakis**, University of Piraeus, Greece
 - **Mauro Conti**, University of Padua, Italy
 - **Denis Čaleta**, Institute for Corporate Security Studies, Slovenia

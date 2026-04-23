@@ -30,7 +30,7 @@ theses:
 
 ---
 
-**TLSAssistant** is a modular extensive framework that combines state-of-the-art TLS analyzers with a report system that suggests appropriate mitigations and shows the full set of viable attacks. It is open-source, released under [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) license and and you can contribute by visiting the project's [repository](https://github.com/stfbk/tlsassistant). 
+**TLSAssistant** is a modular extensive framework that combines state-of-the-art TLS analyzers with a report system that suggests appropriate mitigations and shows the full set of viable attacks. It is open-source, released under [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) license and and you can contribute by visiting the project's [repository](https://github.com/stfbk/tlsassistant).
 
 The tool has been developed within [Digimat](https://ict.fbk.eu/partnerships/co-innovation-labs/ipzs/), a joint lab between [Poligrafico e Zecca dello Stato](https://www.ipzs.it/ext/index.html) and the [Center for Cybersecurity](https://www.fbk.eu/it/cybersecurity/) of the Fondazione Bruno Kessler.
 
@@ -42,7 +42,6 @@ The tool has been developed within [Digimat](https://ict.fbk.eu/partnerships/co-
 
 {% include toc.md %}
 
-
 # Architecture
 
 <img class="image-centered" src="/assets/areas/tools/TLSAssistant/current_architecture.png" alt="current_architecture" />
@@ -52,37 +51,39 @@ Lastly, the new update integrates a new state-of-the-art static and extensible a
 
 It currently integrates five tools:
 
-* Android analysis
-  * [SEBASTiAn](https://github.com/talos-security/SEBASTiAn)
-  * [SUPERAnalyzer](https://github.com/SUPERAndroidAnalyzer/super)
-* iOS analysis
-  * [SEBASTiAn](https://github.com/talos-security/SEBASTiAn)
-* Server analysis
-  * [testssl.sh](https://github.com/drwetter/testssl.sh)
-  * [tlsfuzzer](https://github.com/tomato42/tlsfuzzer)
-  * [TLS-Scanner](https://github.com/tls-attacker/TLS-Scanner)
+- Android analysis
+  - [SEBASTiAn](https://github.com/talos-security/SEBASTiAn)
+  - [SUPERAnalyzer](https://github.com/SUPERAndroidAnalyzer/super)
+- iOS analysis
+  - [SEBASTiAn](https://github.com/talos-security/SEBASTiAn)
+- Server analysis
+  - [testssl.sh](https://github.com/drwetter/testssl.sh)
+  - [tlsfuzzer](https://github.com/tomato42/tlsfuzzer)
+  - [TLS-Scanner](https://github.com/tls-attacker/TLS-Scanner)
 
-To have a deeper understanding of the architecture, we must first grasp how it is organized. 
+To have a deeper understanding of the architecture, we must first grasp how it is organized.
 
-TLSAssistant makes advantage of the idea of a "Module," which is a collection of objects and classes that are joined in the same file by context (e.g., the type of vulnerability analyzed). Each module adheres to [standards](#how-to-contribute) that must be followed in order to develop a compliant module. 
+TLSAssistant makes advantage of the idea of a "Module," which is a collection of objects and classes that are joined in the same file by context (e.g., the type of vulnerability analyzed). Each module adheres to [standards](#how-to-contribute) that must be followed in order to develop a compliant module.
 
 We have different type of modules
 
-* **Analysis Modules:** modules that perform the analysis using independent code or external tools. This type of module will employ a submodule called **wrapper** to interface with external tools. The **output module** receives the Analysis module's output. 
-  * **Wrapper Modules**: modules that wrap an external software or an API call. Given that output must be refined by the Analysis module, a wrapper should not be directly connected to the output module. Most of the time, the wrapper is an entire API of non-Python software.
-* **Core Module**: the modules' router. It parses the specified configuration, runs each module, gathers the output and redirects it to the output module.
-* **Output Module**: formats the output properly by according to the mitigation standard and the provided information.
+- **Analysis Modules:** modules that perform the analysis using independent code or external tools. This type of module will employ a submodule called **wrapper** to interface with external tools. The **output module** receives the Analysis module's output.
+  - **Wrapper Modules**: modules that wrap an external software or an API call. Given that output must be refined by the Analysis module, a wrapper should not be directly connected to the output module. Most of the time, the wrapper is an entire API of non-Python software.
+- **Core Module**: the modules' router. It parses the specified configuration, runs each module, gathers the output and redirects it to the output module.
+- **Output Module**: formats the output properly by according to the mitigation standard and the provided information.
 
 ## How To Contribute
+
 In order to contribute to the project, allowing the Core module to automatically detect and integrate the new changes, the developer must follow the provided standards:
+
 - [Modules Design](https://github.com/stfbk/tlsassistant/wiki/Modules-Design)
 - [Actionable Mitigations Formatting](https://github.com/stfbk/tlsassistant/wiki/Actionable-Mitigations-Formatting)
-- [Configuration Files Structuring](https://github.com/stfbk/tlsassistant/wiki/Configuration-Files-Structuring) 
+- [Configuration Files Structuring](https://github.com/stfbk/tlsassistant/wiki/Configuration-Files-Structuring)
 - [Compliance Analysis](https://github.com/stfbk/TLS_Compliance_Dataset/wiki/)
 
 ## List of modules
 
-### Server-related 
+### Server-related
 
 #### Wrapper Modules
 
@@ -154,7 +155,6 @@ In order to contribute to the project, allowing the Core module to automatically
 | Weak Algorithms                    | SUPERAnalyzer |
 | WebView SSL Errors                 | SUPERAnalyzer |
 
-
 ### iOS-Related
 
 #### Wrapper Modules
@@ -173,8 +173,7 @@ In order to contribute to the project, allowing the Core module to automatically
 | No forward secrecy Plist   | SEBASTiAn    |
 | Weak crypto                | SEBASTiAn    |
 
-
-###   Core and Output related
+### Core and Output related
 
 | Module Name               | Type   |
 | ------------------------- | ------ |
@@ -193,18 +192,17 @@ In order to contribute to the project, allowing the Core module to automatically
 | generate_one  | Generation | -            |
 | generate_many | Generation | -            |
 
-
 ## Flow
 
 In this architecture, we have two different flow:
 
-* **Flow of the developer:**
+- **Flow of the developer:**
 
   To add a new Analysis module (see left of Architecture Figure), the developer must follow the provided standard. As a result, the new functionality will be detected and implemented by the Core module. In addition to providing the code for implementing the tests for identifying a vulnerability, if a mitigation is known, the developer should define it by producing a JSON file in accordance with the mitigation standards.
 
-* **Flow of the end-user:**
+- **Flow of the end-user:**
 
-  The end-user decides which modules to utilize in the analysis in Step 1 (see right of Architecture Figure) by supplying a configuration file or a command line list. Each configuration file is a context-specific collection of modules that conducts a certain kind of analysis (e.g., checking for vulnerabilities related to weak TLS ciphers). Step 2: The Core loads the configuration (if supplied) and the modules (from the list or configuration), ensuring that they are relevant to the kind of analysis requested. 
+  The end-user decides which modules to utilize in the analysis in Step 1 (see right of Architecture Figure) by supplying a configuration file or a command line list. Each configuration file is a context-specific collection of modules that conducts a certain kind of analysis (e.g., checking for vulnerabilities related to weak TLS ciphers). Step 2: The Core loads the configuration (if supplied) and the modules (from the list or configuration), ensuring that they are relevant to the kind of analysis requested.
 
 ## Type of Analysis
 
@@ -218,6 +216,7 @@ Here a quick overview of the various types of analysis that may be requested:
 ## Compliance Analysis
 
 TLSAssistant is able to perform an automated compliance analysis against five agency-issued technical guidelines:
+
 - **AgID** [ver.2020-01](https://cert-agid.gov.it/wp-content/uploads/2020/11/AgID-RACCSECTLS-01.pdf)
 - **ANSSI** [v1.2](https://cyber.gouv.fr/sites/default/files/2017/07/anssi-guide-recommandations_de_securite_relatives_a_tls-v1.2.pdf)
 - **BSI** [TR-02102-2](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG02102/BSI-TR-02102-2.html) and [TR-03116-4](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03116/BSI-TR-03116-4.html)
@@ -225,15 +224,19 @@ TLSAssistant is able to perform an automated compliance analysis against five ag
 - **NIST** [SP 800-52 Rev. 2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r2.pdf) (and related)
 
 ### Comparison Modules
+
 The `compare_one` and `compare_many` modules are used to assess the compliance level of an existing webserver (both deployed and not) against one or multiple guidelines. Its output consists of an actionable report that combines a description of the potential lack of compliance along with an explanation on how improve the security posture of the analyzed server and a set of actionable hints to guide the user in the process of making the webserver compliant.
 
 ### Generation Modules
+
 The `generate_one` and `generate_many` modules are used to generate from scratch configuration files that are compliant with one or more guidelines. Its output consists of a configuration file (for Apache or nginx webservers) that can be directly used to deploy a compliant webserver out-of-the-box.  
 
 ### Custom Guidelines
+
 The modules can be customized to take into consideration specific requirements of the user, such as structured custom guidelines or single requirements for selected configurable elements.
 
 ### Warning
+
 The compliance module can recieve both a configuration file and a hostname/ip as input. If a configuration file is provided the analysis will not check the Certificates since they depend on external files.
 
 ## Caching system
@@ -245,6 +248,7 @@ Each wrapper module includes a caching mechanism. Because it is unlikely that an
 As stated before, a pre-analysis (step 3a) is required as a compromise between atomicity, efficiency, and execution speed. Because the testssl startup time is roughly 3 seconds, we need to limit the number of times the tool is called. To do this, the core will determine if the module being run is utilizing testssl.sh as a wrapper, and if so, it will get all testssl-related arguments. Following this, the core will fill the testssl wrapper cache, which will be executed once the analysis is complete.
 
 # Features showcase
+
 <div class="h_iframe">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=Vgzy2dDMeHfMrJ6p&amp;list=PLLCelDM1fnkKnKr3qle1FukK90gIwoZHX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>

@@ -1,0 +1,16 @@
+MD001: false                  # Disables heading levels should only increment by one level at a time.
+MD004:
+  style: dash                 # Enforces using '-' for unordered lists.
+MD013: false                  # Disables the 80-character line length limit.
+MD024:
+  siblings_only: true         # Allows duplicate headings under different parent heading.
+MD025: false                  # Allows multiple top-level headings in the same document.
+MD033: false                  # Allows Inline HTML.
+MD036: false                  # Disables the "Emphasis used instead of a heading" rule.
+MD041: false                  # Disables first line in a file should be a top-level heading.
+MD045: false                  # Disables images should have alternate text.
+MD059: false                  # Disables check on descriptive link text.
+MD060:
+  style: padded               # Controls table pipe spacing.
+MD049:
+  style: asterisk             # Enforces _italics_ using asterisks.

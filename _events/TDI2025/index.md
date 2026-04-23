@@ -67,6 +67,7 @@ images:
 </blockquote>
 
 # Recent News
+
 - **25/05/2025**: The [proceedings](https://ceur-ws.org/Vol-3968/) have been published.
 - **04/02/2025**: [Speakers' slides](program) are now available.
 - **16/01/2025**: The workshop will be held in **Room E**.
@@ -77,19 +78,23 @@ images:
 - **18/10/2024**: The website is online.
 
 # Overview
+
 Digital identity is increasingly recognized as a fundamental building block in the development and deployment of digital infrastructures and services across a wide range of sectors, including e-commerce, e-government, healthcare, and finance. As the adoption of digital technologies accelerates, the need for secure and reliable identity management solutions grows significantly and becomes the cornerstone of other security services, such as access control. However, this increased demand presents numerous challenges, including technical issues like security, interoperability, and usability, as well as legal and regulatory concerns related to data protection, privacy, and compliance.
 
 To effectively address these challenges, collaboration among researchers and practitioners from various fields is essential. This workshop seeks to bring together representatives from academia, research institutions, industry, public administrations, and standardization bodies to discuss the evolving landscape of digital identity management. The objective is to drive a transformation process that ensures security guarantees, robust data protection, compliance, and a foundation of trust in digital services. By fostering these discussions, the workshop provides a unique opportunity for interdisciplinary collaboration, with the aim of shaping the future of digital identity.
 
 # Format
+
 The workshop will feature a dynamic format, combining invited talks by national and international experts with presentations of peer-reviewed scientific contributions selected through a call for papers. This structure ensures a diverse and enriching experience, integrating expert insights with the latest research findings to foster a comprehensive understanding of current challenges and innovations in the field.
 
 Further details on the call for papers are available in the [dedicated page](call-for-papers).
 
 # Important Dates
+
 {% include_relative includes/important-dates.md %}
 
 # Acknowledgements
+
 This workshop is organized as part of the [SERICS project](https://serics.eu/) (PE00000014), under the MUR National Recovery and Resilience Plan, funded by the European Union through NextGenerationEU. Specifically, it is aligned with the objectives of the STRIDE (Secure and Traceable Identities in Distributed Environments) project within [Spoke 5](https://serics.eu/services/spoke-5-crittografia-sicurezza-sistemi-distribuiti/).
 
 <a href="https://serics.eu/">

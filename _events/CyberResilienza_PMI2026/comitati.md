@@ -5,6 +5,7 @@ menubar: CyberResilienza_PMI2026
 ---
 
 # Comitato Organizzatore
+
 - **Annalisa Armani** (Fondazione Bruno Kessler)
 - **Claudio De Cassan** (Università Digitale Mercatorum - Sede di Verona)
 - **Isabella Masè** (Fondazione Bruno Kessler)

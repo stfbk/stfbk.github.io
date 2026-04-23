@@ -32,27 +32,27 @@ The course introduces the basic notions underlying the various aspects of digita
 
 The course is divided into two parts. *Part 1* introduces the basic notions underlying the various aspects of digital identity management; while *Part 2* describes the methodology developed in our unit for the automated security analysis of identity management solutions.
 
-##### Part 1: Introduction to Identity Management 
+##### Part 1: Introduction to Identity Management
 
 - Overview of the course
 
 - Basics on Identity Management
   - Digital identity lifecycle (enrollment, authentication, authorization)
   - Assurance levels
-  - Passwordless authentication 
-  - Multi-factor authentication 
+  - Passwordless authentication
+  - Multi-factor authentication
   - Single-Sign On (SAML, OIDC)
 - Focus on two Identity Management standards
   - A standard for SSO and Access Delegation: OAuth 2.0/OIDC  
-  - A standard for passwordless authentication: FIDO2 
-- Security issues of SSO protocols at design and implementation level (security-by-design examples, wrong implementation choices) 
+  - A standard for passwordless authentication: FIDO2
+- Security issues of SSO protocols at design and implementation level (security-by-design examples, wrong implementation choices)
 - Digital identity solutions for legal provisioning (eIDAS, SPID, CIE 3.0, PSD2)
 - Digital identity solutions for (legal) contract signing (electronic signatures, attribute provisioning)  
-- Distributed identity (self-sovereign identity - DID) 
+- Distributed identity (self-sovereign identity - DID)
 
-##### Part 2: Our methodology and tools 
+##### Part 2: Our methodology and tools
 
-- Our methodology for the design, development, and maintenance of IdM solutions 
+- Our methodology for the design, development, and maintenance of IdM solutions
 
 - Use case scenarios level (MuFASA - a tool for high-level specification and analysis of multi-factor authentication)
 
@@ -63,4 +63,3 @@ The course is divided into two parts. *Part 1* introduces the basic notions unde
 - Implementations level - part 1 (MicroID Gym - an identity management workout with container-based microservices)
 
 - Implementations level - part 2 (TLSAssistant - a tool for the analysis of TLS configuration with a report system that suggests appropriate mitigations)
-

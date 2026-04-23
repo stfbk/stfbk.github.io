@@ -4,7 +4,7 @@ funding: Horizon Europe, as part of the Digital Europe Program (2021-2027)
 website: http://digitalmerit.eu/
 
 ---
-The project *Master of Science in Smart, Secure and Interconnected Systems (MERIT)* is a European Union co-funded project under the Digital Europe Programme, with participating universities from four countries, industrial partners, excellence and research centres, national technology transfer organisations and Digital Innovation Hubs. 
+The project *Master of Science in Smart, Secure and Interconnected Systems (MERIT)* is a European Union co-funded project under the Digital Europe Programme, with participating universities from four countries, industrial partners, excellence and research centres, national technology transfer organisations and Digital Innovation Hubs.
 
 The purpose of MERIT is to increase the number of young people who can contribute to the digital economy by enhancing their capacities for innovation, entrepreneurship and employability through enhanced on-the-job training as well as academic training at the university level - supported by continued education. The main concern of MERIT is to equip society with workers able to understand, manage and innovate in technological developments including artificial intelligence (AI), IoT and cybersecurity.
 

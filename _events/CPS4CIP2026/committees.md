@@ -5,11 +5,14 @@ menubar: CPS4CIP2026
 ---
 
 # Workshop Organizers
+
 ## General Chairs
+
 - **Habtamu Abie**, Norwegian Computing Center, Norway
 - **Silvio Ranise**, University of Trento and Fondazione Bruno Kessler (FBK), Italy
 
 ## PC Chairs
+
 - **Luca Verderame**, University of Genoa, Italy
 - **Enrico Cambiaso**, Consiglio Nazionale delle Ricerche (CNR), Italy
 - **Rita Ugarelli**, SINTEF, Norway
@@ -18,6 +21,7 @@ menubar: CPS4CIP2026
 - **Manos Athanatos**, Foundation for Research and Technology Hellas, Crete
 
 # Program Committee
+
 - **Dieter Gollmann**, Hamburg University of Technology, Germany
 - **Sokratis Katsikas**, Norwegian University of Science and Technology, Norway
 - **Fabio Martinelli**, IIT-CNR, Italy
