@@ -57,7 +57,7 @@
   description: The OAuth Security Workshop (OSW) aim is to improve the security of OAuth and related Internet protocols by a direct exchange of views between academic researchers, IETF OAuth Working Group members and industry.
   url: /events/OSW2018/
 
-# 2020  
+# 2020
 - id: CPS4CIP2020
   name: 1st International Workshop on Cyber-Physical Security for Critical Infrastructures Protection
   acronym: CPS4CIP 2020
@@ -65,7 +65,7 @@
   endDate: "2020-09-18"
   description: CPS4CIP 2020 is the first workshop dedicated to the cyber-physical security for protecting critical infrastructures that support finance, energy, health, air transport, communication, gas, and water.
   url: https://sites.google.com/fbk.eu/cps4cip20
-  
+
 - id: IdentityDLT
   name: Digital Identity and Distributed Systems
   startDate: "2020-12-02"

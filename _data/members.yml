@@ -26,7 +26,7 @@ current:
     - ZahraEbadiAnsaroudi
 
   collaborators:
-      
+
   students:
     - personId: DanieleCalvo
       type: B
@@ -105,8 +105,8 @@ current:
       yearFrom: 2026
       yearTo: 2026
 
-  junior:    
-      
+  junior:
+
 former:
   head:
     - personId: AlessandroArmando
@@ -269,7 +269,7 @@ former:
 
     - personId: StefanoBerlato
       thesisId: StefanoBerlato_P
-  
+
   students:
     - personId: MarcoPernpruner
       thesisId: MarcoPernpruner_M
@@ -308,7 +308,7 @@ former:
       thesisId:
         - GiulioPellizzari_B
         - GiulioPellizzari_M
-      
+
     - personId: GiovanniFerronato
       thesisId: GiovanniFerronato_B
 
@@ -335,7 +335,7 @@ former:
       topic: Risk Assessment Smart Campus
       yearFrom: 2014
       yearTo: 2014
-      
+
     - personId: VincenzoChiarini
       topic: Studio dell'usabilità di soluzioni di Single Sign-On e autenticazione forte per applicazioni mobile.
       institution: University of Trento
@@ -357,10 +357,10 @@ former:
 
     - personId: StefanoFacchini
       thesisId: StefanoFacchini_B
-      
+
     - personId: MatteoRizzi
       thesisId: MatteoRizzi_B
-      
+
     - personId: MatteoLongato
       thesisId: MatteoLongato_B
 
@@ -375,7 +375,7 @@ former:
 
     - personId: WendyBarreto
       thesisId: WendyBarreto_B
-    
+
     - personId: LucaBazzanella
       thesisId: LucaBazzanella_B
 
@@ -608,7 +608,7 @@ former:
       institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
       yearFrom: 2023
       yearTo: 2023
-      
+
     - personId: FedericaMascia
       topic: Awareness - percezione del rischio
       institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
@@ -632,13 +632,13 @@ former:
       institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
       yearFrom: 2022
       yearTo: 2023
-      
+
     - personId: DanielFranchini
       topic: Virtualization of TLS vulnerabilities
       institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
       yearFrom: 2024
       yearTo: 2024
-      
+
     - personId: EmilianoRizzonelli
       topic: Virtualization of TLS vulnerabilities
       institution: Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento

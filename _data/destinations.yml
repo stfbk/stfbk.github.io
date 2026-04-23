@@ -19,7 +19,7 @@
   type: journal
 
 - id: FMSD
-  name: Formal Methods in System Design 
+  name: Formal Methods in System Design
   url: https://www.springer.com/journal/10703
   type: journal
 
@@ -120,7 +120,7 @@
   type: journal
 
 - id: TDSC
-  name: IEEE Transactions on Dependable and Secure Computing 
+  name: IEEE Transactions on Dependable and Secure Computing
   acronym: TDSC
   url: https://www.computer.org/csdl/journals/tq
   type: journal
@@ -138,13 +138,13 @@
   type: journal
 
 - id: TOCL
-  name: ACM Transactions on Computational Logic 
+  name: ACM Transactions on Computational Logic
   acronym: TOCL
   url: https://dl.acm.org/journal/tocl
   type: journal
 
 - id: TOPS
-  name: ACM Transactions on Privacy and Security 
+  name: ACM Transactions on Privacy and Security
   acronym: TOPS
   url: https://tops.acm.org/
   type: journal
@@ -433,7 +433,7 @@
   location: Munich, Germany
   startDate: "2014-02-26"
   endDate: "2014-02-26"
-  
+
 - id: STM2014
   name: 10th International Workshop on Security and Trust Management
   acronym: STM 2014
@@ -484,7 +484,7 @@
   name: 7th ACM CCS International Workshop on Managing Insider Security Threats
   acronym: MIST 2015
   type: workshop
-  location: Denver, Colorado, US 
+  location: Denver, Colorado, US
   startDate: "2015-10-12"
   endDate: "2015-10-16"
 
@@ -637,7 +637,7 @@
   endDate: "2017-04-28"
 
 - id: IFIPSEC2017
-  name: 32nd International Conference on ICT Systems Security and Privacy Protection 
+  name: 32nd International Conference on ICT Systems Security and Privacy Protection
   acronym: IFIPSEC 2017
   url: https://ifipsec.org/2017/
   type: conference
@@ -826,7 +826,7 @@
   location: Luxembourg, Luxembourg
   startDate: "2019-09-26"
   endDate: "2019-09-27"
-   
+
 - id: STM2019
   name: 15th International Workshop on Security and Trust Management
   acronym: STM 2019
@@ -864,7 +864,7 @@
   location: Online
   startDate: "2020-08-03"
   endDate: "2020-08-04"
- 
+
 - id: CPS4CIP2020
   name: 1st International Workshop on Cyber-Physical Security for Critical Infrastructures Protection
   acronym: CPS4CIP 2020
@@ -881,7 +881,7 @@
   type: conference
   location: Virtual Event
   startDate: "2020-09-14"
-  endDate: "2020-09-18"  
+  endDate: "2020-09-18"
 
 - id: ETAA2020
   name: 3rd International Workshop on Emerging Technologies for Authorization and Authentication
@@ -918,8 +918,8 @@
   location: Virtual Event
   startDate: "2020-07-08"
   endDate: "2020-07-10"
-  
-## 2021  
+
+## 2021
 - id: CODASPY2021
   name: 11th ACM Conference on Data and Application Security and Privacy
   proceedings: Proceedings of the Eleventh ACM Conference on Data and Application Security and Privacy
@@ -947,7 +947,7 @@
   type: conference
   location: Virtual Event
   startDate: "2021-10-8"
-  endDate: "2021-10-8"  
+  endDate: "2021-10-8"
 
 - id: ETACS2021
   name: The 16th International Conference on Availability, Reliability and Security (ARES 2021)
@@ -966,7 +966,7 @@
   location: Virtual Event (originally in Madrid, Spain)
   startDate: "2021-05-24"
   endDate: "2021-05-28"
-  
+
 - id: IOTSECFOR2021
   name: The 5th International Workshop on Security and Forensics of IoT
   acronym: IoT-SECFOR 2021
@@ -994,7 +994,7 @@
   startDate: "2021-09-05"
   endDate: "2021-09-11"
 
-## 2022  
+## 2022
 - id: CODASPY2022
   name: 12th ACM Conference on Data and Application Security and Privacy
   proceedings: Proceedings of the Twelfth ACM Conference on Data and Application Security and Privacy
@@ -1004,7 +1004,7 @@
   location: Baltimore, United States
   startDate: "2022-04-25"
   endDate: "2022-04-27"
-  
+
 - id: DBSEC2022
   name: 36th Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
   proceedings: Proceedings of the 36th Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
@@ -1020,10 +1020,10 @@
   acronym: E-Vote-ID 2022
   url: https://e-vote-id.org/e-vote-id-2022/
   type: conference
-  location: Bregenz, Austria 
+  location: Bregenz, Austria
   startDate: "2022-10-04"
   endDate: "2022-10-07"
-  
+
 - id: FARES2022
   name: 17th International Workshop on Frontiers in Availability, Reliability and Security
   acronym: FARES2022
@@ -1032,7 +1032,7 @@
   location: Vienna, Austria
   startDate: "2022-08-23"
   endDate: "2022-08-26"
-  
+
 - id: SACMAT2022
   name: 27th ACM Symposium on Access Control Models And Technologies
   proceedings: Proceedings of the 27th ACM Symposium on Access Control Models and Technologies
@@ -1052,7 +1052,7 @@
   location: Benevento, Italy
   startDate: "2023-08-29"
   endDate: "2023-09-01"
-  
+
 - id: DBSEC2023
   name: 37th Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
   proceedings: Proceedings of the 37th Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
@@ -1068,7 +1068,7 @@
   acronym: ESORICS 2023
   url: https://esorics2023.org/
   type: conference
-  location: The Hague, The Netherlands 
+  location: The Hague, The Netherlands
   startDate: "2023-09-25"
   endDate: "2023-09-29"
 
@@ -1077,7 +1077,7 @@
   acronym: E-Vote-ID 2023
   url: https://e-vote-id.org/e-vote-id-2023/
   type: conference
-  location: Luxembourg City, Luxembourg 
+  location: Luxembourg City, Luxembourg
   startDate: "2023-10-03"
   endDate: "2023-10-06"
 
@@ -1089,7 +1089,7 @@
   location: Gdansk, Poland
   startDate: "2023-08-06"
   endDate: "2023-08-10"
-  
+
 - id: SECRYPT2023
   name: 20th International Conference on Security and Cryptography
   acronym: SECRYPT 2023
@@ -1159,7 +1159,7 @@
   proceedings: 2024 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)
   acronym: OSVS 2024
   url: https://osvs.pages.dev/
-  type: workshop 
+  type: workshop
   location: Vienna, Austria
   startDate: "2024-07-12"
   endDate: "2024-07-12"
@@ -1244,7 +1244,7 @@
   type: conference
   location: Passau, Germany
   startDate: "2025-12-04"
-  endDate: "2025-12-05"  
+  endDate: "2025-12-05"
 
 - id: STM2025
   name: 21st International Workshop on Security and Trust Management
@@ -1257,12 +1257,11 @@
 
 ## 2026
 - id: PETS2026
-  name: 26th Privacy Enhancing Technologies Symposium 
+  name: 26th Privacy Enhancing Technologies Symposium
   acronym: PETS 2026
   url: https://petsymposium.org/2026/
   type: conference
   location: Calgary, Canada
   startDate: "2026-07-20"
   endDate: "2026-07-25"
-
 # PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)

@@ -336,7 +336,7 @@
     - SilvioGhilardi
     - SilvioRanise
   abstract: >
-    The use of interpolants in model checking is becoming an enabling technology to allow fast and robust verification of hardware and software. The application of encodings based on the theory of arrays, however, is limited by the impossibility of deriving quantifier- free interpolants in general. In this paper, we show that it is possible to obtain quantifier-free interpolants for a Skolemized version of the extensional theory of arrays. We prove this in two ways: (1) non-constructively, by using the model theoretic notion of amalgamation, which is known to be equivalent to admit quantifier-free interpolation for universal theories; and (2) constructively, by designing an interpolating procedure, based on solving equations between array updates. (Interestingly, rewriting techniques are used in the key steps of the solver and its proof of correctness.) To the best of our knowledge, this is the first successful attempt of computing quantifier- free interpolants for a variant of the theory of arrays with extensionality. 
+    The use of interpolants in model checking is becoming an enabling technology to allow fast and robust verification of hardware and software. The application of encodings based on the theory of arrays, however, is limited by the impossibility of deriving quantifier- free interpolants in general. In this paper, we show that it is possible to obtain quantifier-free interpolants for a Skolemized version of the extensional theory of arrays. We prove this in two ways: (1) non-constructively, by using the model theoretic notion of amalgamation, which is known to be equivalent to admit quantifier-free interpolation for universal theories; and (2) constructively, by designing an interpolating procedure, based on solving equations between array updates. (Interestingly, rewriting techniques are used in the key steps of the solver and its proof of correctness.) To the best of our knowledge, this is the first successful attempt of computing quantifier- free interpolants for a variant of the theory of arrays with extensionality.
   destination: LMCS
   destinationAddon: Volume 8, Issue 2
   year: 2012
@@ -933,7 +933,7 @@
     - UmbertoMorelli
     - SilvioRanise
   abstract: >
-    The heterogeneity of cloud computing platforms hinders the proper exploitation of cloud technologies since it prevents interoperability, promotes vendor lock-in and makes it very difficult to exploit the well-engineered security mechanisms made available by cloud providers. In this paper, we introduce a technique to help developers to specify and enforce access control policies in cloud applications. The main idea is twofold. First, use a high-level specification language with a formal semantics that allows to answer access requests abstracting from an access control mechanism available in a particular cloud platform. Second, exploit an automated translation mechanism to compute (equivalent) policies that can be enforced in two of the most widely used cloud platforms: AWS and Openstack. We illustrate the technique on a running example and report our experience with a prototype implementation. 
+    The heterogeneity of cloud computing platforms hinders the proper exploitation of cloud technologies since it prevents interoperability, promotes vendor lock-in and makes it very difficult to exploit the well-engineered security mechanisms made available by cloud providers. In this paper, we introduce a technique to help developers to specify and enforce access control policies in cloud applications. The main idea is twofold. First, use a high-level specification language with a formal semantics that allows to answer access requests abstracting from an access control mechanism available in a particular cloud platform. Second, exploit an automated translation mechanism to compute (equivalent) policies that can be enforced in two of the most widely used cloud platforms: AWS and Openstack. We illustrate the technique on a running example and report our experience with a prototype implementation.
   destination: IFIPSEC2017
   year: 2017
   doi: 10.1007/978-3-319-58469-0_20
@@ -1047,7 +1047,7 @@
 
 - id: JCS2018
   id_iris: 316172
-  title: Automated and efficient analysis of administrative temporal RBAC policies with role hierarchies 
+  title: Automated and efficient analysis of administrative temporal RBAC policies with role hierarchies
   authors:
     - SilvioRanise
     - TuanAnhTruong
@@ -1457,7 +1457,7 @@
     Pull printing is the set of technologies and processes that allow print jobs to be released according to specific conditions; typically user authentication and proximity to a printer. In this paper, we propose an open-source and software-oriented pull printing infrastructure that use a cloud print orchestrator and leverages the OpenID Connect protocol and the Italian electronic identity card to protect user prints with a second-factor authentication. Our goal is to prevent print-related data breaches and tackle the challenges that hinder the widespread adoption of more secure printing solutions: costs and user experience.
   destination: ITASEC2020
   year: 2020
-  
+
 - id: JISA2020
   id_iris: 321185
   title: A Large-Scale Study on the Adoption of Anti-Debugging and Anti-Tampering Protections in Android Apps
@@ -1478,8 +1478,8 @@
     - UmbertoMorelli
     - SilvioRanise
   abstract: >
-    The CAP Theorem is used by distributed system practitioners to investigate the necessary trade-offs in the design and development of distributed systems, mainly databases and web applications. In this paper, we use it to reason about access control systems designed for the Internet of Things (IoT). 
-    We validate our approach by experimentally investigating alternative architectural designs to enforce access control in a smart lock system using the cloud-edge IoT platform offered by Amazon. 
+    The CAP Theorem is used by distributed system practitioners to investigate the necessary trade-offs in the design and development of distributed systems, mainly databases and web applications. In this paper, we use it to reason about access control systems designed for the Internet of Things (IoT).
+    We validate our approach by experimentally investigating alternative architectural designs to enforce access control in a smart lock system using the cloud-edge IoT platform offered by Amazon.
     We discuss the trade-off between security and performance that may help IoT designers choose the most suitable architecture supporting their requirements.
   destination: SACMAT2020
   year: 2020
@@ -1695,7 +1695,7 @@
   destination: SECRYPT2021
   year: 2021
   urlComplementary: /complementary/SECRYPT2021_2
-  
+
 - id: SMDS2021
   id_iris: 328826
   title: "Assessing the Effectiveness of the Shared Responsibility Model for Cloud Databases: the Case of Google's Firebase"
@@ -1767,13 +1767,13 @@
     - GiadaSciarretta
     - SilvioRanise
   abstract: >
-    While being both extremely powerful and popular, TLS is a protocol that is hard to securely deploy. On the one hand, system administrators are required to grasp several security concepts to fully understand the impact of each option and avoid misconfigurations. 
+    While being both extremely powerful and popular, TLS is a protocol that is hard to securely deploy. On the one hand, system administrators are required to grasp several security concepts to fully understand the impact of each option and avoid misconfigurations.
     On the other hand, app developers should use cryptographic libraries in a secure way avoiding dangerous default settings or other subtleties (e.g., padding or modes of operations).
     To help secure TLS, we propose a modular framework, extensible with new features and capable of streamlining the mitigation process of known and newly discovered TLS attacks even for non-expert users.
   destination: CODASPY2022
   year: 2022
   doi: 10.1145/3508398.3511505
-  
+
 - id: DBSEC2022
   id_iris: 335865
   title: "End-to-End Protection of IoT Communications Through Cryptographic Enforcement of Access Control Policies"
@@ -1889,11 +1889,11 @@
     - RobertoCarbone
     - SilvioRanise
   abstract: >
-    An Attribute Authority is an entity responsible for establishing, maintaining, and sharing a subject’s qualified attributes, such as titles and qualifications. In the OpenID Connect digital identity ecosystem, this entity is distinct from Identity Providers that manage only the basic identity profile information. A relevant scenario is as follows: the User first logs in to an online service using his/her identity managed by an Identity Provider. Then, the online service asks the Attribute Authority for the additional User’s attributes (e.g., entitlements) before granting access to its resources. In some high-sensitive cases, an Attribute Authority needs proof of the User’s authentication before releasing the User’s attributes to the online service. The challenge of this scenario involving usability, security, and privacy requirements lies in finding the right mechanism to share (the minimum and necessary set of) claims of the User who is currently authenticated with the online service across multiple domains without requiring his or her re-authentication. In this paper, we present the design of two solutions based on OpenID Connect to share User claims across domains. We provide security and privacy analysis for the two solutions and a brief comparison between them. 
+    An Attribute Authority is an entity responsible for establishing, maintaining, and sharing a subject’s qualified attributes, such as titles and qualifications. In the OpenID Connect digital identity ecosystem, this entity is distinct from Identity Providers that manage only the basic identity profile information. A relevant scenario is as follows: the User first logs in to an online service using his/her identity managed by an Identity Provider. Then, the online service asks the Attribute Authority for the additional User’s attributes (e.g., entitlements) before granting access to its resources. In some high-sensitive cases, an Attribute Authority needs proof of the User’s authentication before releasing the User’s attributes to the online service. The challenge of this scenario involving usability, security, and privacy requirements lies in finding the right mechanism to share (the minimum and necessary set of) claims of the User who is currently authenticated with the online service across multiple domains without requiring his or her re-authentication. In this paper, we present the design of two solutions based on OpenID Connect to share User claims across domains. We provide security and privacy analysis for the two solutions and a brief comparison between them.
   destination: ARES2023
   year: 2023
   doi: 10.1145/3600160.3600183
-  
+
 - id: COSE2023
   id_iris: 337867
   title: "Identifying and Quantifying Trade-offs in Multi-Stakeholder Risk Evaluation with Applications to the Data Protection Impact Assessment of the GDPR"
@@ -1908,7 +1908,7 @@
   destination: COSE
   year: 2023
   doi: 10.1016/j.cose.2023.103206
-  
+
 - id: DBSEC2023
   id_iris: 339007
   title: "Assurance, Consent and Access Control for Privacy-Aware OIDC Deployments"
@@ -1919,7 +1919,7 @@
     - RobertoCarbone
     - SilvioRanise
   abstract: >
-    The large amount of personal data that is shared in the digital age has proportionally increased the risks of user privacy violations. The same privacy risks are reflected in OpenID Connect, which is one of the most widespread protocols used for identity management to access both private and public administration services. Since personal data is collected and shared via OpenID Connect, appropriate technologies to protect user privacy should be adopted as suggested by data protection guidelines and regulations (e.g., the General Data Protection Regulation). Unfortunately, it is difficult to make the privacy-enhancing technology suggestions in such documents actionable and available to IT professionals who are required to configure them within their OpenID Connect deployments. To overcome this problem, we present a practical approach to improving user privacy in OpenID Connect-based solutions by identifying a set of privacy-preserving features extracted from the available OpenID Connect specifications. We conduct a privacy compliance analysis on popular private and governmental OpenID Providers to determine how widely these privacy best practices are used in the wild. The findings indicate that different OpenID Providers grant varying levels of assurance and address different aspects of privacy, failing to provide full support for data protection principles. 
+    The large amount of personal data that is shared in the digital age has proportionally increased the risks of user privacy violations. The same privacy risks are reflected in OpenID Connect, which is one of the most widespread protocols used for identity management to access both private and public administration services. Since personal data is collected and shared via OpenID Connect, appropriate technologies to protect user privacy should be adopted as suggested by data protection guidelines and regulations (e.g., the General Data Protection Regulation). Unfortunately, it is difficult to make the privacy-enhancing technology suggestions in such documents actionable and available to IT professionals who are required to configure them within their OpenID Connect deployments. To overcome this problem, we present a practical approach to improving user privacy in OpenID Connect-based solutions by identifying a set of privacy-preserving features extracted from the available OpenID Connect specifications. We conduct a privacy compliance analysis on popular private and governmental OpenID Providers to determine how widely these privacy best practices are used in the wild. The findings indicate that different OpenID Providers grant varying levels of assurance and address different aspects of privacy, failing to provide full support for data protection principles.
   destination: DBSEC2023
   year: 2023
   doi: 10.1007/978-3-031-37586-6_13
@@ -1999,7 +1999,7 @@
     - GiadaSciarretta
     - MarioScuro
     - AmirSharif
-    - AlessandroTomasi 
+    - AlessandroTomasi
   abstract: >
     Verifiable credentials are a digital analogue of physical credentials. Their authenticity and integrity are protected by means of cryptographic techniques, and they can be presented to verifiers to prove claims about the holder of the credential itself. One way to preserve privacy during presentation consists in selectively disclosing the attributes in a credential. In this paper we present the most widespread cryptographic mechanisms used to enable selective disclosure of attributes, describing their structure and comparing them in terms of performance, size of the associated verifiable presentations, and the ability to produce predicate proofs and unlinkable presentations.
   destination: SECRYPT2023
@@ -2049,7 +2049,7 @@
     - MassimilianoZanchiello
     - SalvatoreManfredi
   abstract: >
-    In the context of decarbonizing the energy system, the European Union has promoted a package of eight different directives known as the Clean Energy Package. Among them, Directive 2018/2001/EU, also known as RED II, has proposed a new legal framework for the development of renewable energy sources (RES) and, more importantly, for increasing citizen participation in the energy transition through two new tools: collective self-consumption systems (CSC) and renewable energy communities (REC). The realization, management, and optimization of these new realities of widespread energy production and consumption require the use of ICT technologies, without which the integrated production, distribution, and efficient use of renewable energy would not be possible. However, the massive use of ICT technologies essential for the operation of such systems brings with it the risk of threats from malicious actors, whose objectives may include undermining the stability, operation, and reliability of the community itself. This paper aims, in the first chapter, to explain the concept of REC and, in the second chapter, to outline the cybersecurity aspects of REC. The third chapter outlines the legal frameworks and privacy issues connected to the community itself. At the end, it will provide an overview of the existing attack surfaces in the energy community and possible mitigations through prevention and defense strategies. 
+    In the context of decarbonizing the energy system, the European Union has promoted a package of eight different directives known as the Clean Energy Package. Among them, Directive 2018/2001/EU, also known as RED II, has proposed a new legal framework for the development of renewable energy sources (RES) and, more importantly, for increasing citizen participation in the energy transition through two new tools: collective self-consumption systems (CSC) and renewable energy communities (REC). The realization, management, and optimization of these new realities of widespread energy production and consumption require the use of ICT technologies, without which the integrated production, distribution, and efficient use of renewable energy would not be possible. However, the massive use of ICT technologies essential for the operation of such systems brings with it the risk of threats from malicious actors, whose objectives may include undermining the stability, operation, and reliability of the community itself. This paper aims, in the first chapter, to explain the concept of REC and, in the second chapter, to outline the cybersecurity aspects of REC. The third chapter outlines the legal frameworks and privacy issues connected to the community itself. At the end, it will provide an overview of the existing attack surfaces in the energy community and possible mitigations through prevention and defense strategies.
   destination: AEIT2024
   year: 2024
   doi: 10.23919/AEIT63317.2024.10736786
@@ -2147,7 +2147,7 @@
   destination: Ital-IA2024
   year: 2024
   url: https://ceur-ws.org/Vol-3762/469.pdf
- 
+
 - id: JISA2024
   id_iris: 347387
   title: On Cryptographic Mechanisms for the Selective Disclosure of Verifiable Credentials
@@ -2194,7 +2194,7 @@
     - AlessandroTomasi
     - SilvioRanise
   abstract: >
-    System administrators tasked with configuring TLS servers must make numerous decisions - e.g., selecting the appropriate ciphers, signature algorithms, and TLS extensions - and it may not be obvious, even to security experts, which decisions may expose to attacks. To address this issue, raise awareness, and establish a security threshold, numerous cybersecurity agencies around the world issue technical guidelines for the use and configuration of TLS. 
+    System administrators tasked with configuring TLS servers must make numerous decisions - e.g., selecting the appropriate ciphers, signature algorithms, and TLS extensions - and it may not be obvious, even to security experts, which decisions may expose to attacks. To address this issue, raise awareness, and establish a security threshold, numerous cybersecurity agencies around the world issue technical guidelines for the use and configuration of TLS.
     In this paper we carry out an assessment of the TLS security posture of European and US based endpoints in relation to their respective national cybersecurity guidelines. Our results show that compliance levels are insufficient, as only a fraction of these recommendations are successfully implemented. We attempt to identify potential causes by presenting a series of observations that may underlie the lack of compliance.
     The analysis is conducted by employing a TLS analyzer we developed to automate the compliance analysis and the application of the suggested changes, assisting system administrators during this important yet complex task.
     Our tool and the dataset containing the machine-readable requirements for automating conformity assessment are publicly available, thus making the process auditable and the assets extensible.
@@ -2246,7 +2246,7 @@
     Environmental, Social, and Governance platforms are emerging as comprehensive solutions that integrate cybersecurity with governance principles, enhancing transparency and proactive risk management. However, integrating security tools into platforms that enable conformance checking and continuous risk assessment poses challenges, including automating security workflows and prioritizing vulnerabilities based on severity and exploitability. This paper presents an extended version of Micro-Id-Gym (MIG), an open-source security testing tool for Identity Management (IdM) implementations. The goal of this enhancement is to make MIG easily integrable into platforms for continuous risk assessment and mitigation in complex software supply chains deploying IdM solutions critical to the Zero Trust paradigm. By supporting trustworthy deployments, MIG focuses on conformance testing as a key mechanism to ensure reliability and compliance in multi-entity deployments. The extended version of MIG is designed for seamless integration into Continuous Integration and Continuous Delivery  pipelines and has been validated in Open Authorization 2.0 and OpenID Connect deployments.
   destination: DevSecOpsRO2025
   year: 2025
-  doi: 
+  doi:
 
 - id: NORDSEC2025
   id_iris: 363247
@@ -2344,7 +2344,7 @@
   doi: 10.1186/s13635-025-00187-6
 
 - id: OIDCPRIV2025
-  id_iris: 
+  id_iris:
   title: "Best Current Practices for Privacy-Preserving OpenID Connect: A Study of Their Adoption in the Wild"
   authors:
     - GianlucaSassetti
@@ -2356,8 +2356,8 @@
     The transition from centralized identity architecture to a decentralized one introduces profound shifts in the privacy protection of users' data. Yet, as decentralized identity continues to mature, today's online services still overwhelmingly depend on centralized identity management solutions built on top of OpenID Connect (OIDC) as the most widespread solution. Ensuring privacy-preserving OIDC deployments is therefore critical for safeguarding users' personal data and maintaining compliance with regulatory frameworks such as the General Data Protection Regulation (GDPR) and trust frameworks, such as the Electronic Identification, Authentication and Trust Services (eIDAS). However, the current OIDC ecosystem lacks a coherent set of privacy Best Current Practices (BCPs) and a study of how widely these privacy-enhancing features are adopted in real-world deployments. To this end, this work addresses the aforementioned gaps on two fronts. First, we propose a structured set of privacy BCPs derived from official OIDC specifications and current implementation trends, identifying easy-to-deploy privacy-enhancing features that strengthen the OIDC deployments' baseline privacy without altering the protocol or compromising interoperability. Furthermore, the BCPs also help achieve the GDPR privacy principles, such as data minimization, confidentiality, and unlinkability. Second, this work provides a comprehensive survey of OpenID Providers (OPs) in the wild to identify gaps in privacy-preserving configurations in both private and public (i.e., national) sectors OPs. The study employs a dual methodology: first, a manual review performed in 2022; subsequently, an automated compliance analysis performed in 2025 surveying a dataset of 10000 OPs worldwide. The results reveal a concerning lack of privacy-enhancing features among private OPs and a wide gap between private and national OPs, with the latter group providing, on average, much higher baseline privacy. We have also found a prevalence of misconfigured OPs not complying with the OIDC specifications, potentially resulting in misconfigured and non-compliant OPs. The paper emphasizes the importance of adopting actionable BCPs to improve baseline privacy and demonstrates the need for an automated framework for ongoing privacy compliance assessments in OIDC ecosystems.
   destination: COSE
   year: 2025
-  doi: 
-  
+  doi:
+
 - id: SECRYPT2025
   id_iris: 360987
   title: "Enhancing National Digital Identity Systems: A Framework for Institutional and Technical Harm Prevention Inspired by Microsoft's Harms Modeling"
@@ -2372,7 +2372,7 @@
   destination: SECRYPT2025
   year: 2025
   doi: 10.5220/0013601400003979
-  
+
 - id: SECRYPT2025_status
   id_iris: 359647
   title: "Comparison of Credential Status Mechanisms for the Digital Wallet Ecosystem"
@@ -2383,7 +2383,7 @@
     - MarioScuro
     - AlessandroTomasi
   abstract: >
-    Digital identity wallets enable citizens to verify their identity and manage digital credentials. 
+    Digital identity wallets enable citizens to verify their identity and manage digital credentials.
     A system that offers the possibility of using and presenting credentials, requires the ability to check for their validity, avoiding the use of revoked or suspended credentials.  This paper compares traditional and emerging credential status mechanisms to identify the most suitable solutions for the wallet ecosystem, taking in consideration privacy aspects and the set of available features.
   destination: SECRYPT2025
   year: 2025
@@ -2402,7 +2402,7 @@
     Accessing online services requires users to choose from a growing set of identity providers, including social logins (e.g., Google, Facebook), national eID providers (e.g., CIE, BundID), and recently, under the revised electronic Identification, Authentication and Trust Services regulation (eIDAS 2.0), “Log in with Digital Wallet”. In self sovereign identity settings, this choice worsens the “NASCAR problem”: users must select among many wallets, while relying parties face significant integration and maintenance costs. The W3C Digital Credentials API shifts selection from the wallet to the specific credential required by the relying parties, enabling a simpler and more interoperable user journey. To achieve this, the API mediates requests and responses through both web and operating system interfaces. Yet this multi-party, cross layer architecture, which spans user agents, operating systems, and wallets, expands the attack surface. This paper presents a preliminary threat model for the Digital Credentials API to identify and mitigate potential threats, thereby supporting a secure, privacy preserving, and interoperable self sovereign identity ecosystem.
   destination: SSR2025
   year: 2025
-  doi: 
+  doi:
 
 - id: STM2025
   id_iris: 361667
@@ -2416,7 +2416,7 @@
     Identity Management systems (IdMs) provide digital identities to billions of internet users. They are the foundation of modern information systems and key enablers of access control, security, and privacy. However, IdMs are complex socio-technical systems that require the orchestration of technical, organizational, legal, and human factors to ensure their security, privacy, and resilience. Achieving this is easier said than done, since IdM designers need to navigate the multitude of possible system designs, analyzing their trade-offs and shortcomings. In this context, the lack of a comprehensive body of knowledge on IdMs constitutes a key challenge for IdM design and analysis. We address this issue with a systematic review of the literature to build a comprehensive knowledge base that encompasses technical, organizational, and legal aspects of IdMs. The knowledge base is built on an ontology representing information systems with a focus on entities relevant for threat modeling. We propose a prototype tool that enables the exploration of the knowledge base to help IdM designers analyze their solutions and visualize possible alternative design choices. By connecting design goals and requirements to mitigations and threats, the tool provides practitioners with actionable solutions to harden the system and achieve their security and privacy goals through a threat modeling workflow. This research paper provides academia and industry with a significant contribution through an IdM Knowledge Base to support policymakers, IdM designers, and researchers in creating secure, robust, and privacy-preserving IdMs.
   destination: STM2025
   year: 2025
-  doi: 
+  doi:
 
 ## 2026
 - id: PETS2026
@@ -2432,6 +2432,5 @@
     The proliferation of AI conversation platforms has introduced unprecedented privacy risks through user-shared conversations. This paper presents a comprehensive analysis of privacy vulnerabilities in shared conversations across three major LLM platforms: ChatGPT, Microsoft Copilot, and Google Gemini. We collected and analyzed 100 342 conversations using an automated LLM-based privacy detection pipeline enhanced with a defined risk scoring system and the LINDDUN threat modeling framework. Our analysis identifies 8 131 conversations (8%) to incur privacy risks deriving from the disclosure of private and sensitive data including user identifiers (49%) and user location data (40%), yet in some cases also financial (4%), health (3%) and authentication data such as access tokens (3%). Through systematic analysis of conversation length and temporal disclosure patterns, we demonstrate that extended conversations exhibit higher privacy risk rates compared to brief interactions. Notably, 60% of private data disclosures in longer conversations occur in the final quartile of these conversations, which may indicate that users progressively lose privacy awareness as interactions deepen. Our findings have immediate implications for platform designers and policymakers, highlighting the need for proactive interventions including real-time privacy warnings, preshare scanning, and clearer education about the permanence and discoverability of shared conversation links.
   destination: PETS2026
   year: 2026
-  doi: 
-
+  doi:
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS

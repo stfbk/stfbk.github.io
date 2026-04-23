@@ -1,0 +1,13 @@
+extends: default
+
+ignore:
+  - ".yamllint.yml"
+  - "assets/"
+  - "workflows/"
+
+rules:
+  comments: disable             # Disables minimum spaces before inline comments
+  document-start: disable       # Does not force to start every file with ---
+  line-length: disable          # Disables the 80-character line length limit.
+  new-lines:
+    type: unix                  # Allows only UNIX line breaks (\n)

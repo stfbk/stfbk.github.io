@@ -74,7 +74,7 @@
 - id: AlessandroPegoraro
   name: Alessandro
   surname: Pegoraro
-  
+
 - id: AlessandroTomasi
   name: Alessandro
   surname: Tomasi
@@ -153,7 +153,7 @@
 - id: AndreaRanalli
   name: Andrea
   surname: Ranalli
-  
+
 - id: AndreaValenza
   name: Andrea
   surname: Valenza
@@ -416,7 +416,7 @@
   name: Filippo
   surname: Grilli
   usernameFBK: fgrilli
-  
+
 - id: FrancescaGiuliano
   name: Francesca
   surname: Giuliano
@@ -553,7 +553,7 @@
   name: Giuseppe Faranda
   surname: Cordella
   email: gfc@drivesec.com
-  
+
 - id: GiuseppeLamorgese
   name: Giuseppe
   surname: Lamorgese
@@ -578,7 +578,7 @@
 - id: IonAndyDitu
   name: Ion Andy
   surname: Ditu
-  
+
 - id: IvanMartini
   name: Ivan
   surname: Martini
@@ -586,7 +586,7 @@
 - id: IvanVaccari
   name: Ivan
   surname: Vaccari
-  email: ivan.vaccari@ieiit.cnr.it 
+  email: ivan.vaccari@ieiit.cnr.it
 
 - id: IvanValentini
   name: Ivan
@@ -618,7 +618,7 @@
 - id: LauraPiva
   name: Laura
   surname: Piva
-  
+
 - id: LeonardoDeMoura
   name: Leonardo
   surname: de Moura
@@ -658,7 +658,7 @@
   name: Lorenzo
   surname: Stella
   usernameFBK: lstella
-  
+
 - id: LorenzoTait
   name: Lorenzo
   surname: Tait
@@ -687,7 +687,7 @@
 - id: LucaPiras
   name: Luca
   surname: Piras
-  
+
 - id: LucaVerderame
   name: Luca
   surname: Verderame
@@ -810,7 +810,7 @@
   name: Matteo
   surname: Loisi
   usernameFBK: mloisi
-  
+
 - id: MatteoLongato
   name: Matteo
   surname: Longato
@@ -822,7 +822,7 @@
 - id: MatteoRanzi
   name: Matteo
   surname: Ranzi
-  
+
 - id: MatteoRizzi
   name: Matteo
   surname: Rizzi
@@ -862,7 +862,7 @@
   name: Mattia
   surname: Maramotti
   usernameFBK: mmaramotti
-  
+
 - id: MauroConti
   name: Mauro
   surname: Conti
@@ -973,7 +973,7 @@
   usernameFBK: pseno
 
 - id: PietroDeMatteis
-  name: Pietro 
+  name: Pietro
   surname: De Matteis
   usernameFBK: pdematteis
 
@@ -1074,7 +1074,7 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   usernameFBK: rjevsejev
-  
+
 - id: RupertGobber
   name: Rupert
   surname: Gobber
@@ -1219,7 +1219,7 @@
 
 - id: ThanhTungNguyen
   name: Thanh-Tung
-  surname: Nguyen 
+  surname: Nguyen
 
 - id: TuanAnhTruong
   name: Tuan Anh
@@ -1248,7 +1248,7 @@
 - id: VeronicaCristiano
   name: Veronica
   surname: Cristiano
-  
+
 - id: VincenzoChiarini
   name: Vincenzo
   surname: Chiarini
@@ -1278,5 +1278,4 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: zebadiansaroudi@fbk.eu
-
 # Please keep alphabetical order

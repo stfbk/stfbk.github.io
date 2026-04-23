@@ -172,7 +172,7 @@
   cycle: XXIX
   institution: University of Trento
   link: http://eprints-phd.biblio.unitn.it/2844/
-  
+
 - id: SaverioTuretta_B
   title: "Analysis of the State of the Art in Android Dynamic Analysis Tools"
   type: B
@@ -185,7 +185,7 @@
   institution: University of Trento
 
 - id: ValentinaOdorizzi_B
-  title: "Progettazione e sviluppo di uno strumento per l'analisi automatica di vulnerabilità \"Missing XML Validation\" in SAML SSO"
+  title: 'Progettazione e sviluppo di uno strumento per l''analisi automatica di vulnerabilità "Missing XML Validation" in SAML SSO'
   type: B
   author: ValentinaOdorizzi
   supervisor: SilvioRanise
@@ -280,7 +280,7 @@
   institution: University of Trento
 
 - id: StefanoBerlato_M
-  title: "A Pragmatic Approach to Handle \"Honest But Curious\" Cloud Service Providers: Cryptographic Enforcement of Dynamic Access Control Policies"
+  title: 'A Pragmatic Approach to Handle "Honest But Curious" Cloud Service Providers: Cryptographic Enforcement of Dynamic Access Control Policies'
   type: M
   author: StefanoBerlato
   supervisor: SilvioRanise
@@ -311,7 +311,7 @@
     - RobertoCarbone
   year: 2020
   institution: University of Trento
-  
+
 - id: FedericoSinigaglia_P
   title: "Security Analysis of Multi-Factor Authentication Security Protocols"
   type: P
@@ -361,7 +361,7 @@
   cycle: XXXII
   institution: University of Genoa
   doi: 10.15167/ahmad-tahir_phd2020-03-26
-  
+
 ## 2021
 - id: AdrienBeaugendre_M
   title: "A Flexible Risk Analysis on MuFASA Tool"
@@ -400,7 +400,7 @@
   cycle: XXXIII
   institution: University of Genoa
   doi: 10.15167/sharif-amir_phd2021-07-27
-  
+
 - id: ChaudhryMuhammadSuleman_M
   title: "Cyber-security Risk Assessment for Cooperative, Connected and Automated Mobility Application to Cooperative Lane Merging"
   type: M
