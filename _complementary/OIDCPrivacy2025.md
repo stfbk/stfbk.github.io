@@ -1,7 +1,7 @@
 ---
 title: Best Current Practices for Privacy-Preserving OpenID Connect
 subtitle: A Study of Their Adoption in the Wild
-paper: OIDCPRIV2025
+paper: OIDCPRIV2026
 
 people:
     - GianlucaSassetti
