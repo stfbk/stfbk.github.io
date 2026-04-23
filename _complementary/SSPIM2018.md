@@ -12,4 +12,5 @@ people:
 ---
 
 Documents:
+
 - [Slides](/assets/areas/complementary/SSPIM2018/slides.pdf)

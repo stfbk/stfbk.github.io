@@ -5,17 +5,21 @@ menubar: CPS4CIP2022
 ---
 
 # Workshop Organizers
+
 ## General Chairs
+
 - **Habtamu Abie**, Norwegian Computing Center, Norway
 - **Silvio Ranise**, University of Trento and Fondazione Bruno Kessler (FBK), Italy
 
 ## PC Chairs
+
 - **Luca Verderame**, University of Genoa, Italy
 - **Enrico Cambiaso**, National Research Council (CNR), Italy
 - **Rita Ugarelli**, SINTEF, Norway
 - **Isabel Praça**, GECAD/ISEP, Portugal
 
 # Program Committee (tentative)
+
 - **Dieter Gollmann**, Hamburg University of Technology, Germany
 - **Sokratis Katsikas**, Norwegian University of Science and Technology, Norway
 - **Fabio Martinelli**, IIT-CNR, Italy
@@ -28,7 +32,7 @@ menubar: CPS4CIP2022
 - **Cristina Alcaraz**, University of Malaga, Spain
 - **Giovanni Livraga**, University of Milan, Italy
 - **Gustavo Gonzalez-Granadillo**, Atos Spain, Spain
-- **Shouhuai Xu**, University of Colorado Colorado Springs, USA 
+- **Shouhuai Xu**, University of Colorado Colorado Springs, USA
 - **Christos Xenakis**, University of Piraeus, Greece
 - **Mauro Conti**, University of Padua, Italy
 - **Denis Čaleta**, Institute for Corporate Security Studies, Slovenia

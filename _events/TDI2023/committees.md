@@ -5,6 +5,7 @@ menubar: TDI2023
 ---
 
 # Organizing Committee
+
 - **Roberto Carbone** (Fondazione Bruno Kessler, Italy)
 - **Marco Pernpruner** (Fondazione Bruno Kessler and University of Genoa, Italy)
 - **Silvio Ranise** (Fondazione Bruno Kessler and University of Trento, Italy)
@@ -12,6 +13,7 @@ menubar: TDI2023
 - **Amir Sharif** (Fondazione Bruno Kessler, Italy)
 
 # Program Committee
+
 - **Giada Sciarretta** (*chair*, Fondazione Bruno Kessler)
 - **Clara Bertolissi** (Université Aix-Marseille, CNRS UMR 7020)
 - **Francesco Buccafurri** (University of Reggio Calabria)

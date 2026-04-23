@@ -13,6 +13,7 @@ people:
 In this page, we provide further information about the values that have been considered for a Malicious Application (MA) during the risk analysis (Tables 5 and 6 of the paper).
 
 ## Without Mitigations
+
 The following values are assigned to MA in case no mitigation is adopted (Table 6):
 <table id="table-values-no-mitigations">
   <thead>
@@ -81,7 +82,7 @@ With the following motivations:
       <th class="border-thick-left">Motivation</th>
     </tr>
   </thead>
-  <tbody>    
+  <tbody>
     <tr>
       <td rowspan="7" class="border-thick-right"><span class="rotate">MRTD</span></td>
       <td rowspan="5" class="rotate">Likelihood</td>
@@ -177,6 +178,7 @@ With the following motivations:
 </table>
 
 ## With Mitigations
+
 The following values are assigned to MA in case all the proposed mitigations are adopted (Table 5):
 <table id="table-values-mitigations">
   <thead>
@@ -283,7 +285,8 @@ Specifically, mitigations affect the following factors (whose values are highlig
 </ul>
 
 ## References
-[1]	Kaspersky, <a href="https://securelist.com/mobile-malware-evolution-2020/101029/">"Mobile malware evolution 2020"</a>
+
+[1] Kaspersky, <a href="https://securelist.com/mobile-malware-evolution-2020/101029/">"Mobile malware evolution 2020"</a>
 
 <style>
   .rotate {

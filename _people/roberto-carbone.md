@@ -27,7 +27,7 @@ Telecommunications from the University of Genova (Italy) in 2009.  His
 previous appointments include a period as visiting scholar in the
 Department of Computer Science at the University of Pittsburgh
 (Pennsylvania, US).  He has been involved in several international and
-national research projects and industrial collaborations. 
+national research projects and industrial collaborations.
 
 His research focuses on digital identity management and the (formal)
 analysis of security protocols and services.

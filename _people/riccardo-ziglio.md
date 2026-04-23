@@ -9,4 +9,4 @@ Riccardo Ziglio is a research assistant in the Security & Trust Unit of the Cent
 
 He recieved his Master's Degree in Artificial Intelligence Systems from the University of Trento in 2024.
 
-Inside the unit he works on projects related to identification procedures for digital identity systems. 
+Inside the unit he works on projects related to identification procedures for digital identity systems.

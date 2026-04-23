@@ -29,8 +29,8 @@ automated techniques for checking compliance with respect to the privacy regulat
 step towards the development of techniques for aligning security (from a technological point of view) and privacy (from a legal point of
 view) to improve the governance of data and services in the system.
 
-
 **Our focus**:
+
 - Automated compliance checking of legal provisions for privacy
 - Compliance of high-level designs against EU Data Protection Directive (DPD)
 - Porting it to General Data Protection Regulation (GDPR)

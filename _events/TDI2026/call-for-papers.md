@@ -9,9 +9,11 @@ We invite the submission of scientific contributions addressing topics relevant 
 {% include_relative includes/topics.md %}
 
 # Submission Guidelines
+
 Submissions must be in English and provided in PDF format, following the CEURART template (1-column layout). The template package, available at [this link](http://ceur-ws.org/Vol-XXX/CEURART.zip), includes both ODT and LaTeX versions. For LaTeX users, the primary file to edit is `sample-1col.tex`. Authors familiar with LaTeX **are strongly encouraged** to use the LaTeX template, either locally or via Overleaf.
 
 Submissions will be categorized into (page limits exclude references and well-marked appendices):
+
 - **Regular Papers**: full-length research papers (from 10 to 12 pages).
 - **Short Papers**: research papers presenting preliminary results (from 5 to 9 pages).
 
@@ -24,7 +26,9 @@ Failure to comply with the above requirements may result in rejection without re
 Please note that at least one author of each accepted paper must register for the workshop and present the paper in person.
 
 # Workshop Proceedings
+
 Accepted papers may be considered for inclusion in an open-access post-proceedings volume published by CEUR-WS.org within the [CEUR Workshop Proceedings](https://ceur-ws.org/) series, indexed by both Scopus and DBLP. By submitting a paper, authors confirm that their contribution complies with the CEUR-WS.org requirements for publication, as outlined in the "[Author and editor rights](https://ceur-ws.org/HOWTOSUBMIT.html#AUTHORRIGHTS)" section of the CEUR-WS.org website.
 
 # Important Dates
+
 {% include_relative includes/important-dates-papers.md %}

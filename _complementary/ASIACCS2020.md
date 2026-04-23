@@ -15,8 +15,6 @@ peopleOrder: surname
 
 Below, you find links to complementary material and additional resources referenced in the paper.
 
-
-
 ### Cloudify Blueprint
 
 We present the Cloudify blueprint we developed for an architecture that we later deployed for the eGovernment scenario. The source code of the Cloudify Blueprint is available [**here**](/assets/areas/complementary/ASIACCS2020/blueprint.yaml).
@@ -25,8 +23,6 @@ Each white rectangle is a node and it represents a cloud service (e.g., security
 
 ![Cloudify Blueprint](/assets/areas/complementary/ASIACCS2020/blueprint.png)
 
-
-
 ### Fully Working Prototype
 
 We developed a fully working prototype (please see [**the repository**](https://github.com/stfbk/CryptoAC)) implementing the cryptographic access control scheme developed by [**Garrison et al**](https://arxiv.org/pdf/1602.09069). The prototype was tested with several simulated sequences of operations combining the creation of users and roles, assignment and revoking of permissions and the creation, update and management of files. The prototype offers a user interface based on web technologies and RESTful APIs.
@@ -34,7 +30,7 @@ We developed a fully working prototype (please see [**the repository**](https://
 <video width="1280" height="720" controls>
     <source src="/assets/areas/complementary/ASIACCS2020/prototype.mp4" type="video/mp4">
     Your browser does not support the video tag.
-</video>    
+</video>
 <br />
 
 ### Web Dashboard

@@ -5,10 +5,12 @@ menubar: TDI2024
 ---
 
 # Program Chairs
+
 - **Giada Sciarretta** (Fondazione Bruno Kessler)
 - **Marco Pernpruner** (Fondazione Bruno Kessler and University of Genoa)
 
 # Program Committee
+
 - **Francesco Buccafurri** (University of Reggio Calabria)
 - **Daniel Fett** (Authlete, Inc.)
 - **Ralf Küsters** (University of Stuttgart)
@@ -18,6 +20,7 @@ menubar: TDI2024
 - **Nicola Zannone** (Eindhoven University of Technology)
 
 # Organizing Committee
+
 - **Roberto Carbone** (Fondazione Bruno Kessler)
 - **Marco Pernpruner** (Fondazione Bruno Kessler and University of Genoa)
 - **Silvio Ranise** (Fondazione Bruno Kessler and University of Trento)

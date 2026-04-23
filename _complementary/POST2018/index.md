@@ -14,7 +14,7 @@ people:
 ---
 
 ## Structure
+
 - **IDOTP App Scenario**: description of the use-case scenario and link to download the protocol specification file (idotp.aslan++);
 - **Security Results**:  description and results of the security analyses performed in our analysis;
 - **Tools**: links to download the SATMC model checker tool and the STIATE plugin used to perform the security assessment.
-

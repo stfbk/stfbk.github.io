@@ -14,7 +14,7 @@ redirect_from: /osw2018/program
         <p style="padding: 10px 5px;">14:00-14:30</p>
       </td>
       <td style="padding-left: 5px; border-left: solid 2px #AAA; background-color: #edf4fd; background-clip: content-box;">
-        <p style="padding: 10px 5px;">Registration </p>      
+        <p style="padding: 10px 5px;">Registration </p>
       </td>
     </tr>
     <tr style="padding: 10px 0px 10px 0px;">

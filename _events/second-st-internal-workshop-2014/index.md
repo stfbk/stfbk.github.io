@@ -41,7 +41,8 @@ images:
 
 This is a internal workshop of the Security & Trust Research Unit of the Center for Information Tehnology of the Bruno Kessler Foundation.
 
-During the workshop the main research themes of the Unit will be discussed, namely: 
+During the workshop the main research themes of the Unit will be discussed, namely:
+
 - Web-based Authentication and Authorization Protocols: browser-based authentication and authorization protocols, protocols for strong authentication;
 - Mobile Security: security of mobile operating systems and applications, authentication and authorization models and solutions for mobile apps;
 - Security of Cloud-based and Service-oriented Applications and Infrastructures: models and policies for content protection and release, design-time and run-time analysis and enforcement of access control policies
@@ -52,6 +53,7 @@ During the workshop the main research themes of the Unit will be discussed, name
 <img src="/assets/areas/events/second-st-internal-workshop-2014/programme.png" class="image-centered" />
 
 **Slides**:
+
 - [Security & Trust Research unit: a bird's eye view perspective](/assets/areas/events/second-st-internal-workshop-2014/slides_armando.pdf), Alessandro Armando
 - [An Overview of Access Control in ST](/assets/areas/events/second-st-internal-workshop-2014/slides_ranise.pdf), Silvio Ranise
 - [Automatic Analysis of Security Protocols](/assets/areas/events/second-st-internal-workshop-2014/slides_carbone.pdf), Roberto Carbone

@@ -1,5 +1,7 @@
 # Topics of Interest
+
 We encourage submissions on a range of topics, including but not limited to:
+
 - Access Control in IoT and Distributed Systems
 - Behavioral and Risk-based Authentication Mechanisms
 - Compliance with Regulations such as eIDAS (2), PSD2, NIS2
