@@ -213,3 +213,11 @@
   endDate: "2026-09-18"
   description: CPS4CIP 2026 is the seventh workshop dedicated to cyber-physical security for protecting critical infrastructures that support finance, energy, health, air transport, communication, gas, and water.
   url: /events/CPS4CIP2026
+
+- id: EDId2026
+  name: 3rd International Workshop on Emerging Digital Identities
+  acronym: EDId 2026
+  startDate: "2026-08-24"
+  endDate: "2026-08-27"
+  description: The workshop navigates various security, privacy, and legal compliance issues, addressing technical issues like security and interoperability and legal and regulatory considerations like data protection and privacy.
+  url: https://www.ares-conference.eu/edid
