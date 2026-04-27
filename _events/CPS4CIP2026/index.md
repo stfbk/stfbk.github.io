@@ -92,6 +92,7 @@ ECSCI Running projects:
 - [SONIC](https://sonic-project.eu/)
 - [TELEMETRY](https://telemetry-project.eu/)
 - [TESTUDO](https://testudo-project.eu/)
+- [TRANSCEND](https://www.transcend-logistics.eu/)
 - [VIGILANCE](https://vigilanceproject.eu/)
 - [VIGIMARE](https://vigimare.eu/)
 
@@ -132,7 +133,6 @@ ECSCI ended projects supported by coordinators:
 - [SPHINX](https://sphinx-project.eu/)
 - [STOP-IT](https://stop-it-project.eu/)
 - [SUNRISE](https://sunrise-europe.eu/)
-- [TRANSCEND](https://www.transcend-logistics.eu/)
 - [7SHIELD](https://www.7shield.eu/)
 
 And three national projects:
