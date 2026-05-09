@@ -2404,6 +2404,20 @@
   doi:
 
 ## 2026
+- id: JISA2026
+  id_iris: 371107
+  title: "Benchmarking the effectiveness of multi-agent LLMs in collaborative privacy threat modeling with LINDDUN GO"
+  authors:
+    - AndreaBissoli
+    - MajidMollaeefar
+    - DimitriVanLanduyt
+    - SilvioRanise
+  abstract: >
+    Privacy threat modeling frameworks like LINDDUN offer structured methodologies to systematically identify and address privacy risks but require substantial manual effort, domain knowledge, and can be prone to error. To ease their adoption, PILLAR (Privacy risk Identification with LINDDUN and LLM Analysis Report) integrates Large Language Models (LLMs) into the LINDDUN methodology, automating significant aspects such as Data Flow Diagram (DFD) generation, threat categorization, and risk prioritization. PILLAR GO, the tool’s implementation of LINDDUN GO, addresses the current lack of automated support for collaborative privacy threat modeling, emphasizing structured group-based analysis carried out by LLMs. This paper specifically benchmarks the effectiveness of PILLAR GO, examining how multi-agent conversational LLMs can replicate the dynamics of real-world collaborative sessions, while also addressing key challenges such as coordination between agents, consistency in reasoning, and contextual understanding. This evaluation highlights both the potential and current limitations of using multi-agent LLM systems to enhance the process of privacy threat elicitation. We evaluate both single-agent and multi-agent modes and compare the performance of a plethora of models, including both local and proprietary cloud-hosted ones. Our results demonstrate that multi-agent configurations, by simulating real-world collaborative threat modeling sessions, can enhance the accuracy and comprehensiveness of privacy threat elicitation provided by LLMs. Additionally, we observe that locally hosted models can achieve comparable results to their cloud-hosted counterparts, offering viable options for improved data sovereignty. This work not only highlights PILLAR’s potential in reducing manual workload and enhancing privacy-by-design practices but also contributes a novel benchmark methodology to systematically evaluate and compare LLM capabilities in privacy threat modeling.
+  destination: JISA
+  year: 2026
+  doi: 10.1016/j.jisa.2026.104489
+
 - id: OIDCPRIV2026
   id_iris: 370927
   title: "Best Current Practices for Privacy-Preserving OpenID Connect: A Study of Their Adoption in the Wild"
@@ -2418,7 +2432,6 @@
   destination: COSE
   year: 2026
   doi:
-
 
 - id: PETS2026
   id_iris: 367947
