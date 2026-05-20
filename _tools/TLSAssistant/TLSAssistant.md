@@ -8,6 +8,7 @@ people:
     - GiadaSciarretta
     - MatteoRizzi
     - RiccardoGermenia
+    - EmilianoRizzonelli
 
 publications:
     - DBSec2019_TLSA
