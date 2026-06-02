@@ -61,6 +61,12 @@
   url: https://jis-eurasipjournals.springeropen.com/
   type: journal
 
+- id: JISA
+  name: Journal of Information Security and Applications
+  acronym: JISA
+  url: https://www.sciencedirect.com/journal/journal-of-information-security-and-applications
+  type: journal
+
 - id: JSC
   name: Journal of Symbolic Computation
   url: https://www.sciencedirect.com/journal/journal-of-symbolic-computation

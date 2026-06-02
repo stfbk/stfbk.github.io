@@ -6,11 +6,9 @@ menubar: CPS4CIP2026
 
 # Paper Submission Guidelines
 
-Submissions are to be made to the [EasyChair submission page](https://easychair.org/conferences/?conf=esorics2026) in pdf format. At least one author of each accepted paper is required to register and present their work at the workshop; otherwise, the paper will not be included in the proceedings.
+Submitted papers must follow the [LNCS template](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) from the time they are submitted. Submitted papers should be at most 16 pages (using 10-point font), excluding the bibliography and well-marked appendices, and at most 20 pages total. Committee members are not required to read the appendices, so the paper should be intelligible without them. All submissions must be written in English. Submissions must be uploaded to the [EasyChair submission page](https://easychair.org/conferences/?conf=esorics2026).
 
-Submitted papers must not substantially overlap with papers that have been published or that have been simultaneously submitted to a journal or a conference with proceedings. Submissions should be at most 16+ pages long (full paper), or 8+ pages (short paper) including the bibliography and appendices and should follow the [LNCS style](https://www.springer.com/gp/computer-science/lncs).
-
-Pre-proceedings will be made available at the workshop. Accepted conference papers are planned to be published by Springer in the LNCS collection.
+Only pdf files will be accepted. Submissions are not anonymous. Submissions not meeting these guidelines risk rejection without consideration of their merits. Authors of accepted papers must agree with Springer LNCS copyright and guarantee that their papers will be.
 
 # Important Dates
 

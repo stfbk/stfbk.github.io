@@ -11,6 +11,7 @@ peopleOrder: surname
 
 publications:
     - IWPE2025
+    - JISA2026
 ---
 
 ### Description

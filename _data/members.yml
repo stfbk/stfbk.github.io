@@ -13,14 +13,15 @@ current:
     - GianlucaSassetti
     - GiovanniCorti
     - LiviaMarini
+    - LorenzoStella
     - MajidMollaeefar
     - MarcoPernpruner
     - MatteoRizzi
     - MatteoSantAnaCasarotto
+    - MichelaSbetta
     - MuhammadImran
     - RiccardoGermenia
     - RiccardoZiglio
-    - RomanJevsejev
     - SalvatoreManfredi
     - UmbertoMorelli
     - ZahraEbadiAnsaroudi
@@ -232,6 +233,11 @@ former:
     - personId: TahirAhmad
       formerRole: Researcher
       yearTo: 2025
+
+    - personId: RomanJevsejev
+      formerRole: Visiting PhD Student
+      yearFrom: 2026
+      yearTo: 2026
 
   phdStudents:
     - personId: FedericoSinigaglia

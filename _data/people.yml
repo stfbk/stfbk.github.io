@@ -336,7 +336,7 @@
   name: Eleonora
   surname: Marchesini
   affiliations:
-    - role: Junior Researcher
+    - role: Technologist
       unit: Security & Trust
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -667,6 +667,12 @@
 - id: LorenzoStella
   name: Lorenzo
   surname: Stella
+  affiliations:
+    - role: Research Assistant
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: lstella@fbk.eu
   usernameFBK: lstella
 
 - id: LorenzoTait
@@ -881,6 +887,17 @@
   name: Md Masoom
   surname: Rabbani
 
+- id: MichelaSbetta
+  name: Michela
+  surname: Sbetta
+  affiliations:
+    - role: Developer
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: msbetta@fbk.eu
+  usernameFBK: msbetta
+
 - id: MicheleBarletta
   name: Michele
   surname: Barletta
@@ -1078,11 +1095,6 @@
 - id: RomanJevsejev
   name: Roman
   surname: Jevsejev
-  affiliations:
-    - role: Visiting PhD Student
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
   usernameFBK: rjevsejev
 
 - id: RupertGobber
