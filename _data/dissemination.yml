@@ -547,7 +547,7 @@
 - id: EIC2026
   title: "A Hands-On Threat Modeling Exercise: a LEGO® SERIOUS PLAY® Workshop"
   participants:
-    - AmirSharif 
+    - AmirSharif
     - ZahraEbadiAnsaroudi
   eventName: European Identity and Cloud Conference (EIC)
   startDate: "2026-05-19"
