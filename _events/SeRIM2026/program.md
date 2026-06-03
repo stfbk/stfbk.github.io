@@ -5,7 +5,7 @@ menubar: SeRIM2026
 ---
 
 <div class="text-center">
-  <h4>All times are in <a href="https://time.is/en/CEST" target="_blank">Central European Summer Time (CEST)</a>.</h4>
+  <h4>All times are in <a href="https://time.is/en/WET" target="_blank">Western European Summer Time (WEST)</a>.</h4>
 </div>
 
 <table class="bordered program" width="100%">
