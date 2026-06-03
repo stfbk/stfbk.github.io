@@ -543,4 +543,17 @@
   links:
     - name: Event
       url: https://www.w3.org/events/meetings/202a8c77-ba79-42d9-8c60-33b10544a227/
+
+- id: EIC2026
+  title: "A Hands-On Threat Modeling Exercise: a LEGO® SERIOUS PLAY® Workshop"
+  participants:
+    - AmirSharif
+    - ZahraEbadiAnsaroudi
+  eventName: European Identity and Cloud Conference (EIC)
+  startDate: "2026-05-19"
+  endDate: "2026-05-22"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://www.kuppingercole.com/sessions/5979
 # PLEASE KEEP CHRONOLOGICAL ORDER BY START DATE WITHIN YEARS
