@@ -5,6 +5,58 @@ menubar: TDI2026
 permalink: /events/TDI2026/
 image: /assets/areas/events/TDI2026/tdi2026.jpg
 
+images:
+  - title: Giada Sciarretta (Program Co-Chair)
+    source: /assets/areas/events/TDI2026/pictures/Introduction_Sciarretta.JPG
+  - title: Marco Pernpruner (Program Co-Chair)
+    source: /assets/areas/events/TDI2026/pictures/Introduction_Pernpruner.JPG
+  - title: Giorgio Pedrazzi (Speaker)
+    source: /assets/areas/events/TDI2026/pictures/Speaker_Pedrazzi.JPG
+  - title: Giuseppe De Marco (Speaker)
+    source: /assets/areas/events/TDI2026/pictures/Speaker_DeMarco.JPG
+  - title: Gianluca Dotti (Session Chair)
+    source: /assets/areas/events/TDI2026/pictures/RoundTable_Dotti.JPG
+  - title: Gianluca Dotti (Session Chair)
+    source: /assets/areas/events/TDI2026/pictures/RoundTable_Dotti_2.JPG
+  - title: Panelists of the Round Table
+    source: /assets/areas/events/TDI2026/pictures/RoundTable_Panelists.JPG
+  - title: Alessandro Bazzolo (Panelist)
+    source: /assets/areas/events/TDI2026/pictures/RoundTable_Bazzolo.JPG
+  - title: Luigi Castaldo (Panelist)
+    source: /assets/areas/events/TDI2026/pictures/RoundTable_Castaldo.JPG
+  - title: Francesco Vetrano (Panelist)
+    source: /assets/areas/events/TDI2026/pictures/RoundTable_Vetrano.JPG
+  - title: Silvio Ranise (General Chair)
+    source: /assets/areas/events/TDI2026/pictures/Conclusion_Day1_Ranise.JPG
+  - title: Alessandro Tomasi (Session Chair)
+    source: /assets/areas/events/TDI2026/pictures/SessionChair_Tomasi.JPG
+  - title: Michael B. Jones (Speaker)
+    source: /assets/areas/events/TDI2026/pictures/Speaker_Jones.JPG
+  - title: Salvatore Migliaccio (Speaker)
+    source: /assets/areas/events/TDI2026/pictures/Speaker_Migliaccio.JPG
+  - title: Tomáš Přeučil (Speaker)
+    source: /assets/areas/events/TDI2026/pictures/Speaker_Preucil.JPG
+  - title: Andrea Moro (Session Chair)
+    source: /assets/areas/events/TDI2026/pictures/SessionChair_Moro.JPG
+  - title: Michael B. Jones (Speaker)
+    source: /assets/areas/events/TDI2026/pictures/Speaker_Jones_2.JPG
+  - title: Florian Wegscheider (Speaker)
+    source: /assets/areas/events/TDI2026/pictures/Speaker_Wegscheider.JPG
+  - title: Andrea Moro (Speaker)
+    source: /assets/areas/events/TDI2026/pictures/Speaker_Moro.JPG
+  - title: Nicola Gallo (Speaker)
+    source: /assets/areas/events/TDI2026/pictures/Speaker_Gallo.JPG
+  - title: Antonio Radesca (Speaker)
+    source: /assets/areas/events/TDI2026/pictures/Speaker_Radesca.JPG
+  - title: Umberto Morelli (Speaker)
+    source: /assets/areas/events/TDI2026/pictures/Speaker_Morelli.JPG
+  - title: Audience
+    source: /assets/areas/events/TDI2026/pictures/Audience_1.JPG
+  - title: Audience
+    source: /assets/areas/events/TDI2026/pictures/Audience_2.JPG
+  - title: Group Picture
+    source: /assets/areas/events/TDI2026/pictures/GroupPicture.JPG
+
 ---
 
 <img class="image-centered" src="/assets/areas/events/TDI2026/tdi2026.jpg" />
@@ -23,6 +75,7 @@ image: /assets/areas/events/TDI2026/tdi2026.jpg
 
 # Recent News
 
+- **03/06/2026**: Pictures have been published.
 - **22/04/2026**: [Speakers' slides](program) are now available.
 - **19/03/2026**: The [registration procedure](registration) is now available.
 - **19/03/2026**: The [tentative program](program) has been published.

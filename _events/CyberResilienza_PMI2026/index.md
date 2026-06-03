@@ -4,6 +4,20 @@ subtitle: April 20, 2026 · Verona, Italy
 menubar: CyberResilienza_PMI2026
 permalink: /events/CyberResilienza_PMI2026/
 
+images:
+  - title: Gianluca Dotti (moderatore)
+    source: /assets/areas/events/CyberResilienza_PMI2026/pictures/Moderatore_Dotti.jpg
+  - title: Silvio Ranise (relatore)
+    source: /assets/areas/events/CyberResilienza_PMI2026/pictures/Relatore_Ranise.jpg
+  - title: Andrea Rigoni (relatore)
+    source: /assets/areas/events/CyberResilienza_PMI2026/pictures/Relatore_Rigoni.jpg
+  - title: Alessandro Sorio (relatore)
+    source: /assets/areas/events/CyberResilienza_PMI2026/pictures/Relatore_Sorio.jpg
+  - title: Davide Nardacci (relatore)
+    source: /assets/areas/events/CyberResilienza_PMI2026/pictures/Relatore_Nardacci.jpg
+  - title: Relatori e rappresentanti di FBK e UniMercatorum
+    source: /assets/areas/events/CyberResilienza_PMI2026/pictures/Organizzatori.jpg
+
 ---
 
 <blockquote>
