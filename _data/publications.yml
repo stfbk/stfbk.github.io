@@ -2404,6 +2404,20 @@
   doi:
 
 ## 2026
+- id: COSE2026
+  id_iris: 
+  title: "A Comparative Analysis of Credential Status Mechanisms: Analyzing the Impact on Digital Wallet Ecosystem Roles"
+  authors:
+    - RiccardoGermenia
+    - SalvatoreManfredi
+    - MarioScuro
+  abstract: >
+    Digital identity wallets enable users to store, manage, and present digital Credentials issued by trusted organizations. These Credentials, such as government IDs or health records, are cryptographically signed to ensure data integrity and allow for secure and autonomous document handling. To manage Credential status, in addition to established methods in use in the WebPKI such as Certificate Revocation Lists (CRL) and Online Certificate Status Protocol (OCSP), newer standards like Token Status List, Status Assertions and Zero-Knowledge based approaches for digital wallet Credentials have been defined. However, these new methods face challenges in implementation and lack comprehensive security or technical frameworks to guide their adoption. Implementers must evaluate various status mechanisms based on their specific needs, considering factors such as system load, privacy, and performance trade-offs. In this work we analyze and compare six Credential status mechanisms to evaluate their suitability for digital wallet ecosystems. We compare them by extracting their features, highlighting their privacy implications, and limitations, aiming to provide a clearer understanding of which mechanism may best support the evolving landscape of digital identity management.
+  destination: COSE
+  year: 2026
+  doi: 
+  urlComplementary: /complementary/COSE2026
+
 - id: JISA2026
   id_iris: 371107
   title: "Benchmarking the effectiveness of multi-agent LLMs in collaborative privacy threat modeling with LINDDUN GO"
