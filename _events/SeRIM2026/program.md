@@ -130,6 +130,6 @@ menubar: SeRIM2026
     <td>
       Coffee Break
     </td>
-    <td>15:00</td>
+    <td>15:00-15:30</td>
   </tr>
 </table>

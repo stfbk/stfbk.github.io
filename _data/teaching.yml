@@ -6,8 +6,8 @@
   institution: University of Trento
   lecturer:
     - SilvioRanise
-    - RiccardoLongo
-    - MarcoPernpruner
+    - id: MarcoPernpruner
+      endYear: 2024
   startYear: 2023
   links:
     - name: 2023/2024
@@ -19,7 +19,6 @@
   institution: University of Trento
   lecturer:
     - SilvioRanise
-    - RiccardoLongo
   startYear: 2019
   endYear: 2023
   links:
@@ -115,7 +114,8 @@
   institution: University of Trento
   lecturer:
     - SilvioRanise
-    - MarcoPernpruner
+    - id: MarcoPernpruner
+      endYear: 2024
   startYear: 2020
   endYear: 2024
   links:

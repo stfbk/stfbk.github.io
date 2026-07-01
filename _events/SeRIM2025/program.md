@@ -43,7 +43,7 @@ menubar: SeRIM2025
   <tr>
     <td class="talk">
       <p class="title">
-        <a href="keynote">
+        <a href="/events/SeRIM2025/keynote">
           Modeling the Web to Secure the Web: Formal Analysis of Single Sign-On Authentication and Authorization Protocol Standards
         </a>
       </p>
