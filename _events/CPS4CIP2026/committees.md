@@ -50,7 +50,7 @@ menubar: CPS4CIP2026
 - **Ioan Constantin**, Orange Romania, Romania
 - **Tim Stelkens-Kobsch**, German Aerospace Center (DLR), Germany
 - **Matteo Mangini**, Network Integration and Solutions S.r.l., Italy
-- **Corinna Köpke**, Fraunhofer Institute for High-Speed Dynamics, Germany
+- **Corinna Köpke**, SINTEF Energy Research, Norway
 - **Vasileios Kazoukas**, Center for Security Studies (KEMEA), Greece
 - **Georgios Spanoudakis**, Sphynx Technology, Switzerland
 - **Haris Mouratidis**, University of Brighton, UK
