@@ -775,6 +775,8 @@
 - id: MarioScuro
   name: Mario
   surname: Scuro
+  email: mscuro@fbk.eu
+  image: https://aleph.fbk.eu/assets/areas/people/MarioScuro.jpg
 
 - id: MartaArisi
   name: Marta
