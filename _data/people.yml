@@ -575,6 +575,12 @@
 - id: HabibKazemi
   name: Habib
   surname: Kazemi
+  affiliations:
+    - role: Research Assistant
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: hkazemi@fbk.eu
   usernameFBK: hkazemi
 
 - id: HamidBerzegar
