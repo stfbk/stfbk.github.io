@@ -5,6 +5,38 @@ menubar: SeRIM2026
 permalink: /events/SeRIM2026/
 image: /assets/areas/events/SeRIM2026/serim2026.jpg
 
+images:
+  - title: Giada Sciarretta (Program Co-Chair)
+    source: /assets/areas/events/SeRIM2026/pictures/Introduction_Sciarretta.webp
+  - title: Matteo Busi (Organization Co-Chair)
+    source: /assets/areas/events/SeRIM2026/pictures/Introduction_Busi.webp
+  - title: Marco Pernpruner (Organization Co-Chair)
+    source: /assets/areas/events/SeRIM2026/pictures/Introduction_Pernpruner.webp
+  - title: Zahra Ebadi Ansaroudi
+    source: /assets/areas/events/SeRIM2026/pictures/Speaker_EbadiAnsaroudi.webp
+  - title: Jelizaveta Vakarjuk
+    source: /assets/areas/events/SeRIM2026/pictures/Speaker_Vakarjuk.webp
+  - title: Sanaa Mironov
+    source: /assets/areas/events/SeRIM2026/pictures/Speaker_Mironov.webp
+  - title: Sanchari Das
+    source: /assets/areas/events/SeRIM2026/pictures/Speaker_Das.webp
+  - title: Luca Viganò (invited speaker)
+    source: /assets/areas/events/SeRIM2026/pictures/Keynote_Vigano_1.webp
+  - title: Luca Viganò (invited speaker)
+    source: /assets/areas/events/SeRIM2026/pictures/Keynote_Vigano_2.webp
+  - title: Luca Viganò (invited speaker)
+    source: /assets/areas/events/SeRIM2026/pictures/Keynote_Vigano_3.webp
+  - title: Luca Viganò (invited speaker)
+    source: /assets/areas/events/SeRIM2026/pictures/Keynote_Vigano_4.webp
+  - title: Salem Wollel
+    source: /assets/areas/events/SeRIM2026/pictures/Speaker_Wollel.webp
+  - title: Group Picture
+    source: /assets/areas/events/SeRIM2026/pictures/GroupPicture_1.webp
+  - title: Group Picture
+    source: /assets/areas/events/SeRIM2026/pictures/GroupPicture_2.webp
+  - title: Organizers
+    source: /assets/areas/events/SeRIM2026/pictures/Organizers.webp
+
 ---
 
 <img class="image-centered" src="/assets/areas/events/SeRIM2026/serim2026.jpg" />
@@ -15,6 +47,8 @@ image: /assets/areas/events/SeRIM2026/serim2026.jpg
 
 # Recent News
 
+- **22/07/2026**: [Event pictures](#related-images) have been published.
+- **22/07/2026**: [Speakers' slides](program) are now available.
 - **08/07/2026**: The [program](program) has been updated.
 - **03/06/2026**: The [tentative program](program) has been published.
 - **25/05/2026**: The list of presentations have been published.
