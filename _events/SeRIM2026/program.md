@@ -12,7 +12,6 @@ menubar: SeRIM2026
   <tr class="day">
     <td colspan="2">
       Friday, July 10, 2026
-      <!--<p class="location"></p>-->
     </td>
   </tr>
 
@@ -26,7 +25,10 @@ menubar: SeRIM2026
   <tr class="institutional">
     <td class="talk">
       <p class="title">Introductory Remarks</p>
-      <p class="speakers">Flaminia Luccio, Giada Sciarretta (Program Co-Chairs)</p>
+      <p class="speakers">Giada Sciarretta (Program Co-Chair); Matteo Busi, Marco Pernpruner (Organization Co-Chairs)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/SeRIM2026/slides/0_1_IntroductoryRemarks.pdf">Slides</a>
+      </p>
     </td>
     <td>9:30-9:45</td>
   </tr>
@@ -41,6 +43,9 @@ menubar: SeRIM2026
     <td class="talk">
       <p class="title">Analyzing the Unlinkability of SD-JWT: A Machine Learning Perspective</p>
       <p class="speakers">Zahra Ebadi Ansaroudi, Alessandro Tomasi (Fondazione Bruno Kessler), Francesco Antonio Marino (Italian Printing Office and State Mint), Silvio Ranise (Fondazione Bruno Kessler and University of Trento)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/SeRIM2026/slides/1_1_EbadiAnsaroudi.pdf">Slides</a>
+      </p>
     </td>
     <td>9:45-10:05</td>
   </tr>
@@ -48,6 +53,9 @@ menubar: SeRIM2026
     <td class="talk">
       <p class="title">Comparison of Private Key Protection Techniques for Digital Identity Wallets</p>
       <p class="speakers">Jelizaveta Vakarjuk, Alisa Pankova, Aivo Kalu (Cybernetica AS)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/SeRIM2026/slides/1_2_Vakarjuk.pdf">Slides</a>
+      </p>
     </td>
     <td>10:05-10:25</td>
   </tr>
@@ -69,6 +77,9 @@ menubar: SeRIM2026
     <td class="talk">
       <p class="title">A Formal Risk-Cost Model for Adaptive Authentication in Financial Systems</p>
       <p class="speakers">Supriya Khadka, Sanchari Das (George Mason University)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/SeRIM2026/slides/2_1_Das.pdf">Slides</a>
+      </p>
     </td>
     <td>10:45-11:00</td>
   </tr>
@@ -115,6 +126,9 @@ menubar: SeRIM2026
     <td class="talk">
       <p class="title">ARF-RT: Correlation-Aware Probe Planning for Cloud Identity Attack Paths</p>
       <p class="speakers">Eric Conklin (Independent)</p>
+      <p class="links">
+        <a class="link slides" target="_blank" href="/assets/areas/events/SeRIM2026/slides/4_1_Conklin.pdf">Slides</a>
+      </p>
     </td>
     <td>14:00-14:15</td>
   </tr>
