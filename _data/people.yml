@@ -266,6 +266,17 @@
   name: Claus
   surname: Pahl
 
+- id: CristianLepore
+  name: Cristian
+  surname: Lepore
+  affiliations:
+    - role: Researcher
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: clepore@fbk.eu
+  usernameFBK: clepore
+
 - id: DamianoSartori
   name: Damiano
   surname: Sartori
@@ -766,6 +777,17 @@
       place: Trento, Italy
   email: mpernpruner@fbk.eu
   phone: "+390461314337"
+
+- id: MargheritaBraga
+  name: Margherita
+  surname: Braga
+  affiliations:
+    - role: Support Specialist
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: mbraga@fbk.eu
+  usernameFBK: mbraga
 
 - id: MarianoCeccato
   name: Mariano
