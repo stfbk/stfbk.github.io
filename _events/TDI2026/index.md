@@ -75,6 +75,7 @@ images:
 
 # Recent News
 
+- **06/09/2026**: The [proceedings](https://ceur-ws.org/Vol-4257/) have been published.
 - **03/06/2026**: Pictures have been published.
 - **22/04/2026**: [Speakers' slides](program) are now available.
 - **19/03/2026**: The [registration procedure](registration) is now available.
