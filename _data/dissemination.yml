@@ -556,4 +556,31 @@
   links:
     - name: Event
       url: https://www.kuppingercole.com/sessions/5979
+
+- id: ThreatModCon2026
+  title: "A Threat Model for Digital Identity Wallet in the age of eIDAS 2.0"
+  participants:
+    - AmirSharif
+    - ZahraEbadiAnsaroudi
+  eventName: Threat Modeling Connect Conference (ThreatModCon)
+  startDate: "2026-06-26"
+  endDate: "2026-06-27"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://www.threatmodcon.com/agenda/a-threat-model-for-digital-identity-wallet-in-the-age-of-eidas-2-0
+
+
+- id: GDC2026
+  title: "Designing Age Assurance Systems: Using Harms Modeling to Surface Design Requirements"
+  participants:
+    - AmirSharif
+    - GiovanniCorti
+  eventName: Global Digital Collaboration Conference (GC)
+  startDate: "2026-09-01"
+  endDate: "2026-09-03"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://globaldigitalcollaboration.org/gdc26
 # PLEASE KEEP CHRONOLOGICAL ORDER BY START DATE WITHIN YEARS
