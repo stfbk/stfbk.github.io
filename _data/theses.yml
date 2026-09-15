@@ -1108,6 +1108,17 @@
   institution: University of Trento
 
 # 2026
+- id: AlessandroGremes_B
+  title: "Valutazione delle pratiche di sicurezza e privacy nei Relying Party che adottano OpenID Connect"
+  type: B
+  author: AlessandroGremes
+  supervisor: SilvioRanise
+  co-supervisor:
+    - GianlucaSassetti
+    - AmirSharif
+  year: 2026
+  institution: University of Trento
+
 - id: GiulioBenedetti_B
   title: "Towards a Systematic Methodology for Security Testing of Identity Management deployment: The SAML Case Study"
   type: B

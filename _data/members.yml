@@ -7,7 +7,6 @@ current:
     - AndreaBisegna
     - AndreaMoro
     - CeciliaPasquini
-    - CristianLepore
     - EleonoraMarchesini
     - EmilianoRizzonelli
     - GiadaSciarretta
@@ -22,7 +21,6 @@ current:
     - MatteoRizzi
     - MatteoSantAnaCasarotto
     - MichelaSbetta
-    - MuhammadImran
     - RiccardoGermenia
     - RiccardoZiglio
     - SalvatoreManfredi
@@ -96,10 +94,10 @@ current:
       yearFrom: 2026
       yearTo: 2026
 
-    - personId: AlessandroGremes
-      type: B
-      topic: Automated Privacy Assessment of OpenID Connect Parties
-      institution: University of Trento
+    - personId: RajPatil
+      type: M
+      topic: Secure Authorization Patterns in the Agentic AI Era
+      institution: Hochschule der Bayerischen Wirtschaft
       yearFrom: 2026
       yearTo: 2026
 
@@ -219,6 +217,11 @@ former:
     - personId: RomanJevsejev
       formerRole: Visiting PhD Student
       yearFrom: 2026
+      yearTo: 2026
+
+    - personId: MuhammadImran
+      formerRole: Researcher
+      yearFrom: 2023
       yearTo: 2026
 
   phdStudents:
@@ -563,6 +566,9 @@ former:
 
     - personId: DanieleCalvo
       thesisId: DanieleCalvo_B
+
+    - personId: AlessandroGremes
+      thesisId: AlessandroGremes_B
 
   junior:
     - personId: YuriTomasini

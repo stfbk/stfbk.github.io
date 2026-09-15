@@ -269,12 +269,6 @@
 - id: CristianLepore
   name: Cristian
   surname: Lepore
-  affiliations:
-    - role: Researcher
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: clepore@fbk.eu
   usernameFBK: clepore
 
 - id: DamianoSartori
@@ -963,12 +957,7 @@
 - id: MuhammadImran
   name: Muhammad
   surname: Imran
-  affiliations:
-    - role: Researcher
-      unit: Security & Trust
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: mimran@fbk.eu
+  usernameFBK: mimran
 
 - id: NabilElIoini
   name: Nabil
@@ -1033,6 +1022,10 @@
   name: Pietro
   surname: De Matteis
   usernameFBK: pdematteis
+
+- id: RajPatil
+  name: Raj
+  surname: Patil
 
 - id: RayhanaTaoufik
   name: Rayhana
