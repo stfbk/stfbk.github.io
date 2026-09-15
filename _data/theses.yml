@@ -1108,6 +1108,19 @@
   institution: University of Trento
 
 # 2026
+- id: AlessandroDeToffoli_B
+  title: "Privacy e Anonimizzazione: Un Framework Data-Driven per la Selezione di Modelli di Privacy in Dataset Strutturati"
+  type: B
+  author: AlessandroDeToffoli
+  supervisor: SilvioRanise
+  co-supervisor:
+    - EleonoraMarchesini
+    - LucaPiras
+    - RobertoCarbone
+    - LiviaMarini
+  year: 2026
+  institution: University of Trento
+
 - id: AlessandroGremes_B
   title: "Valutazione delle pratiche di sicurezza e privacy nei Relying Party che adottano OpenID Connect"
   type: B

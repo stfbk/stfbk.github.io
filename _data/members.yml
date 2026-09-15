@@ -31,13 +31,6 @@ current:
 
   students:
 
-    - personId: AlessandroDeToffoli
-      type: B
-      topic: Analysis and comparison of data anonymization techniques for AI applications
-      institution: University of Trento
-      yearFrom: 2025
-      yearTo: 2026
-
     - personId: GiuseppeScarciolla
       type: B
       topic: Security and implementation issues in Single Sign-On techniques
@@ -569,6 +562,9 @@ former:
 
     - personId: AlessandroGremes
       thesisId: AlessandroGremes_B
+
+    - personId: AlessandroDeToffoli
+      thesisId: AlessandroDeToffoli_B
 
   junior:
     - personId: YuriTomasini
