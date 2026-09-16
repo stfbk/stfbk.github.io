@@ -1,0 +1,13 @@
+services:
+  jekyll:
+    image: docker.io/jekyll/jekyll:latest
+    command: bash -c "bundle install && bundle exec jekyll serve --livereload --force_polling -H 0.0.0.0 -P 4000"
+    volumes:
+      - ./:/srv/jekyll:Z
+      - bundle_cache:/usr/local/bundle
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+
+volumes:
+  bundle_cache:
