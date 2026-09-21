@@ -48,7 +48,7 @@ The tool has been developed within [Digimat](https://ict.fbk.eu/partnerships/co-
 <img class="image-centered" src="/assets/areas/tools/TLSAssistant/current_architecture.png" alt="current_architecture" />
 
 **TLSAssistant v3** is the latest release of our state-of-the-art analyzer able to help system administrators and Android app developers in correctly configuring their TLS deployments. This version expands the software's capabilities by adding a new analysis module able to assess the compliance level of TLS deployments, comparing them to national agencies-issued guidelines. The new update also comes with an improved output module, which is now able to generate structured PDF reports.
-Lastly, the new update integrates a new state-of-the-art static and extensible app security testing tool called SEBASTiAn. Its presence enhanced existing Android analyses and introduces the possiblity to analyze iOS applications.
+Lastly, the new update integrates a new state-of-the-art static and extensible app security testing tool called SEBASTiAn. Its presence enhanced existing Android analyses and introduces the possibility to analyze iOS applications.
 
 It currently integrates five tools:
 

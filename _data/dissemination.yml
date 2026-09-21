@@ -544,6 +544,7 @@
     - name: Event
       url: https://www.w3.org/events/meetings/202a8c77-ba79-42d9-8c60-33b10544a227/
 
+## 2026
 - id: EIC2026
   title: "A Hands-On Threat Modeling Exercise: a LEGO® SERIOUS PLAY® Workshop"
   participants:
@@ -570,7 +571,6 @@
     - name: Event
       url: https://www.threatmodcon.com/agenda/a-threat-model-for-digital-identity-wallet-in-the-age-of-eidas-2-0
 
-
 - id: GDC2026
   title: "Designing Age Assurance Systems: Using Harms Modeling to Surface Design Requirements"
   participants:
@@ -583,4 +583,23 @@
   links:
     - name: Event
       url: https://globaldigitalcollaboration.org/gdc26
+
+- id: Educa2026
+  title: "Dietro lo specchio: oltre l’algoritmo"
+  participants:
+    - MartinaCicaloni
+    - SalvatoreManfredi
+    - CeciliaPasquini
+    - GiadaSciarretta
+  eventName: EDUCA Scuole 2026
+  startDate: "2026-09-24"
+  endDate: "2026-09-24"
+  category: School
+  subcategory: High School
+  links:
+    - name: Event
+      url: https://www.educaonline.it/
+    - name: Program
+      url: https://www.educaonline.it/wp-content/uploads/2026/09/EDUCA_Scuole_2026.pdf
+ 
 # PLEASE KEEP CHRONOLOGICAL ORDER BY START DATE WITHIN YEARS
