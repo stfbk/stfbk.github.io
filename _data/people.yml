@@ -808,6 +808,17 @@
   name: Marta
   surname: Toniolli
 
+- id: MartinaCicaloni
+  name: Martina
+  surname: Cicaloni
+  affiliations:
+    - role: Research Support
+      unit: Center for Cybersecurity
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: mcicaloni@fbk.eu
+  image: https://cs.fbk.eu/assets/areas/people/cs/MartinaCicaloni.jpg
+
 - id: MartinaVecellioReane
   name: Martina
   surname: Vecellio Reane
