@@ -61,6 +61,8 @@ collections:
   complementary:
     output: true
     layout: complementary
+  dissemination:
+    output: true
   events:
     output: true
     layout: page
@@ -70,6 +72,8 @@ collections:
   projects:
     output: true
     layout: project
+  publications:
+    output: true
   teaching:
     output: true
     layout: page
