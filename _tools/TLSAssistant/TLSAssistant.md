@@ -47,8 +47,14 @@ The tool has been developed within [Digimat](https://ict.fbk.eu/partnerships/co-
 
 <img class="image-centered" src="/assets/areas/tools/TLSAssistant/current_architecture.png" alt="current_architecture" />
 
-**TLSAssistant v3** is the latest release of our state-of-the-art analyzer able to help system administrators and Android app developers in correctly configuring their TLS deployments. This version expands the software's capabilities by adding a new analysis module able to assess the compliance level of TLS deployments, comparing them to national agencies-issued guidelines. The new update also comes with an improved output module, which is now able to generate structured PDF reports.
-Lastly, the new update integrates a new state-of-the-art static and extensible app security testing tool called SEBASTiAn. Its presence enhanced existing Android analyses and introduces the possibility to analyze iOS applications.
+**TLSAssistant v3** is the latest release of our state-of-the-art analyzer able to help system administrators and Android and iOS app developers in correctly configuring their TLS deployments. This version expands the software's capabilities by adding a new analysis module able to assess the compliance level of TLS deployments, comparing them to national agencies-issued guidelines. 
+The latest release improves and enhances the compliance analysis by offering a new scoring system and introduces several under-the-hood improvements that increase the analysis speed, provide more accurate results, and reduce the space required to deploy the framework.
+Moreover, thanks to the recent updates to our [compliance dataset](https://github.com/stfbk/tls-compliance-dataset), TLSAssistant is now able to verify server compliance against four new guidelines from:
+
+- **ACN**, the Italian National Cybersecurity Agency,
+- **CNSA**, the Commercial National Security Algorithm Suite provided by US' NSA,
+- **ENISA**, the European Union Agency for Cybersecurity, and
+- **TLSRef**, formerly known as [Mozilla Server Side TLS](https://wiki.mozilla.org/Security/Server_Side_TLS).
 
 It currently integrates five tools:
 
@@ -217,12 +223,13 @@ Here a quick overview of the various types of analysis that may be requested:
 ## Compliance Analysis
 
 TLSAssistant is able to perform an automated compliance analysis against five agency-issued technical guidelines:
-
+- **ACN** [v2.0](https://www.acn.gov.it/portale/documents/20119/85999/ACN_LG_Transport_Layer_Security_TLS.pdf)
 - **AgID** [ver.2020-01](https://cert-agid.gov.it/wp-content/uploads/2020/11/AgID-RACCSECTLS-01.pdf)
 - **ANSSI** [v1.2](https://cyber.gouv.fr/sites/default/files/2017/07/anssi-guide-recommandations_de_securite_relatives_a_tls-v1.2.pdf)
 - **BSI** [TR-02102-2](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG02102/BSI-TR-02102-2.html) and [TR-03116-4](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03116/BSI-TR-03116-4.html)
-- **Mozilla** [v5.7](https://wiki.mozilla.org/Security/Server_Side_TLS)
+- **ENISA** [v2.0](https://certification.enisa.europa.eu/document/download/a845662b-aee0-484e-9191-890c4cfa7aaa_en?filename=ECCG%20Agreed%20Cryptographic%20Mechanisms%20version%202.pdf)
 - **NIST** [SP 800-52 Rev. 2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r2.pdf) (and related)
+- **TLSRef** [v6.0](https://docs.tlsref.org/server-side-tls.html)
 
 ### Comparison Modules
 
@@ -230,7 +237,7 @@ The `compare_one` and `compare_many` modules are used to assess the compliance l
 
 ### Generation Modules
 
-The `generate_one` and `generate_many` modules are used to generate from scratch configuration files that are compliant with one or more guidelines. Its output consists of a configuration file (for Apache or nginx webservers) that can be directly used to deploy a compliant webserver out-of-the-box.  
+The `generate_one` and `generate_many` modules are used to generate from scratch configuration files that are compliant with one or more guidelines. Its output consists of a configuration file (for Apache or nginx webservers) that can be directly used to deploy a compliant webserver out-of-the-box.
 
 ### Custom Guidelines
 
@@ -238,7 +245,7 @@ The modules can be customized to take into consideration specific requirements o
 
 ### Warning
 
-The compliance module can recieve both a configuration file and a hostname/ip as input. If a configuration file is provided the analysis will not check the Certificates since they depend on external files.
+The compliance module can receive both a configuration file and a hostname/ip as input. If a configuration file is provided the analysis will not check the Certificates since they depend on external files.
 
 ## Caching system
 
@@ -251,5 +258,5 @@ As stated before, a pre-analysis (step 3a) is required as a compromise between a
 # Features showcase
 
 <div class="h_iframe">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=Vgzy2dDMeHfMrJ6p&amp;list=PLLCelDM1fnkKnKr3qle1FukK90gIwoZHX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLLCelDM1fnkKnKr3qle1FukK90gIwoZHX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
