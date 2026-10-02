@@ -1,10 +1,20 @@
+---
+layout: page
+title: New TLSAssistant and TLS Compliance Dataset Releases
+subtitle: Optimizations, Refinements and New Guidelines
+
+people:
+    - SalvatoreManfredi
+    - RiccardoGermenia
+    - EmilianoRizzonelli
+---
+{% include toc.md %}
+# Introduction
 After almost two years, today marks the release of a new release of both our open-source TLS modular framework and the related auditable dataset of TLS requirements. Both releases include several refinements able to increase the analysis speed, provide more accurate results, and reduce the space required to deploy the tool.
 
 
 
 Here is a more detailed breakdown of the introduced changes:
-
-{% include toc.md %}
 
 ## TLSAssistant v3.2
 A large part of the effort focused on streamlining the compliance evaluation, improving dependency stability, and resolving analysis modules’ inconsistencies.
@@ -31,19 +41,19 @@ A large part of the effort focused on streamlining the compliance evaluation, im
 The changes primarily focus on integrating new compliance guidelines, refining validation conditions, and maintaining dataset accuracy.
 
 ### 1. Guideline Additions and Updates
-ACN: ACN (Italian National Cybersecurity Agency) guidelines were first added in May 2025, then updated following subsequent issuances on June 2026;
-CNSA: integrated support for Commercial National Security Algorithm (CNSA) guidelines in June 2026. Both the 1.0 and 2.0 requirements were integrated, along with a meta “transition” guideline. The integration has then been aligned with RFC 9151 requirements;
-BSI: updated BSI federal and customer-facing guidelines to the latest publication;
-ENISA: added ENISA (European Cybersecurity Agency) guidelines in May 2025;
-NIST: updated NIST signature algorithms and guidelines in May 2025;
-TLSRef: renamed and updated the old Mozilla Server-Side TLS configurations to match the new project name.
+- ACN: ACN (Italian National Cybersecurity Agency) guidelines were first added in May 2025, then updated following subsequent issuances on June 2026;
+- CNSA: integrated support for Commercial National Security Algorithm (CNSA) guidelines in June 2026. Both the 1.0 and 2.0 requirements were integrated, along with a meta “transition” guideline. The integration has then been aligned with RFC 9151 requirements;
+- BSI: updated BSI federal and customer-facing guidelines to the latest publication;
+- ENISA: added ENISA (European Cybersecurity Agency) guidelines in May 2025;
+- NIST: updated NIST signature algorithms and guidelines in May 2025;
+- TLSRef: renamed and updated the old Mozilla Server-Side TLS configurations to match the new project name.
 
 ### 2. Guidelines Removal
-NIST (pre-2024): SP 800-52 Rev. 2 contains a default set of requirements plus a second strengthening to come into force starting from January 1st, 2024. This update removes all the requirements not applicable starting from 2024.
+- NIST (pre-2024): SP 800-52 Rev. 2 contains a default set of requirements plus a second strengthening to come into force starting from January 1st, 2024. This update removes all the requirements not applicable starting from 2024.
 
 ### 3. Cryptographic Parameter Alignment
-Signature Algorithms (sigalgs): split signature algorithms into distinct categories for certificates versus protocol-level usage. Updated signature algorithm conditions, and fixed certificate-level signature algorithm handling (sigalgscert);
-Key Lengths Requirements: updated key sizes across guidelines to maintain coherence with Finite Field Diffie-Hellman Ephemeral (FFDHE) requirements.
+- Signature Algorithms (sigalgs): split signature algorithms into distinct categories for certificates versus protocol-level usage. Updated signature algorithm conditions, and fixed certificate-level signature algorithm handling (sigalgscert);
+- Key Lengths Requirements: updated key sizes across guidelines to maintain coherence with Finite Field Diffie-Hellman Ephemeral (FFDHE) requirements.
 
 ### 4. Dataset Refinements
-Converter Tooling & Logic Fixes: added comment support to the ods_converter tool in July 2025. Resolved issues with logical "OR" evaluation rules, condition handling, nomenclature consistency, missing dataset entries, and general documentation.
+- Converter Tooling & Logic Fixes: added comment support to the ods_converter tool in July 2025. Resolved issues with logical "OR" evaluation rules, condition handling, nomenclature consistency, missing dataset entries, and general documentation.
