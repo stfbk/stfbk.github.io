@@ -47,7 +47,7 @@ The tool has been developed within [Digimat](https://ict.fbk.eu/partnerships/co-
 
 <img class="image-centered" src="/assets/areas/tools/TLSAssistant/current_architecture.png" alt="current_architecture" />
 
-**TLSAssistant v3** is the latest release of our state-of-the-art analyzer able to help system administrators and Android and iOS app developers in correctly configuring their TLS deployments. This version expands the software's capabilities by adding a new analysis module able to assess the compliance level of TLS deployments, comparing them to national agencies-issued guidelines. 
+**TLSAssistant v3** is the latest release of our state-of-the-art analyzer able to help system administrators and Android and iOS app developers in correctly configuring their TLS deployments. This version expands the software's capabilities by adding a new analysis module able to assess the compliance level of TLS deployments, comparing them to national agencies-issued guidelines.
 The latest release improves and enhances the compliance analysis by offering a new scoring system and introduces several under-the-hood improvements that increase the analysis speed, provide more accurate results, and reduce the space required to deploy the framework.
 Moreover, thanks to the recent updates to our [compliance dataset](https://github.com/stfbk/tls-compliance-dataset), TLSAssistant is now able to verify server compliance against four new guidelines from:
 
