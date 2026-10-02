@@ -223,6 +223,7 @@ Here a quick overview of the various types of analysis that may be requested:
 ## Compliance Analysis
 
 TLSAssistant is able to perform an automated compliance analysis against five agency-issued technical guidelines:
+
 - **ACN** [v2.0](https://www.acn.gov.it/portale/documents/20119/85999/ACN_LG_Transport_Layer_Security_TLS.pdf)
 - **AgID** [ver.2020-01](https://cert-agid.gov.it/wp-content/uploads/2020/11/AgID-RACCSECTLS-01.pdf)
 - **ANSSI** [v1.2](https://cyber.gouv.fr/sites/default/files/2017/07/anssi-guide-recommandations_de_securite_relatives_a_tls-v1.2.pdf)
