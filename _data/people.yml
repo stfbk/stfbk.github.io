@@ -292,6 +292,17 @@
   name: Daniele
   surname: Del Sale
 
+- id: DanieleVolpe
+  name: Daniele
+  surname: Volpe
+  affiliations:
+    - role: Researcher
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: dvolpe@fbk.eu
+  usernameFBK: dvolpe
+
 - id: DanielFranchini
   name: Daniel
   surname: Franchini
