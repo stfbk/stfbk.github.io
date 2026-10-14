@@ -146,6 +146,10 @@
   name: Andrea
   surname: Flamini
 
+- id: AndreaMontibeller
+  name: Andrea
+  surname: Montibeller
+
 - id: AndreaMoro
   name: Andrea
   surname: Moro
@@ -556,6 +560,10 @@
   name: Giovanni Maria
   surname: Abbiati
   email: giovanni.abbiati@unimi.it
+
+- id: GiuliaBoato
+  name: Giulia
+  surname: Boato
 
 - id: GiulioBenedetti
   name: Giulio
