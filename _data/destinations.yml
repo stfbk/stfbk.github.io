@@ -1270,4 +1270,14 @@
   location: Calgary, Canada
   startDate: "2026-07-20"
   endDate: "2026-07-25"
+
+- id: WIFS2026
+  name: IEEE Workshop on Information Forensics and Security 2026
+  acronym: WIFS 2026
+  url: https://wifs2026.utt.fr/
+  type: workshop
+  location: Sendai, Japan
+  startDate: "2026-12-07"
+  endDate: "2026-12-11"
+
 # PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)
