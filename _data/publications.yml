@@ -2460,6 +2460,23 @@
   year: 2026
   doi: 10.56553/popets-2026-0081
 
+- id: SSR2026
+  id_iris: 374647
+  title: "A Comparative Analysis of Credential Status Mechanisms: Analyzing the Impact on Digital Wallet Ecosystem Roles"
+  authors:
+    - SimoneOnofri
+    - GiovanniCorti
+    - GianlucaSassetti
+    - LucaLumini
+    - AmirSharif
+    - RobertoCarbone
+    - SilvioRanise
+  abstract: >
+    Technical standards define protocols, formats, and requirements for technology design. In national digital identity systems, these choices can have consequences for people and society. Understanding and mitigating NDID-related harm requires addressing two challenges - also highlighted by the OHCHR: translating abstract concepts, such as human rights, into elements usable in technical analysis, and integrating this analysis into standardization processes. We propose harm-to-threat pathways to help translate harms into threat scenarios and integrate these scenarios into standards-facing artifacts. We start from potential adverse consequences for people and society and develop scenarios to identify connected threats and the system conditions that can enable them. We applied this approach in three workshops, using cards based on harms identified by Corti et al. and LSP as a facilitation method. Participants used a model inspired by a government age-verification system to build scenarios, which they then narrated. We examined the eight final narratives through RTA. In the scenarios, harms could arise from how the system worked, including its protection mechanisms. Subsequently, we reconstructed the threat pathways from the narrated scenarios, finally integrating them into the W3C Threat Model for Decentralized Credentials Group Draft Note. This integration linked pathways to system elements and existing threats, led to the refinement of some threats and the addition of others, and included possible responses.
+  destination: SSR2026
+  year: 2026
+  
+
 - id: WIFS2026
   id_iris:
   title: "Enhanced image forensics through partial C2PA-based provenance information"
