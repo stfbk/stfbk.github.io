@@ -1271,6 +1271,15 @@
   startDate: "2026-07-20"
   endDate: "2026-07-25"
 
+- id: SSR2026
+  name: 11th International Conference on Security Standardisation Research
+  acronym: SSR 2026
+  url: https://ssresearch26.umbc.edu
+  type: conference
+  location: Baltimore, United States
+  startDate: "2026-12-13"
+  endDate: "2026-12-15"
+
 - id: WIFS2026
   name: IEEE Workshop on Information Forensics and Security 2026
   acronym: WIFS 2026
