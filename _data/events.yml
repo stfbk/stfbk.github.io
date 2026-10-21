@@ -228,3 +228,10 @@
   endDate: "2026-10-22"
   description: La talk affronta l'impatto delle tecnologie emergenti e dell'Intelligenza artificiale sulle forme di violenza digitale, approfondendo come la manipolazione dei contenuti online si ripercuota sulla vita reale, sulla reputazione e sulla sicurezza delle persone. Lo scopo dell'incontro è sensibilizzare e informare la cittadinanza sui rischi reali della manipolazione digitale, fornendo strumenti di comprensione critica, tecnologica e legale per riconoscere e contrastare la violenza di genere online.
   url: https://www.fbk.eu/en/event/38174/dallo-schermo-alla-realta-la-violenza-di-genere-nellera-dei-deep-fake/
+
+# 2027
+- id: CITA2027
+  name: "Continuous Compliance for Identity Management: from Security Testing to Trustworthy AI Agents"
+  startDate: "2027-02-08"
+  endDate: "2027-02-08"
+  url: /events/CITA2027
