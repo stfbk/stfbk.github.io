@@ -74,13 +74,6 @@ current:
       yearFrom: 2026
       yearTo: 2026
 
-    - personId: GiovannaGagliardo
-      type: B
-      topic: Investigation of Italian Regulations on Cloud Service Security
-      institution: University of Trento
-      yearFrom: 2026
-      yearTo: 2026
-
     - personId: AlbertoFanchin
       type: B
       topic: Automating Risk Assessment for Identity Management Solutions:A Knowledge-Base Approach
@@ -566,6 +559,9 @@ former:
 
     - personId: AlessandroDeToffoli
       thesisId: AlessandroDeToffoli_B
+
+    - personId: GiovannaGagliardo
+      thesisId: GiovannaGagliardo_B
 
   junior:
     - personId: YuriTomasini
