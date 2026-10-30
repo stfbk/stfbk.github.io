@@ -615,4 +615,17 @@
   category: School
   subcategory: High School
 
+- id: W3CTPAC2026
+  title: "Age Assurance workshop"
+  participants:
+    - TaraWhalen
+    - AmirSharif
+  eventName: W3C Technical Plenary and Advisory Committee (TPAC)
+  startDate: "2026-10-26"
+  endDate: "2026-10-30"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://www.w3.org/events/meetings/85f7bbe6-f59c-4daf-80c0-4aa3befbd369/
+
 # PLEASE KEEP CHRONOLOGICAL ORDER BY START DATE WITHIN YEARS
