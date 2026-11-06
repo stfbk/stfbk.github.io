@@ -47,7 +47,7 @@ The template package, available [here](https://ceur-ws.org/Vol-XXX/CEURART.zip),
 
 The review process is **single-blind**, so submissions should include the names and affiliations of the authors. All papers must be written in English to be included in the conference proceedings.
 
-Papers must be submitted electronically through EasyChair: [https://easychair.org/my/conference?conf=cita2027](https://easychair.org/my/conference?conf=cita2027)
+Papers must be submitted electronically through EasyChair: [https://easychair.org/my/conference?conf=cita20270](https://easychair.org/my/conference?conf=cita20270)
 
 Submissions that do not comply with these requirements may be rejected without review.
 
