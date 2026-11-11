@@ -1,0 +1,12 @@
+- label: Menu
+  items:
+    - name: Home
+      link: /events/SSR2027/
+    - name: Call for Papers
+      link: /events/SSR2027/call-for-papers
+    - name: Committees
+      link: /events/SSR2027/committees
+    - name: Venue
+      link: /events/SSR2027/venue
+    - name: Previous Editions
+      link: "http://ssresearch.eu/"

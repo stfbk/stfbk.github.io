@@ -235,3 +235,11 @@
   startDate: "2027-02-08"
   endDate: "2027-02-08"
   url: /events/CITA2027
+
+- id: SSR2027
+  name: Security Standardisation Research Conference 2027
+  acronym: SSR 2027
+  #startDate: "2027-XX-YY"
+  #endDate: "2027-XX-YY"
+  description: The conference is a major international peer-reviewed research conference, focusing on the intersection of cybersecurity and standards and aiming to bridge the gap between academic research and actual standardization bodies, including ISO, NIST, and IETF.
+  url: /events/SSR2027
