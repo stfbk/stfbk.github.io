@@ -112,7 +112,7 @@
     - GiadaSciarretta
   year: 2018
   institution: University of Trento
-  awards: 3rd place at thesis award "Innovare la sicurezza delle informazioni 2019", sponsored by CLUSIT
+  awards: 3rd place at Thesis Award "Innovare la sicurezza delle informazioni" (14th Edition) by CLUSIT
 
 - id: GiulioPellizzari_B
   title: "Design and implementation of a tool to detect Login Cross-Site Request Forgery in SAML SSO: G Suite case study"
@@ -217,7 +217,7 @@
     - UmbertoMorelli
   year: 2019
   institution: University of Trento
-  awards: 4th place at thesis award "Innovare la sicurezza delle informazioni 2020", sponsored by CLUSIT
+  awards: 4th place at Thesis Award "Innovare la sicurezza delle informazioni" (15th Edition) by CLUSIT
 
 - id: DavidePiva_B
   title: "Assisting Developers in Securing OAuth 2.0 Deployment: Demystifying Threats and Protection Techniques for Bearer Credentials"
@@ -287,7 +287,7 @@
   co-supervisor: RobertoCarbone
   year: 2019
   institution: University of Trento
-  awards: 3rd place at thesis award "Innovare la sicurezza delle informazioni 2020", sponsored by CLUSIT
+  awards: 3rd place at Thesis Award "Innovare la sicurezza delle informazioni" (15th Edition) by CLUSIT
 
 ## 2020
 - id: AlessioValenza_B
@@ -504,7 +504,7 @@
     - SalvatoreManfredi
   year: 2021
   institution: University of Trento
-  awards: 3rd place at thesis award "Innovare la sicurezza delle informazioni 2021", sponsored by CLUSIT
+  awards: 3rd place at Thesis Award "Innovare la sicurezza delle informazioni" (17th Edition) by CLUSIT
 
 - id: SalimehDashti_P
   title: "An Assisted Methodology to Conduct Data Protection Impact Assessment"
@@ -1024,6 +1024,7 @@
     - MajidMollaeefar
   year: 2025
   institution: University of Trento
+  awards: 1st place at Thesis Award "Innovare la sicurezza delle informazioni" (21st Edition) by CLUSIT
 
 - id: DanieleCalvo_B
   title: "Threat Modeling by Leveraging Agentic AI"
