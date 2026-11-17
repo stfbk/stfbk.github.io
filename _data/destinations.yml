@@ -1271,6 +1271,16 @@
   startDate: "2026-07-20"
   endDate: "2026-07-25"
 
+- id: SeRIM2026
+  name: 2nd International Workshop on Security and Risk in Identity Management
+  proceedings: 2026 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)
+  acronym: SeRIM 2026
+  url: https://st.fbk.eu/events/SeRIM2026/
+  type: workshop
+  location: Lisbon, Portugal
+  startDate: "2026-07-10"
+  endDate: "2026-07-10"
+
 - id: SSR2026
   name: 11th International Conference on Security Standardisation Research
   acronym: SSR 2026
