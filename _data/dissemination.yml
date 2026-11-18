@@ -602,6 +602,19 @@
     - name: Program
       url: https://www.educaonline.it/wp-content/uploads/2026/09/EDUCA_Scuole_2026.pdf
 
+- id: RightX2026
+  title: "Threats and Harm Modeling with Lego Serious Play for Agentic AI"
+  participants:
+    - SimoneOnofri
+    - AmirSharif
+  eventName: RightsX Summit 2026
+  startDate: "2026-11-18"
+  endDate: "2026-11-19"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://rightsx.ohchr.org
+
 - id: Scholl2026
   title: "Dietro lo specchio: mediazione algoritmica, emozioni e identità digitale"
   participants:
