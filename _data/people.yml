@@ -636,6 +636,16 @@
   name: Jerry
   surname: Den Hartog
 
+- id: JordiGuijarro
+  name: Jordi
+  surname: Guijarro
+  affiliations:
+    - role:  Principal Technologist for Cloud-Edge Innovation
+      institution: OpenNebula Systems
+      place: Madrid, Spain
+  email: jguijarro@opennebula.io
+  image: https://opennebula.io/wp-content/uploads/2025/01/Blog-Photo-Jordi.png
+
 - id: JosephHeenan
   name: Joseph
   surname: Heenan
@@ -1034,6 +1044,16 @@
   name: Nizar
   surname: Nadif
   usernameFBK: nnadif
+
+- id: PablodelArcoOrtiz
+  name: Pablo
+  surname: del Arco Ortiz
+  affiliations:
+    - role: Cloud-Edge Innovation Solutions Architect
+      institution: OpenNebula Systems
+      place: Madrid, Spain
+  email: pdelarco@opennebula.io
+  image: https://pablodelarco.com/foto-2026.jpg
 
 - id: PallaviKaliyar
   name: Pallavi
